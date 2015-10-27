@@ -22,11 +22,12 @@
         "**/toc.yml",
         "**/*.png"
       ],
-      "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
+      "exclude": [ "_site/**", "**/bin/**", "**/obj/**", "theme/**" ]
     }
   ],
   "externalReferences": [],
   "title": ".NET Core Documentation",
-  "theme": "default",
+  "template": "default",
+  "theme": "theme",
   "output": "_site"
 }
