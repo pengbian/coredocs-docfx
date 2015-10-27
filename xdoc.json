@@ -25,9 +25,7 @@
       "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
     }
   ],
-  "externalReferences": [
-    "externalreferences/*.rpk"
-  ],
+  "externalReferences": [],
   "title": ".NET Core Documentation",
   "theme": "default",
   "output": "_site"

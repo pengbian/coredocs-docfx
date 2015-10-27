@@ -44,5 +44,5 @@ To construct an @System.Xml.Linq.XDocument, use functional construction, just li
 The following code creates an @System.Xml.Linq.XDocument object and its associated contained objects.
 
 ```csharp
-{{'../../Sample/Program.cs'[10-29]}}
+{{'../Sample/Program.cs'[10-29]}}
 ```
