@@ -1,0 +1,35 @@
+﻿- name: Get Started
+  items:
+  - name: Introduction to CLR
+    href: intro-clr.md
+  - name: Installing .NET Core on Windows
+    href: installing-core-windows.md
+  - name: Installing .NET Core on Linux
+    href: installing-core-linux.md
+  - name: Installing .NET Core on OSX
+    href: installing-core-osx.md
+- name: .NET Primer
+  href: primer.md
+  items:
+  - name: What is "managed code"?
+    href: managed-code.md
+  - name: .NET Assembly File Format
+    href: assembly-format.md
+  - name: Common Type System & Common Language Specification
+    href: common-type-system.md
+  - name: Garbage Collection
+    href: gc-overview.md
+  - name: Generic Types Overview
+    href: generics.md
+  - name: Delegates and lambdas
+    href: delegates-lambdas.md
+  - name: .NET Class Libraries
+    href: class-libraries.md
+  - name: Framework Libraries
+    href: framework-libraries.md
+- name: Supporting .NET Core
+  href: supporting-core.md
+- name: Creating a Cross-Platform Console App with DNX
+  href: console.md
+- name: Roslyn Overview
+  href: roslyn-overview.md
