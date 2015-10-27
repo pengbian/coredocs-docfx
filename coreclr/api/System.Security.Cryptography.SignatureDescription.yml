@@ -97,7 +97,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.SignatureDescription.DigestAlgorithm
   id: DigestAlgorithm
   parent: System.Security.Cryptography.SignatureDescription
@@ -118,7 +117,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.SignatureDescription.FormatterAlgorithm
   id: FormatterAlgorithm
   parent: System.Security.Cryptography.SignatureDescription
@@ -139,7 +137,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.SignatureDescription.DeformatterAlgorithm
   id: DeformatterAlgorithm
   parent: System.Security.Cryptography.SignatureDescription
@@ -160,7 +157,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.SignatureDescription.CreateDeformatter(System.Security.Cryptography.AsymmetricAlgorithm)
   id: CreateDeformatter(System.Security.Cryptography.AsymmetricAlgorithm)
   parent: System.Security.Cryptography.SignatureDescription
@@ -183,7 +179,6 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
     return:
       type: System.Security.Cryptography.AsymmetricSignatureDeformatter
-      description: 
 - uid: System.Security.Cryptography.SignatureDescription.CreateFormatter(System.Security.Cryptography.AsymmetricAlgorithm)
   id: CreateFormatter(System.Security.Cryptography.AsymmetricAlgorithm)
   parent: System.Security.Cryptography.SignatureDescription
@@ -206,7 +201,6 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
     return:
       type: System.Security.Cryptography.AsymmetricSignatureFormatter
-      description: 
 - uid: System.Security.Cryptography.SignatureDescription.CreateDigest
   id: CreateDigest
   parent: System.Security.Cryptography.SignatureDescription
@@ -226,7 +220,6 @@ items:
     content.vb: Public Overridable Function CreateDigest As HashAlgorithm
     return:
       type: System.Security.Cryptography.HashAlgorithm
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

@@ -98,7 +98,6 @@ items:
       type: System.RuntimeFieldHandle
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.FieldInfo.GetFieldFromHandle(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
   id: GetFieldFromHandle(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
   parent: System.Reflection.FieldInfo
@@ -123,7 +122,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.FieldInfo.#ctor
   id: '#ctor'
   parent: System.Reflection.FieldInfo
@@ -163,7 +161,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.Equals(System.Object)
 - uid: System.Reflection.FieldInfo.GetHashCode
   id: GetHashCode
@@ -184,7 +181,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.MemberInfo.GetHashCode
 - uid: System.Reflection.FieldInfo.MemberType
   id: MemberType
@@ -206,7 +202,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MemberTypes
-      description: 
   overridden: System.Reflection.MemberInfo.MemberType
 - uid: System.Reflection.FieldInfo.GetRequiredCustomModifiers
   id: GetRequiredCustomModifiers
@@ -227,7 +222,6 @@ items:
     content.vb: Public Overridable Function GetRequiredCustomModifiers As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.FieldInfo.GetOptionalCustomModifiers
   id: GetOptionalCustomModifiers
   parent: System.Reflection.FieldInfo
@@ -247,7 +241,6 @@ items:
     content.vb: Public Overridable Function GetOptionalCustomModifiers As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.FieldInfo.SetValueDirect(System.TypedReference,System.Object)
   id: SetValueDirect(System.TypedReference,System.Object)
   parent: System.Reflection.FieldInfo
@@ -292,7 +285,6 @@ items:
       type: System.TypedReference
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.FieldInfo.FieldHandle
   id: FieldHandle
   parent: System.Reflection.FieldInfo
@@ -313,7 +305,6 @@ items:
     parameters: []
     return:
       type: System.RuntimeFieldHandle
-      description: 
 - uid: System.Reflection.FieldInfo.FieldType
   id: FieldType
   parent: System.Reflection.FieldInfo
@@ -334,7 +325,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.FieldInfo.GetValue(System.Object)
   id: GetValue(System.Object)
   parent: System.Reflection.FieldInfo
@@ -357,7 +347,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.FieldInfo.GetRawConstantValue
   id: GetRawConstantValue
   parent: System.Reflection.FieldInfo
@@ -377,7 +366,6 @@ items:
     content.vb: Public Overridable Function GetRawConstantValue As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.FieldInfo.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo)
   id: SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo)
   parent: System.Reflection.FieldInfo
@@ -426,7 +414,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.FieldAttributes
-      description: 
 - uid: System.Reflection.FieldInfo.SetValue(System.Object,System.Object)
   id: SetValue(System.Object,System.Object)
   parent: System.Reflection.FieldInfo
@@ -469,7 +456,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsPrivate
   id: IsPrivate
   parent: System.Reflection.FieldInfo
@@ -490,7 +476,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsFamily
   id: IsFamily
   parent: System.Reflection.FieldInfo
@@ -511,7 +496,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsAssembly
   id: IsAssembly
   parent: System.Reflection.FieldInfo
@@ -532,7 +516,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsFamilyAndAssembly
   id: IsFamilyAndAssembly
   parent: System.Reflection.FieldInfo
@@ -553,7 +536,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsFamilyOrAssembly
   id: IsFamilyOrAssembly
   parent: System.Reflection.FieldInfo
@@ -574,7 +556,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsStatic
   id: IsStatic
   parent: System.Reflection.FieldInfo
@@ -595,7 +576,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsInitOnly
   id: IsInitOnly
   parent: System.Reflection.FieldInfo
@@ -616,7 +596,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsLiteral
   id: IsLiteral
   parent: System.Reflection.FieldInfo
@@ -637,7 +616,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsNotSerialized
   id: IsNotSerialized
   parent: System.Reflection.FieldInfo
@@ -658,7 +636,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsSpecialName
   id: IsSpecialName
   parent: System.Reflection.FieldInfo
@@ -679,7 +656,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsPinvokeImpl
   id: IsPinvokeImpl
   parent: System.Reflection.FieldInfo
@@ -700,7 +676,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsSecurityCritical
   id: IsSecurityCritical
   parent: System.Reflection.FieldInfo
@@ -721,7 +696,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsSecuritySafeCritical
   id: IsSecuritySafeCritical
   parent: System.Reflection.FieldInfo
@@ -742,7 +716,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.FieldInfo.IsSecurityTransparent
   id: IsSecurityTransparent
   parent: System.Reflection.FieldInfo
@@ -763,7 +736,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

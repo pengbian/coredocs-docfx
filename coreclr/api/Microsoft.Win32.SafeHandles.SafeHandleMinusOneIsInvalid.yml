@@ -106,7 +106,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.IsInvalid
 references:
 - uid: Microsoft.Win32.SafeHandles

@@ -366,7 +366,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int64
-      description: 
 - uid: System.Decimal.FromOACurrency(System.Int64)
   id: FromOACurrency(System.Int64)
   parent: System.Decimal
@@ -389,7 +388,6 @@ items:
       type: System.Int64
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.#ctor(System.Int32[])
   id: '#ctor(System.Int32[])'
   parent: System.Decimal
@@ -464,7 +462,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Ceiling(System.Decimal)
   id: Ceiling(System.Decimal)
   parent: System.Decimal
@@ -487,7 +484,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Compare(System.Decimal,System.Decimal)
   id: Compare(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -512,7 +508,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int32
-      description: 
 - uid: System.Decimal.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Decimal
@@ -535,7 +530,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Decimal.CompareTo(System.Decimal)
   id: CompareTo(System.Decimal)
   parent: System.Decimal
@@ -558,7 +552,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int32
-      description: 
 - uid: System.Decimal.Divide(System.Decimal,System.Decimal)
   id: Divide(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -583,7 +576,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Decimal
@@ -606,7 +598,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Decimal.Equals(System.Decimal)
   id: Equals(System.Decimal)
@@ -630,7 +621,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.GetHashCode
   id: GetHashCode
   parent: System.Decimal
@@ -649,7 +639,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Decimal.Equals(System.Decimal,System.Decimal)
   id: Equals(System.Decimal,System.Decimal)
@@ -675,7 +664,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.Floor(System.Decimal)
   id: Floor(System.Decimal)
   parent: System.Decimal
@@ -698,7 +686,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.ToString
   id: ToString
   parent: System.Decimal
@@ -718,7 +705,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Decimal.ToString(System.String)
   id: ToString(System.String)
@@ -742,7 +728,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Decimal.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.Decimal
@@ -765,7 +750,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Decimal.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.Decimal
@@ -790,7 +774,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Decimal.Parse(System.String)
   id: Parse(System.String)
   parent: System.Decimal
@@ -813,7 +796,6 @@ items:
       type: System.String
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Parse(System.String,System.Globalization.NumberStyles)
   id: Parse(System.String,System.Globalization.NumberStyles)
   parent: System.Decimal
@@ -838,7 +820,6 @@ items:
       type: System.Globalization.NumberStyles
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.Decimal
@@ -863,7 +844,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   id: Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   parent: System.Decimal
@@ -890,7 +870,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.TryParse(System.String,System.Decimal@)
   id: TryParse(System.String,System.Decimal@)
   parent: System.Decimal
@@ -917,7 +896,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Decimal@)
   id: TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Decimal@)
   parent: System.Decimal
@@ -948,7 +926,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.GetBits(System.Decimal)
   id: GetBits(System.Decimal)
   parent: System.Decimal
@@ -971,7 +948,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int32[]
-      description: 
 - uid: System.Decimal.Remainder(System.Decimal,System.Decimal)
   id: Remainder(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -996,7 +972,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Multiply(System.Decimal,System.Decimal)
   id: Multiply(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -1021,7 +996,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Negate(System.Decimal)
   id: Negate(System.Decimal)
   parent: System.Decimal
@@ -1044,7 +1018,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Round(System.Decimal)
   id: Round(System.Decimal)
   parent: System.Decimal
@@ -1067,7 +1040,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Round(System.Decimal,System.Int32)
   id: Round(System.Decimal,System.Int32)
   parent: System.Decimal
@@ -1092,7 +1064,6 @@ items:
       type: System.Int32
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Round(System.Decimal,System.MidpointRounding)
   id: Round(System.Decimal,System.MidpointRounding)
   parent: System.Decimal
@@ -1117,7 +1088,6 @@ items:
       type: System.MidpointRounding
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Round(System.Decimal,System.Int32,System.MidpointRounding)
   id: Round(System.Decimal,System.Int32,System.MidpointRounding)
   parent: System.Decimal
@@ -1144,7 +1114,6 @@ items:
       type: System.MidpointRounding
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.Subtract(System.Decimal,System.Decimal)
   id: Subtract(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -1169,7 +1138,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.ToByte(System.Decimal)
   id: ToByte(System.Decimal)
   parent: System.Decimal
@@ -1192,7 +1160,6 @@ items:
       type: System.Decimal
     return:
       type: System.Byte
-      description: 
 - uid: System.Decimal.ToSByte(System.Decimal)
   id: ToSByte(System.Decimal)
   parent: System.Decimal
@@ -1215,7 +1182,6 @@ items:
       type: System.Decimal
     return:
       type: System.SByte
-      description: 
 - uid: System.Decimal.ToInt16(System.Decimal)
   id: ToInt16(System.Decimal)
   parent: System.Decimal
@@ -1238,7 +1204,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int16
-      description: 
 - uid: System.Decimal.ToDouble(System.Decimal)
   id: ToDouble(System.Decimal)
   parent: System.Decimal
@@ -1260,7 +1225,6 @@ items:
       type: System.Decimal
     return:
       type: System.Double
-      description: 
 - uid: System.Decimal.ToInt32(System.Decimal)
   id: ToInt32(System.Decimal)
   parent: System.Decimal
@@ -1283,7 +1247,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int32
-      description: 
 - uid: System.Decimal.ToInt64(System.Decimal)
   id: ToInt64(System.Decimal)
   parent: System.Decimal
@@ -1306,7 +1269,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int64
-      description: 
 - uid: System.Decimal.ToUInt16(System.Decimal)
   id: ToUInt16(System.Decimal)
   parent: System.Decimal
@@ -1329,7 +1291,6 @@ items:
       type: System.Decimal
     return:
       type: System.UInt16
-      description: 
 - uid: System.Decimal.ToUInt32(System.Decimal)
   id: ToUInt32(System.Decimal)
   parent: System.Decimal
@@ -1352,7 +1313,6 @@ items:
       type: System.Decimal
     return:
       type: System.UInt32
-      description: 
 - uid: System.Decimal.ToUInt64(System.Decimal)
   id: ToUInt64(System.Decimal)
   parent: System.Decimal
@@ -1375,7 +1335,6 @@ items:
       type: System.Decimal
     return:
       type: System.UInt64
-      description: 
 - uid: System.Decimal.ToSingle(System.Decimal)
   id: ToSingle(System.Decimal)
   parent: System.Decimal
@@ -1397,7 +1356,6 @@ items:
       type: System.Decimal
     return:
       type: System.Single
-      description: 
 - uid: System.Decimal.Truncate(System.Decimal)
   id: Truncate(System.Decimal)
   parent: System.Decimal
@@ -1420,7 +1378,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.Byte)~System.Decimal
   id: op_Implicit(System.Byte)~System.Decimal
   parent: System.Decimal
@@ -1445,7 +1402,6 @@ items:
       type: System.Byte
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.SByte)~System.Decimal
   id: op_Implicit(System.SByte)~System.Decimal
   parent: System.Decimal
@@ -1470,7 +1426,6 @@ items:
       type: System.SByte
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.Int16)~System.Decimal
   id: op_Implicit(System.Int16)~System.Decimal
   parent: System.Decimal
@@ -1495,7 +1450,6 @@ items:
       type: System.Int16
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.UInt16)~System.Decimal
   id: op_Implicit(System.UInt16)~System.Decimal
   parent: System.Decimal
@@ -1520,7 +1474,6 @@ items:
       type: System.UInt16
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.Char)~System.Decimal
   id: op_Implicit(System.Char)~System.Decimal
   parent: System.Decimal
@@ -1545,7 +1498,6 @@ items:
       type: System.Char
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.Int32)~System.Decimal
   id: op_Implicit(System.Int32)~System.Decimal
   parent: System.Decimal
@@ -1570,7 +1522,6 @@ items:
       type: System.Int32
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.UInt32)~System.Decimal
   id: op_Implicit(System.UInt32)~System.Decimal
   parent: System.Decimal
@@ -1595,7 +1546,6 @@ items:
       type: System.UInt32
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.Int64)~System.Decimal
   id: op_Implicit(System.Int64)~System.Decimal
   parent: System.Decimal
@@ -1620,7 +1570,6 @@ items:
       type: System.Int64
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Implicit(System.UInt64)~System.Decimal
   id: op_Implicit(System.UInt64)~System.Decimal
   parent: System.Decimal
@@ -1645,7 +1594,6 @@ items:
       type: System.UInt64
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Explicit(System.Single)~System.Decimal
   id: op_Explicit(System.Single)~System.Decimal
   parent: System.Decimal
@@ -1670,7 +1618,6 @@ items:
       type: System.Single
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Explicit(System.Double)~System.Decimal
   id: op_Explicit(System.Double)~System.Decimal
   parent: System.Decimal
@@ -1695,7 +1642,6 @@ items:
       type: System.Double
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Byte
   id: op_Explicit(System.Decimal)~System.Byte
   parent: System.Decimal
@@ -1720,7 +1666,6 @@ items:
       type: System.Decimal
     return:
       type: System.Byte
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.SByte
   id: op_Explicit(System.Decimal)~System.SByte
   parent: System.Decimal
@@ -1745,7 +1690,6 @@ items:
       type: System.Decimal
     return:
       type: System.SByte
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Char
   id: op_Explicit(System.Decimal)~System.Char
   parent: System.Decimal
@@ -1770,7 +1714,6 @@ items:
       type: System.Decimal
     return:
       type: System.Char
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Int16
   id: op_Explicit(System.Decimal)~System.Int16
   parent: System.Decimal
@@ -1795,7 +1738,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int16
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.UInt16
   id: op_Explicit(System.Decimal)~System.UInt16
   parent: System.Decimal
@@ -1820,7 +1762,6 @@ items:
       type: System.Decimal
     return:
       type: System.UInt16
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Int32
   id: op_Explicit(System.Decimal)~System.Int32
   parent: System.Decimal
@@ -1845,7 +1786,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int32
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.UInt32
   id: op_Explicit(System.Decimal)~System.UInt32
   parent: System.Decimal
@@ -1870,7 +1810,6 @@ items:
       type: System.Decimal
     return:
       type: System.UInt32
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Int64
   id: op_Explicit(System.Decimal)~System.Int64
   parent: System.Decimal
@@ -1895,7 +1834,6 @@ items:
       type: System.Decimal
     return:
       type: System.Int64
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.UInt64
   id: op_Explicit(System.Decimal)~System.UInt64
   parent: System.Decimal
@@ -1920,7 +1858,6 @@ items:
       type: System.Decimal
     return:
       type: System.UInt64
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Single
   id: op_Explicit(System.Decimal)~System.Single
   parent: System.Decimal
@@ -1945,7 +1882,6 @@ items:
       type: System.Decimal
     return:
       type: System.Single
-      description: 
 - uid: System.Decimal.op_Explicit(System.Decimal)~System.Double
   id: op_Explicit(System.Decimal)~System.Double
   parent: System.Decimal
@@ -1970,7 +1906,6 @@ items:
       type: System.Decimal
     return:
       type: System.Double
-      description: 
 - uid: System.Decimal.op_UnaryPlus(System.Decimal)
   id: op_UnaryPlus(System.Decimal)
   parent: System.Decimal
@@ -1993,7 +1928,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_UnaryNegation(System.Decimal)
   id: op_UnaryNegation(System.Decimal)
   parent: System.Decimal
@@ -2016,7 +1950,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Increment(System.Decimal)
   id: op_Increment(System.Decimal)
   parent: System.Decimal
@@ -2039,7 +1972,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Decrement(System.Decimal)
   id: op_Decrement(System.Decimal)
   parent: System.Decimal
@@ -2062,7 +1994,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Addition(System.Decimal,System.Decimal)
   id: op_Addition(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2087,7 +2018,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Subtraction(System.Decimal,System.Decimal)
   id: op_Subtraction(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2112,7 +2042,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Multiply(System.Decimal,System.Decimal)
   id: op_Multiply(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2137,7 +2066,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Division(System.Decimal,System.Decimal)
   id: op_Division(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2162,7 +2090,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Modulus(System.Decimal,System.Decimal)
   id: op_Modulus(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2187,7 +2114,6 @@ items:
       type: System.Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.Decimal.op_Equality(System.Decimal,System.Decimal)
   id: op_Equality(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2212,7 +2138,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.op_Inequality(System.Decimal,System.Decimal)
   id: op_Inequality(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2237,7 +2162,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.op_LessThan(System.Decimal,System.Decimal)
   id: op_LessThan(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2262,7 +2186,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.op_LessThanOrEqual(System.Decimal,System.Decimal)
   id: op_LessThanOrEqual(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2287,7 +2210,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.op_GreaterThan(System.Decimal,System.Decimal)
   id: op_GreaterThan(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2312,7 +2234,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.op_GreaterThanOrEqual(System.Decimal,System.Decimal)
   id: op_GreaterThanOrEqual(System.Decimal,System.Decimal)
   parent: System.Decimal
@@ -2337,7 +2258,6 @@ items:
       type: System.Decimal
     return:
       type: System.Boolean
-      description: 
 - uid: System.Decimal.GetTypeCode
   id: GetTypeCode
   parent: System.Decimal
@@ -2357,7 +2277,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.Decimal.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.Decimal

@@ -150,7 +150,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.IntPtr.GetHashCode
   id: GetHashCode
@@ -171,7 +170,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.IntPtr.ToInt32
   id: ToInt32
@@ -192,7 +190,6 @@ items:
     content.vb: Public Function ToInt32 As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.IntPtr.ToInt64
   id: ToInt64
   parent: System.IntPtr
@@ -212,7 +209,6 @@ items:
     content.vb: Public Function ToInt64 As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.IntPtr.ToString
   id: ToString
   parent: System.IntPtr
@@ -232,7 +228,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.IntPtr.ToString(System.String)
   id: ToString(System.String)
@@ -256,7 +251,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IntPtr.op_Explicit(System.Int32)~System.IntPtr
   id: op_Explicit(System.Int32)~System.IntPtr
   parent: System.IntPtr
@@ -281,7 +275,6 @@ items:
       type: System.Int32
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.op_Explicit(System.Int64)~System.IntPtr
   id: op_Explicit(System.Int64)~System.IntPtr
   parent: System.IntPtr
@@ -306,7 +299,6 @@ items:
       type: System.Int64
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.op_Explicit(System.Void*)~System.IntPtr
   id: op_Explicit(System.Void*)~System.IntPtr
   parent: System.IntPtr
@@ -331,7 +323,6 @@ items:
       type: System.Void*
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.op_Explicit(System.IntPtr)~System.Void*
   id: op_Explicit(System.IntPtr)~System.Void*
   parent: System.IntPtr
@@ -356,7 +347,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Void*
-      description: 
 - uid: System.IntPtr.op_Explicit(System.IntPtr)~System.Int32
   id: op_Explicit(System.IntPtr)~System.Int32
   parent: System.IntPtr
@@ -381,7 +371,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Int32
-      description: 
 - uid: System.IntPtr.op_Explicit(System.IntPtr)~System.Int64
   id: op_Explicit(System.IntPtr)~System.Int64
   parent: System.IntPtr
@@ -406,7 +395,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Int64
-      description: 
 - uid: System.IntPtr.op_Equality(System.IntPtr,System.IntPtr)
   id: op_Equality(System.IntPtr,System.IntPtr)
   parent: System.IntPtr
@@ -431,7 +419,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Boolean
-      description: 
 - uid: System.IntPtr.op_Inequality(System.IntPtr,System.IntPtr)
   id: op_Inequality(System.IntPtr,System.IntPtr)
   parent: System.IntPtr
@@ -456,7 +443,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Boolean
-      description: 
 - uid: System.IntPtr.Add(System.IntPtr,System.Int32)
   id: Add(System.IntPtr,System.Int32)
   parent: System.IntPtr
@@ -481,7 +467,6 @@ items:
       type: System.Int32
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.op_Addition(System.IntPtr,System.Int32)
   id: op_Addition(System.IntPtr,System.Int32)
   parent: System.IntPtr
@@ -506,7 +491,6 @@ items:
       type: System.Int32
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.Subtract(System.IntPtr,System.Int32)
   id: Subtract(System.IntPtr,System.Int32)
   parent: System.IntPtr
@@ -531,7 +515,6 @@ items:
       type: System.Int32
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.op_Subtraction(System.IntPtr,System.Int32)
   id: op_Subtraction(System.IntPtr,System.Int32)
   parent: System.IntPtr
@@ -556,7 +539,6 @@ items:
       type: System.Int32
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IntPtr.Size
   id: Size
   parent: System.IntPtr
@@ -577,7 +559,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.IntPtr.ToPointer
   id: ToPointer
   parent: System.IntPtr
@@ -597,7 +578,6 @@ items:
     content.vb: Public Function ToPointer As
     return:
       type: System.Void*
-      description: 
 references:
 - uid: System
   isExternal: false

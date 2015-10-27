@@ -82,7 +82,6 @@ items:
     content.vb: Function IsDirty As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIMoniker.Load(System.Runtime.InteropServices.UCOMIStream)
   id: Load(System.Runtime.InteropServices.UCOMIStream)
   parent: System.Runtime.InteropServices.UCOMIMoniker

@@ -94,7 +94,6 @@ items:
     parameters: []
     return:
       type: System.Decimal
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

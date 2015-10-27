@@ -248,7 +248,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.StringBuilder.MaxCapacity
   id: MaxCapacity
   parent: System.Text.StringBuilder
@@ -269,7 +268,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.StringBuilder.EnsureCapacity(System.Int32)
   id: EnsureCapacity(System.Int32)
   parent: System.Text.StringBuilder
@@ -292,7 +290,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.StringBuilder.ToString
   id: ToString
   parent: System.Text.StringBuilder
@@ -312,7 +309,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Text.StringBuilder.ToString(System.Int32,System.Int32)
   id: ToString(System.Int32,System.Int32)
@@ -338,7 +334,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Text.StringBuilder.Clear
   id: Clear
   parent: System.Text.StringBuilder
@@ -358,7 +353,6 @@ items:
     content.vb: Public Function Clear As StringBuilder
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Length
   id: Length
   parent: System.Text.StringBuilder
@@ -379,7 +373,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.StringBuilder.Chars(System.Int32)
   id: Chars(System.Int32)
   parent: System.Text.StringBuilder
@@ -404,7 +397,6 @@ items:
       type: System.Int32
     return:
       type: System.Char
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Char,System.Int32)
   id: Append(System.Char,System.Int32)
   parent: System.Text.StringBuilder
@@ -429,7 +421,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32)
   id: Append(System.Char[],System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -458,7 +449,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.String)
   id: Append(System.String)
   parent: System.Text.StringBuilder
@@ -481,7 +471,6 @@ items:
       type: System.String
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32)
   id: Append(System.String,System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -508,7 +497,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendLine
   id: AppendLine
   parent: System.Text.StringBuilder
@@ -528,7 +516,6 @@ items:
     content.vb: Public Function AppendLine As StringBuilder
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendLine(System.String)
   id: AppendLine(System.String)
   parent: System.Text.StringBuilder
@@ -551,7 +538,6 @@ items:
       type: System.String
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)
   id: CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -606,7 +592,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Remove(System.Int32,System.Int32)
   id: Remove(System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -631,7 +616,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Boolean)
   id: Append(System.Boolean)
   parent: System.Text.StringBuilder
@@ -654,7 +638,6 @@ items:
       type: System.Boolean
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.SByte)
   id: Append(System.SByte)
   parent: System.Text.StringBuilder
@@ -677,7 +660,6 @@ items:
       type: System.SByte
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Byte)
   id: Append(System.Byte)
   parent: System.Text.StringBuilder
@@ -700,7 +682,6 @@ items:
       type: System.Byte
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Char)
   id: Append(System.Char)
   parent: System.Text.StringBuilder
@@ -723,7 +704,6 @@ items:
       type: System.Char
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Int16)
   id: Append(System.Int16)
   parent: System.Text.StringBuilder
@@ -746,7 +726,6 @@ items:
       type: System.Int16
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Int32)
   id: Append(System.Int32)
   parent: System.Text.StringBuilder
@@ -769,7 +748,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Int64)
   id: Append(System.Int64)
   parent: System.Text.StringBuilder
@@ -792,7 +770,6 @@ items:
       type: System.Int64
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Single)
   id: Append(System.Single)
   parent: System.Text.StringBuilder
@@ -815,7 +792,6 @@ items:
       type: System.Single
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Double)
   id: Append(System.Double)
   parent: System.Text.StringBuilder
@@ -838,7 +814,6 @@ items:
       type: System.Double
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Decimal)
   id: Append(System.Decimal)
   parent: System.Text.StringBuilder
@@ -861,7 +836,6 @@ items:
       type: System.Decimal
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.UInt16)
   id: Append(System.UInt16)
   parent: System.Text.StringBuilder
@@ -884,7 +858,6 @@ items:
       type: System.UInt16
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.UInt32)
   id: Append(System.UInt32)
   parent: System.Text.StringBuilder
@@ -907,7 +880,6 @@ items:
       type: System.UInt32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.UInt64)
   id: Append(System.UInt64)
   parent: System.Text.StringBuilder
@@ -930,7 +902,6 @@ items:
       type: System.UInt64
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Object)
   id: Append(System.Object)
   parent: System.Text.StringBuilder
@@ -953,7 +924,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Char[])
   id: Append(System.Char[])
   parent: System.Text.StringBuilder
@@ -978,7 +948,6 @@ items:
       type: System.Char[]
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.String)
   id: Insert(System.Int32,System.String)
   parent: System.Text.StringBuilder
@@ -1003,7 +972,6 @@ items:
       type: System.String
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Boolean)
   id: Insert(System.Int32,System.Boolean)
   parent: System.Text.StringBuilder
@@ -1028,7 +996,6 @@ items:
       type: System.Boolean
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.SByte)
   id: Insert(System.Int32,System.SByte)
   parent: System.Text.StringBuilder
@@ -1053,7 +1020,6 @@ items:
       type: System.SByte
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Byte)
   id: Insert(System.Int32,System.Byte)
   parent: System.Text.StringBuilder
@@ -1078,7 +1044,6 @@ items:
       type: System.Byte
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Int16)
   id: Insert(System.Int32,System.Int16)
   parent: System.Text.StringBuilder
@@ -1103,7 +1068,6 @@ items:
       type: System.Int16
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Char)
   id: Insert(System.Int32,System.Char)
   parent: System.Text.StringBuilder
@@ -1128,7 +1092,6 @@ items:
       type: System.Char
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Char[])
   id: Insert(System.Int32,System.Char[])
   parent: System.Text.StringBuilder
@@ -1155,7 +1118,6 @@ items:
       type: System.Char[]
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32)
   id: Insert(System.Int32,System.Char[],System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -1186,7 +1148,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Int32)
   id: Insert(System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -1211,7 +1172,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Int64)
   id: Insert(System.Int32,System.Int64)
   parent: System.Text.StringBuilder
@@ -1236,7 +1196,6 @@ items:
       type: System.Int64
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Single)
   id: Insert(System.Int32,System.Single)
   parent: System.Text.StringBuilder
@@ -1261,7 +1220,6 @@ items:
       type: System.Single
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Double)
   id: Insert(System.Int32,System.Double)
   parent: System.Text.StringBuilder
@@ -1286,7 +1244,6 @@ items:
       type: System.Double
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Decimal)
   id: Insert(System.Int32,System.Decimal)
   parent: System.Text.StringBuilder
@@ -1311,7 +1268,6 @@ items:
       type: System.Decimal
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.UInt16)
   id: Insert(System.Int32,System.UInt16)
   parent: System.Text.StringBuilder
@@ -1336,7 +1292,6 @@ items:
       type: System.UInt16
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.UInt32)
   id: Insert(System.Int32,System.UInt32)
   parent: System.Text.StringBuilder
@@ -1361,7 +1316,6 @@ items:
       type: System.UInt32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.UInt64)
   id: Insert(System.Int32,System.UInt64)
   parent: System.Text.StringBuilder
@@ -1386,7 +1340,6 @@ items:
       type: System.UInt64
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Insert(System.Int32,System.Object)
   id: Insert(System.Int32,System.Object)
   parent: System.Text.StringBuilder
@@ -1411,7 +1364,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.String,System.Object)
   id: AppendFormat(System.String,System.Object)
   parent: System.Text.StringBuilder
@@ -1436,7 +1388,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object)
   id: AppendFormat(System.String,System.Object,System.Object)
   parent: System.Text.StringBuilder
@@ -1463,7 +1414,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object)
   id: AppendFormat(System.String,System.Object,System.Object,System.Object)
   parent: System.Text.StringBuilder
@@ -1492,7 +1442,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.String,System.Object[])
   id: AppendFormat(System.String,System.Object[])
   parent: System.Text.StringBuilder
@@ -1519,7 +1468,6 @@ items:
       type: System.Object[]
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object)
   id: AppendFormat(System.IFormatProvider,System.String,System.Object)
   parent: System.Text.StringBuilder
@@ -1546,7 +1494,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object)
   id: AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object)
   parent: System.Text.StringBuilder
@@ -1575,7 +1522,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)
   id: AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)
   parent: System.Text.StringBuilder
@@ -1606,7 +1552,6 @@ items:
       type: System.Object
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[])
   id: AppendFormat(System.IFormatProvider,System.String,System.Object[])
   parent: System.Text.StringBuilder
@@ -1635,7 +1580,6 @@ items:
       type: System.Object[]
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Replace(System.String,System.String)
   id: Replace(System.String,System.String)
   parent: System.Text.StringBuilder
@@ -1660,7 +1604,6 @@ items:
       type: System.String
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Equals(System.Text.StringBuilder)
   id: Equals(System.Text.StringBuilder)
   parent: System.Text.StringBuilder
@@ -1683,7 +1626,6 @@ items:
       type: System.Text.StringBuilder
     return:
       type: System.Boolean
-      description: 
 - uid: System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32)
   id: Replace(System.String,System.String,System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -1712,7 +1654,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Replace(System.Char,System.Char)
   id: Replace(System.Char,System.Char)
   parent: System.Text.StringBuilder
@@ -1737,7 +1678,6 @@ items:
       type: System.Char
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32)
   id: Replace(System.Char,System.Char,System.Int32,System.Int32)
   parent: System.Text.StringBuilder
@@ -1766,7 +1706,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.Text.StringBuilder.Append(System.Char*,System.Int32)
   id: Append(System.Char*,System.Int32)
   parent: System.Text.StringBuilder

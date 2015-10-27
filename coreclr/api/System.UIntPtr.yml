@@ -149,7 +149,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.UIntPtr.GetHashCode
   id: GetHashCode
@@ -170,7 +169,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.UIntPtr.ToUInt32
   id: ToUInt32
@@ -191,7 +189,6 @@ items:
     content.vb: Public Function ToUInt32 As UInteger
     return:
       type: System.UInt32
-      description: 
 - uid: System.UIntPtr.ToUInt64
   id: ToUInt64
   parent: System.UIntPtr
@@ -211,7 +208,6 @@ items:
     content.vb: Public Function ToUInt64 As ULong
     return:
       type: System.UInt64
-      description: 
 - uid: System.UIntPtr.ToString
   id: ToString
   parent: System.UIntPtr
@@ -231,7 +227,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.UIntPtr.op_Explicit(System.UInt32)~System.UIntPtr
   id: op_Explicit(System.UInt32)~System.UIntPtr
@@ -257,7 +252,6 @@ items:
       type: System.UInt32
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.op_Explicit(System.UInt64)~System.UIntPtr
   id: op_Explicit(System.UInt64)~System.UIntPtr
   parent: System.UIntPtr
@@ -282,7 +276,6 @@ items:
       type: System.UInt64
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.op_Explicit(System.UIntPtr)~System.UInt32
   id: op_Explicit(System.UIntPtr)~System.UInt32
   parent: System.UIntPtr
@@ -307,7 +300,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.UInt32
-      description: 
 - uid: System.UIntPtr.op_Explicit(System.UIntPtr)~System.UInt64
   id: op_Explicit(System.UIntPtr)~System.UInt64
   parent: System.UIntPtr
@@ -332,7 +324,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.UInt64
-      description: 
 - uid: System.UIntPtr.op_Explicit(System.Void*)~System.UIntPtr
   id: op_Explicit(System.Void*)~System.UIntPtr
   parent: System.UIntPtr
@@ -357,7 +348,6 @@ items:
       type: System.Void*
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.op_Explicit(System.UIntPtr)~System.Void*
   id: op_Explicit(System.UIntPtr)~System.Void*
   parent: System.UIntPtr
@@ -382,7 +372,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.Void*
-      description: 
 - uid: System.UIntPtr.op_Equality(System.UIntPtr,System.UIntPtr)
   id: op_Equality(System.UIntPtr,System.UIntPtr)
   parent: System.UIntPtr
@@ -407,7 +396,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.Boolean
-      description: 
 - uid: System.UIntPtr.op_Inequality(System.UIntPtr,System.UIntPtr)
   id: op_Inequality(System.UIntPtr,System.UIntPtr)
   parent: System.UIntPtr
@@ -432,7 +420,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.Boolean
-      description: 
 - uid: System.UIntPtr.Add(System.UIntPtr,System.Int32)
   id: Add(System.UIntPtr,System.Int32)
   parent: System.UIntPtr
@@ -457,7 +444,6 @@ items:
       type: System.Int32
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.op_Addition(System.UIntPtr,System.Int32)
   id: op_Addition(System.UIntPtr,System.Int32)
   parent: System.UIntPtr
@@ -482,7 +468,6 @@ items:
       type: System.Int32
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.Subtract(System.UIntPtr,System.Int32)
   id: Subtract(System.UIntPtr,System.Int32)
   parent: System.UIntPtr
@@ -507,7 +492,6 @@ items:
       type: System.Int32
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.op_Subtraction(System.UIntPtr,System.Int32)
   id: op_Subtraction(System.UIntPtr,System.Int32)
   parent: System.UIntPtr
@@ -532,7 +516,6 @@ items:
       type: System.Int32
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.UIntPtr.Size
   id: Size
   parent: System.UIntPtr
@@ -553,7 +536,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.UIntPtr.ToPointer
   id: ToPointer
   parent: System.UIntPtr
@@ -573,7 +555,6 @@ items:
     content.vb: Public Function ToPointer As
     return:
       type: System.Void*
-      description: 
 references:
 - uid: System
   isExternal: false

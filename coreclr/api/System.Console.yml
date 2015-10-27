@@ -136,7 +136,6 @@ items:
     parameters: []
     return:
       type: System.IO.TextReader
-      description: 
 - uid: System.Console.Out
   id: Out
   parent: System.Console
@@ -157,7 +156,6 @@ items:
     parameters: []
     return:
       type: System.IO.TextWriter
-      description: 
 - uid: System.Console.Error
   id: Error
   parent: System.Console
@@ -178,7 +176,6 @@ items:
     parameters: []
     return:
       type: System.IO.TextWriter
-      description: 
 - uid: System.Console.InputEncoding
   id: InputEncoding
   parent: System.Console
@@ -199,7 +196,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Console.OutputEncoding
   id: OutputEncoding
   parent: System.Console
@@ -220,7 +216,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Console.Beep
   id: Beep
   parent: System.Console
@@ -297,7 +292,6 @@ items:
     parameters: []
     return:
       type: System.ConsoleColor
-      description: 
 - uid: System.Console.ForegroundColor
   id: ForegroundColor
   parent: System.Console
@@ -318,7 +312,6 @@ items:
     parameters: []
     return:
       type: System.ConsoleColor
-      description: 
 - uid: System.Console.ResetColor
   id: ResetColor
   parent: System.Console
@@ -422,7 +415,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.BufferWidth
   id: BufferWidth
   parent: System.Console
@@ -443,7 +435,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.SetBufferSize(System.Int32,System.Int32)
   id: SetBufferSize(System.Int32,System.Int32)
   parent: System.Console
@@ -486,7 +477,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.WindowWidth
   id: WindowWidth
   parent: System.Console
@@ -507,7 +497,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.SetWindowSize(System.Int32,System.Int32)
   id: SetWindowSize(System.Int32,System.Int32)
   parent: System.Console
@@ -550,7 +539,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.LargestWindowHeight
   id: LargestWindowHeight
   parent: System.Console
@@ -571,7 +559,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.WindowLeft
   id: WindowLeft
   parent: System.Console
@@ -592,7 +579,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.WindowTop
   id: WindowTop
   parent: System.Console
@@ -613,7 +599,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.SetWindowPosition(System.Int32,System.Int32)
   id: SetWindowPosition(System.Int32,System.Int32)
   parent: System.Console
@@ -656,7 +641,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.CursorTop
   id: CursorTop
   parent: System.Console
@@ -677,7 +661,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.SetCursorPosition(System.Int32,System.Int32)
   id: SetCursorPosition(System.Int32,System.Int32)
   parent: System.Console
@@ -720,7 +703,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.CursorVisible
   id: CursorVisible
   parent: System.Console
@@ -741,7 +723,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Console.Title
   id: Title
   parent: System.Console
@@ -762,7 +743,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Console.ReadKey
   id: ReadKey
   parent: System.Console
@@ -782,7 +762,6 @@ items:
     content.vb: Public Shared Function ReadKey As ConsoleKeyInfo
     return:
       type: System.ConsoleKeyInfo
-      description: 
 - uid: System.Console.ReadKey(System.Boolean)
   id: ReadKey(System.Boolean)
   parent: System.Console
@@ -805,7 +784,6 @@ items:
       type: System.Boolean
     return:
       type: System.ConsoleKeyInfo
-      description: 
 - uid: System.Console.KeyAvailable
   id: KeyAvailable
   parent: System.Console
@@ -826,7 +804,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Console.NumberLock
   id: NumberLock
   parent: System.Console
@@ -847,7 +824,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Console.CapsLock
   id: CapsLock
   parent: System.Console
@@ -868,7 +844,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Console.TreatControlCAsInput
   id: TreatControlCAsInput
   parent: System.Console
@@ -889,7 +864,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Console.CancelKeyPress
   id: CancelKeyPress
   parent: System.Console
@@ -926,7 +900,6 @@ items:
     content.vb: Public Shared Function OpenStandardError As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardError(System.Int32)
   id: OpenStandardError(System.Int32)
   parent: System.Console
@@ -949,7 +922,6 @@ items:
       type: System.Int32
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardInput
   id: OpenStandardInput
   parent: System.Console
@@ -969,7 +941,6 @@ items:
     content.vb: Public Shared Function OpenStandardInput As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardInput(System.Int32)
   id: OpenStandardInput(System.Int32)
   parent: System.Console
@@ -992,7 +963,6 @@ items:
       type: System.Int32
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardOutput
   id: OpenStandardOutput
   parent: System.Console
@@ -1012,7 +982,6 @@ items:
     content.vb: Public Shared Function OpenStandardOutput As Stream
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.OpenStandardOutput(System.Int32)
   id: OpenStandardOutput(System.Int32)
   parent: System.Console
@@ -1035,7 +1004,6 @@ items:
       type: System.Int32
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Console.SetIn(System.IO.TextReader)
   id: SetIn(System.IO.TextReader)
   parent: System.Console
@@ -1115,7 +1083,6 @@ items:
     content.vb: Public Shared Function Read As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Console.ReadLine
   id: ReadLine
   parent: System.Console
@@ -1135,7 +1102,6 @@ items:
     content.vb: Public Shared Function ReadLine As String
     return:
       type: System.String
-      description: 
 - uid: System.Console.WriteLine
   id: WriteLine
   parent: System.Console

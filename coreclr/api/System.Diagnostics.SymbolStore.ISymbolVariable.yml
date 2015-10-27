@@ -50,7 +50,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.Attributes
   id: Attributes
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -71,7 +70,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.GetSignature
   id: GetSignature
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -91,7 +89,6 @@ items:
     content.vb: Function GetSignature As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressKind
   id: AddressKind
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -112,7 +109,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField1
   id: AddressField1
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -133,7 +129,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField2
   id: AddressField2
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -154,7 +149,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField3
   id: AddressField3
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -175,7 +169,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.StartOffset
   id: StartOffset
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -196,7 +189,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.EndOffset
   id: EndOffset
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
@@ -217,7 +209,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

@@ -51,7 +51,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SymbolStore.SymbolToken
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.SequencePointCount
   id: SequencePointCount
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -72,7 +71,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetSequencePoints(System.Int32[],System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[],System.Int32[],System.Int32[])
   id: GetSequencePoints(System.Int32[],System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[],System.Int32[],System.Int32[])
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -125,7 +123,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SymbolStore.ISymbolScope
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetScope(System.Int32)
   id: GetScope(System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -148,7 +145,6 @@ items:
       type: System.Int32
     return:
       type: System.Diagnostics.SymbolStore.ISymbolScope
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetOffset(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   id: GetOffset(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -175,7 +171,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetRanges(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   id: GetRanges(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -202,7 +197,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetParameters
   id: GetParameters
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -222,7 +216,6 @@ items:
     content.vb: Function GetParameters As ISymbolVariable()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetNamespace
   id: GetNamespace
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -242,7 +235,6 @@ items:
     content.vb: Function GetNamespace As ISymbolNamespace
     return:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetSourceStartEnd(System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[])
   id: GetSourceStartEnd(System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[])
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
@@ -271,7 +263,6 @@ items:
       type: System.Int32[]
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

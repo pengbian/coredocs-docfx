@@ -291,7 +291,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.StackTrace.GetFrame(System.Int32)
   id: GetFrame(System.Int32)
   parent: System.Diagnostics.StackTrace
@@ -314,7 +313,6 @@ items:
       type: System.Int32
     return:
       type: System.Diagnostics.StackFrame
-      description: 
 - uid: System.Diagnostics.StackTrace.GetFrames
   id: GetFrames
   parent: System.Diagnostics.StackTrace
@@ -334,7 +332,6 @@ items:
     content.vb: Public Overridable Function GetFrames As StackFrame()
     return:
       type: System.Diagnostics.StackFrame[]
-      description: 
 - uid: System.Diagnostics.StackTrace.ToString
   id: ToString
   parent: System.Diagnostics.StackTrace
@@ -354,7 +351,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Diagnostics

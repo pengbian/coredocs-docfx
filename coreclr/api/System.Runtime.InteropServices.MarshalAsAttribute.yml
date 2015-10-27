@@ -141,7 +141,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.UnmanagedType
-      description: 
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.SafeArraySubType
   id: SafeArraySubType
   parent: System.Runtime.InteropServices.MarshalAsAttribute

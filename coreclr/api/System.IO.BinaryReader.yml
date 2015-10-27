@@ -148,7 +148,6 @@ items:
     parameters: []
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.IO.BinaryReader.Close
   id: Close
   parent: System.IO.BinaryReader
@@ -222,7 +221,6 @@ items:
     content.vb: Public Overridable Function PeekChar As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.BinaryReader.Read
   id: Read
   parent: System.IO.BinaryReader
@@ -242,7 +240,6 @@ items:
     content.vb: Public Overridable Function Read As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.BinaryReader.ReadBoolean
   id: ReadBoolean
   parent: System.IO.BinaryReader
@@ -262,7 +259,6 @@ items:
     content.vb: Public Overridable Function ReadBoolean As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.BinaryReader.ReadByte
   id: ReadByte
   parent: System.IO.BinaryReader
@@ -282,7 +278,6 @@ items:
     content.vb: Public Overridable Function ReadByte As Byte
     return:
       type: System.Byte
-      description: 
 - uid: System.IO.BinaryReader.ReadSByte
   id: ReadSByte
   parent: System.IO.BinaryReader
@@ -302,7 +297,6 @@ items:
     content.vb: Public Overridable Function ReadSByte As SByte
     return:
       type: System.SByte
-      description: 
 - uid: System.IO.BinaryReader.ReadChar
   id: ReadChar
   parent: System.IO.BinaryReader
@@ -322,7 +316,6 @@ items:
     content.vb: Public Overridable Function ReadChar As Char
     return:
       type: System.Char
-      description: 
 - uid: System.IO.BinaryReader.ReadInt16
   id: ReadInt16
   parent: System.IO.BinaryReader
@@ -342,7 +335,6 @@ items:
     content.vb: Public Overridable Function ReadInt16 As Short
     return:
       type: System.Int16
-      description: 
 - uid: System.IO.BinaryReader.ReadUInt16
   id: ReadUInt16
   parent: System.IO.BinaryReader
@@ -362,7 +354,6 @@ items:
     content.vb: Public Overridable Function ReadUInt16 As UShort
     return:
       type: System.UInt16
-      description: 
 - uid: System.IO.BinaryReader.ReadInt32
   id: ReadInt32
   parent: System.IO.BinaryReader
@@ -382,7 +373,6 @@ items:
     content.vb: Public Overridable Function ReadInt32 As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.BinaryReader.ReadUInt32
   id: ReadUInt32
   parent: System.IO.BinaryReader
@@ -402,7 +392,6 @@ items:
     content.vb: Public Overridable Function ReadUInt32 As UInteger
     return:
       type: System.UInt32
-      description: 
 - uid: System.IO.BinaryReader.ReadInt64
   id: ReadInt64
   parent: System.IO.BinaryReader
@@ -422,7 +411,6 @@ items:
     content.vb: Public Overridable Function ReadInt64 As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.BinaryReader.ReadUInt64
   id: ReadUInt64
   parent: System.IO.BinaryReader
@@ -442,7 +430,6 @@ items:
     content.vb: Public Overridable Function ReadUInt64 As ULong
     return:
       type: System.UInt64
-      description: 
 - uid: System.IO.BinaryReader.ReadSingle
   id: ReadSingle
   parent: System.IO.BinaryReader
@@ -462,7 +449,6 @@ items:
     content.vb: Public Overridable Function ReadSingle As Single
     return:
       type: System.Single
-      description: 
 - uid: System.IO.BinaryReader.ReadDouble
   id: ReadDouble
   parent: System.IO.BinaryReader
@@ -482,7 +468,6 @@ items:
     content.vb: Public Overridable Function ReadDouble As Double
     return:
       type: System.Double
-      description: 
 - uid: System.IO.BinaryReader.ReadDecimal
   id: ReadDecimal
   parent: System.IO.BinaryReader
@@ -502,7 +487,6 @@ items:
     content.vb: Public Overridable Function ReadDecimal As Decimal
     return:
       type: System.Decimal
-      description: 
 - uid: System.IO.BinaryReader.ReadString
   id: ReadString
   parent: System.IO.BinaryReader
@@ -522,7 +506,6 @@ items:
     content.vb: Public Overridable Function ReadString As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
   id: Read(System.Char[],System.Int32,System.Int32)
   parent: System.IO.BinaryReader
@@ -551,7 +534,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.BinaryReader.ReadChars(System.Int32)
   id: ReadChars(System.Int32)
   parent: System.IO.BinaryReader
@@ -574,7 +556,6 @@ items:
       type: System.Int32
     return:
       type: System.Char[]
-      description: 
 - uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
   id: Read(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.BinaryReader
@@ -603,7 +584,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.BinaryReader.ReadBytes(System.Int32)
   id: ReadBytes(System.Int32)
   parent: System.IO.BinaryReader
@@ -626,7 +606,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.IO.BinaryReader.FillBuffer(System.Int32)
   id: FillBuffer(System.Int32)
   parent: System.IO.BinaryReader
@@ -666,7 +645,6 @@ items:
     content.vb: Protected Function Read7BitEncodedInt As Integer
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.IO
   isExternal: false

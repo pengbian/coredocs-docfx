@@ -48,7 +48,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.IDictionaryEnumerator.Value
   id: Value
   parent: System.Collections.IDictionaryEnumerator
@@ -69,7 +68,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.IDictionaryEnumerator.Entry
   id: Entry
   parent: System.Collections.IDictionaryEnumerator
@@ -90,7 +88,6 @@ items:
     parameters: []
     return:
       type: System.Collections.DictionaryEntry
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

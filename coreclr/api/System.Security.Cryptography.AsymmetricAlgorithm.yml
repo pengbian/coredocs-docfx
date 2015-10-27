@@ -172,7 +172,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
   id: LegalKeySizes
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -193,7 +192,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeySizes[]
-      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
   id: SignatureAlgorithm
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -214,7 +212,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
   id: KeyExchangeAlgorithm
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -235,7 +232,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.Create
   id: Create
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -255,7 +251,6 @@ items:
     content.vb: Public Shared Function Create As AsymmetricAlgorithm
     return:
       type: System.Security.Cryptography.AsymmetricAlgorithm
-      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -278,7 +273,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.AsymmetricAlgorithm
-      description: 
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(System.String)
   id: FromXmlString(System.String)
   parent: System.Security.Cryptography.AsymmetricAlgorithm
@@ -321,7 +315,6 @@ items:
       type: System.Boolean
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

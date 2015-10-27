@@ -48,7 +48,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(System.Object)
   id: MarshalManagedToNative(System.Object)
   parent: System.Runtime.InteropServices.ICustomMarshaler
@@ -71,7 +70,6 @@ items:
       type: System.Object
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
   id: CleanUpNativeData(System.IntPtr)
   parent: System.Runtime.InteropServices.ICustomMarshaler
@@ -131,7 +129,6 @@ items:
     content.vb: Function GetNativeDataSize As Integer
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

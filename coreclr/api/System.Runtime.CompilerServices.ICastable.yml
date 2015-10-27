@@ -49,7 +49,6 @@ items:
       type: System.Exception
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.CompilerServices.ICastable.GetImplType(System.RuntimeTypeHandle)
   id: GetImplType(System.RuntimeTypeHandle)
   parent: System.Runtime.CompilerServices.ICastable
@@ -72,7 +71,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.RuntimeTypeHandle
-      description: 
 references:
 - uid: System.Runtime.CompilerServices
   isExternal: false

@@ -83,7 +83,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Volatile.Read(System.SByte@)
   id: Read(System.SByte@)
   parent: System.Threading.Volatile
@@ -108,7 +107,6 @@ items:
       type: System.SByte
     return:
       type: System.SByte
-      description: 
 - uid: System.Threading.Volatile.Read(System.Byte@)
   id: Read(System.Byte@)
   parent: System.Threading.Volatile
@@ -133,7 +131,6 @@ items:
       type: System.Byte
     return:
       type: System.Byte
-      description: 
 - uid: System.Threading.Volatile.Read(System.Int16@)
   id: Read(System.Int16@)
   parent: System.Threading.Volatile
@@ -158,7 +155,6 @@ items:
       type: System.Int16
     return:
       type: System.Int16
-      description: 
 - uid: System.Threading.Volatile.Read(System.UInt16@)
   id: Read(System.UInt16@)
   parent: System.Threading.Volatile
@@ -183,7 +179,6 @@ items:
       type: System.UInt16
     return:
       type: System.UInt16
-      description: 
 - uid: System.Threading.Volatile.Read(System.Int32@)
   id: Read(System.Int32@)
   parent: System.Threading.Volatile
@@ -208,7 +203,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Volatile.Read(System.UInt32@)
   id: Read(System.UInt32@)
   parent: System.Threading.Volatile
@@ -233,7 +227,6 @@ items:
       type: System.UInt32
     return:
       type: System.UInt32
-      description: 
 - uid: System.Threading.Volatile.Read(System.Int64@)
   id: Read(System.Int64@)
   parent: System.Threading.Volatile
@@ -258,7 +251,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Volatile.Read(System.UInt64@)
   id: Read(System.UInt64@)
   parent: System.Threading.Volatile
@@ -283,7 +275,6 @@ items:
       type: System.UInt64
     return:
       type: System.UInt64
-      description: 
 - uid: System.Threading.Volatile.Read(System.IntPtr@)
   id: Read(System.IntPtr@)
   parent: System.Threading.Volatile
@@ -308,7 +299,6 @@ items:
       type: System.IntPtr
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Threading.Volatile.Read(System.UIntPtr@)
   id: Read(System.UIntPtr@)
   parent: System.Threading.Volatile
@@ -333,7 +323,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.Threading.Volatile.Read(System.Single@)
   id: Read(System.Single@)
   parent: System.Threading.Volatile
@@ -358,7 +347,6 @@ items:
       type: System.Single
     return:
       type: System.Single
-      description: 
 - uid: System.Threading.Volatile.Read(System.Double@)
   id: Read(System.Double@)
   parent: System.Threading.Volatile
@@ -383,7 +371,6 @@ items:
       type: System.Double
     return:
       type: System.Double
-      description: 
 - uid: System.Threading.Volatile.Read``1(``0@)
   id: Read``1(``0@)
   parent: System.Threading.Volatile
@@ -410,7 +397,6 @@ items:
     - id: T
     return:
       type: '{T}'
-      description: 
 - uid: System.Threading.Volatile.Write(System.Boolean@,System.Boolean)
   id: Write(System.Boolean@,System.Boolean)
   parent: System.Threading.Volatile

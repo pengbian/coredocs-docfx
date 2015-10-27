@@ -53,7 +53,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip(System.Int32)
   id: Skip(System.Int32)
   parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
@@ -76,7 +75,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset
   id: Reset
   parent: System.Runtime.InteropServices.ComTypes.IEnumConnections

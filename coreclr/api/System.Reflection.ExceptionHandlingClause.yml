@@ -76,7 +76,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ExceptionHandlingClauseOptions
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.TryOffset
   id: TryOffset
   parent: System.Reflection.ExceptionHandlingClause
@@ -97,7 +96,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.TryLength
   id: TryLength
   parent: System.Reflection.ExceptionHandlingClause
@@ -118,7 +116,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.HandlerOffset
   id: HandlerOffset
   parent: System.Reflection.ExceptionHandlingClause
@@ -139,7 +136,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.HandlerLength
   id: HandlerLength
   parent: System.Reflection.ExceptionHandlingClause
@@ -160,7 +156,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.FilterOffset
   id: FilterOffset
   parent: System.Reflection.ExceptionHandlingClause
@@ -181,7 +176,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.CatchType
   id: CatchType
   parent: System.Reflection.ExceptionHandlingClause
@@ -202,7 +196,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.ExceptionHandlingClause.ToString
   id: ToString
   parent: System.Reflection.ExceptionHandlingClause
@@ -222,7 +215,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Reflection

@@ -70,7 +70,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.PropertyToken.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Emit.PropertyToken
@@ -90,7 +89,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.PropertyToken.Equals(System.Object)
   id: Equals(System.Object)
@@ -114,7 +112,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.PropertyToken.Equals(System.Reflection.Emit.PropertyToken)
   id: Equals(System.Reflection.Emit.PropertyToken)
@@ -138,7 +135,6 @@ items:
       type: System.Reflection.Emit.PropertyToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.PropertyToken.op_Equality(System.Reflection.Emit.PropertyToken,System.Reflection.Emit.PropertyToken)
   id: op_Equality(System.Reflection.Emit.PropertyToken,System.Reflection.Emit.PropertyToken)
   parent: System.Reflection.Emit.PropertyToken
@@ -163,7 +159,6 @@ items:
       type: System.Reflection.Emit.PropertyToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.PropertyToken.op_Inequality(System.Reflection.Emit.PropertyToken,System.Reflection.Emit.PropertyToken)
   id: op_Inequality(System.Reflection.Emit.PropertyToken,System.Reflection.Emit.PropertyToken)
   parent: System.Reflection.Emit.PropertyToken
@@ -188,7 +183,6 @@ items:
       type: System.Reflection.Emit.PropertyToken
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

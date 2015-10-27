@@ -56,7 +56,6 @@ items:
       type: System.Exception
     return:
       type: System.Runtime.ExceptionServices.ExceptionDispatchInfo
-      description: 
 - uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.SourceException
   id: SourceException
   parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
@@ -77,7 +76,6 @@ items:
     parameters: []
     return:
       type: System.Exception
-      description: 
 - uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
   id: Throw
   parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo

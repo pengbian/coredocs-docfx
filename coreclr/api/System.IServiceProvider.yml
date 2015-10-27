@@ -44,7 +44,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 references:
 - uid: System
   isExternal: false

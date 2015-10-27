@@ -52,7 +52,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.StringToken.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Emit.StringToken
@@ -72,7 +71,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.StringToken.Equals(System.Object)
   id: Equals(System.Object)
@@ -96,7 +94,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.StringToken.Equals(System.Reflection.Emit.StringToken)
   id: Equals(System.Reflection.Emit.StringToken)
@@ -120,7 +117,6 @@ items:
       type: System.Reflection.Emit.StringToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.StringToken.op_Equality(System.Reflection.Emit.StringToken,System.Reflection.Emit.StringToken)
   id: op_Equality(System.Reflection.Emit.StringToken,System.Reflection.Emit.StringToken)
   parent: System.Reflection.Emit.StringToken
@@ -145,7 +141,6 @@ items:
       type: System.Reflection.Emit.StringToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.StringToken.op_Inequality(System.Reflection.Emit.StringToken,System.Reflection.Emit.StringToken)
   id: op_Inequality(System.Reflection.Emit.StringToken,System.Reflection.Emit.StringToken)
   parent: System.Reflection.Emit.StringToken
@@ -170,7 +165,6 @@ items:
       type: System.Reflection.Emit.StringToken
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

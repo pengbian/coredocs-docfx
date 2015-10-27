@@ -64,7 +64,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.ToBase64Transform.OutputBlockSize
   id: OutputBlockSize
   parent: System.Security.Cryptography.ToBase64Transform
@@ -85,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.ToBase64Transform.CanTransformMultipleBlocks
   id: CanTransformMultipleBlocks
   parent: System.Security.Cryptography.ToBase64Transform
@@ -106,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.ToBase64Transform.CanReuseTransform
   id: CanReuseTransform
   parent: System.Security.Cryptography.ToBase64Transform
@@ -127,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.ToBase64Transform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
   id: TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
   parent: System.Security.Cryptography.ToBase64Transform
@@ -160,7 +156,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.ToBase64Transform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   id: TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.ToBase64Transform
@@ -189,7 +184,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.ToBase64Transform.Dispose
   id: Dispose
   parent: System.Security.Cryptography.ToBase64Transform

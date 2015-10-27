@@ -55,7 +55,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.AssemblyName
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

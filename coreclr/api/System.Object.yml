@@ -67,7 +67,6 @@ items:
     content.vb: Public Overridable Function ToString As String
     return:
       type: System.String
-      description: 
 - uid: System.Object.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Object
@@ -90,7 +89,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Object.Equals(System.Object,System.Object)
   id: Equals(System.Object,System.Object)
   parent: System.Object
@@ -115,7 +113,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   id: ReferenceEquals(System.Object,System.Object)
   parent: System.Object
@@ -140,7 +137,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Object.GetHashCode
   id: GetHashCode
   parent: System.Object
@@ -160,7 +156,6 @@ items:
     content.vb: Public Overridable Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Object.GetType
   id: GetType
   parent: System.Object
@@ -179,7 +174,6 @@ items:
     content.vb: Public Function GetType As Type
     return:
       type: System.Type
-      description: 
 - uid: System.Object.Finalize
   id: Finalize
   parent: System.Object
@@ -215,7 +209,6 @@ items:
     content.vb: Protected Function MemberwiseClone As Object
     return:
       type: System.Object
-      description: 
 references:
 - uid: System
   isExternal: false

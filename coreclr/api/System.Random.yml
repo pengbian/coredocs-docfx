@@ -95,7 +95,6 @@ items:
     content.vb: Protected Overridable Function Sample As Double
     return:
       type: System.Double
-      description: 
 - uid: System.Random.Next
   id: Next
   parent: System.Random
@@ -115,7 +114,6 @@ items:
     content.vb: Public Overridable Function Next As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Random.Next(System.Int32,System.Int32)
   id: Next(System.Int32,System.Int32)
   parent: System.Random
@@ -140,7 +138,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Random.Next(System.Int32)
   id: Next(System.Int32)
   parent: System.Random
@@ -163,7 +160,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Random.NextDouble
   id: NextDouble
   parent: System.Random
@@ -183,7 +179,6 @@ items:
     content.vb: Public Overridable Function NextDouble As Double
     return:
       type: System.Double
-      description: 
 - uid: System.Random.NextBytes(System.Byte[])
   id: NextBytes(System.Byte[])
   parent: System.Random

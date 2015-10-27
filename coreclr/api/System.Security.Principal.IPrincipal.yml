@@ -43,7 +43,6 @@ items:
     parameters: []
     return:
       type: System.Security.Principal.IIdentity
-      description: 
 - uid: System.Security.Principal.IPrincipal.IsInRole(System.String)
   id: IsInRole(System.String)
   parent: System.Security.Principal.IPrincipal
@@ -66,7 +65,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

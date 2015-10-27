@@ -156,7 +156,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Exception.Message
 - uid: System.MissingMemberException.#ctor(System.String,System.String)
   id: '#ctor(System.String,System.String)'

@@ -123,7 +123,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute.MajorVersion
   id: MajorVersion
   parent: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute
@@ -144,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.Byte
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute.MinorVersion
   id: MinorVersion
   parent: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute
@@ -165,7 +163,6 @@ items:
     parameters: []
     return:
       type: System.Byte
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute.BuildVersion
   id: BuildVersion
   parent: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute
@@ -186,7 +183,6 @@ items:
     parameters: []
     return:
       type: System.Byte
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute.RevisionVersion
   id: RevisionVersion
   parent: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute
@@ -207,7 +203,6 @@ items:
     parameters: []
     return:
       type: System.Byte
-      description: 
 references:
 - uid: System.Runtime.InteropServices.WindowsRuntime
   isExternal: false

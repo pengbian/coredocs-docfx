@@ -74,7 +74,6 @@ items:
     parameters: []
     return:
       type: '{T1}'
-      description: 
 - uid: System.Tuple`5.Item2
   id: Item2
   parent: System.Tuple`5
@@ -96,7 +95,6 @@ items:
     parameters: []
     return:
       type: '{T2}'
-      description: 
 - uid: System.Tuple`5.Item3
   id: Item3
   parent: System.Tuple`5
@@ -118,7 +116,6 @@ items:
     parameters: []
     return:
       type: '{T3}'
-      description: 
 - uid: System.Tuple`5.Item4
   id: Item4
   parent: System.Tuple`5
@@ -140,7 +137,6 @@ items:
     parameters: []
     return:
       type: '{T4}'
-      description: 
 - uid: System.Tuple`5.Item5
   id: Item5
   parent: System.Tuple`5
@@ -162,7 +158,6 @@ items:
     parameters: []
     return:
       type: '{T5}'
-      description: 
 - uid: System.Tuple`5.#ctor(`0,`1,`2,`3,`4)
   id: '#ctor(`0,`1,`2,`3,`4)'
   parent: System.Tuple`5
@@ -215,7 +210,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Tuple`5.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
   id: System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
@@ -243,7 +237,6 @@ items:
       type: System.Collections.IEqualityComparer
     return:
       type: System.Boolean
-      description: 
 - uid: System.Tuple`5.System#IComparable#CompareTo(System.Object)
   id: System#IComparable#CompareTo(System.Object)
   parent: System.Tuple`5
@@ -268,7 +261,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Tuple`5.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
   id: System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
   parent: System.Tuple`5
@@ -295,7 +287,6 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
-      description: 
 - uid: System.Tuple`5.GetHashCode
   id: GetHashCode
   parent: System.Tuple`5
@@ -316,7 +307,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Tuple`5.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
   id: System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
@@ -342,7 +332,6 @@ items:
       type: System.Collections.IEqualityComparer
     return:
       type: System.Int32
-      description: 
 - uid: System.Tuple`5.ToString
   id: ToString
   parent: System.Tuple`5
@@ -363,7 +352,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System

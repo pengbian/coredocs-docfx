@@ -84,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.ProviderName
   id: ProviderName
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -105,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.ProviderType
   id: ProviderType
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -126,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.KeyContainerName
   id: KeyContainerName
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -147,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName
   id: UniqueKeyContainerName
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -168,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.KeyNumber
   id: KeyNumber
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -189,7 +184,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeyNumber
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.Exportable
   id: Exportable
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -210,7 +204,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice
   id: HardwareDevice
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -231,7 +224,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.Removable
   id: Removable
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -252,7 +244,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.Accessible
   id: Accessible
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -273,7 +264,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.Protected
   id: Protected
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -294,7 +284,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.CspKeyContainerInfo.RandomlyGenerated
   id: RandomlyGenerated
   parent: System.Security.Cryptography.CspKeyContainerInfo
@@ -315,7 +304,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

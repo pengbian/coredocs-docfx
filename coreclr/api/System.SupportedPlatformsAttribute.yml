@@ -111,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.Platforms
-      description: 
 references:
 - uid: System
   isExternal: false

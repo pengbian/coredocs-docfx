@@ -143,7 +143,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.Cryptography.AsymmetricSignatureDeformatter.VerifySignature(System.Byte[],System.Byte[])
 references:
 - uid: System.Security.Cryptography

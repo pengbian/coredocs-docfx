@@ -82,7 +82,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.CriticalHandle.IsInvalid
 references:
 - uid: Microsoft.Win32.SafeHandles

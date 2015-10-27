@@ -121,7 +121,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.PermissionSetAttribute.UnicodeEncoded
   id: UnicodeEncoded
   parent: System.Security.Permissions.PermissionSetAttribute
@@ -142,7 +141,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.PermissionSetAttribute.Name
   id: Name
   parent: System.Security.Permissions.PermissionSetAttribute
@@ -163,7 +161,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.PermissionSetAttribute.XML
   id: XML
   parent: System.Security.Permissions.PermissionSetAttribute
@@ -184,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.PermissionSetAttribute.Hex
   id: Hex
   parent: System.Security.Permissions.PermissionSetAttribute
@@ -205,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.PermissionSetAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.PermissionSetAttribute
@@ -225,7 +220,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 - uid: System.Security.Permissions.PermissionSetAttribute.CreatePermissionSet
   id: CreatePermissionSet
@@ -246,7 +240,6 @@ items:
     content.vb: Public Function CreatePermissionSet As PermissionSet
     return:
       type: System.Security.PermissionSet
-      description: 
 references:
 - uid: System.Security.Permissions
   isExternal: false

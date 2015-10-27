@@ -232,7 +232,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerVisualizerAttribute.VisualizerTypeName
   id: VisualizerTypeName
   parent: System.Diagnostics.DebuggerVisualizerAttribute
@@ -253,7 +252,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerVisualizerAttribute.Description
   id: Description
   parent: System.Diagnostics.DebuggerVisualizerAttribute
@@ -274,7 +272,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerVisualizerAttribute.Target
   id: Target
   parent: System.Diagnostics.DebuggerVisualizerAttribute
@@ -295,7 +292,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Diagnostics.DebuggerVisualizerAttribute.TargetTypeName
   id: TargetTypeName
   parent: System.Diagnostics.DebuggerVisualizerAttribute
@@ -316,7 +312,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

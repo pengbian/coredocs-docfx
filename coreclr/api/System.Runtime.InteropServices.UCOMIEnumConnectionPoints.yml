@@ -53,7 +53,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Skip(System.Int32)
   id: Skip(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
@@ -76,7 +75,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Reset
   id: Reset
   parent: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
@@ -96,7 +94,6 @@ items:
     content.vb: Function Reset As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Clone(System.Runtime.InteropServices.UCOMIEnumConnectionPoints@)
   id: Clone(System.Runtime.InteropServices.UCOMIEnumConnectionPoints@)
   parent: System.Runtime.InteropServices.UCOMIEnumConnectionPoints

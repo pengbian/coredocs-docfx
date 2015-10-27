@@ -84,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.RegionInfo
-      description: 
 - uid: System.Globalization.RegionInfo.Name
   id: Name
   parent: System.Globalization.RegionInfo
@@ -105,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.EnglishName
   id: EnglishName
   parent: System.Globalization.RegionInfo
@@ -126,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.DisplayName
   id: DisplayName
   parent: System.Globalization.RegionInfo
@@ -147,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.NativeName
   id: NativeName
   parent: System.Globalization.RegionInfo
@@ -168,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.TwoLetterISORegionName
   id: TwoLetterISORegionName
   parent: System.Globalization.RegionInfo
@@ -189,7 +184,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.IsMetric
   id: IsMetric
   parent: System.Globalization.RegionInfo
@@ -210,7 +204,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.RegionInfo.GeoId
   id: GeoId
   parent: System.Globalization.RegionInfo
@@ -231,7 +224,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.RegionInfo.CurrencyEnglishName
   id: CurrencyEnglishName
   parent: System.Globalization.RegionInfo
@@ -252,7 +244,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.CurrencyNativeName
   id: CurrencyNativeName
   parent: System.Globalization.RegionInfo
@@ -273,7 +264,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.CurrencySymbol
   id: CurrencySymbol
   parent: System.Globalization.RegionInfo
@@ -294,7 +284,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.ISOCurrencySymbol
   id: ISOCurrencySymbol
   parent: System.Globalization.RegionInfo
@@ -315,7 +304,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.RegionInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Globalization.RegionInfo
@@ -338,7 +326,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Globalization.RegionInfo.GetHashCode
   id: GetHashCode
@@ -359,7 +346,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Globalization.RegionInfo.ToString
   id: ToString
@@ -380,7 +366,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Globalization

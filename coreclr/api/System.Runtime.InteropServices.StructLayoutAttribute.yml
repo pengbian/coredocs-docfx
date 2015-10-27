@@ -135,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.LayoutKind
-      description: 
 - uid: System.Runtime.InteropServices.StructLayoutAttribute.Pack
   id: Pack
   parent: System.Runtime.InteropServices.StructLayoutAttribute

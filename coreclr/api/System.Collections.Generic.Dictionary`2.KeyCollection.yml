@@ -95,7 +95,6 @@ items:
     content.vb: Public Function GetEnumerator As Dictionary(Of TKey, TValue).KeyCollection.Enumerator
     return:
       type: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.CopyTo(`0[],System.Int32)
   id: CopyTo(`0[],System.Int32)
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#Generic#ICollection{TKey}#IsReadOnly
   id: System#Collections#Generic#ICollection{TKey}#IsReadOnly
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -164,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#Generic#ICollection{TKey}#Add(`0)
   id: System#Collections#Generic#ICollection{TKey}#Add(`0)
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -230,7 +227,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#Generic#ICollection{TKey}#Remove(`0)
   id: System#Collections#Generic#ICollection{TKey}#Remove(`0)
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -255,7 +251,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#Generic#IEnumerable{TKey}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{TKey}#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -277,7 +272,6 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<TKey>.GetEnumerator As IEnumerator(Of TKey) Implements IEnumerable(Of TKey).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{{TKey}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -299,7 +293,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -346,7 +339,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.KeyCollection.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.Dictionary`2.KeyCollection
@@ -369,7 +361,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

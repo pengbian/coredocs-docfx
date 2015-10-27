@@ -103,7 +103,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Reflection.MemberInfo.Module
 - uid: System.Reflection.Emit.FieldBuilder.Name
   id: Name
@@ -125,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Reflection.Emit.FieldBuilder.DeclaringType
   id: DeclaringType
@@ -147,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.DeclaringType
 - uid: System.Reflection.Emit.FieldBuilder.ReflectedType
   id: ReflectedType
@@ -169,7 +166,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.ReflectedType
 - uid: System.Reflection.Emit.FieldBuilder.FieldType
   id: FieldType
@@ -191,7 +187,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.FieldInfo.FieldType
 - uid: System.Reflection.Emit.FieldBuilder.GetValue(System.Object)
   id: GetValue(System.Object)
@@ -215,7 +210,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
   overridden: System.Reflection.FieldInfo.GetValue(System.Object)
 - uid: System.Reflection.Emit.FieldBuilder.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo)
   id: SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo)
@@ -266,7 +260,6 @@ items:
     parameters: []
     return:
       type: System.RuntimeFieldHandle
-      description: 
   overridden: System.Reflection.FieldInfo.FieldHandle
 - uid: System.Reflection.Emit.FieldBuilder.Attributes
   id: Attributes
@@ -288,7 +281,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.FieldAttributes
-      description: 
   overridden: System.Reflection.FieldInfo.Attributes
 - uid: System.Reflection.Emit.FieldBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -312,7 +304,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.FieldBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -338,7 +329,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.FieldBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -364,7 +354,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.FieldBuilder.GetToken
   id: GetToken
@@ -385,7 +374,6 @@ items:
     content.vb: Public Function GetToken As FieldToken
     return:
       type: System.Reflection.Emit.FieldToken
-      description: 
 - uid: System.Reflection.Emit.FieldBuilder.SetOffset(System.Int32)
   id: SetOffset(System.Int32)
   parent: System.Reflection.Emit.FieldBuilder

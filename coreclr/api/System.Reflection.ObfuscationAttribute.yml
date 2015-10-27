@@ -111,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.ObfuscationAttribute.Exclude
   id: Exclude
   parent: System.Reflection.ObfuscationAttribute
@@ -132,7 +131,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.ObfuscationAttribute.ApplyToMembers
   id: ApplyToMembers
   parent: System.Reflection.ObfuscationAttribute
@@ -153,7 +151,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.ObfuscationAttribute.Feature
   id: Feature
   parent: System.Reflection.ObfuscationAttribute
@@ -174,7 +171,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

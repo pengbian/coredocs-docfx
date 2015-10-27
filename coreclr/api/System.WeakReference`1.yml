@@ -111,7 +111,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.WeakReference`1.SetTarget(`0)
   id: SetTarget(`0)
   parent: System.WeakReference`1

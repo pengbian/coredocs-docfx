@@ -59,7 +59,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.DeriveBytes.Reset
   id: Reset
   parent: System.Security.Cryptography.DeriveBytes

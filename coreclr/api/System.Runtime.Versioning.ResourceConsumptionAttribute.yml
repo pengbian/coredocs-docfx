@@ -135,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Versioning.ResourceScope
-      description: 
 - uid: System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope
   id: ConsumptionScope
   parent: System.Runtime.Versioning.ResourceConsumptionAttribute
@@ -156,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Versioning.ResourceScope
-      description: 
 references:
 - uid: System.Runtime.Versioning
   isExternal: false

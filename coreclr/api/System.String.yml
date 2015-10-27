@@ -227,7 +227,6 @@ items:
       type: System.String[]
     return:
       type: System.String
-      description: 
 - uid: System.String.Join(System.String,System.Object[])
   id: Join(System.String,System.Object[])
   parent: System.String
@@ -254,7 +253,6 @@ items:
       type: System.Object[]
     return:
       type: System.String
-      description: 
 - uid: System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0})
   id: Join``1(System.String,System.Collections.Generic.IEnumerable{``0})
   parent: System.String
@@ -283,7 +281,6 @@ items:
     - id: T
     return:
       type: System.String
-      description: 
 - uid: System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String})
   id: Join(System.String,System.Collections.Generic.IEnumerable{System.String})
   parent: System.String
@@ -310,7 +307,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     return:
       type: System.String
-      description: 
 - uid: System.String.Join(System.String,System.String[],System.Int32,System.Int32)
   id: Join(System.String,System.String[],System.Int32,System.Int32)
   parent: System.String
@@ -341,7 +337,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.String
@@ -364,7 +359,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.String.Equals(System.String)
   id: Equals(System.String)
@@ -388,7 +382,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.Equals(System.String,System.StringComparison)
   id: Equals(System.String,System.StringComparison)
   parent: System.String
@@ -413,7 +406,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.Equals(System.String,System.String)
   id: Equals(System.String,System.String)
   parent: System.String
@@ -438,7 +430,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.Equals(System.String,System.String,System.StringComparison)
   id: Equals(System.String,System.String,System.StringComparison)
   parent: System.String
@@ -465,7 +456,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.op_Equality(System.String,System.String)
   id: op_Equality(System.String,System.String)
   parent: System.String
@@ -490,7 +480,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.op_Inequality(System.String,System.String)
   id: op_Inequality(System.String,System.String)
   parent: System.String
@@ -515,7 +504,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.Chars(System.Int32)
   id: Chars(System.Int32)
   parent: System.String
@@ -539,7 +527,6 @@ items:
       type: System.Int32
     return:
       type: System.Char
-      description: 
 - uid: System.String.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)
   id: CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)
   parent: System.String
@@ -587,7 +574,6 @@ items:
     content.vb: Public Function ToCharArray As Char()
     return:
       type: System.Char[]
-      description: 
 - uid: System.String.ToCharArray(System.Int32,System.Int32)
   id: ToCharArray(System.Int32,System.Int32)
   parent: System.String
@@ -612,7 +598,6 @@ items:
       type: System.Int32
     return:
       type: System.Char[]
-      description: 
 - uid: System.String.IsNullOrEmpty(System.String)
   id: IsNullOrEmpty(System.String)
   parent: System.String
@@ -635,7 +620,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.IsNullOrWhiteSpace(System.String)
   id: IsNullOrWhiteSpace(System.String)
   parent: System.String
@@ -658,7 +642,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.GetHashCode
   id: GetHashCode
   parent: System.String
@@ -678,7 +661,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.String.Length
   id: Length
@@ -723,7 +705,6 @@ items:
       type: System.Char[]
     return:
       type: System.String[]
-      description: 
 - uid: System.String.Split(System.Char[],System.Int32)
   id: Split(System.Char[],System.Int32)
   parent: System.String
@@ -750,7 +731,6 @@ items:
       type: System.Int32
     return:
       type: System.String[]
-      description: 
 - uid: System.String.Split(System.Char[],System.StringSplitOptions)
   id: Split(System.Char[],System.StringSplitOptions)
   parent: System.String
@@ -777,7 +757,6 @@ items:
       type: System.StringSplitOptions
     return:
       type: System.String[]
-      description: 
 - uid: System.String.Split(System.Char[],System.Int32,System.StringSplitOptions)
   id: Split(System.Char[],System.Int32,System.StringSplitOptions)
   parent: System.String
@@ -806,7 +785,6 @@ items:
       type: System.StringSplitOptions
     return:
       type: System.String[]
-      description: 
 - uid: System.String.Split(System.String[],System.StringSplitOptions)
   id: Split(System.String[],System.StringSplitOptions)
   parent: System.String
@@ -833,7 +811,6 @@ items:
       type: System.StringSplitOptions
     return:
       type: System.String[]
-      description: 
 - uid: System.String.Split(System.String[],System.Int32,System.StringSplitOptions)
   id: Split(System.String[],System.Int32,System.StringSplitOptions)
   parent: System.String
@@ -862,7 +839,6 @@ items:
       type: System.StringSplitOptions
     return:
       type: System.String[]
-      description: 
 - uid: System.String.Substring(System.Int32)
   id: Substring(System.Int32)
   parent: System.String
@@ -885,7 +861,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.Substring(System.Int32,System.Int32)
   id: Substring(System.Int32,System.Int32)
   parent: System.String
@@ -910,7 +885,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.Trim(System.Char[])
   id: Trim(System.Char[])
   parent: System.String
@@ -935,7 +909,6 @@ items:
       type: System.Char[]
     return:
       type: System.String
-      description: 
 - uid: System.String.TrimStart(System.Char[])
   id: TrimStart(System.Char[])
   parent: System.String
@@ -960,7 +933,6 @@ items:
       type: System.Char[]
     return:
       type: System.String
-      description: 
 - uid: System.String.TrimEnd(System.Char[])
   id: TrimEnd(System.Char[])
   parent: System.String
@@ -985,7 +957,6 @@ items:
       type: System.Char[]
     return:
       type: System.String
-      description: 
 - uid: System.String.#ctor(System.Char*)
   id: '#ctor(System.Char*)'
   parent: System.String
@@ -1114,7 +1085,6 @@ items:
     content.vb: Public Function IsNormalized As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.IsNormalized(System.Text.NormalizationForm)
   id: IsNormalized(System.Text.NormalizationForm)
   parent: System.String
@@ -1137,7 +1107,6 @@ items:
       type: System.Text.NormalizationForm
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.Normalize
   id: Normalize
   parent: System.String
@@ -1157,7 +1126,6 @@ items:
     content.vb: Public Function Normalize As String
     return:
       type: System.String
-      description: 
 - uid: System.String.Normalize(System.Text.NormalizationForm)
   id: Normalize(System.Text.NormalizationForm)
   parent: System.String
@@ -1180,7 +1148,6 @@ items:
       type: System.Text.NormalizationForm
     return:
       type: System.String
-      description: 
 - uid: System.String.#ctor(System.Char[],System.Int32,System.Int32)
   id: '#ctor(System.Char[],System.Int32,System.Int32)'
   parent: System.String
@@ -1272,7 +1239,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.String,System.Boolean)
   id: Compare(System.String,System.String,System.Boolean)
   parent: System.String
@@ -1299,7 +1265,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.String,System.StringComparison)
   id: Compare(System.String,System.String,System.StringComparison)
   parent: System.String
@@ -1326,7 +1291,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions)
   id: Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions)
   parent: System.String
@@ -1355,7 +1319,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
   id: Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
   parent: System.String
@@ -1384,7 +1347,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32)
   id: Compare(System.String,System.Int32,System.String,System.Int32,System.Int32)
   parent: System.String
@@ -1415,7 +1377,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean)
   id: Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean)
   parent: System.String
@@ -1448,7 +1409,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo)
   id: Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo)
   parent: System.String
@@ -1483,7 +1443,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions)
   id: Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions)
   parent: System.String
@@ -1518,7 +1477,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison)
   id: Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison)
   parent: System.String
@@ -1551,7 +1509,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.String
@@ -1574,7 +1531,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.String.CompareTo(System.String)
   id: CompareTo(System.String)
   parent: System.String
@@ -1597,7 +1553,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.String.CompareOrdinal(System.String,System.String)
   id: CompareOrdinal(System.String,System.String)
   parent: System.String
@@ -1622,7 +1577,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.String.CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32)
   id: CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32)
   parent: System.String
@@ -1653,7 +1607,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.Contains(System.String)
   id: Contains(System.String)
   parent: System.String
@@ -1676,7 +1629,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.EndsWith(System.String)
   id: EndsWith(System.String)
   parent: System.String
@@ -1699,7 +1651,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.EndsWith(System.String,System.StringComparison)
   id: EndsWith(System.String,System.StringComparison)
   parent: System.String
@@ -1724,7 +1675,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo)
   id: EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo)
   parent: System.String
@@ -1751,7 +1701,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.IndexOf(System.Char)
   id: IndexOf(System.Char)
   parent: System.String
@@ -1774,7 +1723,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.Char,System.Int32)
   id: IndexOf(System.Char,System.Int32)
   parent: System.String
@@ -1799,7 +1747,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.Char,System.Int32,System.Int32)
   id: IndexOf(System.Char,System.Int32,System.Int32)
   parent: System.String
@@ -1825,7 +1772,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOfAny(System.Char[])
   id: IndexOfAny(System.Char[])
   parent: System.String
@@ -1850,7 +1796,6 @@ items:
       type: System.Char[]
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOfAny(System.Char[],System.Int32)
   id: IndexOfAny(System.Char[],System.Int32)
   parent: System.String
@@ -1877,7 +1822,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOfAny(System.Char[],System.Int32,System.Int32)
   id: IndexOfAny(System.Char[],System.Int32,System.Int32)
   parent: System.String
@@ -1905,7 +1849,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.String)
   id: IndexOf(System.String)
   parent: System.String
@@ -1928,7 +1871,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.String,System.Int32)
   id: IndexOf(System.String,System.Int32)
   parent: System.String
@@ -1953,7 +1895,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.String,System.Int32,System.Int32)
   id: IndexOf(System.String,System.Int32,System.Int32)
   parent: System.String
@@ -1980,7 +1921,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.String,System.StringComparison)
   id: IndexOf(System.String,System.StringComparison)
   parent: System.String
@@ -2005,7 +1945,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.String,System.Int32,System.StringComparison)
   id: IndexOf(System.String,System.Int32,System.StringComparison)
   parent: System.String
@@ -2032,7 +1971,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison)
   id: IndexOf(System.String,System.Int32,System.Int32,System.StringComparison)
   parent: System.String
@@ -2061,7 +1999,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.Char)
   id: LastIndexOf(System.Char)
   parent: System.String
@@ -2084,7 +2021,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.Char,System.Int32)
   id: LastIndexOf(System.Char,System.Int32)
   parent: System.String
@@ -2109,7 +2045,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.Char,System.Int32,System.Int32)
   id: LastIndexOf(System.Char,System.Int32,System.Int32)
   parent: System.String
@@ -2135,7 +2070,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOfAny(System.Char[])
   id: LastIndexOfAny(System.Char[])
   parent: System.String
@@ -2160,7 +2094,6 @@ items:
       type: System.Char[]
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOfAny(System.Char[],System.Int32)
   id: LastIndexOfAny(System.Char[],System.Int32)
   parent: System.String
@@ -2187,7 +2120,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOfAny(System.Char[],System.Int32,System.Int32)
   id: LastIndexOfAny(System.Char[],System.Int32,System.Int32)
   parent: System.String
@@ -2215,7 +2147,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.String)
   id: LastIndexOf(System.String)
   parent: System.String
@@ -2238,7 +2169,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.String,System.Int32)
   id: LastIndexOf(System.String,System.Int32)
   parent: System.String
@@ -2263,7 +2193,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.String,System.Int32,System.Int32)
   id: LastIndexOf(System.String,System.Int32,System.Int32)
   parent: System.String
@@ -2290,7 +2219,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.String,System.StringComparison)
   id: LastIndexOf(System.String,System.StringComparison)
   parent: System.String
@@ -2315,7 +2243,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.String,System.Int32,System.StringComparison)
   id: LastIndexOf(System.String,System.Int32,System.StringComparison)
   parent: System.String
@@ -2342,7 +2269,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison)
   id: LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison)
   parent: System.String
@@ -2371,7 +2297,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.String.PadLeft(System.Int32)
   id: PadLeft(System.Int32)
   parent: System.String
@@ -2394,7 +2319,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.PadLeft(System.Int32,System.Char)
   id: PadLeft(System.Int32,System.Char)
   parent: System.String
@@ -2419,7 +2343,6 @@ items:
       type: System.Char
     return:
       type: System.String
-      description: 
 - uid: System.String.PadRight(System.Int32)
   id: PadRight(System.Int32)
   parent: System.String
@@ -2442,7 +2365,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.PadRight(System.Int32,System.Char)
   id: PadRight(System.Int32,System.Char)
   parent: System.String
@@ -2467,7 +2389,6 @@ items:
       type: System.Char
     return:
       type: System.String
-      description: 
 - uid: System.String.StartsWith(System.String)
   id: StartsWith(System.String)
   parent: System.String
@@ -2490,7 +2411,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.StartsWith(System.String,System.StringComparison)
   id: StartsWith(System.String,System.StringComparison)
   parent: System.String
@@ -2515,7 +2435,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo)
   id: StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo)
   parent: System.String
@@ -2542,7 +2461,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Boolean
-      description: 
 - uid: System.String.ToLower
   id: ToLower
   parent: System.String
@@ -2562,7 +2480,6 @@ items:
     content.vb: Public Function ToLower As String
     return:
       type: System.String
-      description: 
 - uid: System.String.ToLower(System.Globalization.CultureInfo)
   id: ToLower(System.Globalization.CultureInfo)
   parent: System.String
@@ -2585,7 +2502,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.String
-      description: 
 - uid: System.String.ToLowerInvariant
   id: ToLowerInvariant
   parent: System.String
@@ -2605,7 +2521,6 @@ items:
     content.vb: Public Function ToLowerInvariant As String
     return:
       type: System.String
-      description: 
 - uid: System.String.ToUpper
   id: ToUpper
   parent: System.String
@@ -2625,7 +2540,6 @@ items:
     content.vb: Public Function ToUpper As String
     return:
       type: System.String
-      description: 
 - uid: System.String.ToUpper(System.Globalization.CultureInfo)
   id: ToUpper(System.Globalization.CultureInfo)
   parent: System.String
@@ -2648,7 +2562,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.String
-      description: 
 - uid: System.String.ToUpperInvariant
   id: ToUpperInvariant
   parent: System.String
@@ -2668,7 +2581,6 @@ items:
     content.vb: Public Function ToUpperInvariant As String
     return:
       type: System.String
-      description: 
 - uid: System.String.ToString
   id: ToString
   parent: System.String
@@ -2688,7 +2600,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.String.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -2712,7 +2623,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.String.Clone
   id: Clone
   parent: System.String
@@ -2732,7 +2642,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.String.Trim
   id: Trim
   parent: System.String
@@ -2752,7 +2661,6 @@ items:
     content.vb: Public Function Trim As String
     return:
       type: System.String
-      description: 
 - uid: System.String.Insert(System.Int32,System.String)
   id: Insert(System.Int32,System.String)
   parent: System.String
@@ -2777,7 +2685,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.Replace(System.Char,System.Char)
   id: Replace(System.Char,System.Char)
   parent: System.String
@@ -2802,7 +2709,6 @@ items:
       type: System.Char
     return:
       type: System.String
-      description: 
 - uid: System.String.Replace(System.String,System.String)
   id: Replace(System.String,System.String)
   parent: System.String
@@ -2827,7 +2733,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.Remove(System.Int32,System.Int32)
   id: Remove(System.Int32,System.Int32)
   parent: System.String
@@ -2852,7 +2757,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.Remove(System.Int32)
   id: Remove(System.Int32)
   parent: System.String
@@ -2875,7 +2779,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.String,System.Object)
   id: Format(System.String,System.Object)
   parent: System.String
@@ -2900,7 +2803,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.String,System.Object,System.Object)
   id: Format(System.String,System.Object,System.Object)
   parent: System.String
@@ -2927,7 +2829,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.String,System.Object,System.Object,System.Object)
   id: Format(System.String,System.Object,System.Object,System.Object)
   parent: System.String
@@ -2956,7 +2857,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.String,System.Object[])
   id: Format(System.String,System.Object[])
   parent: System.String
@@ -2983,7 +2883,6 @@ items:
       type: System.Object[]
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.IFormatProvider,System.String,System.Object)
   id: Format(System.IFormatProvider,System.String,System.Object)
   parent: System.String
@@ -3010,7 +2909,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object)
   id: Format(System.IFormatProvider,System.String,System.Object,System.Object)
   parent: System.String
@@ -3039,7 +2937,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)
   id: Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)
   parent: System.String
@@ -3070,7 +2967,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Format(System.IFormatProvider,System.String,System.Object[])
   id: Format(System.IFormatProvider,System.String,System.Object[])
   parent: System.String
@@ -3099,7 +2995,6 @@ items:
       type: System.Object[]
     return:
       type: System.String
-      description: 
 - uid: System.String.Copy(System.String)
   id: Copy(System.String)
   parent: System.String
@@ -3122,7 +3017,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.Object)
   id: Concat(System.Object)
   parent: System.String
@@ -3145,7 +3039,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.Object,System.Object)
   id: Concat(System.Object,System.Object)
   parent: System.String
@@ -3170,7 +3063,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.Object,System.Object,System.Object)
   id: Concat(System.Object,System.Object,System.Object)
   parent: System.String
@@ -3197,7 +3089,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.Object,System.Object,System.Object,System.Object,)
   id: Concat(System.Object,System.Object,System.Object,System.Object,)
   parent: System.String
@@ -3226,7 +3117,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.Object[])
   id: Concat(System.Object[])
   parent: System.String
@@ -3251,7 +3141,6 @@ items:
       type: System.Object[]
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat``1(System.Collections.Generic.IEnumerable{``0})
   id: Concat``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.String
@@ -3278,7 +3167,6 @@ items:
     - id: T
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.Collections.Generic.IEnumerable{System.String})
   id: Concat(System.Collections.Generic.IEnumerable{System.String})
   parent: System.String
@@ -3303,7 +3191,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.String,System.String)
   id: Concat(System.String,System.String)
   parent: System.String
@@ -3328,7 +3215,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.String,System.String,System.String)
   id: Concat(System.String,System.String,System.String)
   parent: System.String
@@ -3355,7 +3241,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.String,System.String,System.String,System.String)
   id: Concat(System.String,System.String,System.String,System.String)
   parent: System.String
@@ -3384,7 +3269,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.Concat(System.String[])
   id: Concat(System.String[])
   parent: System.String
@@ -3409,7 +3293,6 @@ items:
       type: System.String[]
     return:
       type: System.String
-      description: 
 - uid: System.String.Intern(System.String)
   id: Intern(System.String)
   parent: System.String
@@ -3432,7 +3315,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.IsInterned(System.String)
   id: IsInterned(System.String)
   parent: System.String
@@ -3455,7 +3337,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.String.GetTypeCode
   id: GetTypeCode
   parent: System.String
@@ -3475,7 +3356,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.String.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.String
@@ -3843,7 +3723,6 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator As IEnumerator(Of Char) Implements IEnumerable(Of Char).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Char}
-      description: 
 - uid: System.String.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.String

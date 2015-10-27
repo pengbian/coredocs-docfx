@@ -104,7 +104,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.Equals(System.Object)
 - uid: System.Reflection.EventInfo.GetHashCode
   id: GetHashCode
@@ -125,7 +124,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.MemberInfo.GetHashCode
 - uid: System.Reflection.EventInfo.MemberType
   id: MemberType
@@ -147,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MemberTypes
-      description: 
   overridden: System.Reflection.MemberInfo.MemberType
 - uid: System.Reflection.EventInfo.GetOtherMethods(System.Boolean)
   id: GetOtherMethods(System.Boolean)
@@ -171,7 +168,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.EventInfo.GetAddMethod(System.Boolean)
   id: GetAddMethod(System.Boolean)
   parent: System.Reflection.EventInfo
@@ -194,7 +190,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.GetRemoveMethod(System.Boolean)
   id: GetRemoveMethod(System.Boolean)
   parent: System.Reflection.EventInfo
@@ -217,7 +212,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.GetRaiseMethod(System.Boolean)
   id: GetRaiseMethod(System.Boolean)
   parent: System.Reflection.EventInfo
@@ -240,7 +234,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.Attributes
   id: Attributes
   parent: System.Reflection.EventInfo
@@ -261,7 +254,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.EventAttributes
-      description: 
 - uid: System.Reflection.EventInfo.AddMethod
   id: AddMethod
   parent: System.Reflection.EventInfo
@@ -282,7 +274,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.RemoveMethod
   id: RemoveMethod
   parent: System.Reflection.EventInfo
@@ -303,7 +294,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.RaiseMethod
   id: RaiseMethod
   parent: System.Reflection.EventInfo
@@ -324,7 +314,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.GetOtherMethods
   id: GetOtherMethods
   parent: System.Reflection.EventInfo
@@ -344,7 +333,6 @@ items:
     content.vb: Public Function GetOtherMethods As MethodInfo()
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.EventInfo.GetAddMethod
   id: GetAddMethod
   parent: System.Reflection.EventInfo
@@ -364,7 +352,6 @@ items:
     content.vb: Public Function GetAddMethod As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.GetRemoveMethod
   id: GetRemoveMethod
   parent: System.Reflection.EventInfo
@@ -384,7 +371,6 @@ items:
     content.vb: Public Function GetRemoveMethod As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.GetRaiseMethod
   id: GetRaiseMethod
   parent: System.Reflection.EventInfo
@@ -404,7 +390,6 @@ items:
     content.vb: Public Function GetRaiseMethod As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.EventInfo.AddEventHandler(System.Object,System.Delegate)
   id: AddEventHandler(System.Object,System.Delegate)
   parent: System.Reflection.EventInfo
@@ -469,7 +454,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.EventInfo.IsSpecialName
   id: IsSpecialName
   parent: System.Reflection.EventInfo
@@ -490,7 +474,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.EventInfo.IsMulticast
   id: IsMulticast
   parent: System.Reflection.EventInfo
@@ -511,7 +494,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

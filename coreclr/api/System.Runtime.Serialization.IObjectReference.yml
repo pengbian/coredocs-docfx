@@ -44,7 +44,6 @@ items:
       type: System.Runtime.Serialization.StreamingContext
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

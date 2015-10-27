@@ -55,7 +55,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.Versioning.CompatibilitySwitch.GetValue(System.String)
   id: GetValue(System.String)
   parent: System.Runtime.Versioning.CompatibilitySwitch
@@ -78,7 +77,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Runtime.Versioning
   isExternal: false

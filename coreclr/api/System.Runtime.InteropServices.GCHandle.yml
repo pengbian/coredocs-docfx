@@ -62,7 +62,6 @@ items:
       type: System.Object
     return:
       type: System.Runtime.InteropServices.GCHandle
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
   id: Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
   parent: System.Runtime.InteropServices.GCHandle
@@ -87,7 +86,6 @@ items:
       type: System.Runtime.InteropServices.GCHandleType
     return:
       type: System.Runtime.InteropServices.GCHandle
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.Free
   id: Free
   parent: System.Runtime.InteropServices.GCHandle
@@ -125,7 +123,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject
   id: AddrOfPinnedObject
   parent: System.Runtime.InteropServices.GCHandle
@@ -145,7 +142,6 @@ items:
     content.vb: Public Function AddrOfPinnedObject As IntPtr
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.IsAllocated
   id: IsAllocated
   parent: System.Runtime.InteropServices.GCHandle
@@ -166,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.IntPtr)~System.Runtime.InteropServices.GCHandle
   id: op_Explicit(System.IntPtr)~System.Runtime.InteropServices.GCHandle
   parent: System.Runtime.InteropServices.GCHandle
@@ -191,7 +186,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Runtime.InteropServices.GCHandle
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
   id: FromIntPtr(System.IntPtr)
   parent: System.Runtime.InteropServices.GCHandle
@@ -214,7 +208,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Runtime.InteropServices.GCHandle
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.Runtime.InteropServices.GCHandle)~System.IntPtr
   id: op_Explicit(System.Runtime.InteropServices.GCHandle)~System.IntPtr
   parent: System.Runtime.InteropServices.GCHandle
@@ -239,7 +232,6 @@ items:
       type: System.Runtime.InteropServices.GCHandle
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
   id: ToIntPtr(System.Runtime.InteropServices.GCHandle)
   parent: System.Runtime.InteropServices.GCHandle
@@ -262,7 +254,6 @@ items:
       type: System.Runtime.InteropServices.GCHandle
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.GetHashCode
   id: GetHashCode
   parent: System.Runtime.InteropServices.GCHandle
@@ -282,7 +273,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Runtime.InteropServices.GCHandle.Equals(System.Object)
   id: Equals(System.Object)
@@ -306,7 +296,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Runtime.InteropServices.GCHandle.op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
   id: op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
@@ -332,7 +321,6 @@ items:
       type: System.Runtime.InteropServices.GCHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.GCHandle.op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
   id: op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
   parent: System.Runtime.InteropServices.GCHandle
@@ -357,7 +345,6 @@ items:
       type: System.Runtime.InteropServices.GCHandle
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

@@ -111,7 +111,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.Equals(System.Object)
 - uid: System.Reflection.PropertyInfo.GetHashCode
   id: GetHashCode
@@ -132,7 +131,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.MemberInfo.GetHashCode
 - uid: System.Reflection.PropertyInfo.MemberType
   id: MemberType
@@ -154,7 +152,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MemberTypes
-      description: 
   overridden: System.Reflection.MemberInfo.MemberType
 - uid: System.Reflection.PropertyInfo.GetConstantValue
   id: GetConstantValue
@@ -175,7 +172,6 @@ items:
     content.vb: Public Overridable Function GetConstantValue As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.PropertyInfo.GetRawConstantValue
   id: GetRawConstantValue
   parent: System.Reflection.PropertyInfo
@@ -195,7 +191,6 @@ items:
     content.vb: Public Overridable Function GetRawConstantValue As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.PropertyInfo.PropertyType
   id: PropertyType
   parent: System.Reflection.PropertyInfo
@@ -216,7 +211,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   id: SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   parent: System.Reflection.PropertyInfo
@@ -271,7 +265,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.PropertyInfo.GetGetMethod(System.Boolean)
   id: GetGetMethod(System.Boolean)
   parent: System.Reflection.PropertyInfo
@@ -294,7 +287,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.PropertyInfo.GetSetMethod(System.Boolean)
   id: GetSetMethod(System.Boolean)
   parent: System.Reflection.PropertyInfo
@@ -317,7 +309,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.PropertyInfo.GetIndexParameters
   id: GetIndexParameters
   parent: System.Reflection.PropertyInfo
@@ -337,7 +328,6 @@ items:
     content.vb: Public MustOverride Function GetIndexParameters As ParameterInfo()
     return:
       type: System.Reflection.ParameterInfo[]
-      description: 
 - uid: System.Reflection.PropertyInfo.Attributes
   id: Attributes
   parent: System.Reflection.PropertyInfo
@@ -358,7 +348,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyAttributes
-      description: 
 - uid: System.Reflection.PropertyInfo.CanRead
   id: CanRead
   parent: System.Reflection.PropertyInfo
@@ -379,7 +368,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.PropertyInfo.CanWrite
   id: CanWrite
   parent: System.Reflection.PropertyInfo
@@ -400,7 +388,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.PropertyInfo.GetValue(System.Object)
   id: GetValue(System.Object)
   parent: System.Reflection.PropertyInfo
@@ -423,7 +410,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.PropertyInfo.GetValue(System.Object,System.Object[])
   id: GetValue(System.Object,System.Object[])
   parent: System.Reflection.PropertyInfo
@@ -450,7 +436,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.PropertyInfo.GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   id: GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   parent: System.Reflection.PropertyInfo
@@ -483,7 +468,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object)
   id: SetValue(System.Object,System.Object)
   parent: System.Reflection.PropertyInfo
@@ -551,7 +535,6 @@ items:
     content.vb: Public Overridable Function GetRequiredCustomModifiers As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.PropertyInfo.GetOptionalCustomModifiers
   id: GetOptionalCustomModifiers
   parent: System.Reflection.PropertyInfo
@@ -571,7 +554,6 @@ items:
     content.vb: Public Overridable Function GetOptionalCustomModifiers As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.PropertyInfo.GetAccessors
   id: GetAccessors
   parent: System.Reflection.PropertyInfo
@@ -591,7 +573,6 @@ items:
     content.vb: Public Function GetAccessors As MethodInfo()
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.PropertyInfo.GetMethod
   id: GetMethod
   parent: System.Reflection.PropertyInfo
@@ -612,7 +593,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.PropertyInfo.SetMethod
   id: SetMethod
   parent: System.Reflection.PropertyInfo
@@ -633,7 +613,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.PropertyInfo.GetGetMethod
   id: GetGetMethod
   parent: System.Reflection.PropertyInfo
@@ -653,7 +632,6 @@ items:
     content.vb: Public Function GetGetMethod As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.PropertyInfo.GetSetMethod
   id: GetSetMethod
   parent: System.Reflection.PropertyInfo
@@ -673,7 +651,6 @@ items:
     content.vb: Public Function GetSetMethod As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.PropertyInfo.IsSpecialName
   id: IsSpecialName
   parent: System.Reflection.PropertyInfo
@@ -694,7 +671,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

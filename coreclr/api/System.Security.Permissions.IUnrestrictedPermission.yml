@@ -41,7 +41,6 @@ items:
     content.vb: Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Permissions
   isExternal: false

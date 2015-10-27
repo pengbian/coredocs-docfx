@@ -44,7 +44,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Principal.IIdentity.AuthenticationType
   id: AuthenticationType
   parent: System.Security.Principal.IIdentity
@@ -65,7 +64,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Principal.IIdentity.IsAuthenticated
   id: IsAuthenticated
   parent: System.Security.Principal.IIdentity
@@ -86,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

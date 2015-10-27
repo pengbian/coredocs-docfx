@@ -94,7 +94,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.Parameters
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange(System.Byte[])
   id: DecryptKeyExchange(System.Byte[])
@@ -120,7 +119,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.DecryptKeyExchange(System.Byte[])
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
   id: SetKey(System.Security.Cryptography.AsymmetricAlgorithm)

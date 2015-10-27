@@ -135,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Resources.NeutralResourcesLanguageAttribute.Location
   id: Location
   parent: System.Resources.NeutralResourcesLanguageAttribute
@@ -156,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.Resources.UltimateResourceFallbackLocation
-      description: 
 references:
 - uid: System.Resources
   isExternal: false

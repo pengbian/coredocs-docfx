@@ -137,7 +137,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetByteCount(System.String)
   id: GetByteCount(System.String)
@@ -161,7 +160,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetByteCount(System.String)
 - uid: System.Text.ASCIIEncoding.GetByteCount(System.Char*,System.Int32)
   id: GetByteCount(System.Char*,System.Int32)
@@ -187,7 +185,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
   id: GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
@@ -221,7 +218,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
 - uid: System.Text.ASCIIEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
   id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
@@ -255,7 +251,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
 - uid: System.Text.ASCIIEncoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
   id: GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
@@ -285,7 +280,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
   id: GetCharCount(System.Byte[],System.Int32,System.Int32)
@@ -315,7 +309,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetCharCount(System.Byte*,System.Int32)
   id: GetCharCount(System.Byte*,System.Int32)
@@ -341,7 +334,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
   id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
@@ -375,7 +367,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 - uid: System.Text.ASCIIEncoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
   id: GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
@@ -405,7 +396,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetString(System.Byte[],System.Int32,System.Int32)
   id: GetString(System.Byte[],System.Int32,System.Int32)
@@ -435,7 +425,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
   overridden: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
 - uid: System.Text.ASCIIEncoding.GetMaxByteCount(System.Int32)
   id: GetMaxByteCount(System.Int32)
@@ -459,7 +448,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetMaxByteCount(System.Int32)
 - uid: System.Text.ASCIIEncoding.GetMaxCharCount(System.Int32)
   id: GetMaxCharCount(System.Int32)
@@ -483,7 +471,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetMaxCharCount(System.Int32)
 - uid: System.Text.ASCIIEncoding.IsSingleByte
   id: IsSingleByte
@@ -505,7 +492,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Text.Encoding.IsSingleByte
 - uid: System.Text.ASCIIEncoding.GetDecoder
   id: GetDecoder
@@ -526,7 +512,6 @@ items:
     content.vb: Public Overrides Function GetDecoder As Decoder
     return:
       type: System.Text.Decoder
-      description: 
   overridden: System.Text.Encoding.GetDecoder
 - uid: System.Text.ASCIIEncoding.GetEncoder
   id: GetEncoder
@@ -547,7 +532,6 @@ items:
     content.vb: Public Overrides Function GetEncoder As Encoder
     return:
       type: System.Text.Encoder
-      description: 
   overridden: System.Text.Encoding.GetEncoder
 references:
 - uid: System.Text

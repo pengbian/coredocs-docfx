@@ -203,7 +203,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetByteCount(System.String)
   id: GetByteCount(System.String)
@@ -227,7 +226,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetByteCount(System.String)
 - uid: System.Text.UnicodeEncoding.GetByteCount(System.Char*,System.Int32)
   id: GetByteCount(System.Char*,System.Int32)
@@ -253,7 +251,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
   id: GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
@@ -287,7 +284,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
 - uid: System.Text.UnicodeEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
   id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
@@ -321,7 +317,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
 - uid: System.Text.UnicodeEncoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
   id: GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
@@ -351,7 +346,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
   id: GetCharCount(System.Byte[],System.Int32,System.Int32)
@@ -381,7 +375,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetCharCount(System.Byte*,System.Int32)
   id: GetCharCount(System.Byte*,System.Int32)
@@ -407,7 +400,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
   id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
@@ -441,7 +433,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 - uid: System.Text.UnicodeEncoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
   id: GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
@@ -471,7 +462,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetString(System.Byte[],System.Int32,System.Int32)
   id: GetString(System.Byte[],System.Int32,System.Int32)
@@ -501,7 +491,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
   overridden: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
 - uid: System.Text.UnicodeEncoding.GetEncoder
   id: GetEncoder
@@ -522,7 +511,6 @@ items:
     content.vb: Public Overrides Function GetEncoder As Encoder
     return:
       type: System.Text.Encoder
-      description: 
   overridden: System.Text.Encoding.GetEncoder
 - uid: System.Text.UnicodeEncoding.GetDecoder
   id: GetDecoder
@@ -543,7 +531,6 @@ items:
     content.vb: Public Overrides Function GetDecoder As Decoder
     return:
       type: System.Text.Decoder
-      description: 
   overridden: System.Text.Encoding.GetDecoder
 - uid: System.Text.UnicodeEncoding.GetPreamble
   id: GetPreamble
@@ -564,7 +551,6 @@ items:
     content.vb: Public Overrides Function GetPreamble As Byte()
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Text.Encoding.GetPreamble
 - uid: System.Text.UnicodeEncoding.GetMaxByteCount(System.Int32)
   id: GetMaxByteCount(System.Int32)
@@ -588,7 +574,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetMaxByteCount(System.Int32)
 - uid: System.Text.UnicodeEncoding.GetMaxCharCount(System.Int32)
   id: GetMaxCharCount(System.Int32)
@@ -612,7 +597,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetMaxCharCount(System.Int32)
 - uid: System.Text.UnicodeEncoding.Equals(System.Object)
   id: Equals(System.Object)
@@ -636,7 +620,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Text.Encoding.Equals(System.Object)
 - uid: System.Text.UnicodeEncoding.GetHashCode
   id: GetHashCode
@@ -657,7 +640,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.Encoding.GetHashCode
 references:
 - uid: System.Text

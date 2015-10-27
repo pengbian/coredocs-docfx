@@ -75,7 +75,6 @@ items:
       type: System.String
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Text.EncodingProvider.GetEncoding(System.Int32)
   id: GetEncoding(System.Int32)
   parent: System.Text.EncodingProvider
@@ -98,7 +97,6 @@ items:
       type: System.Int32
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Text.EncodingProvider.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
   id: GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
   parent: System.Text.EncodingProvider
@@ -125,7 +123,6 @@ items:
       type: System.Text.DecoderFallback
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Text.EncodingProvider.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
   id: GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
   parent: System.Text.EncodingProvider
@@ -152,7 +149,6 @@ items:
       type: System.Text.DecoderFallback
     return:
       type: System.Text.Encoding
-      description: 
 references:
 - uid: System.Text
   isExternal: false

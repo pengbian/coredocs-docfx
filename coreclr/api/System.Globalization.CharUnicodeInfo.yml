@@ -61,7 +61,6 @@ items:
       type: System.Char
     return:
       type: System.Double
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetNumericValue(System.String,System.Int32)
   id: GetNumericValue(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
@@ -86,7 +85,6 @@ items:
       type: System.Int32
     return:
       type: System.Double
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.Char)
   id: GetDecimalDigitValue(System.Char)
   parent: System.Globalization.CharUnicodeInfo
@@ -109,7 +107,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.String,System.Int32)
   id: GetDecimalDigitValue(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
@@ -134,7 +131,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetDigitValue(System.Char)
   id: GetDigitValue(System.Char)
   parent: System.Globalization.CharUnicodeInfo
@@ -157,7 +153,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetDigitValue(System.String,System.Int32)
   id: GetDigitValue(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
@@ -182,7 +177,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)
   id: GetUnicodeCategory(System.Char)
   parent: System.Globalization.CharUnicodeInfo
@@ -205,7 +199,6 @@ items:
       type: System.Char
     return:
       type: System.Globalization.UnicodeCategory
-      description: 
 - uid: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.String,System.Int32)
   id: GetUnicodeCategory(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
@@ -230,7 +223,6 @@ items:
       type: System.Int32
     return:
       type: System.Globalization.UnicodeCategory
-      description: 
 references:
 - uid: System.Globalization
   isExternal: false

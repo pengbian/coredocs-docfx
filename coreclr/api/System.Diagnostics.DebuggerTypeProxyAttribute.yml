@@ -134,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerTypeProxyAttribute.Target
   id: Target
   parent: System.Diagnostics.DebuggerTypeProxyAttribute
@@ -155,7 +154,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Diagnostics.DebuggerTypeProxyAttribute.TargetTypeName
   id: TargetTypeName
   parent: System.Diagnostics.DebuggerTypeProxyAttribute
@@ -176,7 +174,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

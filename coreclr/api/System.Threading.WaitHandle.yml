@@ -130,7 +130,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Threading.WaitHandle.SafeWaitHandle
   id: SafeWaitHandle
   parent: System.Threading.WaitHandle
@@ -151,7 +150,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
-      description: 
 - uid: System.Threading.WaitHandle.WaitOne(System.Int32,System.Boolean)
   id: WaitOne(System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -176,7 +174,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitOne(System.TimeSpan,System.Boolean)
   id: WaitOne(System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -201,7 +198,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitOne
   id: WaitOne
   parent: System.Threading.WaitHandle
@@ -221,7 +217,6 @@ items:
     content.vb: Public Overridable Function WaitOne As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitOne(System.Int32)
   id: WaitOne(System.Int32)
   parent: System.Threading.WaitHandle
@@ -244,7 +239,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitOne(System.TimeSpan)
   id: WaitOne(System.TimeSpan)
   parent: System.Threading.WaitHandle
@@ -267,7 +261,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   id: WaitAll(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -296,7 +289,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   id: WaitAll(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -325,7 +317,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[])
   id: WaitAll(System.Threading.WaitHandle[])
   parent: System.Threading.WaitHandle
@@ -350,7 +341,6 @@ items:
       type: System.Threading.WaitHandle[]
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.Int32)
   id: WaitAll(System.Threading.WaitHandle[],System.Int32)
   parent: System.Threading.WaitHandle
@@ -377,7 +367,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.TimeSpan)
   id: WaitAll(System.Threading.WaitHandle[],System.TimeSpan)
   parent: System.Threading.WaitHandle
@@ -404,7 +393,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   id: WaitAny(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -433,7 +421,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   id: WaitAny(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -462,7 +449,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.TimeSpan)
   id: WaitAny(System.Threading.WaitHandle[],System.TimeSpan)
   parent: System.Threading.WaitHandle
@@ -489,7 +475,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[])
   id: WaitAny(System.Threading.WaitHandle[])
   parent: System.Threading.WaitHandle
@@ -514,7 +499,6 @@ items:
       type: System.Threading.WaitHandle[]
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32)
   id: WaitAny(System.Threading.WaitHandle[],System.Int32)
   parent: System.Threading.WaitHandle
@@ -541,7 +525,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle)
   id: SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle)
   parent: System.Threading.WaitHandle
@@ -566,7 +549,6 @@ items:
       type: System.Threading.WaitHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.TimeSpan,System.Boolean)
   id: SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -595,7 +577,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.Int32,System.Boolean)
   id: SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
@@ -624,7 +605,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.WaitHandle.Close
   id: Close
   parent: System.Threading.WaitHandle

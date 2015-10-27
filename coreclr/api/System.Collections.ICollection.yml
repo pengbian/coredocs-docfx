@@ -69,7 +69,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.ICollection.SyncRoot
   id: SyncRoot
   parent: System.Collections.ICollection
@@ -90,7 +89,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.ICollection.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.ICollection
@@ -111,7 +109,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

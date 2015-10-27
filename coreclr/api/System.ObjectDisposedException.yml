@@ -157,7 +157,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.ObjectDisposedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
   parent: System.ObjectDisposedException

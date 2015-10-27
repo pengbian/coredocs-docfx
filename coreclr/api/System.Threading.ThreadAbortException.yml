@@ -67,7 +67,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

@@ -57,7 +57,6 @@ items:
     content.vb: Public Function MoveNext As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.TextElementEnumerator.Current
   id: Current
   parent: System.Globalization.TextElementEnumerator
@@ -78,7 +77,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Globalization.TextElementEnumerator.GetTextElement
   id: GetTextElement
   parent: System.Globalization.TextElementEnumerator
@@ -98,7 +96,6 @@ items:
     content.vb: Public Function GetTextElement As String
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.TextElementEnumerator.ElementIndex
   id: ElementIndex
   parent: System.Globalization.TextElementEnumerator
@@ -119,7 +116,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.TextElementEnumerator.Reset
   id: Reset
   parent: System.Globalization.TextElementEnumerator

@@ -72,7 +72,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.PKCS1MaskGenerationMethod.GenerateMask(System.Byte[],System.Int32)
   id: GenerateMask(System.Byte[],System.Int32)
   parent: System.Security.Cryptography.PKCS1MaskGenerationMethod
@@ -99,7 +98,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.MaskGenerationMethod.GenerateMask(System.Byte[],System.Int32)
 references:
 - uid: System.Security.Cryptography

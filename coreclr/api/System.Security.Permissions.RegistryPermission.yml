@@ -188,7 +188,6 @@ items:
       type: System.Security.Permissions.RegistryPermissionAccess
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermission.IsUnrestricted
   id: IsUnrestricted
   parent: System.Security.Permissions.RegistryPermission
@@ -208,7 +207,6 @@ items:
     content.vb: Public Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.RegistryPermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.RegistryPermission
@@ -231,7 +229,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
 - uid: System.Security.Permissions.RegistryPermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
@@ -255,7 +252,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
 - uid: System.Security.Permissions.RegistryPermission.Union(System.Security.IPermission)
   id: Union(System.Security.IPermission)
@@ -279,7 +275,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
 - uid: System.Security.Permissions.RegistryPermission.Copy
   id: Copy
@@ -300,7 +295,6 @@ items:
     content.vb: Public Overrides Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Copy
 references:
 - uid: System.Security.Permissions

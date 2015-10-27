@@ -139,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.KeyContainerPermissionFlags
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermission.AccessEntries
   id: AccessEntries
   parent: System.Security.Permissions.KeyContainerPermission
@@ -160,7 +159,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermission.IsUnrestricted
   id: IsUnrestricted
   parent: System.Security.Permissions.KeyContainerPermission
@@ -180,7 +178,6 @@ items:
     content.vb: Public Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.KeyContainerPermission
@@ -203,7 +200,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
 - uid: System.Security.Permissions.KeyContainerPermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
@@ -227,7 +223,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
 - uid: System.Security.Permissions.KeyContainerPermission.Union(System.Security.IPermission)
   id: Union(System.Security.IPermission)
@@ -251,7 +246,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
 - uid: System.Security.Permissions.KeyContainerPermission.Copy
   id: Copy
@@ -272,7 +266,6 @@ items:
     content.vb: Public Overrides Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Copy
 references:
 - uid: System.Security.Permissions

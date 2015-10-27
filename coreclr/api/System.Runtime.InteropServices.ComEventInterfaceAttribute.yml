@@ -114,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Runtime.InteropServices.ComEventInterfaceAttribute.EventProvider
   id: EventProvider
   parent: System.Runtime.InteropServices.ComEventInterfaceAttribute
@@ -135,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

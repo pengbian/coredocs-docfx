@@ -75,7 +75,6 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

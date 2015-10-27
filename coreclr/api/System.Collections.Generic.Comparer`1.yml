@@ -63,7 +63,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.Comparer`1
-      description: 
 - uid: System.Collections.Generic.Comparer`1.Create(System.Comparison{`0})
   id: Create(System.Comparison{`0})
   parent: System.Collections.Generic.Comparer`1
@@ -88,7 +87,6 @@ items:
       type: System.Comparison{{T}}
     return:
       type: System.Collections.Generic.Comparer`1
-      description: 
 - uid: System.Collections.Generic.Comparer`1.Compare(`0,`0)
   id: Compare(`0,`0)
   parent: System.Collections.Generic.Comparer`1
@@ -114,7 +112,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.Comparer`1.System#Collections#IComparer#Compare(System.Object,System.Object)
   id: System#Collections#IComparer#Compare(System.Object,System.Object)
   parent: System.Collections.Generic.Comparer`1
@@ -141,7 +138,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

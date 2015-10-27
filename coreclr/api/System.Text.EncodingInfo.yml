@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.EncodingInfo.Name
   id: Name
   parent: System.Text.EncodingInfo
@@ -76,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Text.EncodingInfo.DisplayName
   id: DisplayName
   parent: System.Text.EncodingInfo
@@ -97,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Text.EncodingInfo.GetEncoding
   id: GetEncoding
   parent: System.Text.EncodingInfo
@@ -117,7 +114,6 @@ items:
     content.vb: Public Function GetEncoding As Encoding
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.Text.EncodingInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Text.EncodingInfo
@@ -140,7 +136,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Text.EncodingInfo.GetHashCode
   id: GetHashCode
@@ -161,7 +156,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Text

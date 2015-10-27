@@ -74,7 +74,6 @@ items:
     parameters: []
     return:
       type: System.Threading.CancellationToken
-      description: 
 - uid: System.OperationCanceledException.#ctor
   id: '#ctor'
   parent: System.OperationCanceledException

@@ -175,7 +175,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Exception.ToString
 references:
 - uid: System.Runtime.InteropServices

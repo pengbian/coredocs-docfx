@@ -88,7 +88,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
 - uid: System.Activator.CreateInstance(System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstance(System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.Activator
@@ -123,7 +122,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Activator.CreateInstance(System.Type,System.Object[])
   id: CreateInstance(System.Type,System.Object[])
   parent: System.Activator
@@ -150,7 +148,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Activator.CreateInstance(System.Type,System.Object[],System.Object[])
   id: CreateInstance(System.Type,System.Object[],System.Object[])
   parent: System.Activator
@@ -179,7 +176,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Activator.CreateInstance(System.Type)
   id: CreateInstance(System.Type)
   parent: System.Activator
@@ -202,7 +198,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 - uid: System.Activator.CreateInstance(System.String,System.String)
   id: CreateInstance(System.String,System.String)
   parent: System.Activator
@@ -227,7 +222,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.String,System.String,System.Object[])
   id: CreateInstance(System.String,System.String,System.Object[])
   parent: System.Activator
@@ -256,7 +250,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.Type,System.Boolean)
   id: CreateInstance(System.Type,System.Boolean)
   parent: System.Activator
@@ -281,7 +274,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object
-      description: 
 - uid: System.Activator.CreateInstance``1
   id: CreateInstance``1
   parent: System.Activator
@@ -305,7 +297,6 @@ items:
     - id: T
     return:
       type: '{T}'
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.String,System.String)
   id: CreateInstanceFrom(System.String,System.String)
   parent: System.Activator
@@ -330,7 +321,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.String,System.String,System.Object[])
   id: CreateInstanceFrom(System.String,System.String,System.Object[])
   parent: System.Activator
@@ -359,7 +349,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.Activator
@@ -400,7 +389,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.Activator
@@ -439,7 +427,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.Activator
@@ -480,7 +467,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.Activator
@@ -519,7 +505,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.AppDomain,System.String,System.String)
   id: CreateInstance(System.AppDomain,System.String,System.String)
   parent: System.Activator
@@ -546,7 +531,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstance(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.Activator
@@ -589,7 +573,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstance(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstance(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.Activator
@@ -630,7 +613,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.AppDomain,System.String,System.String)
   id: CreateInstanceFrom(System.AppDomain,System.String,System.String)
   parent: System.Activator
@@ -657,7 +639,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstanceFrom(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.Activator
@@ -700,7 +681,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateInstanceFrom(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstanceFrom(System.AppDomain,System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.Activator
@@ -741,7 +721,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateComInstanceFrom(System.String,System.String)
   id: CreateComInstanceFrom(System.String,System.String)
   parent: System.Activator
@@ -766,7 +745,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.Activator.CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   id: CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.Activator
@@ -797,7 +775,6 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -70,7 +70,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.SignatureToken.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Emit.SignatureToken
@@ -90,7 +89,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.SignatureToken.Equals(System.Object)
   id: Equals(System.Object)
@@ -114,7 +112,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.SignatureToken.Equals(System.Reflection.Emit.SignatureToken)
   id: Equals(System.Reflection.Emit.SignatureToken)
@@ -138,7 +135,6 @@ items:
       type: System.Reflection.Emit.SignatureToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.SignatureToken.op_Equality(System.Reflection.Emit.SignatureToken,System.Reflection.Emit.SignatureToken)
   id: op_Equality(System.Reflection.Emit.SignatureToken,System.Reflection.Emit.SignatureToken)
   parent: System.Reflection.Emit.SignatureToken
@@ -163,7 +159,6 @@ items:
       type: System.Reflection.Emit.SignatureToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.SignatureToken.op_Inequality(System.Reflection.Emit.SignatureToken,System.Reflection.Emit.SignatureToken)
   id: op_Inequality(System.Reflection.Emit.SignatureToken,System.Reflection.Emit.SignatureToken)
   parent: System.Reflection.Emit.SignatureToken
@@ -188,7 +183,6 @@ items:
       type: System.Reflection.Emit.SignatureToken
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

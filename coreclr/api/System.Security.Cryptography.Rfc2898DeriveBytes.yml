@@ -188,7 +188,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.Salt
   id: Salt
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
@@ -209,7 +208,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes(System.Int32)
   id: GetBytes(System.Int32)
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
@@ -232,7 +230,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.DeriveBytes.GetBytes(System.Int32)
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.Reset
   id: Reset
@@ -303,7 +300,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

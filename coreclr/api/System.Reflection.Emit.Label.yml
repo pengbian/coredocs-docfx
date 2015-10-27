@@ -50,7 +50,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.Label.Equals(System.Object)
   id: Equals(System.Object)
@@ -74,7 +73,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.Label.Equals(System.Reflection.Emit.Label)
   id: Equals(System.Reflection.Emit.Label)
@@ -98,7 +96,6 @@ items:
       type: System.Reflection.Emit.Label
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.Label.op_Equality(System.Reflection.Emit.Label,System.Reflection.Emit.Label)
   id: op_Equality(System.Reflection.Emit.Label,System.Reflection.Emit.Label)
   parent: System.Reflection.Emit.Label
@@ -123,7 +120,6 @@ items:
       type: System.Reflection.Emit.Label
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.Label.op_Inequality(System.Reflection.Emit.Label,System.Reflection.Emit.Label)
   id: op_Inequality(System.Reflection.Emit.Label,System.Reflection.Emit.Label)
   parent: System.Reflection.Emit.Label
@@ -148,7 +144,6 @@ items:
       type: System.Reflection.Emit.Label
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

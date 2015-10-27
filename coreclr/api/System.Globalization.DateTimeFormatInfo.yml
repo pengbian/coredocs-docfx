@@ -115,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.DateTimeFormatInfo
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.CurrentInfo
   id: CurrentInfo
   parent: System.Globalization.DateTimeFormatInfo
@@ -136,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.DateTimeFormatInfo
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetInstance(System.IFormatProvider)
   id: GetInstance(System.IFormatProvider)
   parent: System.Globalization.DateTimeFormatInfo
@@ -159,7 +157,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Globalization.DateTimeFormatInfo
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetFormat(System.Type)
   id: GetFormat(System.Type)
   parent: System.Globalization.DateTimeFormatInfo
@@ -182,7 +179,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.Clone
   id: Clone
   parent: System.Globalization.DateTimeFormatInfo
@@ -202,7 +198,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.AMDesignator
   id: AMDesignator
   parent: System.Globalization.DateTimeFormatInfo
@@ -223,7 +218,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.Calendar
   id: Calendar
   parent: System.Globalization.DateTimeFormatInfo
@@ -244,7 +238,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.Calendar
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetEra(System.String)
   id: GetEra(System.String)
   parent: System.Globalization.DateTimeFormatInfo
@@ -267,7 +260,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetEraName(System.Int32)
   id: GetEraName(System.Int32)
   parent: System.Globalization.DateTimeFormatInfo
@@ -290,7 +282,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetAbbreviatedEraName(System.Int32)
   id: GetAbbreviatedEraName(System.Int32)
   parent: System.Globalization.DateTimeFormatInfo
@@ -313,7 +304,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.DateSeparator
   id: DateSeparator
   parent: System.Globalization.DateTimeFormatInfo
@@ -334,7 +324,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.FirstDayOfWeek
   id: FirstDayOfWeek
   parent: System.Globalization.DateTimeFormatInfo
@@ -355,7 +344,6 @@ items:
     parameters: []
     return:
       type: System.DayOfWeek
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.CalendarWeekRule
   id: CalendarWeekRule
   parent: System.Globalization.DateTimeFormatInfo
@@ -376,7 +364,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CalendarWeekRule
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.FullDateTimePattern
   id: FullDateTimePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -397,7 +384,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.LongDatePattern
   id: LongDatePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -418,7 +404,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.LongTimePattern
   id: LongTimePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -439,7 +424,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.MonthDayPattern
   id: MonthDayPattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -460,7 +444,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.PMDesignator
   id: PMDesignator
   parent: System.Globalization.DateTimeFormatInfo
@@ -481,7 +464,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.RFC1123Pattern
   id: RFC1123Pattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -502,7 +484,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.ShortDatePattern
   id: ShortDatePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -523,7 +504,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.ShortTimePattern
   id: ShortTimePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -544,7 +524,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.SortableDateTimePattern
   id: SortableDateTimePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -565,7 +544,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.TimeSeparator
   id: TimeSeparator
   parent: System.Globalization.DateTimeFormatInfo
@@ -586,7 +564,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.UniversalSortableDateTimePattern
   id: UniversalSortableDateTimePattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -607,7 +584,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.YearMonthPattern
   id: YearMonthPattern
   parent: System.Globalization.DateTimeFormatInfo
@@ -628,7 +604,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.AbbreviatedDayNames
   id: AbbreviatedDayNames
   parent: System.Globalization.DateTimeFormatInfo
@@ -649,7 +624,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.ShortestDayNames
   id: ShortestDayNames
   parent: System.Globalization.DateTimeFormatInfo
@@ -670,7 +644,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.DayNames
   id: DayNames
   parent: System.Globalization.DateTimeFormatInfo
@@ -691,7 +664,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.AbbreviatedMonthNames
   id: AbbreviatedMonthNames
   parent: System.Globalization.DateTimeFormatInfo
@@ -712,7 +684,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.MonthNames
   id: MonthNames
   parent: System.Globalization.DateTimeFormatInfo
@@ -733,7 +704,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetAbbreviatedDayName(System.DayOfWeek)
   id: GetAbbreviatedDayName(System.DayOfWeek)
   parent: System.Globalization.DateTimeFormatInfo
@@ -756,7 +726,6 @@ items:
       type: System.DayOfWeek
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetShortestDayName(System.DayOfWeek)
   id: GetShortestDayName(System.DayOfWeek)
   parent: System.Globalization.DateTimeFormatInfo
@@ -779,7 +748,6 @@ items:
       type: System.DayOfWeek
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetAllDateTimePatterns
   id: GetAllDateTimePatterns
   parent: System.Globalization.DateTimeFormatInfo
@@ -799,7 +767,6 @@ items:
     content.vb: Public Function GetAllDateTimePatterns As String()
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetAllDateTimePatterns(System.Char)
   id: GetAllDateTimePatterns(System.Char)
   parent: System.Globalization.DateTimeFormatInfo
@@ -822,7 +789,6 @@ items:
       type: System.Char
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetDayName(System.DayOfWeek)
   id: GetDayName(System.DayOfWeek)
   parent: System.Globalization.DateTimeFormatInfo
@@ -845,7 +811,6 @@ items:
       type: System.DayOfWeek
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetAbbreviatedMonthName(System.Int32)
   id: GetAbbreviatedMonthName(System.Int32)
   parent: System.Globalization.DateTimeFormatInfo
@@ -868,7 +833,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.GetMonthName(System.Int32)
   id: GetMonthName(System.Int32)
   parent: System.Globalization.DateTimeFormatInfo
@@ -891,7 +855,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.ReadOnly(System.Globalization.DateTimeFormatInfo)
   id: ReadOnly(System.Globalization.DateTimeFormatInfo)
   parent: System.Globalization.DateTimeFormatInfo
@@ -914,7 +877,6 @@ items:
       type: System.Globalization.DateTimeFormatInfo
     return:
       type: System.Globalization.DateTimeFormatInfo
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.IsReadOnly
   id: IsReadOnly
   parent: System.Globalization.DateTimeFormatInfo
@@ -935,7 +897,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.NativeCalendarName
   id: NativeCalendarName
   parent: System.Globalization.DateTimeFormatInfo
@@ -956,7 +917,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.SetAllDateTimePatterns(System.String[],System.Char)
   id: SetAllDateTimePatterns(System.String[],System.Char)
   parent: System.Globalization.DateTimeFormatInfo
@@ -1001,7 +961,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Globalization.DateTimeFormatInfo.MonthGenitiveNames
   id: MonthGenitiveNames
   parent: System.Globalization.DateTimeFormatInfo
@@ -1022,7 +981,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 references:
 - uid: System.Globalization
   isExternal: false

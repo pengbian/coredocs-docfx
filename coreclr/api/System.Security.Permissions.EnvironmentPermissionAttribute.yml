@@ -118,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.EnvironmentPermissionAttribute.Write
   id: Write
   parent: System.Security.Permissions.EnvironmentPermissionAttribute
@@ -139,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.EnvironmentPermissionAttribute.All
   id: All
   parent: System.Security.Permissions.EnvironmentPermissionAttribute
@@ -160,7 +158,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.EnvironmentPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.EnvironmentPermissionAttribute
@@ -180,7 +177,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

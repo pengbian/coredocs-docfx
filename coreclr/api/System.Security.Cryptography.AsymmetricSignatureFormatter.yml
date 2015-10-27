@@ -115,7 +115,6 @@ items:
       type: System.Security.Cryptography.HashAlgorithm
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.AsymmetricSignatureFormatter.CreateSignature(System.Byte[])
   id: CreateSignature(System.Byte[])
   parent: System.Security.Cryptography.AsymmetricSignatureFormatter
@@ -140,7 +139,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

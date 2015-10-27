@@ -114,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.UInt32
-      description: 
 - uid: System.Reflection.AssemblyFlagsAttribute.AssemblyFlags
   id: AssemblyFlags
   parent: System.Reflection.AssemblyFlagsAttribute
@@ -135,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.AssemblyFlagsAttribute.#ctor(System.Int32)
   id: '#ctor(System.Int32)'
   parent: System.Reflection.AssemblyFlagsAttribute

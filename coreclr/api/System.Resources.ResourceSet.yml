@@ -217,7 +217,6 @@ items:
     content.vb: Public Overridable Function GetDefaultReader As Type
     return:
       type: System.Type
-      description: 
 - uid: System.Resources.ResourceSet.GetEnumerator
   id: GetEnumerator
   parent: System.Resources.ResourceSet
@@ -237,7 +236,6 @@ items:
     content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Resources.ResourceSet.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Resources.ResourceSet
@@ -280,7 +278,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Resources.ResourceSet.GetString(System.String,System.Boolean)
   id: GetString(System.String,System.Boolean)
   parent: System.Resources.ResourceSet
@@ -305,7 +302,6 @@ items:
       type: System.Boolean
     return:
       type: System.String
-      description: 
 - uid: System.Resources.ResourceSet.GetObject(System.String)
   id: GetObject(System.String)
   parent: System.Resources.ResourceSet
@@ -328,7 +324,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.Resources.ResourceSet.GetObject(System.String,System.Boolean)
   id: GetObject(System.String,System.Boolean)
   parent: System.Resources.ResourceSet
@@ -353,7 +348,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object
-      description: 
 - uid: System.Resources.ResourceSet.ReadResources
   id: ReadResources
   parent: System.Resources.ResourceSet

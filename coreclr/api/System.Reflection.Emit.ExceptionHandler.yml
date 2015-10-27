@@ -62,7 +62,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.TryOffset
   id: TryOffset
   parent: System.Reflection.Emit.ExceptionHandler
@@ -83,7 +82,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.TryLength
   id: TryLength
   parent: System.Reflection.Emit.ExceptionHandler
@@ -104,7 +102,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.FilterOffset
   id: FilterOffset
   parent: System.Reflection.Emit.ExceptionHandler
@@ -125,7 +122,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.HandlerOffset
   id: HandlerOffset
   parent: System.Reflection.Emit.ExceptionHandler
@@ -146,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.HandlerLength
   id: HandlerLength
   parent: System.Reflection.Emit.ExceptionHandler
@@ -167,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.Kind
   id: Kind
   parent: System.Reflection.Emit.ExceptionHandler
@@ -188,7 +182,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ExceptionHandlingClauseOptions
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Reflection.ExceptionHandlingClauseOptions,System.Int32)
   id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Reflection.ExceptionHandlingClauseOptions,System.Int32)'
   parent: System.Reflection.Emit.ExceptionHandler
@@ -256,7 +249,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.ExceptionHandler.Equals(System.Object)
   id: Equals(System.Object)
@@ -280,7 +272,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.ExceptionHandler.Equals(System.Reflection.Emit.ExceptionHandler)
   id: Equals(System.Reflection.Emit.ExceptionHandler)
@@ -304,7 +295,6 @@ items:
       type: System.Reflection.Emit.ExceptionHandler
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.op_Equality(System.Reflection.Emit.ExceptionHandler,System.Reflection.Emit.ExceptionHandler)
   id: op_Equality(System.Reflection.Emit.ExceptionHandler,System.Reflection.Emit.ExceptionHandler)
   parent: System.Reflection.Emit.ExceptionHandler
@@ -329,7 +319,6 @@ items:
       type: System.Reflection.Emit.ExceptionHandler
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.ExceptionHandler.op_Inequality(System.Reflection.Emit.ExceptionHandler,System.Reflection.Emit.ExceptionHandler)
   id: op_Inequality(System.Reflection.Emit.ExceptionHandler,System.Reflection.Emit.ExceptionHandler)
   parent: System.Reflection.Emit.ExceptionHandler
@@ -354,7 +343,6 @@ items:
       type: System.Reflection.Emit.ExceptionHandler
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

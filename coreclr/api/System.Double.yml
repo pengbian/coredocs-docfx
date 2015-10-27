@@ -202,7 +202,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.IsPositiveInfinity(System.Double)
   id: IsPositiveInfinity(System.Double)
   parent: System.Double
@@ -225,7 +224,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.IsNegativeInfinity(System.Double)
   id: IsNegativeInfinity(System.Double)
   parent: System.Double
@@ -248,7 +246,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.IsNaN(System.Double)
   id: IsNaN(System.Double)
   parent: System.Double
@@ -271,7 +268,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Double
@@ -294,7 +290,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Double.CompareTo(System.Double)
   id: CompareTo(System.Double)
   parent: System.Double
@@ -317,7 +312,6 @@ items:
       type: System.Double
     return:
       type: System.Int32
-      description: 
 - uid: System.Double.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Double
@@ -340,7 +334,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Double.op_Equality(System.Double,System.Double)
   id: op_Equality(System.Double,System.Double)
@@ -366,7 +359,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.op_Inequality(System.Double,System.Double)
   id: op_Inequality(System.Double,System.Double)
   parent: System.Double
@@ -391,7 +383,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.op_LessThan(System.Double,System.Double)
   id: op_LessThan(System.Double,System.Double)
   parent: System.Double
@@ -416,7 +407,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.op_GreaterThan(System.Double,System.Double)
   id: op_GreaterThan(System.Double,System.Double)
   parent: System.Double
@@ -441,7 +431,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.op_LessThanOrEqual(System.Double,System.Double)
   id: op_LessThanOrEqual(System.Double,System.Double)
   parent: System.Double
@@ -466,7 +455,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.op_GreaterThanOrEqual(System.Double,System.Double)
   id: op_GreaterThanOrEqual(System.Double,System.Double)
   parent: System.Double
@@ -491,7 +479,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.Equals(System.Double)
   id: Equals(System.Double)
   parent: System.Double
@@ -514,7 +501,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.GetHashCode
   id: GetHashCode
   parent: System.Double
@@ -534,7 +520,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Double.ToString
   id: ToString
@@ -555,7 +540,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Double.ToString(System.String)
   id: ToString(System.String)
@@ -579,7 +563,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Double.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.Double
@@ -602,7 +585,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Double.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.Double
@@ -627,7 +609,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Double.Parse(System.String)
   id: Parse(System.String)
   parent: System.Double
@@ -650,7 +631,6 @@ items:
       type: System.String
     return:
       type: System.Double
-      description: 
 - uid: System.Double.Parse(System.String,System.Globalization.NumberStyles)
   id: Parse(System.String,System.Globalization.NumberStyles)
   parent: System.Double
@@ -675,7 +655,6 @@ items:
       type: System.Globalization.NumberStyles
     return:
       type: System.Double
-      description: 
 - uid: System.Double.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.Double
@@ -700,7 +679,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Double
-      description: 
 - uid: System.Double.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   id: Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   parent: System.Double
@@ -727,7 +705,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Double
-      description: 
 - uid: System.Double.TryParse(System.String,System.Double@)
   id: TryParse(System.String,System.Double@)
   parent: System.Double
@@ -754,7 +731,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)
   id: TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)
   parent: System.Double
@@ -785,7 +761,6 @@ items:
       type: System.Double
     return:
       type: System.Boolean
-      description: 
 - uid: System.Double.GetTypeCode
   id: GetTypeCode
   parent: System.Double
@@ -805,7 +780,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.Double.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.Double

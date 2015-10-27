@@ -84,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled
   id: IsEnabled
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -105,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize
   id: UsedSize
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -126,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.Quota
   id: Quota
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -147,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace
   id: AvailableFreeSpace
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -168,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.Remove
   id: Remove
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -225,7 +220,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)
   id: DeleteFile(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -268,7 +262,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)
   id: DirectoryExists(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -291,7 +284,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)
   id: CreateDirectory(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -351,7 +343,6 @@ items:
     content.vb: Public Function GetFileNames As String()
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)
   id: GetFileNames(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -374,7 +365,6 @@ items:
       type: System.String
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames
   id: GetDirectoryNames
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -394,7 +384,6 @@ items:
     content.vb: Public Function GetDirectoryNames As String()
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)
   id: GetDirectoryNames(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -417,7 +406,6 @@ items:
       type: System.String
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)
   id: OpenFile(System.String,System.IO.FileMode)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -442,7 +430,6 @@ items:
       type: System.IO.FileMode
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageFileStream
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)
   id: OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -469,7 +456,6 @@ items:
       type: System.IO.FileAccess
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageFileStream
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   id: OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -498,7 +484,6 @@ items:
       type: System.IO.FileShare
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageFileStream
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)
   id: CreateFile(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -521,7 +506,6 @@ items:
       type: System.String
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageFileStream
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)
   id: GetCreationTime(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -544,7 +528,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)
   id: GetLastAccessTime(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -567,7 +550,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)
   id: GetLastWriteTime(System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -590,7 +572,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)
   id: CopyFile(System.String,System.String)
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -700,7 +681,6 @@ items:
     content.vb: Public Shared Function GetUserStoreForApplication As IsolatedStorageFile
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageFile
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite
   id: GetUserStoreForSite
   parent: System.IO.IsolatedStorage.IsolatedStorageFile
@@ -720,7 +700,6 @@ items:
     content.vb: Public Shared Function GetUserStoreForSite As IsolatedStorageFile
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageFile
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFile.Dispose
   id: Dispose
   parent: System.IO.IsolatedStorage.IsolatedStorageFile

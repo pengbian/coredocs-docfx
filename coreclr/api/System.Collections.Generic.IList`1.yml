@@ -62,7 +62,6 @@ items:
       type: System.Int32
     return:
       type: '{T}'
-      description: 
 - uid: System.Collections.Generic.IList`1.IndexOf(`0)
   id: IndexOf(`0)
   parent: System.Collections.Generic.IList`1
@@ -86,7 +85,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
   id: Insert(System.Int32,`0)
   parent: System.Collections.Generic.IList`1

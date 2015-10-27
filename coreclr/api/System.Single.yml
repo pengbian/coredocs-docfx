@@ -202,7 +202,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.IsPositiveInfinity(System.Single)
   id: IsPositiveInfinity(System.Single)
   parent: System.Single
@@ -225,7 +224,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.IsNegativeInfinity(System.Single)
   id: IsNegativeInfinity(System.Single)
   parent: System.Single
@@ -248,7 +246,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.IsNaN(System.Single)
   id: IsNaN(System.Single)
   parent: System.Single
@@ -271,7 +268,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Single
@@ -294,7 +290,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Single.CompareTo(System.Single)
   id: CompareTo(System.Single)
   parent: System.Single
@@ -317,7 +312,6 @@ items:
       type: System.Single
     return:
       type: System.Int32
-      description: 
 - uid: System.Single.op_Equality(System.Single,System.Single)
   id: op_Equality(System.Single,System.Single)
   parent: System.Single
@@ -342,7 +336,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.op_Inequality(System.Single,System.Single)
   id: op_Inequality(System.Single,System.Single)
   parent: System.Single
@@ -367,7 +360,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.op_LessThan(System.Single,System.Single)
   id: op_LessThan(System.Single,System.Single)
   parent: System.Single
@@ -392,7 +384,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.op_GreaterThan(System.Single,System.Single)
   id: op_GreaterThan(System.Single,System.Single)
   parent: System.Single
@@ -417,7 +408,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.op_LessThanOrEqual(System.Single,System.Single)
   id: op_LessThanOrEqual(System.Single,System.Single)
   parent: System.Single
@@ -442,7 +432,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.op_GreaterThanOrEqual(System.Single,System.Single)
   id: op_GreaterThanOrEqual(System.Single,System.Single)
   parent: System.Single
@@ -467,7 +456,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Single
@@ -490,7 +478,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Single.Equals(System.Single)
   id: Equals(System.Single)
@@ -514,7 +501,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.GetHashCode
   id: GetHashCode
   parent: System.Single
@@ -534,7 +520,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Single.ToString
   id: ToString
@@ -555,7 +540,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Single.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -579,7 +563,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Single.ToString(System.String)
   id: ToString(System.String)
   parent: System.Single
@@ -602,7 +585,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Single.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.Single
@@ -627,7 +609,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Single.Parse(System.String)
   id: Parse(System.String)
   parent: System.Single
@@ -650,7 +631,6 @@ items:
       type: System.String
     return:
       type: System.Single
-      description: 
 - uid: System.Single.Parse(System.String,System.Globalization.NumberStyles)
   id: Parse(System.String,System.Globalization.NumberStyles)
   parent: System.Single
@@ -675,7 +655,6 @@ items:
       type: System.Globalization.NumberStyles
     return:
       type: System.Single
-      description: 
 - uid: System.Single.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.Single
@@ -700,7 +679,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Single
-      description: 
 - uid: System.Single.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   id: Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   parent: System.Single
@@ -727,7 +705,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Single
-      description: 
 - uid: System.Single.TryParse(System.String,System.Single@)
   id: TryParse(System.String,System.Single@)
   parent: System.Single
@@ -754,7 +731,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Single@)
   id: TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Single@)
   parent: System.Single
@@ -785,7 +761,6 @@ items:
       type: System.Single
     return:
       type: System.Boolean
-      description: 
 - uid: System.Single.GetTypeCode
   id: GetTypeCode
   parent: System.Single
@@ -805,7 +780,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.Single.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.Single

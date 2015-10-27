@@ -62,7 +62,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.Convert(System.Object,System.TypeCode)
   id: Convert(System.Object,System.TypeCode)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -87,7 +86,6 @@ items:
       type: System.TypeCode
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToBoolean(System.Object)
   id: ToBoolean(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -110,7 +108,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToChar(System.Object)
   id: ToChar(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -133,7 +130,6 @@ items:
       type: System.Object
     return:
       type: System.Char
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToSByte(System.Object)
   id: ToSByte(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -156,7 +152,6 @@ items:
       type: System.Object
     return:
       type: System.SByte
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToByte(System.Object)
   id: ToByte(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -179,7 +174,6 @@ items:
       type: System.Object
     return:
       type: System.Byte
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToInt16(System.Object)
   id: ToInt16(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -202,7 +196,6 @@ items:
       type: System.Object
     return:
       type: System.Int16
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToUInt16(System.Object)
   id: ToUInt16(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -225,7 +218,6 @@ items:
       type: System.Object
     return:
       type: System.UInt16
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToInt32(System.Object)
   id: ToInt32(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -248,7 +240,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToUInt32(System.Object)
   id: ToUInt32(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -271,7 +262,6 @@ items:
       type: System.Object
     return:
       type: System.UInt32
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToInt64(System.Object)
   id: ToInt64(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -294,7 +284,6 @@ items:
       type: System.Object
     return:
       type: System.Int64
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToUInt64(System.Object)
   id: ToUInt64(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -317,7 +306,6 @@ items:
       type: System.Object
     return:
       type: System.UInt64
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToSingle(System.Object)
   id: ToSingle(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -340,7 +328,6 @@ items:
       type: System.Object
     return:
       type: System.Single
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToDouble(System.Object)
   id: ToDouble(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -363,7 +350,6 @@ items:
       type: System.Object
     return:
       type: System.Double
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToDecimal(System.Object)
   id: ToDecimal(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -386,7 +372,6 @@ items:
       type: System.Object
     return:
       type: System.Decimal
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToDateTime(System.Object)
   id: ToDateTime(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -409,7 +394,6 @@ items:
       type: System.Object
     return:
       type: System.DateTime
-      description: 
 - uid: System.Runtime.Serialization.IFormatterConverter.ToString(System.Object)
   id: ToString(System.Object)
   parent: System.Runtime.Serialization.IFormatterConverter
@@ -432,7 +416,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

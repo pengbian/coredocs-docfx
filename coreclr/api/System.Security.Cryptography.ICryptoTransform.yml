@@ -49,7 +49,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.ICryptoTransform.OutputBlockSize
   id: OutputBlockSize
   parent: System.Security.Cryptography.ICryptoTransform
@@ -70,7 +69,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.ICryptoTransform.CanTransformMultipleBlocks
   id: CanTransformMultipleBlocks
   parent: System.Security.Cryptography.ICryptoTransform
@@ -91,7 +89,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.ICryptoTransform.CanReuseTransform
   id: CanReuseTransform
   parent: System.Security.Cryptography.ICryptoTransform
@@ -112,7 +109,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.ICryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
   id: TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
   parent: System.Security.Cryptography.ICryptoTransform
@@ -145,7 +141,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.ICryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   id: TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.ICryptoTransform
@@ -174,7 +169,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

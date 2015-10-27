@@ -61,7 +61,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.IList.Add(System.Object)
   id: Add(System.Object)
   parent: System.Collections.IList
@@ -84,7 +83,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.IList.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.IList
@@ -107,7 +105,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IList.Clear
   id: Clear
   parent: System.Collections.IList
@@ -145,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IList.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.IList
@@ -166,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IList.IndexOf(System.Object)
   id: IndexOf(System.Object)
   parent: System.Collections.IList
@@ -189,7 +184,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.IList.Insert(System.Int32,System.Object)
   id: Insert(System.Int32,System.Object)
   parent: System.Collections.IList

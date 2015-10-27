@@ -96,7 +96,6 @@ items:
       type: System.Boolean
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Char)
   id: GetBytes(System.Char)
   parent: System.BitConverter
@@ -119,7 +118,6 @@ items:
       type: System.Char
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Int16)
   id: GetBytes(System.Int16)
   parent: System.BitConverter
@@ -142,7 +140,6 @@ items:
       type: System.Int16
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Int32)
   id: GetBytes(System.Int32)
   parent: System.BitConverter
@@ -165,7 +162,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Int64)
   id: GetBytes(System.Int64)
   parent: System.BitConverter
@@ -188,7 +184,6 @@ items:
       type: System.Int64
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.UInt16)
   id: GetBytes(System.UInt16)
   parent: System.BitConverter
@@ -211,7 +206,6 @@ items:
       type: System.UInt16
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.UInt32)
   id: GetBytes(System.UInt32)
   parent: System.BitConverter
@@ -234,7 +228,6 @@ items:
       type: System.UInt32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.UInt64)
   id: GetBytes(System.UInt64)
   parent: System.BitConverter
@@ -257,7 +250,6 @@ items:
       type: System.UInt64
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Single)
   id: GetBytes(System.Single)
   parent: System.BitConverter
@@ -280,7 +272,6 @@ items:
       type: System.Single
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.GetBytes(System.Double)
   id: GetBytes(System.Double)
   parent: System.BitConverter
@@ -303,7 +294,6 @@ items:
       type: System.Double
     return:
       type: System.Byte[]
-      description: 
 - uid: System.BitConverter.ToChar(System.Byte[],System.Int32)
   id: ToChar(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -330,7 +320,6 @@ items:
       type: System.Int32
     return:
       type: System.Char
-      description: 
 - uid: System.BitConverter.ToInt16(System.Byte[],System.Int32)
   id: ToInt16(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -357,7 +346,6 @@ items:
       type: System.Int32
     return:
       type: System.Int16
-      description: 
 - uid: System.BitConverter.ToInt32(System.Byte[],System.Int32)
   id: ToInt32(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -384,7 +372,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.BitConverter.ToInt64(System.Byte[],System.Int32)
   id: ToInt64(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -411,7 +398,6 @@ items:
       type: System.Int32
     return:
       type: System.Int64
-      description: 
 - uid: System.BitConverter.ToUInt16(System.Byte[],System.Int32)
   id: ToUInt16(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -438,7 +424,6 @@ items:
       type: System.Int32
     return:
       type: System.UInt16
-      description: 
 - uid: System.BitConverter.ToUInt32(System.Byte[],System.Int32)
   id: ToUInt32(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -465,7 +450,6 @@ items:
       type: System.Int32
     return:
       type: System.UInt32
-      description: 
 - uid: System.BitConverter.ToUInt64(System.Byte[],System.Int32)
   id: ToUInt64(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -492,7 +476,6 @@ items:
       type: System.Int32
     return:
       type: System.UInt64
-      description: 
 - uid: System.BitConverter.ToSingle(System.Byte[],System.Int32)
   id: ToSingle(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -519,7 +502,6 @@ items:
       type: System.Int32
     return:
       type: System.Single
-      description: 
 - uid: System.BitConverter.ToDouble(System.Byte[],System.Int32)
   id: ToDouble(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -546,7 +528,6 @@ items:
       type: System.Int32
     return:
       type: System.Double
-      description: 
 - uid: System.BitConverter.ToString(System.Byte[],System.Int32,System.Int32)
   id: ToString(System.Byte[],System.Int32,System.Int32)
   parent: System.BitConverter
@@ -575,7 +556,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.BitConverter.ToString(System.Byte[])
   id: ToString(System.Byte[])
   parent: System.BitConverter
@@ -600,7 +580,6 @@ items:
       type: System.Byte[]
     return:
       type: System.String
-      description: 
 - uid: System.BitConverter.ToString(System.Byte[],System.Int32)
   id: ToString(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -627,7 +606,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.BitConverter.ToBoolean(System.Byte[],System.Int32)
   id: ToBoolean(System.Byte[],System.Int32)
   parent: System.BitConverter
@@ -654,7 +632,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.BitConverter.DoubleToInt64Bits(System.Double)
   id: DoubleToInt64Bits(System.Double)
   parent: System.BitConverter
@@ -677,7 +654,6 @@ items:
       type: System.Double
     return:
       type: System.Int64
-      description: 
 - uid: System.BitConverter.Int64BitsToDouble(System.Int64)
   id: Int64BitsToDouble(System.Int64)
   parent: System.BitConverter
@@ -700,7 +676,6 @@ items:
       type: System.Int64
     return:
       type: System.Double
-      description: 
 references:
 - uid: System
   isExternal: false

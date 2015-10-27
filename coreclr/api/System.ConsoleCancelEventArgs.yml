@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.ConsoleCancelEventArgs.SpecialKey
   id: SpecialKey
   parent: System.ConsoleCancelEventArgs
@@ -76,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.ConsoleSpecialKey
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -114,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.CompilerServices.DependencyAttribute.LoadHint
   id: LoadHint
   parent: System.Runtime.CompilerServices.DependencyAttribute
@@ -135,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.CompilerServices.LoadHint
-      description: 
 references:
 - uid: System.Runtime.CompilerServices
   isExternal: false

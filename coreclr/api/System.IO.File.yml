@@ -105,7 +105,6 @@ items:
       type: System.String
     return:
       type: System.IO.StreamReader
-      description: 
 - uid: System.IO.File.CreateText(System.String)
   id: CreateText(System.String)
   parent: System.IO.File
@@ -128,7 +127,6 @@ items:
       type: System.String
     return:
       type: System.IO.StreamWriter
-      description: 
 - uid: System.IO.File.AppendText(System.String)
   id: AppendText(System.String)
   parent: System.IO.File
@@ -151,7 +149,6 @@ items:
       type: System.String
     return:
       type: System.IO.StreamWriter
-      description: 
 - uid: System.IO.File.Copy(System.String,System.String)
   id: Copy(System.String,System.String)
   parent: System.IO.File
@@ -220,7 +217,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Create(System.String,System.Int32)
   id: Create(System.String,System.Int32)
   parent: System.IO.File
@@ -245,7 +241,6 @@ items:
       type: System.Int32
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Create(System.String,System.Int32,System.IO.FileOptions)
   id: Create(System.String,System.Int32,System.IO.FileOptions)
   parent: System.IO.File
@@ -272,7 +267,6 @@ items:
       type: System.IO.FileOptions
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Delete(System.String)
   id: Delete(System.String)
   parent: System.IO.File
@@ -355,7 +349,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.File.Open(System.String,System.IO.FileMode)
   id: Open(System.String,System.IO.FileMode)
   parent: System.IO.File
@@ -380,7 +373,6 @@ items:
       type: System.IO.FileMode
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess)
   id: Open(System.String,System.IO.FileMode,System.IO.FileAccess)
   parent: System.IO.File
@@ -407,7 +399,6 @@ items:
       type: System.IO.FileAccess
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   id: Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   parent: System.IO.File
@@ -436,7 +427,6 @@ items:
       type: System.IO.FileShare
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.SetCreationTime(System.String,System.DateTime)
   id: SetCreationTime(System.String,System.DateTime)
   parent: System.IO.File
@@ -503,7 +493,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetCreationTimeUtc(System.String)
   id: GetCreationTimeUtc(System.String)
   parent: System.IO.File
@@ -526,7 +515,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.SetLastAccessTime(System.String,System.DateTime)
   id: SetLastAccessTime(System.String,System.DateTime)
   parent: System.IO.File
@@ -593,7 +581,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetLastAccessTimeUtc(System.String)
   id: GetLastAccessTimeUtc(System.String)
   parent: System.IO.File
@@ -616,7 +603,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.SetLastWriteTime(System.String,System.DateTime)
   id: SetLastWriteTime(System.String,System.DateTime)
   parent: System.IO.File
@@ -683,7 +669,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetLastWriteTimeUtc(System.String)
   id: GetLastWriteTimeUtc(System.String)
   parent: System.IO.File
@@ -706,7 +691,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.IO.File.GetAttributes(System.String)
   id: GetAttributes(System.String)
   parent: System.IO.File
@@ -729,7 +713,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileAttributes
-      description: 
 - uid: System.IO.File.SetAttributes(System.String,System.IO.FileAttributes)
   id: SetAttributes(System.String,System.IO.FileAttributes)
   parent: System.IO.File
@@ -774,7 +757,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.OpenWrite(System.String)
   id: OpenWrite(System.String)
   parent: System.IO.File
@@ -797,7 +779,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.File.ReadAllText(System.String)
   id: ReadAllText(System.String)
   parent: System.IO.File
@@ -820,7 +801,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.File.ReadAllText(System.String,System.Text.Encoding)
   id: ReadAllText(System.String,System.Text.Encoding)
   parent: System.IO.File
@@ -845,7 +825,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.String
-      description: 
 - uid: System.IO.File.WriteAllText(System.String,System.String)
   id: WriteAllText(System.String,System.String)
   parent: System.IO.File
@@ -914,7 +893,6 @@ items:
       type: System.String
     return:
       type: System.Byte[]
-      description: 
 - uid: System.IO.File.WriteAllBytes(System.String,System.Byte[])
   id: WriteAllBytes(System.String,System.Byte[])
   parent: System.IO.File
@@ -961,7 +939,6 @@ items:
       type: System.String
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.File.ReadAllLines(System.String,System.Text.Encoding)
   id: ReadAllLines(System.String,System.Text.Encoding)
   parent: System.IO.File
@@ -986,7 +963,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.String[]
-      description: 
 - uid: System.IO.File.ReadLines(System.String)
   id: ReadLines(System.String)
   parent: System.IO.File
@@ -1009,7 +985,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: 
 - uid: System.IO.File.ReadLines(System.String,System.Text.Encoding)
   id: ReadLines(System.String,System.Text.Encoding)
   parent: System.IO.File
@@ -1034,7 +1009,6 @@ items:
       type: System.Text.Encoding
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: 
 - uid: System.IO.File.WriteAllLines(System.String,System.String[])
   id: WriteAllLines(System.String,System.String[])
   parent: System.IO.File

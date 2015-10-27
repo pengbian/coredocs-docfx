@@ -120,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.PropertyToken
-      description: 
 - uid: System.Reflection.Emit.PropertyBuilder.Module
   id: Module
   parent: System.Reflection.Emit.PropertyBuilder
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Reflection.MemberInfo.Module
 - uid: System.Reflection.Emit.PropertyBuilder.SetGetMethod(System.Reflection.Emit.MethodBuilder)
   id: SetGetMethod(System.Reflection.Emit.MethodBuilder)
@@ -273,7 +271,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
   overridden: System.Reflection.PropertyInfo.GetValue(System.Object,System.Object[])
 - uid: System.Reflection.Emit.PropertyBuilder.GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   id: GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
@@ -307,7 +304,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
   overridden: System.Reflection.PropertyInfo.GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 - uid: System.Reflection.Emit.PropertyBuilder.SetValue(System.Object,System.Object,System.Object[])
   id: SetValue(System.Object,System.Object,System.Object[])
@@ -391,7 +387,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
   overridden: System.Reflection.PropertyInfo.GetAccessors(System.Boolean)
 - uid: System.Reflection.Emit.PropertyBuilder.GetGetMethod(System.Boolean)
   id: GetGetMethod(System.Boolean)
@@ -415,7 +410,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Reflection.PropertyInfo.GetGetMethod(System.Boolean)
 - uid: System.Reflection.Emit.PropertyBuilder.GetSetMethod(System.Boolean)
   id: GetSetMethod(System.Boolean)
@@ -439,7 +433,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Reflection.PropertyInfo.GetSetMethod(System.Boolean)
 - uid: System.Reflection.Emit.PropertyBuilder.GetIndexParameters
   id: GetIndexParameters
@@ -460,7 +453,6 @@ items:
     content.vb: Public Overrides Function GetIndexParameters As ParameterInfo()
     return:
       type: System.Reflection.ParameterInfo[]
-      description: 
   overridden: System.Reflection.PropertyInfo.GetIndexParameters
 - uid: System.Reflection.Emit.PropertyBuilder.PropertyType
   id: PropertyType
@@ -482,7 +474,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.PropertyInfo.PropertyType
 - uid: System.Reflection.Emit.PropertyBuilder.Attributes
   id: Attributes
@@ -504,7 +495,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.PropertyAttributes
-      description: 
   overridden: System.Reflection.PropertyInfo.Attributes
 - uid: System.Reflection.Emit.PropertyBuilder.CanRead
   id: CanRead
@@ -526,7 +516,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.PropertyInfo.CanRead
 - uid: System.Reflection.Emit.PropertyBuilder.CanWrite
   id: CanWrite
@@ -548,7 +537,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.PropertyInfo.CanWrite
 - uid: System.Reflection.Emit.PropertyBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -572,7 +560,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.PropertyBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -598,7 +585,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.PropertyBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -624,7 +610,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.PropertyBuilder.Name
   id: Name
@@ -646,7 +631,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Reflection.Emit.PropertyBuilder.DeclaringType
   id: DeclaringType
@@ -668,7 +652,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.DeclaringType
 - uid: System.Reflection.Emit.PropertyBuilder.ReflectedType
   id: ReflectedType
@@ -690,7 +673,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.ReflectedType
 references:
 - uid: System.Reflection.Emit

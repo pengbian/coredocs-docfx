@@ -50,7 +50,6 @@ items:
     content.vb: Function GetTypeInfoCount As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfo(System.Int32,System.Runtime.InteropServices.UCOMITypeInfo@)
   id: GetTypeInfo(System.Int32,System.Runtime.InteropServices.UCOMITypeInfo@)
   parent: System.Runtime.InteropServices.UCOMITypeLib
@@ -221,7 +220,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.UCOMITypeLib.FindName(System.String,System.Int32,System.Runtime.InteropServices.UCOMITypeInfo[],System.Int32[],System.Int16@)
   id: FindName(System.String,System.Int32,System.Runtime.InteropServices.UCOMITypeInfo[],System.Int32[],System.Int16@)
   parent: System.Runtime.InteropServices.UCOMITypeLib

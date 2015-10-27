@@ -100,7 +100,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Principal.GenericIdentity.AuthenticationType
   id: AuthenticationType
   parent: System.Security.Principal.GenericIdentity
@@ -121,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Principal.GenericIdentity.IsAuthenticated
   id: IsAuthenticated
   parent: System.Security.Principal.GenericIdentity
@@ -142,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Principal
   isExternal: false

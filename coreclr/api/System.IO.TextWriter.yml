@@ -94,7 +94,6 @@ items:
   id: Null
   parent: System.IO.TextWriter
   href: System.IO.TextWriter.yml
-  name: Null
   fullName: System.IO.TextWriter.Null
   type: Field
   source:
@@ -181,7 +180,6 @@ items:
     parameters: []
     return:
       type: System.IFormatProvider
-      description: 
 - uid: System.IO.TextWriter.Close
   id: Close
   parent: System.IO.TextWriter
@@ -273,7 +271,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.IO.TextWriter.NewLine
   id: NewLine
   parent: System.IO.TextWriter
@@ -294,7 +291,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.TextWriter.Synchronized(System.IO.TextWriter)
   id: Synchronized(System.IO.TextWriter)
   parent: System.IO.TextWriter
@@ -317,7 +313,6 @@ items:
       type: System.IO.TextWriter
     return:
       type: System.IO.TextWriter
-      description: 
 - uid: System.IO.TextWriter.Write(System.Char)
   id: Write(System.Char)
   parent: System.IO.TextWriter
@@ -1085,7 +1080,6 @@ items:
       type: System.Char
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteAsync(System.String)
   id: WriteAsync(System.String)
   parent: System.IO.TextWriter
@@ -1108,7 +1102,6 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteAsync(System.Char[])
   id: WriteAsync(System.Char[])
   parent: System.IO.TextWriter
@@ -1133,7 +1126,6 @@ items:
       type: System.Char[]
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
   id: WriteAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.TextWriter
@@ -1162,7 +1154,6 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteLineAsync(System.Char)
   id: WriteLineAsync(System.Char)
   parent: System.IO.TextWriter
@@ -1185,7 +1176,6 @@ items:
       type: System.Char
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteLineAsync(System.String)
   id: WriteLineAsync(System.String)
   parent: System.IO.TextWriter
@@ -1208,7 +1198,6 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteLineAsync(System.Char[])
   id: WriteLineAsync(System.Char[])
   parent: System.IO.TextWriter
@@ -1233,7 +1222,6 @@ items:
       type: System.Char[]
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
   id: WriteLineAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.TextWriter
@@ -1262,7 +1250,6 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.WriteLineAsync
   id: WriteLineAsync
   parent: System.IO.TextWriter
@@ -1282,7 +1269,6 @@ items:
     content.vb: Public Overridable Function WriteLineAsync As Task
     return:
       type: System.Threading.Tasks.Task
-      description: 
 - uid: System.IO.TextWriter.FlushAsync
   id: FlushAsync
   parent: System.IO.TextWriter
@@ -1302,7 +1288,6 @@ items:
     content.vb: Public Overridable Function FlushAsync As Task
     return:
       type: System.Threading.Tasks.Task
-      description: 
 references:
 - uid: System.IO
   isExternal: false

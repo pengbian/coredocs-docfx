@@ -64,7 +64,6 @@ items:
       type: System.Type
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeEvents(System.Type)
   id: GetRuntimeEvents(System.Type)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -87,7 +86,6 @@ items:
       type: System.Type
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.EventInfo}
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeMethods(System.Type)
   id: GetRuntimeMethods(System.Type)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -110,7 +108,6 @@ items:
       type: System.Type
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeFields(System.Type)
   id: GetRuntimeFields(System.Type)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -133,7 +130,6 @@ items:
       type: System.Type
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.FieldInfo}
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeProperty(System.Type,System.String)
   id: GetRuntimeProperty(System.Type,System.String)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -158,7 +154,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeEvent(System.Type,System.String)
   id: GetRuntimeEvent(System.Type,System.String)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -183,7 +178,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.EventInfo
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeMethod(System.Type,System.String,System.Type[])
   id: GetRuntimeMethod(System.Type,System.String,System.Type[])
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -212,7 +206,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeField(System.Type,System.String)
   id: GetRuntimeField(System.Type,System.String)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -237,7 +230,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeBaseDefinition(System.Reflection.MethodInfo)
   id: GetRuntimeBaseDefinition(System.Reflection.MethodInfo)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -260,7 +252,6 @@ items:
       type: System.Reflection.MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetRuntimeInterfaceMap(System.Reflection.TypeInfo,System.Type)
   id: GetRuntimeInterfaceMap(System.Reflection.TypeInfo,System.Type)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -285,7 +276,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.InterfaceMapping
-      description: 
 - uid: System.Reflection.RuntimeReflectionExtensions.GetMethodInfo(System.Delegate)
   id: GetMethodInfo(System.Delegate)
   parent: System.Reflection.RuntimeReflectionExtensions
@@ -308,7 +298,6 @@ items:
       type: System.Delegate
     return:
       type: System.Reflection.MethodInfo
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

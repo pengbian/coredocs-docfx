@@ -72,7 +72,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
   id: SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
   parent: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter
@@ -117,7 +116,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

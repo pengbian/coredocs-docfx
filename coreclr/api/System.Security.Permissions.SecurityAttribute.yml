@@ -113,7 +113,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.SecurityAction
-      description: 
 - uid: System.Security.Permissions.SecurityAttribute.Unrestricted
   id: Unrestricted
   parent: System.Security.Permissions.SecurityAttribute
@@ -134,7 +133,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.SecurityAttribute
@@ -154,7 +152,6 @@ items:
     content.vb: Public MustOverride Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
 references:
 - uid: System.Security.Permissions
   isExternal: false

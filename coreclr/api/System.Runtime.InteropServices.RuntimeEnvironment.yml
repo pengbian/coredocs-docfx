@@ -59,7 +59,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion
   id: GetSystemVersion
   parent: System.Runtime.InteropServices.RuntimeEnvironment
@@ -79,7 +78,6 @@ items:
     content.vb: Public Shared Function GetSystemVersion As String
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory
   id: GetRuntimeDirectory
   parent: System.Runtime.InteropServices.RuntimeEnvironment
@@ -99,7 +97,6 @@ items:
     content.vb: Public Shared Function GetRuntimeDirectory As String
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.SystemConfigurationFile
   id: SystemConfigurationFile
   parent: System.Runtime.InteropServices.RuntimeEnvironment
@@ -120,7 +117,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeInterfaceAsIntPtr(System.Guid,System.Guid)
   id: GetRuntimeInterfaceAsIntPtr(System.Guid,System.Guid)
   parent: System.Runtime.InteropServices.RuntimeEnvironment
@@ -145,7 +141,6 @@ items:
       type: System.Guid
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeInterfaceAsObject(System.Guid,System.Guid)
   id: GetRuntimeInterfaceAsObject(System.Guid,System.Guid)
   parent: System.Runtime.InteropServices.RuntimeEnvironment
@@ -170,7 +165,6 @@ items:
       type: System.Guid
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

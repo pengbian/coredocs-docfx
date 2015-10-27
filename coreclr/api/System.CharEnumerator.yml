@@ -61,7 +61,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.CharEnumerator.MoveNext
   id: MoveNext
   parent: System.CharEnumerator
@@ -81,7 +80,6 @@ items:
     content.vb: Public Function MoveNext As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.CharEnumerator.Dispose
   id: Dispose
   parent: System.CharEnumerator
@@ -140,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.Char
-      description: 
 - uid: System.CharEnumerator.Reset
   id: Reset
   parent: System.CharEnumerator

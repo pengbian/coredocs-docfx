@@ -152,7 +152,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Delegate.Equals(System.Object)
 - uid: System.MulticastDelegate.CombineImpl(System.Delegate)
   id: CombineImpl(System.Delegate)
@@ -176,7 +175,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
   overridden: System.Delegate.CombineImpl(System.Delegate)
 - uid: System.MulticastDelegate.RemoveImpl(System.Delegate)
   id: RemoveImpl(System.Delegate)
@@ -200,7 +198,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
   overridden: System.Delegate.RemoveImpl(System.Delegate)
 - uid: System.MulticastDelegate.GetInvocationList
   id: GetInvocationList
@@ -221,7 +218,6 @@ items:
     content.vb: Public NotOverridable Overrides Function GetInvocationList As
     return:
       type: System.Delegate[]
-      description: 
   overridden: System.Delegate.GetInvocationList
 - uid: System.MulticastDelegate.op_Equality(System.MulticastDelegate,System.MulticastDelegate)
   id: op_Equality(System.MulticastDelegate,System.MulticastDelegate)
@@ -247,7 +243,6 @@ items:
       type: System.MulticastDelegate
     return:
       type: System.Boolean
-      description: 
 - uid: System.MulticastDelegate.op_Inequality(System.MulticastDelegate,System.MulticastDelegate)
   id: op_Inequality(System.MulticastDelegate,System.MulticastDelegate)
   parent: System.MulticastDelegate
@@ -272,7 +267,6 @@ items:
       type: System.MulticastDelegate
     return:
       type: System.Boolean
-      description: 
 - uid: System.MulticastDelegate.GetHashCode
   id: GetHashCode
   parent: System.MulticastDelegate
@@ -292,7 +286,6 @@ items:
     content.vb: Public NotOverridable Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Delegate.GetHashCode
 - uid: System.MulticastDelegate.GetMethodImpl
   id: GetMethodImpl
@@ -313,7 +306,6 @@ items:
     content.vb: Protected Overrides Function GetMethodImpl As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Delegate.GetMethodImpl
 references:
 - uid: System

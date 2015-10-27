@@ -48,7 +48,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.IFormatter.Serialize(System.IO.Stream,System.Object)
   id: Serialize(System.IO.Stream,System.Object)
   parent: System.Runtime.Serialization.IFormatter
@@ -91,7 +90,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.ISurrogateSelector
-      description: 
 - uid: System.Runtime.Serialization.IFormatter.Binder
   id: Binder
   parent: System.Runtime.Serialization.IFormatter
@@ -112,7 +110,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.SerializationBinder
-      description: 
 - uid: System.Runtime.Serialization.IFormatter.Context
   id: Context
   parent: System.Runtime.Serialization.IFormatter
@@ -133,7 +130,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.StreamingContext
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

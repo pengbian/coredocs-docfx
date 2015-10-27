@@ -166,7 +166,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.PaddingMode
-      description: 
 - uid: System.Security.Cryptography.MACTripleDES.HashCore(System.Byte[],System.Int32,System.Int32)
   id: HashCore(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.MACTripleDES
@@ -213,7 +212,6 @@ items:
     content.vb: Protected Overrides Function HashFinal As Byte()
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.HashAlgorithm.HashFinal
 - uid: System.Security.Cryptography.MACTripleDES.Dispose(System.Boolean)
   id: Dispose(System.Boolean)

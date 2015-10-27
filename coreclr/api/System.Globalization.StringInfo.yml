@@ -101,7 +101,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Globalization.StringInfo.GetHashCode
   id: GetHashCode
@@ -122,7 +121,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Globalization.StringInfo.String
   id: String
@@ -144,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.StringInfo.LengthInTextElements
   id: LengthInTextElements
   parent: System.Globalization.StringInfo
@@ -165,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.StringInfo.SubstringByTextElements(System.Int32)
   id: SubstringByTextElements(System.Int32)
   parent: System.Globalization.StringInfo
@@ -188,7 +184,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.StringInfo.SubstringByTextElements(System.Int32,System.Int32)
   id: SubstringByTextElements(System.Int32,System.Int32)
   parent: System.Globalization.StringInfo
@@ -213,7 +208,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.StringInfo.GetNextTextElement(System.String)
   id: GetNextTextElement(System.String)
   parent: System.Globalization.StringInfo
@@ -236,7 +230,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.StringInfo.GetNextTextElement(System.String,System.Int32)
   id: GetNextTextElement(System.String,System.Int32)
   parent: System.Globalization.StringInfo
@@ -261,7 +254,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.StringInfo.GetTextElementEnumerator(System.String)
   id: GetTextElementEnumerator(System.String)
   parent: System.Globalization.StringInfo
@@ -284,7 +276,6 @@ items:
       type: System.String
     return:
       type: System.Globalization.TextElementEnumerator
-      description: 
 - uid: System.Globalization.StringInfo.GetTextElementEnumerator(System.String,System.Int32)
   id: GetTextElementEnumerator(System.String,System.Int32)
   parent: System.Globalization.StringInfo
@@ -309,7 +300,6 @@ items:
       type: System.Int32
     return:
       type: System.Globalization.TextElementEnumerator
-      description: 
 - uid: System.Globalization.StringInfo.ParseCombiningCharacters(System.String)
   id: ParseCombiningCharacters(System.String)
   parent: System.Globalization.StringInfo
@@ -332,7 +322,6 @@ items:
       type: System.String
     return:
       type: System.Int32[]
-      description: 
 references:
 - uid: System.Globalization
   isExternal: false

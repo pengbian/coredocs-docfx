@@ -161,7 +161,6 @@ items:
     content.vb: Public Function DangerousGetHandle As IntPtr
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.SafeHandle.IsClosed
   id: IsClosed
   parent: System.Runtime.InteropServices.SafeHandle
@@ -182,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.SafeHandle.IsInvalid
   id: IsInvalid
   parent: System.Runtime.InteropServices.SafeHandle
@@ -203,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.SafeHandle.Close
   id: Close
   parent: System.Runtime.InteropServices.SafeHandle
@@ -293,7 +290,6 @@ items:
     content.vb: Protected MustOverride Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.SafeHandle.DangerousAddRef(System.Boolean@)
   id: DangerousAddRef(System.Boolean@)
   parent: System.Runtime.InteropServices.SafeHandle

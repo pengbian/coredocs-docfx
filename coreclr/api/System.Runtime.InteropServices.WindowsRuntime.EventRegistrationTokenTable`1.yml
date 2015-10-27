@@ -80,7 +80,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.AddEventHandler(`0)
   id: AddEventHandler(`0)
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
@@ -104,7 +103,6 @@ items:
       type: '{T}'
     return:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.RemoveEventHandler(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
   id: RemoveEventHandler(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
@@ -171,7 +169,6 @@ items:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
     return:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
-      description: 
 references:
 - uid: System.Runtime.InteropServices.WindowsRuntime
   isExternal: false

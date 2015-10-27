@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.KeySizes.MaxSize
   id: MaxSize
   parent: System.Security.Cryptography.KeySizes
@@ -76,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.KeySizes.SkipSize
   id: SkipSize
   parent: System.Security.Cryptography.KeySizes
@@ -97,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.KeySizes.#ctor(System.Int32,System.Int32,System.Int32)
   id: '#ctor(System.Int32,System.Int32,System.Int32)'
   parent: System.Security.Cryptography.KeySizes

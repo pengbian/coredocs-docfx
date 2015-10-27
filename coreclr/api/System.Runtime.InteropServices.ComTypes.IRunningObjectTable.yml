@@ -54,7 +54,6 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke(System.Int32)
   id: Revoke(System.Int32)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
@@ -97,7 +96,6 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetObject(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object@)
   id: GetObject(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object@)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
@@ -124,7 +122,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME@)
   id: NoteChangeTime(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME@)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
@@ -175,7 +172,6 @@ items:
       type: System.Runtime.InteropServices.ComTypes.FILETIME
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.EnumRunning(System.Runtime.InteropServices.ComTypes.IEnumMoniker@)
   id: EnumRunning(System.Runtime.InteropServices.ComTypes.IEnumMoniker@)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable

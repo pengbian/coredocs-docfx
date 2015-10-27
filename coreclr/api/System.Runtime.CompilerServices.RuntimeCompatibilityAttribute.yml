@@ -108,7 +108,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Runtime.CompilerServices
   isExternal: false

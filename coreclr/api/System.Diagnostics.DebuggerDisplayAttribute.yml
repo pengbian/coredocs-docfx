@@ -115,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerDisplayAttribute.Name
   id: Name
   parent: System.Diagnostics.DebuggerDisplayAttribute
@@ -136,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerDisplayAttribute.Type
   id: Type
   parent: System.Diagnostics.DebuggerDisplayAttribute
@@ -157,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.DebuggerDisplayAttribute.Target
   id: Target
   parent: System.Diagnostics.DebuggerDisplayAttribute
@@ -178,7 +175,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Diagnostics.DebuggerDisplayAttribute.TargetTypeName
   id: TargetTypeName
   parent: System.Diagnostics.DebuggerDisplayAttribute
@@ -199,7 +195,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

@@ -59,7 +59,6 @@ items:
       type: System.Reflection.FieldInfo[]
     return:
       type: System.TypedReference
-      description: 
 - uid: System.TypedReference.GetHashCode
   id: GetHashCode
   parent: System.TypedReference
@@ -79,7 +78,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.TypedReference.Equals(System.Object)
   id: Equals(System.Object)
@@ -103,7 +101,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.TypedReference.ToObject(System.TypedReference)
   id: ToObject(System.TypedReference)
@@ -127,7 +124,6 @@ items:
       type: System.TypedReference
     return:
       type: System.Object
-      description: 
 - uid: System.TypedReference.GetTargetType(System.TypedReference)
   id: GetTargetType(System.TypedReference)
   parent: System.TypedReference
@@ -150,7 +146,6 @@ items:
       type: System.TypedReference
     return:
       type: System.Type
-      description: 
 - uid: System.TypedReference.TargetTypeToken(System.TypedReference)
   id: TargetTypeToken(System.TypedReference)
   parent: System.TypedReference
@@ -173,7 +168,6 @@ items:
       type: System.TypedReference
     return:
       type: System.RuntimeTypeHandle
-      description: 
 - uid: System.TypedReference.SetTypedReference(System.TypedReference,System.Object)
   id: SetTypedReference(System.TypedReference,System.Object)
   parent: System.TypedReference

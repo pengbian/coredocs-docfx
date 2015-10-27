@@ -141,7 +141,6 @@ items:
     content.vb: Protected Overrides Function HashFinal As Byte()
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.HashAlgorithm.HashFinal
 references:
 - uid: System.Security.Cryptography

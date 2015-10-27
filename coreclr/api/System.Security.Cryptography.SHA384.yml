@@ -95,7 +95,6 @@ items:
     content.vb: Public Shared Function Create As SHA384
     return:
       type: System.Security.Cryptography.SHA384
-      description: 
 - uid: System.Security.Cryptography.SHA384.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.SHA384
@@ -118,7 +117,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.SHA384
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

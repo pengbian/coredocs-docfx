@@ -67,7 +67,6 @@ items:
       type: System.Runtime.InteropServices.AssemblyRegistrationFlags
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.UnregisterAssembly(System.Reflection.Assembly)
   id: UnregisterAssembly(System.Reflection.Assembly)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -90,7 +89,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.GetRegistrableTypesInAssembly(System.Reflection.Assembly)
   id: GetRegistrableTypesInAssembly(System.Reflection.Assembly)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -113,7 +111,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Type[]
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.GetProgIdForType(System.Type)
   id: GetProgIdForType(System.Type)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -136,7 +133,6 @@ items:
       type: System.Type
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type,System.Guid@)
   id: RegisterTypeForComClients(System.Type,System.Guid@)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -180,7 +176,6 @@ items:
     content.vb: Public Overridable Function GetManagedCategoryGuid As Guid
     return:
       type: System.Guid
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.TypeRequiresRegistration(System.Type)
   id: TypeRequiresRegistration(System.Type)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -203,7 +198,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.TypeRepresentsComType(System.Type)
   id: TypeRepresentsComType(System.Type)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -226,7 +220,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type,System.Runtime.InteropServices.RegistrationClassContext,System.Runtime.InteropServices.RegistrationConnectionType)
   id: RegisterTypeForComClients(System.Type,System.Runtime.InteropServices.RegistrationClassContext,System.Runtime.InteropServices.RegistrationConnectionType)
   parent: System.Runtime.InteropServices.RegistrationServices
@@ -253,7 +246,6 @@ items:
       type: System.Runtime.InteropServices.RegistrationConnectionType
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.RegistrationServices.UnregisterTypeForComClients(System.Int32)
   id: UnregisterTypeForComClients(System.Int32)
   parent: System.Runtime.InteropServices.RegistrationServices

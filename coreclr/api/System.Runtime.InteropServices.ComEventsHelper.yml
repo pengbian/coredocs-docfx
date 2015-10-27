@@ -101,7 +101,6 @@ items:
       description: delegate to remove from the invocation list
     return:
       type: System.Delegate
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

@@ -76,7 +76,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Permissions.StrongNamePublicKeyBlob.GetHashCode
   id: GetHashCode
@@ -97,7 +96,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.Permissions.StrongNamePublicKeyBlob.ToString
   id: ToString
@@ -118,7 +116,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Security.Permissions

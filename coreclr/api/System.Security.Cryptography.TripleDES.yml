@@ -104,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.SymmetricAlgorithm.Key
 - uid: System.Security.Cryptography.TripleDES.Create
   id: Create
@@ -125,7 +124,6 @@ items:
     content.vb: Public Shared Function Create As TripleDES
     return:
       type: System.Security.Cryptography.TripleDES
-      description: 
 - uid: System.Security.Cryptography.TripleDES.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.TripleDES
@@ -148,7 +146,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.TripleDES
-      description: 
 - uid: System.Security.Cryptography.TripleDES.IsWeakKey(System.Byte[])
   id: IsWeakKey(System.Byte[])
   parent: System.Security.Cryptography.TripleDES
@@ -173,7 +170,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

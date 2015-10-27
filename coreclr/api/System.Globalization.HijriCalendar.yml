@@ -120,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MinSupportedDateTime
 - uid: System.Globalization.HijriCalendar.MaxSupportedDateTime
   id: MaxSupportedDateTime
@@ -142,7 +141,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MaxSupportedDateTime
 - uid: System.Globalization.HijriCalendar.AlgorithmType
   id: AlgorithmType
@@ -164,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CalendarAlgorithmType
-      description: 
   overridden: System.Globalization.Calendar.AlgorithmType
 - uid: System.Globalization.HijriCalendar.#ctor
   id: '#ctor'
@@ -203,7 +200,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.DaysInYearBeforeMinSupportedYear
 - uid: System.Globalization.HijriCalendar.HijriAdjustment
   id: HijriAdjustment
@@ -225,7 +221,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.HijriCalendar.AddMonths(System.DateTime,System.Int32)
   id: AddMonths(System.DateTime,System.Int32)
   parent: System.Globalization.HijriCalendar
@@ -250,7 +245,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)
 - uid: System.Globalization.HijriCalendar.AddYears(System.DateTime,System.Int32)
   id: AddYears(System.DateTime,System.Int32)
@@ -276,7 +270,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)
 - uid: System.Globalization.HijriCalendar.GetDayOfMonth(System.DateTime)
   id: GetDayOfMonth(System.DateTime)
@@ -300,7 +293,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfMonth(System.DateTime)
 - uid: System.Globalization.HijriCalendar.GetDayOfWeek(System.DateTime)
   id: GetDayOfWeek(System.DateTime)
@@ -324,7 +316,6 @@ items:
       type: System.DateTime
     return:
       type: System.DayOfWeek
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfWeek(System.DateTime)
 - uid: System.Globalization.HijriCalendar.GetDayOfYear(System.DateTime)
   id: GetDayOfYear(System.DateTime)
@@ -348,7 +339,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfYear(System.DateTime)
 - uid: System.Globalization.HijriCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   id: GetDaysInMonth(System.Int32,System.Int32,System.Int32)
@@ -376,7 +366,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.GetDaysInYear(System.Int32,System.Int32)
   id: GetDaysInYear(System.Int32,System.Int32)
@@ -402,7 +391,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.GetEra(System.DateTime)
   id: GetEra(System.DateTime)
@@ -426,7 +414,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetEra(System.DateTime)
 - uid: System.Globalization.HijriCalendar.Eras
   id: Eras
@@ -448,7 +435,6 @@ items:
     parameters: []
     return:
       type: System.Int32[]
-      description: 
   overridden: System.Globalization.Calendar.Eras
 - uid: System.Globalization.HijriCalendar.GetMonth(System.DateTime)
   id: GetMonth(System.DateTime)
@@ -472,7 +458,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetMonth(System.DateTime)
 - uid: System.Globalization.HijriCalendar.GetMonthsInYear(System.Int32,System.Int32)
   id: GetMonthsInYear(System.Int32,System.Int32)
@@ -498,7 +483,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.GetYear(System.DateTime)
   id: GetYear(System.DateTime)
@@ -522,7 +506,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetYear(System.DateTime)
 - uid: System.Globalization.HijriCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   id: IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -552,7 +535,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.GetLeapMonth(System.Int32,System.Int32)
   id: GetLeapMonth(System.Int32,System.Int32)
@@ -578,7 +560,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   id: IsLeapMonth(System.Int32,System.Int32,System.Int32)
@@ -606,7 +587,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.IsLeapYear(System.Int32,System.Int32)
   id: IsLeapYear(System.Int32,System.Int32)
@@ -632,7 +612,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   id: ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -670,7 +649,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.HijriCalendar.TwoDigitYearMax
   id: TwoDigitYearMax
@@ -692,7 +670,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.TwoDigitYearMax
 - uid: System.Globalization.HijriCalendar.ToFourDigitYear(System.Int32)
   id: ToFourDigitYear(System.Int32)
@@ -716,7 +693,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.ToFourDigitYear(System.Int32)
 references:
 - uid: System.Globalization

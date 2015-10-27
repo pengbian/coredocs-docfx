@@ -142,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.WeakReference.TrackResurrection
   id: TrackResurrection
   parent: System.WeakReference
@@ -163,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.WeakReference.Target
   id: Target
   parent: System.WeakReference
@@ -183,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.WeakReference.Finalize
   id: Finalize
   parent: System.WeakReference

@@ -191,7 +191,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.CspKeyContainerInfo
   id: CspKeyContainerInfo
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -212,7 +211,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.CspKeyContainerInfo
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.KeySize
   id: KeySize
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -233,7 +231,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Security.Cryptography.AsymmetricAlgorithm.KeySize
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.KeyExchangeAlgorithm
   id: KeyExchangeAlgorithm
@@ -255,7 +252,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.RSA.KeyExchangeAlgorithm
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.SignatureAlgorithm
   id: SignatureAlgorithm
@@ -277,7 +273,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.RSA.SignatureAlgorithm
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.UseMachineKeyStore
   id: UseMachineKeyStore
@@ -299,7 +294,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.PersistKeyInCsp
   id: PersistKeyInCsp
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -320,7 +314,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters(System.Boolean)
   id: ExportParameters(System.Boolean)
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -343,7 +336,6 @@ items:
       type: System.Boolean
     return:
       type: System.Security.Cryptography.RSAParameters
-      description: 
   overridden: System.Security.Cryptography.RSA.ExportParameters(System.Boolean)
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.ExportCspBlob(System.Boolean)
   id: ExportCspBlob(System.Boolean)
@@ -367,7 +359,6 @@ items:
       type: System.Boolean
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.ImportParameters(System.Security.Cryptography.RSAParameters)
   id: ImportParameters(System.Security.Cryptography.RSAParameters)
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -435,7 +426,6 @@ items:
       type: System.Object
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Object)
   id: SignData(System.Byte[],System.Object)
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -462,7 +452,6 @@ items:
       type: System.Object
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Int32,System.Int32,System.Object)
   id: SignData(System.Byte[],System.Int32,System.Int32,System.Object)
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -493,7 +482,6 @@ items:
       type: System.Object
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.VerifyData(System.Byte[],System.Object,System.Byte[])
   id: VerifyData(System.Byte[],System.Object,System.Byte[])
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -522,7 +510,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.SignHash(System.Byte[],System.String)
   id: SignHash(System.Byte[],System.String)
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -549,7 +536,6 @@ items:
       type: System.String
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.VerifyHash(System.Byte[],System.String,System.Byte[])
   id: VerifyHash(System.Byte[],System.String,System.Byte[])
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -578,7 +564,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.Encrypt(System.Byte[],System.Boolean)
   id: Encrypt(System.Byte[],System.Boolean)
   parent: System.Security.Cryptography.RSACryptoServiceProvider
@@ -669,7 +654,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.RSA.DecryptValue(System.Byte[])
 - uid: System.Security.Cryptography.RSACryptoServiceProvider.EncryptValue(System.Byte[])
   id: EncryptValue(System.Byte[])
@@ -695,7 +679,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.RSA.EncryptValue(System.Byte[])
 references:
 - uid: System.Security.Cryptography

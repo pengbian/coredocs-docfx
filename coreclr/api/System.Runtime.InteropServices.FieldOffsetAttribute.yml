@@ -111,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

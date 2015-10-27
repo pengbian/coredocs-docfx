@@ -54,7 +54,6 @@ items:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken.op_Inequality(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
   id: op_Inequality(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
@@ -79,7 +78,6 @@ items:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
@@ -102,7 +100,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken.GetHashCode
   id: GetHashCode
@@ -123,7 +120,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 references:
 - uid: System.Runtime.InteropServices.WindowsRuntime

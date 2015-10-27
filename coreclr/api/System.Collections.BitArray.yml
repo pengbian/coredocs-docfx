@@ -209,7 +209,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.BitArray.Get(System.Int32)
   id: Get(System.Int32)
   parent: System.Collections.BitArray
@@ -232,7 +231,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.BitArray.Set(System.Int32,System.Boolean)
   id: Set(System.Int32,System.Boolean)
   parent: System.Collections.BitArray
@@ -297,7 +295,6 @@ items:
       type: System.Collections.BitArray
     return:
       type: System.Collections.BitArray
-      description: 
 - uid: System.Collections.BitArray.Or(System.Collections.BitArray)
   id: Or(System.Collections.BitArray)
   parent: System.Collections.BitArray
@@ -320,7 +317,6 @@ items:
       type: System.Collections.BitArray
     return:
       type: System.Collections.BitArray
-      description: 
 - uid: System.Collections.BitArray.Xor(System.Collections.BitArray)
   id: Xor(System.Collections.BitArray)
   parent: System.Collections.BitArray
@@ -343,7 +339,6 @@ items:
       type: System.Collections.BitArray
     return:
       type: System.Collections.BitArray
-      description: 
 - uid: System.Collections.BitArray.Not
   id: Not
   parent: System.Collections.BitArray
@@ -363,7 +358,6 @@ items:
     content.vb: Public Function Not As BitArray
     return:
       type: System.Collections.BitArray
-      description: 
 - uid: System.Collections.BitArray.Length
   id: Length
   parent: System.Collections.BitArray
@@ -384,7 +378,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.BitArray.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Collections.BitArray
@@ -427,7 +420,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.BitArray.Clone
   id: Clone
   parent: System.Collections.BitArray
@@ -447,7 +439,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.BitArray.SyncRoot
   id: SyncRoot
   parent: System.Collections.BitArray
@@ -468,7 +459,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.BitArray.IsReadOnly
   id: IsReadOnly
   parent: System.Collections.BitArray
@@ -489,7 +479,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.BitArray.IsSynchronized
   id: IsSynchronized
   parent: System.Collections.BitArray
@@ -510,7 +499,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.BitArray.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.BitArray
@@ -530,7 +518,6 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

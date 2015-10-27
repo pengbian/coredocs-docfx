@@ -41,7 +41,6 @@ items:
     content.vb: Function GetTypeInfo As TypeInfo
     return:
       type: System.Reflection.TypeInfo
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

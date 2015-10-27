@@ -134,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderName
   id: ProviderName
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
@@ -155,7 +154,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderType
   id: ProviderType
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
@@ -176,7 +174,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyContainerName
   id: KeyContainerName
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
@@ -197,7 +194,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeySpec
   id: KeySpec
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
@@ -218,7 +214,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.Flags
   id: Flags
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
@@ -239,7 +234,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.KeyContainerPermissionFlags
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
@@ -262,7 +256,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.GetHashCode
   id: GetHashCode
@@ -283,7 +276,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Security.Permissions

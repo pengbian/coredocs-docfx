@@ -82,7 +82,6 @@ items:
       type: System.String
     return:
       type: System.Security.Policy.Site
-      description: 
 - uid: System.Security.Policy.Site.Name
   id: Name
   parent: System.Security.Policy.Site
@@ -103,7 +102,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Policy.Site.CreateIdentityPermission(System.Security.Policy.Evidence)
   id: CreateIdentityPermission(System.Security.Policy.Evidence)
   parent: System.Security.Policy.Site
@@ -126,7 +124,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.Policy.Site.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.Policy.Site
@@ -149,7 +146,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Policy.Site.GetHashCode
   id: GetHashCode
@@ -170,7 +166,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.Policy.Site.Clone
   id: Clone
@@ -191,7 +186,6 @@ items:
     content.vb: Public Overrides Function Clone As EvidenceBase
     return:
       type: System.Security.Policy.EvidenceBase
-      description: 
   overridden: System.Security.Policy.EvidenceBase.Clone
 - uid: System.Security.Policy.Site.Copy
   id: Copy
@@ -212,7 +206,6 @@ items:
     content.vb: Public Function Copy As Object
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Security.Policy
   isExternal: false

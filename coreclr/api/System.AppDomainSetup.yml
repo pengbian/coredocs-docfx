@@ -95,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.AppDomainManagerType
   id: AppDomainManagerType
   parent: System.AppDomainSetup
@@ -116,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.ApplicationBase
   id: ApplicationBase
   parent: System.AppDomainSetup
@@ -137,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.ConfigurationFile
   id: ConfigurationFile
   parent: System.AppDomainSetup
@@ -158,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.GetConfigurationBytes
   id: GetConfigurationBytes
   parent: System.AppDomainSetup
@@ -178,7 +174,6 @@ items:
     content.vb: Public Function GetConfigurationBytes As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.AppDomainSetup.SetConfigurationBytes(System.Byte[])
   id: SetConfigurationBytes(System.Byte[])
   parent: System.AppDomainSetup
@@ -243,7 +238,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.DynamicBase
   id: DynamicBase
   parent: System.AppDomainSetup
@@ -264,7 +258,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.DisallowPublisherPolicy
   id: DisallowPublisherPolicy
   parent: System.AppDomainSetup
@@ -285,7 +278,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomainSetup.DisallowBindingRedirects
   id: DisallowBindingRedirects
   parent: System.AppDomainSetup
@@ -306,7 +298,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomainSetup.DisallowCodeDownload
   id: DisallowCodeDownload
   parent: System.AppDomainSetup
@@ -327,7 +318,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomainSetup.DisallowApplicationBaseProbing
   id: DisallowApplicationBaseProbing
   parent: System.AppDomainSetup
@@ -348,7 +338,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomainSetup.ApplicationName
   id: ApplicationName
   parent: System.AppDomainSetup
@@ -369,7 +358,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.AppDomainInitializer
   id: AppDomainInitializer
   parent: System.AppDomainSetup
@@ -390,7 +378,6 @@ items:
     parameters: []
     return:
       type: System.AppDomainInitializer
-      description: 
 - uid: System.AppDomainSetup.AppDomainInitializerArguments
   id: AppDomainInitializerArguments
   parent: System.AppDomainSetup
@@ -411,7 +398,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.AppDomainSetup.PrivateBinPath
   id: PrivateBinPath
   parent: System.AppDomainSetup
@@ -432,7 +418,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.PrivateBinPathProbe
   id: PrivateBinPathProbe
   parent: System.AppDomainSetup
@@ -453,7 +438,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.ShadowCopyDirectories
   id: ShadowCopyDirectories
   parent: System.AppDomainSetup
@@ -474,7 +458,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.ShadowCopyFiles
   id: ShadowCopyFiles
   parent: System.AppDomainSetup
@@ -495,7 +478,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.CachePath
   id: CachePath
   parent: System.AppDomainSetup
@@ -516,7 +498,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.LicenseFile
   id: LicenseFile
   parent: System.AppDomainSetup
@@ -537,7 +518,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomainSetup.LoaderOptimization
   id: LoaderOptimization
   parent: System.AppDomainSetup
@@ -558,7 +538,6 @@ items:
     parameters: []
     return:
       type: System.LoaderOptimization
-      description: 
 - uid: System.AppDomainSetup.SandboxInterop
   id: SandboxInterop
   parent: System.AppDomainSetup
@@ -579,7 +558,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

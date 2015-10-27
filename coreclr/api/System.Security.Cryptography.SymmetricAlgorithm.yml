@@ -327,7 +327,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize
   id: FeedbackSize
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -348,7 +347,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.IV
   id: IV
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -369,7 +367,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.Key
   id: Key
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -390,7 +387,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes
   id: LegalBlockSizes
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -411,7 +407,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeySizes[]
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes
   id: LegalKeySizes
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -432,7 +427,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.KeySizes[]
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.KeySize
   id: KeySize
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -453,7 +447,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.Mode
   id: Mode
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -474,7 +467,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.CipherMode
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.Padding
   id: Padding
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -495,7 +487,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.PaddingMode
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.ValidKeySize(System.Int32)
   id: ValidKeySize(System.Int32)
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -518,7 +509,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.Create
   id: Create
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -538,7 +528,6 @@ items:
     content.vb: Public Shared Function Create As SymmetricAlgorithm
     return:
       type: System.Security.Cryptography.SymmetricAlgorithm
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -561,7 +550,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.SymmetricAlgorithm
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor
   id: CreateEncryptor
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -581,7 +569,6 @@ items:
     content.vb: Public Overridable Function CreateEncryptor As ICryptoTransform
     return:
       type: System.Security.Cryptography.ICryptoTransform
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])
   id: CreateEncryptor(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -608,7 +595,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Security.Cryptography.ICryptoTransform
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor
   id: CreateDecryptor
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -628,7 +614,6 @@ items:
     content.vb: Public Overridable Function CreateDecryptor As ICryptoTransform
     return:
       type: System.Security.Cryptography.ICryptoTransform
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])
   id: CreateDecryptor(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.SymmetricAlgorithm
@@ -655,7 +640,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Security.Cryptography.ICryptoTransform
-      description: 
 - uid: System.Security.Cryptography.SymmetricAlgorithm.GenerateKey
   id: GenerateKey
   parent: System.Security.Cryptography.SymmetricAlgorithm

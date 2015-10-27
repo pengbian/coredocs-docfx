@@ -232,7 +232,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
   overridden: System.IO.TextWriter.Encoding
 - uid: System.IO.StringWriter.GetStringBuilder
   id: GetStringBuilder
@@ -253,7 +252,6 @@ items:
     content.vb: Public Overridable Function GetStringBuilder As StringBuilder
     return:
       type: System.Text.StringBuilder
-      description: 
 - uid: System.IO.StringWriter.Write(System.Char)
   id: Write(System.Char)
   parent: System.IO.StringWriter
@@ -345,7 +343,6 @@ items:
       type: System.Char
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.WriteAsync(System.Char)
 - uid: System.IO.StringWriter.WriteAsync(System.String)
   id: WriteAsync(System.String)
@@ -369,7 +366,6 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.WriteAsync(System.String)
 - uid: System.IO.StringWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
   id: WriteAsync(System.Char[],System.Int32,System.Int32)
@@ -399,7 +395,6 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
 - uid: System.IO.StringWriter.WriteLineAsync(System.Char)
   id: WriteLineAsync(System.Char)
@@ -423,7 +418,6 @@ items:
       type: System.Char
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.WriteLineAsync(System.Char)
 - uid: System.IO.StringWriter.WriteLineAsync(System.String)
   id: WriteLineAsync(System.String)
@@ -447,7 +441,6 @@ items:
       type: System.String
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.WriteLineAsync(System.String)
 - uid: System.IO.StringWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
   id: WriteLineAsync(System.Char[],System.Int32,System.Int32)
@@ -477,7 +470,6 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
 - uid: System.IO.StringWriter.FlushAsync
   id: FlushAsync
@@ -498,7 +490,6 @@ items:
     content.vb: Public Overrides Function FlushAsync As Task
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.TextWriter.FlushAsync
 - uid: System.IO.StringWriter.ToString
   id: ToString
@@ -519,7 +510,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.IO
@@ -545,7 +535,6 @@ references:
   parent: System.IO.TextWriter
   isExternal: false
   href: System.IO.TextWriter.yml
-  name: Null
   fullName: System.IO.TextWriter.Null
 - uid: System.IO.TextWriter.CoreNewLine
   parent: System.IO.TextWriter

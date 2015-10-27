@@ -266,7 +266,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEqualityComparer{{TKey}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.Count
   id: Count
   parent: System.Collections.Generic.Dictionary`2
@@ -288,7 +287,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.Keys
   id: Keys
   parent: System.Collections.Generic.Dictionary`2
@@ -310,7 +308,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.Dictionary`2.KeyCollection
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IDictionary{TKey,TValue}#Keys
   id: System#Collections#Generic#IDictionary{TKey,TValue}#Keys
   parent: System.Collections.Generic.Dictionary`2
@@ -333,7 +330,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{{TKey}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
   id: System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
   parent: System.Collections.Generic.Dictionary`2
@@ -356,7 +352,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{{TKey}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.Values
   id: Values
   parent: System.Collections.Generic.Dictionary`2
@@ -378,7 +373,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.Dictionary`2.ValueCollection
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IDictionary{TKey,TValue}#Values
   id: System#Collections#Generic#IDictionary{TKey,TValue}#Values
   parent: System.Collections.Generic.Dictionary`2
@@ -401,7 +395,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{{TValue}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
   id: System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
   parent: System.Collections.Generic.Dictionary`2
@@ -424,7 +417,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{{TValue}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.Item(`0)
   id: Item(`0)
   parent: System.Collections.Generic.Dictionary`2
@@ -449,7 +441,6 @@ items:
       type: '{TKey}'
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.Add(`0,`1)
   id: Add(`0,`1)
   parent: System.Collections.Generic.Dictionary`2
@@ -519,7 +510,6 @@ items:
       type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})
   parent: System.Collections.Generic.Dictionary`2
@@ -544,7 +534,6 @@ items:
       type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.Clear
   id: Clear
   parent: System.Collections.Generic.Dictionary`2
@@ -586,7 +575,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.ContainsValue(`1)
   id: ContainsValue(`1)
   parent: System.Collections.Generic.Dictionary`2
@@ -610,7 +598,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
@@ -631,7 +618,6 @@ items:
     content.vb: Public Function GetEnumerator As Dictionary(Of TKey, TValue).Enumerator
     return:
       type: System.Collections.Generic.Dictionary`2.Enumerator
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
@@ -653,7 +639,6 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator As IEnumerator(Of KeyValuePair(Of TKey, TValue)) Implements IEnumerable(Of KeyValuePair(Of TKey, TValue)).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Collections.Generic.Dictionary`2
@@ -721,7 +706,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.TryGetValue(`0,`1@)
   id: TryGetValue(`0,`1@)
   parent: System.Collections.Generic.Dictionary`2
@@ -748,7 +732,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
   parent: System.Collections.Generic.Dictionary`2
@@ -771,7 +754,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   id: System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   parent: System.Collections.Generic.Dictionary`2
@@ -841,7 +823,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Generic.Dictionary`2
@@ -864,7 +845,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.Dictionary`2
@@ -887,7 +867,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#IsFixedSize
   id: System#Collections#IDictionary#IsFixedSize
   parent: System.Collections.Generic.Dictionary`2
@@ -910,7 +889,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#IsReadOnly
   id: System#Collections#IDictionary#IsReadOnly
   parent: System.Collections.Generic.Dictionary`2
@@ -933,7 +911,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Keys
   id: System#Collections#IDictionary#Keys
   parent: System.Collections.Generic.Dictionary`2
@@ -956,7 +933,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Values
   id: System#Collections#IDictionary#Values
   parent: System.Collections.Generic.Dictionary`2
@@ -979,7 +955,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Item(System.Object)
   id: System#Collections#IDictionary#Item(System.Object)
   parent: System.Collections.Generic.Dictionary`2
@@ -1004,7 +979,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Add(System.Object,System.Object)
   id: System#Collections#IDictionary#Add(System.Object,System.Object)
   parent: System.Collections.Generic.Dictionary`2
@@ -1053,7 +1027,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#GetEnumerator
   id: System#Collections#IDictionary#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
@@ -1075,7 +1048,6 @@ items:
     content.vb: Function System.Collections.IDictionary.GetEnumerator As IDictionaryEnumerator Implements IDictionary.GetEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Remove(System.Object)
   id: System#Collections#IDictionary#Remove(System.Object)
   parent: System.Collections.Generic.Dictionary`2

@@ -109,7 +109,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
   overridden: System.Runtime.CompilerServices.CustomConstantAttribute.Value
 references:
 - uid: System.Runtime.CompilerServices

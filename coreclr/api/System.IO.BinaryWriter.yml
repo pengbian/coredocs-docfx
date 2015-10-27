@@ -68,7 +68,6 @@ items:
   id: Null
   parent: System.IO.BinaryWriter
   href: System.IO.BinaryWriter.yml
-  name: Null
   fullName: System.IO.BinaryWriter.Null
   type: Field
   source:
@@ -255,7 +254,6 @@ items:
     parameters: []
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.IO.BinaryWriter.Flush
   id: Flush
   parent: System.IO.BinaryWriter
@@ -297,7 +295,6 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.BinaryWriter.Write(System.Boolean)
   id: Write(System.Boolean)
   parent: System.IO.BinaryWriter

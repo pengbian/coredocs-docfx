@@ -73,7 +73,6 @@ items:
     content.vb: Public Overrides Function CreateFallbackBuffer As DecoderFallbackBuffer
     return:
       type: System.Text.DecoderFallbackBuffer
-      description: 
   overridden: System.Text.DecoderFallback.CreateFallbackBuffer
 - uid: System.Text.DecoderExceptionFallback.MaxCharCount
   id: MaxCharCount
@@ -95,7 +94,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.DecoderFallback.MaxCharCount
 - uid: System.Text.DecoderExceptionFallback.Equals(System.Object)
   id: Equals(System.Object)
@@ -119,7 +117,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Text.DecoderExceptionFallback.GetHashCode
   id: GetHashCode
@@ -140,7 +137,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Text

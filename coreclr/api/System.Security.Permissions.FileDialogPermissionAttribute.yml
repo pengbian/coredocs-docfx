@@ -117,7 +117,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.FileDialogPermissionAttribute.Save
   id: Save
   parent: System.Security.Permissions.FileDialogPermissionAttribute
@@ -138,7 +137,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.FileDialogPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.FileDialogPermissionAttribute
@@ -158,7 +156,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

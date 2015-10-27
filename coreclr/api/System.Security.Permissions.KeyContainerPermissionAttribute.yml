@@ -121,7 +121,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAttribute.ProviderName
   id: ProviderName
   parent: System.Security.Permissions.KeyContainerPermissionAttribute
@@ -142,7 +141,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAttribute.ProviderType
   id: ProviderType
   parent: System.Security.Permissions.KeyContainerPermissionAttribute
@@ -163,7 +161,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAttribute.KeyContainerName
   id: KeyContainerName
   parent: System.Security.Permissions.KeyContainerPermissionAttribute
@@ -184,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAttribute.KeySpec
   id: KeySpec
   parent: System.Security.Permissions.KeyContainerPermissionAttribute
@@ -205,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAttribute.Flags
   id: Flags
   parent: System.Security.Permissions.KeyContainerPermissionAttribute
@@ -226,7 +221,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.KeyContainerPermissionFlags
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.KeyContainerPermissionAttribute
@@ -246,7 +240,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

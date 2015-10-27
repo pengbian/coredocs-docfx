@@ -62,7 +62,6 @@ items:
       type: System.Runtime.InteropServices.UnmanagedType
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.DefineByValTStr(System.Int32)
   id: DefineByValTStr(System.Int32)
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -85,7 +84,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.DefineSafeArray(System.Runtime.InteropServices.UnmanagedType)
   id: DefineSafeArray(System.Runtime.InteropServices.UnmanagedType)
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -108,7 +106,6 @@ items:
       type: System.Runtime.InteropServices.UnmanagedType
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.DefineByValArray(System.Int32)
   id: DefineByValArray(System.Int32)
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -131,7 +128,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.DefineLPArray(System.Runtime.InteropServices.UnmanagedType)
   id: DefineLPArray(System.Runtime.InteropServices.UnmanagedType)
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -154,7 +150,6 @@ items:
       type: System.Runtime.InteropServices.UnmanagedType
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.GetUnmanagedType
   id: GetUnmanagedType
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -175,7 +170,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.UnmanagedType
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.IIDGuid
   id: IIDGuid
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -196,7 +190,6 @@ items:
     parameters: []
     return:
       type: System.Guid
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.ElementCount
   id: ElementCount
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -217,7 +210,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.UnmanagedMarshal.BaseType
   id: BaseType
   parent: System.Reflection.Emit.UnmanagedMarshal
@@ -238,7 +230,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.UnmanagedType
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

@@ -62,7 +62,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.AdjustmentRule.DateEnd
   id: DateEnd
   parent: System.TimeZoneInfo.AdjustmentRule
@@ -83,7 +82,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.AdjustmentRule.DaylightDelta
   id: DaylightDelta
   parent: System.TimeZoneInfo.AdjustmentRule
@@ -104,7 +102,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeZoneInfo.AdjustmentRule.DaylightTransitionStart
   id: DaylightTransitionStart
   parent: System.TimeZoneInfo.AdjustmentRule
@@ -125,7 +122,6 @@ items:
     parameters: []
     return:
       type: System.TimeZoneInfo.TransitionTime
-      description: 
 - uid: System.TimeZoneInfo.AdjustmentRule.DaylightTransitionEnd
   id: DaylightTransitionEnd
   parent: System.TimeZoneInfo.AdjustmentRule
@@ -146,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.TimeZoneInfo.TransitionTime
-      description: 
 - uid: System.TimeZoneInfo.AdjustmentRule.Equals(System.TimeZoneInfo.AdjustmentRule)
   id: Equals(System.TimeZoneInfo.AdjustmentRule)
   parent: System.TimeZoneInfo.AdjustmentRule
@@ -169,7 +164,6 @@ items:
       type: System.TimeZoneInfo.AdjustmentRule
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.AdjustmentRule.GetHashCode
   id: GetHashCode
   parent: System.TimeZoneInfo.AdjustmentRule
@@ -189,7 +183,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule(System.DateTime,System.DateTime,System.TimeSpan,System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
   id: CreateAdjustmentRule(System.DateTime,System.DateTime,System.TimeSpan,System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
@@ -221,7 +214,6 @@ items:
       type: System.TimeZoneInfo.TransitionTime
     return:
       type: System.TimeZoneInfo.AdjustmentRule
-      description: 
 references:
 - uid: System
   isExternal: false

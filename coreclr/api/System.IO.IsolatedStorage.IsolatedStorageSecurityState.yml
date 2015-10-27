@@ -63,7 +63,6 @@ items:
     parameters: []
     return:
       type: System.IO.IsolatedStorage.IsolatedStorageSecurityOptions
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.Group
   id: Group
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -84,7 +83,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.Id
   id: Id
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -105,7 +103,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.RootUserDirectory
   id: RootUserDirectory
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -126,7 +123,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.UsedSize
   id: UsedSize
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -147,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.Quota
   id: Quota
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -168,7 +163,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.AvailableFreeSpace
   id: AvailableFreeSpace
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -189,7 +183,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.AvailableFreeSpaceComputed
   id: AvailableFreeSpaceComputed
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -210,7 +203,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.IsolatedStorageFolderName
   id: IsolatedStorageFolderName
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
@@ -231,7 +223,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.EnsureState
   id: EnsureState
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState

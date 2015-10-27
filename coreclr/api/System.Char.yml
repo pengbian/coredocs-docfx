@@ -154,7 +154,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Char.Equals(System.Object)
   id: Equals(System.Object)
@@ -178,7 +177,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Char.Equals(System.Char)
   id: Equals(System.Char)
@@ -202,7 +200,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Char
@@ -225,7 +222,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Char.CompareTo(System.Char)
   id: CompareTo(System.Char)
   parent: System.Char
@@ -248,7 +244,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.Char.ToString
   id: ToString
   parent: System.Char
@@ -268,7 +263,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Char.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -292,7 +286,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Char.ToString(System.Char)
   id: ToString(System.Char)
   parent: System.Char
@@ -315,7 +308,6 @@ items:
       type: System.Char
     return:
       type: System.String
-      description: 
 - uid: System.Char.Parse(System.String)
   id: Parse(System.String)
   parent: System.Char
@@ -338,7 +330,6 @@ items:
       type: System.String
     return:
       type: System.Char
-      description: 
 - uid: System.Char.TryParse(System.String,System.Char@)
   id: TryParse(System.String,System.Char@)
   parent: System.Char
@@ -365,7 +356,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsDigit(System.Char)
   id: IsDigit(System.Char)
   parent: System.Char
@@ -388,7 +378,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLetter(System.Char)
   id: IsLetter(System.Char)
   parent: System.Char
@@ -411,7 +400,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsWhiteSpace(System.Char)
   id: IsWhiteSpace(System.Char)
   parent: System.Char
@@ -434,7 +422,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsUpper(System.Char)
   id: IsUpper(System.Char)
   parent: System.Char
@@ -457,7 +444,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLower(System.Char)
   id: IsLower(System.Char)
   parent: System.Char
@@ -480,7 +466,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsPunctuation(System.Char)
   id: IsPunctuation(System.Char)
   parent: System.Char
@@ -503,7 +488,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLetterOrDigit(System.Char)
   id: IsLetterOrDigit(System.Char)
   parent: System.Char
@@ -526,7 +510,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)
   id: ToUpper(System.Char,System.Globalization.CultureInfo)
   parent: System.Char
@@ -551,7 +534,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Char
-      description: 
 - uid: System.Char.ToUpper(System.Char)
   id: ToUpper(System.Char)
   parent: System.Char
@@ -574,7 +556,6 @@ items:
       type: System.Char
     return:
       type: System.Char
-      description: 
 - uid: System.Char.ToUpperInvariant(System.Char)
   id: ToUpperInvariant(System.Char)
   parent: System.Char
@@ -597,7 +578,6 @@ items:
       type: System.Char
     return:
       type: System.Char
-      description: 
 - uid: System.Char.ToLower(System.Char,System.Globalization.CultureInfo)
   id: ToLower(System.Char,System.Globalization.CultureInfo)
   parent: System.Char
@@ -622,7 +602,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Char
-      description: 
 - uid: System.Char.ToLower(System.Char)
   id: ToLower(System.Char)
   parent: System.Char
@@ -645,7 +624,6 @@ items:
       type: System.Char
     return:
       type: System.Char
-      description: 
 - uid: System.Char.ToLowerInvariant(System.Char)
   id: ToLowerInvariant(System.Char)
   parent: System.Char
@@ -668,7 +646,6 @@ items:
       type: System.Char
     return:
       type: System.Char
-      description: 
 - uid: System.Char.GetTypeCode
   id: GetTypeCode
   parent: System.Char
@@ -688,7 +665,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.Char.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.Char
@@ -1058,7 +1034,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsControl(System.String,System.Int32)
   id: IsControl(System.String,System.Int32)
   parent: System.Char
@@ -1083,7 +1058,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsDigit(System.String,System.Int32)
   id: IsDigit(System.String,System.Int32)
   parent: System.Char
@@ -1108,7 +1082,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLetter(System.String,System.Int32)
   id: IsLetter(System.String,System.Int32)
   parent: System.Char
@@ -1133,7 +1106,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLetterOrDigit(System.String,System.Int32)
   id: IsLetterOrDigit(System.String,System.Int32)
   parent: System.Char
@@ -1158,7 +1130,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLower(System.String,System.Int32)
   id: IsLower(System.String,System.Int32)
   parent: System.Char
@@ -1183,7 +1154,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsNumber(System.Char)
   id: IsNumber(System.Char)
   parent: System.Char
@@ -1206,7 +1176,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsNumber(System.String,System.Int32)
   id: IsNumber(System.String,System.Int32)
   parent: System.Char
@@ -1231,7 +1200,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsPunctuation(System.String,System.Int32)
   id: IsPunctuation(System.String,System.Int32)
   parent: System.Char
@@ -1256,7 +1224,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSeparator(System.Char)
   id: IsSeparator(System.Char)
   parent: System.Char
@@ -1279,7 +1246,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSeparator(System.String,System.Int32)
   id: IsSeparator(System.String,System.Int32)
   parent: System.Char
@@ -1304,7 +1270,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSurrogate(System.Char)
   id: IsSurrogate(System.Char)
   parent: System.Char
@@ -1327,7 +1292,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSurrogate(System.String,System.Int32)
   id: IsSurrogate(System.String,System.Int32)
   parent: System.Char
@@ -1352,7 +1316,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSymbol(System.Char)
   id: IsSymbol(System.Char)
   parent: System.Char
@@ -1375,7 +1338,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSymbol(System.String,System.Int32)
   id: IsSymbol(System.String,System.Int32)
   parent: System.Char
@@ -1400,7 +1362,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsUpper(System.String,System.Int32)
   id: IsUpper(System.String,System.Int32)
   parent: System.Char
@@ -1425,7 +1386,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsWhiteSpace(System.String,System.Int32)
   id: IsWhiteSpace(System.String,System.Int32)
   parent: System.Char
@@ -1450,7 +1410,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.GetUnicodeCategory(System.Char)
   id: GetUnicodeCategory(System.Char)
   parent: System.Char
@@ -1473,7 +1432,6 @@ items:
       type: System.Char
     return:
       type: System.Globalization.UnicodeCategory
-      description: 
 - uid: System.Char.GetUnicodeCategory(System.String,System.Int32)
   id: GetUnicodeCategory(System.String,System.Int32)
   parent: System.Char
@@ -1498,7 +1456,6 @@ items:
       type: System.Int32
     return:
       type: System.Globalization.UnicodeCategory
-      description: 
 - uid: System.Char.GetNumericValue(System.Char)
   id: GetNumericValue(System.Char)
   parent: System.Char
@@ -1521,7 +1478,6 @@ items:
       type: System.Char
     return:
       type: System.Double
-      description: 
 - uid: System.Char.GetNumericValue(System.String,System.Int32)
   id: GetNumericValue(System.String,System.Int32)
   parent: System.Char
@@ -1546,7 +1502,6 @@ items:
       type: System.Int32
     return:
       type: System.Double
-      description: 
 - uid: System.Char.IsHighSurrogate(System.Char)
   id: IsHighSurrogate(System.Char)
   parent: System.Char
@@ -1569,7 +1524,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsHighSurrogate(System.String,System.Int32)
   id: IsHighSurrogate(System.String,System.Int32)
   parent: System.Char
@@ -1594,7 +1548,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLowSurrogate(System.Char)
   id: IsLowSurrogate(System.Char)
   parent: System.Char
@@ -1617,7 +1570,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsLowSurrogate(System.String,System.Int32)
   id: IsLowSurrogate(System.String,System.Int32)
   parent: System.Char
@@ -1642,7 +1594,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSurrogatePair(System.String,System.Int32)
   id: IsSurrogatePair(System.String,System.Int32)
   parent: System.Char
@@ -1667,7 +1618,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.IsSurrogatePair(System.Char,System.Char)
   id: IsSurrogatePair(System.Char,System.Char)
   parent: System.Char
@@ -1692,7 +1642,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Char.ConvertFromUtf32(System.Int32)
   id: ConvertFromUtf32(System.Int32)
   parent: System.Char
@@ -1715,7 +1664,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Char.ConvertToUtf32(System.Char,System.Char)
   id: ConvertToUtf32(System.Char,System.Char)
   parent: System.Char
@@ -1740,7 +1688,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.Char.ConvertToUtf32(System.String,System.Int32)
   id: ConvertToUtf32(System.String,System.Int32)
   parent: System.Char
@@ -1765,7 +1712,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System
   isExternal: false

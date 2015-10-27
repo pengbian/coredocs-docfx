@@ -111,7 +111,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.DBNull.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -135,7 +134,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.DBNull.GetTypeCode
   id: GetTypeCode
   parent: System.DBNull
@@ -155,7 +153,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.DBNull.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.DBNull

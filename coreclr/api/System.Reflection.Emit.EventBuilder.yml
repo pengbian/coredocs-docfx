@@ -59,7 +59,6 @@ items:
     content.vb: Public Function GetEventToken As EventToken
     return:
       type: System.Reflection.Emit.EventToken
-      description: 
 - uid: System.Reflection.Emit.EventBuilder.SetAddOnMethod(System.Reflection.Emit.MethodBuilder)
   id: SetAddOnMethod(System.Reflection.Emit.MethodBuilder)
   parent: System.Reflection.Emit.EventBuilder

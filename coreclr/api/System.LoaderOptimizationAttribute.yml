@@ -132,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.LoaderOptimization
-      description: 
 references:
 - uid: System
   isExternal: false

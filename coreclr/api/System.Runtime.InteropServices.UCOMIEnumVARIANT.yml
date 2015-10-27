@@ -51,7 +51,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Skip(System.Int32)
   id: Skip(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIEnumVARIANT
@@ -74,7 +73,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Reset
   id: Reset
   parent: System.Runtime.InteropServices.UCOMIEnumVARIANT
@@ -94,7 +92,6 @@ items:
     content.vb: Function Reset As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Clone(System.Int32)
   id: Clone(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIEnumVARIANT

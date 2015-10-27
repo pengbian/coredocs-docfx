@@ -56,7 +56,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 - uid: System.Threading.AsyncLocalValueChangedArgs`1.CurrentValue
   id: CurrentValue
   parent: System.Threading.AsyncLocalValueChangedArgs`1
@@ -78,7 +77,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 - uid: System.Threading.AsyncLocalValueChangedArgs`1.ThreadContextChanged
   id: ThreadContextChanged
   parent: System.Threading.AsyncLocalValueChangedArgs`1
@@ -100,7 +98,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

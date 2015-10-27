@@ -192,7 +192,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Timer.Change(System.TimeSpan,System.TimeSpan)
   id: Change(System.TimeSpan,System.TimeSpan)
   parent: System.Threading.Timer
@@ -217,7 +216,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Timer.Change(System.UInt32,System.UInt32)
   id: Change(System.UInt32,System.UInt32)
   parent: System.Threading.Timer
@@ -242,7 +240,6 @@ items:
       type: System.UInt32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Timer.Change(System.Int64,System.Int64)
   id: Change(System.Int64,System.Int64)
   parent: System.Threading.Timer
@@ -267,7 +264,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Timer.Dispose(System.Threading.WaitHandle)
   id: Dispose(System.Threading.WaitHandle)
   parent: System.Threading.Timer
@@ -290,7 +286,6 @@ items:
       type: System.Threading.WaitHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Timer.Dispose
   id: Dispose
   parent: System.Threading.Timer

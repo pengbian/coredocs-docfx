@@ -72,7 +72,6 @@ items:
     content.vb: Public Function GetToken As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.SymbolToken.GetHashCode
   id: GetHashCode
   parent: System.Diagnostics.SymbolStore.SymbolToken
@@ -92,7 +91,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Diagnostics.SymbolStore.SymbolToken.Equals(System.Object)
   id: Equals(System.Object)
@@ -116,7 +114,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Diagnostics.SymbolStore.SymbolToken.Equals(System.Diagnostics.SymbolStore.SymbolToken)
   id: Equals(System.Diagnostics.SymbolStore.SymbolToken)
@@ -140,7 +137,6 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.SymbolStore.SymbolToken.op_Equality(System.Diagnostics.SymbolStore.SymbolToken,System.Diagnostics.SymbolStore.SymbolToken)
   id: op_Equality(System.Diagnostics.SymbolStore.SymbolToken,System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.SymbolToken
@@ -165,7 +161,6 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.SymbolStore.SymbolToken.op_Inequality(System.Diagnostics.SymbolStore.SymbolToken,System.Diagnostics.SymbolStore.SymbolToken)
   id: op_Inequality(System.Diagnostics.SymbolStore.SymbolToken,System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.SymbolToken
@@ -190,7 +185,6 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

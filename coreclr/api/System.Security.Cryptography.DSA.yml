@@ -88,7 +88,6 @@ items:
     content.vb: Public Shared Function Create As DSA
     return:
       type: System.Security.Cryptography.DSA
-      description: 
 - uid: System.Security.Cryptography.DSA.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.DSA
@@ -111,7 +110,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.DSA
-      description: 
 - uid: System.Security.Cryptography.DSA.CreateSignature(System.Byte[])
   id: CreateSignature(System.Byte[])
   parent: System.Security.Cryptography.DSA
@@ -136,7 +134,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.DSA.VerifySignature(System.Byte[],System.Byte[])
   id: VerifySignature(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.DSA
@@ -163,7 +160,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.DSA.FromXmlString(System.String)
   id: FromXmlString(System.String)
   parent: System.Security.Cryptography.DSA
@@ -207,7 +203,6 @@ items:
       type: System.Boolean
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
 - uid: System.Security.Cryptography.DSA.ExportParameters(System.Boolean)
   id: ExportParameters(System.Boolean)
@@ -231,7 +226,6 @@ items:
       type: System.Boolean
     return:
       type: System.Security.Cryptography.DSAParameters
-      description: 
 - uid: System.Security.Cryptography.DSA.ImportParameters(System.Security.Cryptography.DSAParameters)
   id: ImportParameters(System.Security.Cryptography.DSAParameters)
   parent: System.Security.Cryptography.DSA

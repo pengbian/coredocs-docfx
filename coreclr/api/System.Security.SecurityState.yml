@@ -70,7 +70,6 @@ items:
     content.vb: Public Function IsStateAvailable As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecurityState.EnsureState
   id: EnsureState
   parent: System.Security.SecurityState

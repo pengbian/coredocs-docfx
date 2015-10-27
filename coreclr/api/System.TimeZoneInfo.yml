@@ -92,7 +92,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.TimeZoneInfo.DisplayName
   id: DisplayName
   parent: System.TimeZoneInfo
@@ -113,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.TimeZoneInfo.StandardName
   id: StandardName
   parent: System.TimeZoneInfo
@@ -134,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.TimeZoneInfo.DaylightName
   id: DaylightName
   parent: System.TimeZoneInfo
@@ -155,7 +152,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.TimeZoneInfo.BaseUtcOffset
   id: BaseUtcOffset
   parent: System.TimeZoneInfo
@@ -176,7 +172,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeZoneInfo.SupportsDaylightSavingTime
   id: SupportsDaylightSavingTime
   parent: System.TimeZoneInfo
@@ -197,7 +192,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.GetAdjustmentRules
   id: GetAdjustmentRules
   parent: System.TimeZoneInfo
@@ -217,7 +211,6 @@ items:
     content.vb: Public Function GetAdjustmentRules As TimeZoneInfo.AdjustmentRule()
     return:
       type: System.TimeZoneInfo.AdjustmentRule[]
-      description: 
 - uid: System.TimeZoneInfo.GetAmbiguousTimeOffsets(System.DateTimeOffset)
   id: GetAmbiguousTimeOffsets(System.DateTimeOffset)
   parent: System.TimeZoneInfo
@@ -240,7 +233,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.TimeSpan[]
-      description: 
 - uid: System.TimeZoneInfo.GetAmbiguousTimeOffsets(System.DateTime)
   id: GetAmbiguousTimeOffsets(System.DateTime)
   parent: System.TimeZoneInfo
@@ -263,7 +255,6 @@ items:
       type: System.DateTime
     return:
       type: System.TimeSpan[]
-      description: 
 - uid: System.TimeZoneInfo.GetUtcOffset(System.DateTimeOffset)
   id: GetUtcOffset(System.DateTimeOffset)
   parent: System.TimeZoneInfo
@@ -286,7 +277,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeZoneInfo.GetUtcOffset(System.DateTime)
   id: GetUtcOffset(System.DateTime)
   parent: System.TimeZoneInfo
@@ -309,7 +299,6 @@ items:
       type: System.DateTime
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeZoneInfo.IsAmbiguousTime(System.DateTimeOffset)
   id: IsAmbiguousTime(System.DateTimeOffset)
   parent: System.TimeZoneInfo
@@ -332,7 +321,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.IsAmbiguousTime(System.DateTime)
   id: IsAmbiguousTime(System.DateTime)
   parent: System.TimeZoneInfo
@@ -355,7 +343,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.IsDaylightSavingTime(System.DateTimeOffset)
   id: IsDaylightSavingTime(System.DateTimeOffset)
   parent: System.TimeZoneInfo
@@ -378,7 +365,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.IsDaylightSavingTime(System.DateTime)
   id: IsDaylightSavingTime(System.DateTime)
   parent: System.TimeZoneInfo
@@ -401,7 +387,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.IsInvalidTime(System.DateTime)
   id: IsInvalidTime(System.DateTime)
   parent: System.TimeZoneInfo
@@ -424,7 +409,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.ClearCachedData
   id: ClearCachedData
   parent: System.TimeZoneInfo
@@ -466,7 +450,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.TimeZoneInfo.ConvertTimeBySystemTimeZoneId(System.DateTime,System.String)
   id: ConvertTimeBySystemTimeZoneId(System.DateTime,System.String)
   parent: System.TimeZoneInfo
@@ -491,7 +474,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.ConvertTimeBySystemTimeZoneId(System.DateTime,System.String,System.String)
   id: ConvertTimeBySystemTimeZoneId(System.DateTime,System.String,System.String)
   parent: System.TimeZoneInfo
@@ -518,7 +500,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.ConvertTime(System.DateTimeOffset,System.TimeZoneInfo)
   id: ConvertTime(System.DateTimeOffset,System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -543,7 +524,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.TimeZoneInfo.ConvertTime(System.DateTime,System.TimeZoneInfo)
   id: ConvertTime(System.DateTime,System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -568,7 +548,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.ConvertTime(System.DateTime,System.TimeZoneInfo,System.TimeZoneInfo)
   id: ConvertTime(System.DateTime,System.TimeZoneInfo,System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -595,7 +574,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.ConvertTimeFromUtc(System.DateTime,System.TimeZoneInfo)
   id: ConvertTimeFromUtc(System.DateTime,System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -620,7 +598,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.ConvertTimeToUtc(System.DateTime)
   id: ConvertTimeToUtc(System.DateTime)
   parent: System.TimeZoneInfo
@@ -643,7 +620,6 @@ items:
       type: System.DateTime
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.ConvertTimeToUtc(System.DateTime,System.TimeZoneInfo)
   id: ConvertTimeToUtc(System.DateTime,System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -668,7 +644,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.Equals(System.TimeZoneInfo)
   id: Equals(System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -691,7 +666,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.TimeZoneInfo
@@ -714,7 +688,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.TimeZoneInfo.FromSerializedString(System.String)
   id: FromSerializedString(System.String)
@@ -738,7 +711,6 @@ items:
       type: System.String
     return:
       type: System.TimeZoneInfo
-      description: 
 - uid: System.TimeZoneInfo.GetHashCode
   id: GetHashCode
   parent: System.TimeZoneInfo
@@ -758,7 +730,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.TimeZoneInfo.GetSystemTimeZones
   id: GetSystemTimeZones
@@ -779,7 +750,6 @@ items:
     content.vb: Public Shared Function GetSystemTimeZones As ReadOnlyCollection(Of TimeZoneInfo)
     return:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.TimeZoneInfo}
-      description: 
 - uid: System.TimeZoneInfo.HasSameRules(System.TimeZoneInfo)
   id: HasSameRules(System.TimeZoneInfo)
   parent: System.TimeZoneInfo
@@ -802,7 +772,6 @@ items:
       type: System.TimeZoneInfo
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.Local
   id: Local
   parent: System.TimeZoneInfo
@@ -823,7 +792,6 @@ items:
     parameters: []
     return:
       type: System.TimeZoneInfo
-      description: 
 - uid: System.TimeZoneInfo.ToSerializedString
   id: ToSerializedString
   parent: System.TimeZoneInfo
@@ -843,7 +811,6 @@ items:
     content.vb: Public Function ToSerializedString As String
     return:
       type: System.String
-      description: 
 - uid: System.TimeZoneInfo.ToString
   id: ToString
   parent: System.TimeZoneInfo
@@ -863,7 +830,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.TimeZoneInfo.Utc
   id: Utc
@@ -885,7 +851,6 @@ items:
     parameters: []
     return:
       type: System.TimeZoneInfo
-      description: 
 - uid: System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String)
   id: CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String)
   parent: System.TimeZoneInfo
@@ -914,7 +879,6 @@ items:
       type: System.String
     return:
       type: System.TimeZoneInfo
-      description: 
 - uid: System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[])
   id: CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[])
   parent: System.TimeZoneInfo
@@ -949,7 +913,6 @@ items:
       type: System.TimeZoneInfo.AdjustmentRule[]
     return:
       type: System.TimeZoneInfo
-      description: 
 - uid: System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[],System.Boolean)
   id: CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[],System.Boolean)
   parent: System.TimeZoneInfo
@@ -986,7 +949,6 @@ items:
       type: System.Boolean
     return:
       type: System.TimeZoneInfo
-      description: 
 - uid: System.TimeZoneInfo.FindSystemTimeZoneById(System.String)
   id: FindSystemTimeZoneById(System.String)
   parent: System.TimeZoneInfo
@@ -1009,7 +971,6 @@ items:
       type: System.String
     return:
       type: System.TimeZoneInfo
-      description: 
 references:
 - uid: System
   isExternal: false

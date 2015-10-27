@@ -51,7 +51,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.SerializationEntry.Name
   id: Name
   parent: System.Runtime.Serialization.SerializationEntry
@@ -72,7 +71,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.Serialization.SerializationEntry.ObjectType
   id: ObjectType
   parent: System.Runtime.Serialization.SerializationEntry
@@ -93,7 +91,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

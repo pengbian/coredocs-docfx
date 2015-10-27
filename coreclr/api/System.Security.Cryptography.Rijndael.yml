@@ -102,7 +102,6 @@ items:
     content.vb: Public Shared Function Create As Rijndael
     return:
       type: System.Security.Cryptography.Rijndael
-      description: 
 - uid: System.Security.Cryptography.Rijndael.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.Rijndael
@@ -125,7 +124,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.Rijndael
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

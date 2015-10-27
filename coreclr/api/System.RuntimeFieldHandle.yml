@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.RuntimeFieldHandle.GetHashCode
   id: GetHashCode
   parent: System.RuntimeFieldHandle
@@ -75,7 +74,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.RuntimeFieldHandle.Equals(System.Object)
   id: Equals(System.Object)
@@ -99,7 +97,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.RuntimeFieldHandle.Equals(System.RuntimeFieldHandle)
   id: Equals(System.RuntimeFieldHandle)
@@ -123,7 +120,6 @@ items:
       type: System.RuntimeFieldHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeFieldHandle.op_Equality(System.RuntimeFieldHandle,System.RuntimeFieldHandle)
   id: op_Equality(System.RuntimeFieldHandle,System.RuntimeFieldHandle)
   parent: System.RuntimeFieldHandle
@@ -148,7 +144,6 @@ items:
       type: System.RuntimeFieldHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeFieldHandle.op_Inequality(System.RuntimeFieldHandle,System.RuntimeFieldHandle)
   id: op_Inequality(System.RuntimeFieldHandle,System.RuntimeFieldHandle)
   parent: System.RuntimeFieldHandle
@@ -173,7 +168,6 @@ items:
       type: System.RuntimeFieldHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeFieldHandle.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.RuntimeFieldHandle

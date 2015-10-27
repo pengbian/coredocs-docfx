@@ -125,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.Write
   id: Write
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -146,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.Append
   id: Append
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -167,7 +165,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.PathDiscovery
   id: PathDiscovery
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -188,7 +185,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.ViewAccessControl
   id: ViewAccessControl
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -209,7 +205,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.ChangeAccessControl
   id: ChangeAccessControl
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -230,7 +225,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.All
   id: All
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -251,7 +245,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.ViewAndModify
   id: ViewAndModify
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -272,7 +265,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.AllFiles
   id: AllFiles
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -293,7 +285,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.FileIOPermissionAccess
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.AllLocalFiles
   id: AllLocalFiles
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -314,7 +305,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.FileIOPermissionAccess
-      description: 
 - uid: System.Security.Permissions.FileIOPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.FileIOPermissionAttribute
@@ -334,7 +324,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

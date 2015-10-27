@@ -135,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.IO.BufferedStream.CanWrite
   id: CanWrite
@@ -157,7 +156,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.IO.BufferedStream.CanSeek
   id: CanSeek
@@ -179,7 +177,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.IO.BufferedStream.Length
   id: Length
@@ -201,7 +198,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Length
 - uid: System.IO.BufferedStream.Position
   id: Position
@@ -223,7 +219,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Position
 - uid: System.IO.BufferedStream.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -286,7 +281,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
 - uid: System.IO.BufferedStream.Read(System.Byte[],System.Int32,System.Int32)
   id: Read(System.Byte[],System.Int32,System.Int32)
@@ -316,7 +310,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.BufferedStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
   id: BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
@@ -350,7 +343,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 - uid: System.IO.BufferedStream.EndRead(System.IAsyncResult)
   id: EndRead(System.IAsyncResult)
@@ -374,7 +366,6 @@ items:
       type: System.IAsyncResult
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.EndRead(System.IAsyncResult)
 - uid: System.IO.BufferedStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -406,7 +397,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Int32}
-      description: 
   overridden: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.BufferedStream.ReadByte
   id: ReadByte
@@ -427,7 +417,6 @@ items:
     content.vb: Public Overrides Function ReadByte As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.ReadByte
 - uid: System.IO.BufferedStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -488,7 +477,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 - uid: System.IO.BufferedStream.EndWrite(System.IAsyncResult)
   id: EndWrite(System.IAsyncResult)
@@ -541,7 +529,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.BufferedStream.WriteByte(System.Byte)
   id: WriteByte(System.Byte)
@@ -588,7 +575,6 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.BufferedStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -635,7 +621,6 @@ references:
   parent: System.IO.Stream
   isExternal: false
   href: System.IO.Stream.yml
-  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CanTimeout
   parent: System.IO.Stream

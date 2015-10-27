@@ -48,7 +48,6 @@ items:
       type: System.String
     return:
       type: System.Diagnostics.SymbolStore.ISymbolReader
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

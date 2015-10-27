@@ -88,7 +88,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(System.RuntimeTypeHandle)
   id: RunClassConstructor(System.RuntimeTypeHandle)
   parent: System.Runtime.CompilerServices.RuntimeHelpers
@@ -232,7 +231,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.CompilerServices.RuntimeHelpers.Equals(System.Object,System.Object)
   id: Equals(System.Object,System.Object)
   parent: System.Runtime.CompilerServices.RuntimeHelpers
@@ -256,7 +254,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.CompilerServices.RuntimeHelpers.OffsetToStringData
   id: OffsetToStringData
   parent: System.Runtime.CompilerServices.RuntimeHelpers
@@ -277,7 +274,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack
   id: EnsureSufficientExecutionStack
   parent: System.Runtime.CompilerServices.RuntimeHelpers

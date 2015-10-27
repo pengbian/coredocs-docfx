@@ -74,7 +74,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

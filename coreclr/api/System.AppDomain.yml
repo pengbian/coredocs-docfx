@@ -205,7 +205,6 @@ items:
     parameters: []
     return:
       type: System.AppDomainManager
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess)
   parent: System.AppDomain
@@ -230,7 +229,6 @@ items:
       type: System.Reflection.Emit.AssemblyBuilderAccess
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   parent: System.AppDomain
@@ -259,7 +257,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder},System.Security.SecurityContextSource)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder},System.Security.SecurityContextSource)
   parent: System.AppDomain
@@ -290,7 +287,6 @@ items:
       type: System.Security.SecurityContextSource
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String)
   parent: System.AppDomain
@@ -317,7 +313,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -344,7 +339,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   parent: System.AppDomain
@@ -375,7 +369,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -404,7 +397,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   parent: System.AppDomain
@@ -437,7 +429,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   parent: System.AppDomain
@@ -470,7 +461,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
   parent: System.AppDomain
@@ -505,7 +495,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean)
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean)
   parent: System.AppDomain
@@ -542,7 +531,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   parent: System.AppDomain
@@ -583,7 +571,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   parent: System.AppDomain
@@ -616,7 +603,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.AppDomain.ApplyPolicy(System.String)
   id: ApplyPolicy(System.String)
   parent: System.AppDomain
@@ -639,7 +625,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.AppDomain.CreateInstance(System.String,System.String)
   id: CreateInstance(System.String,System.String)
   parent: System.AppDomain
@@ -664,7 +649,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstanceFrom(System.String,System.String)
   id: CreateInstanceFrom(System.String,System.String)
   parent: System.AppDomain
@@ -689,7 +673,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateComInstanceFrom(System.String,System.String)
   id: CreateComInstanceFrom(System.String,System.String)
   parent: System.AppDomain
@@ -714,7 +697,6 @@ items:
       type: System.String
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   id: CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.AppDomain
@@ -745,7 +727,6 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstance(System.String,System.String,System.Object[])
   id: CreateInstance(System.String,System.String,System.Object[])
   parent: System.AppDomain
@@ -774,7 +755,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Object[])
   id: CreateInstanceFrom(System.String,System.String,System.Object[])
   parent: System.AppDomain
@@ -803,7 +783,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -844,7 +823,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.AppDomain
@@ -883,7 +861,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -924,7 +901,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.AppDomain
@@ -963,7 +939,6 @@ items:
       type: System.Object[]
     return:
       type: System.Runtime.Remoting.ObjectHandle
-      description: 
 - uid: System.AppDomain.Load(System.Reflection.AssemblyName)
   id: Load(System.Reflection.AssemblyName)
   parent: System.AppDomain
@@ -986,7 +961,6 @@ items:
       type: System.Reflection.AssemblyName
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.Load(System.String)
   id: Load(System.String)
   parent: System.AppDomain
@@ -1009,7 +983,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.Load(System.Byte[])
   id: Load(System.Byte[])
   parent: System.AppDomain
@@ -1034,7 +1007,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.Load(System.Byte[],System.Byte[])
   id: Load(System.Byte[],System.Byte[])
   parent: System.AppDomain
@@ -1061,7 +1033,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)
   id: Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -1090,7 +1061,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
   id: Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -1115,7 +1085,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.Load(System.String,System.Security.Policy.Evidence)
   id: Load(System.String,System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -1140,7 +1109,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomain.ExecuteAssembly(System.String)
   id: ExecuteAssembly(System.String)
   parent: System.AppDomain
@@ -1163,7 +1131,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence)
   id: ExecuteAssembly(System.String,System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -1188,7 +1155,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[])
   id: ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[])
   parent: System.AppDomain
@@ -1217,7 +1183,6 @@ items:
       type: System.String[]
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssembly(System.String,System.String[])
   id: ExecuteAssembly(System.String,System.String[])
   parent: System.AppDomain
@@ -1244,7 +1209,6 @@ items:
       type: System.String[]
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   id: ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.AppDomain
@@ -1277,7 +1241,6 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssembly(System.String,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   id: ExecuteAssembly(System.String,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.AppDomain
@@ -1308,7 +1271,6 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssemblyByName(System.String)
   id: ExecuteAssemblyByName(System.String)
   parent: System.AppDomain
@@ -1331,7 +1293,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence)
   id: ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -1356,7 +1317,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence,System.String[])
   id: ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence,System.String[])
   parent: System.AppDomain
@@ -1385,7 +1345,6 @@ items:
       type: System.String[]
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssemblyByName(System.String,System.String[])
   id: ExecuteAssemblyByName(System.String,System.String[])
   parent: System.AppDomain
@@ -1412,7 +1371,6 @@ items:
       type: System.String[]
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.Security.Policy.Evidence,System.String[])
   id: ExecuteAssemblyByName(System.Reflection.AssemblyName,System.Security.Policy.Evidence,System.String[])
   parent: System.AppDomain
@@ -1441,7 +1399,6 @@ items:
       type: System.String[]
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.String[])
   id: ExecuteAssemblyByName(System.Reflection.AssemblyName,System.String[])
   parent: System.AppDomain
@@ -1468,7 +1425,6 @@ items:
       type: System.String[]
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.CurrentDomain
   id: CurrentDomain
   parent: System.AppDomain
@@ -1489,7 +1445,6 @@ items:
     parameters: []
     return:
       type: System.AppDomain
-      description: 
 - uid: System.AppDomain.FriendlyName
   id: FriendlyName
   parent: System.AppDomain
@@ -1510,7 +1465,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomain.BaseDirectory
   id: BaseDirectory
   parent: System.AppDomain
@@ -1531,7 +1485,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomain.ToString
   id: ToString
   parent: System.AppDomain
@@ -1551,7 +1504,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.AppDomain.GetAssemblies
   id: GetAssemblies
@@ -1572,7 +1524,6 @@ items:
     content.vb: Public Function GetAssemblies As Assembly()
     return:
       type: System.Reflection.Assembly[]
-      description: 
 - uid: System.AppDomain.ReflectionOnlyGetAssemblies
   id: ReflectionOnlyGetAssemblies
   parent: System.AppDomain
@@ -1592,7 +1543,6 @@ items:
     content.vb: Public Function ReflectionOnlyGetAssemblies As Assembly()
     return:
       type: System.Reflection.Assembly[]
-      description: 
 - uid: System.AppDomain.IsFinalizingForUnload
   id: IsFinalizingForUnload
   parent: System.AppDomain
@@ -1611,7 +1561,6 @@ items:
     content.vb: Public Function IsFinalizingForUnload As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomain.SetData(System.String,System.Object)
   id: SetData(System.String,System.Object)
   parent: System.AppDomain
@@ -1680,7 +1629,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.IsCompatibilitySwitchSet(System.String)
   id: IsCompatibilitySwitchSet(System.String)
   parent: System.AppDomain
@@ -1703,7 +1651,6 @@ items:
       type: System.String
     return:
       type: System.Nullable{System.Boolean}
-      description: 
 - uid: System.AppDomain.GetCurrentThreadId
   id: GetCurrentThreadId
   parent: System.AppDomain
@@ -1722,7 +1669,6 @@ items:
     content.vb: Public Shared Function GetCurrentThreadId As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.DynamicDirectory
   id: DynamicDirectory
   parent: System.AppDomain
@@ -1743,7 +1689,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.AppDomain.PauseManager
   id: PauseManager
   parent: System.AppDomain
@@ -1764,7 +1709,6 @@ items:
     parameters: []
     return:
       type: System.IAppDomainPauseManager
-      description: 
 - uid: System.AppDomain.ProcessExit
   id: ProcessExit
   parent: System.AppDomain
@@ -1836,7 +1780,6 @@ items:
     parameters: []
     return:
       type: System.AppDomainSetup
-      description: 
 - uid: System.AppDomain.PermissionSet
   id: PermissionSet
   parent: System.AppDomain
@@ -1857,7 +1800,6 @@ items:
     parameters: []
     return:
       type: System.Security.PermissionSet
-      description: 
 - uid: System.AppDomain.IsFullyTrusted
   id: IsFullyTrusted
   parent: System.AppDomain
@@ -1878,7 +1820,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomain.IsHomogenous
   id: IsHomogenous
   parent: System.AppDomain
@@ -1899,7 +1840,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String)
   id: CreateInstanceAndUnwrap(System.String,System.String)
   parent: System.AppDomain
@@ -1924,7 +1864,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Object[])
   id: CreateInstanceAndUnwrap(System.String,System.String,System.Object[])
   parent: System.AppDomain
@@ -1953,7 +1892,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -1994,7 +1932,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.AppDomain
@@ -2033,7 +1970,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String)
   id: CreateInstanceFromAndUnwrap(System.String,System.String)
   parent: System.AppDomain
@@ -2058,7 +1994,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Object[])
   id: CreateInstanceFromAndUnwrap(System.String,System.String,System.Object[])
   parent: System.AppDomain
@@ -2087,7 +2022,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   id: CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
   parent: System.AppDomain
@@ -2128,7 +2062,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.AppDomain
@@ -2167,7 +2100,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.AppDomain.Id
   id: Id
   parent: System.AppDomain
@@ -2188,7 +2120,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.AppDomain.IsDefaultAppDomain
   id: IsDefaultAppDomain
   parent: System.AppDomain
@@ -2208,7 +2139,6 @@ items:
     content.vb: Public Function IsDefaultAppDomain As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomain.MonitoringIsEnabled
   id: MonitoringIsEnabled
   parent: System.AppDomain
@@ -2229,7 +2159,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AppDomain.MonitoringTotalProcessorTime
   id: MonitoringTotalProcessorTime
   parent: System.AppDomain
@@ -2250,7 +2179,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.AppDomain.MonitoringTotalAllocatedMemorySize
   id: MonitoringTotalAllocatedMemorySize
   parent: System.AppDomain
@@ -2271,7 +2199,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.AppDomain.MonitoringSurvivedMemorySize
   id: MonitoringSurvivedMemorySize
   parent: System.AppDomain
@@ -2292,7 +2219,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.AppDomain.MonitoringSurvivedProcessMemorySize
   id: MonitoringSurvivedProcessMemorySize
   parent: System.AppDomain
@@ -2313,7 +2239,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -153,7 +153,6 @@ items:
     content.vb: Public Overridable Function CanResume As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

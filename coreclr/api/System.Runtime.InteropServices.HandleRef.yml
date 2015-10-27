@@ -75,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.InteropServices.HandleRef.Handle
   id: Handle
   parent: System.Runtime.InteropServices.HandleRef
@@ -96,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.HandleRef.op_Explicit(System.Runtime.InteropServices.HandleRef)~System.IntPtr
   id: op_Explicit(System.Runtime.InteropServices.HandleRef)~System.IntPtr
   parent: System.Runtime.InteropServices.HandleRef
@@ -121,7 +119,6 @@ items:
       type: System.Runtime.InteropServices.HandleRef
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.HandleRef.ToIntPtr(System.Runtime.InteropServices.HandleRef)
   id: ToIntPtr(System.Runtime.InteropServices.HandleRef)
   parent: System.Runtime.InteropServices.HandleRef
@@ -144,7 +141,6 @@ items:
       type: System.Runtime.InteropServices.HandleRef
     return:
       type: System.IntPtr
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

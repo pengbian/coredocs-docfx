@@ -80,7 +80,6 @@ items:
     parameters: []
     return:
       type: '{TKey}'
-      description: 
 - uid: System.Collections.Generic.KeyValuePair`2.Value
   id: Value
   parent: System.Collections.Generic.KeyValuePair`2
@@ -102,7 +101,6 @@ items:
     parameters: []
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Collections.Generic.KeyValuePair`2.ToString
   id: ToString
   parent: System.Collections.Generic.KeyValuePair`2
@@ -123,7 +121,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 references:
 - uid: System.Collections.Generic

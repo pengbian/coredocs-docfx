@@ -205,7 +205,6 @@ items:
     content.vb: Public Overridable Function GetMethod As MethodBase
     return:
       type: System.Reflection.MethodBase
-      description: 
 - uid: System.Diagnostics.StackFrame.GetNativeOffset
   id: GetNativeOffset
   parent: System.Diagnostics.StackFrame
@@ -225,7 +224,6 @@ items:
     content.vb: Public Overridable Function GetNativeOffset As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.StackFrame.GetILOffset
   id: GetILOffset
   parent: System.Diagnostics.StackFrame
@@ -245,7 +243,6 @@ items:
     content.vb: Public Overridable Function GetILOffset As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.StackFrame.GetFileName
   id: GetFileName
   parent: System.Diagnostics.StackFrame
@@ -265,7 +262,6 @@ items:
     content.vb: Public Overridable Function GetFileName As String
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.StackFrame.GetFileLineNumber
   id: GetFileLineNumber
   parent: System.Diagnostics.StackFrame
@@ -285,7 +281,6 @@ items:
     content.vb: Public Overridable Function GetFileLineNumber As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.StackFrame.GetFileColumnNumber
   id: GetFileColumnNumber
   parent: System.Diagnostics.StackFrame
@@ -305,7 +300,6 @@ items:
     content.vb: Public Overridable Function GetFileColumnNumber As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.StackFrame.ToString
   id: ToString
   parent: System.Diagnostics.StackFrame
@@ -325,7 +319,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Diagnostics

@@ -54,7 +54,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.TypeInfo
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

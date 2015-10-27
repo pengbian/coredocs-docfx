@@ -47,7 +47,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IEqualityComparer.GetHashCode(System.Object)
   id: GetHashCode(System.Object)
   parent: System.Collections.IEqualityComparer
@@ -70,7 +69,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

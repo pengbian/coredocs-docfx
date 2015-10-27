@@ -62,7 +62,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeTypeHandle.op_Equality(System.Object,System.RuntimeTypeHandle)
   id: op_Equality(System.Object,System.RuntimeTypeHandle)
   parent: System.RuntimeTypeHandle
@@ -87,7 +86,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeTypeHandle.op_Inequality(System.RuntimeTypeHandle,System.Object)
   id: op_Inequality(System.RuntimeTypeHandle,System.Object)
   parent: System.RuntimeTypeHandle
@@ -112,7 +110,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeTypeHandle.op_Inequality(System.Object,System.RuntimeTypeHandle)
   id: op_Inequality(System.Object,System.RuntimeTypeHandle)
   parent: System.RuntimeTypeHandle
@@ -137,7 +134,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeTypeHandle.GetHashCode
   id: GetHashCode
   parent: System.RuntimeTypeHandle
@@ -157,7 +153,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.RuntimeTypeHandle.Equals(System.Object)
   id: Equals(System.Object)
@@ -181,7 +176,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.RuntimeTypeHandle.Equals(System.RuntimeTypeHandle)
   id: Equals(System.RuntimeTypeHandle)
@@ -205,7 +199,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeTypeHandle.Value
   id: Value
   parent: System.RuntimeTypeHandle
@@ -226,7 +219,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.RuntimeTypeHandle.GetModuleHandle
   id: GetModuleHandle
   parent: System.RuntimeTypeHandle
@@ -246,7 +238,6 @@ items:
     content.vb: Public Function GetModuleHandle As ModuleHandle
     return:
       type: System.ModuleHandle
-      description: 
 - uid: System.RuntimeTypeHandle.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.RuntimeTypeHandle

@@ -46,7 +46,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 references:
 - uid: System
   isExternal: false

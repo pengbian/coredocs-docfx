@@ -62,7 +62,6 @@ items:
       type: System.Reflection.MemberInfo
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.CustomAttributeData.GetCustomAttributes(System.Reflection.Module)
   id: GetCustomAttributes(System.Reflection.Module)
   parent: System.Reflection.CustomAttributeData
@@ -85,7 +84,6 @@ items:
       type: System.Reflection.Module
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.CustomAttributeData.GetCustomAttributes(System.Reflection.Assembly)
   id: GetCustomAttributes(System.Reflection.Assembly)
   parent: System.Reflection.CustomAttributeData
@@ -108,7 +106,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.CustomAttributeData.GetCustomAttributes(System.Reflection.ParameterInfo)
   id: GetCustomAttributes(System.Reflection.ParameterInfo)
   parent: System.Reflection.CustomAttributeData
@@ -131,7 +128,6 @@ items:
       type: System.Reflection.ParameterInfo
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.CustomAttributeData.#ctor
   id: '#ctor'
   parent: System.Reflection.CustomAttributeData
@@ -168,7 +164,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.CustomAttributeData.GetHashCode
   id: GetHashCode
@@ -189,7 +184,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Reflection.CustomAttributeData.Equals(System.Object)
   id: Equals(System.Object)
@@ -213,7 +207,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Reflection.CustomAttributeData.AttributeType
   id: AttributeType
@@ -235,7 +228,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.CustomAttributeData.Constructor
   id: Constructor
   parent: System.Reflection.CustomAttributeData
@@ -256,7 +248,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ConstructorInfo
-      description: 
 - uid: System.Reflection.CustomAttributeData.ConstructorArguments
   id: ConstructorArguments
   parent: System.Reflection.CustomAttributeData
@@ -277,7 +268,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeTypedArgument}
-      description: 
 - uid: System.Reflection.CustomAttributeData.NamedArguments
   id: NamedArguments
   parent: System.Reflection.CustomAttributeData
@@ -298,7 +288,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeNamedArgument}
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

@@ -53,7 +53,6 @@ items:
       type: System.Runtime.InteropServices.AssemblyRegistrationFlags
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.IRegistrationServices.UnregisterAssembly(System.Reflection.Assembly)
   id: UnregisterAssembly(System.Reflection.Assembly)
   parent: System.Runtime.InteropServices.IRegistrationServices
@@ -76,7 +75,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.IRegistrationServices.GetRegistrableTypesInAssembly(System.Reflection.Assembly)
   id: GetRegistrableTypesInAssembly(System.Reflection.Assembly)
   parent: System.Runtime.InteropServices.IRegistrationServices
@@ -99,7 +97,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Type[]
-      description: 
 - uid: System.Runtime.InteropServices.IRegistrationServices.GetProgIdForType(System.Type)
   id: GetProgIdForType(System.Type)
   parent: System.Runtime.InteropServices.IRegistrationServices
@@ -122,7 +119,6 @@ items:
       type: System.Type
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.IRegistrationServices.RegisterTypeForComClients(System.Type,System.Guid@)
   id: RegisterTypeForComClients(System.Type,System.Guid@)
   parent: System.Runtime.InteropServices.IRegistrationServices
@@ -166,7 +162,6 @@ items:
     content.vb: Function GetManagedCategoryGuid As Guid
     return:
       type: System.Guid
-      description: 
 - uid: System.Runtime.InteropServices.IRegistrationServices.TypeRequiresRegistration(System.Type)
   id: TypeRequiresRegistration(System.Type)
   parent: System.Runtime.InteropServices.IRegistrationServices
@@ -189,7 +184,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.IRegistrationServices.TypeRepresentsComType(System.Type)
   id: TypeRepresentsComType(System.Type)
   parent: System.Runtime.InteropServices.IRegistrationServices
@@ -212,7 +206,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

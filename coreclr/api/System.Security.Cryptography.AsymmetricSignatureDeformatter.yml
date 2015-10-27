@@ -119,7 +119,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Cryptography.AsymmetricSignatureDeformatter.VerifySignature(System.Byte[],System.Byte[])
   id: VerifySignature(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.AsymmetricSignatureDeformatter
@@ -146,7 +145,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

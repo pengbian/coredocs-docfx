@@ -204,7 +204,6 @@ items:
       type: System.String
     return:
       type: System.Threading.Mutex
-      description: 
 - uid: System.Threading.Mutex.OpenExisting(System.String,System.Threading.Mutex.MutexRights)
   id: OpenExisting(System.String,System.Threading.Mutex.MutexRights)
   parent: System.Threading.Mutex
@@ -229,7 +228,6 @@ items:
       type: System.Threading.Mutex.MutexRights
     return:
       type: System.Threading.Mutex
-      description: 
 - uid: System.Threading.Mutex.TryOpenExisting(System.String,System.Threading.Mutex@)
   id: TryOpenExisting(System.String,System.Threading.Mutex@)
   parent: System.Threading.Mutex
@@ -256,7 +254,6 @@ items:
       type: System.Threading.Mutex
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Mutex.TryOpenExisting(System.String,System.Threading.Mutex.MutexRights,System.Threading.Mutex@)
   id: TryOpenExisting(System.String,System.Threading.Mutex.MutexRights,System.Threading.Mutex@)
   parent: System.Threading.Mutex
@@ -285,7 +282,6 @@ items:
       type: System.Threading.Mutex
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Mutex.ReleaseMutex
   id: ReleaseMutex
   parent: System.Threading.Mutex

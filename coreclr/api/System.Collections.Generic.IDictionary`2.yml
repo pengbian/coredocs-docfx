@@ -67,7 +67,6 @@ items:
       type: '{TKey}'
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Collections.Generic.IDictionary`2.Keys
   id: Keys
   parent: System.Collections.Generic.IDictionary`2
@@ -89,7 +88,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{{TKey}}
-      description: 
 - uid: System.Collections.Generic.IDictionary`2.Values
   id: Values
   parent: System.Collections.Generic.IDictionary`2
@@ -111,7 +109,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.ICollection{{TValue}}
-      description: 
 - uid: System.Collections.Generic.IDictionary`2.ContainsKey(`0)
   id: ContainsKey(`0)
   parent: System.Collections.Generic.IDictionary`2
@@ -135,7 +132,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.IDictionary`2.Add(`0,`1)
   id: Add(`0,`1)
   parent: System.Collections.Generic.IDictionary`2
@@ -182,7 +178,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)
   id: TryGetValue(`0,`1@)
   parent: System.Collections.Generic.IDictionary`2
@@ -209,7 +204,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

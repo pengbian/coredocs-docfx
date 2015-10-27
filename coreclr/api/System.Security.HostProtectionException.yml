@@ -178,7 +178,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.HostProtectionResource
-      description: 
 - uid: System.Security.HostProtectionException.DemandedResources
   id: DemandedResources
   parent: System.Security.HostProtectionException
@@ -199,7 +198,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.HostProtectionResource
-      description: 
 - uid: System.Security.HostProtectionException.ToString
   id: ToString
   parent: System.Security.HostProtectionException
@@ -219,7 +217,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Exception.ToString
 - uid: System.Security.HostProtectionException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

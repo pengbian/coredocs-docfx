@@ -44,7 +44,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolNamespace.GetNamespaces
   id: GetNamespaces
   parent: System.Diagnostics.SymbolStore.ISymbolNamespace
@@ -64,7 +63,6 @@ items:
     content.vb: Function GetNamespaces As ISymbolNamespace()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolNamespace.GetVariables
   id: GetVariables
   parent: System.Diagnostics.SymbolStore.ISymbolNamespace
@@ -84,7 +82,6 @@ items:
     content.vb: Function GetVariables As ISymbolVariable()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

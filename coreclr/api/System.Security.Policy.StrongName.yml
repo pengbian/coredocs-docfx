@@ -85,7 +85,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.StrongNamePublicKeyBlob
-      description: 
 - uid: System.Security.Policy.StrongName.Name
   id: Name
   parent: System.Security.Policy.StrongName
@@ -106,7 +105,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Policy.StrongName.Version
   id: Version
   parent: System.Security.Policy.StrongName
@@ -127,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.Version
-      description: 
 - uid: System.Security.Policy.StrongName.CreateIdentityPermission(System.Security.Policy.Evidence)
   id: CreateIdentityPermission(System.Security.Policy.Evidence)
   parent: System.Security.Policy.StrongName
@@ -150,7 +147,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.Policy.StrongName.Clone
   id: Clone
   parent: System.Security.Policy.StrongName
@@ -170,7 +166,6 @@ items:
     content.vb: Public Overrides Function Clone As EvidenceBase
     return:
       type: System.Security.Policy.EvidenceBase
-      description: 
   overridden: System.Security.Policy.EvidenceBase.Clone
 - uid: System.Security.Policy.StrongName.Copy
   id: Copy
@@ -191,7 +186,6 @@ items:
     content.vb: Public Function Copy As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Security.Policy.StrongName.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.Policy.StrongName
@@ -214,7 +208,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.Policy.StrongName.GetHashCode
   id: GetHashCode
@@ -235,7 +228,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Security.Policy

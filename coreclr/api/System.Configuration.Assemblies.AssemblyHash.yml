@@ -120,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
-      description: 
 - uid: System.Configuration.Assemblies.AssemblyHash.GetValue
   id: GetValue
   parent: System.Configuration.Assemblies.AssemblyHash
@@ -140,7 +139,6 @@ items:
     content.vb: Public Function GetValue As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Configuration.Assemblies.AssemblyHash.SetValue(System.Byte[])
   id: SetValue(System.Byte[])
   parent: System.Configuration.Assemblies.AssemblyHash
@@ -182,7 +180,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Configuration.Assemblies
   isExternal: false

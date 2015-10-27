@@ -444,7 +444,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.IO.FileStream.CanWrite
   id: CanWrite
@@ -466,7 +465,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.IO.FileStream.CanSeek
   id: CanSeek
@@ -488,7 +486,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.IO.FileStream.IsAsync
   id: IsAsync
@@ -510,7 +507,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.FileStream.Length
   id: Length
   parent: System.IO.FileStream
@@ -531,7 +527,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Length
 - uid: System.IO.FileStream.Name
   id: Name
@@ -553,7 +548,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.FileStream.Position
   id: Position
   parent: System.IO.FileStream
@@ -574,7 +568,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Position
 - uid: System.IO.FileStream.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -672,7 +665,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.IO.FileStream.SafeFileHandle
   id: SafeFileHandle
   parent: System.IO.FileStream
@@ -693,7 +685,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeFileHandle
-      description: 
 - uid: System.IO.FileStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
   parent: System.IO.FileStream
@@ -743,7 +734,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.FileStream.Seek(System.Int64,System.IO.SeekOrigin)
   id: Seek(System.Int64,System.IO.SeekOrigin)
@@ -769,7 +759,6 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.FileStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -830,7 +819,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 - uid: System.IO.FileStream.EndRead(System.IAsyncResult)
   id: EndRead(System.IAsyncResult)
@@ -854,7 +842,6 @@ items:
       type: System.IAsyncResult
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.EndRead(System.IAsyncResult)
 - uid: System.IO.FileStream.ReadByte
   id: ReadByte
@@ -875,7 +862,6 @@ items:
     content.vb: Public Overrides Function ReadByte As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.ReadByte
 - uid: System.IO.FileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
   id: BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
@@ -909,7 +895,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 - uid: System.IO.FileStream.EndWrite(System.IAsyncResult)
   id: EndWrite(System.IAsyncResult)
@@ -1027,7 +1012,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Int32}
-      description: 
   overridden: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.FileStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -1059,7 +1043,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.FileStream.FlushAsync(System.Threading.CancellationToken)
   id: FlushAsync(System.Threading.CancellationToken)
@@ -1083,7 +1066,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
 references:
 - uid: System.IO
@@ -1109,7 +1091,6 @@ references:
   parent: System.IO.Stream
   isExternal: false
   href: System.IO.Stream.yml
-  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CanTimeout
   parent: System.IO.Stream

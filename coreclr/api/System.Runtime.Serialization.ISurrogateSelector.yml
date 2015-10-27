@@ -72,7 +72,6 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
     return:
       type: System.Runtime.Serialization.ISerializationSurrogate
-      description: 
 - uid: System.Runtime.Serialization.ISurrogateSelector.GetNextSelector
   id: GetNextSelector
   parent: System.Runtime.Serialization.ISurrogateSelector
@@ -92,7 +91,6 @@ items:
     content.vb: Function GetNextSelector As ISurrogateSelector
     return:
       type: System.Runtime.Serialization.ISurrogateSelector
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

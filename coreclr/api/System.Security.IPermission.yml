@@ -45,7 +45,6 @@ items:
     content.vb: Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.IPermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
   parent: System.Security.IPermission
@@ -68,7 +67,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.IPermission.Union(System.Security.IPermission)
   id: Union(System.Security.IPermission)
   parent: System.Security.IPermission
@@ -91,7 +89,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.IPermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
   parent: System.Security.IPermission
@@ -114,7 +111,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.IPermission.Demand
   id: Demand
   parent: System.Security.IPermission

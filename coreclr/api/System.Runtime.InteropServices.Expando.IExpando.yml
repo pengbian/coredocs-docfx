@@ -60,7 +60,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Runtime.InteropServices.Expando.IExpando.AddProperty(System.String)
   id: AddProperty(System.String)
   parent: System.Runtime.InteropServices.Expando.IExpando
@@ -83,7 +82,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Runtime.InteropServices.Expando.IExpando.AddMethod(System.String,System.Delegate)
   id: AddMethod(System.String,System.Delegate)
   parent: System.Runtime.InteropServices.Expando.IExpando
@@ -108,7 +106,6 @@ items:
       type: System.Delegate
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Runtime.InteropServices.Expando.IExpando.RemoveMember(System.Reflection.MemberInfo)
   id: RemoveMember(System.Reflection.MemberInfo)
   parent: System.Runtime.InteropServices.Expando.IExpando

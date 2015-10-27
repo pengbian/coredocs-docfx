@@ -41,7 +41,6 @@ items:
     content.vb: Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

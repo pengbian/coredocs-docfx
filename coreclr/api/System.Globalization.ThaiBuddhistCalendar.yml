@@ -119,7 +119,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MinSupportedDateTime
 - uid: System.Globalization.ThaiBuddhistCalendar.MaxSupportedDateTime
   id: MaxSupportedDateTime
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MaxSupportedDateTime
 - uid: System.Globalization.ThaiBuddhistCalendar.AlgorithmType
   id: AlgorithmType
@@ -163,7 +161,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CalendarAlgorithmType
-      description: 
   overridden: System.Globalization.Calendar.AlgorithmType
 - uid: System.Globalization.ThaiBuddhistCalendar.#ctor
   id: '#ctor'
@@ -206,7 +203,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.AddYears(System.DateTime,System.Int32)
   id: AddYears(System.DateTime,System.Int32)
@@ -232,7 +228,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   id: GetDaysInMonth(System.Int32,System.Int32,System.Int32)
@@ -260,7 +255,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetDaysInYear(System.Int32,System.Int32)
   id: GetDaysInYear(System.Int32,System.Int32)
@@ -286,7 +280,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetDayOfMonth(System.DateTime)
   id: GetDayOfMonth(System.DateTime)
@@ -310,7 +303,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfMonth(System.DateTime)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetDayOfWeek(System.DateTime)
   id: GetDayOfWeek(System.DateTime)
@@ -334,7 +326,6 @@ items:
       type: System.DateTime
     return:
       type: System.DayOfWeek
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfWeek(System.DateTime)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetDayOfYear(System.DateTime)
   id: GetDayOfYear(System.DateTime)
@@ -358,7 +349,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfYear(System.DateTime)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetMonthsInYear(System.Int32,System.Int32)
   id: GetMonthsInYear(System.Int32,System.Int32)
@@ -384,7 +374,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
   id: GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
@@ -412,7 +401,6 @@ items:
       type: System.DayOfWeek
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetEra(System.DateTime)
   id: GetEra(System.DateTime)
@@ -436,7 +424,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetEra(System.DateTime)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetMonth(System.DateTime)
   id: GetMonth(System.DateTime)
@@ -460,7 +447,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetMonth(System.DateTime)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetYear(System.DateTime)
   id: GetYear(System.DateTime)
@@ -484,7 +470,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetYear(System.DateTime)
 - uid: System.Globalization.ThaiBuddhistCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   id: IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -514,7 +499,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.IsLeapYear(System.Int32,System.Int32)
   id: IsLeapYear(System.Int32,System.Int32)
@@ -540,7 +524,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.GetLeapMonth(System.Int32,System.Int32)
   id: GetLeapMonth(System.Int32,System.Int32)
@@ -566,7 +549,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   id: IsLeapMonth(System.Int32,System.Int32,System.Int32)
@@ -594,7 +576,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   id: ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -632,7 +613,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.ThaiBuddhistCalendar.Eras
   id: Eras
@@ -654,7 +634,6 @@ items:
     parameters: []
     return:
       type: System.Int32[]
-      description: 
   overridden: System.Globalization.Calendar.Eras
 - uid: System.Globalization.ThaiBuddhistCalendar.TwoDigitYearMax
   id: TwoDigitYearMax
@@ -676,7 +655,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.TwoDigitYearMax
 - uid: System.Globalization.ThaiBuddhistCalendar.ToFourDigitYear(System.Int32)
   id: ToFourDigitYear(System.Int32)
@@ -700,7 +678,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.ToFourDigitYear(System.Int32)
 references:
 - uid: System.Globalization

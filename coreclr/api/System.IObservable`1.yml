@@ -50,7 +50,6 @@ items:
       type: System.IObserver{{T}}
     return:
       type: System.IDisposable
-      description: 
 references:
 - uid: System
   isExternal: false

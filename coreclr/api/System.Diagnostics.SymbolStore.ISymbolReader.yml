@@ -59,7 +59,6 @@ items:
       type: System.Guid
     return:
       type: System.Diagnostics.SymbolStore.ISymbolDocument
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetDocuments
   id: GetDocuments
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -79,7 +78,6 @@ items:
     content.vb: Function GetDocuments As ISymbolDocument()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolDocument[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.UserEntryPoint
   id: UserEntryPoint
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -100,7 +98,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SymbolStore.SymbolToken
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetMethod(System.Diagnostics.SymbolStore.SymbolToken)
   id: GetMethod(System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -123,7 +120,6 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
     return:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetMethod(System.Diagnostics.SymbolStore.SymbolToken,System.Int32)
   id: GetMethod(System.Diagnostics.SymbolStore.SymbolToken,System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -148,7 +144,6 @@ items:
       type: System.Int32
     return:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetVariables(System.Diagnostics.SymbolStore.SymbolToken)
   id: GetVariables(System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -171,7 +166,6 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
     return:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetGlobalVariables
   id: GetGlobalVariables
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -191,7 +185,6 @@ items:
     content.vb: Function GetGlobalVariables As ISymbolVariable()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetMethodFromDocumentPosition(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   id: GetMethodFromDocumentPosition(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -218,7 +211,6 @@ items:
       type: System.Int32
     return:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken,System.String)
   id: GetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken,System.String)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -243,7 +235,6 @@ items:
       type: System.String
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetNamespaces
   id: GetNamespaces
   parent: System.Diagnostics.SymbolStore.ISymbolReader
@@ -263,7 +254,6 @@ items:
     content.vb: Function GetNamespaces As ISymbolNamespace()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace[]
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

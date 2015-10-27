@@ -112,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.ObfuscateAssemblyAttribute.StripAfterObfuscation
   id: StripAfterObfuscation
   parent: System.Reflection.ObfuscateAssemblyAttribute
@@ -133,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

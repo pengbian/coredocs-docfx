@@ -180,7 +180,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.ArgumentException.Message
 - uid: System.ArgumentOutOfRangeException.ActualValue
   id: ActualValue
@@ -202,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.ArgumentOutOfRangeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.ArgumentOutOfRangeException

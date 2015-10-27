@@ -258,7 +258,6 @@ items:
       type: System.Reflection.TypeInfo
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.TypeInfo.IsAssignableFrom(System.Reflection.TypeInfo)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.ToString
   id: ToString
@@ -279,7 +278,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Type.ToString
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.Equals(System.Object)
   id: Equals(System.Object)
@@ -303,7 +301,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.Equals(System.Object)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetHashCode
   id: GetHashCode
@@ -324,7 +321,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Type.GetHashCode
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.DeclaringType
   id: DeclaringType
@@ -346,7 +342,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.DeclaringType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.ReflectedType
   id: ReflectedType
@@ -368,7 +363,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.ReflectedType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.Name
   id: Name
@@ -390,7 +384,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.Module
   id: Module
@@ -412,7 +405,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Type.Module
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.MakePointerType
   id: MakePointerType
@@ -433,7 +425,6 @@ items:
     content.vb: Public Overrides Function MakePointerType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakePointerType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.MakeByRefType
   id: MakeByRefType
@@ -454,7 +445,6 @@ items:
     content.vb: Public Overrides Function MakeByRefType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeByRefType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.MakeArrayType
   id: MakeArrayType
@@ -475,7 +465,6 @@ items:
     content.vb: Public Overrides Function MakeArrayType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeArrayType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.MakeArrayType(System.Int32)
   id: MakeArrayType(System.Int32)
@@ -499,7 +488,6 @@ items:
       type: System.Int32
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeArrayType(System.Int32)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GUID
   id: GUID
@@ -521,7 +509,6 @@ items:
     parameters: []
     return:
       type: System.Guid
-      description: 
   overridden: System.Type.GUID
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
   id: InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
@@ -561,7 +548,6 @@ items:
       type: System.String[]
     return:
       type: System.Object
-      description: 
   overridden: System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.Assembly
   id: Assembly
@@ -583,7 +569,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
   overridden: System.Type.Assembly
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.TypeHandle
   id: TypeHandle
@@ -605,7 +590,6 @@ items:
     parameters: []
     return:
       type: System.RuntimeTypeHandle
-      description: 
   overridden: System.Type.TypeHandle
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.FullName
   id: FullName
@@ -627,7 +611,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Type.FullName
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.Namespace
   id: Namespace
@@ -649,7 +632,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Type.Namespace
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.AssemblyQualifiedName
   id: AssemblyQualifiedName
@@ -671,7 +653,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Type.AssemblyQualifiedName
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.BaseType
   id: BaseType
@@ -693,7 +674,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.BaseType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
@@ -727,7 +707,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.ConstructorInfo
-      description: 
   overridden: System.Type.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetConstructors(System.Reflection.BindingFlags)
   id: GetConstructors(System.Reflection.BindingFlags)
@@ -751,7 +730,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.ConstructorInfo[]
-      description: 
   overridden: System.Type.GetConstructors(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
@@ -787,7 +765,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Type.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetMethods(System.Reflection.BindingFlags)
   id: GetMethods(System.Reflection.BindingFlags)
@@ -811,7 +788,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
   overridden: System.Type.GetMethods(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetField(System.String,System.Reflection.BindingFlags)
   id: GetField(System.String,System.Reflection.BindingFlags)
@@ -837,7 +813,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
-      description: 
   overridden: System.Type.GetField(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetFields(System.Reflection.BindingFlags)
   id: GetFields(System.Reflection.BindingFlags)
@@ -861,7 +836,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
   overridden: System.Type.GetFields(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetInterface(System.String,System.Boolean)
   id: GetInterface(System.String,System.Boolean)
@@ -887,7 +861,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetInterface(System.String,System.Boolean)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetInterfaces
   id: GetInterfaces
@@ -908,7 +881,6 @@ items:
     content.vb: Public Overrides Function GetInterfaces As Type()
     return:
       type: System.Type[]
-      description: 
   overridden: System.Type.GetInterfaces
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetEvent(System.String,System.Reflection.BindingFlags)
   id: GetEvent(System.String,System.Reflection.BindingFlags)
@@ -934,7 +906,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo
-      description: 
   overridden: System.Type.GetEvent(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetEvents
   id: GetEvents
@@ -955,7 +926,6 @@ items:
     content.vb: Public Overrides Function GetEvents As EventInfo()
     return:
       type: System.Reflection.EventInfo[]
-      description: 
   overridden: System.Type.GetEvents
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
   id: GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
@@ -991,7 +961,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.PropertyInfo
-      description: 
   overridden: System.Type.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetProperties(System.Reflection.BindingFlags)
   id: GetProperties(System.Reflection.BindingFlags)
@@ -1015,7 +984,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo[]
-      description: 
   overridden: System.Type.GetProperties(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetNestedTypes(System.Reflection.BindingFlags)
   id: GetNestedTypes(System.Reflection.BindingFlags)
@@ -1039,7 +1007,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type[]
-      description: 
   overridden: System.Type.GetNestedTypes(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetNestedType(System.String,System.Reflection.BindingFlags)
   id: GetNestedType(System.String,System.Reflection.BindingFlags)
@@ -1065,7 +1032,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetNestedType(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags)
   id: GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags)
@@ -1093,7 +1059,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
   overridden: System.Type.GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetInterfaceMap(System.Type)
   id: GetInterfaceMap(System.Type)
@@ -1117,7 +1082,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.InterfaceMapping
-      description: 
   overridden: System.Type.GetInterfaceMap(System.Type)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetEvents(System.Reflection.BindingFlags)
   id: GetEvents(System.Reflection.BindingFlags)
@@ -1141,7 +1105,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo[]
-      description: 
   overridden: System.Type.GetEvents(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetMembers(System.Reflection.BindingFlags)
   id: GetMembers(System.Reflection.BindingFlags)
@@ -1165,7 +1128,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
   overridden: System.Type.GetMembers(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetAttributeFlagsImpl
   id: GetAttributeFlagsImpl
@@ -1186,7 +1148,6 @@ items:
     content.vb: Protected Overrides Function GetAttributeFlagsImpl As TypeAttributes
     return:
       type: System.Reflection.TypeAttributes
-      description: 
   overridden: System.Type.GetAttributeFlagsImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsArrayImpl
   id: IsArrayImpl
@@ -1207,7 +1168,6 @@ items:
     content.vb: Protected Overrides Function IsArrayImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsArrayImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsByRefImpl
   id: IsByRefImpl
@@ -1228,7 +1188,6 @@ items:
     content.vb: Protected Overrides Function IsByRefImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsByRefImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsPointerImpl
   id: IsPointerImpl
@@ -1249,7 +1208,6 @@ items:
     content.vb: Protected Overrides Function IsPointerImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsPointerImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsPrimitiveImpl
   id: IsPrimitiveImpl
@@ -1270,7 +1228,6 @@ items:
     content.vb: Protected Overrides Function IsPrimitiveImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsPrimitiveImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsCOMObjectImpl
   id: IsCOMObjectImpl
@@ -1291,7 +1248,6 @@ items:
     content.vb: Protected Overrides Function IsCOMObjectImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsCOMObjectImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetElementType
   id: GetElementType
@@ -1312,7 +1268,6 @@ items:
     content.vb: Public Overrides Function GetElementType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetElementType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.HasElementTypeImpl
   id: HasElementTypeImpl
@@ -1333,7 +1288,6 @@ items:
     content.vb: Protected Overrides Function HasElementTypeImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.HasElementTypeImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.UnderlyingSystemType
   id: UnderlyingSystemType
@@ -1355,7 +1309,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.UnderlyingSystemType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetGenericArguments
   id: GetGenericArguments
@@ -1376,7 +1329,6 @@ items:
     content.vb: Public Overrides Function GetGenericArguments As Type()
     return:
       type: System.Type[]
-      description: 
   overridden: System.Type.GetGenericArguments
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsGenericTypeDefinition
   id: IsGenericTypeDefinition
@@ -1398,7 +1350,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsGenericTypeDefinition
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsGenericType
   id: IsGenericType
@@ -1420,7 +1371,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsGenericType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsGenericParameter
   id: IsGenericParameter
@@ -1442,7 +1392,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsGenericParameter
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsConstructedGenericType
   id: IsConstructedGenericType
@@ -1464,7 +1413,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsConstructedGenericType
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GenericParameterPosition
   id: GenericParameterPosition
@@ -1486,7 +1434,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Type.GenericParameterPosition
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.ContainsGenericParameters
   id: ContainsGenericParameters
@@ -1508,7 +1455,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.ContainsGenericParameters
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GenericParameterAttributes
   id: GenericParameterAttributes
@@ -1530,7 +1476,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.GenericParameterAttributes
-      description: 
   overridden: System.Type.GenericParameterAttributes
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.DeclaringMethod
   id: DeclaringMethod
@@ -1552,7 +1497,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodBase
-      description: 
   overridden: System.Type.DeclaringMethod
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetGenericTypeDefinition
   id: GetGenericTypeDefinition
@@ -1573,7 +1517,6 @@ items:
     content.vb: Public Overrides Function GetGenericTypeDefinition As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetGenericTypeDefinition
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.MakeGenericType(System.Type[])
   id: MakeGenericType(System.Type[])
@@ -1599,7 +1542,6 @@ items:
       type: System.Type[]
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeGenericType(System.Type[])
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsValueTypeImpl
   id: IsValueTypeImpl
@@ -1620,7 +1562,6 @@ items:
     content.vb: Protected Overrides Function IsValueTypeImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsValueTypeImpl
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsAssignableFrom(System.Type)
   id: IsAssignableFrom(System.Type)
@@ -1644,7 +1585,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsAssignableFrom(System.Type)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsSubclassOf(System.Type)
   id: IsSubclassOf(System.Type)
@@ -1668,7 +1608,6 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsSubclassOf(System.Type)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -1692,7 +1631,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -1718,7 +1656,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -1744,7 +1681,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.GenericTypeParameterBuilder.SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
   id: SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])

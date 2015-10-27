@@ -59,7 +59,6 @@ items:
     content.vb: Public Function MoveNext As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfoEnumerator.System#Collections#IEnumerator#Current
   id: System#Collections#IEnumerator#Current
   parent: System.Runtime.Serialization.SerializationInfoEnumerator
@@ -101,7 +100,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.SerializationEntry
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfoEnumerator.Reset
   id: Reset
   parent: System.Runtime.Serialization.SerializationInfoEnumerator
@@ -139,7 +137,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfoEnumerator.Value
   id: Value
   parent: System.Runtime.Serialization.SerializationInfoEnumerator
@@ -160,7 +157,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfoEnumerator.ObjectType
   id: ObjectType
   parent: System.Runtime.Serialization.SerializationInfoEnumerator
@@ -181,7 +177,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

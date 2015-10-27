@@ -608,7 +608,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Tasks.TaskCompletionSource`1.SetCanceled
   id: SetCanceled
   parent: System.Threading.Tasks.TaskCompletionSource`1

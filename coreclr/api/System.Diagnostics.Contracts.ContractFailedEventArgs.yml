@@ -88,7 +88,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Condition
   id: Condition
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
@@ -109,7 +108,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind
   id: FailureKind
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
@@ -130,7 +128,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.Contracts.ContractFailureKind
-      description: 
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException
   id: OriginalException
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
@@ -151,7 +148,6 @@ items:
     parameters: []
     return:
       type: System.Exception
-      description: 
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Handled
   id: Handled
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
@@ -172,7 +168,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled
   id: SetHandled
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
@@ -210,7 +205,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind
   id: SetUnwind
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs

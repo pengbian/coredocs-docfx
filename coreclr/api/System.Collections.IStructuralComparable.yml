@@ -46,7 +46,6 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

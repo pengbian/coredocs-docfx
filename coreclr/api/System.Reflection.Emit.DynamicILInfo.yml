@@ -66,7 +66,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.DynamicMethod
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte[],System.Int32)
   id: SetCode(System.Byte[],System.Int32)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -225,7 +224,6 @@ items:
       type: System.RuntimeMethodHandle
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Reflection.Emit.DynamicMethod)
   id: GetTokenFor(System.Reflection.Emit.DynamicMethod)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -248,7 +246,6 @@ items:
       type: System.Reflection.Emit.DynamicMethod
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle,System.RuntimeTypeHandle)
   id: GetTokenFor(System.RuntimeMethodHandle,System.RuntimeTypeHandle)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -273,7 +270,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle)
   id: GetTokenFor(System.RuntimeFieldHandle)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -296,7 +292,6 @@ items:
       type: System.RuntimeFieldHandle
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
   id: GetTokenFor(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -321,7 +316,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeTypeHandle)
   id: GetTokenFor(System.RuntimeTypeHandle)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -344,7 +338,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.String)
   id: GetTokenFor(System.String)
   parent: System.Reflection.Emit.DynamicILInfo
@@ -367,7 +360,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Byte[])
   id: GetTokenFor(System.Byte[])
   parent: System.Reflection.Emit.DynamicILInfo
@@ -392,7 +384,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

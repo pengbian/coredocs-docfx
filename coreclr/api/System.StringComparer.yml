@@ -68,7 +68,6 @@ items:
     parameters: []
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.InvariantCultureIgnoreCase
   id: InvariantCultureIgnoreCase
   parent: System.StringComparer
@@ -89,7 +88,6 @@ items:
     parameters: []
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.CurrentCulture
   id: CurrentCulture
   parent: System.StringComparer
@@ -110,7 +108,6 @@ items:
     parameters: []
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.CurrentCultureIgnoreCase
   id: CurrentCultureIgnoreCase
   parent: System.StringComparer
@@ -131,7 +128,6 @@ items:
     parameters: []
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.Ordinal
   id: Ordinal
   parent: System.StringComparer
@@ -152,7 +148,6 @@ items:
     parameters: []
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.OrdinalIgnoreCase
   id: OrdinalIgnoreCase
   parent: System.StringComparer
@@ -173,7 +168,6 @@ items:
     parameters: []
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.Create(System.Globalization.CultureInfo,System.Boolean)
   id: Create(System.Globalization.CultureInfo,System.Boolean)
   parent: System.StringComparer
@@ -198,7 +192,6 @@ items:
       type: System.Boolean
     return:
       type: System.StringComparer
-      description: 
 - uid: System.StringComparer.Compare(System.Object,System.Object)
   id: Compare(System.Object,System.Object)
   parent: System.StringComparer
@@ -223,7 +216,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.StringComparer.Equals(System.Object,System.Object)
   id: Equals(System.Object,System.Object)
   parent: System.StringComparer
@@ -248,7 +240,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.StringComparer.GetHashCode(System.Object)
   id: GetHashCode(System.Object)
   parent: System.StringComparer
@@ -271,7 +262,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.StringComparer.Compare(System.String,System.String)
   id: Compare(System.String,System.String)
   parent: System.StringComparer
@@ -296,7 +286,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.StringComparer.Equals(System.String,System.String)
   id: Equals(System.String,System.String)
   parent: System.StringComparer
@@ -321,7 +310,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.StringComparer.GetHashCode(System.String)
   id: GetHashCode(System.String)
   parent: System.StringComparer
@@ -344,7 +332,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System
   isExternal: false

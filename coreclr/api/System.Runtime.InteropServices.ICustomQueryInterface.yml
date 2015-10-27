@@ -48,7 +48,6 @@ items:
       type: System.IntPtr
     return:
       type: System.Runtime.InteropServices.CustomQueryInterfaceResult
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

@@ -159,7 +159,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Text.DecoderFallbackException.Index
   id: Index
   parent: System.Text.DecoderFallbackException
@@ -180,7 +179,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Text
   isExternal: false

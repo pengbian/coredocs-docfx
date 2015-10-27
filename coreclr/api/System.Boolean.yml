@@ -110,7 +110,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Boolean.ToString
   id: ToString
@@ -131,7 +130,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Boolean.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -155,7 +153,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Boolean.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Boolean
@@ -178,7 +175,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Boolean.Equals(System.Boolean)
   id: Equals(System.Boolean)
@@ -202,7 +198,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Boolean.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Boolean
@@ -225,7 +220,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Boolean.CompareTo(System.Boolean)
   id: CompareTo(System.Boolean)
   parent: System.Boolean
@@ -248,7 +242,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Boolean.Parse(System.String)
   id: Parse(System.String)
   parent: System.Boolean
@@ -271,7 +264,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Boolean.TryParse(System.String,System.Boolean@)
   id: TryParse(System.String,System.Boolean@)
   parent: System.Boolean
@@ -298,7 +290,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Boolean.GetTypeCode
   id: GetTypeCode
   parent: System.Boolean
@@ -318,7 +309,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.Boolean.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.Boolean

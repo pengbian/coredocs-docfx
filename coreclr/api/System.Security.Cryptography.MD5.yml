@@ -95,7 +95,6 @@ items:
     content.vb: Public Shared Function Create As MD5
     return:
       type: System.Security.Cryptography.MD5
-      description: 
 - uid: System.Security.Cryptography.MD5.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.MD5
@@ -118,7 +117,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.MD5
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

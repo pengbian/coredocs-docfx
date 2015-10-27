@@ -4122,7 +4122,6 @@ items:
       type: System.Reflection.Emit.OpCode
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

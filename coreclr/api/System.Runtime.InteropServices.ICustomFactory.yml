@@ -44,7 +44,6 @@ items:
       type: System.Type
     return:
       type: System.MarshalByRefObject
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

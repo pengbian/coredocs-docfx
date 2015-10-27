@@ -57,7 +57,6 @@ items:
     content.vb: Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.IConvertible.ToBoolean(System.IFormatProvider)
   id: ToBoolean(System.IFormatProvider)
   parent: System.IConvertible
@@ -80,7 +79,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Boolean
-      description: 
 - uid: System.IConvertible.ToChar(System.IFormatProvider)
   id: ToChar(System.IFormatProvider)
   parent: System.IConvertible
@@ -103,7 +101,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Char
-      description: 
 - uid: System.IConvertible.ToSByte(System.IFormatProvider)
   id: ToSByte(System.IFormatProvider)
   parent: System.IConvertible
@@ -126,7 +123,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.SByte
-      description: 
 - uid: System.IConvertible.ToByte(System.IFormatProvider)
   id: ToByte(System.IFormatProvider)
   parent: System.IConvertible
@@ -149,7 +145,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Byte
-      description: 
 - uid: System.IConvertible.ToInt16(System.IFormatProvider)
   id: ToInt16(System.IFormatProvider)
   parent: System.IConvertible
@@ -172,7 +167,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Int16
-      description: 
 - uid: System.IConvertible.ToUInt16(System.IFormatProvider)
   id: ToUInt16(System.IFormatProvider)
   parent: System.IConvertible
@@ -195,7 +189,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.UInt16
-      description: 
 - uid: System.IConvertible.ToInt32(System.IFormatProvider)
   id: ToInt32(System.IFormatProvider)
   parent: System.IConvertible
@@ -218,7 +211,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Int32
-      description: 
 - uid: System.IConvertible.ToUInt32(System.IFormatProvider)
   id: ToUInt32(System.IFormatProvider)
   parent: System.IConvertible
@@ -241,7 +233,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.UInt32
-      description: 
 - uid: System.IConvertible.ToInt64(System.IFormatProvider)
   id: ToInt64(System.IFormatProvider)
   parent: System.IConvertible
@@ -264,7 +255,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Int64
-      description: 
 - uid: System.IConvertible.ToUInt64(System.IFormatProvider)
   id: ToUInt64(System.IFormatProvider)
   parent: System.IConvertible
@@ -287,7 +277,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.UInt64
-      description: 
 - uid: System.IConvertible.ToSingle(System.IFormatProvider)
   id: ToSingle(System.IFormatProvider)
   parent: System.IConvertible
@@ -310,7 +299,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Single
-      description: 
 - uid: System.IConvertible.ToDouble(System.IFormatProvider)
   id: ToDouble(System.IFormatProvider)
   parent: System.IConvertible
@@ -333,7 +321,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Double
-      description: 
 - uid: System.IConvertible.ToDecimal(System.IFormatProvider)
   id: ToDecimal(System.IFormatProvider)
   parent: System.IConvertible
@@ -356,7 +343,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Decimal
-      description: 
 - uid: System.IConvertible.ToDateTime(System.IFormatProvider)
   id: ToDateTime(System.IFormatProvider)
   parent: System.IConvertible
@@ -379,7 +365,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.DateTime
-      description: 
 - uid: System.IConvertible.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.IConvertible
@@ -402,7 +387,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
   id: ToType(System.Type,System.IFormatProvider)
   parent: System.IConvertible
@@ -427,7 +411,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.Object
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -331,7 +331,6 @@ items:
     parameters: []
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.UtcNow
   id: UtcNow
   parent: System.DateTimeOffset
@@ -352,7 +351,6 @@ items:
     parameters: []
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.DateTime
   id: DateTime
   parent: System.DateTimeOffset
@@ -373,7 +371,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTimeOffset.UtcDateTime
   id: UtcDateTime
   parent: System.DateTimeOffset
@@ -394,7 +391,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTimeOffset.LocalDateTime
   id: LocalDateTime
   parent: System.DateTimeOffset
@@ -415,7 +411,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTimeOffset.ToOffset(System.TimeSpan)
   id: ToOffset(System.TimeSpan)
   parent: System.DateTimeOffset
@@ -438,7 +433,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.Date
   id: Date
   parent: System.DateTimeOffset
@@ -459,7 +453,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTimeOffset.Day
   id: Day
   parent: System.DateTimeOffset
@@ -480,7 +473,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.DayOfWeek
   id: DayOfWeek
   parent: System.DateTimeOffset
@@ -501,7 +493,6 @@ items:
     parameters: []
     return:
       type: System.DayOfWeek
-      description: 
 - uid: System.DateTimeOffset.DayOfYear
   id: DayOfYear
   parent: System.DateTimeOffset
@@ -522,7 +513,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Hour
   id: Hour
   parent: System.DateTimeOffset
@@ -543,7 +533,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Millisecond
   id: Millisecond
   parent: System.DateTimeOffset
@@ -564,7 +553,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Minute
   id: Minute
   parent: System.DateTimeOffset
@@ -585,7 +573,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Month
   id: Month
   parent: System.DateTimeOffset
@@ -606,7 +593,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Offset
   id: Offset
   parent: System.DateTimeOffset
@@ -627,7 +613,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTimeOffset.Second
   id: Second
   parent: System.DateTimeOffset
@@ -648,7 +633,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Ticks
   id: Ticks
   parent: System.DateTimeOffset
@@ -669,7 +653,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTimeOffset.UtcTicks
   id: UtcTicks
   parent: System.DateTimeOffset
@@ -690,7 +673,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTimeOffset.TimeOfDay
   id: TimeOfDay
   parent: System.DateTimeOffset
@@ -711,7 +693,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTimeOffset.Year
   id: Year
   parent: System.DateTimeOffset
@@ -732,7 +713,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Add(System.TimeSpan)
   id: Add(System.TimeSpan)
   parent: System.DateTimeOffset
@@ -755,7 +735,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddDays(System.Double)
   id: AddDays(System.Double)
   parent: System.DateTimeOffset
@@ -778,7 +757,6 @@ items:
       type: System.Double
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddHours(System.Double)
   id: AddHours(System.Double)
   parent: System.DateTimeOffset
@@ -801,7 +779,6 @@ items:
       type: System.Double
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddMilliseconds(System.Double)
   id: AddMilliseconds(System.Double)
   parent: System.DateTimeOffset
@@ -824,7 +801,6 @@ items:
       type: System.Double
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddMinutes(System.Double)
   id: AddMinutes(System.Double)
   parent: System.DateTimeOffset
@@ -847,7 +823,6 @@ items:
       type: System.Double
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddMonths(System.Int32)
   id: AddMonths(System.Int32)
   parent: System.DateTimeOffset
@@ -870,7 +845,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddSeconds(System.Double)
   id: AddSeconds(System.Double)
   parent: System.DateTimeOffset
@@ -893,7 +867,6 @@ items:
       type: System.Double
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddTicks(System.Int64)
   id: AddTicks(System.Int64)
   parent: System.DateTimeOffset
@@ -916,7 +889,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.AddYears(System.Int32)
   id: AddYears(System.Int32)
   parent: System.DateTimeOffset
@@ -939,7 +911,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.Compare(System.DateTimeOffset,System.DateTimeOffset)
   id: Compare(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -964,7 +935,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.System#IComparable#CompareTo(System.Object)
   id: System#IComparable#CompareTo(System.Object)
   parent: System.DateTimeOffset
@@ -988,7 +958,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.CompareTo(System.DateTimeOffset)
   id: CompareTo(System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1011,7 +980,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTimeOffset.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.DateTimeOffset
@@ -1034,7 +1002,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.DateTimeOffset.Equals(System.DateTimeOffset)
   id: Equals(System.DateTimeOffset)
@@ -1058,7 +1025,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.EqualsExact(System.DateTimeOffset)
   id: EqualsExact(System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1081,7 +1047,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.Equals(System.DateTimeOffset,System.DateTimeOffset)
   id: Equals(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1106,7 +1071,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.FromFileTime(System.Int64)
   id: FromFileTime(System.Int64)
   parent: System.DateTimeOffset
@@ -1129,7 +1093,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.FromUnixTimeSeconds(System.Int64)
   id: FromUnixTimeSeconds(System.Int64)
   parent: System.DateTimeOffset
@@ -1152,7 +1115,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.FromUnixTimeMilliseconds(System.Int64)
   id: FromUnixTimeMilliseconds(System.Int64)
   parent: System.DateTimeOffset
@@ -1175,7 +1137,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.GetHashCode
   id: GetHashCode
   parent: System.DateTimeOffset
@@ -1195,7 +1156,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.DateTimeOffset.Parse(System.String)
   id: Parse(System.String)
@@ -1219,7 +1179,6 @@ items:
       type: System.String
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.DateTimeOffset
@@ -1244,7 +1203,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   id: Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   parent: System.DateTimeOffset
@@ -1271,7 +1229,6 @@ items:
       type: System.Globalization.DateTimeStyles
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.ParseExact(System.String,System.String,System.IFormatProvider)
   id: ParseExact(System.String,System.String,System.IFormatProvider)
   parent: System.DateTimeOffset
@@ -1298,7 +1255,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   id: ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   parent: System.DateTimeOffset
@@ -1327,7 +1283,6 @@ items:
       type: System.Globalization.DateTimeStyles
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)
   id: ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)
   parent: System.DateTimeOffset
@@ -1358,7 +1313,6 @@ items:
       type: System.Globalization.DateTimeStyles
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.Subtract(System.DateTimeOffset)
   id: Subtract(System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1381,7 +1335,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTimeOffset.Subtract(System.TimeSpan)
   id: Subtract(System.TimeSpan)
   parent: System.DateTimeOffset
@@ -1404,7 +1357,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.ToFileTime
   id: ToFileTime
   parent: System.DateTimeOffset
@@ -1424,7 +1376,6 @@ items:
     content.vb: Public Function ToFileTime As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTimeOffset.ToUnixTimeSeconds
   id: ToUnixTimeSeconds
   parent: System.DateTimeOffset
@@ -1444,7 +1395,6 @@ items:
     content.vb: Public Function ToUnixTimeSeconds As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTimeOffset.ToUnixTimeMilliseconds
   id: ToUnixTimeMilliseconds
   parent: System.DateTimeOffset
@@ -1464,7 +1414,6 @@ items:
     content.vb: Public Function ToUnixTimeMilliseconds As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTimeOffset.ToLocalTime
   id: ToLocalTime
   parent: System.DateTimeOffset
@@ -1484,7 +1433,6 @@ items:
     content.vb: Public Function ToLocalTime As DateTimeOffset
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.ToString
   id: ToString
   parent: System.DateTimeOffset
@@ -1504,7 +1452,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.DateTimeOffset.ToString(System.String)
   id: ToString(System.String)
@@ -1528,7 +1475,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.DateTimeOffset.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.DateTimeOffset
@@ -1551,7 +1497,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.DateTimeOffset.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.DateTimeOffset
@@ -1576,7 +1521,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.DateTimeOffset.ToUniversalTime
   id: ToUniversalTime
   parent: System.DateTimeOffset
@@ -1596,7 +1540,6 @@ items:
     content.vb: Public Function ToUniversalTime As DateTimeOffset
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.TryParse(System.String,System.DateTimeOffset@)
   id: TryParse(System.String,System.DateTimeOffset@)
   parent: System.DateTimeOffset
@@ -1623,7 +1566,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)
   id: TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)
   parent: System.DateTimeOffset
@@ -1654,7 +1596,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)
   id: TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)
   parent: System.DateTimeOffset
@@ -1687,7 +1628,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)
   id: TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)
   parent: System.DateTimeOffset
@@ -1720,7 +1660,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.op_Implicit(System.DateTime)~System.DateTimeOffset
   id: op_Implicit(System.DateTime)~System.DateTimeOffset
   parent: System.DateTimeOffset
@@ -1745,7 +1684,6 @@ items:
       type: System.DateTime
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.op_Addition(System.DateTimeOffset,System.TimeSpan)
   id: op_Addition(System.DateTimeOffset,System.TimeSpan)
   parent: System.DateTimeOffset
@@ -1770,7 +1708,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.op_Subtraction(System.DateTimeOffset,System.TimeSpan)
   id: op_Subtraction(System.DateTimeOffset,System.TimeSpan)
   parent: System.DateTimeOffset
@@ -1795,7 +1732,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTimeOffset
-      description: 
 - uid: System.DateTimeOffset.op_Subtraction(System.DateTimeOffset,System.DateTimeOffset)
   id: op_Subtraction(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1820,7 +1756,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTimeOffset.op_Equality(System.DateTimeOffset,System.DateTimeOffset)
   id: op_Equality(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1845,7 +1780,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.op_Inequality(System.DateTimeOffset,System.DateTimeOffset)
   id: op_Inequality(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1870,7 +1804,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.op_LessThan(System.DateTimeOffset,System.DateTimeOffset)
   id: op_LessThan(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1895,7 +1828,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.op_LessThanOrEqual(System.DateTimeOffset,System.DateTimeOffset)
   id: op_LessThanOrEqual(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1920,7 +1852,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.op_GreaterThan(System.DateTimeOffset,System.DateTimeOffset)
   id: op_GreaterThan(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1945,7 +1876,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTimeOffset.op_GreaterThanOrEqual(System.DateTimeOffset,System.DateTimeOffset)
   id: op_GreaterThanOrEqual(System.DateTimeOffset,System.DateTimeOffset)
   parent: System.DateTimeOffset
@@ -1970,7 +1900,6 @@ items:
       type: System.DateTimeOffset
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

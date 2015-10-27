@@ -125,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.CurrentUICulture
   id: CurrentUICulture
   parent: System.Globalization.CultureInfo
@@ -146,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.InstalledUICulture
   id: InstalledUICulture
   parent: System.Globalization.CultureInfo
@@ -167,7 +165,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.DefaultThreadCurrentCulture
   id: DefaultThreadCurrentCulture
   parent: System.Globalization.CultureInfo
@@ -188,7 +185,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.DefaultThreadCurrentUICulture
   id: DefaultThreadCurrentUICulture
   parent: System.Globalization.CultureInfo
@@ -209,7 +205,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.InvariantCulture
   id: InvariantCulture
   parent: System.Globalization.CultureInfo
@@ -230,7 +225,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.Parent
   id: Parent
   parent: System.Globalization.CultureInfo
@@ -251,7 +245,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.Name
   id: Name
   parent: System.Globalization.CultureInfo
@@ -272,7 +265,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CultureInfo.DisplayName
   id: DisplayName
   parent: System.Globalization.CultureInfo
@@ -293,7 +285,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CultureInfo.NativeName
   id: NativeName
   parent: System.Globalization.CultureInfo
@@ -314,7 +305,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CultureInfo.EnglishName
   id: EnglishName
   parent: System.Globalization.CultureInfo
@@ -335,7 +325,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CultureInfo.TwoLetterISOLanguageName
   id: TwoLetterISOLanguageName
   parent: System.Globalization.CultureInfo
@@ -356,7 +345,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CultureInfo.CompareInfo
   id: CompareInfo
   parent: System.Globalization.CultureInfo
@@ -377,7 +365,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CompareInfo
-      description: 
 - uid: System.Globalization.CultureInfo.TextInfo
   id: TextInfo
   parent: System.Globalization.CultureInfo
@@ -398,7 +385,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.TextInfo
-      description: 
 - uid: System.Globalization.CultureInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Globalization.CultureInfo
@@ -421,7 +407,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Globalization.CultureInfo.GetHashCode
   id: GetHashCode
@@ -442,7 +427,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Globalization.CultureInfo.ToString
   id: ToString
@@ -463,7 +447,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Globalization.CultureInfo.GetFormat(System.Type)
   id: GetFormat(System.Type)
@@ -487,7 +470,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 - uid: System.Globalization.CultureInfo.IsNeutralCulture
   id: IsNeutralCulture
   parent: System.Globalization.CultureInfo
@@ -508,7 +490,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CultureInfo.NumberFormat
   id: NumberFormat
   parent: System.Globalization.CultureInfo
@@ -529,7 +510,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.NumberFormatInfo
-      description: 
 - uid: System.Globalization.CultureInfo.DateTimeFormat
   id: DateTimeFormat
   parent: System.Globalization.CultureInfo
@@ -550,7 +530,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.DateTimeFormatInfo
-      description: 
 - uid: System.Globalization.CultureInfo.ClearCachedData
   id: ClearCachedData
   parent: System.Globalization.CultureInfo
@@ -588,7 +567,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.Calendar
-      description: 
 - uid: System.Globalization.CultureInfo.OptionalCalendars
   id: OptionalCalendars
   parent: System.Globalization.CultureInfo
@@ -609,7 +587,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.Calendar[]
-      description: 
 - uid: System.Globalization.CultureInfo.UseUserOverride
   id: UseUserOverride
   parent: System.Globalization.CultureInfo
@@ -630,7 +607,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CultureInfo.Clone
   id: Clone
   parent: System.Globalization.CultureInfo
@@ -650,7 +626,6 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Globalization.CultureInfo.ReadOnly(System.Globalization.CultureInfo)
   id: ReadOnly(System.Globalization.CultureInfo)
   parent: System.Globalization.CultureInfo
@@ -673,7 +648,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.IsReadOnly
   id: IsReadOnly
   parent: System.Globalization.CultureInfo
@@ -694,7 +668,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CultureInfo.GetCultureInfo(System.String)
   id: GetCultureInfo(System.String)
   parent: System.Globalization.CultureInfo
@@ -717,7 +690,6 @@ items:
       type: System.String
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Globalization.CultureInfo.GetCultureInfo(System.String,System.String)
   id: GetCultureInfo(System.String,System.String)
   parent: System.Globalization.CultureInfo
@@ -742,7 +714,6 @@ items:
       type: System.String
     return:
       type: System.Globalization.CultureInfo
-      description: 
 references:
 - uid: System.Globalization
   isExternal: false

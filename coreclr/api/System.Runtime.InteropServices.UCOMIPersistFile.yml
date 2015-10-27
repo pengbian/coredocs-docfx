@@ -68,7 +68,6 @@ items:
     content.vb: Function IsDirty As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.UCOMIPersistFile.Load(System.String,System.Int32)
   id: Load(System.String,System.Int32)
   parent: System.Runtime.InteropServices.UCOMIPersistFile

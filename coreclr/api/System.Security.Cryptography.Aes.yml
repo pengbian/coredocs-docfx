@@ -104,7 +104,6 @@ items:
     content.vb: Public Shared Function Create As Aes
     return:
       type: System.Security.Cryptography.Aes
-      description: 
 - uid: System.Security.Cryptography.Aes.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.Aes
@@ -127,7 +126,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.Aes
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

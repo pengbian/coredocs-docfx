@@ -114,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblyMetadataAttribute.Value
   id: Value
   parent: System.Reflection.AssemblyMetadataAttribute
@@ -135,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

@@ -261,7 +261,6 @@ items:
       type: System.Reflection.TypeInfo
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.TypeInfo.IsAssignableFrom(System.Reflection.TypeInfo)
 - uid: System.Reflection.Emit.EnumBuilder.DefineLiteral(System.String,System.Object)
   id: DefineLiteral(System.String,System.Object)
@@ -287,7 +286,6 @@ items:
       type: System.Object
     return:
       type: System.Reflection.Emit.FieldBuilder
-      description: 
 - uid: System.Reflection.Emit.EnumBuilder.CreateTypeInfo
   id: CreateTypeInfo
   parent: System.Reflection.Emit.EnumBuilder
@@ -307,7 +305,6 @@ items:
     content.vb: Public Function CreateTypeInfo As TypeInfo
     return:
       type: System.Reflection.TypeInfo
-      description: 
 - uid: System.Reflection.Emit.EnumBuilder.CreateType
   id: CreateType
   parent: System.Reflection.Emit.EnumBuilder
@@ -327,7 +324,6 @@ items:
     content.vb: Public Function CreateType As Type
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Emit.EnumBuilder.TypeToken
   id: TypeToken
   parent: System.Reflection.Emit.EnumBuilder
@@ -348,7 +344,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.TypeToken
-      description: 
 - uid: System.Reflection.Emit.EnumBuilder.UnderlyingField
   id: UnderlyingField
   parent: System.Reflection.Emit.EnumBuilder
@@ -369,7 +364,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.FieldBuilder
-      description: 
 - uid: System.Reflection.Emit.EnumBuilder.Name
   id: Name
   parent: System.Reflection.Emit.EnumBuilder
@@ -390,7 +384,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Reflection.Emit.EnumBuilder.GUID
   id: GUID
@@ -412,7 +405,6 @@ items:
     parameters: []
     return:
       type: System.Guid
-      description: 
   overridden: System.Type.GUID
 - uid: System.Reflection.Emit.EnumBuilder.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
   id: InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
@@ -452,7 +444,6 @@ items:
       type: System.String[]
     return:
       type: System.Object
-      description: 
   overridden: System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
 - uid: System.Reflection.Emit.EnumBuilder.Module
   id: Module
@@ -474,7 +465,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Type.Module
 - uid: System.Reflection.Emit.EnumBuilder.Assembly
   id: Assembly
@@ -496,7 +486,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
   overridden: System.Type.Assembly
 - uid: System.Reflection.Emit.EnumBuilder.TypeHandle
   id: TypeHandle
@@ -518,7 +507,6 @@ items:
     parameters: []
     return:
       type: System.RuntimeTypeHandle
-      description: 
   overridden: System.Type.TypeHandle
 - uid: System.Reflection.Emit.EnumBuilder.FullName
   id: FullName
@@ -540,7 +528,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Type.FullName
 - uid: System.Reflection.Emit.EnumBuilder.AssemblyQualifiedName
   id: AssemblyQualifiedName
@@ -562,7 +549,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Type.AssemblyQualifiedName
 - uid: System.Reflection.Emit.EnumBuilder.Namespace
   id: Namespace
@@ -584,7 +570,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Type.Namespace
 - uid: System.Reflection.Emit.EnumBuilder.BaseType
   id: BaseType
@@ -606,7 +591,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.BaseType
 - uid: System.Reflection.Emit.EnumBuilder.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
@@ -640,7 +624,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.ConstructorInfo
-      description: 
   overridden: System.Type.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.EnumBuilder.GetConstructors(System.Reflection.BindingFlags)
   id: GetConstructors(System.Reflection.BindingFlags)
@@ -664,7 +647,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.ConstructorInfo[]
-      description: 
   overridden: System.Type.GetConstructors(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
@@ -700,7 +682,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Type.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.EnumBuilder.GetMethods(System.Reflection.BindingFlags)
   id: GetMethods(System.Reflection.BindingFlags)
@@ -724,7 +705,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
   overridden: System.Type.GetMethods(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetField(System.String,System.Reflection.BindingFlags)
   id: GetField(System.String,System.Reflection.BindingFlags)
@@ -750,7 +730,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
-      description: 
   overridden: System.Type.GetField(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetFields(System.Reflection.BindingFlags)
   id: GetFields(System.Reflection.BindingFlags)
@@ -774,7 +753,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
   overridden: System.Type.GetFields(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetInterface(System.String,System.Boolean)
   id: GetInterface(System.String,System.Boolean)
@@ -800,7 +778,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetInterface(System.String,System.Boolean)
 - uid: System.Reflection.Emit.EnumBuilder.GetInterfaces
   id: GetInterfaces
@@ -821,7 +798,6 @@ items:
     content.vb: Public Overrides Function GetInterfaces As Type()
     return:
       type: System.Type[]
-      description: 
   overridden: System.Type.GetInterfaces
 - uid: System.Reflection.Emit.EnumBuilder.GetEvent(System.String,System.Reflection.BindingFlags)
   id: GetEvent(System.String,System.Reflection.BindingFlags)
@@ -847,7 +823,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo
-      description: 
   overridden: System.Type.GetEvent(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetEvents
   id: GetEvents
@@ -868,7 +843,6 @@ items:
     content.vb: Public Overrides Function GetEvents As EventInfo()
     return:
       type: System.Reflection.EventInfo[]
-      description: 
   overridden: System.Type.GetEvents
 - uid: System.Reflection.Emit.EnumBuilder.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
   id: GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
@@ -904,7 +878,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.PropertyInfo
-      description: 
   overridden: System.Type.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.EnumBuilder.GetProperties(System.Reflection.BindingFlags)
   id: GetProperties(System.Reflection.BindingFlags)
@@ -928,7 +901,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo[]
-      description: 
   overridden: System.Type.GetProperties(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetNestedTypes(System.Reflection.BindingFlags)
   id: GetNestedTypes(System.Reflection.BindingFlags)
@@ -952,7 +924,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type[]
-      description: 
   overridden: System.Type.GetNestedTypes(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetNestedType(System.String,System.Reflection.BindingFlags)
   id: GetNestedType(System.String,System.Reflection.BindingFlags)
@@ -978,7 +949,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetNestedType(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags)
   id: GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags)
@@ -1006,7 +976,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
   overridden: System.Type.GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetMembers(System.Reflection.BindingFlags)
   id: GetMembers(System.Reflection.BindingFlags)
@@ -1030,7 +999,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
   overridden: System.Type.GetMembers(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetInterfaceMap(System.Type)
   id: GetInterfaceMap(System.Type)
@@ -1054,7 +1022,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.InterfaceMapping
-      description: 
   overridden: System.Type.GetInterfaceMap(System.Type)
 - uid: System.Reflection.Emit.EnumBuilder.GetEvents(System.Reflection.BindingFlags)
   id: GetEvents(System.Reflection.BindingFlags)
@@ -1078,7 +1045,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.EventInfo[]
-      description: 
   overridden: System.Type.GetEvents(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.EnumBuilder.GetAttributeFlagsImpl
   id: GetAttributeFlagsImpl
@@ -1099,7 +1065,6 @@ items:
     content.vb: Protected Overrides Function GetAttributeFlagsImpl As TypeAttributes
     return:
       type: System.Reflection.TypeAttributes
-      description: 
   overridden: System.Type.GetAttributeFlagsImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsArrayImpl
   id: IsArrayImpl
@@ -1120,7 +1085,6 @@ items:
     content.vb: Protected Overrides Function IsArrayImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsArrayImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsPrimitiveImpl
   id: IsPrimitiveImpl
@@ -1141,7 +1105,6 @@ items:
     content.vb: Protected Overrides Function IsPrimitiveImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsPrimitiveImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsValueTypeImpl
   id: IsValueTypeImpl
@@ -1162,7 +1125,6 @@ items:
     content.vb: Protected Overrides Function IsValueTypeImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsValueTypeImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsByRefImpl
   id: IsByRefImpl
@@ -1183,7 +1145,6 @@ items:
     content.vb: Protected Overrides Function IsByRefImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsByRefImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsPointerImpl
   id: IsPointerImpl
@@ -1204,7 +1165,6 @@ items:
     content.vb: Protected Overrides Function IsPointerImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsPointerImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsCOMObjectImpl
   id: IsCOMObjectImpl
@@ -1225,7 +1185,6 @@ items:
     content.vb: Protected Overrides Function IsCOMObjectImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsCOMObjectImpl
 - uid: System.Reflection.Emit.EnumBuilder.IsConstructedGenericType
   id: IsConstructedGenericType
@@ -1247,7 +1206,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.IsConstructedGenericType
 - uid: System.Reflection.Emit.EnumBuilder.GetElementType
   id: GetElementType
@@ -1268,7 +1226,6 @@ items:
     content.vb: Public Overrides Function GetElementType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetElementType
 - uid: System.Reflection.Emit.EnumBuilder.HasElementTypeImpl
   id: HasElementTypeImpl
@@ -1289,7 +1246,6 @@ items:
     content.vb: Protected Overrides Function HasElementTypeImpl As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Type.HasElementTypeImpl
 - uid: System.Reflection.Emit.EnumBuilder.GetEnumUnderlyingType
   id: GetEnumUnderlyingType
@@ -1310,7 +1266,6 @@ items:
     content.vb: Public Overrides Function GetEnumUnderlyingType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.GetEnumUnderlyingType
 - uid: System.Reflection.Emit.EnumBuilder.UnderlyingSystemType
   id: UnderlyingSystemType
@@ -1332,7 +1287,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.UnderlyingSystemType
 - uid: System.Reflection.Emit.EnumBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -1356,7 +1310,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.EnumBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -1382,7 +1335,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.EnumBuilder.SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
   id: SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
@@ -1448,7 +1400,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.DeclaringType
 - uid: System.Reflection.Emit.EnumBuilder.ReflectedType
   id: ReflectedType
@@ -1470,7 +1421,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Type.ReflectedType
 - uid: System.Reflection.Emit.EnumBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -1496,7 +1446,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.EnumBuilder.MakePointerType
   id: MakePointerType
@@ -1517,7 +1466,6 @@ items:
     content.vb: Public Overrides Function MakePointerType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakePointerType
 - uid: System.Reflection.Emit.EnumBuilder.MakeByRefType
   id: MakeByRefType
@@ -1538,7 +1486,6 @@ items:
     content.vb: Public Overrides Function MakeByRefType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeByRefType
 - uid: System.Reflection.Emit.EnumBuilder.MakeArrayType
   id: MakeArrayType
@@ -1559,7 +1506,6 @@ items:
     content.vb: Public Overrides Function MakeArrayType As Type
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeArrayType
 - uid: System.Reflection.Emit.EnumBuilder.MakeArrayType(System.Int32)
   id: MakeArrayType(System.Int32)
@@ -1583,7 +1529,6 @@ items:
       type: System.Int32
     return:
       type: System.Type
-      description: 
   overridden: System.Type.MakeArrayType(System.Int32)
 references:
 - uid: System.Reflection.Emit

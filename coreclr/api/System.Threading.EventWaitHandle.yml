@@ -195,7 +195,6 @@ items:
       type: System.String
     return:
       type: System.Threading.EventWaitHandle
-      description: 
 - uid: System.Threading.EventWaitHandle.OpenExisting(System.String,System.Security.AccessControl.EventWaitHandleRights)
   id: OpenExisting(System.String,System.Security.AccessControl.EventWaitHandleRights)
   parent: System.Threading.EventWaitHandle
@@ -220,7 +219,6 @@ items:
       type: System.Security.AccessControl.EventWaitHandleRights
     return:
       type: System.Threading.EventWaitHandle
-      description: 
 - uid: System.Threading.EventWaitHandle.TryOpenExisting(System.String,System.Threading.EventWaitHandle@)
   id: TryOpenExisting(System.String,System.Threading.EventWaitHandle@)
   parent: System.Threading.EventWaitHandle
@@ -247,7 +245,6 @@ items:
       type: System.Threading.EventWaitHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.EventWaitHandle.TryOpenExisting(System.String,System.Security.AccessControl.EventWaitHandleRights,System.Threading.EventWaitHandle@)
   id: TryOpenExisting(System.String,System.Security.AccessControl.EventWaitHandleRights,System.Threading.EventWaitHandle@)
   parent: System.Threading.EventWaitHandle
@@ -276,7 +273,6 @@ items:
       type: System.Threading.EventWaitHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.EventWaitHandle.Reset
   id: Reset
   parent: System.Threading.EventWaitHandle
@@ -296,7 +292,6 @@ items:
     content.vb: Public Function Reset As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.EventWaitHandle.Set
   id: Set
   parent: System.Threading.EventWaitHandle
@@ -316,7 +311,6 @@ items:
     content.vb: Public Function Set As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

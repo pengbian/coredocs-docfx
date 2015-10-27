@@ -104,7 +104,6 @@ items:
     - id: TEnum
     return:
       type: System.Boolean
-      description: 
 - uid: System.Enum.TryParse``1(System.String,System.Boolean,``0@)
   id: TryParse``1(System.String,System.Boolean,``0@)
   parent: System.Enum
@@ -135,7 +134,6 @@ items:
     - id: TEnum
     return:
       type: System.Boolean
-      description: 
 - uid: System.Enum.Parse(System.Type,System.String)
   id: Parse(System.Type,System.String)
   parent: System.Enum
@@ -160,7 +158,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.Parse(System.Type,System.String,System.Boolean)
   id: Parse(System.Type,System.String,System.Boolean)
   parent: System.Enum
@@ -187,7 +184,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.GetUnderlyingType(System.Type)
   id: GetUnderlyingType(System.Type)
   parent: System.Enum
@@ -210,7 +206,6 @@ items:
       type: System.Type
     return:
       type: System.Type
-      description: 
 - uid: System.Enum.GetValues(System.Type)
   id: GetValues(System.Type)
   parent: System.Enum
@@ -233,7 +228,6 @@ items:
       type: System.Type
     return:
       type: System.Array
-      description: 
 - uid: System.Enum.GetName(System.Type,System.Object)
   id: GetName(System.Type,System.Object)
   parent: System.Enum
@@ -258,7 +252,6 @@ items:
       type: System.Object
     return:
       type: System.String
-      description: 
 - uid: System.Enum.GetNames(System.Type)
   id: GetNames(System.Type)
   parent: System.Enum
@@ -281,7 +274,6 @@ items:
       type: System.Type
     return:
       type: System.String[]
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.Object)
   id: ToObject(System.Type,System.Object)
   parent: System.Enum
@@ -306,7 +298,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.IsDefined(System.Type,System.Object)
   id: IsDefined(System.Type,System.Object)
   parent: System.Enum
@@ -331,7 +322,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Enum.Format(System.Type,System.Object,System.String)
   id: Format(System.Type,System.Object,System.String)
   parent: System.Enum
@@ -358,7 +348,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Enum.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Enum
@@ -380,7 +369,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Enum.GetHashCode
   id: GetHashCode
@@ -401,7 +389,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Enum.ToString
   id: ToString
@@ -422,7 +409,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Enum.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
@@ -448,7 +434,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Enum.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Enum
@@ -471,7 +456,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Enum.ToString(System.String)
   id: ToString(System.String)
   parent: System.Enum
@@ -494,7 +478,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Enum.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.Enum
@@ -517,7 +500,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.Enum.HasFlag(System.Enum)
   id: HasFlag(System.Enum)
   parent: System.Enum
@@ -540,7 +522,6 @@ items:
       type: System.Enum
     return:
       type: System.Boolean
-      description: 
 - uid: System.Enum.GetTypeCode
   id: GetTypeCode
   parent: System.Enum
@@ -560,7 +541,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.Enum.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.Enum
@@ -932,7 +912,6 @@ items:
       type: System.SByte
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.Int16)
   id: ToObject(System.Type,System.Int16)
   parent: System.Enum
@@ -957,7 +936,6 @@ items:
       type: System.Int16
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.Int32)
   id: ToObject(System.Type,System.Int32)
   parent: System.Enum
@@ -982,7 +960,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.Byte)
   id: ToObject(System.Type,System.Byte)
   parent: System.Enum
@@ -1007,7 +984,6 @@ items:
       type: System.Byte
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.UInt16)
   id: ToObject(System.Type,System.UInt16)
   parent: System.Enum
@@ -1032,7 +1008,6 @@ items:
       type: System.UInt16
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.UInt32)
   id: ToObject(System.Type,System.UInt32)
   parent: System.Enum
@@ -1057,7 +1032,6 @@ items:
       type: System.UInt32
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.Int64)
   id: ToObject(System.Type,System.Int64)
   parent: System.Enum
@@ -1082,7 +1056,6 @@ items:
       type: System.Int64
     return:
       type: System.Object
-      description: 
 - uid: System.Enum.ToObject(System.Type,System.UInt64)
   id: ToObject(System.Type,System.UInt64)
   parent: System.Enum
@@ -1107,7 +1080,6 @@ items:
       type: System.UInt64
     return:
       type: System.Object
-      description: 
 references:
 - uid: System
   isExternal: false

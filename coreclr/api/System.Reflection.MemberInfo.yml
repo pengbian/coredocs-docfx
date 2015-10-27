@@ -83,7 +83,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MemberTypes
-      description: 
 - uid: System.Reflection.MemberInfo.Name
   id: Name
   parent: System.Reflection.MemberInfo
@@ -104,7 +103,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.MemberInfo.DeclaringType
   id: DeclaringType
   parent: System.Reflection.MemberInfo
@@ -125,7 +123,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.MemberInfo.ReflectedType
   id: ReflectedType
   parent: System.Reflection.MemberInfo
@@ -146,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.MemberInfo.CustomAttributes
   id: CustomAttributes
   parent: System.Reflection.MemberInfo
@@ -167,7 +163,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
   parent: System.Reflection.MemberInfo
@@ -190,7 +185,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
   parent: System.Reflection.MemberInfo
@@ -215,7 +209,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.MemberInfo
@@ -240,7 +233,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.MemberInfo.GetCustomAttributesData
   id: GetCustomAttributesData
   parent: System.Reflection.MemberInfo
@@ -260,7 +252,6 @@ items:
     content.vb: Public Overridable Function GetCustomAttributesData As IList(Of CustomAttributeData)
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.MemberInfo.MetadataToken
   id: MetadataToken
   parent: System.Reflection.MemberInfo
@@ -281,7 +272,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.MemberInfo.Module
   id: Module
   parent: System.Reflection.MemberInfo
@@ -302,7 +292,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
 - uid: System.Reflection.MemberInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.MemberInfo
@@ -325,7 +314,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Reflection.MemberInfo.GetHashCode
   id: GetHashCode
@@ -346,7 +334,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Reflection

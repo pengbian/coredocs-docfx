@@ -56,7 +56,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs.ResolvedAssemblyFiles
   id: ResolvedAssemblyFiles
   parent: System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs
@@ -77,7 +76,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ObjectModel.Collection{System.String}
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs

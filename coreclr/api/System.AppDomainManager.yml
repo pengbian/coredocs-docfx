@@ -92,7 +92,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AppDomainManager.CheckSecuritySettings(System.Security.SecurityState)
   id: CheckSecuritySettings(System.Security.SecurityState)
   parent: System.AppDomainManager
@@ -115,7 +114,6 @@ items:
       type: System.Security.SecurityState
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

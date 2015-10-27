@@ -120,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.MinorVersion
   id: MinorVersion
   parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.BuildNumber
   id: BuildNumber
   parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
@@ -162,7 +160,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.RevisionNumber
   id: RevisionNumber
   parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
@@ -183,7 +180,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

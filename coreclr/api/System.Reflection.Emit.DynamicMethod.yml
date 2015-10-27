@@ -363,7 +363,6 @@ items:
       type: System.Type
     return:
       type: System.Delegate
-      description: 
   overridden: System.Reflection.MethodInfo.CreateDelegate(System.Type)
 - uid: System.Reflection.Emit.DynamicMethod.CreateDelegate(System.Type,System.Object)
   id: CreateDelegate(System.Type,System.Object)
@@ -389,7 +388,6 @@ items:
       type: System.Object
     return:
       type: System.Delegate
-      description: 
   overridden: System.Reflection.MethodInfo.CreateDelegate(System.Type,System.Object)
 - uid: System.Reflection.Emit.DynamicMethod.ToString
   id: ToString
@@ -410,7 +408,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.Emit.DynamicMethod.Name
   id: Name
@@ -432,7 +429,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Reflection.Emit.DynamicMethod.DeclaringType
   id: DeclaringType
@@ -454,7 +450,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.DeclaringType
 - uid: System.Reflection.Emit.DynamicMethod.ReflectedType
   id: ReflectedType
@@ -476,7 +471,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.ReflectedType
 - uid: System.Reflection.Emit.DynamicMethod.Module
   id: Module
@@ -498,7 +492,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Reflection.MemberInfo.Module
 - uid: System.Reflection.Emit.DynamicMethod.MethodHandle
   id: MethodHandle
@@ -520,7 +513,6 @@ items:
     parameters: []
     return:
       type: System.RuntimeMethodHandle
-      description: 
   overridden: System.Reflection.MethodBase.MethodHandle
 - uid: System.Reflection.Emit.DynamicMethod.Attributes
   id: Attributes
@@ -542,7 +534,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodAttributes
-      description: 
   overridden: System.Reflection.MethodBase.Attributes
 - uid: System.Reflection.Emit.DynamicMethod.CallingConvention
   id: CallingConvention
@@ -564,7 +555,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.CallingConventions
-      description: 
   overridden: System.Reflection.MethodBase.CallingConvention
 - uid: System.Reflection.Emit.DynamicMethod.GetBaseDefinition
   id: GetBaseDefinition
@@ -585,7 +575,6 @@ items:
     content.vb: Public Overrides Function GetBaseDefinition As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Reflection.MethodInfo.GetBaseDefinition
 - uid: System.Reflection.Emit.DynamicMethod.GetParameters
   id: GetParameters
@@ -606,7 +595,6 @@ items:
     content.vb: Public Overrides Function GetParameters As ParameterInfo()
     return:
       type: System.Reflection.ParameterInfo[]
-      description: 
   overridden: System.Reflection.MethodBase.GetParameters
 - uid: System.Reflection.Emit.DynamicMethod.GetMethodImplementationFlags
   id: GetMethodImplementationFlags
@@ -627,7 +615,6 @@ items:
     content.vb: Public Overrides Function GetMethodImplementationFlags As MethodImplAttributes
     return:
       type: System.Reflection.MethodImplAttributes
-      description: 
   overridden: System.Reflection.MethodBase.GetMethodImplementationFlags
 - uid: System.Reflection.Emit.DynamicMethod.IsSecurityCritical
   id: IsSecurityCritical
@@ -649,7 +636,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MethodBase.IsSecurityCritical
 - uid: System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical
   id: IsSecuritySafeCritical
@@ -671,7 +657,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MethodBase.IsSecuritySafeCritical
 - uid: System.Reflection.Emit.DynamicMethod.IsSecurityTransparent
   id: IsSecurityTransparent
@@ -693,7 +678,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MethodBase.IsSecurityTransparent
 - uid: System.Reflection.Emit.DynamicMethod.Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   id: Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
@@ -727,7 +711,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
   overridden: System.Reflection.MethodBase.Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 - uid: System.Reflection.Emit.DynamicMethod.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -753,7 +736,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.DynamicMethod.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -777,7 +759,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.DynamicMethod.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -803,7 +784,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.DynamicMethod.ReturnType
   id: ReturnType
@@ -825,7 +805,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MethodInfo.ReturnType
 - uid: System.Reflection.Emit.DynamicMethod.ReturnParameter
   id: ReturnParameter
@@ -847,7 +826,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ParameterInfo
-      description: 
   overridden: System.Reflection.MethodInfo.ReturnParameter
 - uid: System.Reflection.Emit.DynamicMethod.ReturnTypeCustomAttributes
   id: ReturnTypeCustomAttributes
@@ -869,7 +847,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ICustomAttributeProvider
-      description: 
   overridden: System.Reflection.MethodInfo.ReturnTypeCustomAttributes
 - uid: System.Reflection.Emit.DynamicMethod.DefineParameter(System.Int32,System.Reflection.ParameterAttributes,System.String)
   id: DefineParameter(System.Int32,System.Reflection.ParameterAttributes,System.String)
@@ -897,7 +874,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.ParameterBuilder
-      description: 
 - uid: System.Reflection.Emit.DynamicMethod.GetDynamicILInfo
   id: GetDynamicILInfo
   parent: System.Reflection.Emit.DynamicMethod
@@ -917,7 +893,6 @@ items:
     content.vb: Public Function GetDynamicILInfo As DynamicILInfo
     return:
       type: System.Reflection.Emit.DynamicILInfo
-      description: 
 - uid: System.Reflection.Emit.DynamicMethod.GetILGenerator
   id: GetILGenerator
   parent: System.Reflection.Emit.DynamicMethod
@@ -937,7 +912,6 @@ items:
     content.vb: Public Function GetILGenerator As ILGenerator
     return:
       type: System.Reflection.Emit.ILGenerator
-      description: 
 - uid: System.Reflection.Emit.DynamicMethod.GetILGenerator(System.Int32)
   id: GetILGenerator(System.Int32)
   parent: System.Reflection.Emit.DynamicMethod
@@ -960,7 +934,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.ILGenerator
-      description: 
 - uid: System.Reflection.Emit.DynamicMethod.InitLocals
   id: InitLocals
   parent: System.Reflection.Emit.DynamicMethod
@@ -981,7 +954,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

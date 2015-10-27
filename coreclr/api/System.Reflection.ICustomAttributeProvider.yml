@@ -48,7 +48,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.ICustomAttributeProvider.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
   parent: System.Reflection.ICustomAttributeProvider
@@ -71,7 +70,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.ICustomAttributeProvider.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.ICustomAttributeProvider
@@ -96,7 +94,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

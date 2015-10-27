@@ -120,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.ReflectionPermissionFlag
-      description: 
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.TypeInformation
   id: TypeInformation
   parent: System.Security.Permissions.ReflectionPermissionAttribute
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.MemberAccess
   id: MemberAccess
   parent: System.Security.Permissions.ReflectionPermissionAttribute
@@ -162,7 +160,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.ReflectionEmit
   id: ReflectionEmit
   parent: System.Security.Permissions.ReflectionPermissionAttribute
@@ -183,7 +180,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.RestrictedMemberAccess
   id: RestrictedMemberAccess
   parent: System.Security.Permissions.ReflectionPermissionAttribute
@@ -204,7 +200,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.ReflectionPermissionAttribute
@@ -224,7 +219,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

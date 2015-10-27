@@ -77,7 +77,6 @@ items:
     content.vb: Public Shared Function Create As RandomNumberGenerator
     return:
       type: System.Security.Cryptography.RandomNumberGenerator
-      description: 
 - uid: System.Security.Cryptography.RandomNumberGenerator.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.RandomNumberGenerator
@@ -100,7 +99,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.RandomNumberGenerator
-      description: 
 - uid: System.Security.Cryptography.RandomNumberGenerator.Dispose
   id: Dispose
   parent: System.Security.Cryptography.RandomNumberGenerator

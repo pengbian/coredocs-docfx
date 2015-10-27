@@ -96,7 +96,6 @@ items:
     content.vb: Public Function GetNextArg As TypedReference
     return:
       type: System.TypedReference
-      description: 
 - uid: System.ArgIterator.GetNextArg(System.RuntimeTypeHandle)
   id: GetNextArg(System.RuntimeTypeHandle)
   parent: System.ArgIterator
@@ -119,7 +118,6 @@ items:
       type: System.RuntimeTypeHandle
     return:
       type: System.TypedReference
-      description: 
 - uid: System.ArgIterator.End
   id: End
   parent: System.ArgIterator
@@ -155,7 +153,6 @@ items:
     content.vb: Public Function GetRemainingCount As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.ArgIterator.GetNextArgType
   id: GetNextArgType
   parent: System.ArgIterator
@@ -175,7 +172,6 @@ items:
     content.vb: Public Function GetNextArgType As RuntimeTypeHandle
     return:
       type: System.RuntimeTypeHandle
-      description: 
 - uid: System.ArgIterator.GetHashCode
   id: GetHashCode
   parent: System.ArgIterator
@@ -195,7 +191,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.ArgIterator.Equals(System.Object)
   id: Equals(System.Object)
@@ -219,7 +214,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 references:
 - uid: System

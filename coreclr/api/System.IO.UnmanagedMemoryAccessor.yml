@@ -186,7 +186,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.CanRead
   id: CanRead
   parent: System.IO.UnmanagedMemoryAccessor
@@ -207,7 +206,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.CanWrite
   id: CanWrite
   parent: System.IO.UnmanagedMemoryAccessor
@@ -228,7 +226,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -286,7 +283,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
   id: ReadBoolean(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -309,7 +305,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
   id: ReadByte(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -332,7 +327,6 @@ items:
       type: System.Int64
     return:
       type: System.Byte
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
   id: ReadChar(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -355,7 +349,6 @@ items:
       type: System.Int64
     return:
       type: System.Char
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
   id: ReadInt16(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -378,7 +371,6 @@ items:
       type: System.Int64
     return:
       type: System.Int16
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
   id: ReadInt32(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -401,7 +393,6 @@ items:
       type: System.Int64
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
   id: ReadInt64(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -424,7 +415,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
   id: ReadDecimal(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -447,7 +437,6 @@ items:
       type: System.Int64
     return:
       type: System.Decimal
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
   id: ReadSingle(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -470,7 +459,6 @@ items:
       type: System.Int64
     return:
       type: System.Single
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
   id: ReadDouble(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -493,7 +481,6 @@ items:
       type: System.Int64
     return:
       type: System.Double
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
   id: ReadSByte(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -516,7 +503,6 @@ items:
       type: System.Int64
     return:
       type: System.SByte
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
   id: ReadUInt16(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -539,7 +525,6 @@ items:
       type: System.Int64
     return:
       type: System.UInt16
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
   id: ReadUInt32(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -562,7 +547,6 @@ items:
       type: System.Int64
     return:
       type: System.UInt32
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
   id: ReadUInt64(System.Int64)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -585,7 +569,6 @@ items:
       type: System.Int64
     return:
       type: System.UInt64
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.Read``1(System.Int64,``0@)
   id: Read``1(System.Int64,``0@)
   parent: System.IO.UnmanagedMemoryAccessor
@@ -644,7 +627,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Boolean)
   id: Write(System.Int64,System.Boolean)
   parent: System.IO.UnmanagedMemoryAccessor

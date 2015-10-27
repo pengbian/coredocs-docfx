@@ -69,7 +69,6 @@ items:
       type: System.Object
     return:
       type: System.Reflection.Assembly
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

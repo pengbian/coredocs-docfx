@@ -80,7 +80,6 @@ items:
     parameters: []
     return:
       type: System.Text.DecoderFallback
-      description: 
 - uid: System.Text.Decoder.FallbackBuffer
   id: FallbackBuffer
   parent: System.Text.Decoder
@@ -101,7 +100,6 @@ items:
     parameters: []
     return:
       type: System.Text.DecoderFallbackBuffer
-      description: 
 - uid: System.Text.Decoder.Reset
   id: Reset
   parent: System.Text.Decoder
@@ -147,7 +145,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
   id: GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
   parent: System.Text.Decoder
@@ -178,7 +175,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Decoder.GetCharCount(System.Byte*,System.Int32,System.Boolean)
   id: GetCharCount(System.Byte*,System.Int32,System.Boolean)
   parent: System.Text.Decoder
@@ -205,7 +201,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
   id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
   parent: System.Text.Decoder
@@ -238,7 +233,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Boolean)
   id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Boolean)
   parent: System.Text.Decoder
@@ -273,7 +267,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Decoder.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean)
   id: GetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean)
   parent: System.Text.Decoder
@@ -304,7 +297,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Decoder.Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
   id: Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
   parent: System.Text.Decoder

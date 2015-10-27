@@ -90,7 +90,6 @@ items:
     content.vb: Protected Overrides Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
 references:
 - uid: Microsoft.Win32.SafeHandles

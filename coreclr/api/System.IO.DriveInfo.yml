@@ -84,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.DriveInfo.DriveType
   id: DriveType
   parent: System.IO.DriveInfo
@@ -105,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.IO.DriveType
-      description: 
 - uid: System.IO.DriveInfo.DriveFormat
   id: DriveFormat
   parent: System.IO.DriveInfo
@@ -126,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.DriveInfo.IsReady
   id: IsReady
   parent: System.IO.DriveInfo
@@ -147,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.DriveInfo.AvailableFreeSpace
   id: AvailableFreeSpace
   parent: System.IO.DriveInfo
@@ -168,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.DriveInfo.TotalFreeSpace
   id: TotalFreeSpace
   parent: System.IO.DriveInfo
@@ -189,7 +184,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.DriveInfo.TotalSize
   id: TotalSize
   parent: System.IO.DriveInfo
@@ -210,7 +204,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.DriveInfo.GetDrives
   id: GetDrives
   parent: System.IO.DriveInfo
@@ -230,7 +223,6 @@ items:
     content.vb: Public Shared Function GetDrives As DriveInfo()
     return:
       type: System.IO.DriveInfo[]
-      description: 
 - uid: System.IO.DriveInfo.RootDirectory
   id: RootDirectory
   parent: System.IO.DriveInfo
@@ -251,7 +243,6 @@ items:
     parameters: []
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DriveInfo.VolumeLabel
   id: VolumeLabel
   parent: System.IO.DriveInfo
@@ -272,7 +263,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.DriveInfo.ToString
   id: ToString
   parent: System.IO.DriveInfo
@@ -292,7 +282,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.IO

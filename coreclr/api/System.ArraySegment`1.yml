@@ -129,7 +129,6 @@ items:
     parameters: []
     return:
       type: '{T}[]'
-      description: 
 - uid: System.ArraySegment`1.Offset
   id: Offset
   parent: System.ArraySegment`1
@@ -151,7 +150,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.ArraySegment`1.Count
   id: Count
   parent: System.ArraySegment`1
@@ -173,7 +171,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.ArraySegment`1.GetHashCode
   id: GetHashCode
   parent: System.ArraySegment`1
@@ -194,7 +191,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.ArraySegment`1.Equals(System.Object)
   id: Equals(System.Object)
@@ -219,7 +215,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.ArraySegment`1.Equals(System.ArraySegment{`0})
   id: Equals(System.ArraySegment{`0})
@@ -245,7 +240,6 @@ items:
       type: System.ArraySegment`1
     return:
       type: System.Boolean
-      description: 
 - uid: System.ArraySegment`1.op_Equality(System.ArraySegment{`0},System.ArraySegment{`0})
   id: op_Equality(System.ArraySegment{`0},System.ArraySegment{`0})
   parent: System.ArraySegment`1
@@ -272,7 +266,6 @@ items:
       type: System.ArraySegment`1
     return:
       type: System.Boolean
-      description: 
 - uid: System.ArraySegment`1.op_Inequality(System.ArraySegment{`0},System.ArraySegment{`0})
   id: op_Inequality(System.ArraySegment{`0},System.ArraySegment{`0})
   parent: System.ArraySegment`1
@@ -299,7 +292,6 @@ items:
       type: System.ArraySegment`1
     return:
       type: System.Boolean
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#Item(System.Int32)
   id: System#Collections#Generic#IList{T}#Item(System.Int32)
   parent: System.ArraySegment`1
@@ -324,7 +316,6 @@ items:
       type: System.Int32
     return:
       type: '{T}'
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#IndexOf(`0)
   id: System#Collections#Generic#IList{T}#IndexOf(`0)
   parent: System.ArraySegment`1
@@ -349,7 +340,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
   id: System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
   parent: System.ArraySegment`1
@@ -420,7 +410,6 @@ items:
       type: System.Int32
     return:
       type: '{T}'
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#IsReadOnly
   id: System#Collections#Generic#ICollection{T}#IsReadOnly
   parent: System.ArraySegment`1
@@ -443,7 +432,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Add(`0)
   id: System#Collections#Generic#ICollection{T}#Add(`0)
   parent: System.ArraySegment`1
@@ -509,7 +497,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)
   id: System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)
   parent: System.ArraySegment`1
@@ -558,7 +545,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.ArraySegment`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
   id: System#Collections#Generic#IEnumerable{T}#GetEnumerator
   parent: System.ArraySegment`1
@@ -580,7 +566,6 @@ items:
     content.vb: Function System.Collections.Generic.IEnumerable<T>.GetEnumerator As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator
     return:
       type: System.Collections.Generic.IEnumerator{{T}}
-      description: 
 - uid: System.ArraySegment`1.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.ArraySegment`1
@@ -602,7 +587,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 references:
 - uid: System
   isExternal: false

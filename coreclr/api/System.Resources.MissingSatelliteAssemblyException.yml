@@ -152,7 +152,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Resources
   isExternal: false

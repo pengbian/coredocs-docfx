@@ -54,7 +54,6 @@ items:
       type: System.Threading.WaitHandle
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

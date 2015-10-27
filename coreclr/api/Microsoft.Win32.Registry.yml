@@ -186,7 +186,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: Microsoft.Win32.Registry.SetValue(System.String,System.String,System.Object)
   id: SetValue(System.String,System.String,System.Object)
   parent: Microsoft.Win32.Registry

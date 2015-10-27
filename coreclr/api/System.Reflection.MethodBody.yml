@@ -75,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.MethodBody.LocalVariables
   id: LocalVariables
   parent: System.Reflection.MethodBody
@@ -96,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{System.Reflection.LocalVariableInfo}
-      description: 
 - uid: System.Reflection.MethodBody.MaxStackSize
   id: MaxStackSize
   parent: System.Reflection.MethodBody
@@ -117,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.MethodBody.InitLocals
   id: InitLocals
   parent: System.Reflection.MethodBody
@@ -138,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.MethodBody.GetILAsByteArray
   id: GetILAsByteArray
   parent: System.Reflection.MethodBody
@@ -158,7 +154,6 @@ items:
     content.vb: Public Overridable Function GetILAsByteArray As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Reflection.MethodBody.ExceptionHandlingClauses
   id: ExceptionHandlingClauses
   parent: System.Reflection.MethodBody
@@ -179,7 +174,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{System.Reflection.ExceptionHandlingClause}
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

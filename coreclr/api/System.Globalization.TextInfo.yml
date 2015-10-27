@@ -64,7 +64,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.TextInfo.IsReadOnly
   id: IsReadOnly
   parent: System.Globalization.TextInfo
@@ -85,7 +84,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.TextInfo.Clone
   id: Clone
   parent: System.Globalization.TextInfo
@@ -105,7 +103,6 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Globalization.TextInfo.ReadOnly(System.Globalization.TextInfo)
   id: ReadOnly(System.Globalization.TextInfo)
   parent: System.Globalization.TextInfo
@@ -128,7 +125,6 @@ items:
       type: System.Globalization.TextInfo
     return:
       type: System.Globalization.TextInfo
-      description: 
 - uid: System.Globalization.TextInfo.ListSeparator
   id: ListSeparator
   parent: System.Globalization.TextInfo
@@ -149,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.TextInfo.ToLower(System.Char)
   id: ToLower(System.Char)
   parent: System.Globalization.TextInfo
@@ -172,7 +167,6 @@ items:
       type: System.Char
     return:
       type: System.Char
-      description: 
 - uid: System.Globalization.TextInfo.ToLower(System.String)
   id: ToLower(System.String)
   parent: System.Globalization.TextInfo
@@ -195,7 +189,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.TextInfo.ToUpper(System.Char)
   id: ToUpper(System.Char)
   parent: System.Globalization.TextInfo
@@ -218,7 +211,6 @@ items:
       type: System.Char
     return:
       type: System.Char
-      description: 
 - uid: System.Globalization.TextInfo.ToUpper(System.String)
   id: ToUpper(System.String)
   parent: System.Globalization.TextInfo
@@ -241,7 +233,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.TextInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Globalization.TextInfo
@@ -264,7 +255,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Globalization.TextInfo.GetHashCode
   id: GetHashCode
@@ -285,7 +275,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Globalization.TextInfo.ToString
   id: ToString
@@ -306,7 +295,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Globalization.TextInfo.IsRightToLeft
   id: IsRightToLeft
@@ -328,7 +316,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Globalization
   isExternal: false

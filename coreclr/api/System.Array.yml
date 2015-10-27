@@ -175,7 +175,6 @@ items:
     - id: T
     return:
       type: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
-      description: 
 - uid: System.Array.Resize``1(``0[]@,System.Int32)
   id: Resize``1(``0[]@,System.Int32)
   parent: System.Array
@@ -226,7 +225,6 @@ items:
       type: System.Int32
     return:
       type: System.Array
-      description: 
 - uid: System.Array.CreateInstance(System.Type,System.Int32,System.Int32)
   id: CreateInstance(System.Type,System.Int32,System.Int32)
   parent: System.Array
@@ -253,7 +251,6 @@ items:
       type: System.Int32
     return:
       type: System.Array
-      description: 
 - uid: System.Array.CreateInstance(System.Type,System.Int32,System.Int32,System.Int32)
   id: CreateInstance(System.Type,System.Int32,System.Int32,System.Int32)
   parent: System.Array
@@ -282,7 +279,6 @@ items:
       type: System.Int32
     return:
       type: System.Array
-      description: 
 - uid: System.Array.CreateInstance(System.Type,System.Int32[])
   id: CreateInstance(System.Type,System.Int32[])
   parent: System.Array
@@ -309,7 +305,6 @@ items:
       type: System.Int32[]
     return:
       type: System.Array
-      description: 
 - uid: System.Array.CreateInstance(System.Type,System.Int64[])
   id: CreateInstance(System.Type,System.Int64[])
   parent: System.Array
@@ -336,7 +331,6 @@ items:
       type: System.Int64[]
     return:
       type: System.Array
-      description: 
 - uid: System.Array.CreateInstance(System.Type,System.Int32[],System.Int32[])
   id: CreateInstance(System.Type,System.Int32[],System.Int32[])
   parent: System.Array
@@ -365,7 +359,6 @@ items:
       type: System.Int32[]
     return:
       type: System.Array
-      description: 
 - uid: System.Array.Copy(System.Array,System.Array,System.Int32)
   id: Copy(System.Array,System.Array,System.Int32)
   parent: System.Array
@@ -545,7 +538,6 @@ items:
       type: System.Int32[]
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int32)
   id: GetValue(System.Int32)
   parent: System.Array
@@ -568,7 +560,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int32,System.Int32)
   id: GetValue(System.Int32,System.Int32)
   parent: System.Array
@@ -593,7 +584,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int32,System.Int32,System.Int32)
   id: GetValue(System.Int32,System.Int32,System.Int32)
   parent: System.Array
@@ -620,7 +610,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int64)
   id: GetValue(System.Int64)
   parent: System.Array
@@ -643,7 +632,6 @@ items:
       type: System.Int64
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int64,System.Int64)
   id: GetValue(System.Int64,System.Int64)
   parent: System.Array
@@ -668,7 +656,6 @@ items:
       type: System.Int64
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int64,System.Int64,System.Int64)
   id: GetValue(System.Int64,System.Int64,System.Int64)
   parent: System.Array
@@ -695,7 +682,6 @@ items:
       type: System.Int64
     return:
       type: System.Object
-      description: 
 - uid: System.Array.GetValue(System.Int64[])
   id: GetValue(System.Int64[])
   parent: System.Array
@@ -720,7 +706,6 @@ items:
       type: System.Int64[]
     return:
       type: System.Object
-      description: 
 - uid: System.Array.SetValue(System.Object,System.Int32)
   id: SetValue(System.Object,System.Int32)
   parent: System.Array
@@ -932,7 +917,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LongLength
   id: LongLength
   parent: System.Array
@@ -952,7 +936,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Array.GetLength(System.Int32)
   id: GetLength(System.Int32)
   parent: System.Array
@@ -974,7 +957,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.GetLongLength(System.Int32)
   id: GetLongLength(System.Int32)
   parent: System.Array
@@ -997,7 +979,6 @@ items:
       type: System.Int32
     return:
       type: System.Int64
-      description: 
 - uid: System.Array.Rank
   id: Rank
   parent: System.Array
@@ -1017,7 +998,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.GetUpperBound(System.Int32)
   id: GetUpperBound(System.Int32)
   parent: System.Array
@@ -1039,7 +1019,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.GetLowerBound(System.Int32)
   id: GetLowerBound(System.Int32)
   parent: System.Array
@@ -1061,7 +1040,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.System#Collections#ICollection#Count
   id: System#Collections#ICollection#Count
   parent: System.Array
@@ -1083,7 +1061,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.SyncRoot
   id: SyncRoot
   parent: System.Array
@@ -1104,7 +1081,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Array.IsReadOnly
   id: IsReadOnly
   parent: System.Array
@@ -1125,7 +1101,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.IsFixedSize
   id: IsFixedSize
   parent: System.Array
@@ -1146,7 +1121,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.IsSynchronized
   id: IsSynchronized
   parent: System.Array
@@ -1167,7 +1141,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.System#Collections#IList#Item(System.Int32)
   id: System#Collections#IList#Item(System.Int32)
   parent: System.Array
@@ -1192,7 +1165,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Array.System#Collections#IList#Add(System.Object)
   id: System#Collections#IList#Add(System.Object)
   parent: System.Array
@@ -1216,7 +1188,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.System#Collections#IList#Contains(System.Object)
   id: System#Collections#IList#Contains(System.Object)
   parent: System.Array
@@ -1240,7 +1211,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.System#Collections#IList#Clear
   id: System#Collections#IList#Clear
   parent: System.Array
@@ -1282,7 +1252,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Array
@@ -1367,7 +1336,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Array.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
   id: System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
   parent: System.Array
@@ -1393,7 +1361,6 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
   id: System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
   parent: System.Array
@@ -1419,7 +1386,6 @@ items:
       type: System.Collections.IEqualityComparer
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
   id: System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
   parent: System.Array
@@ -1443,7 +1409,6 @@ items:
       type: System.Collections.IEqualityComparer
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch(System.Array,System.Object)
   id: BinarySearch(System.Array,System.Object)
   parent: System.Array
@@ -1468,7 +1433,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
   id: BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
   parent: System.Array
@@ -1497,7 +1461,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch(System.Array,System.Object,System.Collections.IComparer)
   id: BinarySearch(System.Array,System.Object,System.Collections.IComparer)
   parent: System.Array
@@ -1524,7 +1487,6 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)
   id: BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)
   parent: System.Array
@@ -1555,7 +1517,6 @@ items:
       type: System.Collections.IComparer
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch``1(``0[],``0)
   id: BinarySearch``1(``0[],``0)
   parent: System.Array
@@ -1584,7 +1545,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})
   id: BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})
   parent: System.Array
@@ -1615,7 +1575,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0)
   id: BinarySearch``1(``0[],System.Int32,System.Int32,``0)
   parent: System.Array
@@ -1648,7 +1607,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})
   id: BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})
   parent: System.Array
@@ -1683,7 +1641,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.ConvertAll``2(``0[],System.Converter{``0,``1})
   id: ConvertAll``2(``0[],System.Converter{``0,``1})
   parent: System.Array
@@ -1713,7 +1670,6 @@ items:
     - id: TOutput
     return:
       type: '{TOutput}[]'
-      description: 
 - uid: System.Array.CopyTo(System.Array,System.Int32)
   id: CopyTo(System.Array,System.Int32)
   parent: System.Array
@@ -1781,7 +1737,6 @@ items:
     - id: T
     return:
       type: '{T}[]'
-      description: 
 - uid: System.Array.Exists``1(``0[],System.Predicate{``0})
   id: Exists``1(``0[],System.Predicate{``0})
   parent: System.Array
@@ -1810,7 +1765,6 @@ items:
     - id: T
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.Find``1(``0[],System.Predicate{``0})
   id: Find``1(``0[],System.Predicate{``0})
   parent: System.Array
@@ -1839,7 +1793,6 @@ items:
     - id: T
     return:
       type: '{T}'
-      description: 
 - uid: System.Array.FindAll``1(``0[],System.Predicate{``0})
   id: FindAll``1(``0[],System.Predicate{``0})
   parent: System.Array
@@ -1868,7 +1821,6 @@ items:
     - id: T
     return:
       type: '{T}[]'
-      description: 
 - uid: System.Array.FindIndex``1(``0[],System.Predicate{``0})
   id: FindIndex``1(``0[],System.Predicate{``0})
   parent: System.Array
@@ -1897,7 +1849,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.FindIndex``1(``0[],System.Int32,System.Predicate{``0})
   id: FindIndex``1(``0[],System.Int32,System.Predicate{``0})
   parent: System.Array
@@ -1928,7 +1879,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
   id: FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
   parent: System.Array
@@ -1961,7 +1911,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.FindLast``1(``0[],System.Predicate{``0})
   id: FindLast``1(``0[],System.Predicate{``0})
   parent: System.Array
@@ -1990,7 +1939,6 @@ items:
     - id: T
     return:
       type: '{T}'
-      description: 
 - uid: System.Array.FindLastIndex``1(``0[],System.Predicate{``0})
   id: FindLastIndex``1(``0[],System.Predicate{``0})
   parent: System.Array
@@ -2019,7 +1967,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.FindLastIndex``1(``0[],System.Int32,System.Predicate{``0})
   id: FindLastIndex``1(``0[],System.Int32,System.Predicate{``0})
   parent: System.Array
@@ -2050,7 +1997,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
   id: FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
   parent: System.Array
@@ -2083,7 +2029,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.ForEach``1(``0[],System.Action{``0})
   id: ForEach``1(``0[],System.Action{``0})
   parent: System.Array
@@ -2129,7 +2074,6 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Array.IndexOf(System.Array,System.Object)
   id: IndexOf(System.Array,System.Object)
   parent: System.Array
@@ -2154,7 +2098,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.IndexOf(System.Array,System.Object,System.Int32)
   id: IndexOf(System.Array,System.Object,System.Int32)
   parent: System.Array
@@ -2181,7 +2124,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.IndexOf(System.Array,System.Object,System.Int32,System.Int32)
   id: IndexOf(System.Array,System.Object,System.Int32,System.Int32)
   parent: System.Array
@@ -2210,7 +2152,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.IndexOf``1(``0[],``0)
   id: IndexOf``1(``0[],``0)
   parent: System.Array
@@ -2239,7 +2180,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.IndexOf``1(``0[],``0,System.Int32)
   id: IndexOf``1(``0[],``0,System.Int32)
   parent: System.Array
@@ -2270,7 +2210,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.IndexOf``1(``0[],``0,System.Int32,System.Int32)
   id: IndexOf``1(``0[],``0,System.Int32,System.Int32)
   parent: System.Array
@@ -2303,7 +2242,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LastIndexOf(System.Array,System.Object)
   id: LastIndexOf(System.Array,System.Object)
   parent: System.Array
@@ -2328,7 +2266,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LastIndexOf(System.Array,System.Object,System.Int32)
   id: LastIndexOf(System.Array,System.Object,System.Int32)
   parent: System.Array
@@ -2355,7 +2292,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LastIndexOf(System.Array,System.Object,System.Int32,System.Int32)
   id: LastIndexOf(System.Array,System.Object,System.Int32,System.Int32)
   parent: System.Array
@@ -2384,7 +2320,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LastIndexOf``1(``0[],``0)
   id: LastIndexOf``1(``0[],``0)
   parent: System.Array
@@ -2413,7 +2348,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LastIndexOf``1(``0[],``0,System.Int32)
   id: LastIndexOf``1(``0[],``0,System.Int32)
   parent: System.Array
@@ -2444,7 +2378,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.LastIndexOf``1(``0[],``0,System.Int32,System.Int32)
   id: LastIndexOf``1(``0[],``0,System.Int32,System.Int32)
   parent: System.Array
@@ -2477,7 +2410,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Array.Reverse(System.Array)
   id: Reverse(System.Array)
   parent: System.Array
@@ -2996,7 +2928,6 @@ items:
     - id: T
     return:
       type: System.Boolean
-      description: 
 - uid: System.Array.Initialize
   id: Initialize
   parent: System.Array

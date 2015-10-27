@@ -42,7 +42,6 @@ items:
     parameters: []
     return:
       type: System.Exception
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

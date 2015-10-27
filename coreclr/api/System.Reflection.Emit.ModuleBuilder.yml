@@ -140,7 +140,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Module.Equals(System.Object)
 - uid: System.Reflection.Emit.ModuleBuilder.GetHashCode
   id: GetHashCode
@@ -161,7 +160,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.Module.GetHashCode
 - uid: System.Reflection.Emit.ModuleBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -185,7 +183,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.Module.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.ModuleBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -211,7 +208,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.Module.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.ModuleBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -237,7 +233,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Module.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.ModuleBuilder.GetCustomAttributesData
   id: GetCustomAttributesData
@@ -258,7 +253,6 @@ items:
     content.vb: Public Overrides Function GetCustomAttributesData As IList(Of CustomAttributeData)
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
   overridden: System.Reflection.Module.GetCustomAttributesData
 - uid: System.Reflection.Emit.ModuleBuilder.GetTypes
   id: GetTypes
@@ -279,7 +273,6 @@ items:
     content.vb: Public Overrides Function GetTypes As Type()
     return:
       type: System.Type[]
-      description: 
   overridden: System.Reflection.Module.GetTypes
 - uid: System.Reflection.Emit.ModuleBuilder.GetType(System.String)
   id: GetType(System.String)
@@ -303,7 +296,6 @@ items:
       type: System.String
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.Module.GetType(System.String)
 - uid: System.Reflection.Emit.ModuleBuilder.GetType(System.String,System.Boolean)
   id: GetType(System.String,System.Boolean)
@@ -329,7 +321,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.Module.GetType(System.String,System.Boolean)
 - uid: System.Reflection.Emit.ModuleBuilder.GetType(System.String,System.Boolean,System.Boolean)
   id: GetType(System.String,System.Boolean,System.Boolean)
@@ -357,7 +348,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.Module.GetType(System.String,System.Boolean,System.Boolean)
 - uid: System.Reflection.Emit.ModuleBuilder.FullyQualifiedName
   id: FullyQualifiedName
@@ -379,7 +369,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Module.FullyQualifiedName
 - uid: System.Reflection.Emit.ModuleBuilder.ResolveSignature(System.Int32)
   id: ResolveSignature(System.Int32)
@@ -403,7 +392,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Reflection.Module.ResolveSignature(System.Int32)
 - uid: System.Reflection.Emit.ModuleBuilder.ResolveMethod(System.Int32,System.Type[],System.Type[])
   id: ResolveMethod(System.Int32,System.Type[],System.Type[])
@@ -433,7 +421,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodBase
-      description: 
   overridden: System.Reflection.Module.ResolveMethod(System.Int32,System.Type[],System.Type[])
 - uid: System.Reflection.Emit.ModuleBuilder.ResolveField(System.Int32,System.Type[],System.Type[])
   id: ResolveField(System.Int32,System.Type[],System.Type[])
@@ -463,7 +450,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.FieldInfo
-      description: 
   overridden: System.Reflection.Module.ResolveField(System.Int32,System.Type[],System.Type[])
 - uid: System.Reflection.Emit.ModuleBuilder.ResolveType(System.Int32,System.Type[],System.Type[])
   id: ResolveType(System.Int32,System.Type[],System.Type[])
@@ -493,7 +479,6 @@ items:
       type: System.Type[]
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.Module.ResolveType(System.Int32,System.Type[],System.Type[])
 - uid: System.Reflection.Emit.ModuleBuilder.ResolveMember(System.Int32,System.Type[],System.Type[])
   id: ResolveMember(System.Int32,System.Type[],System.Type[])
@@ -523,7 +508,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MemberInfo
-      description: 
   overridden: System.Reflection.Module.ResolveMember(System.Int32,System.Type[],System.Type[])
 - uid: System.Reflection.Emit.ModuleBuilder.ResolveString(System.Int32)
   id: ResolveString(System.Int32)
@@ -547,7 +531,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Module.ResolveString(System.Int32)
 - uid: System.Reflection.Emit.ModuleBuilder.GetPEKind(System.Reflection.PortableExecutableKinds@,System.Reflection.ImageFileMachine@)
   id: GetPEKind(System.Reflection.PortableExecutableKinds@,System.Reflection.ImageFileMachine@)
@@ -594,7 +577,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.Module.MDStreamVersion
 - uid: System.Reflection.Emit.ModuleBuilder.ModuleVersionId
   id: ModuleVersionId
@@ -616,7 +598,6 @@ items:
     parameters: []
     return:
       type: System.Guid
-      description: 
   overridden: System.Reflection.Module.ModuleVersionId
 - uid: System.Reflection.Emit.ModuleBuilder.MetadataToken
   id: MetadataToken
@@ -638,7 +619,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.Module.MetadataToken
 - uid: System.Reflection.Emit.ModuleBuilder.IsResource
   id: IsResource
@@ -659,7 +639,6 @@ items:
     content.vb: Public Overrides Function IsResource As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Module.IsResource
 - uid: System.Reflection.Emit.ModuleBuilder.GetFields(System.Reflection.BindingFlags)
   id: GetFields(System.Reflection.BindingFlags)
@@ -683,7 +662,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
   overridden: System.Reflection.Module.GetFields(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.ModuleBuilder.GetField(System.String,System.Reflection.BindingFlags)
   id: GetField(System.String,System.Reflection.BindingFlags)
@@ -709,7 +687,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
-      description: 
   overridden: System.Reflection.Module.GetField(System.String,System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.ModuleBuilder.GetMethods(System.Reflection.BindingFlags)
   id: GetMethods(System.Reflection.BindingFlags)
@@ -733,7 +710,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
   overridden: System.Reflection.Module.GetMethods(System.Reflection.BindingFlags)
 - uid: System.Reflection.Emit.ModuleBuilder.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
@@ -769,7 +745,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Reflection.Module.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 - uid: System.Reflection.Emit.ModuleBuilder.ScopeName
   id: ScopeName
@@ -791,7 +766,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Module.ScopeName
 - uid: System.Reflection.Emit.ModuleBuilder.Name
   id: Name
@@ -813,7 +787,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Module.Name
 - uid: System.Reflection.Emit.ModuleBuilder.Assembly
   id: Assembly
@@ -835,7 +808,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
   overridden: System.Reflection.Module.Assembly
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String)
   id: DefineType(System.String)
@@ -859,7 +831,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String,System.Reflection.TypeAttributes)
   id: DefineType(System.String,System.Reflection.TypeAttributes)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -884,7 +855,6 @@ items:
       type: System.Reflection.TypeAttributes
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String,System.Reflection.TypeAttributes,System.Type)
   id: DefineType(System.String,System.Reflection.TypeAttributes,System.Type)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -911,7 +881,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Int32)
   id: DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Int32)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -940,7 +909,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize,System.Int32)
   id: DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize,System.Int32)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -971,7 +939,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Type[])
   id: DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Type[])
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1002,7 +969,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize)
   id: DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1031,7 +997,6 @@ items:
       type: System.Reflection.Emit.PackingSize
     return:
       type: System.Reflection.Emit.TypeBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineEnum(System.String,System.Reflection.TypeAttributes,System.Type)
   id: DefineEnum(System.String,System.Reflection.TypeAttributes,System.Type)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1058,7 +1023,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.EnumBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineManifestResource(System.String,System.IO.Stream,System.Reflection.ResourceAttributes)
   id: DefineManifestResource(System.String,System.IO.Stream,System.Reflection.ResourceAttributes)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1155,7 +1119,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.Emit.MethodBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineGlobalMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[])
   id: DefineGlobalMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[])
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1188,7 +1151,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.Emit.MethodBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineGlobalMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
   id: DefineGlobalMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1229,7 +1191,6 @@ items:
       type: System.Type[][]
     return:
       type: System.Reflection.Emit.MethodBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefinePInvokeMethod(System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet)
   id: DefinePInvokeMethod(System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1268,7 +1229,6 @@ items:
       type: System.Runtime.InteropServices.CharSet
     return:
       type: System.Reflection.Emit.MethodBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefinePInvokeMethod(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet)
   id: DefinePInvokeMethod(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1309,7 +1269,6 @@ items:
       type: System.Runtime.InteropServices.CharSet
     return:
       type: System.Reflection.Emit.MethodBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions
   id: CreateGlobalFunctions
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1355,7 +1314,6 @@ items:
       type: System.Reflection.FieldAttributes
     return:
       type: System.Reflection.Emit.FieldBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineUninitializedData(System.String,System.Int32,System.Reflection.FieldAttributes)
   id: DefineUninitializedData(System.String,System.Int32,System.Reflection.FieldAttributes)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1382,7 +1340,6 @@ items:
       type: System.Reflection.FieldAttributes
     return:
       type: System.Reflection.Emit.FieldBuilder
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetTypeToken(System.Type)
   id: GetTypeToken(System.Type)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1405,7 +1362,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.TypeToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetTypeToken(System.String)
   id: GetTypeToken(System.String)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1428,7 +1384,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.TypeToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetMethodToken(System.Reflection.MethodInfo)
   id: GetMethodToken(System.Reflection.MethodInfo)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1451,7 +1406,6 @@ items:
       type: System.Reflection.MethodInfo
     return:
       type: System.Reflection.Emit.MethodToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetConstructorToken(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable{System.Type})
   id: GetConstructorToken(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable{System.Type})
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1478,7 +1432,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Type}
     return:
       type: System.Reflection.Emit.MethodToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetMethodToken(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{System.Type})
   id: GetMethodToken(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{System.Type})
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1505,7 +1458,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Type}
     return:
       type: System.Reflection.Emit.MethodToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetArrayMethodToken(System.Type,System.String,System.Reflection.CallingConventions,System.Type,System.Type[])
   id: GetArrayMethodToken(System.Type,System.String,System.Reflection.CallingConventions,System.Type,System.Type[])
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1538,7 +1490,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.Emit.MethodToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetArrayMethod(System.Type,System.String,System.Reflection.CallingConventions,System.Type,System.Type[])
   id: GetArrayMethod(System.Type,System.String,System.Reflection.CallingConventions,System.Type,System.Type[])
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1571,7 +1522,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetConstructorToken(System.Reflection.ConstructorInfo)
   id: GetConstructorToken(System.Reflection.ConstructorInfo)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1594,7 +1544,6 @@ items:
       type: System.Reflection.ConstructorInfo
     return:
       type: System.Reflection.Emit.MethodToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetFieldToken(System.Reflection.FieldInfo)
   id: GetFieldToken(System.Reflection.FieldInfo)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1617,7 +1566,6 @@ items:
       type: System.Reflection.FieldInfo
     return:
       type: System.Reflection.Emit.FieldToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetStringConstant(System.String)
   id: GetStringConstant(System.String)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1640,7 +1588,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.StringToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetSignatureToken(System.Reflection.Emit.SignatureHelper)
   id: GetSignatureToken(System.Reflection.Emit.SignatureHelper)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1663,7 +1610,6 @@ items:
       type: System.Reflection.Emit.SignatureHelper
     return:
       type: System.Reflection.Emit.SignatureToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.GetSignatureToken(System.Byte[],System.Int32)
   id: GetSignatureToken(System.Byte[],System.Int32)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1690,7 +1636,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.SignatureToken
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
   id: SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1754,7 +1699,6 @@ items:
     content.vb: Public Function GetSymWriter As ISymbolWriter
     return:
       type: System.Diagnostics.SymbolStore.ISymbolWriter
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.DefineDocument(System.String,System.Guid,System.Guid,System.Guid)
   id: DefineDocument(System.String,System.Guid,System.Guid,System.Guid)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1783,7 +1727,6 @@ items:
       type: System.Guid
     return:
       type: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
-      description: 
 - uid: System.Reflection.Emit.ModuleBuilder.SetUserEntryPoint(System.Reflection.MethodInfo)
   id: SetUserEntryPoint(System.Reflection.MethodInfo)
   parent: System.Reflection.Emit.ModuleBuilder
@@ -1847,7 +1790,6 @@ items:
     content.vb: Public Function IsTransient As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

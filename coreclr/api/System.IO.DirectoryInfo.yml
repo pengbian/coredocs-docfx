@@ -99,7 +99,6 @@ items:
       type: System.String
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.IO.DirectoryInfo
@@ -140,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.IO.FileSystemInfo.Name
 - uid: System.IO.DirectoryInfo.Parent
   id: Parent
@@ -162,7 +160,6 @@ items:
     parameters: []
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.CreateSubdirectory(System.String)
   id: CreateSubdirectory(System.String)
   parent: System.IO.DirectoryInfo
@@ -185,7 +182,6 @@ items:
       type: System.String
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.CreateSubdirectory(System.String,System.Object)
   id: CreateSubdirectory(System.String,System.Object)
   parent: System.IO.DirectoryInfo
@@ -210,7 +206,6 @@ items:
       type: System.Object
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.Create
   id: Create
   parent: System.IO.DirectoryInfo
@@ -248,7 +243,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileSystemInfo.Exists
 - uid: System.IO.DirectoryInfo.GetFiles(System.String)
   id: GetFiles(System.String)
@@ -272,7 +266,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFiles(System.String,System.IO.SearchOption)
   id: GetFiles(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -297,7 +290,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.IO.FileInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFiles
   id: GetFiles
   parent: System.IO.DirectoryInfo
@@ -317,7 +309,6 @@ items:
     content.vb: Public Function GetFiles As FileInfo()
     return:
       type: System.IO.FileInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetDirectories
   id: GetDirectories
   parent: System.IO.DirectoryInfo
@@ -337,7 +328,6 @@ items:
     content.vb: Public Function GetDirectories As DirectoryInfo()
     return:
       type: System.IO.DirectoryInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFileSystemInfos(System.String)
   id: GetFileSystemInfos(System.String)
   parent: System.IO.DirectoryInfo
@@ -360,7 +350,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileSystemInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFileSystemInfos(System.String,System.IO.SearchOption)
   id: GetFileSystemInfos(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -385,7 +374,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.IO.FileSystemInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetFileSystemInfos
   id: GetFileSystemInfos
   parent: System.IO.DirectoryInfo
@@ -405,7 +393,6 @@ items:
     content.vb: Public Function GetFileSystemInfos As FileSystemInfo()
     return:
       type: System.IO.FileSystemInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetDirectories(System.String)
   id: GetDirectories(System.String)
   parent: System.IO.DirectoryInfo
@@ -428,7 +415,6 @@ items:
       type: System.String
     return:
       type: System.IO.DirectoryInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.GetDirectories(System.String,System.IO.SearchOption)
   id: GetDirectories(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -453,7 +439,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.IO.DirectoryInfo[]
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateDirectories
   id: EnumerateDirectories
   parent: System.IO.DirectoryInfo
@@ -473,7 +458,6 @@ items:
     content.vb: Public Function EnumerateDirectories As IEnumerable(Of DirectoryInfo)
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateDirectories(System.String)
   id: EnumerateDirectories(System.String)
   parent: System.IO.DirectoryInfo
@@ -496,7 +480,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateDirectories(System.String,System.IO.SearchOption)
   id: EnumerateDirectories(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -521,7 +504,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFiles
   id: EnumerateFiles
   parent: System.IO.DirectoryInfo
@@ -541,7 +523,6 @@ items:
     content.vb: Public Function EnumerateFiles As IEnumerable(Of FileInfo)
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFiles(System.String)
   id: EnumerateFiles(System.String)
   parent: System.IO.DirectoryInfo
@@ -564,7 +545,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFiles(System.String,System.IO.SearchOption)
   id: EnumerateFiles(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -589,7 +569,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFileSystemInfos
   id: EnumerateFileSystemInfos
   parent: System.IO.DirectoryInfo
@@ -609,7 +588,6 @@ items:
     content.vb: Public Function EnumerateFileSystemInfos As IEnumerable(Of FileSystemInfo)
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFileSystemInfos(System.String)
   id: EnumerateFileSystemInfos(System.String)
   parent: System.IO.DirectoryInfo
@@ -632,7 +610,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.EnumerateFileSystemInfos(System.String,System.IO.SearchOption)
   id: EnumerateFileSystemInfos(System.String,System.IO.SearchOption)
   parent: System.IO.DirectoryInfo
@@ -657,7 +634,6 @@ items:
       type: System.IO.SearchOption
     return:
       type: System.Collections.Generic.IEnumerable{System.IO.FileSystemInfo}
-      description: 
 - uid: System.IO.DirectoryInfo.Root
   id: Root
   parent: System.IO.DirectoryInfo
@@ -678,7 +654,6 @@ items:
     parameters: []
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.DirectoryInfo.MoveTo(System.String)
   id: MoveTo(System.String)
   parent: System.IO.DirectoryInfo
@@ -756,7 +731,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.IO

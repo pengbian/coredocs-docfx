@@ -70,7 +70,6 @@ items:
       type: System.Int32
     return:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Count
   id: Count
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
@@ -91,7 +90,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Add(System.Security.Permissions.KeyContainerPermissionAccessEntry)
   id: Add(System.Security.Permissions.KeyContainerPermissionAccessEntry)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
@@ -114,7 +112,6 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Clear
   id: Clear
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
@@ -154,7 +151,6 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Remove(System.Security.Permissions.KeyContainerPermissionAccessEntry)
   id: Remove(System.Security.Permissions.KeyContainerPermissionAccessEntry)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
@@ -194,7 +190,6 @@ items:
     content.vb: Public Function GetEnumerator As KeyContainerPermissionAccessEntryEnumerator
     return:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.System#Collections#IEnumerable#GetEnumerator
   id: System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
@@ -282,7 +277,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.SyncRoot
   id: SyncRoot
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
@@ -303,7 +297,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Security.Permissions
   isExternal: false

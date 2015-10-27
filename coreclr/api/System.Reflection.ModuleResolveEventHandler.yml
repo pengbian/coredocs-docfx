@@ -28,7 +28,6 @@ items:
       type: System.ResolveEventArgs
     return:
       type: System.Reflection.Module
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

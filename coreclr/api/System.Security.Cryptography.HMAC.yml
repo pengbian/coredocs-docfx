@@ -83,7 +83,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.Cryptography.HMAC.Key
   id: Key
   parent: System.Security.Cryptography.HMAC
@@ -104,7 +103,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.KeyedHashAlgorithm.Key
 - uid: System.Security.Cryptography.HMAC.HashName
   id: HashName
@@ -126,7 +124,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.HMAC.Create
   id: Create
   parent: System.Security.Cryptography.HMAC
@@ -146,7 +143,6 @@ items:
     content.vb: Public Shared Function Create As HMAC
     return:
       type: System.Security.Cryptography.HMAC
-      description: 
 - uid: System.Security.Cryptography.HMAC.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.HMAC
@@ -169,7 +165,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.HMAC
-      description: 
 - uid: System.Security.Cryptography.HMAC.Initialize
   id: Initialize
   parent: System.Security.Cryptography.HMAC
@@ -234,7 +229,6 @@ items:
     content.vb: Protected Overrides Function HashFinal As Byte()
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.HashAlgorithm.HashFinal
 - uid: System.Security.Cryptography.HMAC.Dispose(System.Boolean)
   id: Dispose(System.Boolean)

@@ -26,7 +26,6 @@ items:
       type: System.IntPtr
     return:
       type: System.IntPtr
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

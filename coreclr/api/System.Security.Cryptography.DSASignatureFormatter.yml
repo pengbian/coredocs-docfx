@@ -141,7 +141,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.AsymmetricSignatureFormatter.CreateSignature(System.Byte[])
 references:
 - uid: System.Security.Cryptography

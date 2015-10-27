@@ -59,7 +59,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.OperandType
-      description: 
 - uid: System.Reflection.Emit.OpCode.FlowControl
   id: FlowControl
   parent: System.Reflection.Emit.OpCode
@@ -80,7 +79,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.FlowControl
-      description: 
 - uid: System.Reflection.Emit.OpCode.OpCodeType
   id: OpCodeType
   parent: System.Reflection.Emit.OpCode
@@ -101,7 +99,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.OpCodeType
-      description: 
 - uid: System.Reflection.Emit.OpCode.StackBehaviourPop
   id: StackBehaviourPop
   parent: System.Reflection.Emit.OpCode
@@ -122,7 +119,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.StackBehaviour
-      description: 
 - uid: System.Reflection.Emit.OpCode.StackBehaviourPush
   id: StackBehaviourPush
   parent: System.Reflection.Emit.OpCode
@@ -143,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Emit.StackBehaviour
-      description: 
 - uid: System.Reflection.Emit.OpCode.Size
   id: Size
   parent: System.Reflection.Emit.OpCode
@@ -164,7 +159,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.OpCode.Value
   id: Value
   parent: System.Reflection.Emit.OpCode
@@ -185,7 +179,6 @@ items:
     parameters: []
     return:
       type: System.Int16
-      description: 
 - uid: System.Reflection.Emit.OpCode.Name
   id: Name
   parent: System.Reflection.Emit.OpCode
@@ -206,7 +199,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Emit.OpCode.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Emit.OpCode
@@ -229,7 +221,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.OpCode.Equals(System.Reflection.Emit.OpCode)
   id: Equals(System.Reflection.Emit.OpCode)
@@ -253,7 +244,6 @@ items:
       type: System.Reflection.Emit.OpCode
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.OpCode.op_Equality(System.Reflection.Emit.OpCode,System.Reflection.Emit.OpCode)
   id: op_Equality(System.Reflection.Emit.OpCode,System.Reflection.Emit.OpCode)
   parent: System.Reflection.Emit.OpCode
@@ -278,7 +268,6 @@ items:
       type: System.Reflection.Emit.OpCode
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.OpCode.op_Inequality(System.Reflection.Emit.OpCode,System.Reflection.Emit.OpCode)
   id: op_Inequality(System.Reflection.Emit.OpCode,System.Reflection.Emit.OpCode)
   parent: System.Reflection.Emit.OpCode
@@ -303,7 +292,6 @@ items:
       type: System.Reflection.Emit.OpCode
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.OpCode.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Emit.OpCode
@@ -323,7 +311,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.OpCode.ToString
   id: ToString
@@ -344,7 +331,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 references:
 - uid: System.Reflection.Emit

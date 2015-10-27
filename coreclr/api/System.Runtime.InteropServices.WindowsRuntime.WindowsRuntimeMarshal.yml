@@ -136,7 +136,6 @@ items:
       type: System.Type
     return:
       type: System.Runtime.InteropServices.WindowsRuntime.IActivationFactory
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.StringToHString(System.String)
   id: StringToHString(System.String)
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal
@@ -159,7 +158,6 @@ items:
       type: System.String
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.PtrToStringHString(System.IntPtr)
   id: PtrToStringHString(System.IntPtr)
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal
@@ -182,7 +180,6 @@ items:
       type: System.IntPtr
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.FreeHString(System.IntPtr)
   id: FreeHString(System.IntPtr)
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal

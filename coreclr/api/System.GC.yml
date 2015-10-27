@@ -119,7 +119,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.GC.Collect(System.Int32)
   id: Collect(System.Int32)
   parent: System.GC
@@ -251,7 +250,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.GC.KeepAlive(System.Object)
   id: KeepAlive(System.Object)
   parent: System.GC
@@ -294,7 +292,6 @@ items:
       type: System.WeakReference
     return:
       type: System.Int32
-      description: 
 - uid: System.GC.MaxGeneration
   id: MaxGeneration
   parent: System.GC
@@ -315,7 +312,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.GC.WaitForPendingFinalizers
   id: WaitForPendingFinalizers
   parent: System.GC
@@ -395,7 +391,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int64
-      description: 
 - uid: System.GC.RegisterForFullGCNotification(System.Int32,System.Int32)
   id: RegisterForFullGCNotification(System.Int32,System.Int32)
   parent: System.GC
@@ -454,7 +449,6 @@ items:
     content.vb: Public Shared Function WaitForFullGCApproach As GCNotificationStatus
     return:
       type: System.GCNotificationStatus
-      description: 
 - uid: System.GC.WaitForFullGCApproach(System.Int32)
   id: WaitForFullGCApproach(System.Int32)
   parent: System.GC
@@ -477,7 +471,6 @@ items:
       type: System.Int32
     return:
       type: System.GCNotificationStatus
-      description: 
 - uid: System.GC.WaitForFullGCComplete
   id: WaitForFullGCComplete
   parent: System.GC
@@ -497,7 +490,6 @@ items:
     content.vb: Public Shared Function WaitForFullGCComplete As GCNotificationStatus
     return:
       type: System.GCNotificationStatus
-      description: 
 - uid: System.GC.WaitForFullGCComplete(System.Int32)
   id: WaitForFullGCComplete(System.Int32)
   parent: System.GC
@@ -520,7 +512,6 @@ items:
       type: System.Int32
     return:
       type: System.GCNotificationStatus
-      description: 
 - uid: System.GC.TryStartNoGCRegion(System.Int64)
   id: TryStartNoGCRegion(System.Int64)
   parent: System.GC
@@ -543,7 +534,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.GC.TryStartNoGCRegion(System.Int64,System.Int64)
   id: TryStartNoGCRegion(System.Int64,System.Int64)
   parent: System.GC
@@ -568,7 +558,6 @@ items:
       type: System.Int64
     return:
       type: System.Boolean
-      description: 
 - uid: System.GC.TryStartNoGCRegion(System.Int64,System.Boolean)
   id: TryStartNoGCRegion(System.Int64,System.Boolean)
   parent: System.GC
@@ -593,7 +582,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.GC.TryStartNoGCRegion(System.Int64,System.Int64,System.Boolean)
   id: TryStartNoGCRegion(System.Int64,System.Int64,System.Boolean)
   parent: System.GC
@@ -620,7 +608,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.GC.EndNoGCRegion
   id: EndNoGCRegion
   parent: System.GC

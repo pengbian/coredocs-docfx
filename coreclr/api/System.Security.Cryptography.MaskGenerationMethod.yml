@@ -58,7 +58,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

@@ -54,7 +54,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.SortKey.KeyData
   id: KeyData
   parent: System.Globalization.SortKey
@@ -75,7 +74,6 @@ items:
     parameters: []
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Globalization.SortKey.Compare(System.Globalization.SortKey,System.Globalization.SortKey)
   id: Compare(System.Globalization.SortKey,System.Globalization.SortKey)
   parent: System.Globalization.SortKey
@@ -100,7 +98,6 @@ items:
       type: System.Globalization.SortKey
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.SortKey.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Globalization.SortKey
@@ -123,7 +120,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Globalization.SortKey.GetHashCode
   id: GetHashCode
@@ -144,7 +140,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Globalization.SortKey.ToString
   id: ToString
@@ -165,7 +160,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Globalization

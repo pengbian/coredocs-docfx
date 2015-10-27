@@ -170,7 +170,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEqualityComparer{{TKey}}
-      description: 
 - uid: System.Collections.ObjectModel.KeyedCollection`2.Item(`0)
   id: Item(`0)
   parent: System.Collections.ObjectModel.KeyedCollection`2
@@ -195,7 +194,6 @@ items:
       type: '{TKey}'
     return:
       type: '{TItem}'
-      description: 
 - uid: System.Collections.ObjectModel.KeyedCollection`2.Contains(`0)
   id: Contains(`0)
   parent: System.Collections.ObjectModel.KeyedCollection`2
@@ -219,7 +217,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.KeyedCollection`2.Remove(`0)
   id: Remove(`0)
   parent: System.Collections.ObjectModel.KeyedCollection`2
@@ -243,7 +240,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.KeyedCollection`2.Dictionary
   id: Dictionary
   parent: System.Collections.ObjectModel.KeyedCollection`2
@@ -265,7 +261,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IDictionary{{TKey},{TItem}}
-      description: 
 - uid: System.Collections.ObjectModel.KeyedCollection`2.ChangeItemKey(`1,`0)
   id: ChangeItemKey(`1,`0)
   parent: System.Collections.ObjectModel.KeyedCollection`2
@@ -331,7 +326,6 @@ items:
       type: '{TItem}'
     return:
       type: '{TKey}'
-      description: 
 - uid: System.Collections.ObjectModel.KeyedCollection`2.InsertItem(System.Int32,`1)
   id: InsertItem(System.Int32,`1)
   parent: System.Collections.ObjectModel.KeyedCollection`2

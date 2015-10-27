@@ -54,7 +54,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.GCLatencyMode
-      description: 
 - uid: System.Runtime.GCSettings.LargeObjectHeapCompactionMode
   id: LargeObjectHeapCompactionMode
   parent: System.Runtime.GCSettings
@@ -75,7 +74,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.GCLargeObjectHeapCompactionMode
-      description: 
 - uid: System.Runtime.GCSettings.IsServerGC
   id: IsServerGC
   parent: System.Runtime.GCSettings
@@ -96,7 +94,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Runtime
   isExternal: false

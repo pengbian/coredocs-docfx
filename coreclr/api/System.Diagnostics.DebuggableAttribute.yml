@@ -136,7 +136,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.DebuggableAttribute.IsJITOptimizerDisabled
   id: IsJITOptimizerDisabled
   parent: System.Diagnostics.DebuggableAttribute
@@ -157,7 +156,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.DebuggableAttribute.DebuggingFlags
   id: DebuggingFlags
   parent: System.Diagnostics.DebuggableAttribute
@@ -178,7 +176,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.DebuggableAttribute.DebuggingModes
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

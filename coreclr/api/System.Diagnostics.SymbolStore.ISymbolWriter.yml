@@ -93,7 +93,6 @@ items:
       type: System.Guid
     return:
       type: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolWriter.SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken)
   id: SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.ISymbolWriter
@@ -205,7 +204,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolWriter.CloseScope(System.Int32)
   id: CloseScope(System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolWriter

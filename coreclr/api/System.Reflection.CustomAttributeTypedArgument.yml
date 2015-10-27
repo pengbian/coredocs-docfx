@@ -58,7 +58,6 @@ items:
       type: System.Reflection.CustomAttributeTypedArgument
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.CustomAttributeTypedArgument.op_Inequality(System.Reflection.CustomAttributeTypedArgument,System.Reflection.CustomAttributeTypedArgument)
   id: op_Inequality(System.Reflection.CustomAttributeTypedArgument,System.Reflection.CustomAttributeTypedArgument)
   parent: System.Reflection.CustomAttributeTypedArgument
@@ -83,7 +82,6 @@ items:
       type: System.Reflection.CustomAttributeTypedArgument
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.CustomAttributeTypedArgument.#ctor(System.Type,System.Object)
   id: '#ctor(System.Type,System.Object)'
   parent: System.Reflection.CustomAttributeTypedArgument
@@ -145,7 +143,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Reflection.CustomAttributeTypedArgument.GetHashCode
   id: GetHashCode
@@ -166,7 +163,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.CustomAttributeTypedArgument.Equals(System.Object)
   id: Equals(System.Object)
@@ -190,7 +186,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.CustomAttributeTypedArgument.ArgumentType
   id: ArgumentType
@@ -212,7 +207,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.CustomAttributeTypedArgument.Value
   id: Value
   parent: System.Reflection.CustomAttributeTypedArgument
@@ -233,7 +227,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

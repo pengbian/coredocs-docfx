@@ -68,7 +68,6 @@ items:
   id: Null
   parent: System.IO.StreamReader
   href: System.IO.StreamReader.yml
-  name: Null
   fullName: System.IO.StreamReader.Null
   type: Field
   source:
@@ -396,7 +395,6 @@ items:
     parameters: []
     return:
       type: System.Text.Encoding
-      description: 
 - uid: System.IO.StreamReader.BaseStream
   id: BaseStream
   parent: System.IO.StreamReader
@@ -417,7 +415,6 @@ items:
     parameters: []
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.IO.StreamReader.DiscardBufferedData
   id: DiscardBufferedData
   parent: System.IO.StreamReader
@@ -455,7 +452,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.StreamReader.Peek
   id: Peek
   parent: System.IO.StreamReader
@@ -475,7 +471,6 @@ items:
     content.vb: Public Overrides Function Peek As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.TextReader.Peek
 - uid: System.IO.StreamReader.Read
   id: Read
@@ -496,7 +491,6 @@ items:
     content.vb: Public Overrides Function Read As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.TextReader.Read
 - uid: System.IO.StreamReader.Read(System.Char[],System.Int32,System.Int32)
   id: Read(System.Char[],System.Int32,System.Int32)
@@ -526,7 +520,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.TextReader.Read(System.Char[],System.Int32,System.Int32)
 - uid: System.IO.StreamReader.ReadToEnd
   id: ReadToEnd
@@ -547,7 +540,6 @@ items:
     content.vb: Public Overrides Function ReadToEnd As String
     return:
       type: System.String
-      description: 
   overridden: System.IO.TextReader.ReadToEnd
 - uid: System.IO.StreamReader.ReadBlock(System.Char[],System.Int32,System.Int32)
   id: ReadBlock(System.Char[],System.Int32,System.Int32)
@@ -577,7 +569,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.TextReader.ReadBlock(System.Char[],System.Int32,System.Int32)
 - uid: System.IO.StreamReader.ReadLine
   id: ReadLine
@@ -598,7 +589,6 @@ items:
     content.vb: Public Overrides Function ReadLine As String
     return:
       type: System.String
-      description: 
   overridden: System.IO.TextReader.ReadLine
 - uid: System.IO.StreamReader.ReadLineAsync
   id: ReadLineAsync
@@ -619,7 +609,6 @@ items:
     content.vb: Public Overrides Function ReadLineAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
-      description: 
   overridden: System.IO.TextReader.ReadLineAsync
 - uid: System.IO.StreamReader.ReadToEndAsync
   id: ReadToEndAsync
@@ -640,7 +629,6 @@ items:
     content.vb: Public Overrides Function ReadToEndAsync As Task(Of String)
     return:
       type: System.Threading.Tasks.Task{System.String}
-      description: 
   overridden: System.IO.TextReader.ReadToEndAsync
 - uid: System.IO.StreamReader.ReadAsync(System.Char[],System.Int32,System.Int32)
   id: ReadAsync(System.Char[],System.Int32,System.Int32)
@@ -670,7 +658,6 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
-      description: 
   overridden: System.IO.TextReader.ReadAsync(System.Char[],System.Int32,System.Int32)
 - uid: System.IO.StreamReader.ReadBlockAsync(System.Char[],System.Int32,System.Int32)
   id: ReadBlockAsync(System.Char[],System.Int32,System.Int32)
@@ -700,7 +687,6 @@ items:
       type: System.Int32
     return:
       type: System.Threading.Tasks.Task{System.Int32}
-      description: 
   overridden: System.IO.TextReader.ReadBlockAsync(System.Char[],System.Int32,System.Int32)
 references:
 - uid: System.IO

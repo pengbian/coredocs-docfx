@@ -99,7 +99,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

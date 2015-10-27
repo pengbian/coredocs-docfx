@@ -31,7 +31,6 @@ items:
     - id: TOutput
     return:
       type: '{TOutput}'
-      description: 
 references:
 - uid: System
   isExternal: false

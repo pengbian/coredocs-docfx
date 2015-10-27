@@ -77,7 +77,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Interlocked.Increment(System.Int64@)
   id: Increment(System.Int64@)
   parent: System.Threading.Interlocked
@@ -102,7 +101,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Interlocked.Decrement(System.Int32@)
   id: Decrement(System.Int32@)
   parent: System.Threading.Interlocked
@@ -127,7 +125,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Interlocked.Decrement(System.Int64@)
   id: Decrement(System.Int64@)
   parent: System.Threading.Interlocked
@@ -152,7 +149,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Interlocked.Exchange(System.Int32@,System.Int32)
   id: Exchange(System.Int32@,System.Int32)
   parent: System.Threading.Interlocked
@@ -178,7 +174,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Interlocked.Exchange(System.Int64@,System.Int64)
   id: Exchange(System.Int64@,System.Int64)
   parent: System.Threading.Interlocked
@@ -204,7 +199,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Interlocked.Exchange(System.Single@,System.Single)
   id: Exchange(System.Single@,System.Single)
   parent: System.Threading.Interlocked
@@ -230,7 +224,6 @@ items:
       type: System.Single
     return:
       type: System.Single
-      description: 
 - uid: System.Threading.Interlocked.Exchange(System.Double@,System.Double)
   id: Exchange(System.Double@,System.Double)
   parent: System.Threading.Interlocked
@@ -256,7 +249,6 @@ items:
       type: System.Double
     return:
       type: System.Double
-      description: 
 - uid: System.Threading.Interlocked.Exchange(System.Object@,System.Object)
   id: Exchange(System.Object@,System.Object)
   parent: System.Threading.Interlocked
@@ -282,7 +274,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Threading.Interlocked.Exchange(System.IntPtr@,System.IntPtr)
   id: Exchange(System.IntPtr@,System.IntPtr)
   parent: System.Threading.Interlocked
@@ -308,7 +299,6 @@ items:
       type: System.IntPtr
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Threading.Interlocked.Exchange``1(``0@,``0)
   id: Exchange``1(``0@,``0)
   parent: System.Threading.Interlocked
@@ -337,7 +327,6 @@ items:
     - id: T
     return:
       type: '{T}'
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange(System.Int32@,System.Int32,System.Int32)
   id: CompareExchange(System.Int32@,System.Int32,System.Int32)
   parent: System.Threading.Interlocked
@@ -365,7 +354,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange(System.Int64@,System.Int64,System.Int64)
   id: CompareExchange(System.Int64@,System.Int64,System.Int64)
   parent: System.Threading.Interlocked
@@ -393,7 +381,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange(System.Single@,System.Single,System.Single)
   id: CompareExchange(System.Single@,System.Single,System.Single)
   parent: System.Threading.Interlocked
@@ -421,7 +408,6 @@ items:
       type: System.Single
     return:
       type: System.Single
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange(System.Double@,System.Double,System.Double)
   id: CompareExchange(System.Double@,System.Double,System.Double)
   parent: System.Threading.Interlocked
@@ -449,7 +435,6 @@ items:
       type: System.Double
     return:
       type: System.Double
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange(System.Object@,System.Object,System.Object)
   id: CompareExchange(System.Object@,System.Object,System.Object)
   parent: System.Threading.Interlocked
@@ -477,7 +462,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange(System.IntPtr@,System.IntPtr,System.IntPtr)
   id: CompareExchange(System.IntPtr@,System.IntPtr,System.IntPtr)
   parent: System.Threading.Interlocked
@@ -505,7 +489,6 @@ items:
       type: System.IntPtr
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Threading.Interlocked.CompareExchange``1(``0@,``0,``0)
   id: CompareExchange``1(``0@,``0,``0)
   parent: System.Threading.Interlocked
@@ -536,7 +519,6 @@ items:
     - id: T
     return:
       type: '{T}'
-      description: 
 - uid: System.Threading.Interlocked.Add(System.Int32@,System.Int32)
   id: Add(System.Int32@,System.Int32)
   parent: System.Threading.Interlocked
@@ -563,7 +545,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Interlocked.Add(System.Int64@,System.Int64)
   id: Add(System.Int64@,System.Int64)
   parent: System.Threading.Interlocked
@@ -590,7 +571,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Interlocked.Read(System.Int64@)
   id: Read(System.Int64@)
   parent: System.Threading.Interlocked
@@ -615,7 +595,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Interlocked.MemoryBarrier
   id: MemoryBarrier
   parent: System.Threading.Interlocked

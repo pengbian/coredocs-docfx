@@ -112,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName
   id: FrameworkDisplayName
   parent: System.Runtime.Versioning.TargetFrameworkAttribute
@@ -133,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Runtime.Versioning
   isExternal: false

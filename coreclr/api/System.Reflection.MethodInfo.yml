@@ -129,7 +129,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MethodBase.Equals(System.Object)
 - uid: System.Reflection.MethodInfo.GetHashCode
   id: GetHashCode
@@ -150,7 +149,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.MethodBase.GetHashCode
 - uid: System.Reflection.MethodInfo.MemberType
   id: MemberType
@@ -172,7 +170,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MemberTypes
-      description: 
   overridden: System.Reflection.MemberInfo.MemberType
 - uid: System.Reflection.MethodInfo.ReturnType
   id: ReturnType
@@ -194,7 +191,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.MethodInfo.ReturnParameter
   id: ReturnParameter
   parent: System.Reflection.MethodInfo
@@ -215,7 +211,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ParameterInfo
-      description: 
 - uid: System.Reflection.MethodInfo.ReturnTypeCustomAttributes
   id: ReturnTypeCustomAttributes
   parent: System.Reflection.MethodInfo
@@ -236,7 +231,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ICustomAttributeProvider
-      description: 
 - uid: System.Reflection.MethodInfo.GetBaseDefinition
   id: GetBaseDefinition
   parent: System.Reflection.MethodInfo
@@ -256,7 +250,6 @@ items:
     content.vb: Public MustOverride Function GetBaseDefinition As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.MethodInfo.GetGenericArguments
   id: GetGenericArguments
   parent: System.Reflection.MethodInfo
@@ -276,7 +269,6 @@ items:
     content.vb: Public Overrides Function GetGenericArguments As Type()
     return:
       type: System.Type[]
-      description: 
   overridden: System.Reflection.MethodBase.GetGenericArguments
 - uid: System.Reflection.MethodInfo.GetGenericMethodDefinition
   id: GetGenericMethodDefinition
@@ -297,7 +289,6 @@ items:
     content.vb: Public Overridable Function GetGenericMethodDefinition As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.MethodInfo.MakeGenericMethod(System.Type[])
   id: MakeGenericMethod(System.Type[])
   parent: System.Reflection.MethodInfo
@@ -322,7 +313,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.MethodInfo.CreateDelegate(System.Type)
   id: CreateDelegate(System.Type)
   parent: System.Reflection.MethodInfo
@@ -345,7 +335,6 @@ items:
       type: System.Type
     return:
       type: System.Delegate
-      description: 
 - uid: System.Reflection.MethodInfo.CreateDelegate(System.Type,System.Object)
   id: CreateDelegate(System.Type,System.Object)
   parent: System.Reflection.MethodInfo
@@ -370,7 +359,6 @@ items:
       type: System.Object
     return:
       type: System.Delegate
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

@@ -78,7 +78,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.UnhandledExceptionEventArgs.IsTerminating
   id: IsTerminating
   parent: System.UnhandledExceptionEventArgs
@@ -99,7 +98,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -112,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.BestFitMappingAttribute.ThrowOnUnmappableChar
   id: ThrowOnUnmappableChar
   parent: System.Runtime.InteropServices.BestFitMappingAttribute

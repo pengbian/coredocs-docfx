@@ -153,7 +153,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.ObsoleteAttribute.IsError
   id: IsError
   parent: System.ObsoleteAttribute
@@ -174,7 +173,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

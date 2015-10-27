@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.Text.DecoderFallback
-      description: 
 - uid: System.Text.DecoderFallback.ExceptionFallback
   id: ExceptionFallback
   parent: System.Text.DecoderFallback
@@ -76,7 +75,6 @@ items:
     parameters: []
     return:
       type: System.Text.DecoderFallback
-      description: 
 - uid: System.Text.DecoderFallback.CreateFallbackBuffer
   id: CreateFallbackBuffer
   parent: System.Text.DecoderFallback
@@ -96,7 +94,6 @@ items:
     content.vb: Public MustOverride Function CreateFallbackBuffer As DecoderFallbackBuffer
     return:
       type: System.Text.DecoderFallbackBuffer
-      description: 
 - uid: System.Text.DecoderFallback.MaxCharCount
   id: MaxCharCount
   parent: System.Text.DecoderFallback
@@ -117,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Text
   isExternal: false

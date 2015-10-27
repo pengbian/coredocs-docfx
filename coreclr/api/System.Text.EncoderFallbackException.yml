@@ -135,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Char
-      description: 
 - uid: System.Text.EncoderFallbackException.CharUnknownHigh
   id: CharUnknownHigh
   parent: System.Text.EncoderFallbackException
@@ -156,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.Char
-      description: 
 - uid: System.Text.EncoderFallbackException.CharUnknownLow
   id: CharUnknownLow
   parent: System.Text.EncoderFallbackException
@@ -177,7 +175,6 @@ items:
     parameters: []
     return:
       type: System.Char
-      description: 
 - uid: System.Text.EncoderFallbackException.Index
   id: Index
   parent: System.Text.EncoderFallbackException
@@ -198,7 +195,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.EncoderFallbackException.IsUnknownSurrogate
   id: IsUnknownSurrogate
   parent: System.Text.EncoderFallbackException
@@ -218,7 +214,6 @@ items:
     content.vb: Public Function IsUnknownSurrogate As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Text
   isExternal: false

@@ -113,7 +113,6 @@ items:
     parameters: []
     return:
       type: System.AttributeTargets
-      description: 
 - uid: System.AttributeUsageAttribute.AllowMultiple
   id: AllowMultiple
   parent: System.AttributeUsageAttribute
@@ -134,7 +133,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.AttributeUsageAttribute.Inherited
   id: Inherited
   parent: System.AttributeUsageAttribute
@@ -155,7 +153,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

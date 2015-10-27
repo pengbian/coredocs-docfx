@@ -144,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Setting
   id: Setting
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
@@ -165,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Enabled
   id: Enabled
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
@@ -186,7 +184,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Value
   id: Value
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
@@ -207,7 +204,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Diagnostics.Contracts
   isExternal: false

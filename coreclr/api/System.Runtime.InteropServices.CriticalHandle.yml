@@ -139,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.CriticalHandle.IsInvalid
   id: IsInvalid
   parent: System.Runtime.InteropServices.CriticalHandle
@@ -160,7 +159,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.CriticalHandle.Close
   id: Close
   parent: System.Runtime.InteropServices.CriticalHandle
@@ -251,7 +249,6 @@ items:
     content.vb: Protected MustOverride Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

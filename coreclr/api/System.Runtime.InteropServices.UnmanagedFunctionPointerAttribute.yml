@@ -115,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.CallingConvention
-      description: 
 - uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.CharSet
   id: CharSet
   parent: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute

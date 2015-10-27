@@ -52,7 +52,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)
   id: GetHashCode(`0)
   parent: System.Collections.Generic.IEqualityComparer`1
@@ -76,7 +75,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

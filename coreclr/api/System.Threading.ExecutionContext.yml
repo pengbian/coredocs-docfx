@@ -57,7 +57,6 @@ items:
     content.vb: Public Shared Function Capture As ExecutionContext
     return:
       type: System.Threading.ExecutionContext
-      description: 
 - uid: System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext,System.Threading.ContextCallback,System.Object)
   id: Run(System.Threading.ExecutionContext,System.Threading.ContextCallback,System.Object)
   parent: System.Threading.ExecutionContext
@@ -101,7 +100,6 @@ items:
     content.vb: Public Function CreateCopy As ExecutionContext
     return:
       type: System.Threading.ExecutionContext
-      description: 
 - uid: System.Threading.ExecutionContext.Dispose
   id: Dispose
   parent: System.Threading.ExecutionContext
@@ -138,7 +136,6 @@ items:
     content.vb: Public Shared Function IsFlowSuppressed As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

@@ -62,7 +62,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Text.DecoderFallbackBuffer.GetNextChar
   id: GetNextChar
   parent: System.Text.DecoderFallbackBuffer
@@ -82,7 +81,6 @@ items:
     content.vb: Public MustOverride Function GetNextChar As Char
     return:
       type: System.Char
-      description: 
 - uid: System.Text.DecoderFallbackBuffer.MovePrevious
   id: MovePrevious
   parent: System.Text.DecoderFallbackBuffer
@@ -102,7 +100,6 @@ items:
     content.vb: Public MustOverride Function MovePrevious As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Text.DecoderFallbackBuffer.Remaining
   id: Remaining
   parent: System.Text.DecoderFallbackBuffer
@@ -123,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.DecoderFallbackBuffer.Reset
   id: Reset
   parent: System.Text.DecoderFallbackBuffer

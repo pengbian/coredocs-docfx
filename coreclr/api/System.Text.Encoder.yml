@@ -78,7 +78,6 @@ items:
     parameters: []
     return:
       type: System.Text.EncoderFallback
-      description: 
 - uid: System.Text.Encoder.FallbackBuffer
   id: FallbackBuffer
   parent: System.Text.Encoder
@@ -99,7 +98,6 @@ items:
     parameters: []
     return:
       type: System.Text.EncoderFallbackBuffer
-      description: 
 - uid: System.Text.Encoder.Reset
   id: Reset
   parent: System.Text.Encoder
@@ -147,7 +145,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Encoder.GetByteCount(System.Char*,System.Int32,System.Boolean)
   id: GetByteCount(System.Char*,System.Int32,System.Boolean)
   parent: System.Text.Encoder
@@ -174,7 +171,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Encoder.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)
   id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)
   parent: System.Text.Encoder
@@ -209,7 +205,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Encoder.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean)
   id: GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean)
   parent: System.Text.Encoder
@@ -240,7 +235,6 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: 
 - uid: System.Text.Encoder.Convert(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
   id: Convert(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
   parent: System.Text.Encoder

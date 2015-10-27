@@ -112,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 references:
 - uid: System.Diagnostics.Contracts
   isExternal: false

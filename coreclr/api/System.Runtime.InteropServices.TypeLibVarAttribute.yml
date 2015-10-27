@@ -132,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.TypeLibVarFlags
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

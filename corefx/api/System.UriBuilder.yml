@@ -224,7 +224,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Host
   id: Host
   parent: System.UriBuilder
@@ -245,7 +244,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Password
   id: Password
   parent: System.UriBuilder
@@ -266,7 +264,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Path
   id: Path
   parent: System.UriBuilder
@@ -287,7 +284,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Port
   id: Port
   parent: System.UriBuilder
@@ -308,7 +304,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.UriBuilder.Query
   id: Query
   parent: System.UriBuilder
@@ -329,7 +324,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Scheme
   id: Scheme
   parent: System.UriBuilder
@@ -350,7 +344,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Uri
   id: Uri
   parent: System.UriBuilder
@@ -371,7 +364,6 @@ items:
     parameters: []
     return:
       type: System.Uri
-      description: 
 - uid: System.UriBuilder.UserName
   id: UserName
   parent: System.UriBuilder
@@ -392,7 +384,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.UriBuilder.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.UriBuilder
@@ -415,7 +406,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.UriBuilder.GetHashCode
   id: GetHashCode
@@ -436,7 +426,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.UriBuilder.ToString
   id: ToString
@@ -457,7 +446,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System

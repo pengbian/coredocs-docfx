@@ -152,7 +152,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Reflection.Module.GetHashCode
   id: GetHashCode
@@ -173,7 +172,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Reflection.Module.ToString
   id: ToString
@@ -194,7 +192,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.Module.CustomAttributes
   id: CustomAttributes
@@ -216,7 +213,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.Module.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
   parent: System.Reflection.Module
@@ -239,7 +235,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.Module.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
   parent: System.Reflection.Module
@@ -264,7 +259,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.Module.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.Module
@@ -289,7 +283,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Module.GetCustomAttributesData
   id: GetCustomAttributesData
   parent: System.Reflection.Module
@@ -309,7 +302,6 @@ items:
     content.vb: Public Overridable Function GetCustomAttributesData As IList(Of CustomAttributeData)
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.Module.ResolveMethod(System.Int32)
   id: ResolveMethod(System.Int32)
   parent: System.Reflection.Module
@@ -332,7 +324,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.MethodBase
-      description: 
 - uid: System.Reflection.Module.ResolveMethod(System.Int32,System.Type[],System.Type[])
   id: ResolveMethod(System.Int32,System.Type[],System.Type[])
   parent: System.Reflection.Module
@@ -361,7 +352,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodBase
-      description: 
 - uid: System.Reflection.Module.ResolveField(System.Int32)
   id: ResolveField(System.Int32)
   parent: System.Reflection.Module
@@ -384,7 +374,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.Module.ResolveField(System.Int32,System.Type[],System.Type[])
   id: ResolveField(System.Int32,System.Type[],System.Type[])
   parent: System.Reflection.Module
@@ -413,7 +402,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.Module.ResolveType(System.Int32)
   id: ResolveType(System.Int32)
   parent: System.Reflection.Module
@@ -436,7 +424,6 @@ items:
       type: System.Int32
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Module.ResolveType(System.Int32,System.Type[],System.Type[])
   id: ResolveType(System.Int32,System.Type[],System.Type[])
   parent: System.Reflection.Module
@@ -465,7 +452,6 @@ items:
       type: System.Type[]
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Module.ResolveMember(System.Int32)
   id: ResolveMember(System.Int32)
   parent: System.Reflection.Module
@@ -488,7 +474,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.MemberInfo
-      description: 
 - uid: System.Reflection.Module.ResolveMember(System.Int32,System.Type[],System.Type[])
   id: ResolveMember(System.Int32,System.Type[],System.Type[])
   parent: System.Reflection.Module
@@ -517,7 +502,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MemberInfo
-      description: 
 - uid: System.Reflection.Module.ResolveSignature(System.Int32)
   id: ResolveSignature(System.Int32)
   parent: System.Reflection.Module
@@ -540,7 +524,6 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Reflection.Module.ResolveString(System.Int32)
   id: ResolveString(System.Int32)
   parent: System.Reflection.Module
@@ -563,7 +546,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Module.GetPEKind(System.Reflection.PortableExecutableKinds@,System.Reflection.ImageFileMachine@)
   id: GetPEKind(System.Reflection.PortableExecutableKinds@,System.Reflection.ImageFileMachine@)
   parent: System.Reflection.Module
@@ -608,7 +590,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Module.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Reflection.Module
@@ -655,7 +636,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Module.GetType(System.String)
   id: GetType(System.String)
   parent: System.Reflection.Module
@@ -678,7 +658,6 @@ items:
       type: System.String
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Module.GetType(System.String,System.Boolean,System.Boolean)
   id: GetType(System.String,System.Boolean,System.Boolean)
   parent: System.Reflection.Module
@@ -705,7 +684,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Module.FullyQualifiedName
   id: FullyQualifiedName
   parent: System.Reflection.Module
@@ -726,7 +704,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Module.FindTypes(System.Reflection.TypeFilter,System.Object)
   id: FindTypes(System.Reflection.TypeFilter,System.Object)
   parent: System.Reflection.Module
@@ -751,7 +728,6 @@ items:
       type: System.Object
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.Module.GetTypes
   id: GetTypes
   parent: System.Reflection.Module
@@ -771,7 +747,6 @@ items:
     content.vb: Public Overridable Function GetTypes As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.Module.ModuleVersionId
   id: ModuleVersionId
   parent: System.Reflection.Module
@@ -792,7 +767,6 @@ items:
     parameters: []
     return:
       type: System.Guid
-      description: 
 - uid: System.Reflection.Module.MetadataToken
   id: MetadataToken
   parent: System.Reflection.Module
@@ -813,7 +787,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Module.IsResource
   id: IsResource
   parent: System.Reflection.Module
@@ -833,7 +806,6 @@ items:
     content.vb: Public Overridable Function IsResource As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Module.GetFields
   id: GetFields
   parent: System.Reflection.Module
@@ -853,7 +825,6 @@ items:
     content.vb: Public Function GetFields As FieldInfo()
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
 - uid: System.Reflection.Module.GetFields(System.Reflection.BindingFlags)
   id: GetFields(System.Reflection.BindingFlags)
   parent: System.Reflection.Module
@@ -876,7 +847,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
 - uid: System.Reflection.Module.GetField(System.String)
   id: GetField(System.String)
   parent: System.Reflection.Module
@@ -899,7 +869,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.Module.GetField(System.String,System.Reflection.BindingFlags)
   id: GetField(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.Module
@@ -924,7 +893,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.Module.GetMethods
   id: GetMethods
   parent: System.Reflection.Module
@@ -944,7 +912,6 @@ items:
     content.vb: Public Function GetMethods As MethodInfo()
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.Module.GetMethods(System.Reflection.BindingFlags)
   id: GetMethods(System.Reflection.BindingFlags)
   parent: System.Reflection.Module
@@ -967,7 +934,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.Module.GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   parent: System.Reflection.Module
@@ -1002,7 +968,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.Module.GetMethod(System.String,System.Type[])
   id: GetMethod(System.String,System.Type[])
   parent: System.Reflection.Module
@@ -1029,7 +994,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.Module.GetMethod(System.String)
   id: GetMethod(System.String)
   parent: System.Reflection.Module
@@ -1052,7 +1016,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.Module.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   id: GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
   parent: System.Reflection.Module
@@ -1087,7 +1050,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.Module.ScopeName
   id: ScopeName
   parent: System.Reflection.Module
@@ -1108,7 +1070,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Module.Name
   id: Name
   parent: System.Reflection.Module
@@ -1129,7 +1090,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Module.Assembly
   id: Assembly
   parent: System.Reflection.Module
@@ -1150,7 +1110,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Module.ModuleHandle
   id: ModuleHandle
   parent: System.Reflection.Module
@@ -1171,7 +1130,6 @@ items:
     parameters: []
     return:
       type: System.ModuleHandle
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

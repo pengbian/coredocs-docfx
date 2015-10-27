@@ -113,7 +113,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.FileDialogPermissionAccess
-      description: 
 - uid: System.Security.Permissions.FileDialogPermission.Copy
   id: Copy
   parent: System.Security.Permissions.FileDialogPermission
@@ -133,7 +132,6 @@ items:
     content.vb: Public Overrides Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Copy
 - uid: System.Security.Permissions.FileDialogPermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
@@ -157,7 +155,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
 - uid: System.Security.Permissions.FileDialogPermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
@@ -181,7 +178,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
 - uid: System.Security.Permissions.FileDialogPermission.IsUnrestricted
   id: IsUnrestricted
@@ -202,7 +198,6 @@ items:
     content.vb: Public Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.FileDialogPermission.Union(System.Security.IPermission)
   id: Union(System.Security.IPermission)
   parent: System.Security.Permissions.FileDialogPermission
@@ -225,7 +220,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
 references:
 - uid: System.Security.Permissions

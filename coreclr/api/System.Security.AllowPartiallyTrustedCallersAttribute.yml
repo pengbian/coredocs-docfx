@@ -108,7 +108,6 @@ items:
     parameters: []
     return:
       type: System.Security.PartialTrustVisibilityLevel
-      description: 
 references:
 - uid: System.Security
   isExternal: false

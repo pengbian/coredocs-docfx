@@ -82,7 +82,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Environment.Exit(System.Int32)
   id: Exit(System.Int32)
   parent: System.Environment
@@ -122,7 +121,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Environment.FailFast(System.String)
   id: FailFast(System.String)
   parent: System.Environment
@@ -183,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.SystemDirectory
   id: SystemDirectory
   parent: System.Environment
@@ -204,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.ExpandEnvironmentVariables(System.String)
   id: ExpandEnvironmentVariables(System.String)
   parent: System.Environment
@@ -227,7 +223,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Environment.MachineName
   id: MachineName
   parent: System.Environment
@@ -248,7 +243,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.ProcessorCount
   id: ProcessorCount
   parent: System.Environment
@@ -269,7 +263,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Environment.SystemPageSize
   id: SystemPageSize
   parent: System.Environment
@@ -290,7 +283,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Environment.GetEnvironmentVariable(System.String)
   id: GetEnvironmentVariable(System.String)
   parent: System.Environment
@@ -313,7 +305,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Environment.GetEnvironmentVariable(System.String,System.EnvironmentVariableTarget)
   id: GetEnvironmentVariable(System.String,System.EnvironmentVariableTarget)
   parent: System.Environment
@@ -338,7 +329,6 @@ items:
       type: System.EnvironmentVariableTarget
     return:
       type: System.String
-      description: 
 - uid: System.Environment.GetEnvironmentVariables
   id: GetEnvironmentVariables
   parent: System.Environment
@@ -358,7 +348,6 @@ items:
     content.vb: Public Shared Function GetEnvironmentVariables As IDictionary
     return:
       type: System.Collections.IDictionary
-      description: 
 - uid: System.Environment.GetEnvironmentVariables(System.EnvironmentVariableTarget)
   id: GetEnvironmentVariables(System.EnvironmentVariableTarget)
   parent: System.Environment
@@ -381,7 +370,6 @@ items:
       type: System.EnvironmentVariableTarget
     return:
       type: System.Collections.IDictionary
-      description: 
 - uid: System.Environment.SetEnvironmentVariable(System.String,System.String)
   id: SetEnvironmentVariable(System.String,System.String)
   parent: System.Environment
@@ -447,7 +435,6 @@ items:
     content.vb: Public Shared Function GetLogicalDrives As String()
     return:
       type: System.String[]
-      description: 
 - uid: System.Environment.NewLine
   id: NewLine
   parent: System.Environment
@@ -468,7 +455,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.Version
   id: Version
   parent: System.Environment
@@ -489,7 +475,6 @@ items:
     parameters: []
     return:
       type: System.Version
-      description: 
 - uid: System.Environment.WorkingSet
   id: WorkingSet
   parent: System.Environment
@@ -510,7 +495,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Environment.OSVersion
   id: OSVersion
   parent: System.Environment
@@ -531,7 +515,6 @@ items:
     parameters: []
     return:
       type: System.OperatingSystem
-      description: 
 - uid: System.Environment.StackTrace
   id: StackTrace
   parent: System.Environment
@@ -552,7 +535,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.Is64BitProcess
   id: Is64BitProcess
   parent: System.Environment
@@ -573,7 +555,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Environment.Is64BitOperatingSystem
   id: Is64BitOperatingSystem
   parent: System.Environment
@@ -594,7 +575,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Environment.HasShutdownStarted
   id: HasShutdownStarted
   parent: System.Environment
@@ -614,7 +594,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Environment.UserName
   id: UserName
   parent: System.Environment
@@ -635,7 +614,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.UserInteractive
   id: UserInteractive
   parent: System.Environment
@@ -656,7 +634,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Environment.GetFolderPath(System.Environment.SpecialFolder)
   id: GetFolderPath(System.Environment.SpecialFolder)
   parent: System.Environment
@@ -679,7 +656,6 @@ items:
       type: System.Environment.SpecialFolder
     return:
       type: System.String
-      description: 
 - uid: System.Environment.GetFolderPath(System.Environment.SpecialFolder,System.Environment.SpecialFolderOption)
   id: GetFolderPath(System.Environment.SpecialFolder,System.Environment.SpecialFolderOption)
   parent: System.Environment
@@ -704,7 +680,6 @@ items:
       type: System.Environment.SpecialFolderOption
     return:
       type: System.String
-      description: 
 - uid: System.Environment.UserDomainName
   id: UserDomainName
   parent: System.Environment
@@ -725,7 +700,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Environment.CurrentManagedThreadId
   id: CurrentManagedThreadId
   parent: System.Environment
@@ -746,7 +720,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -78,7 +78,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.RuntimeMethodHandle.GetHashCode
   id: GetHashCode
   parent: System.RuntimeMethodHandle
@@ -98,7 +97,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.RuntimeMethodHandle.Equals(System.Object)
   id: Equals(System.Object)
@@ -122,7 +120,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.RuntimeMethodHandle.op_Equality(System.RuntimeMethodHandle,System.RuntimeMethodHandle)
   id: op_Equality(System.RuntimeMethodHandle,System.RuntimeMethodHandle)
@@ -148,7 +145,6 @@ items:
       type: System.RuntimeMethodHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeMethodHandle.op_Inequality(System.RuntimeMethodHandle,System.RuntimeMethodHandle)
   id: op_Inequality(System.RuntimeMethodHandle,System.RuntimeMethodHandle)
   parent: System.RuntimeMethodHandle
@@ -173,7 +169,6 @@ items:
       type: System.RuntimeMethodHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeMethodHandle.Equals(System.RuntimeMethodHandle)
   id: Equals(System.RuntimeMethodHandle)
   parent: System.RuntimeMethodHandle
@@ -196,7 +191,6 @@ items:
       type: System.RuntimeMethodHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.RuntimeMethodHandle.GetFunctionPointer
   id: GetFunctionPointer
   parent: System.RuntimeMethodHandle
@@ -216,7 +210,6 @@ items:
     content.vb: Public Function GetFunctionPointer As IntPtr
     return:
       type: System.IntPtr
-      description: 
 references:
 - uid: System
   isExternal: false

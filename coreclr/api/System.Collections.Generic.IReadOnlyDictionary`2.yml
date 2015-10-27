@@ -58,7 +58,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
   id: TryGetValue(`0,`1@)
   parent: System.Collections.Generic.IReadOnlyDictionary`2
@@ -85,7 +84,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)
   id: Item(`0)
   parent: System.Collections.Generic.IReadOnlyDictionary`2
@@ -110,7 +108,6 @@ items:
       type: '{TKey}'
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Keys
   id: Keys
   parent: System.Collections.Generic.IReadOnlyDictionary`2
@@ -132,7 +129,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{{TKey}}
-      description: 
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Values
   id: Values
   parent: System.Collections.Generic.IReadOnlyDictionary`2
@@ -154,7 +150,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{{TValue}}
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

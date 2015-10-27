@@ -180,7 +180,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.FormattableString.Invariant(System.FormattableString)
   id: Invariant(System.FormattableString)
   parent: System.FormattableString
@@ -244,7 +243,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System

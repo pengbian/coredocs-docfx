@@ -79,7 +79,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.ManifestResourceInfo.FileName
   id: FileName
   parent: System.Reflection.ManifestResourceInfo
@@ -100,7 +99,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.ManifestResourceInfo.ResourceLocation
   id: ResourceLocation
   parent: System.Reflection.ManifestResourceInfo
@@ -121,7 +119,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ResourceLocation
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

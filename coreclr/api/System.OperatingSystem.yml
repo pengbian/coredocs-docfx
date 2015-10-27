@@ -105,7 +105,6 @@ items:
     parameters: []
     return:
       type: System.PlatformID
-      description: 
 - uid: System.OperatingSystem.ServicePack
   id: ServicePack
   parent: System.OperatingSystem
@@ -126,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.OperatingSystem.Version
   id: Version
   parent: System.OperatingSystem
@@ -147,7 +145,6 @@ items:
     parameters: []
     return:
       type: System.Version
-      description: 
 - uid: System.OperatingSystem.Clone
   id: Clone
   parent: System.OperatingSystem
@@ -167,7 +164,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.OperatingSystem.ToString
   id: ToString
   parent: System.OperatingSystem
@@ -187,7 +183,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.OperatingSystem.VersionString
   id: VersionString
@@ -209,7 +204,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System
   isExternal: false

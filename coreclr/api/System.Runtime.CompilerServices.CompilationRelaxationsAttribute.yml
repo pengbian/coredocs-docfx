@@ -132,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Runtime.CompilerServices
   isExternal: false

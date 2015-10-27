@@ -270,7 +270,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanRead
 - uid: System.IO.MemoryStream.CanSeek
   id: CanSeek
@@ -292,7 +291,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanSeek
 - uid: System.IO.MemoryStream.CanWrite
   id: CanWrite
@@ -314,7 +312,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.Stream.CanWrite
 - uid: System.IO.MemoryStream.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -377,7 +374,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
 - uid: System.IO.MemoryStream.GetBuffer
   id: GetBuffer
@@ -398,7 +394,6 @@ items:
     content.vb: Public Overridable Function GetBuffer As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.IO.MemoryStream.TryGetBuffer(System.ArraySegment{System.Byte}@)
   id: TryGetBuffer(System.ArraySegment{System.Byte}@)
   parent: System.IO.MemoryStream
@@ -423,7 +418,6 @@ items:
       type: System.ArraySegment{System.Byte}
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.MemoryStream.Capacity
   id: Capacity
   parent: System.IO.MemoryStream
@@ -444,7 +438,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.IO.MemoryStream.Length
   id: Length
   parent: System.IO.MemoryStream
@@ -465,7 +458,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Length
 - uid: System.IO.MemoryStream.Position
   id: Position
@@ -487,7 +479,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Position
 - uid: System.IO.MemoryStream.Read(System.Byte[],System.Int32,System.Int32)
   id: Read(System.Byte[],System.Int32,System.Int32)
@@ -517,7 +508,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.MemoryStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -549,7 +539,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Int32}
-      description: 
   overridden: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.MemoryStream.ReadByte
   id: ReadByte
@@ -570,7 +559,6 @@ items:
     content.vb: Public Overrides Function ReadByte As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.Stream.ReadByte
 - uid: System.IO.MemoryStream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
   id: CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
@@ -598,7 +586,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.MemoryStream.Seek(System.Int64,System.IO.SeekOrigin)
   id: Seek(System.Int64,System.IO.SeekOrigin)
@@ -624,7 +611,6 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.MemoryStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -666,7 +652,6 @@ items:
     content.vb: Public Overridable Function ToArray As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.IO.MemoryStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.MemoryStream
@@ -724,7 +709,6 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
-      description: 
   overridden: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 - uid: System.IO.MemoryStream.WriteByte(System.Byte)
   id: WriteByte(System.Byte)
@@ -791,7 +775,6 @@ references:
   parent: System.IO.Stream
   isExternal: false
   href: System.IO.Stream.yml
-  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CanTimeout
   parent: System.IO.Stream

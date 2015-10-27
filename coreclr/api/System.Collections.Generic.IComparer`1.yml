@@ -51,7 +51,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

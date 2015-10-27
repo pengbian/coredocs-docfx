@@ -59,7 +59,6 @@ items:
       type: System.Runtime.Versioning.ResourceScope
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type)
   id: MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type)
   parent: System.Runtime.Versioning.VersioningHelper
@@ -88,7 +87,6 @@ items:
       type: System.Type
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Runtime.Versioning
   isExternal: false

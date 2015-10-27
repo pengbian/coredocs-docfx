@@ -122,7 +122,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.Write
   id: Write
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -143,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.Create
   id: Create
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -164,7 +162,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.ViewAccessControl
   id: ViewAccessControl
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -185,7 +182,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.ChangeAccessControl
   id: ChangeAccessControl
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -206,7 +202,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.ViewAndModify
   id: ViewAndModify
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -227,7 +222,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.All
   id: All
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -248,7 +242,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.RegistryPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.RegistryPermissionAttribute
@@ -268,7 +261,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

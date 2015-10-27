@@ -111,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.SecurityElement.Attributes
   id: Attributes
   parent: System.Security.SecurityElement
@@ -132,7 +131,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Hashtable
-      description: 
 - uid: System.Security.SecurityElement.Text
   id: Text
   parent: System.Security.SecurityElement
@@ -153,7 +151,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.SecurityElement.Children
   id: Children
   parent: System.Security.SecurityElement
@@ -174,7 +171,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ArrayList
-      description: 
 - uid: System.Security.SecurityElement.AddAttribute(System.String,System.String)
   id: AddAttribute(System.String,System.String)
   parent: System.Security.SecurityElement
@@ -239,7 +235,6 @@ items:
       type: System.Security.SecurityElement
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecurityElement.Copy
   id: Copy
   parent: System.Security.SecurityElement
@@ -259,7 +254,6 @@ items:
     content.vb: Public Function Copy As SecurityElement
     return:
       type: System.Security.SecurityElement
-      description: 
 - uid: System.Security.SecurityElement.IsValidTag(System.String)
   id: IsValidTag(System.String)
   parent: System.Security.SecurityElement
@@ -282,7 +276,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecurityElement.IsValidText(System.String)
   id: IsValidText(System.String)
   parent: System.Security.SecurityElement
@@ -305,7 +298,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecurityElement.IsValidAttributeName(System.String)
   id: IsValidAttributeName(System.String)
   parent: System.Security.SecurityElement
@@ -328,7 +320,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecurityElement.IsValidAttributeValue(System.String)
   id: IsValidAttributeValue(System.String)
   parent: System.Security.SecurityElement
@@ -351,7 +342,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecurityElement.Escape(System.String)
   id: Escape(System.String)
   parent: System.Security.SecurityElement
@@ -374,7 +364,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Security.SecurityElement.ToString
   id: ToString
   parent: System.Security.SecurityElement
@@ -394,7 +383,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Security.SecurityElement.Attribute(System.String)
   id: Attribute(System.String)
@@ -418,7 +406,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Security.SecurityElement.SearchForChildByTag(System.String)
   id: SearchForChildByTag(System.String)
   parent: System.Security.SecurityElement
@@ -441,7 +428,6 @@ items:
       type: System.String
     return:
       type: System.Security.SecurityElement
-      description: 
 - uid: System.Security.SecurityElement.SearchForTextOfTag(System.String)
   id: SearchForTextOfTag(System.String)
   parent: System.Security.SecurityElement
@@ -464,7 +450,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Security
   isExternal: false

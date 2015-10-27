@@ -73,7 +73,6 @@ items:
     content.vb: Public Overrides Function CreateFallbackBuffer As EncoderFallbackBuffer
     return:
       type: System.Text.EncoderFallbackBuffer
-      description: 
   overridden: System.Text.EncoderFallback.CreateFallbackBuffer
 - uid: System.Text.EncoderExceptionFallback.MaxCharCount
   id: MaxCharCount
@@ -95,7 +94,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Text.EncoderFallback.MaxCharCount
 - uid: System.Text.EncoderExceptionFallback.Equals(System.Object)
   id: Equals(System.Object)
@@ -119,7 +117,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Text.EncoderExceptionFallback.GetHashCode
   id: GetHashCode
@@ -140,7 +137,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Text

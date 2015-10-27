@@ -125,7 +125,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Diagnostics.Contracts
   isExternal: false

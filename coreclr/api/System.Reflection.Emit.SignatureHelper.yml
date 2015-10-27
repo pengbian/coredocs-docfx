@@ -78,7 +78,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type)
   id: GetMethodSigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type)
   parent: System.Reflection.Emit.SignatureHelper
@@ -105,7 +104,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Runtime.InteropServices.CallingConvention,System.Type)
   id: GetMethodSigHelper(System.Reflection.Module,System.Runtime.InteropServices.CallingConvention,System.Type)
   parent: System.Reflection.Emit.SignatureHelper
@@ -132,7 +130,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper
   id: GetLocalVarSigHelper
   parent: System.Reflection.Emit.SignatureHelper
@@ -152,7 +149,6 @@ items:
     content.vb: Public Shared Function GetLocalVarSigHelper As SignatureHelper
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.CallingConventions,System.Type)
   id: GetMethodSigHelper(System.Reflection.CallingConventions,System.Type)
   parent: System.Reflection.Emit.SignatureHelper
@@ -177,7 +173,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention,System.Type)
   id: GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention,System.Type)
   parent: System.Reflection.Emit.SignatureHelper
@@ -202,7 +197,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper(System.Reflection.Module)
   id: GetLocalVarSigHelper(System.Reflection.Module)
   parent: System.Reflection.Emit.SignatureHelper
@@ -225,7 +219,6 @@ items:
       type: System.Reflection.Module
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetFieldSigHelper(System.Reflection.Module)
   id: GetFieldSigHelper(System.Reflection.Module)
   parent: System.Reflection.Emit.SignatureHelper
@@ -248,7 +241,6 @@ items:
       type: System.Reflection.Module
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[])
   id: GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[])
   parent: System.Reflection.Emit.SignatureHelper
@@ -277,7 +269,6 @@ items:
       type: System.Type[]
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
   id: GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
   parent: System.Reflection.Emit.SignatureHelper
@@ -314,7 +305,6 @@ items:
       type: System.Type[][]
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
   id: GetPropertySigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
   parent: System.Reflection.Emit.SignatureHelper
@@ -353,7 +343,6 @@ items:
       type: System.Type[][]
     return:
       type: System.Reflection.Emit.SignatureHelper
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type)
   id: AddArgument(System.Type)
   parent: System.Reflection.Emit.SignatureHelper
@@ -487,7 +476,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Reflection.Emit.SignatureHelper.GetHashCode
   id: GetHashCode
@@ -508,7 +496,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Reflection.Emit.SignatureHelper.GetSignature
   id: GetSignature
@@ -529,7 +516,6 @@ items:
     content.vb: Public Function GetSignature As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Reflection.Emit.SignatureHelper.ToString
   id: ToString
   parent: System.Reflection.Emit.SignatureHelper
@@ -549,7 +535,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Reflection.Emit

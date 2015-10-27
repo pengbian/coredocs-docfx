@@ -146,7 +146,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Assembly.GetAssembly(System.Type)
   id: GetAssembly(System.Type)
   parent: System.Reflection.Assembly
@@ -169,7 +168,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Reflection.Assembly
@@ -192,7 +190,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Reflection.Assembly.GetHashCode
   id: GetHashCode
@@ -213,7 +210,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Reflection.Assembly.LoadFrom(System.String)
   id: LoadFrom(System.String)
@@ -237,7 +233,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)
   id: ReflectionOnlyLoadFrom(System.String)
   parent: System.Reflection.Assembly
@@ -260,7 +255,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence)
   id: LoadFrom(System.String,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
@@ -285,7 +279,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   id: LoadFrom(System.String,System.Security.Policy.Evidence,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.Reflection.Assembly
@@ -316,7 +309,6 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   id: LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.Reflection.Assembly
@@ -345,7 +337,6 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.String)
   id: Load(System.String)
   parent: System.Reflection.Assembly
@@ -368,7 +359,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.ReflectionOnlyLoad(System.String)
   id: ReflectionOnlyLoad(System.String)
   parent: System.Reflection.Assembly
@@ -391,7 +381,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.String,System.Security.Policy.Evidence)
   id: Load(System.String,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
@@ -416,7 +405,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.Reflection.AssemblyName)
   id: Load(System.Reflection.AssemblyName)
   parent: System.Reflection.Assembly
@@ -439,7 +427,6 @@ items:
       type: System.Reflection.AssemblyName
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
   id: Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
@@ -464,7 +451,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.Byte[])
   id: Load(System.Byte[])
   parent: System.Reflection.Assembly
@@ -489,7 +475,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.ReflectionOnlyLoad(System.Byte[])
   id: ReflectionOnlyLoad(System.Byte[])
   parent: System.Reflection.Assembly
@@ -514,7 +499,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[])
   id: Load(System.Byte[],System.Byte[])
   parent: System.Reflection.Assembly
@@ -541,7 +525,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)
   id: Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)
   parent: System.Reflection.Assembly
@@ -570,7 +553,6 @@ items:
       type: System.Security.SecurityContextSource
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.LoadFile(System.String)
   id: LoadFile(System.String)
   parent: System.Reflection.Assembly
@@ -593,7 +575,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.IO.Stream,System.IO.Stream)
   id: Load(System.IO.Stream,System.IO.Stream)
   parent: System.Reflection.Assembly
@@ -618,7 +599,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.Load(System.IO.Stream)
   id: Load(System.IO.Stream)
   parent: System.Reflection.Assembly
@@ -641,7 +621,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.GetExecutingAssembly
   id: GetExecutingAssembly
   parent: System.Reflection.Assembly
@@ -661,7 +640,6 @@ items:
     content.vb: Public Shared Function GetExecutingAssembly As Assembly
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.GetCallingAssembly
   id: GetCallingAssembly
   parent: System.Reflection.Assembly
@@ -681,7 +659,6 @@ items:
     content.vb: Public Shared Function GetCallingAssembly As Assembly
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.GetEntryAssembly
   id: GetEntryAssembly
   parent: System.Reflection.Assembly
@@ -701,7 +678,6 @@ items:
     content.vb: Public Shared Function GetEntryAssembly As Assembly
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.ModuleResolve
   id: ModuleResolve
   parent: System.Reflection.Assembly
@@ -739,7 +715,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Assembly.EscapedCodeBase
   id: EscapedCodeBase
   parent: System.Reflection.Assembly
@@ -760,7 +735,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Assembly.GetName
   id: GetName
   parent: System.Reflection.Assembly
@@ -780,7 +754,6 @@ items:
     content.vb: Public Overridable Function GetName As AssemblyName
     return:
       type: System.Reflection.AssemblyName
-      description: 
 - uid: System.Reflection.Assembly.GetName(System.Boolean)
   id: GetName(System.Boolean)
   parent: System.Reflection.Assembly
@@ -803,7 +776,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.AssemblyName
-      description: 
 - uid: System.Reflection.Assembly.FullName
   id: FullName
   parent: System.Reflection.Assembly
@@ -824,7 +796,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Assembly.EntryPoint
   id: EntryPoint
   parent: System.Reflection.Assembly
@@ -845,7 +816,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.Assembly.GetType(System.String)
   id: GetType(System.String)
   parent: System.Reflection.Assembly
@@ -868,7 +838,6 @@ items:
       type: System.String
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Assembly.GetType(System.String,System.Boolean)
   id: GetType(System.String,System.Boolean)
   parent: System.Reflection.Assembly
@@ -893,7 +862,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Assembly.GetType(System.String,System.Boolean,System.Boolean)
   id: GetType(System.String,System.Boolean,System.Boolean)
   parent: System.Reflection.Assembly
@@ -920,7 +888,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Assembly.ExportedTypes
   id: ExportedTypes
   parent: System.Reflection.Assembly
@@ -941,7 +908,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Type}
-      description: 
 - uid: System.Reflection.Assembly.GetExportedTypes
   id: GetExportedTypes
   parent: System.Reflection.Assembly
@@ -961,7 +927,6 @@ items:
     content.vb: Public Overridable Function GetExportedTypes As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.Assembly.DefinedTypes
   id: DefinedTypes
   parent: System.Reflection.Assembly
@@ -982,7 +947,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
-      description: 
 - uid: System.Reflection.Assembly.GetTypes
   id: GetTypes
   parent: System.Reflection.Assembly
@@ -1002,7 +966,6 @@ items:
     content.vb: Public Overridable Function GetTypes As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.Assembly.GetManifestResourceStream(System.Type,System.String)
   id: GetManifestResourceStream(System.Type,System.String)
   parent: System.Reflection.Assembly
@@ -1027,7 +990,6 @@ items:
       type: System.String
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Reflection.Assembly.GetManifestResourceStream(System.String)
   id: GetManifestResourceStream(System.String)
   parent: System.Reflection.Assembly
@@ -1050,7 +1012,6 @@ items:
       type: System.String
     return:
       type: System.IO.Stream
-      description: 
 - uid: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)
   id: GetSatelliteAssembly(System.Globalization.CultureInfo)
   parent: System.Reflection.Assembly
@@ -1073,7 +1034,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
   id: GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
   parent: System.Reflection.Assembly
@@ -1098,7 +1058,6 @@ items:
       type: System.Version
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.Assembly.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Reflection.Assembly
@@ -1141,7 +1100,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
 - uid: System.Reflection.Assembly.CustomAttributes
   id: CustomAttributes
   parent: System.Reflection.Assembly
@@ -1162,7 +1120,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.Assembly.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
   parent: System.Reflection.Assembly
@@ -1185,7 +1142,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.Assembly.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
   parent: System.Reflection.Assembly
@@ -1210,7 +1166,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
 - uid: System.Reflection.Assembly.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.Assembly
@@ -1235,7 +1190,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Assembly.GetCustomAttributesData
   id: GetCustomAttributesData
   parent: System.Reflection.Assembly
@@ -1255,7 +1209,6 @@ items:
     content.vb: Public Overridable Function GetCustomAttributesData As IList(Of CustomAttributeData)
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
 - uid: System.Reflection.Assembly.ReflectionOnly
   id: ReflectionOnly
   parent: System.Reflection.Assembly
@@ -1276,7 +1229,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Assembly.CreateInstance(System.String)
   id: CreateInstance(System.String)
   parent: System.Reflection.Assembly
@@ -1299,7 +1251,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.Assembly.CreateInstance(System.String,System.Boolean)
   id: CreateInstance(System.String,System.Boolean)
   parent: System.Reflection.Assembly
@@ -1324,7 +1275,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.Assembly.CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   id: CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
   parent: System.Reflection.Assembly
@@ -1361,7 +1311,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.Assembly.Modules
   id: Modules
   parent: System.Reflection.Assembly
@@ -1382,7 +1331,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Module}
-      description: 
 - uid: System.Reflection.Assembly.GetLoadedModules
   id: GetLoadedModules
   parent: System.Reflection.Assembly
@@ -1402,7 +1350,6 @@ items:
     content.vb: Public Function GetLoadedModules As
     return:
       type: System.Reflection.Module[]
-      description: 
 - uid: System.Reflection.Assembly.GetLoadedModules(System.Boolean)
   id: GetLoadedModules(System.Boolean)
   parent: System.Reflection.Assembly
@@ -1425,7 +1372,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Module[]
-      description: 
 - uid: System.Reflection.Assembly.GetModules
   id: GetModules
   parent: System.Reflection.Assembly
@@ -1445,7 +1391,6 @@ items:
     content.vb: Public Function GetModules As
     return:
       type: System.Reflection.Module[]
-      description: 
 - uid: System.Reflection.Assembly.GetModules(System.Boolean)
   id: GetModules(System.Boolean)
   parent: System.Reflection.Assembly
@@ -1468,7 +1413,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Module[]
-      description: 
 - uid: System.Reflection.Assembly.GetModule(System.String)
   id: GetModule(System.String)
   parent: System.Reflection.Assembly
@@ -1491,7 +1435,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Module
-      description: 
 - uid: System.Reflection.Assembly.GetFile(System.String)
   id: GetFile(System.String)
   parent: System.Reflection.Assembly
@@ -1514,7 +1457,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.Reflection.Assembly.GetFiles
   id: GetFiles
   parent: System.Reflection.Assembly
@@ -1534,7 +1476,6 @@ items:
     content.vb: Public Overridable Function GetFiles As FileStream()
     return:
       type: System.IO.FileStream[]
-      description: 
 - uid: System.Reflection.Assembly.GetFiles(System.Boolean)
   id: GetFiles(System.Boolean)
   parent: System.Reflection.Assembly
@@ -1557,7 +1498,6 @@ items:
       type: System.Boolean
     return:
       type: System.IO.FileStream[]
-      description: 
 - uid: System.Reflection.Assembly.GetManifestResourceNames
   id: GetManifestResourceNames
   parent: System.Reflection.Assembly
@@ -1577,7 +1517,6 @@ items:
     content.vb: Public Overridable Function GetManifestResourceNames As String()
     return:
       type: System.String[]
-      description: 
 - uid: System.Reflection.Assembly.GetReferencedAssemblies
   id: GetReferencedAssemblies
   parent: System.Reflection.Assembly
@@ -1597,7 +1536,6 @@ items:
     content.vb: Public Overridable Function GetReferencedAssemblies As AssemblyName()
     return:
       type: System.Reflection.AssemblyName[]
-      description: 
 - uid: System.Reflection.Assembly.GetManifestResourceInfo(System.String)
   id: GetManifestResourceInfo(System.String)
   parent: System.Reflection.Assembly
@@ -1620,7 +1558,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.ManifestResourceInfo
-      description: 
 - uid: System.Reflection.Assembly.ToString
   id: ToString
   parent: System.Reflection.Assembly
@@ -1640,7 +1577,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.Assembly.Location
   id: Location
@@ -1662,7 +1598,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Assembly.ImageRuntimeVersion
   id: ImageRuntimeVersion
   parent: System.Reflection.Assembly
@@ -1683,7 +1618,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Assembly.GlobalAssemblyCache
   id: GlobalAssemblyCache
   parent: System.Reflection.Assembly
@@ -1704,7 +1638,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Assembly.HostContext
   id: HostContext
   parent: System.Reflection.Assembly
@@ -1725,7 +1658,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Reflection.Assembly.IsDynamic
   id: IsDynamic
   parent: System.Reflection.Assembly
@@ -1746,7 +1678,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

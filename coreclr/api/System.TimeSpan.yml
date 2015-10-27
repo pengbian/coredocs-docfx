@@ -349,7 +349,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.TimeSpan.Days
   id: Days
   parent: System.TimeSpan
@@ -370,7 +369,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.Hours
   id: Hours
   parent: System.TimeSpan
@@ -391,7 +389,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.Milliseconds
   id: Milliseconds
   parent: System.TimeSpan
@@ -412,7 +409,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.Minutes
   id: Minutes
   parent: System.TimeSpan
@@ -433,7 +429,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.Seconds
   id: Seconds
   parent: System.TimeSpan
@@ -454,7 +449,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.TotalDays
   id: TotalDays
   parent: System.TimeSpan
@@ -475,7 +469,6 @@ items:
     parameters: []
     return:
       type: System.Double
-      description: 
 - uid: System.TimeSpan.TotalHours
   id: TotalHours
   parent: System.TimeSpan
@@ -496,7 +489,6 @@ items:
     parameters: []
     return:
       type: System.Double
-      description: 
 - uid: System.TimeSpan.TotalMilliseconds
   id: TotalMilliseconds
   parent: System.TimeSpan
@@ -517,7 +509,6 @@ items:
     parameters: []
     return:
       type: System.Double
-      description: 
 - uid: System.TimeSpan.TotalMinutes
   id: TotalMinutes
   parent: System.TimeSpan
@@ -538,7 +529,6 @@ items:
     parameters: []
     return:
       type: System.Double
-      description: 
 - uid: System.TimeSpan.TotalSeconds
   id: TotalSeconds
   parent: System.TimeSpan
@@ -559,7 +549,6 @@ items:
     parameters: []
     return:
       type: System.Double
-      description: 
 - uid: System.TimeSpan.Add(System.TimeSpan)
   id: Add(System.TimeSpan)
   parent: System.TimeSpan
@@ -582,7 +571,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Compare(System.TimeSpan,System.TimeSpan)
   id: Compare(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -607,7 +595,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.TimeSpan
@@ -630,7 +617,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.CompareTo(System.TimeSpan)
   id: CompareTo(System.TimeSpan)
   parent: System.TimeSpan
@@ -653,7 +639,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeSpan.FromDays(System.Double)
   id: FromDays(System.Double)
   parent: System.TimeSpan
@@ -676,7 +661,6 @@ items:
       type: System.Double
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Duration
   id: Duration
   parent: System.TimeSpan
@@ -696,7 +680,6 @@ items:
     content.vb: Public Function Duration As TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.TimeSpan
@@ -719,7 +702,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.TimeSpan.Equals(System.TimeSpan)
   id: Equals(System.TimeSpan)
@@ -743,7 +725,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.Equals(System.TimeSpan,System.TimeSpan)
   id: Equals(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -768,7 +749,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.GetHashCode
   id: GetHashCode
   parent: System.TimeSpan
@@ -788,7 +768,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.TimeSpan.FromHours(System.Double)
   id: FromHours(System.Double)
@@ -812,7 +791,6 @@ items:
       type: System.Double
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.FromMilliseconds(System.Double)
   id: FromMilliseconds(System.Double)
   parent: System.TimeSpan
@@ -835,7 +813,6 @@ items:
       type: System.Double
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.FromMinutes(System.Double)
   id: FromMinutes(System.Double)
   parent: System.TimeSpan
@@ -858,7 +835,6 @@ items:
       type: System.Double
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Negate
   id: Negate
   parent: System.TimeSpan
@@ -878,7 +854,6 @@ items:
     content.vb: Public Function Negate As TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.FromSeconds(System.Double)
   id: FromSeconds(System.Double)
   parent: System.TimeSpan
@@ -901,7 +876,6 @@ items:
       type: System.Double
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Subtract(System.TimeSpan)
   id: Subtract(System.TimeSpan)
   parent: System.TimeSpan
@@ -924,7 +898,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.FromTicks(System.Int64)
   id: FromTicks(System.Int64)
   parent: System.TimeSpan
@@ -947,7 +920,6 @@ items:
       type: System.Int64
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Parse(System.String)
   id: Parse(System.String)
   parent: System.TimeSpan
@@ -970,7 +942,6 @@ items:
       type: System.String
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.TimeSpan
@@ -995,7 +966,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider)
   id: ParseExact(System.String,System.String,System.IFormatProvider)
   parent: System.TimeSpan
@@ -1022,7 +992,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider)
   id: ParseExact(System.String,System.String[],System.IFormatProvider)
   parent: System.TimeSpan
@@ -1051,7 +1020,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles)
   id: ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles)
   parent: System.TimeSpan
@@ -1080,7 +1048,6 @@ items:
       type: System.Globalization.TimeSpanStyles
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles)
   id: ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles)
   parent: System.TimeSpan
@@ -1111,7 +1078,6 @@ items:
       type: System.Globalization.TimeSpanStyles
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.TryParse(System.String,System.TimeSpan@)
   id: TryParse(System.String,System.TimeSpan@)
   parent: System.TimeSpan
@@ -1138,7 +1104,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.TryParse(System.String,System.IFormatProvider,System.TimeSpan@)
   id: TryParse(System.String,System.IFormatProvider,System.TimeSpan@)
   parent: System.TimeSpan
@@ -1167,7 +1132,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.TimeSpan@)
   id: TryParseExact(System.String,System.String,System.IFormatProvider,System.TimeSpan@)
   parent: System.TimeSpan
@@ -1198,7 +1162,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.TimeSpan@)
   id: TryParseExact(System.String,System.String[],System.IFormatProvider,System.TimeSpan@)
   parent: System.TimeSpan
@@ -1229,7 +1192,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
   id: TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
   parent: System.TimeSpan
@@ -1262,7 +1224,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
   id: TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
   parent: System.TimeSpan
@@ -1295,7 +1256,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.ToString
   id: ToString
   parent: System.TimeSpan
@@ -1315,7 +1275,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.TimeSpan.ToString(System.String)
   id: ToString(System.String)
@@ -1339,7 +1298,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.TimeSpan.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.TimeSpan
@@ -1364,7 +1322,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.TimeSpan.op_UnaryNegation(System.TimeSpan)
   id: op_UnaryNegation(System.TimeSpan)
   parent: System.TimeSpan
@@ -1387,7 +1344,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.op_Subtraction(System.TimeSpan,System.TimeSpan)
   id: op_Subtraction(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1412,7 +1368,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.op_UnaryPlus(System.TimeSpan)
   id: op_UnaryPlus(System.TimeSpan)
   parent: System.TimeSpan
@@ -1435,7 +1390,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.op_Addition(System.TimeSpan,System.TimeSpan)
   id: op_Addition(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1460,7 +1414,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.TimeSpan.op_Equality(System.TimeSpan,System.TimeSpan)
   id: op_Equality(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1485,7 +1438,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.op_Inequality(System.TimeSpan,System.TimeSpan)
   id: op_Inequality(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1510,7 +1462,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.op_LessThan(System.TimeSpan,System.TimeSpan)
   id: op_LessThan(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1535,7 +1486,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.op_LessThanOrEqual(System.TimeSpan,System.TimeSpan)
   id: op_LessThanOrEqual(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1560,7 +1510,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.op_GreaterThan(System.TimeSpan,System.TimeSpan)
   id: op_GreaterThan(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1585,7 +1534,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeSpan.op_GreaterThanOrEqual(System.TimeSpan,System.TimeSpan)
   id: op_GreaterThanOrEqual(System.TimeSpan,System.TimeSpan)
   parent: System.TimeSpan
@@ -1610,7 +1558,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

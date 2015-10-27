@@ -104,7 +104,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.SecureString.AppendChar(System.Char)
   id: AppendChar(System.Char)
   parent: System.Security.SecureString
@@ -161,7 +160,6 @@ items:
     content.vb: Public Function Copy As SecureString
     return:
       type: System.Security.SecureString
-      description: 
 - uid: System.Security.SecureString.Dispose
   id: Dispose
   parent: System.Security.SecureString
@@ -220,7 +218,6 @@ items:
     content.vb: Public Function IsReadOnly As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.SecureString.MakeReadOnly
   id: MakeReadOnly
   parent: System.Security.SecureString

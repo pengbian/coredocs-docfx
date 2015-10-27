@@ -82,7 +82,6 @@ items:
     content.vb: Function IsDirty As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.Load(System.Runtime.InteropServices.ComTypes.IStream)
   id: Load(System.Runtime.InteropServices.ComTypes.IStream)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
@@ -303,7 +302,6 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.Hash(System.Int32@)
   id: Hash(System.Int32@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
@@ -352,7 +350,6 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.GetTimeOfLastChange(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME@)
   id: GetTimeOfLastChange(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
@@ -529,7 +526,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Runtime.InteropServices.ComTypes
   isExternal: false

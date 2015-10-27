@@ -189,7 +189,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Version.Minor
   id: Minor
   parent: System.Version
@@ -210,7 +209,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Version.Build
   id: Build
   parent: System.Version
@@ -231,7 +229,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Version.Revision
   id: Revision
   parent: System.Version
@@ -252,7 +249,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Version.MajorRevision
   id: MajorRevision
   parent: System.Version
@@ -273,7 +269,6 @@ items:
     parameters: []
     return:
       type: System.Int16
-      description: 
 - uid: System.Version.MinorRevision
   id: MinorRevision
   parent: System.Version
@@ -294,7 +289,6 @@ items:
     parameters: []
     return:
       type: System.Int16
-      description: 
 - uid: System.Version.Clone
   id: Clone
   parent: System.Version
@@ -314,7 +308,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Version.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Version
@@ -337,7 +330,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Version.CompareTo(System.Version)
   id: CompareTo(System.Version)
   parent: System.Version
@@ -360,7 +352,6 @@ items:
       type: System.Version
     return:
       type: System.Int32
-      description: 
 - uid: System.Version.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Version
@@ -383,7 +374,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Version.Equals(System.Version)
   id: Equals(System.Version)
@@ -407,7 +397,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.GetHashCode
   id: GetHashCode
   parent: System.Version
@@ -427,7 +416,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Version.ToString
   id: ToString
@@ -448,7 +436,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Version.ToString(System.Int32)
   id: ToString(System.Int32)
@@ -472,7 +459,6 @@ items:
       type: System.Int32
     return:
       type: System.String
-      description: 
 - uid: System.Version.Parse(System.String)
   id: Parse(System.String)
   parent: System.Version
@@ -495,7 +481,6 @@ items:
       type: System.String
     return:
       type: System.Version
-      description: 
 - uid: System.Version.TryParse(System.String,System.Version@)
   id: TryParse(System.String,System.Version@)
   parent: System.Version
@@ -522,7 +507,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.op_Equality(System.Version,System.Version)
   id: op_Equality(System.Version,System.Version)
   parent: System.Version
@@ -547,7 +531,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.op_Inequality(System.Version,System.Version)
   id: op_Inequality(System.Version,System.Version)
   parent: System.Version
@@ -572,7 +555,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.op_LessThan(System.Version,System.Version)
   id: op_LessThan(System.Version,System.Version)
   parent: System.Version
@@ -597,7 +579,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.op_LessThanOrEqual(System.Version,System.Version)
   id: op_LessThanOrEqual(System.Version,System.Version)
   parent: System.Version
@@ -622,7 +603,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.op_GreaterThan(System.Version,System.Version)
   id: op_GreaterThan(System.Version,System.Version)
   parent: System.Version
@@ -647,7 +627,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 - uid: System.Version.op_GreaterThanOrEqual(System.Version,System.Version)
   id: op_GreaterThanOrEqual(System.Version,System.Version)
   parent: System.Version
@@ -672,7 +651,6 @@ items:
       type: System.Version
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -85,7 +85,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(System.String,System.String)
   id: LoadFromNativeImagePath(System.String,System.String)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -110,7 +109,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
   id: LoadFromStream(System.IO.Stream)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -133,7 +131,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream,System.IO.Stream)
   id: LoadFromStream(System.IO.Stream,System.IO.Stream)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -158,7 +155,6 @@ items:
       type: System.IO.Stream
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
   id: Load(System.Reflection.AssemblyName)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -181,7 +177,6 @@ items:
       type: System.Reflection.AssemblyName
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
   id: LoadFromAssemblyName(System.Reflection.AssemblyName)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -204,7 +199,6 @@ items:
       type: System.Reflection.AssemblyName
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(System.String)
   id: LoadUnmanagedDllFromPath(System.String)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -227,7 +221,6 @@ items:
       type: System.String
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(System.String)
   id: LoadUnmanagedDll(System.String)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -250,7 +243,6 @@ items:
       type: System.String
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.Default
   id: Default
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -271,7 +263,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Loader.AssemblyLoadContext
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.InitializeDefaultContext(System.Runtime.Loader.AssemblyLoadContext)
   id: InitializeDefaultContext(System.Runtime.Loader.AssemblyLoadContext)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -314,7 +305,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.AssemblyName
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
   id: GetLoadContext(System.Reflection.Assembly)
   parent: System.Runtime.Loader.AssemblyLoadContext
@@ -337,7 +327,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Runtime.Loader.AssemblyLoadContext
-      description: 
 - uid: System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(System.String)
   id: SetProfileOptimizationRoot(System.String)
   parent: System.Runtime.Loader.AssemblyLoadContext

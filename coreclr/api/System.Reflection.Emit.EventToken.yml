@@ -70,7 +70,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.EventToken.GetHashCode
   id: GetHashCode
   parent: System.Reflection.Emit.EventToken
@@ -90,7 +89,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Reflection.Emit.EventToken.Equals(System.Object)
   id: Equals(System.Object)
@@ -114,7 +112,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Reflection.Emit.EventToken.Equals(System.Reflection.Emit.EventToken)
   id: Equals(System.Reflection.Emit.EventToken)
@@ -138,7 +135,6 @@ items:
       type: System.Reflection.Emit.EventToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.EventToken.op_Equality(System.Reflection.Emit.EventToken,System.Reflection.Emit.EventToken)
   id: op_Equality(System.Reflection.Emit.EventToken,System.Reflection.Emit.EventToken)
   parent: System.Reflection.Emit.EventToken
@@ -163,7 +159,6 @@ items:
       type: System.Reflection.Emit.EventToken
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.EventToken.op_Inequality(System.Reflection.Emit.EventToken,System.Reflection.Emit.EventToken)
   id: op_Inequality(System.Reflection.Emit.EventToken,System.Reflection.Emit.EventToken)
   parent: System.Reflection.Emit.EventToken
@@ -188,7 +183,6 @@ items:
       type: System.Reflection.Emit.EventToken
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

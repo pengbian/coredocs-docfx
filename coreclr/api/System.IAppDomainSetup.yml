@@ -51,7 +51,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.ApplicationName
   id: ApplicationName
   parent: System.IAppDomainSetup
@@ -72,7 +71,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.CachePath
   id: CachePath
   parent: System.IAppDomainSetup
@@ -93,7 +91,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.ConfigurationFile
   id: ConfigurationFile
   parent: System.IAppDomainSetup
@@ -114,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.DynamicBase
   id: DynamicBase
   parent: System.IAppDomainSetup
@@ -135,7 +131,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.LicenseFile
   id: LicenseFile
   parent: System.IAppDomainSetup
@@ -156,7 +151,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.PrivateBinPath
   id: PrivateBinPath
   parent: System.IAppDomainSetup
@@ -177,7 +171,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.PrivateBinPathProbe
   id: PrivateBinPathProbe
   parent: System.IAppDomainSetup
@@ -198,7 +191,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.ShadowCopyDirectories
   id: ShadowCopyDirectories
   parent: System.IAppDomainSetup
@@ -219,7 +211,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IAppDomainSetup.ShadowCopyFiles
   id: ShadowCopyFiles
   parent: System.IAppDomainSetup
@@ -240,7 +231,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System
   isExternal: false

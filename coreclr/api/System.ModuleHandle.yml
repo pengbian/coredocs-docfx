@@ -78,7 +78,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.ModuleHandle.Equals(System.Object)
   id: Equals(System.Object)
@@ -102,7 +101,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.ModuleHandle.Equals(System.ModuleHandle)
   id: Equals(System.ModuleHandle)
@@ -126,7 +124,6 @@ items:
       type: System.ModuleHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.ModuleHandle.op_Equality(System.ModuleHandle,System.ModuleHandle)
   id: op_Equality(System.ModuleHandle,System.ModuleHandle)
   parent: System.ModuleHandle
@@ -151,7 +148,6 @@ items:
       type: System.ModuleHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.ModuleHandle.op_Inequality(System.ModuleHandle,System.ModuleHandle)
   id: op_Inequality(System.ModuleHandle,System.ModuleHandle)
   parent: System.ModuleHandle
@@ -176,7 +172,6 @@ items:
       type: System.ModuleHandle
     return:
       type: System.Boolean
-      description: 
 - uid: System.ModuleHandle.GetRuntimeTypeHandleFromMetadataToken(System.Int32)
   id: GetRuntimeTypeHandleFromMetadataToken(System.Int32)
   parent: System.ModuleHandle
@@ -199,7 +194,6 @@ items:
       type: System.Int32
     return:
       type: System.RuntimeTypeHandle
-      description: 
 - uid: System.ModuleHandle.ResolveTypeHandle(System.Int32)
   id: ResolveTypeHandle(System.Int32)
   parent: System.ModuleHandle
@@ -222,7 +216,6 @@ items:
       type: System.Int32
     return:
       type: System.RuntimeTypeHandle
-      description: 
 - uid: System.ModuleHandle.ResolveTypeHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   id: ResolveTypeHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   parent: System.ModuleHandle
@@ -251,7 +244,6 @@ items:
       type: System.RuntimeTypeHandle[]
     return:
       type: System.RuntimeTypeHandle
-      description: 
 - uid: System.ModuleHandle.GetRuntimeMethodHandleFromMetadataToken(System.Int32)
   id: GetRuntimeMethodHandleFromMetadataToken(System.Int32)
   parent: System.ModuleHandle
@@ -274,7 +266,6 @@ items:
       type: System.Int32
     return:
       type: System.RuntimeMethodHandle
-      description: 
 - uid: System.ModuleHandle.ResolveMethodHandle(System.Int32)
   id: ResolveMethodHandle(System.Int32)
   parent: System.ModuleHandle
@@ -297,7 +288,6 @@ items:
       type: System.Int32
     return:
       type: System.RuntimeMethodHandle
-      description: 
 - uid: System.ModuleHandle.ResolveMethodHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   id: ResolveMethodHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   parent: System.ModuleHandle
@@ -326,7 +316,6 @@ items:
       type: System.RuntimeTypeHandle[]
     return:
       type: System.RuntimeMethodHandle
-      description: 
 - uid: System.ModuleHandle.GetRuntimeFieldHandleFromMetadataToken(System.Int32)
   id: GetRuntimeFieldHandleFromMetadataToken(System.Int32)
   parent: System.ModuleHandle
@@ -349,7 +338,6 @@ items:
       type: System.Int32
     return:
       type: System.RuntimeFieldHandle
-      description: 
 - uid: System.ModuleHandle.ResolveFieldHandle(System.Int32)
   id: ResolveFieldHandle(System.Int32)
   parent: System.ModuleHandle
@@ -372,7 +360,6 @@ items:
       type: System.Int32
     return:
       type: System.RuntimeFieldHandle
-      description: 
 - uid: System.ModuleHandle.ResolveFieldHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   id: ResolveFieldHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   parent: System.ModuleHandle
@@ -401,7 +388,6 @@ items:
       type: System.RuntimeTypeHandle[]
     return:
       type: System.RuntimeFieldHandle
-      description: 
 - uid: System.ModuleHandle.MDStreamVersion
   id: MDStreamVersion
   parent: System.ModuleHandle
@@ -422,7 +408,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System
   isExternal: false

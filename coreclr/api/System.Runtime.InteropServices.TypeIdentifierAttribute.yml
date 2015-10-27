@@ -132,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.TypeIdentifierAttribute.Identifier
   id: Identifier
   parent: System.Runtime.InteropServices.TypeIdentifierAttribute
@@ -153,7 +152,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

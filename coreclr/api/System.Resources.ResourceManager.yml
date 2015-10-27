@@ -245,7 +245,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Resources.ResourceManager.IgnoreCase
   id: IgnoreCase
   parent: System.Resources.ResourceManager
@@ -266,7 +265,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Resources.ResourceManager.ResourceSetType
   id: ResourceSetType
   parent: System.Resources.ResourceManager
@@ -287,7 +285,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Resources.ResourceManager.FallbackLocation
   id: FallbackLocation
   parent: System.Resources.ResourceManager
@@ -308,7 +305,6 @@ items:
     parameters: []
     return:
       type: System.Resources.UltimateResourceFallbackLocation
-      description: 
 - uid: System.Resources.ResourceManager.ReleaseAllResources
   id: ReleaseAllResources
   parent: System.Resources.ResourceManager
@@ -352,7 +348,6 @@ items:
       type: System.Type
     return:
       type: System.Resources.ResourceManager
-      description: 
 - uid: System.Resources.ResourceManager.GetResourceFileName(System.Globalization.CultureInfo)
   id: GetResourceFileName(System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
@@ -375,7 +370,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.String
-      description: 
 - uid: System.Resources.ResourceManager.GetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)
   id: GetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)
   parent: System.Resources.ResourceManager
@@ -402,7 +396,6 @@ items:
       type: System.Boolean
     return:
       type: System.Resources.ResourceSet
-      description: 
 - uid: System.Resources.ResourceManager.InternalGetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)
   id: InternalGetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)
   parent: System.Resources.ResourceManager
@@ -429,7 +422,6 @@ items:
       type: System.Boolean
     return:
       type: System.Resources.ResourceSet
-      description: 
 - uid: System.Resources.ResourceManager.GetSatelliteContractVersion(System.Reflection.Assembly)
   id: GetSatelliteContractVersion(System.Reflection.Assembly)
   parent: System.Resources.ResourceManager
@@ -452,7 +444,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Version
-      description: 
 - uid: System.Resources.ResourceManager.GetNeutralResourcesLanguage(System.Reflection.Assembly)
   id: GetNeutralResourcesLanguage(System.Reflection.Assembly)
   parent: System.Resources.ResourceManager
@@ -475,7 +466,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Resources.ResourceManager.GetString(System.String)
   id: GetString(System.String)
   parent: System.Resources.ResourceManager
@@ -498,7 +488,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Resources.ResourceManager.GetString(System.String,System.Globalization.CultureInfo)
   id: GetString(System.String,System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
@@ -523,7 +512,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.String
-      description: 
 - uid: System.Resources.ResourceManager.GetObject(System.String)
   id: GetObject(System.String)
   parent: System.Resources.ResourceManager
@@ -546,7 +534,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.Resources.ResourceManager.GetObject(System.String,System.Globalization.CultureInfo)
   id: GetObject(System.String,System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
@@ -571,7 +558,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
 - uid: System.Resources.ResourceManager.GetStream(System.String)
   id: GetStream(System.String)
   parent: System.Resources.ResourceManager
@@ -594,7 +580,6 @@ items:
       type: System.String
     return:
       type: System.IO.UnmanagedMemoryStream
-      description: 
 - uid: System.Resources.ResourceManager.GetStream(System.String,System.Globalization.CultureInfo)
   id: GetStream(System.String,System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
@@ -619,7 +604,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.IO.UnmanagedMemoryStream
-      description: 
 references:
 - uid: System.Resources
   isExternal: false

@@ -117,7 +117,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Comparer.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Collections.Comparer

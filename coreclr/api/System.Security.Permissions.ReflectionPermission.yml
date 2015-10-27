@@ -113,7 +113,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.ReflectionPermissionFlag
-      description: 
 - uid: System.Security.Permissions.ReflectionPermission.IsUnrestricted
   id: IsUnrestricted
   parent: System.Security.Permissions.ReflectionPermission
@@ -133,7 +132,6 @@ items:
     content.vb: Public Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.ReflectionPermission.Union(System.Security.IPermission)
   id: Union(System.Security.IPermission)
   parent: System.Security.Permissions.ReflectionPermission
@@ -156,7 +154,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
 - uid: System.Security.Permissions.ReflectionPermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
@@ -180,7 +177,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
 - uid: System.Security.Permissions.ReflectionPermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
@@ -204,7 +200,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
 - uid: System.Security.Permissions.ReflectionPermission.Copy
   id: Copy
@@ -225,7 +220,6 @@ items:
     content.vb: Public Overrides Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Copy
 references:
 - uid: System.Security.Permissions

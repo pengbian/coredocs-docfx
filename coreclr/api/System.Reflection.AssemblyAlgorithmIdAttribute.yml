@@ -132,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.UInt32
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

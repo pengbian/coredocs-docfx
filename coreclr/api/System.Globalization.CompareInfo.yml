@@ -97,7 +97,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Globalization.CompareInfo
-      description: 
 - uid: System.Globalization.CompareInfo.GetCompareInfo(System.String)
   id: GetCompareInfo(System.String)
   parent: System.Globalization.CompareInfo
@@ -120,7 +119,6 @@ items:
       type: System.String
     return:
       type: System.Globalization.CompareInfo
-      description: 
 - uid: System.Globalization.CompareInfo.IsSortable(System.Char)
   id: IsSortable(System.Char)
   parent: System.Globalization.CompareInfo
@@ -143,7 +141,6 @@ items:
       type: System.Char
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CompareInfo.IsSortable(System.String)
   id: IsSortable(System.String)
   parent: System.Globalization.CompareInfo
@@ -166,7 +163,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CompareInfo.Name
   id: Name
   parent: System.Globalization.CompareInfo
@@ -187,7 +183,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CompareInfo.Compare(System.String,System.String)
   id: Compare(System.String,System.String)
   parent: System.Globalization.CompareInfo
@@ -212,7 +207,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.Compare(System.String,System.String,System.Globalization.CompareOptions)
   id: Compare(System.String,System.String,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -239,7 +233,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32)
   id: Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -272,7 +265,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions)
   id: Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -303,7 +295,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32)
   id: Compare(System.String,System.Int32,System.String,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -332,7 +323,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
   id: Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -367,7 +357,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)
   id: IsPrefix(System.String,System.String,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -394,7 +383,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CompareInfo.IsPrefix(System.String,System.String)
   id: IsPrefix(System.String,System.String)
   parent: System.Globalization.CompareInfo
@@ -419,7 +407,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CompareInfo.IsSuffix(System.String,System.String,System.Globalization.CompareOptions)
   id: IsSuffix(System.String,System.String,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -446,7 +433,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CompareInfo.IsSuffix(System.String,System.String)
   id: IsSuffix(System.String,System.String)
   parent: System.Globalization.CompareInfo
@@ -471,7 +457,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char)
   id: IndexOf(System.String,System.Char)
   parent: System.Globalization.CompareInfo
@@ -496,7 +481,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String)
   id: IndexOf(System.String,System.String)
   parent: System.Globalization.CompareInfo
@@ -521,7 +505,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Globalization.CompareOptions)
   id: IndexOf(System.String,System.Char,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -548,7 +531,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Globalization.CompareOptions)
   id: IndexOf(System.String,System.String,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -575,7 +557,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32)
   id: IndexOf(System.String,System.Char,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -602,7 +583,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32)
   id: IndexOf(System.String,System.String,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -629,7 +609,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
   id: IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -658,7 +637,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
   id: IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -687,7 +665,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32)
   id: IndexOf(System.String,System.Char,System.Int32,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -716,7 +693,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32)
   id: IndexOf(System.String,System.String,System.Int32,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -745,7 +721,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
   id: IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -776,7 +751,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
   id: IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -807,7 +781,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char)
   id: LastIndexOf(System.String,System.Char)
   parent: System.Globalization.CompareInfo
@@ -832,7 +805,6 @@ items:
       type: System.Char
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String)
   id: LastIndexOf(System.String,System.String)
   parent: System.Globalization.CompareInfo
@@ -857,7 +829,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions)
   id: LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -884,7 +855,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Globalization.CompareOptions)
   id: LastIndexOf(System.String,System.String,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -911,7 +881,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32)
   id: LastIndexOf(System.String,System.Char,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -938,7 +907,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32)
   id: LastIndexOf(System.String,System.String,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -965,7 +933,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
   id: LastIndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -994,7 +961,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
   id: LastIndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -1023,7 +989,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Int32)
   id: LastIndexOf(System.String,System.Char,System.Int32,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -1052,7 +1017,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Int32)
   id: LastIndexOf(System.String,System.String,System.Int32,System.Int32)
   parent: System.Globalization.CompareInfo
@@ -1081,7 +1045,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
   id: LastIndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -1112,7 +1075,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
   id: LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -1143,7 +1105,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.GetSortKey(System.String,System.Globalization.CompareOptions)
   id: GetSortKey(System.String,System.Globalization.CompareOptions)
   parent: System.Globalization.CompareInfo
@@ -1168,7 +1129,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Globalization.SortKey
-      description: 
 - uid: System.Globalization.CompareInfo.GetSortKey(System.String)
   id: GetSortKey(System.String)
   parent: System.Globalization.CompareInfo
@@ -1191,7 +1151,6 @@ items:
       type: System.String
     return:
       type: System.Globalization.SortKey
-      description: 
 - uid: System.Globalization.CompareInfo.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Globalization.CompareInfo
@@ -1214,7 +1173,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Globalization.CompareInfo.GetHashCode
   id: GetHashCode
@@ -1235,7 +1193,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Globalization.CompareInfo.GetHashCode(System.String,System.Globalization.CompareOptions)
   id: GetHashCode(System.String,System.Globalization.CompareOptions)
@@ -1261,7 +1218,6 @@ items:
       type: System.Globalization.CompareOptions
     return:
       type: System.Int32
-      description: 
 - uid: System.Globalization.CompareInfo.ToString
   id: ToString
   parent: System.Globalization.CompareInfo
@@ -1281,7 +1237,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.Globalization

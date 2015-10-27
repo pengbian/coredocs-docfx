@@ -111,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.InteropServices.DllImportSearchPath
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

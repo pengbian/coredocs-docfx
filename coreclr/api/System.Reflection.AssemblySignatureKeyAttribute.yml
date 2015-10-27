@@ -114,7 +114,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblySignatureKeyAttribute.Countersignature
   id: Countersignature
   parent: System.Reflection.AssemblySignatureKeyAttribute
@@ -135,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

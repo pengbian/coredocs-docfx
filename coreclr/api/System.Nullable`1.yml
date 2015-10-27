@@ -81,7 +81,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Nullable`1.Value
   id: Value
   parent: System.Nullable`1
@@ -103,7 +102,6 @@ items:
     parameters: []
     return:
       type: '{T}'
-      description: 
 - uid: System.Nullable`1.GetValueOrDefault
   id: GetValueOrDefault
   parent: System.Nullable`1
@@ -124,7 +122,6 @@ items:
     content.vb: Public Function GetValueOrDefault As T
     return:
       type: '{T}'
-      description: 
 - uid: System.Nullable`1.GetValueOrDefault(`0)
   id: GetValueOrDefault(`0)
   parent: System.Nullable`1
@@ -148,7 +145,6 @@ items:
       type: '{T}'
     return:
       type: '{T}'
-      description: 
 - uid: System.Nullable`1.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Nullable`1
@@ -172,7 +168,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Nullable`1.GetHashCode
   id: GetHashCode
@@ -194,7 +189,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Nullable`1.ToString
   id: ToString
@@ -216,7 +210,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Nullable`1.op_Implicit(`0)~System.Nullable{`0}
   id: op_Implicit(`0)~System.Nullable{`0}
@@ -242,7 +235,6 @@ items:
       type: '{T}'
     return:
       type: System.Nullable`1
-      description: 
 - uid: System.Nullable`1.op_Explicit(System.Nullable{`0})~`0
   id: op_Explicit(System.Nullable{`0})~`0
   parent: System.Nullable`1
@@ -267,7 +259,6 @@ items:
       type: System.Nullable`1
     return:
       type: '{T}'
-      description: 
 references:
 - uid: System
   isExternal: false

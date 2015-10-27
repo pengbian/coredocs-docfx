@@ -74,7 +74,6 @@ items:
     content.vb: Public Function Unwrap As Object
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Runtime.Remoting
   isExternal: false

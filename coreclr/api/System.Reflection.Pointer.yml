@@ -59,7 +59,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.Pointer.Unbox(System.Object)
   id: Unbox(System.Object)
   parent: System.Reflection.Pointer
@@ -82,7 +81,6 @@ items:
       type: System.Object
     return:
       type: System.Void*
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

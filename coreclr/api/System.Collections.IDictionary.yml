@@ -60,7 +60,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.IDictionary.Keys
   id: Keys
   parent: System.Collections.IDictionary
@@ -81,7 +80,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.IDictionary.Values
   id: Values
   parent: System.Collections.IDictionary
@@ -102,7 +100,6 @@ items:
     parameters: []
     return:
       type: System.Collections.ICollection
-      description: 
 - uid: System.Collections.IDictionary.Contains(System.Object)
   id: Contains(System.Object)
   parent: System.Collections.IDictionary
@@ -125,7 +122,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IDictionary.Add(System.Object,System.Object)
   id: Add(System.Object,System.Object)
   parent: System.Collections.IDictionary
@@ -185,7 +181,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IDictionary.IsFixedSize
   id: IsFixedSize
   parent: System.Collections.IDictionary
@@ -206,7 +201,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IDictionary.GetEnumerator
   id: GetEnumerator
   parent: System.Collections.IDictionary
@@ -226,7 +220,6 @@ items:
     content.vb: Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Collections.IDictionary.Remove(System.Object)
   id: Remove(System.Object)
   parent: System.Collections.IDictionary

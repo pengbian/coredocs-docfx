@@ -130,7 +130,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.SecurityPermissionFlag
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.Assertion
   id: Assertion
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -151,7 +150,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode
   id: UnmanagedCode
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -172,7 +170,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.SkipVerification
   id: SkipVerification
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -193,7 +190,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.Execution
   id: Execution
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -214,7 +210,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlThread
   id: ControlThread
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -235,7 +230,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlEvidence
   id: ControlEvidence
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -256,7 +250,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlPolicy
   id: ControlPolicy
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -277,7 +270,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.SerializationFormatter
   id: SerializationFormatter
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -298,7 +290,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlDomainPolicy
   id: ControlDomainPolicy
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -319,7 +310,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlPrincipal
   id: ControlPrincipal
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -340,7 +330,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlAppDomain
   id: ControlAppDomain
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -361,7 +350,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.RemotingConfiguration
   id: RemotingConfiguration
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -382,7 +370,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.Infrastructure
   id: Infrastructure
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -403,7 +390,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.BindingRedirects
   id: BindingRedirects
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -424,7 +410,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.SecurityPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.SecurityPermissionAttribute
@@ -444,7 +429,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

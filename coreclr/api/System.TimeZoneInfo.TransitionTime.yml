@@ -63,7 +63,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.Month
   id: Month
   parent: System.TimeZoneInfo.TransitionTime
@@ -84,7 +83,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.Week
   id: Week
   parent: System.TimeZoneInfo.TransitionTime
@@ -105,7 +103,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.Day
   id: Day
   parent: System.TimeZoneInfo.TransitionTime
@@ -126,7 +123,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.DayOfWeek
   id: DayOfWeek
   parent: System.TimeZoneInfo.TransitionTime
@@ -147,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.DayOfWeek
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.IsFixedDateRule
   id: IsFixedDateRule
   parent: System.TimeZoneInfo.TransitionTime
@@ -168,7 +163,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.TimeZoneInfo.TransitionTime
@@ -191,7 +185,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.TimeZoneInfo.TransitionTime.op_Equality(System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
   id: op_Equality(System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
@@ -217,7 +210,6 @@ items:
       type: System.TimeZoneInfo.TransitionTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.op_Inequality(System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
   id: op_Inequality(System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
   parent: System.TimeZoneInfo.TransitionTime
@@ -242,7 +234,6 @@ items:
       type: System.TimeZoneInfo.TransitionTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.Equals(System.TimeZoneInfo.TransitionTime)
   id: Equals(System.TimeZoneInfo.TransitionTime)
   parent: System.TimeZoneInfo.TransitionTime
@@ -265,7 +256,6 @@ items:
       type: System.TimeZoneInfo.TransitionTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.GetHashCode
   id: GetHashCode
   parent: System.TimeZoneInfo.TransitionTime
@@ -285,7 +275,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.TimeZoneInfo.TransitionTime.CreateFixedDateRule(System.DateTime,System.Int32,System.Int32)
   id: CreateFixedDateRule(System.DateTime,System.Int32,System.Int32)
@@ -313,7 +302,6 @@ items:
       type: System.Int32
     return:
       type: System.TimeZoneInfo.TransitionTime
-      description: 
 - uid: System.TimeZoneInfo.TransitionTime.CreateFloatingDateRule(System.DateTime,System.Int32,System.Int32,System.DayOfWeek)
   id: CreateFloatingDateRule(System.DateTime,System.Int32,System.Int32,System.DayOfWeek)
   parent: System.TimeZoneInfo.TransitionTime
@@ -342,7 +330,6 @@ items:
       type: System.DayOfWeek
     return:
       type: System.TimeZoneInfo.TransitionTime
-      description: 
 references:
 - uid: System
   isExternal: false

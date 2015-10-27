@@ -179,7 +179,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Exception.Message
 - uid: System.IO.FileNotFoundException.FileName
   id: FileName
@@ -201,7 +200,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.FileNotFoundException.ToString
   id: ToString
   parent: System.IO.FileNotFoundException
@@ -221,7 +219,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Exception.ToString
 - uid: System.IO.FileNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'

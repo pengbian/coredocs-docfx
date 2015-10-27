@@ -138,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.RandomNumberGenerator
-      description: 
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
   id: SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
   parent: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter
@@ -184,7 +183,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(System.Byte[])
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange(System.Byte[],System.Type)
   id: CreateKeyExchange(System.Byte[],System.Type)
@@ -212,7 +210,6 @@ items:
       type: System.Type
     return:
       type: System.Byte[]
-      description: 
   overridden: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(System.Byte[],System.Type)
 references:
 - uid: System.Security.Cryptography

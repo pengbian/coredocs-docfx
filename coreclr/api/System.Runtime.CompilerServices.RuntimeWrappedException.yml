@@ -66,7 +66,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.CompilerServices.RuntimeWrappedException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Runtime.CompilerServices.RuntimeWrappedException

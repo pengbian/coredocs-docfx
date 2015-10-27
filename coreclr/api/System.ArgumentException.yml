@@ -200,7 +200,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Exception.Message
 - uid: System.ArgumentException.ParamName
   id: ParamName
@@ -222,7 +221,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.ArgumentException

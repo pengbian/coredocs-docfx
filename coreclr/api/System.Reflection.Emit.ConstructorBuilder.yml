@@ -119,7 +119,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.Emit.ConstructorBuilder.Module
   id: Module
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Reflection.MemberInfo.Module
 - uid: System.Reflection.Emit.ConstructorBuilder.ReflectedType
   id: ReflectedType
@@ -163,7 +161,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.ReflectedType
 - uid: System.Reflection.Emit.ConstructorBuilder.DeclaringType
   id: DeclaringType
@@ -185,7 +182,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.MemberInfo.DeclaringType
 - uid: System.Reflection.Emit.ConstructorBuilder.Name
   id: Name
@@ -207,7 +203,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.MemberInfo.Name
 - uid: System.Reflection.Emit.ConstructorBuilder.Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   id: Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
@@ -241,7 +236,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
   overridden: System.Reflection.MethodBase.Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 - uid: System.Reflection.Emit.ConstructorBuilder.GetParameters
   id: GetParameters
@@ -262,7 +256,6 @@ items:
     content.vb: Public Overrides Function GetParameters As ParameterInfo()
     return:
       type: System.Reflection.ParameterInfo[]
-      description: 
   overridden: System.Reflection.MethodBase.GetParameters
 - uid: System.Reflection.Emit.ConstructorBuilder.Attributes
   id: Attributes
@@ -284,7 +277,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodAttributes
-      description: 
   overridden: System.Reflection.MethodBase.Attributes
 - uid: System.Reflection.Emit.ConstructorBuilder.GetMethodImplementationFlags
   id: GetMethodImplementationFlags
@@ -305,7 +297,6 @@ items:
     content.vb: Public Overrides Function GetMethodImplementationFlags As MethodImplAttributes
     return:
       type: System.Reflection.MethodImplAttributes
-      description: 
   overridden: System.Reflection.MethodBase.GetMethodImplementationFlags
 - uid: System.Reflection.Emit.ConstructorBuilder.MethodHandle
   id: MethodHandle
@@ -327,7 +318,6 @@ items:
     parameters: []
     return:
       type: System.RuntimeMethodHandle
-      description: 
   overridden: System.Reflection.MethodBase.MethodHandle
 - uid: System.Reflection.Emit.ConstructorBuilder.Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   id: Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
@@ -359,7 +349,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Object
-      description: 
   overridden: System.Reflection.ConstructorInfo.Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 - uid: System.Reflection.Emit.ConstructorBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -383,7 +372,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.ConstructorBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -409,7 +397,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.ConstructorBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -435,7 +422,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.ConstructorBuilder.GetToken
   id: GetToken
@@ -456,7 +442,6 @@ items:
     content.vb: Public Function GetToken As MethodToken
     return:
       type: System.Reflection.Emit.MethodToken
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.DefineParameter(System.Int32,System.Reflection.ParameterAttributes,System.String)
   id: DefineParameter(System.Int32,System.Reflection.ParameterAttributes,System.String)
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -483,7 +468,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.ParameterBuilder
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.SetSymCustomAttribute(System.String,System.Byte[])
   id: SetSymCustomAttribute(System.String,System.Byte[])
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -527,7 +511,6 @@ items:
     content.vb: Public Function GetILGenerator As ILGenerator
     return:
       type: System.Reflection.Emit.ILGenerator
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.GetILGenerator(System.Int32)
   id: GetILGenerator(System.Int32)
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -550,7 +533,6 @@ items:
       type: System.Int32
     return:
       type: System.Reflection.Emit.ILGenerator
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.SetMethodBody(System.Byte[],System.Int32,System.Byte[],System.Collections.Generic.IEnumerable{System.Reflection.Emit.ExceptionHandler},System.Collections.Generic.IEnumerable{System.Int32})
   id: SetMethodBody(System.Byte[],System.Int32,System.Byte[],System.Collections.Generic.IEnumerable{System.Reflection.Emit.ExceptionHandler},System.Collections.Generic.IEnumerable{System.Int32})
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -601,7 +583,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.CallingConventions
-      description: 
   overridden: System.Reflection.MethodBase.CallingConvention
 - uid: System.Reflection.Emit.ConstructorBuilder.GetModule
   id: GetModule
@@ -622,7 +603,6 @@ items:
     content.vb: Public Function GetModule As
     return:
       type: System.Reflection.Module
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.ReturnType
   id: ReturnType
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -643,7 +623,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.Signature
   id: Signature
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -664,7 +643,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Emit.ConstructorBuilder.SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
   id: SetCustomAttribute(System.Reflection.ConstructorInfo,System.Byte[])
   parent: System.Reflection.Emit.ConstructorBuilder
@@ -749,7 +727,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

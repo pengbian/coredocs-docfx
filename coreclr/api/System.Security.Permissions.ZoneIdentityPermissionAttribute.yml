@@ -116,7 +116,6 @@ items:
     parameters: []
     return:
       type: System.Security.SecurityZone
-      description: 
 - uid: System.Security.Permissions.ZoneIdentityPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.ZoneIdentityPermissionAttribute
@@ -136,7 +135,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

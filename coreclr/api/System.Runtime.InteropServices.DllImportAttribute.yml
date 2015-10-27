@@ -119,7 +119,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.InteropServices.DllImportAttribute.EntryPoint
   id: EntryPoint
   parent: System.Runtime.InteropServices.DllImportAttribute

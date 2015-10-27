@@ -118,7 +118,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Security.Cryptography.CryptoConfig.CreateFromName(System.String)
   id: CreateFromName(System.String)
   parent: System.Security.Cryptography.CryptoConfig
@@ -141,7 +140,6 @@ items:
       type: System.String
     return:
       type: System.Object
-      description: 
 - uid: System.Security.Cryptography.CryptoConfig.AddOID(System.String,System.String[])
   id: AddOID(System.String,System.String[])
   parent: System.Security.Cryptography.CryptoConfig
@@ -194,7 +192,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Security.Cryptography.CryptoConfig.EncodeOID(System.String)
   id: EncodeOID(System.String)
   parent: System.Security.Cryptography.CryptoConfig
@@ -217,7 +214,6 @@ items:
       type: System.String
     return:
       type: System.Byte[]
-      description: 
 references:
 - uid: System.Security.Cryptography
   isExternal: false

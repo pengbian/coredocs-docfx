@@ -120,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.ReflectionTypeLoadException.LoaderExceptions
   id: LoaderExceptions
   parent: System.Reflection.ReflectionTypeLoadException
@@ -141,7 +140,6 @@ items:
     parameters: []
     return:
       type: System.Exception[]
-      description: 
 - uid: System.Reflection.ReflectionTypeLoadException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Reflection.ReflectionTypeLoadException

@@ -518,7 +518,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddDays(System.Double)
   id: AddDays(System.Double)
   parent: System.DateTime
@@ -541,7 +540,6 @@ items:
       type: System.Double
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddHours(System.Double)
   id: AddHours(System.Double)
   parent: System.DateTime
@@ -564,7 +562,6 @@ items:
       type: System.Double
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddMilliseconds(System.Double)
   id: AddMilliseconds(System.Double)
   parent: System.DateTime
@@ -587,7 +584,6 @@ items:
       type: System.Double
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddMinutes(System.Double)
   id: AddMinutes(System.Double)
   parent: System.DateTime
@@ -610,7 +606,6 @@ items:
       type: System.Double
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddMonths(System.Int32)
   id: AddMonths(System.Int32)
   parent: System.DateTime
@@ -633,7 +628,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddSeconds(System.Double)
   id: AddSeconds(System.Double)
   parent: System.DateTime
@@ -656,7 +650,6 @@ items:
       type: System.Double
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddTicks(System.Int64)
   id: AddTicks(System.Int64)
   parent: System.DateTime
@@ -679,7 +672,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.AddYears(System.Int32)
   id: AddYears(System.Int32)
   parent: System.DateTime
@@ -702,7 +694,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Compare(System.DateTime,System.DateTime)
   id: Compare(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -727,7 +718,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.DateTime
@@ -750,7 +740,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.CompareTo(System.DateTime)
   id: CompareTo(System.DateTime)
   parent: System.DateTime
@@ -773,7 +762,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.DaysInMonth(System.Int32,System.Int32)
   id: DaysInMonth(System.Int32,System.Int32)
   parent: System.DateTime
@@ -798,7 +786,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.DateTime
@@ -821,7 +808,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.DateTime.Equals(System.DateTime)
   id: Equals(System.DateTime)
@@ -845,7 +831,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.Equals(System.DateTime,System.DateTime)
   id: Equals(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -870,7 +855,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.FromBinary(System.Int64)
   id: FromBinary(System.Int64)
   parent: System.DateTime
@@ -893,7 +877,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.FromFileTime(System.Int64)
   id: FromFileTime(System.Int64)
   parent: System.DateTime
@@ -916,7 +899,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.FromFileTimeUtc(System.Int64)
   id: FromFileTimeUtc(System.Int64)
   parent: System.DateTime
@@ -939,7 +921,6 @@ items:
       type: System.Int64
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.FromOADate(System.Double)
   id: FromOADate(System.Double)
   parent: System.DateTime
@@ -962,7 +943,6 @@ items:
       type: System.Double
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.IsDaylightSavingTime
   id: IsDaylightSavingTime
   parent: System.DateTime
@@ -982,7 +962,6 @@ items:
     content.vb: Public Function IsDaylightSavingTime As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.SpecifyKind(System.DateTime,System.DateTimeKind)
   id: SpecifyKind(System.DateTime,System.DateTimeKind)
   parent: System.DateTime
@@ -1007,7 +986,6 @@ items:
       type: System.DateTimeKind
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.ToBinary
   id: ToBinary
   parent: System.DateTime
@@ -1027,7 +1005,6 @@ items:
     content.vb: Public Function ToBinary As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTime.Date
   id: Date
   parent: System.DateTime
@@ -1048,7 +1025,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Day
   id: Day
   parent: System.DateTime
@@ -1069,7 +1045,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.DayOfWeek
   id: DayOfWeek
   parent: System.DateTime
@@ -1090,7 +1065,6 @@ items:
     parameters: []
     return:
       type: System.DayOfWeek
-      description: 
 - uid: System.DateTime.DayOfYear
   id: DayOfYear
   parent: System.DateTime
@@ -1111,7 +1085,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.GetHashCode
   id: GetHashCode
   parent: System.DateTime
@@ -1131,7 +1104,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.DateTime.Hour
   id: Hour
@@ -1153,7 +1125,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.Kind
   id: Kind
   parent: System.DateTime
@@ -1174,7 +1145,6 @@ items:
     parameters: []
     return:
       type: System.DateTimeKind
-      description: 
 - uid: System.DateTime.Millisecond
   id: Millisecond
   parent: System.DateTime
@@ -1195,7 +1165,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.Minute
   id: Minute
   parent: System.DateTime
@@ -1216,7 +1185,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.Month
   id: Month
   parent: System.DateTime
@@ -1237,7 +1205,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.Now
   id: Now
   parent: System.DateTime
@@ -1258,7 +1225,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.UtcNow
   id: UtcNow
   parent: System.DateTime
@@ -1279,7 +1245,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Second
   id: Second
   parent: System.DateTime
@@ -1300,7 +1265,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.Ticks
   id: Ticks
   parent: System.DateTime
@@ -1321,7 +1285,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTime.TimeOfDay
   id: TimeOfDay
   parent: System.DateTime
@@ -1342,7 +1305,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTime.Today
   id: Today
   parent: System.DateTime
@@ -1363,7 +1325,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Year
   id: Year
   parent: System.DateTime
@@ -1384,7 +1345,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.DateTime.IsLeapYear(System.Int32)
   id: IsLeapYear(System.Int32)
   parent: System.DateTime
@@ -1407,7 +1367,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.Parse(System.String)
   id: Parse(System.String)
   parent: System.DateTime
@@ -1430,7 +1389,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.DateTime
@@ -1455,7 +1413,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   id: Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   parent: System.DateTime
@@ -1482,7 +1439,6 @@ items:
       type: System.Globalization.DateTimeStyles
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.ParseExact(System.String,System.String,System.IFormatProvider)
   id: ParseExact(System.String,System.String,System.IFormatProvider)
   parent: System.DateTime
@@ -1509,7 +1465,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   id: ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)
   parent: System.DateTime
@@ -1538,7 +1493,6 @@ items:
       type: System.Globalization.DateTimeStyles
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)
   id: ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)
   parent: System.DateTime
@@ -1569,7 +1523,6 @@ items:
       type: System.Globalization.DateTimeStyles
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.Subtract(System.DateTime)
   id: Subtract(System.DateTime)
   parent: System.DateTime
@@ -1592,7 +1545,6 @@ items:
       type: System.DateTime
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTime.Subtract(System.TimeSpan)
   id: Subtract(System.TimeSpan)
   parent: System.DateTime
@@ -1615,7 +1567,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.ToOADate
   id: ToOADate
   parent: System.DateTime
@@ -1635,7 +1586,6 @@ items:
     content.vb: Public Function ToOADate As Double
     return:
       type: System.Double
-      description: 
 - uid: System.DateTime.ToFileTime
   id: ToFileTime
   parent: System.DateTime
@@ -1655,7 +1605,6 @@ items:
     content.vb: Public Function ToFileTime As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTime.ToFileTimeUtc
   id: ToFileTimeUtc
   parent: System.DateTime
@@ -1675,7 +1624,6 @@ items:
     content.vb: Public Function ToFileTimeUtc As Long
     return:
       type: System.Int64
-      description: 
 - uid: System.DateTime.ToLocalTime
   id: ToLocalTime
   parent: System.DateTime
@@ -1695,7 +1643,6 @@ items:
     content.vb: Public Function ToLocalTime As Date
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.ToLongDateString
   id: ToLongDateString
   parent: System.DateTime
@@ -1715,7 +1662,6 @@ items:
     content.vb: Public Function ToLongDateString As String
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToLongTimeString
   id: ToLongTimeString
   parent: System.DateTime
@@ -1735,7 +1681,6 @@ items:
     content.vb: Public Function ToLongTimeString As String
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToShortDateString
   id: ToShortDateString
   parent: System.DateTime
@@ -1755,7 +1700,6 @@ items:
     content.vb: Public Function ToShortDateString As String
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToShortTimeString
   id: ToShortTimeString
   parent: System.DateTime
@@ -1775,7 +1719,6 @@ items:
     content.vb: Public Function ToShortTimeString As String
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToString
   id: ToString
   parent: System.DateTime
@@ -1795,7 +1738,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.DateTime.ToString(System.String)
   id: ToString(System.String)
@@ -1819,7 +1761,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
   parent: System.DateTime
@@ -1842,7 +1783,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.DateTime
@@ -1867,7 +1807,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.DateTime.ToUniversalTime
   id: ToUniversalTime
   parent: System.DateTime
@@ -1887,7 +1826,6 @@ items:
     content.vb: Public Function ToUniversalTime As Date
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.TryParse(System.String,System.DateTime@)
   id: TryParse(System.String,System.DateTime@)
   parent: System.DateTime
@@ -1914,7 +1852,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)
   id: TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)
   parent: System.DateTime
@@ -1945,7 +1882,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)
   id: TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)
   parent: System.DateTime
@@ -1978,7 +1914,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)
   id: TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)
   parent: System.DateTime
@@ -2011,7 +1946,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.op_Addition(System.DateTime,System.TimeSpan)
   id: op_Addition(System.DateTime,System.TimeSpan)
   parent: System.DateTime
@@ -2036,7 +1970,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.op_Subtraction(System.DateTime,System.TimeSpan)
   id: op_Subtraction(System.DateTime,System.TimeSpan)
   parent: System.DateTime
@@ -2061,7 +1994,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.DateTime
-      description: 
 - uid: System.DateTime.op_Subtraction(System.DateTime,System.DateTime)
   id: op_Subtraction(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2086,7 +2018,6 @@ items:
       type: System.DateTime
     return:
       type: System.TimeSpan
-      description: 
 - uid: System.DateTime.op_Equality(System.DateTime,System.DateTime)
   id: op_Equality(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2111,7 +2042,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.op_Inequality(System.DateTime,System.DateTime)
   id: op_Inequality(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2136,7 +2066,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.op_LessThan(System.DateTime,System.DateTime)
   id: op_LessThan(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2161,7 +2090,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.op_LessThanOrEqual(System.DateTime,System.DateTime)
   id: op_LessThanOrEqual(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2186,7 +2114,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.op_GreaterThan(System.DateTime,System.DateTime)
   id: op_GreaterThan(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2211,7 +2138,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.op_GreaterThanOrEqual(System.DateTime,System.DateTime)
   id: op_GreaterThanOrEqual(System.DateTime,System.DateTime)
   parent: System.DateTime
@@ -2236,7 +2162,6 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-      description: 
 - uid: System.DateTime.GetDateTimeFormats
   id: GetDateTimeFormats
   parent: System.DateTime
@@ -2256,7 +2181,6 @@ items:
     content.vb: Public Function GetDateTimeFormats As String()
     return:
       type: System.String[]
-      description: 
 - uid: System.DateTime.GetDateTimeFormats(System.IFormatProvider)
   id: GetDateTimeFormats(System.IFormatProvider)
   parent: System.DateTime
@@ -2279,7 +2203,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String[]
-      description: 
 - uid: System.DateTime.GetDateTimeFormats(System.Char)
   id: GetDateTimeFormats(System.Char)
   parent: System.DateTime
@@ -2302,7 +2225,6 @@ items:
       type: System.Char
     return:
       type: System.String[]
-      description: 
 - uid: System.DateTime.GetDateTimeFormats(System.Char,System.IFormatProvider)
   id: GetDateTimeFormats(System.Char,System.IFormatProvider)
   parent: System.DateTime
@@ -2327,7 +2249,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String[]
-      description: 
 - uid: System.DateTime.GetTypeCode
   id: GetTypeCode
   parent: System.DateTime
@@ -2347,7 +2268,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.DateTime.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.DateTime

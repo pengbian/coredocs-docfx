@@ -73,7 +73,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.DictionaryEntry.Value
   id: Value
   parent: System.Collections.DictionaryEntry
@@ -94,7 +93,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

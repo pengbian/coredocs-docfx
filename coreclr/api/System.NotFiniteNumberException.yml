@@ -222,7 +222,6 @@ items:
     parameters: []
     return:
       type: System.Double
-      description: 
 - uid: System.NotFiniteNumberException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.NotFiniteNumberException

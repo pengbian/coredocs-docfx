@@ -93,7 +93,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.Security.Permissions.IsolatedStoragePermission.UsageAllowed
   id: UsageAllowed
   parent: System.Security.Permissions.IsolatedStoragePermission
@@ -114,7 +113,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.IsolatedStorageContainment
-      description: 
 - uid: System.Security.Permissions.IsolatedStoragePermission.IsUnrestricted
   id: IsUnrestricted
   parent: System.Security.Permissions.IsolatedStoragePermission
@@ -134,7 +132,6 @@ items:
     content.vb: Public Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Security.Permissions
   isExternal: false

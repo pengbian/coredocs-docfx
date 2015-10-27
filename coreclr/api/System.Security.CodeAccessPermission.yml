@@ -205,7 +205,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.CodeAccessPermission.Copy
   id: Copy
   parent: System.Security.CodeAccessPermission
@@ -225,7 +224,6 @@ items:
     content.vb: Public MustOverride Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
   parent: System.Security.CodeAccessPermission
@@ -248,7 +246,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
   parent: System.Security.CodeAccessPermission
@@ -271,7 +268,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.CodeAccessPermission.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.CodeAccessPermission
@@ -294,7 +290,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.CodeAccessPermission.GetHashCode
   id: GetHashCode
@@ -315,7 +310,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 references:
 - uid: System.Security

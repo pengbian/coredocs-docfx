@@ -65,7 +65,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.IReflect.GetMethod(System.String,System.Reflection.BindingFlags)
   id: GetMethod(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -90,7 +89,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.IReflect.GetMethods(System.Reflection.BindingFlags)
   id: GetMethods(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -113,7 +111,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MethodInfo[]
-      description: 
 - uid: System.Reflection.IReflect.GetField(System.String,System.Reflection.BindingFlags)
   id: GetField(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -138,7 +135,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.IReflect.GetFields(System.Reflection.BindingFlags)
   id: GetFields(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -161,7 +157,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.FieldInfo[]
-      description: 
 - uid: System.Reflection.IReflect.GetProperty(System.String,System.Reflection.BindingFlags)
   id: GetProperty(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -186,7 +181,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.IReflect.GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
   id: GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
   parent: System.Reflection.IReflect
@@ -221,7 +215,6 @@ items:
       type: System.Reflection.ParameterModifier[]
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.IReflect.GetProperties(System.Reflection.BindingFlags)
   id: GetProperties(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -244,7 +237,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.PropertyInfo[]
-      description: 
 - uid: System.Reflection.IReflect.GetMember(System.String,System.Reflection.BindingFlags)
   id: GetMember(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -269,7 +261,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.IReflect.GetMembers(System.Reflection.BindingFlags)
   id: GetMembers(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
@@ -292,7 +283,6 @@ items:
       type: System.Reflection.BindingFlags
     return:
       type: System.Reflection.MemberInfo[]
-      description: 
 - uid: System.Reflection.IReflect.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
   id: InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
   parent: System.Reflection.IReflect
@@ -331,7 +321,6 @@ items:
       type: System.String[]
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.IReflect.UnderlyingSystemType
   id: UnderlyingSystemType
   parent: System.Reflection.IReflect
@@ -352,7 +341,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

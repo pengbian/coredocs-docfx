@@ -211,7 +211,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileStream.CanRead
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanWrite
   id: CanWrite
@@ -233,7 +232,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileStream.CanWrite
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanSeek
   id: CanSeek
@@ -255,7 +253,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileStream.CanSeek
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.IsAsync
   id: IsAsync
@@ -277,7 +274,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileStream.IsAsync
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Length
   id: Length
@@ -299,7 +295,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.FileStream.Length
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Position
   id: Position
@@ -321,7 +316,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.FileStream.Position
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Name
   id: Name
@@ -343,7 +337,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
   parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
@@ -424,7 +417,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
   overridden: System.IO.FileStream.Handle
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.SafeFileHandle
   id: SafeFileHandle
@@ -446,7 +438,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeFileHandle
-      description: 
   overridden: System.IO.FileStream.SafeFileHandle
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -543,7 +534,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.FileStream.Read(System.Byte[],System.Int32,System.Int32)
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadByte
   id: ReadByte
@@ -564,7 +554,6 @@ items:
     content.vb: Public Overrides Function ReadByte As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.FileStream.ReadByte
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Seek(System.Int64,System.IO.SeekOrigin)
   id: Seek(System.Int64,System.IO.SeekOrigin)
@@ -590,7 +579,6 @@ items:
       type: System.IO.SeekOrigin
     return:
       type: System.Int64
-      description: 
   overridden: System.IO.FileStream.Seek(System.Int64,System.IO.SeekOrigin)
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -672,7 +660,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.IO.FileStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead(System.IAsyncResult)
   id: EndRead(System.IAsyncResult)
@@ -696,7 +683,6 @@ items:
       type: System.IAsyncResult
     return:
       type: System.Int32
-      description: 
   overridden: System.IO.FileStream.EndRead(System.IAsyncResult)
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
   id: BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
@@ -730,7 +716,6 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-      description: 
   overridden: System.IO.FileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.EndWrite(System.IAsyncResult)
   id: EndWrite(System.IAsyncResult)
@@ -964,7 +949,6 @@ references:
   parent: System.IO.Stream
   isExternal: false
   href: System.IO.Stream.yml
-  name: Null
   fullName: System.IO.Stream.Null
 - uid: System.IO.Stream.CanTimeout
   parent: System.IO.Stream

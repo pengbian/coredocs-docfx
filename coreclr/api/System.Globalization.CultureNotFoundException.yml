@@ -250,7 +250,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Globalization.CultureNotFoundException.Message
   id: Message
   parent: System.Globalization.CultureNotFoundException
@@ -271,7 +270,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.ArgumentException.Message
 references:
 - uid: System.Globalization

@@ -147,7 +147,6 @@ items:
     content.vb: Public Overridable Function GetToken As ParameterToken
     return:
       type: System.Reflection.Emit.ParameterToken
-      description: 
 - uid: System.Reflection.Emit.ParameterBuilder.Name
   id: Name
   parent: System.Reflection.Emit.ParameterBuilder
@@ -168,7 +167,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.Emit.ParameterBuilder.Position
   id: Position
   parent: System.Reflection.Emit.ParameterBuilder
@@ -189,7 +187,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ParameterBuilder.Attributes
   id: Attributes
   parent: System.Reflection.Emit.ParameterBuilder
@@ -210,7 +207,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Reflection.Emit.ParameterBuilder.IsIn
   id: IsIn
   parent: System.Reflection.Emit.ParameterBuilder
@@ -231,7 +227,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.ParameterBuilder.IsOut
   id: IsOut
   parent: System.Reflection.Emit.ParameterBuilder
@@ -252,7 +247,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.Emit.ParameterBuilder.IsOptional
   id: IsOptional
   parent: System.Reflection.Emit.ParameterBuilder
@@ -273,7 +267,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

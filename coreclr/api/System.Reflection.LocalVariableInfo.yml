@@ -71,7 +71,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.LocalVariableInfo.LocalType
   id: LocalType
@@ -93,7 +92,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.LocalVariableInfo.IsPinned
   id: IsPinned
   parent: System.Reflection.LocalVariableInfo
@@ -114,7 +112,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.LocalVariableInfo.LocalIndex
   id: LocalIndex
   parent: System.Reflection.LocalVariableInfo
@@ -135,7 +132,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

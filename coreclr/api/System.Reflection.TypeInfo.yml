@@ -250,7 +250,6 @@ items:
     content.vb: Function System.Reflection.IReflectableType.GetTypeInfo As TypeInfo Implements IReflectableType.GetTypeInfo
     return:
       type: System.Reflection.TypeInfo
-      description: 
 - uid: System.Reflection.TypeInfo.AsType
   id: AsType
   parent: System.Reflection.TypeInfo
@@ -270,7 +269,6 @@ items:
     content.vb: Public Overridable Function AsType As Type
     return:
       type: System.Type
-      description: 
 - uid: System.Reflection.TypeInfo.GenericTypeParameters
   id: GenericTypeParameters
   parent: System.Reflection.TypeInfo
@@ -291,7 +289,6 @@ items:
     parameters: []
     return:
       type: System.Type[]
-      description: 
 - uid: System.Reflection.TypeInfo.IsAssignableFrom(System.Reflection.TypeInfo)
   id: IsAssignableFrom(System.Reflection.TypeInfo)
   parent: System.Reflection.TypeInfo
@@ -314,7 +311,6 @@ items:
       type: System.Reflection.TypeInfo
     return:
       type: System.Boolean
-      description: 
 - uid: System.Reflection.TypeInfo.GetDeclaredEvent(System.String)
   id: GetDeclaredEvent(System.String)
   parent: System.Reflection.TypeInfo
@@ -337,7 +333,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.EventInfo
-      description: 
 - uid: System.Reflection.TypeInfo.GetDeclaredField(System.String)
   id: GetDeclaredField(System.String)
   parent: System.Reflection.TypeInfo
@@ -360,7 +355,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.FieldInfo
-      description: 
 - uid: System.Reflection.TypeInfo.GetDeclaredMethod(System.String)
   id: GetDeclaredMethod(System.String)
   parent: System.Reflection.TypeInfo
@@ -383,7 +377,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Reflection.TypeInfo.GetDeclaredMethods(System.String)
   id: GetDeclaredMethods(System.String)
   parent: System.Reflection.TypeInfo
@@ -406,7 +399,6 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.GetDeclaredNestedType(System.String)
   id: GetDeclaredNestedType(System.String)
   parent: System.Reflection.TypeInfo
@@ -429,7 +421,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.TypeInfo
-      description: 
 - uid: System.Reflection.TypeInfo.GetDeclaredProperty(System.String)
   id: GetDeclaredProperty(System.String)
   parent: System.Reflection.TypeInfo
@@ -452,7 +443,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.PropertyInfo
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredConstructors
   id: DeclaredConstructors
   parent: System.Reflection.TypeInfo
@@ -473,7 +463,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.ConstructorInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredEvents
   id: DeclaredEvents
   parent: System.Reflection.TypeInfo
@@ -494,7 +483,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.EventInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredFields
   id: DeclaredFields
   parent: System.Reflection.TypeInfo
@@ -515,7 +503,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.FieldInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredMembers
   id: DeclaredMembers
   parent: System.Reflection.TypeInfo
@@ -536,7 +523,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredMethods
   id: DeclaredMethods
   parent: System.Reflection.TypeInfo
@@ -557,7 +543,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredNestedTypes
   id: DeclaredNestedTypes
   parent: System.Reflection.TypeInfo
@@ -578,7 +563,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.DeclaredProperties
   id: DeclaredProperties
   parent: System.Reflection.TypeInfo
@@ -599,7 +583,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
-      description: 
 - uid: System.Reflection.TypeInfo.ImplementedInterfaces
   id: ImplementedInterfaces
   parent: System.Reflection.TypeInfo
@@ -620,7 +603,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{System.Type}
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

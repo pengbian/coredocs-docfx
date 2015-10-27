@@ -94,7 +94,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.StreamingContext.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Runtime.Serialization.StreamingContext
@@ -117,7 +116,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Runtime.Serialization.StreamingContext.GetHashCode
   id: GetHashCode
@@ -138,7 +136,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Runtime.Serialization.StreamingContext.State
   id: State
@@ -160,7 +157,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.Serialization.StreamingContextStates
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

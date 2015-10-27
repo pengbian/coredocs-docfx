@@ -384,7 +384,6 @@ items:
     parameters:
     - id: eventSource
       type: System.Diagnostics.Tracing.EventSource
-      description: 
 - uid: System.Diagnostics.Tracing.EventListener.OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs)
   id: OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs)
   parent: System.Diagnostics.Tracing.EventListener

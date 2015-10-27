@@ -50,7 +50,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Threading.LockCookie.Equals(System.Object)
   id: Equals(System.Object)
@@ -74,7 +73,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Threading.LockCookie.Equals(System.Threading.LockCookie)
   id: Equals(System.Threading.LockCookie)
@@ -98,7 +96,6 @@ items:
       type: System.Threading.LockCookie
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.LockCookie.op_Equality(System.Threading.LockCookie,System.Threading.LockCookie)
   id: op_Equality(System.Threading.LockCookie,System.Threading.LockCookie)
   parent: System.Threading.LockCookie
@@ -123,7 +120,6 @@ items:
       type: System.Threading.LockCookie
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.LockCookie.op_Inequality(System.Threading.LockCookie,System.Threading.LockCookie)
   id: op_Inequality(System.Threading.LockCookie,System.Threading.LockCookie)
   parent: System.Threading.LockCookie
@@ -148,7 +144,6 @@ items:
       type: System.Threading.LockCookie
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

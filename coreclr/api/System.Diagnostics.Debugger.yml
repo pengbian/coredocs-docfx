@@ -92,7 +92,6 @@ items:
     content.vb: Public Shared Function Launch As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.Debugger.NotifyOfCrossThreadDependency
   id: NotifyOfCrossThreadDependency
   parent: System.Diagnostics.Debugger
@@ -129,7 +128,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Diagnostics.Debugger.DefaultCategory
   id: DefaultCategory
   parent: System.Diagnostics.Debugger
@@ -188,7 +186,6 @@ items:
     content.vb: Public Shared Function IsLogging As Boolean
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

@@ -57,7 +57,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator.System#Collections#IEnumerator#Current
   id: System#Collections#IEnumerator#Current
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator
@@ -98,7 +97,6 @@ items:
     content.vb: Public Function MoveNext As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator.Reset
   id: Reset
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator

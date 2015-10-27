@@ -49,7 +49,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

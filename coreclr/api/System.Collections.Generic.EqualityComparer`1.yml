@@ -64,7 +64,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.EqualityComparer`1
-      description: 
 - uid: System.Collections.Generic.EqualityComparer`1.Equals(`0,`0)
   id: Equals(`0,`0)
   parent: System.Collections.Generic.EqualityComparer`1
@@ -90,7 +89,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.Generic.EqualityComparer`1.GetHashCode(`0)
   id: GetHashCode(`0)
   parent: System.Collections.Generic.EqualityComparer`1
@@ -114,7 +112,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.EqualityComparer`1.System#Collections#IEqualityComparer#GetHashCode(System.Object)
   id: System#Collections#IEqualityComparer#GetHashCode(System.Object)
   parent: System.Collections.Generic.EqualityComparer`1
@@ -139,7 +136,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.Generic.EqualityComparer`1.System#Collections#IEqualityComparer#Equals(System.Object,System.Object)
   id: System#Collections#IEqualityComparer#Equals(System.Object,System.Object)
   parent: System.Collections.Generic.EqualityComparer`1
@@ -166,7 +162,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Collections.Generic
   isExternal: false

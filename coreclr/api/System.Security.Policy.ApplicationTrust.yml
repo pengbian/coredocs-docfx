@@ -100,7 +100,6 @@ items:
     parameters: []
     return:
       type: System.Security.Policy.PolicyStatement
-      description: 
 - uid: System.Security.Policy.ApplicationTrust.FullTrustAssemblies
   id: FullTrustAssemblies
   parent: System.Security.Policy.ApplicationTrust
@@ -121,7 +120,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{System.Security.Policy.StrongName}
-      description: 
 - uid: System.Security.Policy.ApplicationTrust.Clone
   id: Clone
   parent: System.Security.Policy.ApplicationTrust
@@ -141,7 +139,6 @@ items:
     content.vb: Public Overrides Function Clone As EvidenceBase
     return:
       type: System.Security.Policy.EvidenceBase
-      description: 
   overridden: System.Security.Policy.EvidenceBase.Clone
 references:
 - uid: System.Security.Policy

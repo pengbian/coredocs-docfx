@@ -241,7 +241,6 @@ items:
       type: System.String
     return:
       type: System.Guid
-      description: 
 - uid: System.Guid.TryParse(System.String,System.Guid@)
   id: TryParse(System.String,System.Guid@)
   parent: System.Guid
@@ -268,7 +267,6 @@ items:
       type: System.Guid
     return:
       type: System.Boolean
-      description: 
 - uid: System.Guid.ParseExact(System.String,System.String)
   id: ParseExact(System.String,System.String)
   parent: System.Guid
@@ -293,7 +291,6 @@ items:
       type: System.String
     return:
       type: System.Guid
-      description: 
 - uid: System.Guid.TryParseExact(System.String,System.String,System.Guid@)
   id: TryParseExact(System.String,System.String,System.Guid@)
   parent: System.Guid
@@ -322,7 +319,6 @@ items:
       type: System.Guid
     return:
       type: System.Boolean
-      description: 
 - uid: System.Guid.ToByteArray
   id: ToByteArray
   parent: System.Guid
@@ -342,7 +338,6 @@ items:
     content.vb: Public Function ToByteArray As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Guid.ToString
   id: ToString
   parent: System.Guid
@@ -362,7 +357,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.Guid.GetHashCode
   id: GetHashCode
@@ -383,7 +377,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.Guid.Equals(System.Object)
   id: Equals(System.Object)
@@ -407,7 +400,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.Guid.Equals(System.Guid)
   id: Equals(System.Guid)
@@ -431,7 +423,6 @@ items:
       type: System.Guid
     return:
       type: System.Boolean
-      description: 
 - uid: System.Guid.CompareTo(System.Object)
   id: CompareTo(System.Object)
   parent: System.Guid
@@ -454,7 +445,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Guid.CompareTo(System.Guid)
   id: CompareTo(System.Guid)
   parent: System.Guid
@@ -477,7 +467,6 @@ items:
       type: System.Guid
     return:
       type: System.Int32
-      description: 
 - uid: System.Guid.op_Equality(System.Guid,System.Guid)
   id: op_Equality(System.Guid,System.Guid)
   parent: System.Guid
@@ -502,7 +491,6 @@ items:
       type: System.Guid
     return:
       type: System.Boolean
-      description: 
 - uid: System.Guid.op_Inequality(System.Guid,System.Guid)
   id: op_Inequality(System.Guid,System.Guid)
   parent: System.Guid
@@ -527,7 +515,6 @@ items:
       type: System.Guid
     return:
       type: System.Boolean
-      description: 
 - uid: System.Guid.NewGuid
   id: NewGuid
   parent: System.Guid
@@ -547,7 +534,6 @@ items:
     content.vb: Public Shared Function NewGuid As Guid
     return:
       type: System.Guid
-      description: 
 - uid: System.Guid.ToString(System.String)
   id: ToString(System.String)
   parent: System.Guid
@@ -570,7 +556,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Guid.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.Guid
@@ -595,7 +580,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 references:
 - uid: System
   isExternal: false

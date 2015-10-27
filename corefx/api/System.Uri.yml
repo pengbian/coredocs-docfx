@@ -183,7 +183,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.AbsoluteUri
   id: AbsoluteUri
   parent: System.Uri
@@ -204,7 +203,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.LocalPath
   id: LocalPath
   parent: System.Uri
@@ -225,7 +223,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.Authority
   id: Authority
   parent: System.Uri
@@ -246,7 +243,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.HostNameType
   id: HostNameType
   parent: System.Uri
@@ -267,7 +263,6 @@ items:
     parameters: []
     return:
       type: System.UriHostNameType
-      description: 
 - uid: System.Uri.IsDefaultPort
   id: IsDefaultPort
   parent: System.Uri
@@ -288,7 +283,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.IsFile
   id: IsFile
   parent: System.Uri
@@ -309,7 +303,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.IsLoopback
   id: IsLoopback
   parent: System.Uri
@@ -330,7 +323,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.PathAndQuery
   id: PathAndQuery
   parent: System.Uri
@@ -351,7 +343,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.Segments
   id: Segments
   parent: System.Uri
@@ -372,7 +363,6 @@ items:
     parameters: []
     return:
       type: System.String[]
-      description: 
 - uid: System.Uri.IsUnc
   id: IsUnc
   parent: System.Uri
@@ -393,7 +383,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.Host
   id: Host
   parent: System.Uri
@@ -414,7 +403,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.Port
   id: Port
   parent: System.Uri
@@ -435,7 +423,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Uri.Query
   id: Query
   parent: System.Uri
@@ -456,7 +443,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.Fragment
   id: Fragment
   parent: System.Uri
@@ -477,7 +463,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.Scheme
   id: Scheme
   parent: System.Uri
@@ -498,7 +483,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.OriginalString
   id: OriginalString
   parent: System.Uri
@@ -519,7 +503,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.DnsSafeHost
   id: DnsSafeHost
   parent: System.Uri
@@ -540,7 +523,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.IdnHost
   id: IdnHost
   parent: System.Uri
@@ -561,7 +543,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.IsAbsoluteUri
   id: IsAbsoluteUri
   parent: System.Uri
@@ -582,7 +563,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.UserEscaped
   id: UserEscaped
   parent: System.Uri
@@ -603,7 +583,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.UserInfo
   id: UserInfo
   parent: System.Uri
@@ -624,7 +603,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Uri.CheckHostName(System.String)
   id: CheckHostName(System.String)
   parent: System.Uri
@@ -647,7 +625,6 @@ items:
       type: System.String
     return:
       type: System.UriHostNameType
-      description: 
 - uid: System.Uri.CheckSchemeName(System.String)
   id: CheckSchemeName(System.String)
   parent: System.Uri
@@ -670,7 +647,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.GetHashCode
   id: GetHashCode
   parent: System.Uri
@@ -690,7 +666,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Uri.ToString
   id: ToString
@@ -711,7 +686,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Uri.op_Equality(System.Uri,System.Uri)
   id: op_Equality(System.Uri,System.Uri)
@@ -737,7 +711,6 @@ items:
       type: System.Uri
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.op_Inequality(System.Uri,System.Uri)
   id: op_Inequality(System.Uri,System.Uri)
   parent: System.Uri
@@ -762,7 +735,6 @@ items:
       type: System.Uri
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Uri
@@ -785,7 +757,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Uri.MakeRelativeUri(System.Uri)
   id: MakeRelativeUri(System.Uri)
@@ -809,7 +780,6 @@ items:
       type: System.Uri
     return:
       type: System.Uri
-      description: 
 - uid: System.Uri.TryCreate(System.String,System.UriKind,System.Uri@)
   id: TryCreate(System.String,System.UriKind,System.Uri@)
   parent: System.Uri
@@ -838,7 +808,6 @@ items:
       type: System.Uri
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.TryCreate(System.Uri,System.String,System.Uri@)
   id: TryCreate(System.Uri,System.String,System.Uri@)
   parent: System.Uri
@@ -867,7 +836,6 @@ items:
       type: System.Uri
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@)
   id: TryCreate(System.Uri,System.Uri,System.Uri@)
   parent: System.Uri
@@ -896,7 +864,6 @@ items:
       type: System.Uri
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.GetComponents(System.UriComponents,System.UriFormat)
   id: GetComponents(System.UriComponents,System.UriFormat)
   parent: System.Uri
@@ -921,7 +888,6 @@ items:
       type: System.UriFormat
     return:
       type: System.String
-      description: 
 - uid: System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison)
   id: Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison)
   parent: System.Uri
@@ -952,7 +918,6 @@ items:
       type: System.StringComparison
     return:
       type: System.Int32
-      description: 
 - uid: System.Uri.IsWellFormedOriginalString
   id: IsWellFormedOriginalString
   parent: System.Uri
@@ -972,7 +937,6 @@ items:
     content.vb: Public Function IsWellFormedOriginalString As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.IsWellFormedUriString(System.String,System.UriKind)
   id: IsWellFormedUriString(System.String,System.UriKind)
   parent: System.Uri
@@ -997,7 +961,6 @@ items:
       type: System.UriKind
     return:
       type: System.Boolean
-      description: 
 - uid: System.Uri.UnescapeDataString(System.String)
   id: UnescapeDataString(System.String)
   parent: System.Uri
@@ -1020,7 +983,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Uri.EscapeUriString(System.String)
   id: EscapeUriString(System.String)
   parent: System.Uri
@@ -1043,7 +1005,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Uri.EscapeDataString(System.String)
   id: EscapeDataString(System.String)
   parent: System.Uri
@@ -1066,7 +1027,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.Uri.IsBaseOf(System.Uri)
   id: IsBaseOf(System.Uri)
   parent: System.Uri
@@ -1089,7 +1049,6 @@ items:
       type: System.Uri
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

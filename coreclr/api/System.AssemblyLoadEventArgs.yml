@@ -55,7 +55,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.AssemblyLoadEventArgs.#ctor(System.Reflection.Assembly)
   id: '#ctor(System.Reflection.Assembly)'
   parent: System.AssemblyLoadEventArgs

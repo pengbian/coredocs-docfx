@@ -120,7 +120,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.UInt32.CompareTo(System.UInt32)
   id: CompareTo(System.UInt32)
   parent: System.UInt32
@@ -143,7 +142,6 @@ items:
       type: System.UInt32
     return:
       type: System.Int32
-      description: 
 - uid: System.UInt32.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.UInt32
@@ -166,7 +164,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.ValueType.Equals(System.Object)
 - uid: System.UInt32.Equals(System.UInt32)
   id: Equals(System.UInt32)
@@ -190,7 +187,6 @@ items:
       type: System.UInt32
     return:
       type: System.Boolean
-      description: 
 - uid: System.UInt32.GetHashCode
   id: GetHashCode
   parent: System.UInt32
@@ -210,7 +206,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.ValueType.GetHashCode
 - uid: System.UInt32.ToString
   id: ToString
@@ -231,7 +226,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.ValueType.ToString
 - uid: System.UInt32.ToString(System.IFormatProvider)
   id: ToString(System.IFormatProvider)
@@ -255,7 +249,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.UInt32.ToString(System.String)
   id: ToString(System.String)
   parent: System.UInt32
@@ -278,7 +271,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.UInt32.ToString(System.String,System.IFormatProvider)
   id: ToString(System.String,System.IFormatProvider)
   parent: System.UInt32
@@ -303,7 +295,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.String
-      description: 
 - uid: System.UInt32.Parse(System.String)
   id: Parse(System.String)
   parent: System.UInt32
@@ -326,7 +317,6 @@ items:
       type: System.String
     return:
       type: System.UInt32
-      description: 
 - uid: System.UInt32.Parse(System.String,System.Globalization.NumberStyles)
   id: Parse(System.String,System.Globalization.NumberStyles)
   parent: System.UInt32
@@ -351,7 +341,6 @@ items:
       type: System.Globalization.NumberStyles
     return:
       type: System.UInt32
-      description: 
 - uid: System.UInt32.Parse(System.String,System.IFormatProvider)
   id: Parse(System.String,System.IFormatProvider)
   parent: System.UInt32
@@ -376,7 +365,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.UInt32
-      description: 
 - uid: System.UInt32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   id: Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
   parent: System.UInt32
@@ -403,7 +391,6 @@ items:
       type: System.IFormatProvider
     return:
       type: System.UInt32
-      description: 
 - uid: System.UInt32.TryParse(System.String,System.UInt32@)
   id: TryParse(System.String,System.UInt32@)
   parent: System.UInt32
@@ -430,7 +417,6 @@ items:
       type: System.UInt32
     return:
       type: System.Boolean
-      description: 
 - uid: System.UInt32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)
   id: TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)
   parent: System.UInt32
@@ -461,7 +447,6 @@ items:
       type: System.UInt32
     return:
       type: System.Boolean
-      description: 
 - uid: System.UInt32.GetTypeCode
   id: GetTypeCode
   parent: System.UInt32
@@ -481,7 +466,6 @@ items:
     content.vb: Public Function GetTypeCode As TypeCode
     return:
       type: System.TypeCode
-      description: 
 - uid: System.UInt32.System#IConvertible#ToBoolean(System.IFormatProvider)
   id: System#IConvertible#ToBoolean(System.IFormatProvider)
   parent: System.UInt32

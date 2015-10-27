@@ -163,7 +163,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetDirectoryName(System.String)
   id: GetDirectoryName(System.String)
   parent: System.IO.Path
@@ -186,7 +185,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetInvalidPathChars
   id: GetInvalidPathChars
   parent: System.IO.Path
@@ -206,7 +204,6 @@ items:
     content.vb: Public Shared Function GetInvalidPathChars As Char()
     return:
       type: System.Char[]
-      description: 
 - uid: System.IO.Path.GetInvalidFileNameChars
   id: GetInvalidFileNameChars
   parent: System.IO.Path
@@ -226,7 +223,6 @@ items:
     content.vb: Public Shared Function GetInvalidFileNameChars As Char()
     return:
       type: System.Char[]
-      description: 
 - uid: System.IO.Path.GetExtension(System.String)
   id: GetExtension(System.String)
   parent: System.IO.Path
@@ -249,7 +245,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetFullPath(System.String)
   id: GetFullPath(System.String)
   parent: System.IO.Path
@@ -272,7 +267,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetFileName(System.String)
   id: GetFileName(System.String)
   parent: System.IO.Path
@@ -295,7 +289,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetFileNameWithoutExtension(System.String)
   id: GetFileNameWithoutExtension(System.String)
   parent: System.IO.Path
@@ -318,7 +311,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetPathRoot(System.String)
   id: GetPathRoot(System.String)
   parent: System.IO.Path
@@ -341,7 +333,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetTempPath
   id: GetTempPath
   parent: System.IO.Path
@@ -361,7 +352,6 @@ items:
     content.vb: Public Shared Function GetTempPath As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetRandomFileName
   id: GetRandomFileName
   parent: System.IO.Path
@@ -381,7 +371,6 @@ items:
     content.vb: Public Shared Function GetRandomFileName As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.GetTempFileName
   id: GetTempFileName
   parent: System.IO.Path
@@ -401,7 +390,6 @@ items:
     content.vb: Public Shared Function GetTempFileName As String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.HasExtension(System.String)
   id: HasExtension(System.String)
   parent: System.IO.Path
@@ -424,7 +412,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.Path.IsPathRooted(System.String)
   id: IsPathRooted(System.String)
   parent: System.IO.Path
@@ -447,7 +434,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.Path.Combine(System.String,System.String)
   id: Combine(System.String,System.String)
   parent: System.IO.Path
@@ -472,7 +458,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.Combine(System.String,System.String,System.String)
   id: Combine(System.String,System.String,System.String)
   parent: System.IO.Path
@@ -499,7 +484,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.Combine(System.String,System.String,System.String,System.String)
   id: Combine(System.String,System.String,System.String,System.String)
   parent: System.IO.Path
@@ -528,7 +512,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 - uid: System.IO.Path.Combine(System.String[])
   id: Combine(System.String[])
   parent: System.IO.Path
@@ -553,7 +536,6 @@ items:
       type: System.String[]
     return:
       type: System.String
-      description: 
 references:
 - uid: System.IO
   isExternal: false

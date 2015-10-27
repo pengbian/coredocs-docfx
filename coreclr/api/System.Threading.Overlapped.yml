@@ -134,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.IAsyncResult
-      description: 
 - uid: System.Threading.Overlapped.OffsetLow
   id: OffsetLow
   parent: System.Threading.Overlapped
@@ -155,7 +154,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Overlapped.OffsetHigh
   id: OffsetHigh
   parent: System.Threading.Overlapped
@@ -176,7 +174,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Overlapped.EventHandle
   id: EventHandle
   parent: System.Threading.Overlapped
@@ -197,7 +194,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Overlapped.EventHandleIntPtr
   id: EventHandleIntPtr
   parent: System.Threading.Overlapped
@@ -218,7 +214,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback)
   id: Pack(System.Threading.IOCompletionCallback)
   parent: System.Threading.Overlapped
@@ -241,7 +236,6 @@ items:
       type: System.Threading.IOCompletionCallback
     return:
       type: System.Threading.NativeOverlapped*
-      description: 
 - uid: System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback,System.Object)
   id: Pack(System.Threading.IOCompletionCallback,System.Object)
   parent: System.Threading.Overlapped
@@ -266,7 +260,6 @@ items:
       type: System.Object
     return:
       type: System.Threading.NativeOverlapped*
-      description: 
 - uid: System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback)
   id: UnsafePack(System.Threading.IOCompletionCallback)
   parent: System.Threading.Overlapped
@@ -289,7 +282,6 @@ items:
       type: System.Threading.IOCompletionCallback
     return:
       type: System.Threading.NativeOverlapped*
-      description: 
 - uid: System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback,System.Object)
   id: UnsafePack(System.Threading.IOCompletionCallback,System.Object)
   parent: System.Threading.Overlapped
@@ -314,7 +306,6 @@ items:
       type: System.Object
     return:
       type: System.Threading.NativeOverlapped*
-      description: 
 - uid: System.Threading.Overlapped.Unpack(System.Threading.NativeOverlapped*)
   id: Unpack(System.Threading.NativeOverlapped*)
   parent: System.Threading.Overlapped
@@ -337,7 +328,6 @@ items:
       type: System.Threading.NativeOverlapped*
     return:
       type: System.Threading.Overlapped
-      description: 
 - uid: System.Threading.Overlapped.Free(System.Threading.NativeOverlapped*)
   id: Free(System.Threading.NativeOverlapped*)
   parent: System.Threading.Overlapped

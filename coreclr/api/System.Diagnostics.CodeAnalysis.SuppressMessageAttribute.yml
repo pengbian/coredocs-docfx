@@ -118,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.CheckId
   id: CheckId
   parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
@@ -139,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope
   id: Scope
   parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
@@ -160,7 +158,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Target
   id: Target
   parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
@@ -181,7 +178,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.MessageId
   id: MessageId
   parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
@@ -202,7 +198,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Justification
   id: Justification
   parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
@@ -223,7 +218,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Diagnostics.CodeAnalysis
   isExternal: false

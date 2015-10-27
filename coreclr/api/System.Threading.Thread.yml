@@ -202,7 +202,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Threading.Thread.ManagedThreadId
   id: ManagedThreadId
@@ -223,7 +222,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Thread.Start
   id: Start
   parent: System.Threading.Thread
@@ -298,7 +296,6 @@ items:
     parameters: []
     return:
       type: System.Threading.ThreadPriority
-      description: 
 - uid: System.Threading.Thread.IsAlive
   id: IsAlive
   parent: System.Threading.Thread
@@ -318,7 +315,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.IsThreadPoolThread
   id: IsThreadPoolThread
   parent: System.Threading.Thread
@@ -338,7 +334,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.Join
   id: Join
   parent: System.Threading.Thread
@@ -378,7 +373,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.Join(System.TimeSpan)
   id: Join(System.TimeSpan)
   parent: System.Threading.Thread
@@ -401,7 +395,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.Sleep(System.Int32)
   id: Sleep(System.Int32)
   parent: System.Threading.Thread
@@ -481,7 +474,6 @@ items:
     content.vb: Public Shared Function Yield As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.CurrentThread
   id: CurrentThread
   parent: System.Threading.Thread
@@ -502,7 +494,6 @@ items:
     parameters: []
     return:
       type: System.Threading.Thread
-      description: 
 - uid: System.Threading.Thread.Finalize
   id: Finalize
   parent: System.Threading.Thread
@@ -556,7 +547,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.ThreadState
   id: ThreadState
   parent: System.Threading.Thread
@@ -577,7 +567,6 @@ items:
     parameters: []
     return:
       type: System.Threading.ThreadState
-      description: 
 - uid: System.Threading.Thread.ApartmentState
   id: ApartmentState
   parent: System.Threading.Thread
@@ -598,7 +587,6 @@ items:
     parameters: []
     return:
       type: System.Threading.ApartmentState
-      description: 
 - uid: System.Threading.Thread.GetApartmentState
   id: GetApartmentState
   parent: System.Threading.Thread
@@ -618,7 +606,6 @@ items:
     content.vb: Public Function GetApartmentState As ApartmentState
     return:
       type: System.Threading.ApartmentState
-      description: 
 - uid: System.Threading.Thread.TrySetApartmentState(System.Threading.ApartmentState)
   id: TrySetApartmentState(System.Threading.ApartmentState)
   parent: System.Threading.Thread
@@ -641,7 +628,6 @@ items:
       type: System.Threading.ApartmentState
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Thread.SetApartmentState(System.Threading.ApartmentState)
   id: SetApartmentState(System.Threading.ApartmentState)
   parent: System.Threading.Thread
@@ -681,7 +667,6 @@ items:
     content.vb: Public Shared Function AllocateDataSlot As LocalDataStoreSlot
     return:
       type: System.LocalDataStoreSlot
-      description: 
 - uid: System.Threading.Thread.AllocateNamedDataSlot(System.String)
   id: AllocateNamedDataSlot(System.String)
   parent: System.Threading.Thread
@@ -704,7 +689,6 @@ items:
       type: System.String
     return:
       type: System.LocalDataStoreSlot
-      description: 
 - uid: System.Threading.Thread.GetNamedDataSlot(System.String)
   id: GetNamedDataSlot(System.String)
   parent: System.Threading.Thread
@@ -727,7 +711,6 @@ items:
       type: System.String
     return:
       type: System.LocalDataStoreSlot
-      description: 
 - uid: System.Threading.Thread.FreeNamedDataSlot(System.String)
   id: FreeNamedDataSlot(System.String)
   parent: System.Threading.Thread
@@ -770,7 +753,6 @@ items:
       type: System.LocalDataStoreSlot
     return:
       type: System.Object
-      description: 
 - uid: System.Threading.Thread.SetData(System.LocalDataStoreSlot,System.Object)
   id: SetData(System.LocalDataStoreSlot,System.Object)
   parent: System.Threading.Thread
@@ -813,7 +795,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Threading.Thread.CurrentCulture
   id: CurrentCulture
   parent: System.Threading.Thread
@@ -834,7 +815,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Threading.Thread.GetDomain
   id: GetDomain
   parent: System.Threading.Thread
@@ -854,7 +834,6 @@ items:
     content.vb: Public Shared Function GetDomain As AppDomain
     return:
       type: System.AppDomain
-      description: 
 - uid: System.Threading.Thread.GetDomainID
   id: GetDomainID
   parent: System.Threading.Thread
@@ -874,7 +853,6 @@ items:
     content.vb: Public Shared Function GetDomainID As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Thread.Name
   id: Name
   parent: System.Threading.Thread
@@ -895,7 +873,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Byte@)
   id: VolatileRead(System.Byte@)
   parent: System.Threading.Thread
@@ -920,7 +897,6 @@ items:
       type: System.Byte
     return:
       type: System.Byte
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Int16@)
   id: VolatileRead(System.Int16@)
   parent: System.Threading.Thread
@@ -945,7 +921,6 @@ items:
       type: System.Int16
     return:
       type: System.Int16
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Int32@)
   id: VolatileRead(System.Int32@)
   parent: System.Threading.Thread
@@ -970,7 +945,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Int64@)
   id: VolatileRead(System.Int64@)
   parent: System.Threading.Thread
@@ -995,7 +969,6 @@ items:
       type: System.Int64
     return:
       type: System.Int64
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.SByte@)
   id: VolatileRead(System.SByte@)
   parent: System.Threading.Thread
@@ -1020,7 +993,6 @@ items:
       type: System.SByte
     return:
       type: System.SByte
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.UInt16@)
   id: VolatileRead(System.UInt16@)
   parent: System.Threading.Thread
@@ -1045,7 +1017,6 @@ items:
       type: System.UInt16
     return:
       type: System.UInt16
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.UInt32@)
   id: VolatileRead(System.UInt32@)
   parent: System.Threading.Thread
@@ -1070,7 +1041,6 @@ items:
       type: System.UInt32
     return:
       type: System.UInt32
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.IntPtr@)
   id: VolatileRead(System.IntPtr@)
   parent: System.Threading.Thread
@@ -1095,7 +1065,6 @@ items:
       type: System.IntPtr
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.UIntPtr@)
   id: VolatileRead(System.UIntPtr@)
   parent: System.Threading.Thread
@@ -1120,7 +1089,6 @@ items:
       type: System.UIntPtr
     return:
       type: System.UIntPtr
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.UInt64@)
   id: VolatileRead(System.UInt64@)
   parent: System.Threading.Thread
@@ -1145,7 +1113,6 @@ items:
       type: System.UInt64
     return:
       type: System.UInt64
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Single@)
   id: VolatileRead(System.Single@)
   parent: System.Threading.Thread
@@ -1170,7 +1137,6 @@ items:
       type: System.Single
     return:
       type: System.Single
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Double@)
   id: VolatileRead(System.Double@)
   parent: System.Threading.Thread
@@ -1195,7 +1161,6 @@ items:
       type: System.Double
     return:
       type: System.Double
-      description: 
 - uid: System.Threading.Thread.VolatileRead(System.Object@)
   id: VolatileRead(System.Object@)
   parent: System.Threading.Thread
@@ -1220,7 +1185,6 @@ items:
       type: System.Object
     return:
       type: System.Object
-      description: 
 - uid: System.Threading.Thread.VolatileWrite(System.Byte@,System.Byte)
   id: VolatileWrite(System.Byte@,System.Byte)
   parent: System.Threading.Thread

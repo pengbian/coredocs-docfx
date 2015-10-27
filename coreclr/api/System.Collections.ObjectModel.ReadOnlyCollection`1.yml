@@ -116,7 +116,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Item(System.Int32)
   id: Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -141,7 +140,6 @@ items:
       type: System.Int32
     return:
       type: '{T}'
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Contains(`0)
   id: Contains(`0)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -165,7 +163,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.CopyTo(`0[],System.Int32)
   id: CopyTo(`0[],System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -210,7 +207,6 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator(Of T)
     return:
       type: System.Collections.Generic.IEnumerator{{T}}
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.IndexOf(`0)
   id: IndexOf(`0)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -234,7 +230,6 @@ items:
       type: '{T}'
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.Items
   id: Items
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -256,7 +251,6 @@ items:
     parameters: []
     return:
       type: System.Collections.Generic.IList{{T}}
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#IsReadOnly
   id: System#Collections#Generic#ICollection{T}#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -279,7 +273,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Item(System.Int32)
   id: System#Collections#Generic#IList{T}#Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -304,7 +297,6 @@ items:
       type: System.Int32
     return:
       type: '{T}'
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Add(`0)
   id: System#Collections#Generic#ICollection{T}#Add(`0)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -394,7 +386,6 @@ items:
       type: '{T}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
   id: System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -438,7 +429,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#IsSynchronized
   id: System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -461,7 +451,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#SyncRoot
   id: System#Collections#ICollection#SyncRoot
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -484,7 +473,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -531,7 +519,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IsReadOnly
   id: System#Collections#IList#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -554,7 +541,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Item(System.Int32)
   id: System#Collections#IList#Item(System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -579,7 +565,6 @@ items:
       type: System.Int32
     return:
       type: System.Object
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Add(System.Object)
   id: System#Collections#IList#Add(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -604,7 +589,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Clear
   id: System#Collections#IList#Clear
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -648,7 +632,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IndexOf(System.Object)
   id: System#Collections#IList#IndexOf(System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1
@@ -673,7 +656,6 @@ items:
       type: System.Object
     return:
       type: System.Int32
-      description: 
 - uid: System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Insert(System.Int32,System.Object)
   id: System#Collections#IList#Insert(System.Int32,System.Object)
   parent: System.Collections.ObjectModel.ReadOnlyCollection`1

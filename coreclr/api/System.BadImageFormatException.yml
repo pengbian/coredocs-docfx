@@ -178,7 +178,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Exception.Message
 - uid: System.BadImageFormatException.FileName
   id: FileName
@@ -200,7 +199,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.BadImageFormatException.ToString
   id: ToString
   parent: System.BadImageFormatException
@@ -220,7 +218,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Exception.ToString
 - uid: System.BadImageFormatException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'

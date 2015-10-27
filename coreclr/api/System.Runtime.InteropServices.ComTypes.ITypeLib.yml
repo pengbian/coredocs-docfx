@@ -50,7 +50,6 @@ items:
     content.vb: Function GetTypeInfoCount As Integer
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib.GetTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo@)
   id: GetTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib
@@ -221,7 +220,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib.FindName(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16@)
   id: FindName(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib

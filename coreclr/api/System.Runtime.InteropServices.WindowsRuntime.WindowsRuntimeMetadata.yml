@@ -60,7 +60,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   id: ResolveNamespace(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata
@@ -89,7 +88,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: 
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.DesignerNamespaceResolve
   id: DesignerNamespaceResolve
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata

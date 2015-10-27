@@ -89,7 +89,6 @@ items:
     parameters: []
     return:
       type: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
-      description: 
 - uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.IsInvalid
   id: IsInvalid
   parent: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
@@ -110,7 +109,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.IsInvalid
 - uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.ReleaseHandle
   id: ReleaseHandle
@@ -131,7 +129,6 @@ items:
     content.vb: Protected Overrides Function ReleaseHandle As Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
 references:
 - uid: Microsoft.Win32.SafeHandles

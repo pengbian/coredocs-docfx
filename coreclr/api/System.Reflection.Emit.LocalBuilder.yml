@@ -59,7 +59,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.LocalVariableInfo.IsPinned
 - uid: System.Reflection.Emit.LocalBuilder.LocalType
   id: LocalType
@@ -81,7 +80,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.LocalVariableInfo.LocalType
 - uid: System.Reflection.Emit.LocalBuilder.LocalIndex
   id: LocalIndex
@@ -103,7 +101,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.LocalVariableInfo.LocalIndex
 - uid: System.Reflection.Emit.LocalBuilder.SetLocalSymInfo(System.String)
   id: SetLocalSymInfo(System.String)

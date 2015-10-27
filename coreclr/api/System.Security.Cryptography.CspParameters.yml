@@ -130,7 +130,6 @@ items:
     parameters: []
     return:
       type: System.Security.Cryptography.CspProviderFlags
-      description: 
 - uid: System.Security.Cryptography.CspParameters.KeyPassword
   id: KeyPassword
   parent: System.Security.Cryptography.CspParameters
@@ -151,7 +150,6 @@ items:
     parameters: []
     return:
       type: System.Security.SecureString
-      description: 
 - uid: System.Security.Cryptography.CspParameters.ParentWindowHandle
   id: ParentWindowHandle
   parent: System.Security.Cryptography.CspParameters
@@ -172,7 +170,6 @@ items:
     parameters: []
     return:
       type: System.IntPtr
-      description: 
 - uid: System.Security.Cryptography.CspParameters.#ctor
   id: '#ctor'
   parent: System.Security.Cryptography.CspParameters

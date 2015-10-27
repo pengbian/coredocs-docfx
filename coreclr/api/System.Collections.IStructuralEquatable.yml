@@ -47,7 +47,6 @@ items:
       type: System.Collections.IEqualityComparer
     return:
       type: System.Boolean
-      description: 
 - uid: System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer)
   id: GetHashCode(System.Collections.IEqualityComparer)
   parent: System.Collections.IStructuralEquatable
@@ -70,7 +69,6 @@ items:
       type: System.Collections.IEqualityComparer
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

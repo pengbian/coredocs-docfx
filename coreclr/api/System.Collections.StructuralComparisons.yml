@@ -53,7 +53,6 @@ items:
     parameters: []
     return:
       type: System.Collections.IComparer
-      description: 
 - uid: System.Collections.StructuralComparisons.StructuralEqualityComparer
   id: StructuralEqualityComparer
   parent: System.Collections.StructuralComparisons
@@ -74,7 +73,6 @@ items:
     parameters: []
     return:
       type: System.Collections.IEqualityComparer
-      description: 
 references:
 - uid: System.Collections
   isExternal: false

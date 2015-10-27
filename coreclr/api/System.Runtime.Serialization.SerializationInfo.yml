@@ -139,7 +139,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.AssemblyName
   id: AssemblyName
   parent: System.Runtime.Serialization.SerializationInfo
@@ -160,7 +159,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.SetType(System.Type)
   id: SetType(System.Type)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -201,7 +199,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.ObjectType
   id: ObjectType
   parent: System.Runtime.Serialization.SerializationInfo
@@ -222,7 +219,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.IsFullTypeNameSetExplicit
   id: IsFullTypeNameSetExplicit
   parent: System.Runtime.Serialization.SerializationInfo
@@ -243,7 +239,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.IsAssemblyNameSetExplicit
   id: IsAssemblyNameSetExplicit
   parent: System.Runtime.Serialization.SerializationInfo
@@ -264,7 +259,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetEnumerator
   id: GetEnumerator
   parent: System.Runtime.Serialization.SerializationInfo
@@ -284,7 +278,6 @@ items:
     content.vb: Public Function GetEnumerator As SerializationInfoEnumerator
     return:
       type: System.Runtime.Serialization.SerializationInfoEnumerator
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Object,System.Type)
   id: AddValue(System.String,System.Object,System.Type)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -663,7 +656,6 @@ items:
       type: System.Type
     return:
       type: System.Object
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetBoolean(System.String)
   id: GetBoolean(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -686,7 +678,6 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetChar(System.String)
   id: GetChar(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -709,7 +700,6 @@ items:
       type: System.String
     return:
       type: System.Char
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetSByte(System.String)
   id: GetSByte(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -732,7 +722,6 @@ items:
       type: System.String
     return:
       type: System.SByte
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetByte(System.String)
   id: GetByte(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -755,7 +744,6 @@ items:
       type: System.String
     return:
       type: System.Byte
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetInt16(System.String)
   id: GetInt16(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -778,7 +766,6 @@ items:
       type: System.String
     return:
       type: System.Int16
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetUInt16(System.String)
   id: GetUInt16(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -801,7 +788,6 @@ items:
       type: System.String
     return:
       type: System.UInt16
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetInt32(System.String)
   id: GetInt32(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -824,7 +810,6 @@ items:
       type: System.String
     return:
       type: System.Int32
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetUInt32(System.String)
   id: GetUInt32(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -847,7 +832,6 @@ items:
       type: System.String
     return:
       type: System.UInt32
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetInt64(System.String)
   id: GetInt64(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -870,7 +854,6 @@ items:
       type: System.String
     return:
       type: System.Int64
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetUInt64(System.String)
   id: GetUInt64(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -893,7 +876,6 @@ items:
       type: System.String
     return:
       type: System.UInt64
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetSingle(System.String)
   id: GetSingle(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -916,7 +898,6 @@ items:
       type: System.String
     return:
       type: System.Single
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetDouble(System.String)
   id: GetDouble(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -939,7 +920,6 @@ items:
       type: System.String
     return:
       type: System.Double
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetDecimal(System.String)
   id: GetDecimal(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -962,7 +942,6 @@ items:
       type: System.String
     return:
       type: System.Decimal
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetDateTime(System.String)
   id: GetDateTime(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -985,7 +964,6 @@ items:
       type: System.String
     return:
       type: System.DateTime
-      description: 
 - uid: System.Runtime.Serialization.SerializationInfo.GetString(System.String)
   id: GetString(System.String)
   parent: System.Runtime.Serialization.SerializationInfo
@@ -1008,7 +986,6 @@ items:
       type: System.String
     return:
       type: System.String
-      description: 
 references:
 - uid: System.Runtime.Serialization
   isExternal: false

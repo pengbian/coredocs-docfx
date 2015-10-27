@@ -479,7 +479,6 @@ items:
     content.vb: Public Shared Function GetSources As IEnumerable(Of EventSource)
     return:
       type: System.Collections.Generic.IEnumerable{System.Diagnostics.Tracing.EventSource}
-      description: 
 - uid: System.Diagnostics.Tracing.EventSource.SendCommand(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary{System.String,System.String})
   id: SendCommand(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary{System.String,System.String})
   parent: System.Diagnostics.Tracing.EventSource

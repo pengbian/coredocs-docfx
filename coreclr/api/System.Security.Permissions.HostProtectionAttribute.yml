@@ -143,7 +143,6 @@ items:
     parameters: []
     return:
       type: System.Security.Permissions.HostProtectionResource
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.Synchronization
   id: Synchronization
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -164,7 +163,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.SharedState
   id: SharedState
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -185,7 +183,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.ExternalProcessMgmt
   id: ExternalProcessMgmt
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -206,7 +203,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.SelfAffectingProcessMgmt
   id: SelfAffectingProcessMgmt
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -227,7 +223,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.ExternalThreading
   id: ExternalThreading
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -248,7 +243,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.SelfAffectingThreading
   id: SelfAffectingThreading
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -269,7 +263,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.SecurityInfrastructure
   id: SecurityInfrastructure
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -290,7 +283,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.UI
   id: UI
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -311,7 +303,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.MayLeakOnAbort
   id: MayLeakOnAbort
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -332,7 +323,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.Permissions.HostProtectionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.HostProtectionAttribute
@@ -352,7 +342,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

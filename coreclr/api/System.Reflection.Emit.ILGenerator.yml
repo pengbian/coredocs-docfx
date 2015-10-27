@@ -549,7 +549,6 @@ items:
     content.vb: Public Overridable Function BeginExceptionBlock As Label
     return:
       type: System.Reflection.Emit.Label
-      description: 
 - uid: System.Reflection.Emit.ILGenerator.EndExceptionBlock
   id: EndExceptionBlock
   parent: System.Reflection.Emit.ILGenerator
@@ -657,7 +656,6 @@ items:
     content.vb: Public Overridable Function DefineLabel As Label
     return:
       type: System.Reflection.Emit.Label
-      description: 
 - uid: System.Reflection.Emit.ILGenerator.MarkLabel(System.Reflection.Emit.Label)
   id: MarkLabel(System.Reflection.Emit.Label)
   parent: System.Reflection.Emit.ILGenerator
@@ -780,7 +778,6 @@ items:
       type: System.Type
     return:
       type: System.Reflection.Emit.LocalBuilder
-      description: 
 - uid: System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type,System.Boolean)
   id: DeclareLocal(System.Type,System.Boolean)
   parent: System.Reflection.Emit.ILGenerator
@@ -805,7 +802,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Emit.LocalBuilder
-      description: 
 - uid: System.Reflection.Emit.ILGenerator.UsingNamespace(System.String)
   id: UsingNamespace(System.String)
   parent: System.Reflection.Emit.ILGenerator
@@ -908,7 +904,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 references:
 - uid: System.Reflection.Emit
   isExternal: false

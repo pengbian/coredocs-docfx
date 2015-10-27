@@ -147,7 +147,6 @@ items:
       type: System.Reflection.Emit.AssemblyBuilderAccess
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.Reflection.Emit.AssemblyBuilder.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
   parent: System.Reflection.Emit.AssemblyBuilder
@@ -176,7 +175,6 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
     return:
       type: System.Reflection.Emit.AssemblyBuilder
-      description: 
 - uid: System.Reflection.Emit.AssemblyBuilder.DefineDynamicModule(System.String)
   id: DefineDynamicModule(System.String)
   parent: System.Reflection.Emit.AssemblyBuilder
@@ -199,7 +197,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.ModuleBuilder
-      description: 
 - uid: System.Reflection.Emit.AssemblyBuilder.DefineDynamicModule(System.String,System.Boolean)
   id: DefineDynamicModule(System.String,System.Boolean)
   parent: System.Reflection.Emit.AssemblyBuilder
@@ -224,7 +221,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Emit.ModuleBuilder
-      description: 
 - uid: System.Reflection.Emit.AssemblyBuilder.AddResourceFile(System.String,System.String)
   id: AddResourceFile(System.String,System.String)
   parent: System.Reflection.Emit.AssemblyBuilder
@@ -293,7 +289,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Assembly.Equals(System.Object)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetHashCode
   id: GetHashCode
@@ -314,7 +309,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Reflection.Assembly.GetHashCode
 - uid: System.Reflection.Emit.AssemblyBuilder.GetCustomAttributes(System.Boolean)
   id: GetCustomAttributes(System.Boolean)
@@ -338,7 +332,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.Assembly.GetCustomAttributes(System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetCustomAttributes(System.Type,System.Boolean)
   id: GetCustomAttributes(System.Type,System.Boolean)
@@ -364,7 +357,6 @@ items:
       type: System.Boolean
     return:
       type: System.Object[]
-      description: 
   overridden: System.Reflection.Assembly.GetCustomAttributes(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.IsDefined(System.Type,System.Boolean)
   id: IsDefined(System.Type,System.Boolean)
@@ -390,7 +382,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Assembly.IsDefined(System.Type,System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetCustomAttributesData
   id: GetCustomAttributesData
@@ -411,7 +402,6 @@ items:
     content.vb: Public Overrides Function GetCustomAttributesData As IList(Of CustomAttributeData)
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-      description: 
   overridden: System.Reflection.Assembly.GetCustomAttributesData
 - uid: System.Reflection.Emit.AssemblyBuilder.GetManifestResourceNames
   id: GetManifestResourceNames
@@ -432,7 +422,6 @@ items:
     content.vb: Public Overrides Function GetManifestResourceNames As String()
     return:
       type: System.String[]
-      description: 
   overridden: System.Reflection.Assembly.GetManifestResourceNames
 - uid: System.Reflection.Emit.AssemblyBuilder.GetFile(System.String)
   id: GetFile(System.String)
@@ -456,7 +445,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileStream
-      description: 
   overridden: System.Reflection.Assembly.GetFile(System.String)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetFiles(System.Boolean)
   id: GetFiles(System.Boolean)
@@ -480,7 +468,6 @@ items:
       type: System.Boolean
     return:
       type: System.IO.FileStream[]
-      description: 
   overridden: System.Reflection.Assembly.GetFiles(System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetManifestResourceStream(System.Type,System.String)
   id: GetManifestResourceStream(System.Type,System.String)
@@ -506,7 +493,6 @@ items:
       type: System.String
     return:
       type: System.IO.Stream
-      description: 
   overridden: System.Reflection.Assembly.GetManifestResourceStream(System.Type,System.String)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetManifestResourceStream(System.String)
   id: GetManifestResourceStream(System.String)
@@ -530,7 +516,6 @@ items:
       type: System.String
     return:
       type: System.IO.Stream
-      description: 
   overridden: System.Reflection.Assembly.GetManifestResourceStream(System.String)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetManifestResourceInfo(System.String)
   id: GetManifestResourceInfo(System.String)
@@ -554,7 +539,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.ManifestResourceInfo
-      description: 
   overridden: System.Reflection.Assembly.GetManifestResourceInfo(System.String)
 - uid: System.Reflection.Emit.AssemblyBuilder.Location
   id: Location
@@ -576,7 +560,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Assembly.Location
 - uid: System.Reflection.Emit.AssemblyBuilder.ImageRuntimeVersion
   id: ImageRuntimeVersion
@@ -598,7 +581,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Assembly.ImageRuntimeVersion
 - uid: System.Reflection.Emit.AssemblyBuilder.CodeBase
   id: CodeBase
@@ -620,7 +602,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Assembly.CodeBase
 - uid: System.Reflection.Emit.AssemblyBuilder.EntryPoint
   id: EntryPoint
@@ -642,7 +623,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
   overridden: System.Reflection.Assembly.EntryPoint
 - uid: System.Reflection.Emit.AssemblyBuilder.GetExportedTypes
   id: GetExportedTypes
@@ -663,7 +643,6 @@ items:
     content.vb: Public Overrides Function GetExportedTypes As Type()
     return:
       type: System.Type[]
-      description: 
   overridden: System.Reflection.Assembly.GetExportedTypes
 - uid: System.Reflection.Emit.AssemblyBuilder.GetName(System.Boolean)
   id: GetName(System.Boolean)
@@ -687,7 +666,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.AssemblyName
-      description: 
   overridden: System.Reflection.Assembly.GetName(System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.FullName
   id: FullName
@@ -709,7 +687,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Reflection.Assembly.FullName
 - uid: System.Reflection.Emit.AssemblyBuilder.GetType(System.String,System.Boolean,System.Boolean)
   id: GetType(System.String,System.Boolean,System.Boolean)
@@ -737,7 +714,6 @@ items:
       type: System.Boolean
     return:
       type: System.Type
-      description: 
   overridden: System.Reflection.Assembly.GetType(System.String,System.Boolean,System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.ManifestModule
   id: ManifestModule
@@ -759,7 +735,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Reflection.Assembly.ManifestModule
 - uid: System.Reflection.Emit.AssemblyBuilder.ReflectionOnly
   id: ReflectionOnly
@@ -781,7 +756,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Assembly.ReflectionOnly
 - uid: System.Reflection.Emit.AssemblyBuilder.GetModule(System.String)
   id: GetModule(System.String)
@@ -805,7 +779,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Module
-      description: 
   overridden: System.Reflection.Assembly.GetModule(System.String)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetReferencedAssemblies
   id: GetReferencedAssemblies
@@ -826,7 +799,6 @@ items:
     content.vb: Public Overrides Function GetReferencedAssemblies As AssemblyName()
     return:
       type: System.Reflection.AssemblyName[]
-      description: 
   overridden: System.Reflection.Assembly.GetReferencedAssemblies
 - uid: System.Reflection.Emit.AssemblyBuilder.GlobalAssemblyCache
   id: GlobalAssemblyCache
@@ -848,7 +820,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Assembly.GlobalAssemblyCache
 - uid: System.Reflection.Emit.AssemblyBuilder.HostContext
   id: HostContext
@@ -870,7 +841,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
   overridden: System.Reflection.Assembly.HostContext
 - uid: System.Reflection.Emit.AssemblyBuilder.GetModules(System.Boolean)
   id: GetModules(System.Boolean)
@@ -894,7 +864,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Module[]
-      description: 
   overridden: System.Reflection.Assembly.GetModules(System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetLoadedModules(System.Boolean)
   id: GetLoadedModules(System.Boolean)
@@ -918,7 +887,6 @@ items:
       type: System.Boolean
     return:
       type: System.Reflection.Module[]
-      description: 
   overridden: System.Reflection.Assembly.GetLoadedModules(System.Boolean)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetSatelliteAssembly(System.Globalization.CultureInfo)
   id: GetSatelliteAssembly(System.Globalization.CultureInfo)
@@ -942,7 +910,6 @@ items:
       type: System.Globalization.CultureInfo
     return:
       type: System.Reflection.Assembly
-      description: 
   overridden: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)
 - uid: System.Reflection.Emit.AssemblyBuilder.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
   id: GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
@@ -968,7 +935,6 @@ items:
       type: System.Version
     return:
       type: System.Reflection.Assembly
-      description: 
   overridden: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
 - uid: System.Reflection.Emit.AssemblyBuilder.IsDynamic
   id: IsDynamic
@@ -990,7 +956,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.Reflection.Assembly.IsDynamic
 - uid: System.Reflection.Emit.AssemblyBuilder.DefineVersionInfoResource(System.String,System.String,System.String,System.String,System.String)
   id: DefineVersionInfoResource(System.String,System.String,System.String,System.String,System.String)
@@ -1101,7 +1066,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.Emit.ModuleBuilder
-      description: 
 - uid: System.Reflection.Emit.AssemblyBuilder.SetEntryPoint(System.Reflection.MethodInfo)
   id: SetEntryPoint(System.Reflection.MethodInfo)
   parent: System.Reflection.Emit.AssemblyBuilder

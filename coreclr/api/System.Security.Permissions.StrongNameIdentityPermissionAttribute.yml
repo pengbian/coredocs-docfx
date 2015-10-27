@@ -118,7 +118,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.StrongNameIdentityPermissionAttribute.Version
   id: Version
   parent: System.Security.Permissions.StrongNameIdentityPermissionAttribute
@@ -139,7 +138,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.StrongNameIdentityPermissionAttribute.PublicKey
   id: PublicKey
   parent: System.Security.Permissions.StrongNameIdentityPermissionAttribute
@@ -160,7 +158,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Security.Permissions.StrongNameIdentityPermissionAttribute.CreatePermission
   id: CreatePermission
   parent: System.Security.Permissions.StrongNameIdentityPermissionAttribute
@@ -180,7 +177,6 @@ items:
     content.vb: Public Overrides Function CreatePermission As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.Permissions.SecurityAttribute.CreatePermission
 references:
 - uid: System.Security.Permissions

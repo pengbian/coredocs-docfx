@@ -96,7 +96,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
 - uid: System.Security.Permissions.IsolatedStorageFilePermission.IsSubsetOf(System.Security.IPermission)
   id: IsSubsetOf(System.Security.IPermission)
@@ -120,7 +119,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Boolean
-      description: 
   overridden: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
 - uid: System.Security.Permissions.IsolatedStorageFilePermission.Intersect(System.Security.IPermission)
   id: Intersect(System.Security.IPermission)
@@ -144,7 +142,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
 - uid: System.Security.Permissions.IsolatedStorageFilePermission.Copy
   id: Copy
@@ -165,7 +162,6 @@ items:
     content.vb: Public Overrides Function Copy As IPermission
     return:
       type: System.Security.IPermission
-      description: 
   overridden: System.Security.CodeAccessPermission.Copy
 references:
 - uid: System.Security.Permissions

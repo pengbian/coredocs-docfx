@@ -95,7 +95,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblyName.Version
   id: Version
   parent: System.Reflection.AssemblyName
@@ -116,7 +115,6 @@ items:
     parameters: []
     return:
       type: System.Version
-      description: 
 - uid: System.Reflection.AssemblyName.CultureInfo
   id: CultureInfo
   parent: System.Reflection.AssemblyName
@@ -137,7 +135,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CultureInfo
-      description: 
 - uid: System.Reflection.AssemblyName.CultureName
   id: CultureName
   parent: System.Reflection.AssemblyName
@@ -158,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblyName.CodeBase
   id: CodeBase
   parent: System.Reflection.AssemblyName
@@ -179,7 +175,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblyName.EscapedCodeBase
   id: EscapedCodeBase
   parent: System.Reflection.AssemblyName
@@ -200,7 +195,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblyName.ProcessorArchitecture
   id: ProcessorArchitecture
   parent: System.Reflection.AssemblyName
@@ -221,7 +215,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.ProcessorArchitecture
-      description: 
 - uid: System.Reflection.AssemblyName.ContentType
   id: ContentType
   parent: System.Reflection.AssemblyName
@@ -242,7 +235,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.AssemblyContentType
-      description: 
 - uid: System.Reflection.AssemblyName.Clone
   id: Clone
   parent: System.Reflection.AssemblyName
@@ -262,7 +254,6 @@ items:
     content.vb: Public Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Reflection.AssemblyName.GetAssemblyName(System.String)
   id: GetAssemblyName(System.String)
   parent: System.Reflection.AssemblyName
@@ -285,7 +276,6 @@ items:
       type: System.String
     return:
       type: System.Reflection.AssemblyName
-      description: 
 - uid: System.Reflection.AssemblyName.GetPublicKey
   id: GetPublicKey
   parent: System.Reflection.AssemblyName
@@ -305,7 +295,6 @@ items:
     content.vb: Public Function GetPublicKey As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Reflection.AssemblyName.SetPublicKey(System.Byte[])
   id: SetPublicKey(System.Byte[])
   parent: System.Reflection.AssemblyName
@@ -347,7 +336,6 @@ items:
     content.vb: Public Function GetPublicKeyToken As Byte()
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Reflection.AssemblyName.SetPublicKeyToken(System.Byte[])
   id: SetPublicKeyToken(System.Byte[])
   parent: System.Reflection.AssemblyName
@@ -390,7 +378,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.AssemblyNameFlags
-      description: 
 - uid: System.Reflection.AssemblyName.HashAlgorithm
   id: HashAlgorithm
   parent: System.Reflection.AssemblyName
@@ -411,7 +398,6 @@ items:
     parameters: []
     return:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
-      description: 
 - uid: System.Reflection.AssemblyName.VersionCompatibility
   id: VersionCompatibility
   parent: System.Reflection.AssemblyName
@@ -432,7 +418,6 @@ items:
     parameters: []
     return:
       type: System.Configuration.Assemblies.AssemblyVersionCompatibility
-      description: 
 - uid: System.Reflection.AssemblyName.KeyPair
   id: KeyPair
   parent: System.Reflection.AssemblyName
@@ -453,7 +438,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.StrongNameKeyPair
-      description: 
 - uid: System.Reflection.AssemblyName.FullName
   id: FullName
   parent: System.Reflection.AssemblyName
@@ -474,7 +458,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.Reflection.AssemblyName.ToString
   id: ToString
   parent: System.Reflection.AssemblyName
@@ -494,7 +477,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 - uid: System.Reflection.AssemblyName.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -540,7 +522,6 @@ items:
       type: System.Reflection.AssemblyName
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

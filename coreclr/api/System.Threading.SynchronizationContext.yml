@@ -197,7 +197,6 @@ items:
     parameters: []
     return:
       type: System.Threading.SynchronizationContext
-      description: 
 - uid: System.Threading.SynchronizationContext.CreateCopy
   id: CreateCopy
   parent: System.Threading.SynchronizationContext
@@ -217,7 +216,6 @@ items:
     content.vb: Public Overridable Function CreateCopy As SynchronizationContext
     return:
       type: System.Threading.SynchronizationContext
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

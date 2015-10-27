@@ -110,7 +110,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Security.Cryptography.ICryptoTransform
-      description: 
   overridden: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])
 - uid: System.Security.Cryptography.RijndaelManaged.CreateDecryptor(System.Byte[],System.Byte[])
   id: CreateDecryptor(System.Byte[],System.Byte[])
@@ -138,7 +137,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Security.Cryptography.ICryptoTransform
-      description: 
   overridden: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])
 - uid: System.Security.Cryptography.RijndaelManaged.GenerateKey
   id: GenerateKey

@@ -94,7 +94,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileInfo
-      description: 
 - uid: System.IO.FileInfo.#ctor(System.String)
   id: '#ctor(System.String)'
   parent: System.IO.FileInfo
@@ -135,7 +134,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.IO.FileSystemInfo.Name
 - uid: System.IO.FileInfo.Length
   id: Length
@@ -157,7 +155,6 @@ items:
     parameters: []
     return:
       type: System.Int64
-      description: 
 - uid: System.IO.FileInfo.DirectoryName
   id: DirectoryName
   parent: System.IO.FileInfo
@@ -178,7 +175,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
 - uid: System.IO.FileInfo.Directory
   id: Directory
   parent: System.IO.FileInfo
@@ -199,7 +195,6 @@ items:
     parameters: []
     return:
       type: System.IO.DirectoryInfo
-      description: 
 - uid: System.IO.FileInfo.IsReadOnly
   id: IsReadOnly
   parent: System.IO.FileInfo
@@ -220,7 +215,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.IO.FileInfo.OpenText
   id: OpenText
   parent: System.IO.FileInfo
@@ -240,7 +234,6 @@ items:
     content.vb: Public Function OpenText As StreamReader
     return:
       type: System.IO.StreamReader
-      description: 
 - uid: System.IO.FileInfo.CreateText
   id: CreateText
   parent: System.IO.FileInfo
@@ -260,7 +253,6 @@ items:
     content.vb: Public Function CreateText As StreamWriter
     return:
       type: System.IO.StreamWriter
-      description: 
 - uid: System.IO.FileInfo.AppendText
   id: AppendText
   parent: System.IO.FileInfo
@@ -280,7 +272,6 @@ items:
     content.vb: Public Function AppendText As StreamWriter
     return:
       type: System.IO.StreamWriter
-      description: 
 - uid: System.IO.FileInfo.CopyTo(System.String)
   id: CopyTo(System.String)
   parent: System.IO.FileInfo
@@ -303,7 +294,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileInfo
-      description: 
 - uid: System.IO.FileInfo.CopyTo(System.String,System.Boolean)
   id: CopyTo(System.String,System.Boolean)
   parent: System.IO.FileInfo
@@ -328,7 +318,6 @@ items:
       type: System.Boolean
     return:
       type: System.IO.FileInfo
-      description: 
 - uid: System.IO.FileInfo.Create
   id: Create
   parent: System.IO.FileInfo
@@ -348,7 +337,6 @@ items:
     content.vb: Public Function Create As FileStream
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.FileInfo.Delete
   id: Delete
   parent: System.IO.FileInfo
@@ -421,7 +409,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
   overridden: System.IO.FileSystemInfo.Exists
 - uid: System.IO.FileInfo.Open(System.IO.FileMode)
   id: Open(System.IO.FileMode)
@@ -445,7 +432,6 @@ items:
       type: System.IO.FileMode
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.FileInfo.Open(System.IO.FileMode,System.IO.FileAccess)
   id: Open(System.IO.FileMode,System.IO.FileAccess)
   parent: System.IO.FileInfo
@@ -470,7 +456,6 @@ items:
       type: System.IO.FileAccess
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.FileInfo.Open(System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   id: Open(System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
   parent: System.IO.FileInfo
@@ -497,7 +482,6 @@ items:
       type: System.IO.FileShare
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.FileInfo.OpenRead
   id: OpenRead
   parent: System.IO.FileInfo
@@ -517,7 +501,6 @@ items:
     content.vb: Public Function OpenRead As FileStream
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.FileInfo.OpenWrite
   id: OpenWrite
   parent: System.IO.FileInfo
@@ -537,7 +520,6 @@ items:
     content.vb: Public Function OpenWrite As FileStream
     return:
       type: System.IO.FileStream
-      description: 
 - uid: System.IO.FileInfo.MoveTo(System.String)
   id: MoveTo(System.String)
   parent: System.IO.FileInfo
@@ -582,7 +564,6 @@ items:
       type: System.String
     return:
       type: System.IO.FileInfo
-      description: 
 - uid: System.IO.FileInfo.Replace(System.String,System.String,System.Boolean)
   id: Replace(System.String,System.String,System.Boolean)
   parent: System.IO.FileInfo
@@ -609,7 +590,6 @@ items:
       type: System.Boolean
     return:
       type: System.IO.FileInfo
-      description: 
 - uid: System.IO.FileInfo.ToString
   id: ToString
   parent: System.IO.FileInfo
@@ -629,7 +609,6 @@ items:
     content.vb: Public Overrides Function ToString As String
     return:
       type: System.String
-      description: 
   overridden: System.Object.ToString
 references:
 - uid: System.IO

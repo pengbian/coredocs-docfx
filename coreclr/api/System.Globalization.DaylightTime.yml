@@ -79,7 +79,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.Globalization.DaylightTime.End
   id: End
   parent: System.Globalization.DaylightTime
@@ -100,7 +99,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
 - uid: System.Globalization.DaylightTime.Delta
   id: Delta
   parent: System.Globalization.DaylightTime
@@ -121,7 +119,6 @@ items:
     parameters: []
     return:
       type: System.TimeSpan
-      description: 
 references:
 - uid: System.Globalization
   isExternal: false

@@ -74,7 +74,6 @@ items:
       type: System.Reflection.Assembly
     return:
       type: System.Reflection.Assembly
-      description: 
 - uid: System.Reflection.ReflectionContext.MapType(System.Reflection.TypeInfo)
   id: MapType(System.Reflection.TypeInfo)
   parent: System.Reflection.ReflectionContext
@@ -97,7 +96,6 @@ items:
       type: System.Reflection.TypeInfo
     return:
       type: System.Reflection.TypeInfo
-      description: 
 - uid: System.Reflection.ReflectionContext.GetTypeForObject(System.Object)
   id: GetTypeForObject(System.Object)
   parent: System.Reflection.ReflectionContext
@@ -120,7 +118,6 @@ items:
       type: System.Object
     return:
       type: System.Reflection.TypeInfo
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

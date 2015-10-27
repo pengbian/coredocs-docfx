@@ -76,7 +76,6 @@ items:
     parameters: []
     return:
       type: System.Security.HostSecurityManagerOptions
-      description: 
 - uid: System.Security.HostSecurityManager.ProvideAppDomainEvidence(System.Security.Policy.Evidence)
   id: ProvideAppDomainEvidence(System.Security.Policy.Evidence)
   parent: System.Security.HostSecurityManager
@@ -99,7 +98,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Security.Policy.Evidence
-      description: 
 - uid: System.Security.HostSecurityManager.ProvideAssemblyEvidence(System.Reflection.Assembly,System.Security.Policy.Evidence)
   id: ProvideAssemblyEvidence(System.Reflection.Assembly,System.Security.Policy.Evidence)
   parent: System.Security.HostSecurityManager
@@ -124,7 +122,6 @@ items:
       type: System.Security.Policy.Evidence
     return:
       type: System.Security.Policy.Evidence
-      description: 
 - uid: System.Security.HostSecurityManager.GetHostSuppliedAppDomainEvidenceTypes
   id: GetHostSuppliedAppDomainEvidenceTypes
   parent: System.Security.HostSecurityManager
@@ -145,7 +142,6 @@ items:
     content.vb: Public Overridable Function GetHostSuppliedAppDomainEvidenceTypes As Type()
     return:
       type: System.Type[]
-      description: 
 - uid: System.Security.HostSecurityManager.GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly)
   id: GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly)
   parent: System.Security.HostSecurityManager

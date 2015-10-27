@@ -41,7 +41,6 @@ items:
     content.vb: Function GetNames As String()
     return:
       type: System.String[]
-      description: 
 references:
 - uid: System.Runtime.InteropServices
   isExternal: false

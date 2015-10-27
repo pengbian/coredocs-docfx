@@ -30,7 +30,6 @@ items:
     - id: T
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System
   isExternal: false

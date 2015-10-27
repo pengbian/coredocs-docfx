@@ -136,7 +136,6 @@ items:
     content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Resources.ResourceReader.GetEnumerator
   id: GetEnumerator
   parent: System.Resources.ResourceReader
@@ -156,7 +155,6 @@ items:
     content.vb: Public Function GetEnumerator As IDictionaryEnumerator
     return:
       type: System.Collections.IDictionaryEnumerator
-      description: 
 - uid: System.Resources.ResourceReader.GetResourceData(System.String,System.String@,System.Byte[]@)
   id: GetResourceData(System.String,System.String@,System.Byte[]@)
   parent: System.Resources.ResourceReader

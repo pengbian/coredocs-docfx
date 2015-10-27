@@ -105,7 +105,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MinSupportedDateTime
 - uid: System.Globalization.TaiwanLunisolarCalendar.MaxSupportedDateTime
   id: MaxSupportedDateTime
@@ -127,7 +126,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MaxSupportedDateTime
 - uid: System.Globalization.TaiwanLunisolarCalendar.DaysInYearBeforeMinSupportedYear
   id: DaysInYearBeforeMinSupportedYear
@@ -149,7 +147,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.DaysInYearBeforeMinSupportedYear
 - uid: System.Globalization.TaiwanLunisolarCalendar.#ctor
   id: '#ctor'
@@ -190,7 +187,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetEra(System.DateTime)
 - uid: System.Globalization.TaiwanLunisolarCalendar.Eras
   id: Eras
@@ -212,7 +208,6 @@ items:
     parameters: []
     return:
       type: System.Int32[]
-      description: 
   overridden: System.Globalization.Calendar.Eras
 references:
 - uid: System.Globalization

@@ -62,7 +62,6 @@ items:
     - id: T
     return:
       type: System.Int32
-      description: 
 - uid: System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0})
   id: Equals``1(System.Nullable{``0},System.Nullable{``0})
   parent: System.Nullable
@@ -91,7 +90,6 @@ items:
     - id: T
     return:
       type: System.Boolean
-      description: 
 - uid: System.Nullable.GetUnderlyingType(System.Type)
   id: GetUnderlyingType(System.Type)
   parent: System.Nullable
@@ -114,7 +112,6 @@ items:
       type: System.Type
     return:
       type: System.Type
-      description: 
 references:
 - uid: System
   isExternal: false

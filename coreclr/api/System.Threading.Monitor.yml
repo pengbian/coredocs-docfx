@@ -132,7 +132,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
   id: TryEnter(System.Object,System.Boolean@)
   parent: System.Threading.Monitor
@@ -181,7 +180,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
   id: TryEnter(System.Object,System.TimeSpan)
   parent: System.Threading.Monitor
@@ -206,7 +204,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
   id: TryEnter(System.Object,System.Int32,System.Boolean@)
   parent: System.Threading.Monitor
@@ -281,7 +278,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
   id: Wait(System.Object,System.Int32,System.Boolean)
   parent: System.Threading.Monitor
@@ -308,7 +304,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
   id: Wait(System.Object,System.TimeSpan,System.Boolean)
   parent: System.Threading.Monitor
@@ -335,7 +330,6 @@ items:
       type: System.Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.Wait(System.Object,System.Int32)
   id: Wait(System.Object,System.Int32)
   parent: System.Threading.Monitor
@@ -360,7 +354,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
   id: Wait(System.Object,System.TimeSpan)
   parent: System.Threading.Monitor
@@ -385,7 +378,6 @@ items:
       type: System.TimeSpan
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.Wait(System.Object)
   id: Wait(System.Object)
   parent: System.Threading.Monitor
@@ -408,7 +400,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.Monitor.Pulse(System.Object)
   id: Pulse(System.Object)
   parent: System.Threading.Monitor

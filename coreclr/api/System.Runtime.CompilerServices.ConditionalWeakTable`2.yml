@@ -87,7 +87,6 @@ items:
       type: '{TValue}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.Add(`0,`1)
   id: Add(`0,`1)
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2
@@ -134,7 +133,6 @@ items:
       type: '{TKey}'
     return:
       type: System.Boolean
-      description: 
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable{`0,`1}.CreateValueCallback)
   id: GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable{`0,`1}.CreateValueCallback)
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2
@@ -161,7 +159,6 @@ items:
       type: System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetOrCreateValue(`0)
   id: GetOrCreateValue(`0)
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2
@@ -185,7 +182,6 @@ items:
       type: '{TKey}'
     return:
       type: '{TValue}'
-      description: 
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.Finalize
   id: Finalize
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2

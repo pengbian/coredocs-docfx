@@ -144,7 +144,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Security.PermissionSet.IsSynchronized
   id: IsSynchronized
   parent: System.Security.PermissionSet
@@ -165,7 +164,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.PermissionSet.IsReadOnly
   id: IsReadOnly
   parent: System.Security.PermissionSet
@@ -186,7 +184,6 @@ items:
     parameters: []
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.PermissionSet.IsEmpty
   id: IsEmpty
   parent: System.Security.PermissionSet
@@ -206,7 +203,6 @@ items:
     content.vb: Public Function IsEmpty As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.PermissionSet.Count
   id: Count
   parent: System.Security.PermissionSet
@@ -227,7 +223,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Security.PermissionSet.SetPermission(System.Security.IPermission)
   id: SetPermission(System.Security.IPermission)
   parent: System.Security.PermissionSet
@@ -250,7 +245,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.PermissionSet.SetPermissionImpl(System.Security.IPermission)
   id: SetPermissionImpl(System.Security.IPermission)
   parent: System.Security.PermissionSet
@@ -273,7 +267,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.PermissionSet.AddPermission(System.Security.IPermission)
   id: AddPermission(System.Security.IPermission)
   parent: System.Security.PermissionSet
@@ -296,7 +289,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.PermissionSet.AddPermissionImpl(System.Security.IPermission)
   id: AddPermissionImpl(System.Security.IPermission)
   parent: System.Security.PermissionSet
@@ -319,7 +311,6 @@ items:
       type: System.Security.IPermission
     return:
       type: System.Security.IPermission
-      description: 
 - uid: System.Security.PermissionSet.IsUnrestricted
   id: IsUnrestricted
   parent: System.Security.PermissionSet
@@ -339,7 +330,6 @@ items:
     content.vb: Public Function IsUnrestricted As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.PermissionSet.IsSubsetOf(System.Security.PermissionSet)
   id: IsSubsetOf(System.Security.PermissionSet)
   parent: System.Security.PermissionSet
@@ -362,7 +352,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.PermissionSet.Intersect(System.Security.PermissionSet)
   id: Intersect(System.Security.PermissionSet)
   parent: System.Security.PermissionSet
@@ -385,7 +374,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Security.PermissionSet
-      description: 
 - uid: System.Security.PermissionSet.Union(System.Security.PermissionSet)
   id: Union(System.Security.PermissionSet)
   parent: System.Security.PermissionSet
@@ -408,7 +396,6 @@ items:
       type: System.Security.PermissionSet
     return:
       type: System.Security.PermissionSet
-      description: 
 - uid: System.Security.PermissionSet.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Security.PermissionSet
@@ -431,7 +418,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Security.PermissionSet.GetHashCode
   id: GetHashCode
@@ -452,7 +438,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Security.PermissionSet.Demand
   id: Demand
@@ -541,7 +526,6 @@ items:
     content.vb: Public Overridable Function Copy As PermissionSet
     return:
       type: System.Security.PermissionSet
-      description: 
 - uid: System.Security.PermissionSet.GetEnumerator
   id: GetEnumerator
   parent: System.Security.PermissionSet
@@ -561,7 +545,6 @@ items:
     content.vb: Public Function GetEnumerator As IEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Security.PermissionSet.GetEnumeratorImpl
   id: GetEnumeratorImpl
   parent: System.Security.PermissionSet
@@ -581,7 +564,6 @@ items:
     content.vb: Protected Overridable Function GetEnumeratorImpl As IEnumerator
     return:
       type: System.Collections.IEnumerator
-      description: 
 - uid: System.Security.PermissionSet.ContainsNonCodeAccessPermissions
   id: ContainsNonCodeAccessPermissions
   parent: System.Security.PermissionSet
@@ -601,7 +583,6 @@ items:
     content.vb: Public Function ContainsNonCodeAccessPermissions As Boolean
     return:
       type: System.Boolean
-      description: 
 - uid: System.Security.PermissionSet.RevertAssert
   id: RevertAssert
   parent: System.Security.PermissionSet

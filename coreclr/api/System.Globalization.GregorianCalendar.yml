@@ -121,7 +121,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MinSupportedDateTime
 - uid: System.Globalization.GregorianCalendar.MaxSupportedDateTime
   id: MaxSupportedDateTime
@@ -143,7 +142,6 @@ items:
     parameters: []
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.MaxSupportedDateTime
 - uid: System.Globalization.GregorianCalendar.AlgorithmType
   id: AlgorithmType
@@ -165,7 +163,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.CalendarAlgorithmType
-      description: 
   overridden: System.Globalization.Calendar.AlgorithmType
 - uid: System.Globalization.GregorianCalendar.#ctor
   id: '#ctor'
@@ -224,7 +221,6 @@ items:
     parameters: []
     return:
       type: System.Globalization.GregorianCalendarTypes
-      description: 
 - uid: System.Globalization.GregorianCalendar.AddMonths(System.DateTime,System.Int32)
   id: AddMonths(System.DateTime,System.Int32)
   parent: System.Globalization.GregorianCalendar
@@ -249,7 +245,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)
 - uid: System.Globalization.GregorianCalendar.AddYears(System.DateTime,System.Int32)
   id: AddYears(System.DateTime,System.Int32)
@@ -275,7 +270,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)
 - uid: System.Globalization.GregorianCalendar.GetDayOfMonth(System.DateTime)
   id: GetDayOfMonth(System.DateTime)
@@ -299,7 +293,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfMonth(System.DateTime)
 - uid: System.Globalization.GregorianCalendar.GetDayOfWeek(System.DateTime)
   id: GetDayOfWeek(System.DateTime)
@@ -323,7 +316,6 @@ items:
       type: System.DateTime
     return:
       type: System.DayOfWeek
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfWeek(System.DateTime)
 - uid: System.Globalization.GregorianCalendar.GetDayOfYear(System.DateTime)
   id: GetDayOfYear(System.DateTime)
@@ -347,7 +339,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDayOfYear(System.DateTime)
 - uid: System.Globalization.GregorianCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   id: GetDaysInMonth(System.Int32,System.Int32,System.Int32)
@@ -375,7 +366,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.GetDaysInYear(System.Int32,System.Int32)
   id: GetDaysInYear(System.Int32,System.Int32)
@@ -401,7 +391,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.GetEra(System.DateTime)
   id: GetEra(System.DateTime)
@@ -425,7 +414,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetEra(System.DateTime)
 - uid: System.Globalization.GregorianCalendar.Eras
   id: Eras
@@ -447,7 +435,6 @@ items:
     parameters: []
     return:
       type: System.Int32[]
-      description: 
   overridden: System.Globalization.Calendar.Eras
 - uid: System.Globalization.GregorianCalendar.GetMonth(System.DateTime)
   id: GetMonth(System.DateTime)
@@ -471,7 +458,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetMonth(System.DateTime)
 - uid: System.Globalization.GregorianCalendar.GetMonthsInYear(System.Int32,System.Int32)
   id: GetMonthsInYear(System.Int32,System.Int32)
@@ -497,7 +483,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.GetYear(System.DateTime)
   id: GetYear(System.DateTime)
@@ -521,7 +506,6 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetYear(System.DateTime)
 - uid: System.Globalization.GregorianCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   id: IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -551,7 +535,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.GetLeapMonth(System.Int32,System.Int32)
   id: GetLeapMonth(System.Int32,System.Int32)
@@ -577,7 +560,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   id: IsLeapMonth(System.Int32,System.Int32,System.Int32)
@@ -605,7 +587,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.IsLeapYear(System.Int32,System.Int32)
   id: IsLeapYear(System.Int32,System.Int32)
@@ -631,7 +612,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
   overridden: System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   id: ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -669,7 +649,6 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-      description: 
   overridden: System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 - uid: System.Globalization.GregorianCalendar.TwoDigitYearMax
   id: TwoDigitYearMax
@@ -691,7 +670,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.TwoDigitYearMax
 - uid: System.Globalization.GregorianCalendar.ToFourDigitYear(System.Int32)
   id: ToFourDigitYear(System.Int32)
@@ -715,7 +693,6 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-      description: 
   overridden: System.Globalization.Calendar.ToFourDigitYear(System.Int32)
 references:
 - uid: System.Globalization

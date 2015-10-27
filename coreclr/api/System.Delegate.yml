@@ -130,7 +130,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Delegate.DynamicInvokeImpl(System.Object[])
   id: DynamicInvokeImpl(System.Object[])
   parent: System.Delegate
@@ -155,7 +154,6 @@ items:
       type: System.Object[]
     return:
       type: System.Object
-      description: 
 - uid: System.Delegate.Equals(System.Object)
   id: Equals(System.Object)
   parent: System.Delegate
@@ -178,7 +176,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
   overridden: System.Object.Equals(System.Object)
 - uid: System.Delegate.GetHashCode
   id: GetHashCode
@@ -199,7 +196,6 @@ items:
     content.vb: Public Overrides Function GetHashCode As Integer
     return:
       type: System.Int32
-      description: 
   overridden: System.Object.GetHashCode
 - uid: System.Delegate.Combine(System.Delegate,System.Delegate)
   id: Combine(System.Delegate,System.Delegate)
@@ -225,7 +221,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.Combine(System.Delegate[])
   id: Combine(System.Delegate[])
   parent: System.Delegate
@@ -250,7 +245,6 @@ items:
       type: System.Delegate[]
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.GetInvocationList
   id: GetInvocationList
   parent: System.Delegate
@@ -270,7 +264,6 @@ items:
     content.vb: Public Overridable Function GetInvocationList As
     return:
       type: System.Delegate[]
-      description: 
 - uid: System.Delegate.Method
   id: Method
   parent: System.Delegate
@@ -291,7 +284,6 @@ items:
     parameters: []
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Delegate.GetMethodImpl
   id: GetMethodImpl
   parent: System.Delegate
@@ -311,7 +303,6 @@ items:
     content.vb: Protected Overridable Function GetMethodImpl As MethodInfo
     return:
       type: System.Reflection.MethodInfo
-      description: 
 - uid: System.Delegate.Target
   id: Target
   parent: System.Delegate
@@ -332,7 +323,6 @@ items:
     parameters: []
     return:
       type: System.Object
-      description: 
 - uid: System.Delegate.Remove(System.Delegate,System.Delegate)
   id: Remove(System.Delegate,System.Delegate)
   parent: System.Delegate
@@ -357,7 +347,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.RemoveAll(System.Delegate,System.Delegate)
   id: RemoveAll(System.Delegate,System.Delegate)
   parent: System.Delegate
@@ -382,7 +371,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CombineImpl(System.Delegate)
   id: CombineImpl(System.Delegate)
   parent: System.Delegate
@@ -405,7 +393,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.RemoveImpl(System.Delegate)
   id: RemoveImpl(System.Delegate)
   parent: System.Delegate
@@ -428,7 +415,6 @@ items:
       type: System.Delegate
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.Clone
   id: Clone
   parent: System.Delegate
@@ -448,7 +434,6 @@ items:
     content.vb: Public Overridable Function Clone As Object
     return:
       type: System.Object
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.String)
   id: CreateDelegate(System.Type,System.Object,System.String)
   parent: System.Delegate
@@ -475,7 +460,6 @@ items:
       type: System.String
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.String,System.Boolean)
   id: CreateDelegate(System.Type,System.Object,System.String,System.Boolean)
   parent: System.Delegate
@@ -504,7 +488,6 @@ items:
       type: System.Boolean
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.String,System.Boolean,System.Boolean)
   id: CreateDelegate(System.Type,System.Object,System.String,System.Boolean,System.Boolean)
   parent: System.Delegate
@@ -535,7 +518,6 @@ items:
       type: System.Boolean
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Type,System.String)
   id: CreateDelegate(System.Type,System.Type,System.String)
   parent: System.Delegate
@@ -562,7 +544,6 @@ items:
       type: System.String
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Type,System.String,System.Boolean)
   id: CreateDelegate(System.Type,System.Type,System.String,System.Boolean)
   parent: System.Delegate
@@ -591,7 +572,6 @@ items:
       type: System.Boolean
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Type,System.String,System.Boolean,System.Boolean)
   id: CreateDelegate(System.Type,System.Type,System.String,System.Boolean,System.Boolean)
   parent: System.Delegate
@@ -622,7 +602,6 @@ items:
       type: System.Boolean
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Reflection.MethodInfo,System.Boolean)
   id: CreateDelegate(System.Type,System.Reflection.MethodInfo,System.Boolean)
   parent: System.Delegate
@@ -649,7 +628,6 @@ items:
       type: System.Boolean
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
   id: CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
   parent: System.Delegate
@@ -676,7 +654,6 @@ items:
       type: System.Reflection.MethodInfo
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean)
   id: CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean)
   parent: System.Delegate
@@ -705,7 +682,6 @@ items:
       type: System.Boolean
     return:
       type: System.Delegate
-      description: 
 - uid: System.Delegate.op_Equality(System.Delegate,System.Delegate)
   id: op_Equality(System.Delegate,System.Delegate)
   parent: System.Delegate
@@ -730,7 +706,6 @@ items:
       type: System.Delegate
     return:
       type: System.Boolean
-      description: 
 - uid: System.Delegate.op_Inequality(System.Delegate,System.Delegate)
   id: op_Inequality(System.Delegate,System.Delegate)
   parent: System.Delegate
@@ -755,7 +730,6 @@ items:
       type: System.Delegate
     return:
       type: System.Boolean
-      description: 
 - uid: System.Delegate.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Delegate
@@ -802,7 +776,6 @@ items:
       type: System.Reflection.MethodInfo
     return:
       type: System.Delegate
-      description: 
 references:
 - uid: System
   isExternal: false

@@ -91,7 +91,6 @@ items:
     parameters: []
     return:
       type: System.Type
-      description: 
 - uid: System.Runtime.CompilerServices.StateMachineAttribute.#ctor(System.Type)
   id: '#ctor(System.Type)'
   parent: System.Runtime.CompilerServices.StateMachineAttribute

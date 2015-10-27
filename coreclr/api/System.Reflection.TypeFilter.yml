@@ -28,7 +28,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Reflection
   isExternal: false

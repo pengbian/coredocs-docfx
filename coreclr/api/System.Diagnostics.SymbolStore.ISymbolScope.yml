@@ -48,7 +48,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.Parent
   id: Parent
   parent: System.Diagnostics.SymbolStore.ISymbolScope
@@ -69,7 +68,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.SymbolStore.ISymbolScope
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.GetChildren
   id: GetChildren
   parent: System.Diagnostics.SymbolStore.ISymbolScope
@@ -89,7 +87,6 @@ items:
     content.vb: Function GetChildren As ISymbolScope()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolScope[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.StartOffset
   id: StartOffset
   parent: System.Diagnostics.SymbolStore.ISymbolScope
@@ -110,7 +107,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.EndOffset
   id: EndOffset
   parent: System.Diagnostics.SymbolStore.ISymbolScope
@@ -131,7 +127,6 @@ items:
     parameters: []
     return:
       type: System.Int32
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.GetLocals
   id: GetLocals
   parent: System.Diagnostics.SymbolStore.ISymbolScope
@@ -151,7 +146,6 @@ items:
     content.vb: Function GetLocals As ISymbolVariable()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
-      description: 
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.GetNamespaces
   id: GetNamespaces
   parent: System.Diagnostics.SymbolStore.ISymbolScope
@@ -171,7 +165,6 @@ items:
     content.vb: Function GetNamespaces As ISymbolNamespace()
     return:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace[]
-      description: 
 references:
 - uid: System.Diagnostics.SymbolStore
   isExternal: false

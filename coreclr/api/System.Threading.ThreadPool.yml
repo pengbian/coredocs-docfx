@@ -73,7 +73,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ThreadPool.GetMaxThreads(System.Int32@,System.Int32@)
   id: GetMaxThreads(System.Int32@,System.Int32@)
   parent: System.Threading.ThreadPool
@@ -122,7 +121,6 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ThreadPool.GetMinThreads(System.Int32@,System.Int32@)
   id: GetMinThreads(System.Int32@,System.Int32@)
   parent: System.Threading.ThreadPool
@@ -201,7 +199,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.UInt32,System.Boolean)
   id: UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.UInt32,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -232,7 +229,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int32,System.Boolean)
   id: RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int32,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -263,7 +259,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int32,System.Boolean)
   id: UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int32,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -294,7 +289,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
   id: RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -325,7 +319,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
   id: UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -356,7 +349,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
   id: RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -387,7 +379,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
   id: UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
   parent: System.Threading.ThreadPool
@@ -418,7 +409,6 @@ items:
       type: System.Boolean
     return:
       type: System.Threading.RegisteredWaitHandle
-      description: 
 - uid: System.Threading.ThreadPool.QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
   id: QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
   parent: System.Threading.ThreadPool
@@ -443,7 +433,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ThreadPool.QueueUserWorkItem(System.Threading.WaitCallback)
   id: QueueUserWorkItem(System.Threading.WaitCallback)
   parent: System.Threading.ThreadPool
@@ -466,7 +455,6 @@ items:
       type: System.Threading.WaitCallback
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ThreadPool.UnsafeQueueUserWorkItem(System.Threading.WaitCallback,System.Object)
   id: UnsafeQueueUserWorkItem(System.Threading.WaitCallback,System.Object)
   parent: System.Threading.ThreadPool
@@ -491,7 +479,6 @@ items:
       type: System.Object
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ThreadPool.UnsafeQueueNativeOverlapped(System.Threading.NativeOverlapped*)
   id: UnsafeQueueNativeOverlapped(System.Threading.NativeOverlapped*)
   parent: System.Threading.ThreadPool
@@ -514,7 +501,6 @@ items:
       type: System.Threading.NativeOverlapped*
     return:
       type: System.Boolean
-      description: 
 - uid: System.Threading.ThreadPool.BindHandle(System.Runtime.InteropServices.SafeHandle)
   id: BindHandle(System.Runtime.InteropServices.SafeHandle)
   parent: System.Threading.ThreadPool
@@ -537,7 +523,6 @@ items:
       type: System.Runtime.InteropServices.SafeHandle
     return:
       type: System.Boolean
-      description: 
 references:
 - uid: System.Threading
   isExternal: false

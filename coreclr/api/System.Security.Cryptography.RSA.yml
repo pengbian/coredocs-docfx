@@ -88,7 +88,6 @@ items:
     content.vb: Public Shared Function Create As RSA
     return:
       type: System.Security.Cryptography.RSA
-      description: 
 - uid: System.Security.Cryptography.RSA.Create(System.String)
   id: Create(System.String)
   parent: System.Security.Cryptography.RSA
@@ -111,7 +110,6 @@ items:
       type: System.String
     return:
       type: System.Security.Cryptography.RSA
-      description: 
 - uid: System.Security.Cryptography.RSA.DecryptValue(System.Byte[])
   id: DecryptValue(System.Byte[])
   parent: System.Security.Cryptography.RSA
@@ -136,7 +134,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSA.EncryptValue(System.Byte[])
   id: EncryptValue(System.Byte[])
   parent: System.Security.Cryptography.RSA
@@ -161,7 +158,6 @@ items:
       type: System.Byte[]
     return:
       type: System.Byte[]
-      description: 
 - uid: System.Security.Cryptography.RSA.KeyExchangeAlgorithm
   id: KeyExchangeAlgorithm
   parent: System.Security.Cryptography.RSA
@@ -182,7 +178,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
 - uid: System.Security.Cryptography.RSA.SignatureAlgorithm
   id: SignatureAlgorithm
@@ -204,7 +199,6 @@ items:
     parameters: []
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
 - uid: System.Security.Cryptography.RSA.FromXmlString(System.String)
   id: FromXmlString(System.String)
@@ -249,7 +243,6 @@ items:
       type: System.Boolean
     return:
       type: System.String
-      description: 
   overridden: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
 - uid: System.Security.Cryptography.RSA.ExportParameters(System.Boolean)
   id: ExportParameters(System.Boolean)
@@ -273,7 +266,6 @@ items:
       type: System.Boolean
     return:
       type: System.Security.Cryptography.RSAParameters
-      description: 
 - uid: System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)
   id: ImportParameters(System.Security.Cryptography.RSAParameters)
   parent: System.Security.Cryptography.RSA

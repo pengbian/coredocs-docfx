@@ -111,7 +111,6 @@ items:
     parameters: []
     return:
       type: System.Diagnostics.DebuggerBrowsableState
-      description: 
 references:
 - uid: System.Diagnostics
   isExternal: false

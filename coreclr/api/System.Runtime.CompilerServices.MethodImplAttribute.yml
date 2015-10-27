@@ -168,7 +168,6 @@ items:
     parameters: []
     return:
       type: System.Runtime.CompilerServices.MethodImplOptions
-      description: 
 references:
 - uid: System.Runtime.CompilerServices
   isExternal: false
