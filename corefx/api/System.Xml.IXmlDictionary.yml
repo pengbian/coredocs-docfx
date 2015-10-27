@@ -1,0 +1,137 @@
+items:
+- uid: System.Xml.IXmlDictionary
+  id: IXmlDictionary
+  parent: System.Xml
+  children:
+  - System.Xml.IXmlDictionary.TryLookup(System.Int32,System.Xml.XmlDictionaryString@)
+  - System.Xml.IXmlDictionary.TryLookup(System.String,System.Xml.XmlDictionaryString@)
+  - System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)
+  href: System.Xml.IXmlDictionary.yml
+  name: IXmlDictionary
+  fullName: System.Xml.IXmlDictionary
+  type: Interface
+  source:
+    remote: &o0
+      path: src/System.Private.DataContractSerialization/src/System/Xml/IXmlDictionary.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Private.DataContractSerialization/src/System/Xml/IXmlDictionary.cs
+    startLine: 7
+  assemblies:
+  - System.Private.DataContractSerialization
+  namespace: System.Xml
+  syntax:
+    content: public interface IXmlDictionary
+    content.vb: Public Interface IXmlDictionary
+- uid: System.Xml.IXmlDictionary.TryLookup(System.String,System.Xml.XmlDictionaryString@)
+  id: TryLookup(System.String,System.Xml.XmlDictionaryString@)
+  parent: System.Xml.IXmlDictionary
+  href: System.Xml.IXmlDictionary.yml
+  name: TryLookup(String, out XmlDictionaryString)
+  name.vb: TryLookup(String, ByRef XmlDictionaryString)
+  fullName: System.Xml.IXmlDictionary.TryLookup(System.String, out System.Xml.XmlDictionaryString)
+  fullName.vb: System.Xml.IXmlDictionary.TryLookup(System.String, ByRef System.Xml.XmlDictionaryString)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Private.DataContractSerialization/src/System/Xml/IXmlDictionary.cs
+    startLine: 9
+  assemblies:
+  - System.Private.DataContractSerialization
+  namespace: System.Xml
+  syntax:
+    content: bool TryLookup(string value, out XmlDictionaryString result)
+    content.vb: Function TryLookup(value As String, ByRef result As XmlDictionaryString) As Boolean
+    parameters:
+    - id: value
+      type: System.String
+    - id: result
+      type: System.Xml.XmlDictionaryString
+    return:
+      type: System.Boolean
+- uid: System.Xml.IXmlDictionary.TryLookup(System.Int32,System.Xml.XmlDictionaryString@)
+  id: TryLookup(System.Int32,System.Xml.XmlDictionaryString@)
+  parent: System.Xml.IXmlDictionary
+  href: System.Xml.IXmlDictionary.yml
+  name: TryLookup(Int32, out XmlDictionaryString)
+  name.vb: TryLookup(Int32, ByRef XmlDictionaryString)
+  fullName: System.Xml.IXmlDictionary.TryLookup(System.Int32, out System.Xml.XmlDictionaryString)
+  fullName.vb: System.Xml.IXmlDictionary.TryLookup(System.Int32, ByRef System.Xml.XmlDictionaryString)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Private.DataContractSerialization/src/System/Xml/IXmlDictionary.cs
+    startLine: 10
+  assemblies:
+  - System.Private.DataContractSerialization
+  namespace: System.Xml
+  syntax:
+    content: bool TryLookup(int key, out XmlDictionaryString result)
+    content.vb: Function TryLookup(key As Integer, ByRef result As XmlDictionaryString) As Boolean
+    parameters:
+    - id: key
+      type: System.Int32
+    - id: result
+      type: System.Xml.XmlDictionaryString
+    return:
+      type: System.Boolean
+- uid: System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)
+  id: TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)
+  parent: System.Xml.IXmlDictionary
+  href: System.Xml.IXmlDictionary.yml
+  name: TryLookup(XmlDictionaryString, out XmlDictionaryString)
+  name.vb: TryLookup(XmlDictionaryString, ByRef XmlDictionaryString)
+  fullName: System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString, out System.Xml.XmlDictionaryString)
+  fullName.vb: System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString, ByRef System.Xml.XmlDictionaryString)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Private.DataContractSerialization/src/System/Xml/IXmlDictionary.cs
+    startLine: 11
+  assemblies:
+  - System.Private.DataContractSerialization
+  namespace: System.Xml
+  syntax:
+    content: bool TryLookup(XmlDictionaryString value, out XmlDictionaryString result)
+    content.vb: Function TryLookup(value As XmlDictionaryString, ByRef result As XmlDictionaryString) As Boolean
+    parameters:
+    - id: value
+      type: System.Xml.XmlDictionaryString
+    - id: result
+      type: System.Xml.XmlDictionaryString
+    return:
+      type: System.Boolean
+references:
+- uid: System.Xml
+  isExternal: false
+  name: System.Xml
+  fullName: System.Xml
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Xml.XmlDictionaryString
+  parent: System.Xml
+  isExternal: false
+  href: System.Xml.XmlDictionaryString.yml
+  name: XmlDictionaryString
+  fullName: System.Xml.XmlDictionaryString
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32

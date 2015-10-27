@@ -1,0 +1,112 @@
+items:
+- uid: System.Reflection
+  id: System.Reflection
+  children:
+  - System.Reflection.AssemblyExtensions
+  - System.Reflection.AssemblyFlags
+  - System.Reflection.AssemblyHashAlgorithm
+  - System.Reflection.DeclarativeSecurityAction
+  - System.Reflection.DispatchProxy
+  - System.Reflection.EventInfoExtensions
+  - System.Reflection.ManifestResourceAttributes
+  - System.Reflection.MethodImportAttributes
+  - System.Reflection.MethodInfoExtensions
+  - System.Reflection.PropertyInfoExtensions
+  - System.Reflection.TypeExtensions
+  href: System.Reflection.yml
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Reflection.TypeExtensions/src/System/Reflection/TypeExtensions.CoreCLR.cs
+    startLine: 9
+  assemblies:
+  - System.Reflection.TypeExtensions
+references:
+- uid: System.Reflection.TypeExtensions
+  isExternal: false
+  href: System.Reflection.TypeExtensions.yml
+  name: TypeExtensions
+  fullName: System.Reflection.TypeExtensions
+  type: Class
+- uid: System.Reflection.AssemblyExtensions
+  isExternal: false
+  href: System.Reflection.AssemblyExtensions.yml
+  name: AssemblyExtensions
+  fullName: System.Reflection.AssemblyExtensions
+  type: Class
+- uid: System.Reflection.EventInfoExtensions
+  isExternal: false
+  href: System.Reflection.EventInfoExtensions.yml
+  name: EventInfoExtensions
+  fullName: System.Reflection.EventInfoExtensions
+  type: Class
+- uid: System.Reflection.MethodInfoExtensions
+  isExternal: false
+  href: System.Reflection.MethodInfoExtensions.yml
+  name: MethodInfoExtensions
+  fullName: System.Reflection.MethodInfoExtensions
+  type: Class
+- uid: System.Reflection.PropertyInfoExtensions
+  isExternal: false
+  href: System.Reflection.PropertyInfoExtensions.yml
+  name: PropertyInfoExtensions
+  fullName: System.Reflection.PropertyInfoExtensions
+  type: Class
+- uid: System.Reflection.DeclarativeSecurityAction
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.DeclarativeSecurityAction.yml
+  name: DeclarativeSecurityAction
+  fullName: System.Reflection.DeclarativeSecurityAction
+  type: Enum
+  summary: Specifies the security actions that can be performed using declarative security.
+- uid: System.Reflection.MethodImportAttributes
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.MethodImportAttributes.yml
+  name: MethodImportAttributes
+  fullName: System.Reflection.MethodImportAttributes
+  type: Enum
+- uid: System.Reflection.ManifestResourceAttributes
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.ManifestResourceAttributes.yml
+  name: ManifestResourceAttributes
+  fullName: System.Reflection.ManifestResourceAttributes
+  type: Enum
+- uid: System.Reflection.AssemblyHashAlgorithm
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.AssemblyHashAlgorithm.yml
+  name: AssemblyHashAlgorithm
+  fullName: System.Reflection.AssemblyHashAlgorithm
+  type: Enum
+  summary: Specifies all the hash algorithms used for hashing assembly files and for generating the strong name.
+- uid: System.Reflection.AssemblyFlags
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.AssemblyFlags.yml
+  name: AssemblyFlags
+  fullName: System.Reflection.AssemblyFlags
+  type: Enum
+- uid: System.Reflection.DispatchProxy
+  isExternal: false
+  href: System.Reflection.DispatchProxy.yml
+  name: DispatchProxy
+  fullName: System.Reflection.DispatchProxy
+  type: Class
+  summary: >-
+    DispatchProxy provides a mechanism for the instantiation of proxy objects and handling of
+
+    their method dispatch.
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

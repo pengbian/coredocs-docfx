@@ -1,0 +1,46 @@
+items:
+- uid: System.ConsoleCancelEventHandler
+  id: ConsoleCancelEventHandler
+  parent: System
+  children: []
+  href: System.ConsoleCancelEventHandler.yml
+  name: ConsoleCancelEventHandler
+  fullName: System.ConsoleCancelEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: src/System.Console/src/System/ConsoleCancelEventArgs.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Console/src/System/ConsoleCancelEventArgs.cs
+    startLine: 6
+  assemblies:
+  - System.Console
+  namespace: System
+  syntax:
+    content: public delegate void ConsoleCancelEventHandler(object sender, ConsoleCancelEventArgs e);
+    content.vb: Public Delegate Sub ConsoleCancelEventHandler(sender As Object, e As ConsoleCancelEventArgs)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.ConsoleCancelEventArgs
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.ConsoleCancelEventArgs
+  parent: System
+  isExternal: false
+  href: System.ConsoleCancelEventArgs.yml
+  name: ConsoleCancelEventArgs
+  fullName: System.ConsoleCancelEventArgs
+  type: Class

@@ -1,0 +1,69 @@
+items:
+- uid: System.IComparable`1
+  id: IComparable`1
+  parent: System
+  children:
+  - System.IComparable`1.CompareTo(`0)
+  href: System.IComparable`1.yml
+  name: IComparable<T>
+  name.vb: IComparable(Of T)
+  fullName: System.IComparable<T>
+  fullName.vb: System.IComparable(Of T)
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IComparable.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IComparable.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public interface IComparable<in T>
+    content.vb: Public Interface IComparable(Of In T)
+    typeParameters:
+    - id: T
+- uid: System.IComparable`1.CompareTo(`0)
+  id: CompareTo(`0)
+  parent: System.IComparable`1
+  href: System.IComparable`1.yml
+  name: CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IComparable.cs
+    startLine: 35
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int CompareTo(T other)
+    content.vb: Function CompareTo(other As T) As Integer
+    parameters:
+    - id: other
+      type: '{T}'
+    return:
+      type: System.Int32
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct

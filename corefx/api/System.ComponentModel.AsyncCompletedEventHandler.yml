@@ -1,0 +1,51 @@
+items:
+- uid: System.ComponentModel.AsyncCompletedEventHandler
+  id: AsyncCompletedEventHandler
+  parent: System.ComponentModel
+  children: []
+  href: System.ComponentModel.AsyncCompletedEventHandler.yml
+  name: AsyncCompletedEventHandler
+  fullName: System.ComponentModel.AsyncCompletedEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: src/System.ComponentModel.EventBasedAsync/src/System/ComponentModel/AsyncCompletedEvent.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.ComponentModel.EventBasedAsync/src/System/ComponentModel/AsyncCompletedEvent.cs
+    startLine: 8
+  assemblies:
+  - System.ComponentModel.EventBasedAsync
+  namespace: System.ComponentModel
+  syntax:
+    content: public delegate void AsyncCompletedEventHandler(object sender, AsyncCompletedEventArgs e);
+    content.vb: Public Delegate Sub AsyncCompletedEventHandler(sender As Object, e As AsyncCompletedEventArgs)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.ComponentModel.AsyncCompletedEventArgs
+references:
+- uid: System.ComponentModel
+  isExternal: false
+  name: System.ComponentModel
+  fullName: System.ComponentModel
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.ComponentModel.AsyncCompletedEventArgs
+  parent: System.ComponentModel
+  isExternal: false
+  href: System.ComponentModel.AsyncCompletedEventArgs.yml
+  name: AsyncCompletedEventArgs
+  fullName: System.ComponentModel.AsyncCompletedEventArgs
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

@@ -1,0 +1,80 @@
+items:
+- uid: System.Runtime.InteropServices.LayoutKind
+  id: LayoutKind
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.LayoutKind.Auto
+  - System.Runtime.InteropServices.LayoutKind.Explicit
+  - System.Runtime.InteropServices.LayoutKind.Sequential
+  href: System.Runtime.InteropServices.LayoutKind.yml
+  name: LayoutKind
+  fullName: System.Runtime.InteropServices.LayoutKind
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/LayoutKind.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/LayoutKind.cs
+    startLine: 8
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum LayoutKind
+    content.vb: Public Enum LayoutKind
+- uid: System.Runtime.InteropServices.LayoutKind.Sequential
+  id: Sequential
+  parent: System.Runtime.InteropServices.LayoutKind
+  href: System.Runtime.InteropServices.LayoutKind.yml
+  name: Sequential
+  fullName: System.Runtime.InteropServices.LayoutKind.Sequential
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/LayoutKind.cs
+    startLine: 12
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Sequential = 0
+- uid: System.Runtime.InteropServices.LayoutKind.Explicit
+  id: Explicit
+  parent: System.Runtime.InteropServices.LayoutKind
+  href: System.Runtime.InteropServices.LayoutKind.yml
+  name: Explicit
+  fullName: System.Runtime.InteropServices.LayoutKind.Explicit
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/LayoutKind.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Explicit = 2
+- uid: System.Runtime.InteropServices.LayoutKind.Auto
+  id: Auto
+  parent: System.Runtime.InteropServices.LayoutKind
+  href: System.Runtime.InteropServices.LayoutKind.yml
+  name: Auto
+  fullName: System.Runtime.InteropServices.LayoutKind.Auto
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/LayoutKind.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Auto = 3
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

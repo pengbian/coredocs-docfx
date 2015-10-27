@@ -1,0 +1,2983 @@
+items:
+- uid: System.AppDomain
+  id: AppDomain
+  parent: System
+  children:
+  - System.AppDomain.ApplyPolicy(System.String)
+  - System.AppDomain.AssemblyLoad
+  - System.AppDomain.AssemblyResolve
+  - System.AppDomain.BaseDirectory
+  - System.AppDomain.CreateComInstanceFrom(System.String,System.String)
+  - System.AppDomain.CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  - System.AppDomain.CreateInstance(System.String,System.String)
+  - System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  - System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  - System.AppDomain.CreateInstance(System.String,System.String,System.Object[])
+  - System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String)
+  - System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  - System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  - System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Object[])
+  - System.AppDomain.CreateInstanceFrom(System.String,System.String)
+  - System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  - System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  - System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Object[])
+  - System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String)
+  - System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  - System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  - System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Object[])
+  - System.AppDomain.CurrentDomain
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder},System.Security.SecurityContextSource)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean)
+  - System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  - System.AppDomain.DomainManager
+  - System.AppDomain.DomainUnload
+  - System.AppDomain.DynamicDirectory
+  - System.AppDomain.ExecuteAssembly(System.String)
+  - System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence)
+  - System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[])
+  - System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  - System.AppDomain.ExecuteAssembly(System.String,System.String[])
+  - System.AppDomain.ExecuteAssembly(System.String,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  - System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.Security.Policy.Evidence,System.String[])
+  - System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.String[])
+  - System.AppDomain.ExecuteAssemblyByName(System.String)
+  - System.AppDomain.ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence)
+  - System.AppDomain.ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence,System.String[])
+  - System.AppDomain.ExecuteAssemblyByName(System.String,System.String[])
+  - System.AppDomain.FriendlyName
+  - System.AppDomain.GetAssemblies
+  - System.AppDomain.GetCurrentThreadId
+  - System.AppDomain.GetData(System.String)
+  - System.AppDomain.Id
+  - System.AppDomain.IsCompatibilitySwitchSet(System.String)
+  - System.AppDomain.IsDefaultAppDomain
+  - System.AppDomain.IsFinalizingForUnload
+  - System.AppDomain.IsFullyTrusted
+  - System.AppDomain.IsHomogenous
+  - System.AppDomain.Load(System.Byte[])
+  - System.AppDomain.Load(System.Byte[],System.Byte[])
+  - System.AppDomain.Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)
+  - System.AppDomain.Load(System.Reflection.AssemblyName)
+  - System.AppDomain.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
+  - System.AppDomain.Load(System.String)
+  - System.AppDomain.Load(System.String,System.Security.Policy.Evidence)
+  - System.AppDomain.MonitoringIsEnabled
+  - System.AppDomain.MonitoringSurvivedMemorySize
+  - System.AppDomain.MonitoringSurvivedProcessMemorySize
+  - System.AppDomain.MonitoringTotalAllocatedMemorySize
+  - System.AppDomain.MonitoringTotalProcessorTime
+  - System.AppDomain.PauseManager
+  - System.AppDomain.PermissionSet
+  - System.AppDomain.ProcessExit
+  - System.AppDomain.ReflectionOnlyGetAssemblies
+  - System.AppDomain.ResourceResolve
+  - System.AppDomain.SetData(System.String,System.Object)
+  - System.AppDomain.SetData(System.String,System.Object,System.Security.IPermission)
+  - System.AppDomain.SetupInformation
+  - System.AppDomain.ToString
+  - System.AppDomain.TypeResolve
+  - System.AppDomain.UnhandledException
+  href: System.AppDomain.yml
+  name: AppDomain
+  fullName: System.AppDomain
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/AppDomain.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 199
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public sealed class AppDomain : _AppDomain, IEvidenceFactory'
+    content.vb: Public NotInheritable Class AppDomain Implements _AppDomain, IEvidenceFactory
+  inheritance:
+  - System.Object
+  implements:
+  - System._AppDomain
+  - System.Security.IEvidenceFactory
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.AppDomain.AssemblyLoad
+  id: AssemblyLoad
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: AssemblyLoad
+  fullName: System.AppDomain.AssemblyLoad
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 222
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event AssemblyLoadEventHandler AssemblyLoad
+    content.vb: Public Event AssemblyLoad As AssemblyLoadEventHandler
+- uid: System.AppDomain.TypeResolve
+  id: TypeResolve
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: TypeResolve
+  fullName: System.AppDomain.TypeResolve
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 227
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event ResolveEventHandler TypeResolve
+    content.vb: Public Event TypeResolve As ResolveEventHandler
+- uid: System.AppDomain.ResourceResolve
+  id: ResourceResolve
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ResourceResolve
+  fullName: System.AppDomain.ResourceResolve
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 251
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event ResolveEventHandler ResourceResolve
+    content.vb: Public Event ResourceResolve As ResolveEventHandler
+- uid: System.AppDomain.AssemblyResolve
+  id: AssemblyResolve
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: AssemblyResolve
+  fullName: System.AppDomain.AssemblyResolve
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 275
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event ResolveEventHandler AssemblyResolve
+    content.vb: Public Event AssemblyResolve As ResolveEventHandler
+- uid: System.AppDomain.DomainManager
+  id: DomainManager
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DomainManager
+  fullName: System.AppDomain.DomainManager
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1104
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AppDomainManager DomainManager { get; }
+    content.vb: Public ReadOnly Property DomainManager As AppDomainManager
+    parameters: []
+    return:
+      type: System.AppDomainManager
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1182
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, IEnumerable<CustomAttributeBuilder>)
+  name.vb: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, IEnumerable(Of CustomAttributeBuilder))
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>)
+  fullName.vb: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Collections.Generic.IEnumerable(Of System.Reflection.Emit.CustomAttributeBuilder))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1195
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, IEnumerable<CustomAttributeBuilder> assemblyAttributes)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, assemblyAttributes As IEnumerable(Of CustomAttributeBuilder)) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: assemblyAttributes
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder},System.Security.SecurityContextSource)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder},System.Security.SecurityContextSource)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, IEnumerable<CustomAttributeBuilder>, SecurityContextSource)
+  name.vb: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, IEnumerable(Of CustomAttributeBuilder), SecurityContextSource)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>, System.Security.SecurityContextSource)
+  fullName.vb: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Collections.Generic.IEnumerable(Of System.Reflection.Emit.CustomAttributeBuilder), System.Security.SecurityContextSource)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1212
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, IEnumerable<CustomAttributeBuilder> assemblyAttributes, SecurityContextSource securityContextSource)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, assemblyAttributes As IEnumerable(Of CustomAttributeBuilder), securityContextSource As SecurityContextSource) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: assemblyAttributes
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
+    - id: securityContextSource
+      type: System.Security.SecurityContextSource
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1230
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, Evidence)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1247
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, Evidence evidence)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, evidence As Evidence) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: evidence
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, PermissionSet, PermissionSet, PermissionSet)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1265
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, PermissionSet requiredPermissions, PermissionSet optionalPermissions, PermissionSet refusedPermissions)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, requiredPermissions As PermissionSet, optionalPermissions As PermissionSet, refusedPermissions As PermissionSet) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: requiredPermissions
+      type: System.Security.PermissionSet
+    - id: optionalPermissions
+      type: System.Security.PermissionSet
+    - id: refusedPermissions
+      type: System.Security.PermissionSet
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Evidence)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1287
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir, Evidence evidence)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String, evidence As Evidence) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    - id: evidence
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, PermissionSet, PermissionSet, PermissionSet)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1303
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir, PermissionSet requiredPermissions, PermissionSet optionalPermissions, PermissionSet refusedPermissions)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String, requiredPermissions As PermissionSet, optionalPermissions As PermissionSet, refusedPermissions As PermissionSet) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    - id: requiredPermissions
+      type: System.Security.PermissionSet
+    - id: optionalPermissions
+      type: System.Security.PermissionSet
+    - id: refusedPermissions
+      type: System.Security.PermissionSet
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, Evidence, PermissionSet, PermissionSet, PermissionSet)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.Security.Policy.Evidence, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1326
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, Evidence evidence, PermissionSet requiredPermissions, PermissionSet optionalPermissions, PermissionSet refusedPermissions)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, evidence As Evidence, requiredPermissions As PermissionSet, optionalPermissions As PermissionSet, refusedPermissions As PermissionSet) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: evidence
+      type: System.Security.Policy.Evidence
+    - id: requiredPermissions
+      type: System.Security.PermissionSet
+    - id: optionalPermissions
+      type: System.Security.PermissionSet
+    - id: refusedPermissions
+      type: System.Security.PermissionSet
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Evidence, PermissionSet, PermissionSet, PermissionSet)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Security.Policy.Evidence, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1350
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir, Evidence evidence, PermissionSet requiredPermissions, PermissionSet optionalPermissions, PermissionSet refusedPermissions)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String, evidence As Evidence, requiredPermissions As PermissionSet, optionalPermissions As PermissionSet, refusedPermissions As PermissionSet) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    - id: evidence
+      type: System.Security.Policy.Evidence
+    - id: requiredPermissions
+      type: System.Security.PermissionSet
+    - id: optionalPermissions
+      type: System.Security.PermissionSet
+    - id: refusedPermissions
+      type: System.Security.PermissionSet
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean)
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Evidence, PermissionSet, PermissionSet, PermissionSet, Boolean)
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Security.Policy.Evidence, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1376
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir, Evidence evidence, PermissionSet requiredPermissions, PermissionSet optionalPermissions, PermissionSet refusedPermissions, bool isSynchronized)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String, evidence As Evidence, requiredPermissions As PermissionSet, optionalPermissions As PermissionSet, refusedPermissions As PermissionSet, isSynchronized As Boolean) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    - id: evidence
+      type: System.Security.Policy.Evidence
+    - id: requiredPermissions
+      type: System.Security.PermissionSet
+    - id: optionalPermissions
+      type: System.Security.PermissionSet
+    - id: refusedPermissions
+      type: System.Security.PermissionSet
+    - id: isSynchronized
+      type: System.Boolean
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Evidence, PermissionSet, PermissionSet, PermissionSet, Boolean, IEnumerable<CustomAttributeBuilder>)
+  name.vb: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Evidence, PermissionSet, PermissionSet, PermissionSet, Boolean, IEnumerable(Of CustomAttributeBuilder))
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Security.Policy.Evidence, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet, System.Boolean, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>)
+  fullName.vb: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Security.Policy.Evidence, System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet, System.Boolean, System.Collections.Generic.IEnumerable(Of System.Reflection.Emit.CustomAttributeBuilder))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1404
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir, Evidence evidence, PermissionSet requiredPermissions, PermissionSet optionalPermissions, PermissionSet refusedPermissions, bool isSynchronized, IEnumerable<CustomAttributeBuilder> assemblyAttributes)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String, evidence As Evidence, requiredPermissions As PermissionSet, optionalPermissions As PermissionSet, refusedPermissions As PermissionSet, isSynchronized As Boolean, assemblyAttributes As IEnumerable(Of CustomAttributeBuilder)) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    - id: evidence
+      type: System.Security.Policy.Evidence
+    - id: requiredPermissions
+      type: System.Security.PermissionSet
+    - id: optionalPermissions
+      type: System.Security.PermissionSet
+    - id: refusedPermissions
+      type: System.Security.PermissionSet
+    - id: isSynchronized
+      type: System.Boolean
+    - id: assemblyAttributes
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  id: DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder})
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Boolean, IEnumerable<CustomAttributeBuilder>)
+  name.vb: DefineDynamicAssembly(AssemblyName, AssemblyBuilderAccess, String, Boolean, IEnumerable(Of CustomAttributeBuilder))
+  fullName: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Boolean, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>)
+  fullName.vb: System.AppDomain.DefineDynamicAssembly(System.Reflection.AssemblyName, System.Reflection.Emit.AssemblyBuilderAccess, System.String, System.Boolean, System.Collections.Generic.IEnumerable(Of System.Reflection.Emit.CustomAttributeBuilder))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1433
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AssemblyBuilder DefineDynamicAssembly(AssemblyName name, AssemblyBuilderAccess access, string dir, bool isSynchronized, IEnumerable<CustomAttributeBuilder> assemblyAttributes)
+    content.vb: Public Function DefineDynamicAssembly(name As AssemblyName, access As AssemblyBuilderAccess, dir As String, isSynchronized As Boolean, assemblyAttributes As IEnumerable(Of CustomAttributeBuilder)) As AssemblyBuilder
+    parameters:
+    - id: name
+      type: System.Reflection.AssemblyName
+    - id: access
+      type: System.Reflection.Emit.AssemblyBuilderAccess
+    - id: dir
+      type: System.String
+    - id: isSynchronized
+      type: System.Boolean
+    - id: assemblyAttributes
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
+    return:
+      type: System.Reflection.Emit.AssemblyBuilder
+      description: 
+- uid: System.AppDomain.ApplyPolicy(System.String)
+  id: ApplyPolicy(System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ApplyPolicy(String)
+  fullName: System.AppDomain.ApplyPolicy(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1488
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string ApplyPolicy(string assemblyName)
+    content.vb: Public Function ApplyPolicy(assemblyName As String) As String
+    parameters:
+    - id: assemblyName
+      type: System.String
+    return:
+      type: System.String
+      description: 
+- uid: System.AppDomain.CreateInstance(System.String,System.String)
+  id: CreateInstance(System.String,System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstance(String, String)
+  fullName: System.AppDomain.CreateInstance(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1506
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstance(string assemblyName, string typeName)
+    content.vb: Public Function CreateInstance(assemblyName As String, typeName As String) As ObjectHandle
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstanceFrom(System.String,System.String)
+  id: CreateInstanceFrom(System.String,System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFrom(String, String)
+  fullName: System.AppDomain.CreateInstanceFrom(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1528
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName)
+    content.vb: Public Function CreateInstanceFrom(assemblyFile As String, typeName As String) As ObjectHandle
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateComInstanceFrom(System.String,System.String)
+  id: CreateComInstanceFrom(System.String,System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateComInstanceFrom(String, String)
+  fullName: System.AppDomain.CreateComInstanceFrom(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1550
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateComInstanceFrom(string assemblyName, string typeName)
+    content.vb: Public Function CreateComInstanceFrom(assemblyName As String, typeName As String) As ObjectHandle
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  id: CreateComInstanceFrom(System.String,System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateComInstanceFrom(String, String, Byte[], AssemblyHashAlgorithm)
+  name.vb: CreateComInstanceFrom(String, String, Byte(), AssemblyHashAlgorithm)
+  fullName: System.AppDomain.CreateComInstanceFrom(System.String, System.String, System.Byte[], System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  fullName.vb: System.AppDomain.CreateComInstanceFrom(System.String, System.String, System.Byte(), System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1562
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateComInstanceFrom(string assemblyFile, string typeName, byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm)
+    content.vb: Public Function CreateComInstanceFrom(assemblyFile As String, typeName As String, hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As ObjectHandle
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: hashValue
+      type: System.Byte[]
+    - id: hashAlgorithm
+      type: System.Configuration.Assemblies.AssemblyHashAlgorithm
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstance(System.String,System.String,System.Object[])
+  id: CreateInstance(System.String,System.String,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstance(String, String, Object[])
+  name.vb: CreateInstance(String, String, Object())
+  fullName: System.AppDomain.CreateInstance(System.String, System.String, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstance(System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1580
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstance(string assemblyName, string typeName, object[] activationAttributes)
+    content.vb: Public Function CreateInstance(assemblyName As String, typeName As String, activationAttributes As Object()) As ObjectHandle
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Object[])
+  id: CreateInstanceFrom(System.String,System.String,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFrom(String, String, Object[])
+  name.vb: CreateInstanceFrom(String, String, Object())
+  fullName: System.AppDomain.CreateInstanceFrom(System.String, System.String, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstanceFrom(System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1598
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName, object[] activationAttributes)
+    content.vb: Public Function CreateInstanceFrom(assemblyFile As String, typeName As String, activationAttributes As Object()) As ObjectHandle
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  id: CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstance(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[], Evidence)
+  name.vb: CreateInstance(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object(), Evidence)
+  fullName: System.AppDomain.CreateInstance(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[], System.Security.Policy.Evidence)
+  fullName.vb: System.AppDomain.CreateInstance(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object(), System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1613
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstance(string assemblyName, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, Evidence securityAttributes)
+    content.vb: Public Function CreateInstance(assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object(), securityAttributes As Evidence) As ObjectHandle
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    - id: securityAttributes
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  id: CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstance(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[])
+  name.vb: CreateInstance(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object())
+  fullName: System.AppDomain.CreateInstance(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstance(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1652
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstance(string assemblyName, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes)
+    content.vb: Public Function CreateInstance(assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As ObjectHandle
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  id: CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFrom(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[], Evidence)
+  name.vb: CreateInstanceFrom(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object(), Evidence)
+  fullName: System.AppDomain.CreateInstanceFrom(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[], System.Security.Policy.Evidence)
+  fullName.vb: System.AppDomain.CreateInstanceFrom(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object(), System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1700
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, Evidence securityAttributes)
+    content.vb: Public Function CreateInstanceFrom(assemblyFile As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object(), securityAttributes As Evidence) As ObjectHandle
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    - id: securityAttributes
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  id: CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFrom(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[])
+  name.vb: CreateInstanceFrom(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object())
+  fullName: System.AppDomain.CreateInstanceFrom(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstanceFrom(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1735
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes)
+    content.vb: Public Function CreateInstanceFrom(assemblyFile As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As ObjectHandle
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Runtime.Remoting.ObjectHandle
+      description: 
+- uid: System.AppDomain.Load(System.Reflection.AssemblyName)
+  id: Load(System.Reflection.AssemblyName)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(AssemblyName)
+  fullName: System.AppDomain.Load(System.Reflection.AssemblyName)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1780
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(AssemblyName assemblyRef)
+    content.vb: Public Function Load(assemblyRef As AssemblyName) As Assembly
+    parameters:
+    - id: assemblyRef
+      type: System.Reflection.AssemblyName
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.Load(System.String)
+  id: Load(System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(String)
+  fullName: System.AppDomain.Load(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1788
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(string assemblyString)
+    content.vb: Public Function Load(assemblyString As String) As Assembly
+    parameters:
+    - id: assemblyString
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.Load(System.Byte[])
+  id: Load(System.Byte[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(Byte[])
+  name.vb: Load(Byte())
+  fullName: System.AppDomain.Load(System.Byte[])
+  fullName.vb: System.AppDomain.Load(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1796
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(byte[] rawAssembly)
+    content.vb: Public Function Load(rawAssembly As Byte()) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.Load(System.Byte[],System.Byte[])
+  id: Load(System.Byte[],System.Byte[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(Byte[], Byte[])
+  name.vb: Load(Byte(), Byte())
+  fullName: System.AppDomain.Load(System.Byte[], System.Byte[])
+  fullName.vb: System.AppDomain.Load(System.Byte(), System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1810
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(byte[] rawAssembly, byte[] rawSymbolStore)
+    content.vb: Public Function Load(rawAssembly As Byte(), rawSymbolStore As Byte()) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    - id: rawSymbolStore
+      type: System.Byte[]
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)
+  id: Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(Byte[], Byte[], Evidence)
+  name.vb: Load(Byte(), Byte(), Evidence)
+  fullName: System.AppDomain.Load(System.Byte[], System.Byte[], System.Security.Policy.Evidence)
+  fullName.vb: System.AppDomain.Load(System.Byte(), System.Byte(), System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1824
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(byte[] rawAssembly, byte[] rawSymbolStore, Evidence securityEvidence)
+    content.vb: Public Function Load(rawAssembly As Byte(), rawSymbolStore As Byte(), securityEvidence As Evidence) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    - id: rawSymbolStore
+      type: System.Byte[]
+    - id: securityEvidence
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
+  id: Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(AssemblyName, Evidence)
+  fullName: System.AppDomain.Load(System.Reflection.AssemblyName, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1850
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(AssemblyName assemblyRef, Evidence assemblySecurity)
+    content.vb: Public Function Load(assemblyRef As AssemblyName, assemblySecurity As Evidence) As Assembly
+    parameters:
+    - id: assemblyRef
+      type: System.Reflection.AssemblyName
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.Load(System.String,System.Security.Policy.Evidence)
+  id: Load(System.String,System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Load(String, Evidence)
+  fullName: System.AppDomain.Load(System.String, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1860
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly Load(string assemblyString, Evidence assemblySecurity)
+    content.vb: Public Function Load(assemblyString As String, assemblySecurity As Evidence) As Assembly
+    parameters:
+    - id: assemblyString
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.AppDomain.ExecuteAssembly(System.String)
+  id: ExecuteAssembly(System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssembly(String)
+  fullName: System.AppDomain.ExecuteAssembly(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1870
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssembly(string assemblyFile)
+    content.vb: Public Function ExecuteAssembly(assemblyFile As String) As Integer
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence)
+  id: ExecuteAssembly(System.String,System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssembly(String, Evidence)
+  fullName: System.AppDomain.ExecuteAssembly(System.String, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1875
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssembly(string assemblyFile, Evidence assemblySecurity)
+    content.vb: Public Function ExecuteAssembly(assemblyFile As String, assemblySecurity As Evidence) As Integer
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[])
+  id: ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssembly(String, Evidence, String[])
+  name.vb: ExecuteAssembly(String, Evidence, String())
+  fullName: System.AppDomain.ExecuteAssembly(System.String, System.Security.Policy.Evidence, System.String[])
+  fullName.vb: System.AppDomain.ExecuteAssembly(System.String, System.Security.Policy.Evidence, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1882
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssembly(string assemblyFile, Evidence assemblySecurity, string[] args)
+    content.vb: Public Function ExecuteAssembly(assemblyFile As String, assemblySecurity As Evidence, args As String()) As Integer
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    - id: args
+      type: System.String[]
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssembly(System.String,System.String[])
+  id: ExecuteAssembly(System.String,System.String[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssembly(String, String[])
+  name.vb: ExecuteAssembly(String, String())
+  fullName: System.AppDomain.ExecuteAssembly(System.String, System.String[])
+  fullName.vb: System.AppDomain.ExecuteAssembly(System.String, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1902
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssembly(string assemblyFile, string[] args)
+    content.vb: Public Function ExecuteAssembly(assemblyFile As String, args As String()) As Integer
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: args
+      type: System.String[]
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  id: ExecuteAssembly(System.String,System.Security.Policy.Evidence,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssembly(String, Evidence, String[], Byte[], AssemblyHashAlgorithm)
+  name.vb: ExecuteAssembly(String, Evidence, String(), Byte(), AssemblyHashAlgorithm)
+  fullName: System.AppDomain.ExecuteAssembly(System.String, System.Security.Policy.Evidence, System.String[], System.Byte[], System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  fullName.vb: System.AppDomain.ExecuteAssembly(System.String, System.Security.Policy.Evidence, System.String(), System.Byte(), System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1912
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssembly(string assemblyFile, Evidence assemblySecurity, string[] args, byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm)
+    content.vb: Public Function ExecuteAssembly(assemblyFile As String, assemblySecurity As Evidence, args As String(), hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As Integer
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    - id: args
+      type: System.String[]
+    - id: hashValue
+      type: System.Byte[]
+    - id: hashAlgorithm
+      type: System.Configuration.Assemblies.AssemblyHashAlgorithm
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssembly(System.String,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  id: ExecuteAssembly(System.String,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssembly(String, String[], Byte[], AssemblyHashAlgorithm)
+  name.vb: ExecuteAssembly(String, String(), Byte(), AssemblyHashAlgorithm)
+  fullName: System.AppDomain.ExecuteAssembly(System.String, System.String[], System.Byte[], System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  fullName.vb: System.AppDomain.ExecuteAssembly(System.String, System.String(), System.Byte(), System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1936
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssembly(string assemblyFile, string[] args, byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm)
+    content.vb: Public Function ExecuteAssembly(assemblyFile As String, args As String(), hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As Integer
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: args
+      type: System.String[]
+    - id: hashValue
+      type: System.Byte[]
+    - id: hashAlgorithm
+      type: System.Configuration.Assemblies.AssemblyHashAlgorithm
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssemblyByName(System.String)
+  id: ExecuteAssemblyByName(System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssemblyByName(String)
+  fullName: System.AppDomain.ExecuteAssemblyByName(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1951
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssemblyByName(string assemblyName)
+    content.vb: Public Function ExecuteAssemblyByName(assemblyName As String) As Integer
+    parameters:
+    - id: assemblyName
+      type: System.String
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence)
+  id: ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssemblyByName(String, Evidence)
+  fullName: System.AppDomain.ExecuteAssemblyByName(System.String, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1958
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssemblyByName(string assemblyName, Evidence assemblySecurity)
+    content.vb: Public Function ExecuteAssemblyByName(assemblyName As String, assemblySecurity As Evidence) As Integer
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence,System.String[])
+  id: ExecuteAssemblyByName(System.String,System.Security.Policy.Evidence,System.String[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssemblyByName(String, Evidence, String[])
+  name.vb: ExecuteAssemblyByName(String, Evidence, String())
+  fullName: System.AppDomain.ExecuteAssemblyByName(System.String, System.Security.Policy.Evidence, System.String[])
+  fullName.vb: System.AppDomain.ExecuteAssemblyByName(System.String, System.Security.Policy.Evidence, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1967
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssemblyByName(string assemblyName, Evidence assemblySecurity, params string[] args)
+    content.vb: Public Function ExecuteAssemblyByName(assemblyName As String, assemblySecurity As Evidence, ParamArray args As String()) As Integer
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    - id: args
+      type: System.String[]
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssemblyByName(System.String,System.String[])
+  id: ExecuteAssemblyByName(System.String,System.String[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssemblyByName(String, String[])
+  name.vb: ExecuteAssemblyByName(String, String())
+  fullName: System.AppDomain.ExecuteAssemblyByName(System.String, System.String[])
+  fullName.vb: System.AppDomain.ExecuteAssemblyByName(System.String, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1987
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssemblyByName(string assemblyName, params string[] args)
+    content.vb: Public Function ExecuteAssemblyByName(assemblyName As String, ParamArray args As String()) As Integer
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: args
+      type: System.String[]
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.Security.Policy.Evidence,System.String[])
+  id: ExecuteAssemblyByName(System.Reflection.AssemblyName,System.Security.Policy.Evidence,System.String[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssemblyByName(AssemblyName, Evidence, String[])
+  name.vb: ExecuteAssemblyByName(AssemblyName, Evidence, String())
+  fullName: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName, System.Security.Policy.Evidence, System.String[])
+  fullName.vb: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName, System.Security.Policy.Evidence, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 1997
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssemblyByName(AssemblyName assemblyName, Evidence assemblySecurity, params string[] args)
+    content.vb: Public Function ExecuteAssemblyByName(assemblyName As AssemblyName, assemblySecurity As Evidence, ParamArray args As String()) As Integer
+    parameters:
+    - id: assemblyName
+      type: System.Reflection.AssemblyName
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    - id: args
+      type: System.String[]
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.String[])
+  id: ExecuteAssemblyByName(System.Reflection.AssemblyName,System.String[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ExecuteAssemblyByName(AssemblyName, String[])
+  name.vb: ExecuteAssemblyByName(AssemblyName, String())
+  fullName: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName, System.String[])
+  fullName.vb: System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2017
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int ExecuteAssemblyByName(AssemblyName assemblyName, params string[] args)
+    content.vb: Public Function ExecuteAssemblyByName(assemblyName As AssemblyName, ParamArray args As String()) As Integer
+    parameters:
+    - id: assemblyName
+      type: System.Reflection.AssemblyName
+    - id: args
+      type: System.String[]
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.CurrentDomain
+  id: CurrentDomain
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CurrentDomain
+  fullName: System.AppDomain.CurrentDomain
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2027
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static AppDomain CurrentDomain { get; }
+    content.vb: Public Shared ReadOnly Property CurrentDomain As AppDomain
+    parameters: []
+    return:
+      type: System.AppDomain
+      description: 
+- uid: System.AppDomain.FriendlyName
+  id: FriendlyName
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: FriendlyName
+  fullName: System.AppDomain.FriendlyName
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2097
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string FriendlyName { get; }
+    content.vb: Public ReadOnly Property FriendlyName As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.AppDomain.BaseDirectory
+  id: BaseDirectory
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: BaseDirectory
+  fullName: System.AppDomain.BaseDirectory
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2103
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string BaseDirectory { get; }
+    content.vb: Public ReadOnly Property BaseDirectory As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.AppDomain.ToString
+  id: ToString
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ToString()
+  fullName: System.AppDomain.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2132
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+      description: 
+  overridden: System.Object.ToString
+- uid: System.AppDomain.GetAssemblies
+  id: GetAssemblies
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: GetAssemblies()
+  fullName: System.AppDomain.GetAssemblies()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2158
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly[] GetAssemblies()
+    content.vb: Public Function GetAssemblies As Assembly()
+    return:
+      type: System.Reflection.Assembly[]
+      description: 
+- uid: System.AppDomain.ReflectionOnlyGetAssemblies
+  id: ReflectionOnlyGetAssemblies
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ReflectionOnlyGetAssemblies()
+  fullName: System.AppDomain.ReflectionOnlyGetAssemblies()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2164
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Assembly[] ReflectionOnlyGetAssemblies()
+    content.vb: Public Function ReflectionOnlyGetAssemblies As Assembly()
+    return:
+      type: System.Reflection.Assembly[]
+      description: 
+- uid: System.AppDomain.IsFinalizingForUnload
+  id: IsFinalizingForUnload
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: IsFinalizingForUnload()
+  fullName: System.AppDomain.IsFinalizingForUnload()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsFinalizingForUnload()
+    content.vb: Public Function IsFinalizingForUnload As Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.AppDomain.SetData(System.String,System.Object)
+  id: SetData(System.String,System.Object)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: SetData(String, Object)
+  fullName: System.AppDomain.SetData(System.String, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2237
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetData(string name, object data)
+    content.vb: Public Sub SetData(name As String, data As Object)
+    parameters:
+    - id: name
+      type: System.String
+    - id: data
+      type: System.Object
+- uid: System.AppDomain.SetData(System.String,System.Object,System.Security.IPermission)
+  id: SetData(System.String,System.Object,System.Security.IPermission)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: SetData(String, Object, IPermission)
+  fullName: System.AppDomain.SetData(System.String, System.Object, System.Security.IPermission)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2249
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetData(string name, object data, IPermission permission)
+    content.vb: Public Sub SetData(name As String, data As Object, permission As IPermission)
+    parameters:
+    - id: name
+      type: System.String
+    - id: data
+      type: System.Object
+    - id: permission
+      type: System.Security.IPermission
+- uid: System.AppDomain.GetData(System.String)
+  id: GetData(System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: GetData(String)
+  fullName: System.AppDomain.GetData(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2369
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetData(string name)
+    content.vb: Public Function GetData(name As String) As Object
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.IsCompatibilitySwitchSet(System.String)
+  id: IsCompatibilitySwitchSet(System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: IsCompatibilitySwitchSet(String)
+  fullName: System.AppDomain.IsCompatibilitySwitchSet(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2456
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool ? IsCompatibilitySwitchSet(string value)
+    content.vb: Public Function IsCompatibilitySwitchSet(value As String) As Boolean?
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.Nullable{System.Boolean}
+      description: 
+- uid: System.AppDomain.GetCurrentThreadId
+  id: GetCurrentThreadId
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: GetCurrentThreadId()
+  fullName: System.AppDomain.GetCurrentThreadId()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int GetCurrentThreadId()
+    content.vb: Public Shared Function GetCurrentThreadId As Integer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.DynamicDirectory
+  id: DynamicDirectory
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DynamicDirectory
+  fullName: System.AppDomain.DynamicDirectory
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2620
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string DynamicDirectory { get; }
+    content.vb: Public ReadOnly Property DynamicDirectory As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.AppDomain.PauseManager
+  id: PauseManager
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: PauseManager
+  fullName: System.AppDomain.PauseManager
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2803
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static IAppDomainPauseManager PauseManager { get; }
+    content.vb: Public Shared ReadOnly Property PauseManager As IAppDomainPauseManager
+    parameters: []
+    return:
+      type: System.IAppDomainPauseManager
+      description: 
+- uid: System.AppDomain.ProcessExit
+  id: ProcessExit
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: ProcessExit
+  fullName: System.AppDomain.ProcessExit
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2907
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event EventHandler ProcessExit
+    content.vb: Public Event ProcessExit As EventHandler
+- uid: System.AppDomain.DomainUnload
+  id: DomainUnload
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: DomainUnload
+  fullName: System.AppDomain.DomainUnload
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2927
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event EventHandler DomainUnload
+    content.vb: Public Event DomainUnload As EventHandler
+- uid: System.AppDomain.UnhandledException
+  id: UnhandledException
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: UnhandledException
+  fullName: System.AppDomain.UnhandledException
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 2950
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public event UnhandledExceptionEventHandler UnhandledException
+    content.vb: Public Event UnhandledException As UnhandledExceptionEventHandler
+- uid: System.AppDomain.SetupInformation
+  id: SetupInformation
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: SetupInformation
+  fullName: System.AppDomain.SetupInformation
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4163
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public AppDomainSetup SetupInformation { get; }
+    content.vb: Public ReadOnly Property SetupInformation As AppDomainSetup
+    parameters: []
+    return:
+      type: System.AppDomainSetup
+      description: 
+- uid: System.AppDomain.PermissionSet
+  id: PermissionSet
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: PermissionSet
+  fullName: System.AppDomain.PermissionSet
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4244
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public PermissionSet PermissionSet { get; }
+    content.vb: Public ReadOnly Property PermissionSet As PermissionSet
+    parameters: []
+    return:
+      type: System.Security.PermissionSet
+      description: 
+- uid: System.AppDomain.IsFullyTrusted
+  id: IsFullyTrusted
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: IsFullyTrusted
+  fullName: System.AppDomain.IsFullyTrusted
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4264
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsFullyTrusted { get; }
+    content.vb: Public ReadOnly Property IsFullyTrusted As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.AppDomain.IsHomogenous
+  id: IsHomogenous
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: IsHomogenous
+  fullName: System.AppDomain.IsHomogenous
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4276
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsHomogenous { get; }
+    content.vb: Public ReadOnly Property IsHomogenous As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String)
+  id: CreateInstanceAndUnwrap(System.String,System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceAndUnwrap(String, String)
+  fullName: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4345
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceAndUnwrap(string assemblyName, string typeName)
+    content.vb: Public Function CreateInstanceAndUnwrap(assemblyName As String, typeName As String) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Object[])
+  id: CreateInstanceAndUnwrap(System.String,System.String,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceAndUnwrap(String, String, Object[])
+  name.vb: CreateInstanceAndUnwrap(String, String, Object())
+  fullName: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4356
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceAndUnwrap(string assemblyName, string typeName, object[] activationAttributes)
+    content.vb: Public Function CreateInstanceAndUnwrap(assemblyName As String, typeName As String, activationAttributes As Object()) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  id: CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[], Evidence)
+  name.vb: CreateInstanceAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object(), Evidence)
+  fullName: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[], System.Security.Policy.Evidence)
+  fullName.vb: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object(), System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4368
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceAndUnwrap(string assemblyName, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, Evidence securityAttributes)
+    content.vb: Public Function CreateInstanceAndUnwrap(assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object(), securityAttributes As Evidence) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    - id: securityAttributes
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  id: CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[])
+  name.vb: CreateInstanceAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object())
+  fullName: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstanceAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4390
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceAndUnwrap(string assemblyName, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes)
+    content.vb: Public Function CreateInstanceAndUnwrap(assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String)
+  id: CreateInstanceFromAndUnwrap(System.String,System.String)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFromAndUnwrap(String, String)
+  fullName: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4418
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceFromAndUnwrap(string assemblyName, string typeName)
+    content.vb: Public Function CreateInstanceFromAndUnwrap(assemblyName As String, typeName As String) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Object[])
+  id: CreateInstanceFromAndUnwrap(System.String,System.String,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFromAndUnwrap(String, String, Object[])
+  name.vb: CreateInstanceFromAndUnwrap(String, String, Object())
+  fullName: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4431
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceFromAndUnwrap(string assemblyName, string typeName, object[] activationAttributes)
+    content.vb: Public Function CreateInstanceFromAndUnwrap(assemblyName As String, typeName As String, activationAttributes As Object()) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  id: CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[],System.Security.Policy.Evidence)
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFromAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[], Evidence)
+  name.vb: CreateInstanceFromAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object(), Evidence)
+  fullName: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[], System.Security.Policy.Evidence)
+  fullName.vb: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object(), System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4445
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceFromAndUnwrap(string assemblyName, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, Evidence securityAttributes)
+    content.vb: Public Function CreateInstanceFromAndUnwrap(assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object(), securityAttributes As Evidence) As Object
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    - id: securityAttributes
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  id: CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: CreateInstanceFromAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[])
+  name.vb: CreateInstanceFromAndUnwrap(String, String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object())
+  fullName: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[])
+  fullName.vb: System.AppDomain.CreateInstanceFromAndUnwrap(System.String, System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4467
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object CreateInstanceFromAndUnwrap(string assemblyFile, string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes)
+    content.vb: Public Function CreateInstanceFromAndUnwrap(assemblyFile As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As Object
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.AppDomain.Id
+  id: Id
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: Id
+  fullName: System.AppDomain.Id
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4492
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Id { get; }
+    content.vb: Public ReadOnly Property Id As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.AppDomain.IsDefaultAppDomain
+  id: IsDefaultAppDomain
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: IsDefaultAppDomain()
+  fullName: System.AppDomain.IsDefaultAppDomain()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4507
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsDefaultAppDomain()
+    content.vb: Public Function IsDefaultAppDomain As Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.AppDomain.MonitoringIsEnabled
+  id: MonitoringIsEnabled
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: MonitoringIsEnabled
+  fullName: System.AppDomain.MonitoringIsEnabled
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4576
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool MonitoringIsEnabled { get; set; }
+    content.vb: Public Shared Property MonitoringIsEnabled As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.AppDomain.MonitoringTotalProcessorTime
+  id: MonitoringTotalProcessorTime
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: MonitoringTotalProcessorTime
+  fullName: System.AppDomain.MonitoringTotalProcessorTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4598
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan MonitoringTotalProcessorTime { get; }
+    content.vb: Public ReadOnly Property MonitoringTotalProcessorTime As TimeSpan
+    parameters: []
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.AppDomain.MonitoringTotalAllocatedMemorySize
+  id: MonitoringTotalAllocatedMemorySize
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: MonitoringTotalAllocatedMemorySize
+  fullName: System.AppDomain.MonitoringTotalAllocatedMemorySize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4614
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public long MonitoringTotalAllocatedMemorySize { get; }
+    content.vb: Public ReadOnly Property MonitoringTotalAllocatedMemorySize As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.AppDomain.MonitoringSurvivedMemorySize
+  id: MonitoringSurvivedMemorySize
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: MonitoringSurvivedMemorySize
+  fullName: System.AppDomain.MonitoringSurvivedMemorySize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4632
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public long MonitoringSurvivedMemorySize { get; }
+    content.vb: Public ReadOnly Property MonitoringSurvivedMemorySize As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.AppDomain.MonitoringSurvivedProcessMemorySize
+  id: MonitoringSurvivedProcessMemorySize
+  parent: System.AppDomain
+  href: System.AppDomain.yml
+  name: MonitoringSurvivedProcessMemorySize
+  fullName: System.AppDomain.MonitoringSurvivedProcessMemorySize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomain.cs
+    startLine: 4652
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static long MonitoringSurvivedProcessMemorySize { get; }
+    content.vb: Public Shared ReadOnly Property MonitoringSurvivedProcessMemorySize As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.AppDomainManager
+  parent: System
+  isExternal: false
+  href: System.AppDomainManager.yml
+  name: AppDomainManager
+  fullName: System.AppDomainManager
+  type: Class
+- uid: System.Reflection.AssemblyName
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.AssemblyName.yml
+  name: AssemblyName
+  fullName: System.Reflection.AssemblyName
+  type: Class
+- uid: System.Reflection.Emit.AssemblyBuilderAccess
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.AssemblyBuilderAccess.yml
+  name: AssemblyBuilderAccess
+  fullName: System.Reflection.Emit.AssemblyBuilderAccess
+  type: Enum
+- uid: System.Reflection.Emit.AssemblyBuilder
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.AssemblyBuilder.yml
+  name: AssemblyBuilder
+  fullName: System.Reflection.Emit.AssemblyBuilder
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Reflection.Emit
+  isExternal: false
+  name: System.Reflection.Emit
+  fullName: System.Reflection.Emit
+  type: Namespace
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.Emit.CustomAttributeBuilder}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<CustomAttributeBuilder>
+  name.vb: IEnumerable(Of CustomAttributeBuilder)
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.Emit.CustomAttributeBuilder)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Reflection.Emit.CustomAttributeBuilder
+    name: CustomAttributeBuilder
+    fullName: System.Reflection.Emit.CustomAttributeBuilder
+    href: System.Reflection.Emit.CustomAttributeBuilder.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.Emit.CustomAttributeBuilder
+    name: CustomAttributeBuilder
+    fullName: System.Reflection.Emit.CustomAttributeBuilder
+    href: System.Reflection.Emit.CustomAttributeBuilder.yml
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<T>
+  name.vb: IEnumerable(Of T)
+  fullName: System.Collections.Generic.IEnumerable<T>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace
+- uid: System.Security.SecurityContextSource
+  parent: System.Security
+  isExternal: false
+  href: System.Security.SecurityContextSource.yml
+  name: SecurityContextSource
+  fullName: System.Security.SecurityContextSource
+  type: Enum
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Security.Policy.Evidence
+  parent: System.Security.Policy
+  isExternal: false
+  href: System.Security.Policy.Evidence.yml
+  name: Evidence
+  fullName: System.Security.Policy.Evidence
+  type: Class
+  summary: >-
+    The Evidence class keeps track of information that can be used to make security decisions about
+
+    an assembly or an AppDomain.  There are two types of evidence, one is supplied by the CLR or a
+
+    host, the other supplied by the assembly itself.
+
+
+
+    We keep a dictionary that maps each type of possbile evidence to an EvidenceTypeDescriptor which
+
+    contains the evidence objects themselves if they exist as well as some extra metadata about that
+
+    type of evidence.  This dictionary is fully populated with keys for host evidence at all times and
+
+    for assembly evidence the first time the application evidence is touched.  This means that if a
+
+    Type key does not exist in the dictionary, then that particular type of evidence will never be
+
+    given to the assembly or AppDomain in question as host evidence.  The only exception is if the
+
+    user later manually adds host evidence via the AddHostEvidence API.
+
+
+
+    Assembly supplied evidence is created up front, however host supplied evidence may be lazily
+
+    created.  In the lazy creation case, the Type will map to either an EvidenceTypeDescriptor that does
+
+    not contain any evidence data or null.  As requests come in for that evidence, we'll populate the
+
+    EvidenceTypeDescriptor appropriately.
+- uid: System.Security.Policy
+  isExternal: false
+  name: System.Security.Policy
+  fullName: System.Security.Policy
+  type: Namespace
+- uid: System.Security.PermissionSet
+  parent: System.Security
+  isExternal: false
+  href: System.Security.PermissionSet.yml
+  name: PermissionSet
+  fullName: System.Security.PermissionSet
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Runtime.Remoting.ObjectHandle
+  parent: System.Runtime.Remoting
+  isExternal: false
+  href: System.Runtime.Remoting.ObjectHandle.yml
+  name: ObjectHandle
+  fullName: System.Runtime.Remoting.ObjectHandle
+  type: Class
+- uid: System.Runtime.Remoting
+  isExternal: false
+  name: System.Runtime.Remoting
+  fullName: System.Runtime.Remoting
+  type: Namespace
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  parent: System.Configuration.Assemblies
+  isExternal: false
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: AssemblyHashAlgorithm
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  type: Enum
+- uid: System.Configuration.Assemblies
+  isExternal: false
+  name: System.Configuration.Assemblies
+  fullName: System.Configuration.Assemblies
+  type: Namespace
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.BindingFlags.yml
+  name: BindingFlags
+  fullName: System.Reflection.BindingFlags
+  type: Enum
+- uid: System.Reflection.Binder
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Binder.yml
+  name: Binder
+  fullName: System.Reflection.Binder
+  type: Class
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CultureInfo.yml
+  name: CultureInfo
+  fullName: System.Globalization.CultureInfo
+  type: Class
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.AppDomain
+  parent: System
+  isExternal: false
+  href: System.AppDomain.yml
+  name: AppDomain
+  fullName: System.AppDomain
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Reflection.Assembly[]
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly[]
+  name.vb: Assembly()
+  fullName: System.Reflection.Assembly[]
+  fullName.vb: System.Reflection.Assembly()
+  spec.csharp:
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    fullName: System.Reflection.Assembly
+    href: System.Reflection.Assembly.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    fullName: System.Reflection.Assembly
+    href: System.Reflection.Assembly.yml
+  - name: ()
+    fullName: ()
+- uid: System.Security.IPermission
+  parent: System.Security
+  isExternal: false
+  href: System.Security.IPermission.yml
+  name: IPermission
+  fullName: System.Security.IPermission
+  type: Interface
+- uid: System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: System.Nullable`1.yml
+  name: Nullable<Boolean>
+  name.vb: Nullable(Of Boolean)
+  fullName: System.Nullable<System.Boolean>
+  fullName.vb: System.Nullable(Of System.Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    fullName: System.Nullable
+    href: System.Nullable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    href: System.Boolean.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    fullName: System.Nullable
+    href: System.Nullable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    href: System.Boolean.yml
+  - name: )
+    fullName: )
+- uid: System.Nullable`1
+  parent: System
+  isExternal: false
+  href: System.Nullable`1.yml
+  name: Nullable<T>
+  name.vb: Nullable(Of T)
+  fullName: System.Nullable<T>
+  fullName.vb: System.Nullable(Of T)
+  type: Struct
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    fullName: System.Nullable
+    href: System.Nullable`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    fullName: System.Nullable
+    href: System.Nullable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.IAppDomainPauseManager
+  parent: System
+  isExternal: false
+  href: System.IAppDomainPauseManager.yml
+  name: IAppDomainPauseManager
+  fullName: System.IAppDomainPauseManager
+  type: Interface
+- uid: System.AppDomainSetup
+  parent: System
+  isExternal: false
+  href: System.AppDomainSetup.yml
+  name: AppDomainSetup
+  fullName: System.AppDomainSetup
+  type: Class
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  href: System.TimeSpan.yml
+  name: TimeSpan
+  fullName: System.TimeSpan
+  type: Struct
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct

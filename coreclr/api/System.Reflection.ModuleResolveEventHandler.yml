@@ -1,0 +1,62 @@
+items:
+- uid: System.Reflection.ModuleResolveEventHandler
+  id: ModuleResolveEventHandler
+  parent: System.Reflection
+  children: []
+  href: System.Reflection.ModuleResolveEventHandler.yml
+  name: ModuleResolveEventHandler
+  fullName: System.Reflection.ModuleResolveEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: src/mscorlib/src/System/Reflection/Assembly.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 43
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public delegate Module ModuleResolveEventHandler(object sender, ResolveEventArgs e);
+    content.vb: Public Delegate Function ModuleResolveEventHandler(sender As Object, e As ResolveEventArgs) As
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.ResolveEventArgs
+    return:
+      type: System.Reflection.Module
+      description: 
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.ResolveEventArgs
+  isExternal: false
+  href: System.ResolveEventArgs.yml
+  name: ResolveEventArgs
+  fullName: System.ResolveEventArgs
+  type: Class
+- uid: System.Reflection.Module
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Module.yml
+  name: Module
+  fullName: System.Reflection.Module
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

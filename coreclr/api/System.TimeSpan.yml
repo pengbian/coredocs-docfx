@@ -1,0 +1,1905 @@
+items:
+- uid: System.TimeSpan
+  id: TimeSpan
+  parent: System
+  children:
+  - System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32)
+  - System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.TimeSpan.#ctor(System.Int64)
+  - System.TimeSpan.Add(System.TimeSpan)
+  - System.TimeSpan.Compare(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.CompareTo(System.Object)
+  - System.TimeSpan.CompareTo(System.TimeSpan)
+  - System.TimeSpan.Days
+  - System.TimeSpan.Duration
+  - System.TimeSpan.Equals(System.Object)
+  - System.TimeSpan.Equals(System.TimeSpan)
+  - System.TimeSpan.Equals(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.FromDays(System.Double)
+  - System.TimeSpan.FromHours(System.Double)
+  - System.TimeSpan.FromMilliseconds(System.Double)
+  - System.TimeSpan.FromMinutes(System.Double)
+  - System.TimeSpan.FromSeconds(System.Double)
+  - System.TimeSpan.FromTicks(System.Int64)
+  - System.TimeSpan.GetHashCode
+  - System.TimeSpan.Hours
+  - System.TimeSpan.MaxValue
+  - System.TimeSpan.Milliseconds
+  - System.TimeSpan.Minutes
+  - System.TimeSpan.MinValue
+  - System.TimeSpan.Negate
+  - System.TimeSpan.op_Addition(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_Equality(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_GreaterThan(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_GreaterThanOrEqual(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_Inequality(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_LessThan(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_LessThanOrEqual(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_Subtraction(System.TimeSpan,System.TimeSpan)
+  - System.TimeSpan.op_UnaryNegation(System.TimeSpan)
+  - System.TimeSpan.op_UnaryPlus(System.TimeSpan)
+  - System.TimeSpan.Parse(System.String)
+  - System.TimeSpan.Parse(System.String,System.IFormatProvider)
+  - System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider)
+  - System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles)
+  - System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider)
+  - System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles)
+  - System.TimeSpan.Seconds
+  - System.TimeSpan.Subtract(System.TimeSpan)
+  - System.TimeSpan.Ticks
+  - System.TimeSpan.TicksPerDay
+  - System.TimeSpan.TicksPerHour
+  - System.TimeSpan.TicksPerMillisecond
+  - System.TimeSpan.TicksPerMinute
+  - System.TimeSpan.TicksPerSecond
+  - System.TimeSpan.ToString
+  - System.TimeSpan.ToString(System.String)
+  - System.TimeSpan.ToString(System.String,System.IFormatProvider)
+  - System.TimeSpan.TotalDays
+  - System.TimeSpan.TotalHours
+  - System.TimeSpan.TotalMilliseconds
+  - System.TimeSpan.TotalMinutes
+  - System.TimeSpan.TotalSeconds
+  - System.TimeSpan.TryParse(System.String,System.IFormatProvider,System.TimeSpan@)
+  - System.TimeSpan.TryParse(System.String,System.TimeSpan@)
+  - System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
+  - System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.TimeSpan@)
+  - System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
+  - System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.TimeSpan@)
+  - System.TimeSpan.Zero
+  href: System.TimeSpan.yml
+  name: TimeSpan
+  fullName: System.TimeSpan
+  type: Struct
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/TimeSpan.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 29
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan>, IFormattable'
+    content.vb: Public Structure TimeSpan Implements IComparable, IComparable(Of TimeSpan), IEquatable(Of TimeSpan), IFormattable
+  implements:
+  - System.IComparable
+  - System.IComparable{System.TimeSpan}
+  - System.IEquatable{System.TimeSpan}
+  - System.IFormattable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: System.TimeSpan.TicksPerMillisecond
+  id: TicksPerMillisecond
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TicksPerMillisecond
+  fullName: System.TimeSpan.TicksPerMillisecond
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public const long TicksPerMillisecond
+    content.vb: Public Const TicksPerMillisecond As Long = 10000L
+- uid: System.TimeSpan.TicksPerSecond
+  id: TicksPerSecond
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TicksPerSecond
+  fullName: System.TimeSpan.TicksPerSecond
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 36
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public const long TicksPerSecond
+    content.vb: Public Const TicksPerSecond As Long = 10000000L
+- uid: System.TimeSpan.TicksPerMinute
+  id: TicksPerMinute
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TicksPerMinute
+  fullName: System.TimeSpan.TicksPerMinute
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public const long TicksPerMinute
+    content.vb: Public Const TicksPerMinute As Long = 600000000L
+- uid: System.TimeSpan.TicksPerHour
+  id: TicksPerHour
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TicksPerHour
+  fullName: System.TimeSpan.TicksPerHour
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public const long TicksPerHour
+    content.vb: Public Const TicksPerHour As Long = 36000000000L
+- uid: System.TimeSpan.TicksPerDay
+  id: TicksPerDay
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TicksPerDay
+  fullName: System.TimeSpan.TicksPerDay
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 45
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public const long TicksPerDay
+    content.vb: Public Const TicksPerDay As Long = 864000000000L
+- uid: System.TimeSpan.Zero
+  id: Zero
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Zero
+  fullName: System.TimeSpan.Zero
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 61
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static readonly TimeSpan Zero
+    content.vb: Public Shared ReadOnly Zero As TimeSpan
+- uid: System.TimeSpan.MaxValue
+  id: MaxValue
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: MaxValue
+  fullName: System.TimeSpan.MaxValue
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 63
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static readonly TimeSpan MaxValue
+    content.vb: Public Shared ReadOnly MaxValue As TimeSpan
+- uid: System.TimeSpan.MinValue
+  id: MinValue
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: MinValue
+  fullName: System.TimeSpan.MinValue
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 64
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static readonly TimeSpan MinValue
+    content.vb: Public Shared ReadOnly MinValue As TimeSpan
+- uid: System.TimeSpan.#ctor(System.Int64)
+  id: '#ctor(System.Int64)'
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TimeSpan(Int64)
+  fullName: System.TimeSpan.TimeSpan(System.Int64)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 74
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan(long ticks)
+    content.vb: Public Sub New(ticks As Long)
+    parameters:
+    - id: ticks
+      type: System.Int64
+- uid: System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TimeSpan(Int32, Int32, Int32)
+  fullName: System.TimeSpan.TimeSpan(System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 78
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan(int hours, int minutes, int seconds)
+    content.vb: Public Sub New(hours As Integer, minutes As Integer, seconds As Integer)
+    parameters:
+    - id: hours
+      type: System.Int32
+    - id: minutes
+      type: System.Int32
+    - id: seconds
+      type: System.Int32
+- uid: System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TimeSpan(Int32, Int32, Int32, Int32)
+  fullName: System.TimeSpan.TimeSpan(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 82
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan(int days, int hours, int minutes, int seconds)
+    content.vb: Public Sub New(days As Integer, hours As Integer, minutes As Integer, seconds As Integer)
+    parameters:
+    - id: days
+      type: System.Int32
+    - id: hours
+      type: System.Int32
+    - id: minutes
+      type: System.Int32
+    - id: seconds
+      type: System.Int32
+- uid: System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TimeSpan(Int32, Int32, Int32, Int32, Int32)
+  fullName: System.TimeSpan.TimeSpan(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 87
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds)
+    content.vb: Public Sub New(days As Integer, hours As Integer, minutes As Integer, seconds As Integer, milliseconds As Integer)
+    parameters:
+    - id: days
+      type: System.Int32
+    - id: hours
+      type: System.Int32
+    - id: minutes
+      type: System.Int32
+    - id: seconds
+      type: System.Int32
+    - id: milliseconds
+      type: System.Int32
+- uid: System.TimeSpan.Ticks
+  id: Ticks
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Ticks
+  fullName: System.TimeSpan.Ticks
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 95
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public long Ticks { get; }
+    content.vb: Public ReadOnly Property Ticks As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.TimeSpan.Days
+  id: Days
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Days
+  fullName: System.TimeSpan.Days
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 99
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Days { get; }
+    content.vb: Public ReadOnly Property Days As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.Hours
+  id: Hours
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Hours
+  fullName: System.TimeSpan.Hours
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 103
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Hours { get; }
+    content.vb: Public ReadOnly Property Hours As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.Milliseconds
+  id: Milliseconds
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Milliseconds
+  fullName: System.TimeSpan.Milliseconds
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 107
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Milliseconds { get; }
+    content.vb: Public ReadOnly Property Milliseconds As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.Minutes
+  id: Minutes
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Minutes
+  fullName: System.TimeSpan.Minutes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 111
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Minutes { get; }
+    content.vb: Public ReadOnly Property Minutes As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.Seconds
+  id: Seconds
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Seconds
+  fullName: System.TimeSpan.Seconds
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 115
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Seconds { get; }
+    content.vb: Public ReadOnly Property Seconds As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.TotalDays
+  id: TotalDays
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TotalDays
+  fullName: System.TimeSpan.TotalDays
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 119
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public double TotalDays { get; }
+    content.vb: Public ReadOnly Property TotalDays As Double
+    parameters: []
+    return:
+      type: System.Double
+      description: 
+- uid: System.TimeSpan.TotalHours
+  id: TotalHours
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TotalHours
+  fullName: System.TimeSpan.TotalHours
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 123
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public double TotalHours { get; }
+    content.vb: Public ReadOnly Property TotalHours As Double
+    parameters: []
+    return:
+      type: System.Double
+      description: 
+- uid: System.TimeSpan.TotalMilliseconds
+  id: TotalMilliseconds
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TotalMilliseconds
+  fullName: System.TimeSpan.TotalMilliseconds
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 127
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public double TotalMilliseconds { get; }
+    content.vb: Public ReadOnly Property TotalMilliseconds As Double
+    parameters: []
+    return:
+      type: System.Double
+      description: 
+- uid: System.TimeSpan.TotalMinutes
+  id: TotalMinutes
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TotalMinutes
+  fullName: System.TimeSpan.TotalMinutes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 140
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public double TotalMinutes { get; }
+    content.vb: Public ReadOnly Property TotalMinutes As Double
+    parameters: []
+    return:
+      type: System.Double
+      description: 
+- uid: System.TimeSpan.TotalSeconds
+  id: TotalSeconds
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TotalSeconds
+  fullName: System.TimeSpan.TotalSeconds
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 144
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public double TotalSeconds { get; }
+    content.vb: Public ReadOnly Property TotalSeconds As Double
+    parameters: []
+    return:
+      type: System.Double
+      description: 
+- uid: System.TimeSpan.Add(System.TimeSpan)
+  id: Add(System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Add(TimeSpan)
+  fullName: System.TimeSpan.Add(System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 148
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan Add(TimeSpan ts)
+    content.vb: Public Function Add(ts As TimeSpan) As TimeSpan
+    parameters:
+    - id: ts
+      type: System.TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Compare(System.TimeSpan,System.TimeSpan)
+  id: Compare(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Compare(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.Compare(System.TimeSpan, System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 162
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int Compare(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Function Compare(t1 As TimeSpan, t2 As TimeSpan) As Integer
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: CompareTo(Object)
+  fullName: System.TimeSpan.CompareTo(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 169
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int CompareTo(object value)
+    content.vb: Public Function CompareTo(value As Object) As Integer
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.CompareTo(System.TimeSpan)
+  id: CompareTo(System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: CompareTo(TimeSpan)
+  fullName: System.TimeSpan.CompareTo(System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 179
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int CompareTo(TimeSpan value)
+    content.vb: Public Function CompareTo(value As TimeSpan) As Integer
+    parameters:
+    - id: value
+      type: System.TimeSpan
+    return:
+      type: System.Int32
+      description: 
+- uid: System.TimeSpan.FromDays(System.Double)
+  id: FromDays(System.Double)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: FromDays(Double)
+  fullName: System.TimeSpan.FromDays(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan FromDays(double value)
+    content.vb: Public Shared Function FromDays(value As Double) As TimeSpan
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Duration
+  id: Duration
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Duration()
+  fullName: System.TimeSpan.Duration()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 190
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan Duration()
+    content.vb: Public Function Duration As TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Equals(Object)
+  fullName: System.TimeSpan.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 197
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override bool Equals(object value)
+    content.vb: Public Overrides Function Equals(value As Object) As Boolean
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.ValueType.Equals(System.Object)
+- uid: System.TimeSpan.Equals(System.TimeSpan)
+  id: Equals(System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Equals(TimeSpan)
+  fullName: System.TimeSpan.Equals(System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 204
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool Equals(TimeSpan obj)
+    content.vb: Public Function Equals(obj As TimeSpan) As Boolean
+    parameters:
+    - id: obj
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.Equals(System.TimeSpan,System.TimeSpan)
+  id: Equals(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Equals(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.Equals(System.TimeSpan, System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 209
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool Equals(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Function Equals(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.GetHashCode
+  id: GetHashCode
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: GetHashCode()
+  fullName: System.TimeSpan.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 213
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.ValueType.GetHashCode
+- uid: System.TimeSpan.FromHours(System.Double)
+  id: FromHours(System.Double)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: FromHours(Double)
+  fullName: System.TimeSpan.FromHours(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 217
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan FromHours(double value)
+    content.vb: Public Shared Function FromHours(value As Double) As TimeSpan
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.FromMilliseconds(System.Double)
+  id: FromMilliseconds(System.Double)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: FromMilliseconds(Double)
+  fullName: System.TimeSpan.FromMilliseconds(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 232
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan FromMilliseconds(double value)
+    content.vb: Public Shared Function FromMilliseconds(value As Double) As TimeSpan
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.FromMinutes(System.Double)
+  id: FromMinutes(System.Double)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: FromMinutes(Double)
+  fullName: System.TimeSpan.FromMinutes(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 236
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan FromMinutes(double value)
+    content.vb: Public Shared Function FromMinutes(value As Double) As TimeSpan
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Negate
+  id: Negate
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Negate()
+  fullName: System.TimeSpan.Negate()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 240
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan Negate()
+    content.vb: Public Function Negate As TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.FromSeconds(System.Double)
+  id: FromSeconds(System.Double)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: FromSeconds(Double)
+  fullName: System.TimeSpan.FromSeconds(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 247
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan FromSeconds(double value)
+    content.vb: Public Shared Function FromSeconds(value As Double) As TimeSpan
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Subtract(System.TimeSpan)
+  id: Subtract(System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Subtract(TimeSpan)
+  fullName: System.TimeSpan.Subtract(System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 251
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public TimeSpan Subtract(TimeSpan ts)
+    content.vb: Public Function Subtract(ts As TimeSpan) As TimeSpan
+    parameters:
+    - id: ts
+      type: System.TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.FromTicks(System.Int64)
+  id: FromTicks(System.Int64)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: FromTicks(Int64)
+  fullName: System.TimeSpan.FromTicks(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 261
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan FromTicks(long value)
+    content.vb: Public Shared Function FromTicks(value As Long) As TimeSpan
+    parameters:
+    - id: value
+      type: System.Int64
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Parse(System.String)
+  id: Parse(System.String)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Parse(String)
+  fullName: System.TimeSpan.Parse(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 276
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan Parse(string s)
+    content.vb: Public Shared Function Parse(s As String) As TimeSpan
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.Parse(System.String,System.IFormatProvider)
+  id: Parse(System.String,System.IFormatProvider)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Parse(String, IFormatProvider)
+  fullName: System.TimeSpan.Parse(System.String, System.IFormatProvider)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 280
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan Parse(string input, IFormatProvider formatProvider)
+    content.vb: Public Shared Function Parse(input As String, formatProvider As IFormatProvider) As TimeSpan
+    parameters:
+    - id: input
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider)
+  id: ParseExact(System.String,System.String,System.IFormatProvider)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ParseExact(String, String, IFormatProvider)
+  fullName: System.TimeSpan.ParseExact(System.String, System.String, System.IFormatProvider)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 283
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan ParseExact(string input, string format, IFormatProvider formatProvider)
+    content.vb: Public Shared Function ParseExact(input As String, format As String, formatProvider As IFormatProvider) As TimeSpan
+    parameters:
+    - id: input
+      type: System.String
+    - id: format
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider)
+  id: ParseExact(System.String,System.String[],System.IFormatProvider)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ParseExact(String, String[], IFormatProvider)
+  name.vb: ParseExact(String, String(), IFormatProvider)
+  fullName: System.TimeSpan.ParseExact(System.String, System.String[], System.IFormatProvider)
+  fullName.vb: System.TimeSpan.ParseExact(System.String, System.String(), System.IFormatProvider)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 286
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan ParseExact(string input, string[] formats, IFormatProvider formatProvider)
+    content.vb: Public Shared Function ParseExact(input As String, formats As String(), formatProvider As IFormatProvider) As TimeSpan
+    parameters:
+    - id: input
+      type: System.String
+    - id: formats
+      type: System.String[]
+    - id: formatProvider
+      type: System.IFormatProvider
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles)
+  id: ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ParseExact(String, String, IFormatProvider, TimeSpanStyles)
+  fullName: System.TimeSpan.ParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.TimeSpanStyles)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 289
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan ParseExact(string input, string format, IFormatProvider formatProvider, TimeSpanStyles styles)
+    content.vb: Public Shared Function ParseExact(input As String, format As String, formatProvider As IFormatProvider, styles As TimeSpanStyles) As TimeSpan
+    parameters:
+    - id: input
+      type: System.String
+    - id: format
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: styles
+      type: System.Globalization.TimeSpanStyles
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles)
+  id: ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ParseExact(String, String[], IFormatProvider, TimeSpanStyles)
+  name.vb: ParseExact(String, String(), IFormatProvider, TimeSpanStyles)
+  fullName: System.TimeSpan.ParseExact(System.String, System.String[], System.IFormatProvider, System.Globalization.TimeSpanStyles)
+  fullName.vb: System.TimeSpan.ParseExact(System.String, System.String(), System.IFormatProvider, System.Globalization.TimeSpanStyles)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 293
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan ParseExact(string input, string[] formats, IFormatProvider formatProvider, TimeSpanStyles styles)
+    content.vb: Public Shared Function ParseExact(input As String, formats As String(), formatProvider As IFormatProvider, styles As TimeSpanStyles) As TimeSpan
+    parameters:
+    - id: input
+      type: System.String
+    - id: formats
+      type: System.String[]
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: styles
+      type: System.Globalization.TimeSpanStyles
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.TryParse(System.String,System.TimeSpan@)
+  id: TryParse(System.String,System.TimeSpan@)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TryParse(String, out TimeSpan)
+  name.vb: TryParse(String, ByRef TimeSpan)
+  fullName: System.TimeSpan.TryParse(System.String, out System.TimeSpan)
+  fullName.vb: System.TimeSpan.TryParse(System.String, ByRef System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 297
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryParse(string s, out TimeSpan result)
+    content.vb: Public Shared Function TryParse(s As String, ByRef result As TimeSpan) As Boolean
+    parameters:
+    - id: s
+      type: System.String
+    - id: result
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.TryParse(System.String,System.IFormatProvider,System.TimeSpan@)
+  id: TryParse(System.String,System.IFormatProvider,System.TimeSpan@)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TryParse(String, IFormatProvider, out TimeSpan)
+  name.vb: TryParse(String, IFormatProvider, ByRef TimeSpan)
+  fullName: System.TimeSpan.TryParse(System.String, System.IFormatProvider, out System.TimeSpan)
+  fullName.vb: System.TimeSpan.TryParse(System.String, System.IFormatProvider, ByRef System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 300
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryParse(string input, IFormatProvider formatProvider, out TimeSpan result)
+    content.vb: Public Shared Function TryParse(input As String, formatProvider As IFormatProvider, ByRef result As TimeSpan) As Boolean
+    parameters:
+    - id: input
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: result
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.TimeSpan@)
+  id: TryParseExact(System.String,System.String,System.IFormatProvider,System.TimeSpan@)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TryParseExact(String, String, IFormatProvider, out TimeSpan)
+  name.vb: TryParseExact(String, String, IFormatProvider, ByRef TimeSpan)
+  fullName: System.TimeSpan.TryParseExact(System.String, System.String, System.IFormatProvider, out System.TimeSpan)
+  fullName.vb: System.TimeSpan.TryParseExact(System.String, System.String, System.IFormatProvider, ByRef System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 303
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryParseExact(string input, string format, IFormatProvider formatProvider, out TimeSpan result)
+    content.vb: Public Shared Function TryParseExact(input As String, format As String, formatProvider As IFormatProvider, ByRef result As TimeSpan) As Boolean
+    parameters:
+    - id: input
+      type: System.String
+    - id: format
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: result
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.TimeSpan@)
+  id: TryParseExact(System.String,System.String[],System.IFormatProvider,System.TimeSpan@)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TryParseExact(String, String[], IFormatProvider, out TimeSpan)
+  name.vb: TryParseExact(String, String(), IFormatProvider, ByRef TimeSpan)
+  fullName: System.TimeSpan.TryParseExact(System.String, System.String[], System.IFormatProvider, out System.TimeSpan)
+  fullName.vb: System.TimeSpan.TryParseExact(System.String, System.String(), System.IFormatProvider, ByRef System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 306
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryParseExact(string input, string[] formats, IFormatProvider formatProvider, out TimeSpan result)
+    content.vb: Public Shared Function TryParseExact(input As String, formats As String(), formatProvider As IFormatProvider, ByRef result As TimeSpan) As Boolean
+    parameters:
+    - id: input
+      type: System.String
+    - id: formats
+      type: System.String[]
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: result
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
+  id: TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TryParseExact(String, String, IFormatProvider, TimeSpanStyles, out TimeSpan)
+  name.vb: TryParseExact(String, String, IFormatProvider, TimeSpanStyles, ByRef TimeSpan)
+  fullName: System.TimeSpan.TryParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.TimeSpanStyles, out System.TimeSpan)
+  fullName.vb: System.TimeSpan.TryParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.TimeSpanStyles, ByRef System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 309
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryParseExact(string input, string format, IFormatProvider formatProvider, TimeSpanStyles styles, out TimeSpan result)
+    content.vb: Public Shared Function TryParseExact(input As String, format As String, formatProvider As IFormatProvider, styles As TimeSpanStyles, ByRef result As TimeSpan) As Boolean
+    parameters:
+    - id: input
+      type: System.String
+    - id: format
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: styles
+      type: System.Globalization.TimeSpanStyles
+    - id: result
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
+  id: TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: TryParseExact(String, String[], IFormatProvider, TimeSpanStyles, out TimeSpan)
+  name.vb: TryParseExact(String, String(), IFormatProvider, TimeSpanStyles, ByRef TimeSpan)
+  fullName: System.TimeSpan.TryParseExact(System.String, System.String[], System.IFormatProvider, System.Globalization.TimeSpanStyles, out System.TimeSpan)
+  fullName.vb: System.TimeSpan.TryParseExact(System.String, System.String(), System.IFormatProvider, System.Globalization.TimeSpanStyles, ByRef System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 313
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryParseExact(string input, string[] formats, IFormatProvider formatProvider, TimeSpanStyles styles, out TimeSpan result)
+    content.vb: Public Shared Function TryParseExact(input As String, formats As String(), formatProvider As IFormatProvider, styles As TimeSpanStyles, ByRef result As TimeSpan) As Boolean
+    parameters:
+    - id: input
+      type: System.String
+    - id: formats
+      type: System.String[]
+    - id: formatProvider
+      type: System.IFormatProvider
+    - id: styles
+      type: System.Globalization.TimeSpanStyles
+    - id: result
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.ToString
+  id: ToString
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ToString()
+  fullName: System.TimeSpan.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 317
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+      description: 
+  overridden: System.ValueType.ToString
+- uid: System.TimeSpan.ToString(System.String)
+  id: ToString(System.String)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ToString(String)
+  fullName: System.TimeSpan.ToString(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 320
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string ToString(string format)
+    content.vb: Public Function ToString(format As String) As String
+    parameters:
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+      description: 
+- uid: System.TimeSpan.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: ToString(String, IFormatProvider)
+  fullName: System.TimeSpan.ToString(System.String, System.IFormatProvider)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 323
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string ToString(string format, IFormatProvider formatProvider)
+    content.vb: Public Function ToString(format As String, formatProvider As IFormatProvider) As String
+    parameters:
+    - id: format
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+      description: 
+- uid: System.TimeSpan.op_UnaryNegation(System.TimeSpan)
+  id: op_UnaryNegation(System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: UnaryNegation(TimeSpan)
+  fullName: System.TimeSpan.UnaryNegation(System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 333
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan operator -(TimeSpan t)
+    content.vb: Public Shared Operator -(t As TimeSpan) As TimeSpan
+    parameters:
+    - id: t
+      type: System.TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.op_Subtraction(System.TimeSpan,System.TimeSpan)
+  id: op_Subtraction(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Subtraction(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.Subtraction(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 339
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan operator -(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator -(t1 As TimeSpan, t2 As TimeSpan) As TimeSpan
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.op_UnaryPlus(System.TimeSpan)
+  id: op_UnaryPlus(System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: UnaryPlus(TimeSpan)
+  fullName: System.TimeSpan.UnaryPlus(System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 343
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan operator +(TimeSpan t)
+    content.vb: Public Shared Operator +(t As TimeSpan) As TimeSpan
+    parameters:
+    - id: t
+      type: System.TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.op_Addition(System.TimeSpan,System.TimeSpan)
+  id: op_Addition(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Addition(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.Addition(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 347
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TimeSpan operator +(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator +(t1 As TimeSpan, t2 As TimeSpan) As TimeSpan
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.TimeSpan
+      description: 
+- uid: System.TimeSpan.op_Equality(System.TimeSpan,System.TimeSpan)
+  id: op_Equality(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Equality(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.Equality(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 351
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator ==(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator =(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.op_Inequality(System.TimeSpan,System.TimeSpan)
+  id: op_Inequality(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: Inequality(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.Inequality(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 355
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator !=(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator <>(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.op_LessThan(System.TimeSpan,System.TimeSpan)
+  id: op_LessThan(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: LessThan(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.LessThan(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 359
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator <(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator <(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.op_LessThanOrEqual(System.TimeSpan,System.TimeSpan)
+  id: op_LessThanOrEqual(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: LessThanOrEqual(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.LessThanOrEqual(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 363
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator <=(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator <=(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.op_GreaterThan(System.TimeSpan,System.TimeSpan)
+  id: op_GreaterThan(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: GreaterThan(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.GreaterThan(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 367
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator>(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator>(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.TimeSpan.op_GreaterThanOrEqual(System.TimeSpan,System.TimeSpan)
+  id: op_GreaterThanOrEqual(System.TimeSpan,System.TimeSpan)
+  parent: System.TimeSpan
+  href: System.TimeSpan.yml
+  name: GreaterThanOrEqual(TimeSpan, TimeSpan)
+  fullName: System.TimeSpan.GreaterThanOrEqual(System.TimeSpan, System.TimeSpan)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/TimeSpan.cs
+    startLine: 371
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator >=(TimeSpan t1, TimeSpan t2)
+    content.vb: Public Shared Operator >=(t1 As TimeSpan, t2 As TimeSpan) As Boolean
+    parameters:
+    - id: t1
+      type: System.TimeSpan
+    - id: t2
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  href: System.TimeSpan.yml
+  name: TimeSpan
+  fullName: System.TimeSpan
+  type: Struct
+- uid: System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.ValueType
+  parent: System
+  isExternal: false
+  href: System.ValueType.yml
+  name: ValueType
+  fullName: System.ValueType
+  type: Class
+- uid: System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.IFormatProvider
+  parent: System
+  isExternal: false
+  href: System.IFormatProvider.yml
+  name: IFormatProvider
+  fullName: System.IFormatProvider
+  type: Interface
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.Globalization.TimeSpanStyles
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.TimeSpanStyles.yml
+  name: TimeSpanStyles
+  fullName: System.Globalization.TimeSpanStyles
+  type: Enum
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

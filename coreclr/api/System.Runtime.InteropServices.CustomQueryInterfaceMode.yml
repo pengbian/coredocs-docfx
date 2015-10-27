@@ -1,0 +1,63 @@
+items:
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceMode
+  id: CustomQueryInterfaceMode
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.CustomQueryInterfaceMode.Allow
+  - System.Runtime.InteropServices.CustomQueryInterfaceMode.Ignore
+  href: System.Runtime.InteropServices.CustomQueryInterfaceMode.yml
+  name: CustomQueryInterfaceMode
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/Marshal.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/Marshal.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum CustomQueryInterfaceMode
+    content.vb: Public Enum CustomQueryInterfaceMode
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceMode.Ignore
+  id: Ignore
+  parent: System.Runtime.InteropServices.CustomQueryInterfaceMode
+  href: System.Runtime.InteropServices.CustomQueryInterfaceMode.yml
+  name: Ignore
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceMode.Ignore
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Marshal.cs
+    startLine: 36
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Ignore = 0
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceMode.Allow
+  id: Allow
+  parent: System.Runtime.InteropServices.CustomQueryInterfaceMode
+  href: System.Runtime.InteropServices.CustomQueryInterfaceMode.yml
+  name: Allow
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceMode.Allow
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Marshal.cs
+    startLine: 37
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Allow = 1
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

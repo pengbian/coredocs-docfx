@@ -1,0 +1,165 @@
+items:
+- uid: System.Reflection.GenericParameterAttributes
+  id: GenericParameterAttributes
+  parent: System.Reflection
+  children:
+  - System.Reflection.GenericParameterAttributes.Contravariant
+  - System.Reflection.GenericParameterAttributes.Covariant
+  - System.Reflection.GenericParameterAttributes.DefaultConstructorConstraint
+  - System.Reflection.GenericParameterAttributes.None
+  - System.Reflection.GenericParameterAttributes.NotNullableValueTypeConstraint
+  - System.Reflection.GenericParameterAttributes.ReferenceTypeConstraint
+  - System.Reflection.GenericParameterAttributes.SpecialConstraintMask
+  - System.Reflection.GenericParameterAttributes.VarianceMask
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: GenericParameterAttributes
+  fullName: System.Reflection.GenericParameterAttributes
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 7
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public enum GenericParameterAttributes
+    content.vb: Public Enum GenericParameterAttributes
+- uid: System.Reflection.GenericParameterAttributes.None
+  id: None
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: None
+  fullName: System.Reflection.GenericParameterAttributes.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 10
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: None = 0
+- uid: System.Reflection.GenericParameterAttributes.VarianceMask
+  id: VarianceMask
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: VarianceMask
+  fullName: System.Reflection.GenericParameterAttributes.VarianceMask
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 11
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: VarianceMask = 3
+- uid: System.Reflection.GenericParameterAttributes.Covariant
+  id: Covariant
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: Covariant
+  fullName: System.Reflection.GenericParameterAttributes.Covariant
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 12
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Covariant = 1
+- uid: System.Reflection.GenericParameterAttributes.Contravariant
+  id: Contravariant
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: Contravariant
+  fullName: System.Reflection.GenericParameterAttributes.Contravariant
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Contravariant = 2
+- uid: System.Reflection.GenericParameterAttributes.SpecialConstraintMask
+  id: SpecialConstraintMask
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: SpecialConstraintMask
+  fullName: System.Reflection.GenericParameterAttributes.SpecialConstraintMask
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: SpecialConstraintMask = 28
+- uid: System.Reflection.GenericParameterAttributes.ReferenceTypeConstraint
+  id: ReferenceTypeConstraint
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: ReferenceTypeConstraint
+  fullName: System.Reflection.GenericParameterAttributes.ReferenceTypeConstraint
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: ReferenceTypeConstraint = 4
+- uid: System.Reflection.GenericParameterAttributes.NotNullableValueTypeConstraint
+  id: NotNullableValueTypeConstraint
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: NotNullableValueTypeConstraint
+  fullName: System.Reflection.GenericParameterAttributes.NotNullableValueTypeConstraint
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: NotNullableValueTypeConstraint = 8
+- uid: System.Reflection.GenericParameterAttributes.DefaultConstructorConstraint
+  id: DefaultConstructorConstraint
+  parent: System.Reflection.GenericParameterAttributes
+  href: System.Reflection.GenericParameterAttributes.yml
+  name: DefaultConstructorConstraint
+  fullName: System.Reflection.GenericParameterAttributes.DefaultConstructorConstraint
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/GenericParameterAttributes.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: DefaultConstructorConstraint = 16
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

@@ -1,0 +1,1745 @@
+items:
+- uid: System.IO.File
+  id: File
+  parent: System.IO
+  children:
+  - System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  - System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  - System.IO.File.AppendAllText(System.String,System.String)
+  - System.IO.File.AppendAllText(System.String,System.String,System.Text.Encoding)
+  - System.IO.File.AppendText(System.String)
+  - System.IO.File.Copy(System.String,System.String)
+  - System.IO.File.Copy(System.String,System.String,System.Boolean)
+  - System.IO.File.Create(System.String)
+  - System.IO.File.Create(System.String,System.Int32)
+  - System.IO.File.Create(System.String,System.Int32,System.IO.FileOptions)
+  - System.IO.File.CreateText(System.String)
+  - System.IO.File.Decrypt(System.String)
+  - System.IO.File.Delete(System.String)
+  - System.IO.File.Encrypt(System.String)
+  - System.IO.File.Exists(System.String)
+  - System.IO.File.GetAttributes(System.String)
+  - System.IO.File.GetCreationTime(System.String)
+  - System.IO.File.GetCreationTimeUtc(System.String)
+  - System.IO.File.GetLastAccessTime(System.String)
+  - System.IO.File.GetLastAccessTimeUtc(System.String)
+  - System.IO.File.GetLastWriteTime(System.String)
+  - System.IO.File.GetLastWriteTimeUtc(System.String)
+  - System.IO.File.Move(System.String,System.String)
+  - System.IO.File.Open(System.String,System.IO.FileMode)
+  - System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess)
+  - System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  - System.IO.File.OpenRead(System.String)
+  - System.IO.File.OpenText(System.String)
+  - System.IO.File.OpenWrite(System.String)
+  - System.IO.File.ReadAllBytes(System.String)
+  - System.IO.File.ReadAllLines(System.String)
+  - System.IO.File.ReadAllLines(System.String,System.Text.Encoding)
+  - System.IO.File.ReadAllText(System.String)
+  - System.IO.File.ReadAllText(System.String,System.Text.Encoding)
+  - System.IO.File.ReadLines(System.String)
+  - System.IO.File.ReadLines(System.String,System.Text.Encoding)
+  - System.IO.File.Replace(System.String,System.String,System.String)
+  - System.IO.File.Replace(System.String,System.String,System.String,System.Boolean)
+  - System.IO.File.SetAttributes(System.String,System.IO.FileAttributes)
+  - System.IO.File.SetCreationTime(System.String,System.DateTime)
+  - System.IO.File.SetCreationTimeUtc(System.String,System.DateTime)
+  - System.IO.File.SetLastAccessTime(System.String,System.DateTime)
+  - System.IO.File.SetLastAccessTimeUtc(System.String,System.DateTime)
+  - System.IO.File.SetLastWriteTime(System.String,System.DateTime)
+  - System.IO.File.SetLastWriteTimeUtc(System.String,System.DateTime)
+  - System.IO.File.WriteAllBytes(System.String,System.Byte[])
+  - System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  - System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  - System.IO.File.WriteAllLines(System.String,System.String[])
+  - System.IO.File.WriteAllLines(System.String,System.String[],System.Text.Encoding)
+  - System.IO.File.WriteAllText(System.String,System.String)
+  - System.IO.File.WriteAllText(System.String,System.String,System.Text.Encoding)
+  href: System.IO.File.yml
+  name: File
+  fullName: System.IO.File
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IO/File.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public class File
+    content.vb: Public Class File
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.File.OpenText(System.String)
+  id: OpenText(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: OpenText(String)
+  fullName: System.IO.File.OpenText(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static StreamReader OpenText(string path)
+    content.vb: Public Shared Function OpenText(path As String) As StreamReader
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.StreamReader
+      description: 
+- uid: System.IO.File.CreateText(System.String)
+  id: CreateText(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: CreateText(String)
+  fullName: System.IO.File.CreateText(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 47
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static StreamWriter CreateText(string path)
+    content.vb: Public Shared Function CreateText(path As String) As StreamWriter
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.StreamWriter
+      description: 
+- uid: System.IO.File.AppendText(System.String)
+  id: AppendText(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: AppendText(String)
+  fullName: System.IO.File.AppendText(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 55
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static StreamWriter AppendText(string path)
+    content.vb: Public Shared Function AppendText(path As String) As StreamWriter
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.StreamWriter
+      description: 
+- uid: System.IO.File.Copy(System.String,System.String)
+  id: Copy(System.String,System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Copy(String, String)
+  fullName: System.IO.File.Copy(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 73
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Copy(string sourceFileName, string destFileName)
+    content.vb: Public Shared Sub Copy(sourceFileName As String, destFileName As String)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destFileName
+      type: System.String
+- uid: System.IO.File.Copy(System.String,System.String,System.Boolean)
+  id: Copy(System.String,System.String,System.Boolean)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Copy(String, String, Boolean)
+  fullName: System.IO.File.Copy(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 96
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Copy(string sourceFileName, string destFileName, bool overwrite)
+    content.vb: Public Shared Sub Copy(sourceFileName As String, destFileName As String, overwrite As Boolean)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destFileName
+      type: System.String
+    - id: overwrite
+      type: System.Boolean
+- uid: System.IO.File.Create(System.String)
+  id: Create(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Create(String)
+  fullName: System.IO.File.Create(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream Create(string path)
+    content.vb: Public Shared Function Create(path As String) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.Create(System.String,System.Int32)
+  id: Create(System.String,System.Int32)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Create(String, Int32)
+  fullName: System.IO.File.Create(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 198
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream Create(string path, int bufferSize)
+    content.vb: Public Shared Function Create(path As String, bufferSize As Integer) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: bufferSize
+      type: System.Int32
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.Create(System.String,System.Int32,System.IO.FileOptions)
+  id: Create(System.String,System.Int32,System.IO.FileOptions)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Create(String, Int32, FileOptions)
+  fullName: System.IO.File.Create(System.String, System.Int32, System.IO.FileOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 202
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream Create(string path, int bufferSize, FileOptions options)
+    content.vb: Public Shared Function Create(path As String, bufferSize As Integer, options As FileOptions) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: bufferSize
+      type: System.Int32
+    - id: options
+      type: System.IO.FileOptions
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.Delete(System.String)
+  id: Delete(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Delete(String)
+  fullName: System.IO.File.Delete(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 223
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Delete(string path)
+    content.vb: Public Shared Sub Delete(path As String)
+    parameters:
+    - id: path
+      type: System.String
+- uid: System.IO.File.Decrypt(System.String)
+  id: Decrypt(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Decrypt(String)
+  fullName: System.IO.File.Decrypt(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 284
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Decrypt(string path)
+    content.vb: Public Shared Sub Decrypt(path As String)
+    parameters:
+    - id: path
+      type: System.String
+- uid: System.IO.File.Encrypt(System.String)
+  id: Encrypt(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Encrypt(String)
+  fullName: System.IO.File.Encrypt(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 308
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Encrypt(string path)
+    content.vb: Public Shared Sub Encrypt(path As String)
+    parameters:
+    - id: path
+      type: System.String
+- uid: System.IO.File.Exists(System.String)
+  id: Exists(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Exists(String)
+  fullName: System.IO.File.Exists(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 339
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static bool Exists(string path)
+    content.vb: Public Shared Function Exists(path As String) As Boolean
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.IO.File.Open(System.String,System.IO.FileMode)
+  id: Open(System.String,System.IO.FileMode)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Open(String, FileMode)
+  fullName: System.IO.File.Open(System.String, System.IO.FileMode)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 415
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream Open(string path, FileMode mode)
+    content.vb: Public Shared Function Open(path As String, mode As FileMode) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess)
+  id: Open(System.String,System.IO.FileMode,System.IO.FileAccess)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Open(String, FileMode, FileAccess)
+  fullName: System.IO.File.Open(System.String, System.IO.FileMode, System.IO.FileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 419
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream Open(string path, FileMode mode, FileAccess access)
+    content.vb: Public Shared Function Open(path As String, mode As FileMode, access As FileAccess) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: access
+      type: System.IO.FileAccess
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  id: Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Open(String, FileMode, FileAccess, FileShare)
+  fullName: System.IO.File.Open(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 423
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream Open(string path, FileMode mode, FileAccess access, FileShare share)
+    content.vb: Public Shared Function Open(path As String, mode As FileMode, access As FileAccess, share As FileShare) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: access
+      type: System.IO.FileAccess
+    - id: share
+      type: System.IO.FileShare
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.SetCreationTime(System.String,System.DateTime)
+  id: SetCreationTime(System.String,System.DateTime)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetCreationTime(String, DateTime)
+  fullName: System.IO.File.SetCreationTime(System.String, System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 427
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetCreationTime(string path, DateTime creationTime)
+    content.vb: Public Shared Sub SetCreationTime(path As String, creationTime As Date)
+    parameters:
+    - id: path
+      type: System.String
+    - id: creationTime
+      type: System.DateTime
+- uid: System.IO.File.SetCreationTimeUtc(System.String,System.DateTime)
+  id: SetCreationTimeUtc(System.String,System.DateTime)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetCreationTimeUtc(String, DateTime)
+  fullName: System.IO.File.SetCreationTimeUtc(System.String, System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 432
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetCreationTimeUtc(string path, DateTime creationTimeUtc)
+    content.vb: Public Shared Sub SetCreationTimeUtc(path As String, creationTimeUtc As Date)
+    parameters:
+    - id: path
+      type: System.String
+    - id: creationTimeUtc
+      type: System.DateTime
+- uid: System.IO.File.GetCreationTime(System.String)
+  id: GetCreationTime(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetCreationTime(String)
+  fullName: System.IO.File.GetCreationTime(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 447
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static DateTime GetCreationTime(string path)
+    content.vb: Public Shared Function GetCreationTime(path As String) As Date
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.File.GetCreationTimeUtc(System.String)
+  id: GetCreationTimeUtc(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetCreationTimeUtc(String)
+  fullName: System.IO.File.GetCreationTimeUtc(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 453
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static DateTime GetCreationTimeUtc(string path)
+    content.vb: Public Shared Function GetCreationTimeUtc(path As String) As Date
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.File.SetLastAccessTime(System.String,System.DateTime)
+  id: SetLastAccessTime(System.String,System.DateTime)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetLastAccessTime(String, DateTime)
+  fullName: System.IO.File.SetLastAccessTime(System.String, System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 482
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetLastAccessTime(string path, DateTime lastAccessTime)
+    content.vb: Public Shared Sub SetLastAccessTime(path As String, lastAccessTime As Date)
+    parameters:
+    - id: path
+      type: System.String
+    - id: lastAccessTime
+      type: System.DateTime
+- uid: System.IO.File.SetLastAccessTimeUtc(System.String,System.DateTime)
+  id: SetLastAccessTimeUtc(System.String,System.DateTime)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetLastAccessTimeUtc(String, DateTime)
+  fullName: System.IO.File.SetLastAccessTimeUtc(System.String, System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 487
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetLastAccessTimeUtc(string path, DateTime lastAccessTimeUtc)
+    content.vb: Public Shared Sub SetLastAccessTimeUtc(path As String, lastAccessTimeUtc As Date)
+    parameters:
+    - id: path
+      type: System.String
+    - id: lastAccessTimeUtc
+      type: System.DateTime
+- uid: System.IO.File.GetLastAccessTime(System.String)
+  id: GetLastAccessTime(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetLastAccessTime(String)
+  fullName: System.IO.File.GetLastAccessTime(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 502
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static DateTime GetLastAccessTime(string path)
+    content.vb: Public Shared Function GetLastAccessTime(path As String) As Date
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.File.GetLastAccessTimeUtc(System.String)
+  id: GetLastAccessTimeUtc(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetLastAccessTimeUtc(String)
+  fullName: System.IO.File.GetLastAccessTimeUtc(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 508
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static DateTime GetLastAccessTimeUtc(string path)
+    content.vb: Public Shared Function GetLastAccessTimeUtc(path As String) As Date
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.File.SetLastWriteTime(System.String,System.DateTime)
+  id: SetLastWriteTime(System.String,System.DateTime)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetLastWriteTime(String, DateTime)
+  fullName: System.IO.File.SetLastWriteTime(System.String, System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 537
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetLastWriteTime(string path, DateTime lastWriteTime)
+    content.vb: Public Shared Sub SetLastWriteTime(path As String, lastWriteTime As Date)
+    parameters:
+    - id: path
+      type: System.String
+    - id: lastWriteTime
+      type: System.DateTime
+- uid: System.IO.File.SetLastWriteTimeUtc(System.String,System.DateTime)
+  id: SetLastWriteTimeUtc(System.String,System.DateTime)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetLastWriteTimeUtc(String, DateTime)
+  fullName: System.IO.File.SetLastWriteTimeUtc(System.String, System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 542
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetLastWriteTimeUtc(string path, DateTime lastWriteTimeUtc)
+    content.vb: Public Shared Sub SetLastWriteTimeUtc(path As String, lastWriteTimeUtc As Date)
+    parameters:
+    - id: path
+      type: System.String
+    - id: lastWriteTimeUtc
+      type: System.DateTime
+- uid: System.IO.File.GetLastWriteTime(System.String)
+  id: GetLastWriteTime(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetLastWriteTime(String)
+  fullName: System.IO.File.GetLastWriteTime(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 557
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static DateTime GetLastWriteTime(string path)
+    content.vb: Public Shared Function GetLastWriteTime(path As String) As Date
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.File.GetLastWriteTimeUtc(System.String)
+  id: GetLastWriteTimeUtc(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetLastWriteTimeUtc(String)
+  fullName: System.IO.File.GetLastWriteTimeUtc(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 563
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static DateTime GetLastWriteTimeUtc(string path)
+    content.vb: Public Shared Function GetLastWriteTimeUtc(path As String) As Date
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.File.GetAttributes(System.String)
+  id: GetAttributes(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: GetAttributes(String)
+  fullName: System.IO.File.GetAttributes(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 592
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileAttributes GetAttributes(string path)
+    content.vb: Public Shared Function GetAttributes(path As String) As FileAttributes
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.FileAttributes
+      description: 
+- uid: System.IO.File.SetAttributes(System.String,System.IO.FileAttributes)
+  id: SetAttributes(System.String,System.IO.FileAttributes)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: SetAttributes(String, FileAttributes)
+  fullName: System.IO.File.SetAttributes(System.String, System.IO.FileAttributes)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 612
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void SetAttributes(string path, FileAttributes fileAttributes)
+    content.vb: Public Shared Sub SetAttributes(path As String, fileAttributes As FileAttributes)
+    parameters:
+    - id: path
+      type: System.String
+    - id: fileAttributes
+      type: System.IO.FileAttributes
+- uid: System.IO.File.OpenRead(System.String)
+  id: OpenRead(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: OpenRead(String)
+  fullName: System.IO.File.OpenRead(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 657
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream OpenRead(string path)
+    content.vb: Public Shared Function OpenRead(path As String) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.OpenWrite(System.String)
+  id: OpenWrite(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: OpenWrite(String)
+  fullName: System.IO.File.OpenWrite(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 678
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static FileStream OpenWrite(string path)
+    content.vb: Public Shared Function OpenWrite(path As String) As FileStream
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.IO.File.ReadAllText(System.String)
+  id: ReadAllText(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadAllText(String)
+  fullName: System.IO.File.ReadAllText(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 683
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static string ReadAllText(string path)
+    content.vb: Public Shared Function ReadAllText(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+      description: 
+- uid: System.IO.File.ReadAllText(System.String,System.Text.Encoding)
+  id: ReadAllText(System.String,System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadAllText(String, Encoding)
+  fullName: System.IO.File.ReadAllText(System.String, System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 695
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static string ReadAllText(string path, Encoding encoding)
+    content.vb: Public Shared Function ReadAllText(path As String, encoding As Encoding) As String
+    parameters:
+    - id: path
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+    return:
+      type: System.String
+      description: 
+- uid: System.IO.File.WriteAllText(System.String,System.String)
+  id: WriteAllText(System.String,System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllText(String, String)
+  fullName: System.IO.File.WriteAllText(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 732
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllText(string path, string contents)
+    content.vb: Public Shared Sub WriteAllText(path As String, contents As String)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String
+- uid: System.IO.File.WriteAllText(System.String,System.String,System.Text.Encoding)
+  id: WriteAllText(System.String,System.String,System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllText(String, String, Encoding)
+  fullName: System.IO.File.WriteAllText(System.String, System.String, System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 744
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllText(string path, string contents, Encoding encoding)
+    content.vb: Public Shared Sub WriteAllText(path As String, contents As String, encoding As Encoding)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+- uid: System.IO.File.ReadAllBytes(System.String)
+  id: ReadAllBytes(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadAllBytes(String)
+  fullName: System.IO.File.ReadAllBytes(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 781
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static byte[] ReadAllBytes(string path)
+    content.vb: Public Shared Function ReadAllBytes(path As String) As Byte()
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Byte[]
+      description: 
+- uid: System.IO.File.WriteAllBytes(System.String,System.Byte[])
+  id: WriteAllBytes(System.String,System.Byte[])
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllBytes(String, Byte[])
+  name.vb: WriteAllBytes(String, Byte())
+  fullName: System.IO.File.WriteAllBytes(System.String, System.Byte[])
+  fullName.vb: System.IO.File.WriteAllBytes(System.String, System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 818
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllBytes(string path, byte[] bytes)
+    content.vb: Public Shared Sub WriteAllBytes(path As String, bytes As Byte())
+    parameters:
+    - id: path
+      type: System.String
+    - id: bytes
+      type: System.Byte[]
+- uid: System.IO.File.ReadAllLines(System.String)
+  id: ReadAllLines(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadAllLines(String)
+  fullName: System.IO.File.ReadAllLines(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 860
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static string[] ReadAllLines(string path)
+    content.vb: Public Shared Function ReadAllLines(path As String) As String()
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String[]
+      description: 
+- uid: System.IO.File.ReadAllLines(System.String,System.Text.Encoding)
+  id: ReadAllLines(System.String,System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadAllLines(String, Encoding)
+  fullName: System.IO.File.ReadAllLines(System.String, System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 871
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static string[] ReadAllLines(string path, Encoding encoding)
+    content.vb: Public Shared Function ReadAllLines(path As String, encoding As Encoding) As String()
+    parameters:
+    - id: path
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+    return:
+      type: System.String[]
+      description: 
+- uid: System.IO.File.ReadLines(System.String)
+  id: ReadLines(System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadLines(String)
+  fullName: System.IO.File.ReadLines(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 900
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static IEnumerable<string> ReadLines(string path)
+    content.vb: Public Shared Function ReadLines(path As String) As IEnumerable(Of String)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: 
+- uid: System.IO.File.ReadLines(System.String,System.Text.Encoding)
+  id: ReadLines(System.String,System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: ReadLines(String, Encoding)
+  fullName: System.IO.File.ReadLines(System.String, System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 911
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static IEnumerable<string> ReadLines(string path, Encoding encoding)
+    content.vb: Public Shared Function ReadLines(path As String, encoding As Encoding) As IEnumerable(Of String)
+    parameters:
+    - id: path
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: 
+- uid: System.IO.File.WriteAllLines(System.String,System.String[])
+  id: WriteAllLines(System.String,System.String[])
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllLines(String, String[])
+  name.vb: WriteAllLines(String, String())
+  fullName: System.IO.File.WriteAllLines(System.String, System.String[])
+  fullName.vb: System.IO.File.WriteAllLines(System.String, System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 924
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllLines(string path, string[] contents)
+    content.vb: Public Shared Sub WriteAllLines(path As String, contents As String())
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String[]
+- uid: System.IO.File.WriteAllLines(System.String,System.String[],System.Text.Encoding)
+  id: WriteAllLines(System.String,System.String[],System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllLines(String, String[], Encoding)
+  name.vb: WriteAllLines(String, String(), Encoding)
+  fullName: System.IO.File.WriteAllLines(System.String, System.String[], System.Text.Encoding)
+  fullName.vb: System.IO.File.WriteAllLines(System.String, System.String(), System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 937
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllLines(string path, string[] contents, Encoding encoding)
+    content.vb: Public Shared Sub WriteAllLines(path As String, contents As String(), encoding As Encoding)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String[]
+    - id: encoding
+      type: System.Text.Encoding
+- uid: System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  id: WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllLines(String, IEnumerable<String>)
+  name.vb: WriteAllLines(String, IEnumerable(Of String))
+  fullName: System.IO.File.WriteAllLines(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: System.IO.File.WriteAllLines(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 952
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllLines(string path, IEnumerable<string> contents)
+    content.vb: Public Shared Sub WriteAllLines(path As String, contents As IEnumerable(Of String))
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.Collections.Generic.IEnumerable{System.String}
+- uid: System.IO.File.WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  id: WriteAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: WriteAllLines(String, IEnumerable<String>, Encoding)
+  name.vb: WriteAllLines(String, IEnumerable(Of String), Encoding)
+  fullName: System.IO.File.WriteAllLines(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Text.Encoding)
+  fullName.vb: System.IO.File.WriteAllLines(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 965
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void WriteAllLines(string path, IEnumerable<string> contents, Encoding encoding)
+    content.vb: Public Shared Sub WriteAllLines(path As String, contents As IEnumerable(Of String), encoding As Encoding)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: encoding
+      type: System.Text.Encoding
+- uid: System.IO.File.AppendAllText(System.String,System.String)
+  id: AppendAllText(System.String,System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: AppendAllText(String, String)
+  fullName: System.IO.File.AppendAllText(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 994
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void AppendAllText(string path, string contents)
+    content.vb: Public Shared Sub AppendAllText(path As String, contents As String)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String
+- uid: System.IO.File.AppendAllText(System.String,System.String,System.Text.Encoding)
+  id: AppendAllText(System.String,System.String,System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: AppendAllText(String, String, Encoding)
+  fullName: System.IO.File.AppendAllText(System.String, System.String, System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 1005
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void AppendAllText(string path, string contents, Encoding encoding)
+    content.vb: Public Shared Sub AppendAllText(path As String, contents As String, encoding As Encoding)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+- uid: System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  id: AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String})
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: AppendAllLines(String, IEnumerable<String>)
+  name.vb: AppendAllLines(String, IEnumerable(Of String))
+  fullName: System.IO.File.AppendAllLines(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: System.IO.File.AppendAllLines(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 1028
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void AppendAllLines(string path, IEnumerable<string> contents)
+    content.vb: Public Shared Sub AppendAllLines(path As String, contents As IEnumerable(Of String))
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.Collections.Generic.IEnumerable{System.String}
+- uid: System.IO.File.AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  id: AppendAllLines(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: AppendAllLines(String, IEnumerable<String>, Encoding)
+  name.vb: AppendAllLines(String, IEnumerable(Of String), Encoding)
+  fullName: System.IO.File.AppendAllLines(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Text.Encoding)
+  fullName.vb: System.IO.File.AppendAllLines(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Text.Encoding)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 1041
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void AppendAllLines(string path, IEnumerable<string> contents, Encoding encoding)
+    content.vb: Public Shared Sub AppendAllLines(path As String, contents As IEnumerable(Of String), encoding As Encoding)
+    parameters:
+    - id: path
+      type: System.String
+    - id: contents
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: encoding
+      type: System.Text.Encoding
+- uid: System.IO.File.Move(System.String,System.String)
+  id: Move(System.String,System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Move(String, String)
+  fullName: System.IO.File.Move(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 1064
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Move(string sourceFileName, string destFileName)
+    content.vb: Public Shared Sub Move(sourceFileName As String, destFileName As String)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destFileName
+      type: System.String
+- uid: System.IO.File.Replace(System.String,System.String,System.String)
+  id: Replace(System.String,System.String,System.String)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Replace(String, String, String)
+  fullName: System.IO.File.Replace(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 1111
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Replace(string sourceFileName, string destinationFileName, string destinationBackupFileName)
+    content.vb: Public Shared Sub Replace(sourceFileName As String, destinationFileName As String, destinationBackupFileName As String)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+    - id: destinationBackupFileName
+      type: System.String
+- uid: System.IO.File.Replace(System.String,System.String,System.String,System.Boolean)
+  id: Replace(System.String,System.String,System.String,System.Boolean)
+  parent: System.IO.File
+  href: System.IO.File.yml
+  name: Replace(String, String, String, Boolean)
+  fullName: System.IO.File.Replace(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/File.cs
+    startLine: 1122
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static void Replace(string sourceFileName, string destinationFileName, string destinationBackupFileName, bool ignoreMetadataErrors)
+    content.vb: Public Shared Sub Replace(sourceFileName As String, destinationFileName As String, destinationBackupFileName As String, ignoreMetadataErrors As Boolean)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+    - id: destinationBackupFileName
+      type: System.String
+    - id: ignoreMetadataErrors
+      type: System.Boolean
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.IO.StreamReader
+  parent: System.IO
+  isExternal: false
+  href: System.IO.StreamReader.yml
+  name: StreamReader
+  fullName: System.IO.StreamReader
+  type: Class
+- uid: System.IO.StreamWriter
+  parent: System.IO
+  isExternal: false
+  href: System.IO.StreamWriter.yml
+  name: StreamWriter
+  fullName: System.IO.StreamWriter
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.IO.FileStream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileStream.yml
+  name: FileStream
+  fullName: System.IO.FileStream
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.IO.FileOptions
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileOptions.yml
+  name: FileOptions
+  fullName: System.IO.FileOptions
+  type: Enum
+- uid: System.IO.FileMode
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileMode.yml
+  name: FileMode
+  fullName: System.IO.FileMode
+  type: Enum
+- uid: System.IO.FileAccess
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAccess.yml
+  name: FileAccess
+  fullName: System.IO.FileAccess
+  type: Enum
+- uid: System.IO.FileShare
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileShare.yml
+  name: FileShare
+  fullName: System.IO.FileShare
+  type: Enum
+- uid: System.DateTime
+  parent: System
+  isExternal: false
+  href: System.DateTime.yml
+  name: DateTime
+  fullName: System.DateTime
+  type: Struct
+- uid: System.IO.FileAttributes
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAttributes.yml
+  name: FileAttributes
+  fullName: System.IO.FileAttributes
+  type: Enum
+- uid: System.Text.Encoding
+  parent: System.Text
+  isExternal: false
+  href: System.Text.Encoding.yml
+  name: Encoding
+  fullName: System.Text.Encoding
+  type: Class
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<String>
+  name.vb: IEnumerable(Of String)
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<T>
+  name.vb: IEnumerable(Of T)
+  fullName: System.Collections.Generic.IEnumerable<T>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace

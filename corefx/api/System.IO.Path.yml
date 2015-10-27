@@ -1,0 +1,774 @@
+items:
+- uid: System.IO.Path
+  id: Path
+  parent: System.IO
+  children:
+  - System.IO.Path.AltDirectorySeparatorChar
+  - System.IO.Path.ChangeExtension(System.String,System.String)
+  - System.IO.Path.Combine(System.String,System.String)
+  - System.IO.Path.Combine(System.String,System.String,System.String)
+  - System.IO.Path.Combine(System.String[])
+  - System.IO.Path.DirectorySeparatorChar
+  - System.IO.Path.GetDirectoryName(System.String)
+  - System.IO.Path.GetExtension(System.String)
+  - System.IO.Path.GetFileName(System.String)
+  - System.IO.Path.GetFileNameWithoutExtension(System.String)
+  - System.IO.Path.GetFullPath(System.String)
+  - System.IO.Path.GetInvalidFileNameChars
+  - System.IO.Path.GetInvalidPathChars
+  - System.IO.Path.GetPathRoot(System.String)
+  - System.IO.Path.GetRandomFileName
+  - System.IO.Path.GetTempFileName
+  - System.IO.Path.GetTempPath
+  - System.IO.Path.HasExtension(System.String)
+  - System.IO.Path.IsPathRooted(System.String)
+  - System.IO.Path.PathSeparator
+  - System.IO.Path.VolumeSeparatorChar
+  href: System.IO.Path.yml
+  name: Path
+  fullName: System.IO.Path
+  type: Class
+  source:
+    remote:
+      path: src/System.Runtime.Extensions/src/System/IO/Path.Win32.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Win32.cs
+    startLine: 7
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public class Path
+    content.vb: Public Class Path
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.Path.AltDirectorySeparatorChar
+  id: AltDirectorySeparatorChar
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: AltDirectorySeparatorChar
+  fullName: System.IO.Path.AltDirectorySeparatorChar
+  type: Field
+  source:
+    remote: &o0
+      path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 18
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static readonly char AltDirectorySeparatorChar
+    content.vb: Public Shared ReadOnly AltDirectorySeparatorChar As Char
+- uid: System.IO.Path.ChangeExtension(System.String,System.String)
+  id: ChangeExtension(System.String,System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: ChangeExtension(String, String)
+  fullName: System.IO.Path.ChangeExtension(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 31
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string ChangeExtension(string path, string extension)
+    content.vb: Public Shared Function ChangeExtension(path As String, extension As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    - id: extension
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetDirectoryName(System.String)
+  id: GetDirectoryName(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetDirectoryName(String)
+  fullName: System.IO.Path.GetDirectoryName(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 67
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetDirectoryName(string path)
+    content.vb: Public Shared Function GetDirectoryName(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetInvalidPathChars
+  id: GetInvalidPathChars
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetInvalidPathChars()
+  fullName: System.IO.Path.GetInvalidPathChars()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 127
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static char[] GetInvalidPathChars()
+    content.vb: Public Shared Function GetInvalidPathChars As Char()
+    return:
+      type: System.Char[]
+- uid: System.IO.Path.GetInvalidFileNameChars
+  id: GetInvalidFileNameChars
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetInvalidFileNameChars()
+  fullName: System.IO.Path.GetInvalidFileNameChars()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 132
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static char[] GetInvalidFileNameChars()
+    content.vb: Public Shared Function GetInvalidFileNameChars As Char()
+    return:
+      type: System.Char[]
+- uid: System.IO.Path.GetExtension(System.String)
+  id: GetExtension(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetExtension(String)
+  fullName: System.IO.Path.GetExtension(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 141
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetExtension(string path)
+    content.vb: Public Shared Function GetExtension(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetFileName(System.String)
+  id: GetFileName(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetFileName(String)
+  fullName: System.IO.Path.GetFileName(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 195
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetFileName(string path)
+    content.vb: Public Shared Function GetFileName(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetFileNameWithoutExtension(System.String)
+  id: GetFileNameWithoutExtension(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetFileNameWithoutExtension(String)
+  fullName: System.IO.Path.GetFileNameWithoutExtension(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 213
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetFileNameWithoutExtension(string path)
+    content.vb: Public Shared Function GetFileNameWithoutExtension(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetPathRoot(System.String)
+  id: GetPathRoot(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetPathRoot(String)
+  fullName: System.IO.Path.GetPathRoot(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 234
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetPathRoot(string path)
+    content.vb: Public Shared Function GetPathRoot(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetRandomFileName
+  id: GetRandomFileName
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetRandomFileName()
+  fullName: System.IO.Path.GetRandomFileName()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 244
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetRandomFileName()
+    content.vb: Public Shared Function GetRandomFileName As String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetTempFileName
+  id: GetTempFileName
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetTempFileName()
+  fullName: System.IO.Path.GetTempFileName()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 259
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetTempFileName()
+    content.vb: Public Shared Function GetTempFileName As String
+    return:
+      type: System.String
+- uid: System.IO.Path.HasExtension(System.String)
+  id: HasExtension(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: HasExtension(String)
+  fullName: System.IO.Path.HasExtension(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 269
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static bool HasExtension(string path)
+    content.vb: Public Shared Function HasExtension(path As String) As Boolean
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+- uid: System.IO.Path.Combine(System.String,System.String)
+  id: Combine(System.String,System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: Combine(String, String)
+  fullName: System.IO.Path.Combine(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 289
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string Combine(string path1, string path2)
+    content.vb: Public Shared Function Combine(path1 As String, path2 As String) As String
+    parameters:
+    - id: path1
+      type: System.String
+    - id: path2
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.Combine(System.String,System.String,System.String)
+  id: Combine(System.String,System.String,System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: Combine(String, String, String)
+  fullName: System.IO.Path.Combine(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 301
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string Combine(string path1, string path2, string path3)
+    content.vb: Public Shared Function Combine(path1 As String, path2 As String, path3 As String) As String
+    parameters:
+    - id: path1
+      type: System.String
+    - id: path2
+      type: System.String
+    - id: path3
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.Combine(System.String[])
+  id: Combine(System.String[])
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: Combine(String[])
+  name.vb: Combine(String())
+  fullName: System.IO.Path.Combine(System.String[])
+  fullName.vb: System.IO.Path.Combine(System.String())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.Extensions/src/System/IO/Path.cs
+    startLine: 314
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string Combine(params string[] paths)
+    content.vb: Public Shared Function Combine(ParamArray paths As String()) As String
+    parameters:
+    - id: paths
+      type: System.String[]
+    return:
+      type: System.String
+- uid: System.IO.Path.DirectorySeparatorChar
+  id: DirectorySeparatorChar
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: DirectorySeparatorChar
+  fullName: System.IO.Path.DirectorySeparatorChar
+  type: Field
+  source:
+    remote: &o1
+      path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+    startLine: 12
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static readonly char DirectorySeparatorChar
+    content.vb: Public Shared ReadOnly DirectorySeparatorChar As Char
+- uid: System.IO.Path.VolumeSeparatorChar
+  id: VolumeSeparatorChar
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: VolumeSeparatorChar
+  fullName: System.IO.Path.VolumeSeparatorChar
+  type: Field
+  source:
+    remote: *o1
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+    startLine: 13
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static readonly char VolumeSeparatorChar
+    content.vb: Public Shared ReadOnly VolumeSeparatorChar As Char
+- uid: System.IO.Path.PathSeparator
+  id: PathSeparator
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: PathSeparator
+  fullName: System.IO.Path.PathSeparator
+  type: Field
+  source:
+    remote: *o1
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+    startLine: 14
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static readonly char PathSeparator
+    content.vb: Public Shared ReadOnly PathSeparator As Char
+- uid: System.IO.Path.GetFullPath(System.String)
+  id: GetFullPath(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetFullPath(String)
+  fullName: System.IO.Path.GetFullPath(System.String)
+  type: Method
+  source:
+    remote: *o1
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+    startLine: 101
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetFullPath(string path)
+    content.vb: Public Shared Function GetFullPath(path As String) As String
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+- uid: System.IO.Path.GetTempPath
+  id: GetTempPath
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: GetTempPath()
+  fullName: System.IO.Path.GetTempPath()
+  type: Method
+  source:
+    remote: *o1
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+    startLine: 615
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static string GetTempPath()
+    content.vb: Public Shared Function GetTempPath As String
+    return:
+      type: System.String
+- uid: System.IO.Path.IsPathRooted(System.String)
+  id: IsPathRooted(System.String)
+  parent: System.IO.Path
+  href: System.IO.Path.yml
+  name: IsPathRooted(String)
+  fullName: System.IO.Path.IsPathRooted(System.String)
+  type: Method
+  source:
+    remote: *o1
+    path: src/System.Runtime.Extensions/src/System/IO/Path.Windows.cs
+    startLine: 641
+  assemblies:
+  - System.Runtime.Extensions
+  namespace: System.IO
+  syntax:
+    content: public static bool IsPathRooted(string path)
+    content.vb: Public Shared Function IsPathRooted(path As String) As Boolean
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  name.vb: Char()
+  fullName: System.Char[]
+  fullName.vb: System.Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    fullName: ()

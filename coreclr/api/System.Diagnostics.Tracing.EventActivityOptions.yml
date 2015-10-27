@@ -1,0 +1,102 @@
+items:
+- uid: System.Diagnostics.Tracing.EventActivityOptions
+  id: EventActivityOptions
+  parent: System.Diagnostics.Tracing
+  children:
+  - System.Diagnostics.Tracing.EventActivityOptions.Detachable
+  - System.Diagnostics.Tracing.EventActivityOptions.Disable
+  - System.Diagnostics.Tracing.EventActivityOptions.None
+  - System.Diagnostics.Tracing.EventActivityOptions.Recursive
+  href: System.Diagnostics.Tracing.EventActivityOptions.yml
+  name: EventActivityOptions
+  fullName: System.Diagnostics.Tracing.EventActivityOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/Eventing/EventActivityOptions.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/Eventing/EventActivityOptions.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: EventActivityOptions flags allow to specify different activity related characteristics.
+  syntax:
+    content: public enum EventActivityOptions
+    content.vb: Public Enum EventActivityOptions
+- uid: System.Diagnostics.Tracing.EventActivityOptions.None
+  id: None
+  parent: System.Diagnostics.Tracing.EventActivityOptions
+  href: System.Diagnostics.Tracing.EventActivityOptions.yml
+  name: None
+  fullName: System.Diagnostics.Tracing.EventActivityOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/EventActivityOptions.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: No special options are added to the event.
+  syntax:
+    content: None = 0
+- uid: System.Diagnostics.Tracing.EventActivityOptions.Disable
+  id: Disable
+  parent: System.Diagnostics.Tracing.EventActivityOptions
+  href: System.Diagnostics.Tracing.EventActivityOptions.yml
+  name: Disable
+  fullName: System.Diagnostics.Tracing.EventActivityOptions.Disable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/EventActivityOptions.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: Disable Implicit Activity Tracking
+  syntax:
+    content: Disable = 2
+- uid: System.Diagnostics.Tracing.EventActivityOptions.Recursive
+  id: Recursive
+  parent: System.Diagnostics.Tracing.EventActivityOptions
+  href: System.Diagnostics.Tracing.EventActivityOptions.yml
+  name: Recursive
+  fullName: System.Diagnostics.Tracing.EventActivityOptions.Recursive
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/EventActivityOptions.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: Allow activity event to call itself (directly or indirectly)
+  syntax:
+    content: Recursive = 4
+- uid: System.Diagnostics.Tracing.EventActivityOptions.Detachable
+  id: Detachable
+  parent: System.Diagnostics.Tracing.EventActivityOptions
+  href: System.Diagnostics.Tracing.EventActivityOptions.yml
+  name: Detachable
+  fullName: System.Diagnostics.Tracing.EventActivityOptions.Detachable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/EventActivityOptions.cs
+    startLine: 35
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: Allows event activity to live beyond its parent.
+  syntax:
+    content: Detachable = 8
+references:
+- uid: System.Diagnostics.Tracing
+  isExternal: false
+  name: System.Diagnostics.Tracing
+  fullName: System.Diagnostics.Tracing
+  type: Namespace

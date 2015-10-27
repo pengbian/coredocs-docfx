@@ -1,0 +1,131 @@
+items:
+- uid: System.Security.Permissions.ReflectionPermissionFlag
+  id: ReflectionPermissionFlag
+  parent: System.Security.Permissions
+  children:
+  - System.Security.Permissions.ReflectionPermissionFlag.AllFlags
+  - System.Security.Permissions.ReflectionPermissionFlag.MemberAccess
+  - System.Security.Permissions.ReflectionPermissionFlag.NoFlags
+  - System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit
+  - System.Security.Permissions.ReflectionPermissionFlag.RestrictedMemberAccess
+  - System.Security.Permissions.ReflectionPermissionFlag.TypeInformation
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: ReflectionPermissionFlag
+  fullName: System.Security.Permissions.ReflectionPermissionFlag
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: public enum ReflectionPermissionFlag
+    content.vb: Public Enum ReflectionPermissionFlag
+- uid: System.Security.Permissions.ReflectionPermissionFlag.NoFlags
+  id: NoFlags
+  parent: System.Security.Permissions.ReflectionPermissionFlag
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: NoFlags
+  fullName: System.Security.Permissions.ReflectionPermissionFlag.NoFlags
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: NoFlags = 0
+- uid: System.Security.Permissions.ReflectionPermissionFlag.TypeInformation
+  id: TypeInformation
+  parent: System.Security.Permissions.ReflectionPermissionFlag
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: TypeInformation
+  fullName: System.Security.Permissions.ReflectionPermissionFlag.TypeInformation
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: TypeInformation = 1
+- uid: System.Security.Permissions.ReflectionPermissionFlag.MemberAccess
+  id: MemberAccess
+  parent: System.Security.Permissions.ReflectionPermissionFlag
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: MemberAccess
+  fullName: System.Security.Permissions.ReflectionPermissionFlag.MemberAccess
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: MemberAccess = 2
+- uid: System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit
+  id: ReflectionEmit
+  parent: System.Security.Permissions.ReflectionPermissionFlag
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: ReflectionEmit
+  fullName: System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: ReflectionEmit = 4
+- uid: System.Security.Permissions.ReflectionPermissionFlag.RestrictedMemberAccess
+  id: RestrictedMemberAccess
+  parent: System.Security.Permissions.ReflectionPermissionFlag
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: RestrictedMemberAccess
+  fullName: System.Security.Permissions.ReflectionPermissionFlag.RestrictedMemberAccess
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: RestrictedMemberAccess = 8
+- uid: System.Security.Permissions.ReflectionPermissionFlag.AllFlags
+  id: AllFlags
+  parent: System.Security.Permissions.ReflectionPermissionFlag
+  href: System.Security.Permissions.ReflectionPermissionFlag.yml
+  name: AllFlags
+  fullName: System.Security.Permissions.ReflectionPermissionFlag.AllFlags
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/ReflectionPermission.cs
+    startLine: 29
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: AllFlags = 7
+references:
+- uid: System.Security.Permissions
+  isExternal: false
+  name: System.Security.Permissions
+  fullName: System.Security.Permissions
+  type: Namespace

@@ -1,0 +1,698 @@
+items:
+- uid: System.ModuleHandle
+  id: ModuleHandle
+  parent: System
+  children:
+  - System.ModuleHandle.EmptyHandle
+  - System.ModuleHandle.Equals(System.ModuleHandle)
+  - System.ModuleHandle.Equals(System.Object)
+  - System.ModuleHandle.GetHashCode
+  - System.ModuleHandle.GetRuntimeFieldHandleFromMetadataToken(System.Int32)
+  - System.ModuleHandle.GetRuntimeMethodHandleFromMetadataToken(System.Int32)
+  - System.ModuleHandle.GetRuntimeTypeHandleFromMetadataToken(System.Int32)
+  - System.ModuleHandle.MDStreamVersion
+  - System.ModuleHandle.op_Equality(System.ModuleHandle,System.ModuleHandle)
+  - System.ModuleHandle.op_Inequality(System.ModuleHandle,System.ModuleHandle)
+  - System.ModuleHandle.ResolveFieldHandle(System.Int32)
+  - System.ModuleHandle.ResolveFieldHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  - System.ModuleHandle.ResolveMethodHandle(System.Int32)
+  - System.ModuleHandle.ResolveMethodHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  - System.ModuleHandle.ResolveTypeHandle(System.Int32)
+  - System.ModuleHandle.ResolveTypeHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  href: System.ModuleHandle.yml
+  name: ModuleHandle
+  fullName: System.ModuleHandle
+  type: Struct
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/RuntimeHandles.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1701
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public struct ModuleHandle
+    content.vb: Public Structure ModuleHandle
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: System.ModuleHandle.EmptyHandle
+  id: EmptyHandle
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: EmptyHandle
+  fullName: System.ModuleHandle.EmptyHandle
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1706
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static readonly ModuleHandle EmptyHandle
+    content.vb: Public Shared ReadOnly EmptyHandle As ModuleHandle
+- uid: System.ModuleHandle.GetHashCode
+  id: GetHashCode
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: GetHashCode()
+  fullName: System.ModuleHandle.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1737
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.ValueType.GetHashCode
+- uid: System.ModuleHandle.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: Equals(Object)
+  fullName: System.ModuleHandle.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1742
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.ValueType.Equals(System.Object)
+- uid: System.ModuleHandle.Equals(System.ModuleHandle)
+  id: Equals(System.ModuleHandle)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: Equals(ModuleHandle)
+  fullName: System.ModuleHandle.Equals(System.ModuleHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1753
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool Equals(ModuleHandle handle)
+    content.vb: Public Function Equals(handle As ModuleHandle) As Boolean
+    parameters:
+    - id: handle
+      type: System.ModuleHandle
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.ModuleHandle.op_Equality(System.ModuleHandle,System.ModuleHandle)
+  id: op_Equality(System.ModuleHandle,System.ModuleHandle)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: Equality(ModuleHandle, ModuleHandle)
+  fullName: System.ModuleHandle.Equality(System.ModuleHandle, System.ModuleHandle)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1759
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator ==(ModuleHandle left, ModuleHandle right)
+    content.vb: Public Shared Operator =(left As ModuleHandle, right As ModuleHandle) As Boolean
+    parameters:
+    - id: left
+      type: System.ModuleHandle
+    - id: right
+      type: System.ModuleHandle
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.ModuleHandle.op_Inequality(System.ModuleHandle,System.ModuleHandle)
+  id: op_Inequality(System.ModuleHandle,System.ModuleHandle)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: Inequality(ModuleHandle, ModuleHandle)
+  fullName: System.ModuleHandle.Inequality(System.ModuleHandle, System.ModuleHandle)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1764
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator !=(ModuleHandle left, ModuleHandle right)
+    content.vb: Public Shared Operator <>(left As ModuleHandle, right As ModuleHandle) As Boolean
+    parameters:
+    - id: left
+      type: System.ModuleHandle
+    - id: right
+      type: System.ModuleHandle
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.ModuleHandle.GetRuntimeTypeHandleFromMetadataToken(System.Int32)
+  id: GetRuntimeTypeHandleFromMetadataToken(System.Int32)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: GetRuntimeTypeHandleFromMetadataToken(Int32)
+  fullName: System.ModuleHandle.GetRuntimeTypeHandleFromMetadataToken(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1785
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeTypeHandle GetRuntimeTypeHandleFromMetadataToken(int typeToken)
+    content.vb: Public Function GetRuntimeTypeHandleFromMetadataToken(typeToken As Integer) As RuntimeTypeHandle
+    parameters:
+    - id: typeToken
+      type: System.Int32
+    return:
+      type: System.RuntimeTypeHandle
+      description: 
+- uid: System.ModuleHandle.ResolveTypeHandle(System.Int32)
+  id: ResolveTypeHandle(System.Int32)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: ResolveTypeHandle(Int32)
+  fullName: System.ModuleHandle.ResolveTypeHandle(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1786
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeTypeHandle ResolveTypeHandle(int typeToken)
+    content.vb: Public Function ResolveTypeHandle(typeToken As Integer) As RuntimeTypeHandle
+    parameters:
+    - id: typeToken
+      type: System.Int32
+    return:
+      type: System.RuntimeTypeHandle
+      description: 
+- uid: System.ModuleHandle.ResolveTypeHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  id: ResolveTypeHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: ResolveTypeHandle(Int32, RuntimeTypeHandle[], RuntimeTypeHandle[])
+  name.vb: ResolveTypeHandle(Int32, RuntimeTypeHandle(), RuntimeTypeHandle())
+  fullName: System.ModuleHandle.ResolveTypeHandle(System.Int32, System.RuntimeTypeHandle[], System.RuntimeTypeHandle[])
+  fullName.vb: System.ModuleHandle.ResolveTypeHandle(System.Int32, System.RuntimeTypeHandle(), System.RuntimeTypeHandle())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1790
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeTypeHandle ResolveTypeHandle(int typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+    content.vb: Public Function ResolveTypeHandle(typeToken As Integer, typeInstantiationContext As RuntimeTypeHandle(), methodInstantiationContext As RuntimeTypeHandle()) As RuntimeTypeHandle
+    parameters:
+    - id: typeToken
+      type: System.Int32
+    - id: typeInstantiationContext
+      type: System.RuntimeTypeHandle[]
+    - id: methodInstantiationContext
+      type: System.RuntimeTypeHandle[]
+    return:
+      type: System.RuntimeTypeHandle
+      description: 
+- uid: System.ModuleHandle.GetRuntimeMethodHandleFromMetadataToken(System.Int32)
+  id: GetRuntimeMethodHandleFromMetadataToken(System.Int32)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: GetRuntimeMethodHandleFromMetadataToken(Int32)
+  fullName: System.ModuleHandle.GetRuntimeMethodHandleFromMetadataToken(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1829
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeMethodHandle GetRuntimeMethodHandleFromMetadataToken(int methodToken)
+    content.vb: Public Function GetRuntimeMethodHandleFromMetadataToken(methodToken As Integer) As RuntimeMethodHandle
+    parameters:
+    - id: methodToken
+      type: System.Int32
+    return:
+      type: System.RuntimeMethodHandle
+      description: 
+- uid: System.ModuleHandle.ResolveMethodHandle(System.Int32)
+  id: ResolveMethodHandle(System.Int32)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: ResolveMethodHandle(Int32)
+  fullName: System.ModuleHandle.ResolveMethodHandle(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1830
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeMethodHandle ResolveMethodHandle(int methodToken)
+    content.vb: Public Function ResolveMethodHandle(methodToken As Integer) As RuntimeMethodHandle
+    parameters:
+    - id: methodToken
+      type: System.Int32
+    return:
+      type: System.RuntimeMethodHandle
+      description: 
+- uid: System.ModuleHandle.ResolveMethodHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  id: ResolveMethodHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: ResolveMethodHandle(Int32, RuntimeTypeHandle[], RuntimeTypeHandle[])
+  name.vb: ResolveMethodHandle(Int32, RuntimeTypeHandle(), RuntimeTypeHandle())
+  fullName: System.ModuleHandle.ResolveMethodHandle(System.Int32, System.RuntimeTypeHandle[], System.RuntimeTypeHandle[])
+  fullName.vb: System.ModuleHandle.ResolveMethodHandle(System.Int32, System.RuntimeTypeHandle(), System.RuntimeTypeHandle())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1832
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeMethodHandle ResolveMethodHandle(int methodToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+    content.vb: Public Function ResolveMethodHandle(methodToken As Integer, typeInstantiationContext As RuntimeTypeHandle(), methodInstantiationContext As RuntimeTypeHandle()) As RuntimeMethodHandle
+    parameters:
+    - id: methodToken
+      type: System.Int32
+    - id: typeInstantiationContext
+      type: System.RuntimeTypeHandle[]
+    - id: methodInstantiationContext
+      type: System.RuntimeTypeHandle[]
+    return:
+      type: System.RuntimeMethodHandle
+      description: 
+- uid: System.ModuleHandle.GetRuntimeFieldHandleFromMetadataToken(System.Int32)
+  id: GetRuntimeFieldHandleFromMetadataToken(System.Int32)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: GetRuntimeFieldHandleFromMetadataToken(Int32)
+  fullName: System.ModuleHandle.GetRuntimeFieldHandleFromMetadataToken(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1877
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeFieldHandle GetRuntimeFieldHandleFromMetadataToken(int fieldToken)
+    content.vb: Public Function GetRuntimeFieldHandleFromMetadataToken(fieldToken As Integer) As RuntimeFieldHandle
+    parameters:
+    - id: fieldToken
+      type: System.Int32
+    return:
+      type: System.RuntimeFieldHandle
+      description: 
+- uid: System.ModuleHandle.ResolveFieldHandle(System.Int32)
+  id: ResolveFieldHandle(System.Int32)
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: ResolveFieldHandle(Int32)
+  fullName: System.ModuleHandle.ResolveFieldHandle(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1878
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeFieldHandle ResolveFieldHandle(int fieldToken)
+    content.vb: Public Function ResolveFieldHandle(fieldToken As Integer) As RuntimeFieldHandle
+    parameters:
+    - id: fieldToken
+      type: System.Int32
+    return:
+      type: System.RuntimeFieldHandle
+      description: 
+- uid: System.ModuleHandle.ResolveFieldHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  id: ResolveFieldHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: ResolveFieldHandle(Int32, RuntimeTypeHandle[], RuntimeTypeHandle[])
+  name.vb: ResolveFieldHandle(Int32, RuntimeTypeHandle(), RuntimeTypeHandle())
+  fullName: System.ModuleHandle.ResolveFieldHandle(System.Int32, System.RuntimeTypeHandle[], System.RuntimeTypeHandle[])
+  fullName.vb: System.ModuleHandle.ResolveFieldHandle(System.Int32, System.RuntimeTypeHandle(), System.RuntimeTypeHandle())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1879
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public RuntimeFieldHandle ResolveFieldHandle(int fieldToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+    content.vb: Public Function ResolveFieldHandle(fieldToken As Integer, typeInstantiationContext As RuntimeTypeHandle(), methodInstantiationContext As RuntimeTypeHandle()) As RuntimeFieldHandle
+    parameters:
+    - id: fieldToken
+      type: System.Int32
+    - id: typeInstantiationContext
+      type: System.RuntimeTypeHandle[]
+    - id: methodInstantiationContext
+      type: System.RuntimeTypeHandle[]
+    return:
+      type: System.RuntimeFieldHandle
+      description: 
+- uid: System.ModuleHandle.MDStreamVersion
+  id: MDStreamVersion
+  parent: System.ModuleHandle
+  href: System.ModuleHandle.yml
+  name: MDStreamVersion
+  fullName: System.ModuleHandle.MDStreamVersion
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/RuntimeHandles.cs
+    startLine: 1972
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int MDStreamVersion { get; }
+    content.vb: Public ReadOnly Property MDStreamVersion As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType
+  parent: System
+  isExternal: false
+  href: System.ValueType.yml
+  name: ValueType
+  fullName: System.ValueType
+  type: Class
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.ModuleHandle
+  parent: System
+  isExternal: false
+  href: System.ModuleHandle.yml
+  name: ModuleHandle
+  fullName: System.ModuleHandle
+  type: Struct
+- uid: System.RuntimeTypeHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeTypeHandle.yml
+  name: RuntimeTypeHandle
+  fullName: System.RuntimeTypeHandle
+  type: Struct
+- uid: System.RuntimeTypeHandle[]
+  isExternal: false
+  href: System.RuntimeTypeHandle.yml
+  name: RuntimeTypeHandle[]
+  name.vb: RuntimeTypeHandle()
+  fullName: System.RuntimeTypeHandle[]
+  fullName.vb: System.RuntimeTypeHandle()
+  spec.csharp:
+  - uid: System.RuntimeTypeHandle
+    name: RuntimeTypeHandle
+    fullName: System.RuntimeTypeHandle
+    href: System.RuntimeTypeHandle.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.RuntimeTypeHandle
+    name: RuntimeTypeHandle
+    fullName: System.RuntimeTypeHandle
+    href: System.RuntimeTypeHandle.yml
+  - name: ()
+    fullName: ()
+- uid: System.RuntimeMethodHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeMethodHandle.yml
+  name: RuntimeMethodHandle
+  fullName: System.RuntimeMethodHandle
+  type: Struct
+- uid: System.RuntimeFieldHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeFieldHandle.yml
+  name: RuntimeFieldHandle
+  fullName: System.RuntimeFieldHandle
+  type: Struct

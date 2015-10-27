@@ -1,0 +1,1340 @@
+items:
+- uid: System.Reflection.Emit.ILGenerator
+  id: ILGenerator
+  parent: System.Reflection.Emit
+  children:
+  - System.Reflection.Emit.ILGenerator.BeginCatchBlock(System.Type)
+  - System.Reflection.Emit.ILGenerator.BeginExceptFilterBlock
+  - System.Reflection.Emit.ILGenerator.BeginExceptionBlock
+  - System.Reflection.Emit.ILGenerator.BeginFaultBlock
+  - System.Reflection.Emit.ILGenerator.BeginFinallyBlock
+  - System.Reflection.Emit.ILGenerator.BeginScope
+  - System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type)
+  - System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type,System.Boolean)
+  - System.Reflection.Emit.ILGenerator.DefineLabel
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Byte)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Double)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Int16)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Int32)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Int64)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.ConstructorInfo)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label[])
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.LocalBuilder)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.SignatureHelper)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.FieldInfo)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.SByte)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Single)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.String)
+  - System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Type)
+  - System.Reflection.Emit.ILGenerator.EmitCall(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo,System.Type[])
+  - System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[])
+  - System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode,System.Runtime.InteropServices.CallingConvention,System.Type,System.Type[])
+  - System.Reflection.Emit.ILGenerator.EmitWriteLine(System.Reflection.Emit.LocalBuilder)
+  - System.Reflection.Emit.ILGenerator.EmitWriteLine(System.Reflection.FieldInfo)
+  - System.Reflection.Emit.ILGenerator.EmitWriteLine(System.String)
+  - System.Reflection.Emit.ILGenerator.EndExceptionBlock
+  - System.Reflection.Emit.ILGenerator.EndScope
+  - System.Reflection.Emit.ILGenerator.ILOffset
+  - System.Reflection.Emit.ILGenerator.MarkLabel(System.Reflection.Emit.Label)
+  - System.Reflection.Emit.ILGenerator.MarkSequencePoint(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.Reflection.Emit.ILGenerator.ThrowException(System.Type)
+  - System.Reflection.Emit.ILGenerator.UsingNamespace(System.String)
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: ILGenerator
+  fullName: System.Reflection.Emit.ILGenerator
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: 'public class ILGenerator : _ILGenerator'
+    content.vb: Public Class ILGenerator Implements _ILGenerator
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.InteropServices._ILGenerator
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode)
+  id: Emit(System.Reflection.Emit.OpCode)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 435
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Byte)
+  id: Emit(System.Reflection.Emit.OpCode,System.Byte)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Byte)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Byte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 442
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, byte arg)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, arg As Byte)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.Byte
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.SByte)
+  id: Emit(System.Reflection.Emit.OpCode,System.SByte)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, SByte)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.SByte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 449
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void Emit(OpCode opcode, sbyte arg)
+    content.vb: Public Sub Emit(opcode As OpCode, arg As SByte)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.SByte
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Int16)
+  id: Emit(System.Reflection.Emit.OpCode,System.Int16)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Int16)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Int16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 463
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, short arg)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, arg As Short)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.Int16
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Int32)
+  id: Emit(System.Reflection.Emit.OpCode,System.Int32)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Int32)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 472
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, int arg)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, arg As Integer)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.Int32
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo)
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, MethodInfo)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 480
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, MethodInfo meth)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, meth As MethodInfo)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: meth
+      type: System.Reflection.MethodInfo
+- uid: System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[])
+  id: EmitCalli(System.Reflection.Emit.OpCode,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[])
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EmitCalli(OpCode, CallingConventions, Type, Type[], Type[])
+  name.vb: EmitCalli(OpCode, CallingConventions, Type, Type(), Type())
+  fullName: System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode, System.Reflection.CallingConventions, System.Type, System.Type[], System.Type[])
+  fullName.vb: System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode, System.Reflection.CallingConventions, System.Type, System.Type(), System.Type())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 512
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EmitCalli(OpCode opcode, CallingConventions callingConvention, Type returnType, Type[] parameterTypes, Type[] optionalParameterTypes)
+    content.vb: Public Overridable Sub EmitCalli(opcode As OpCode, callingConvention As CallingConventions, returnType As Type, parameterTypes As Type(), optionalParameterTypes As Type())
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: callingConvention
+      type: System.Reflection.CallingConventions
+    - id: returnType
+      type: System.Type
+    - id: parameterTypes
+      type: System.Type[]
+    - id: optionalParameterTypes
+      type: System.Type[]
+- uid: System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode,System.Runtime.InteropServices.CallingConvention,System.Type,System.Type[])
+  id: EmitCalli(System.Reflection.Emit.OpCode,System.Runtime.InteropServices.CallingConvention,System.Type,System.Type[])
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EmitCalli(OpCode, CallingConvention, Type, Type[])
+  name.vb: EmitCalli(OpCode, CallingConvention, Type, Type())
+  fullName: System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode, System.Runtime.InteropServices.CallingConvention, System.Type, System.Type[])
+  fullName.vb: System.Reflection.Emit.ILGenerator.EmitCalli(System.Reflection.Emit.OpCode, System.Runtime.InteropServices.CallingConvention, System.Type, System.Type())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 556
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EmitCalli(OpCode opcode, CallingConvention unmanagedCallConv, Type returnType, Type[] parameterTypes)
+    content.vb: Public Overridable Sub EmitCalli(opcode As OpCode, unmanagedCallConv As CallingConvention, returnType As Type, parameterTypes As Type())
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: unmanagedCallConv
+      type: System.Runtime.InteropServices.CallingConvention
+    - id: returnType
+      type: System.Type
+    - id: parameterTypes
+      type: System.Type[]
+- uid: System.Reflection.Emit.ILGenerator.EmitCall(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo,System.Type[])
+  id: EmitCall(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo,System.Type[])
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EmitCall(OpCode, MethodInfo, Type[])
+  name.vb: EmitCall(OpCode, MethodInfo, Type())
+  fullName: System.Reflection.Emit.ILGenerator.EmitCall(System.Reflection.Emit.OpCode, System.Reflection.MethodInfo, System.Type[])
+  fullName.vb: System.Reflection.Emit.ILGenerator.EmitCall(System.Reflection.Emit.OpCode, System.Reflection.MethodInfo, System.Type())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 601
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EmitCall(OpCode opcode, MethodInfo methodInfo, Type[] optionalParameterTypes)
+    content.vb: Public Overridable Sub EmitCall(opcode As OpCode, methodInfo As MethodInfo, optionalParameterTypes As Type())
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: methodInfo
+      type: System.Reflection.MethodInfo
+    - id: optionalParameterTypes
+      type: System.Type[]
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.SignatureHelper)
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.SignatureHelper)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, SignatureHelper)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.Emit.SignatureHelper)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 639
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, SignatureHelper signature)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, signature As SignatureHelper)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: signature
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.ConstructorInfo)
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.ConstructorInfo)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, ConstructorInfo)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.ConstructorInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 674
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, ConstructorInfo con)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, con As ConstructorInfo)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: con
+      type: System.Reflection.ConstructorInfo
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Type)
+  id: Emit(System.Reflection.Emit.OpCode,System.Type)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Type)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 718
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, Type cls)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, cls As Type)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: cls
+      type: System.Type
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Int64)
+  id: Emit(System.Reflection.Emit.OpCode,System.Int64)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Int64)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 745
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, long arg)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, arg As Long)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.Int64
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Single)
+  id: Emit(System.Reflection.Emit.OpCode,System.Single)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Single)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 758
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, float arg)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, arg As Single)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.Single
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Double)
+  id: Emit(System.Reflection.Emit.OpCode,System.Double)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Double)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 769
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, double arg)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, arg As Double)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: arg
+      type: System.Double
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label)
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Label)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.Emit.Label)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 784
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, Label label)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, label As Label)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: label
+      type: System.Reflection.Emit.Label
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label[])
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label[])
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, Label[])
+  name.vb: Emit(OpCode, Label())
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.Emit.Label[])
+  fullName.vb: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.Emit.Label())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 810
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, Label[] labels)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, labels As Label())
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: labels
+      type: System.Reflection.Emit.Label[]
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.FieldInfo)
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.FieldInfo)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, FieldInfo)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 833
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, FieldInfo field)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, field As FieldInfo)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: field
+      type: System.Reflection.FieldInfo
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.String)
+  id: Emit(System.Reflection.Emit.OpCode,System.String)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, String)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 843
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, string str)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, str As String)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: str
+      type: System.String
+- uid: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.LocalBuilder)
+  id: Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.LocalBuilder)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: Emit(OpCode, LocalBuilder)
+  fullName: System.Reflection.Emit.ILGenerator.Emit(System.Reflection.Emit.OpCode, System.Reflection.Emit.LocalBuilder)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 856
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void Emit(OpCode opcode, LocalBuilder local)
+    content.vb: Public Overridable Sub Emit(opcode As OpCode, local As LocalBuilder)
+    parameters:
+    - id: opcode
+      type: System.Reflection.Emit.OpCode
+    - id: local
+      type: System.Reflection.Emit.LocalBuilder
+- uid: System.Reflection.Emit.ILGenerator.BeginExceptionBlock
+  id: BeginExceptionBlock
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: BeginExceptionBlock()
+  fullName: System.Reflection.Emit.ILGenerator.BeginExceptionBlock()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 944
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual Label BeginExceptionBlock()
+    content.vb: Public Overridable Function BeginExceptionBlock As Label
+    return:
+      type: System.Reflection.Emit.Label
+      description: 
+- uid: System.Reflection.Emit.ILGenerator.EndExceptionBlock
+  id: EndExceptionBlock
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EndExceptionBlock()
+  fullName: System.Reflection.Emit.ILGenerator.EndExceptionBlock()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 988
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EndExceptionBlock()
+    content.vb: Public Overridable Sub
+- uid: System.Reflection.Emit.ILGenerator.BeginExceptFilterBlock
+  id: BeginExceptFilterBlock
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: BeginExceptFilterBlock()
+  fullName: System.Reflection.Emit.ILGenerator.BeginExceptFilterBlock()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1026
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void BeginExceptFilterBlock()
+    content.vb: Public Overridable Sub BeginExceptFilterBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginCatchBlock(System.Type)
+  id: BeginCatchBlock(System.Type)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: BeginCatchBlock(Type)
+  fullName: System.Reflection.Emit.ILGenerator.BeginCatchBlock(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1041
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void BeginCatchBlock(Type exceptionType)
+    content.vb: Public Overridable Sub BeginCatchBlock(exceptionType As Type)
+    parameters:
+    - id: exceptionType
+      type: System.Type
+- uid: System.Reflection.Emit.ILGenerator.BeginFaultBlock
+  id: BeginFaultBlock
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: BeginFaultBlock()
+  fullName: System.Reflection.Emit.ILGenerator.BeginFaultBlock()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1070
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void BeginFaultBlock()
+    content.vb: Public Overridable Sub BeginFaultBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginFinallyBlock
+  id: BeginFinallyBlock
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: BeginFinallyBlock()
+  fullName: System.Reflection.Emit.ILGenerator.BeginFinallyBlock()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1084
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void BeginFinallyBlock()
+    content.vb: Public Overridable Sub BeginFinallyBlock
+- uid: System.Reflection.Emit.ILGenerator.DefineLabel
+  id: DefineLabel
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: DefineLabel()
+  fullName: System.Reflection.Emit.ILGenerator.DefineLabel()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1116
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual Label DefineLabel()
+    content.vb: Public Overridable Function DefineLabel As Label
+    return:
+      type: System.Reflection.Emit.Label
+      description: 
+- uid: System.Reflection.Emit.ILGenerator.MarkLabel(System.Reflection.Emit.Label)
+  id: MarkLabel(System.Reflection.Emit.Label)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: MarkLabel(Label)
+  fullName: System.Reflection.Emit.ILGenerator.MarkLabel(System.Reflection.Emit.Label)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1134
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void MarkLabel(Label loc)
+    content.vb: Public Overridable Sub MarkLabel(loc As Label)
+    parameters:
+    - id: loc
+      type: System.Reflection.Emit.Label
+- uid: System.Reflection.Emit.ILGenerator.ThrowException(System.Type)
+  id: ThrowException(System.Type)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: ThrowException(Type)
+  fullName: System.Reflection.Emit.ILGenerator.ThrowException(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1156
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void ThrowException(Type excType)
+    content.vb: Public Overridable Sub ThrowException(excType As Type)
+    parameters:
+    - id: excType
+      type: System.Type
+- uid: System.Reflection.Emit.ILGenerator.EmitWriteLine(System.String)
+  id: EmitWriteLine(System.String)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EmitWriteLine(String)
+  fullName: System.Reflection.Emit.ILGenerator.EmitWriteLine(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1187
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EmitWriteLine(string value)
+    content.vb: Public Overridable Sub EmitWriteLine(value As String)
+    parameters:
+    - id: value
+      type: System.String
+- uid: System.Reflection.Emit.ILGenerator.EmitWriteLine(System.Reflection.Emit.LocalBuilder)
+  id: EmitWriteLine(System.Reflection.Emit.LocalBuilder)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EmitWriteLine(LocalBuilder)
+  fullName: System.Reflection.Emit.ILGenerator.EmitWriteLine(System.Reflection.Emit.LocalBuilder)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1198
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EmitWriteLine(LocalBuilder localBuilder)
+    content.vb: Public Overridable Sub EmitWriteLine(localBuilder As LocalBuilder)
+    parameters:
+    - id: localBuilder
+      type: System.Reflection.Emit.LocalBuilder
+- uid: System.Reflection.Emit.ILGenerator.EmitWriteLine(System.Reflection.FieldInfo)
+  id: EmitWriteLine(System.Reflection.FieldInfo)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EmitWriteLine(FieldInfo)
+  fullName: System.Reflection.Emit.ILGenerator.EmitWriteLine(System.Reflection.FieldInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1228
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EmitWriteLine(FieldInfo fld)
+    content.vb: Public Overridable Sub EmitWriteLine(fld As FieldInfo)
+    parameters:
+    - id: fld
+      type: System.Reflection.FieldInfo
+- uid: System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type)
+  id: DeclareLocal(System.Type)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: DeclareLocal(Type)
+  fullName: System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1268
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual LocalBuilder DeclareLocal(Type localType)
+    content.vb: Public Overridable Function DeclareLocal(localType As Type) As LocalBuilder
+    parameters:
+    - id: localType
+      type: System.Type
+    return:
+      type: System.Reflection.Emit.LocalBuilder
+      description: 
+- uid: System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type,System.Boolean)
+  id: DeclareLocal(System.Type,System.Boolean)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: DeclareLocal(Type, Boolean)
+  fullName: System.Reflection.Emit.ILGenerator.DeclareLocal(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1273
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual LocalBuilder DeclareLocal(Type localType, bool pinned)
+    content.vb: Public Overridable Function DeclareLocal(localType As Type, pinned As Boolean) As LocalBuilder
+    parameters:
+    - id: localType
+      type: System.Type
+    - id: pinned
+      type: System.Boolean
+    return:
+      type: System.Reflection.Emit.LocalBuilder
+      description: 
+- uid: System.Reflection.Emit.ILGenerator.UsingNamespace(System.String)
+  id: UsingNamespace(System.String)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: UsingNamespace(String)
+  fullName: System.Reflection.Emit.ILGenerator.UsingNamespace(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1306
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void UsingNamespace(string usingNamespace)
+    content.vb: Public Overridable Sub UsingNamespace(usingNamespace As String)
+    parameters:
+    - id: usingNamespace
+      type: System.String
+- uid: System.Reflection.Emit.ILGenerator.MarkSequencePoint(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: MarkSequencePoint(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: MarkSequencePoint(ISymbolDocumentWriter, Int32, Int32, Int32, Int32)
+  fullName: System.Reflection.Emit.ILGenerator.MarkSequencePoint(System.Diagnostics.SymbolStore.ISymbolDocumentWriter, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1334
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void MarkSequencePoint(ISymbolDocumentWriter document, int startLine, int startColumn, int endLine, int endColumn)
+    content.vb: Public Overridable Sub MarkSequencePoint(document As ISymbolDocumentWriter, startLine As Integer, startColumn As Integer, endLine As Integer, endColumn As Integer)
+    parameters:
+    - id: document
+      type: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
+    - id: startLine
+      type: System.Int32
+    - id: startColumn
+      type: System.Int32
+    - id: endLine
+      type: System.Int32
+    - id: endColumn
+      type: System.Int32
+- uid: System.Reflection.Emit.ILGenerator.BeginScope
+  id: BeginScope
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: BeginScope()
+  fullName: System.Reflection.Emit.ILGenerator.BeginScope()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1349
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void BeginScope()
+    content.vb: Public Overridable Sub BeginScope
+- uid: System.Reflection.Emit.ILGenerator.EndScope
+  id: EndScope
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: EndScope()
+  fullName: System.Reflection.Emit.ILGenerator.EndScope()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1354
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual void EndScope()
+    content.vb: Public Overridable Sub
+- uid: System.Reflection.Emit.ILGenerator.ILOffset
+  id: ILOffset
+  parent: System.Reflection.Emit.ILGenerator
+  href: System.Reflection.Emit.ILGenerator.yml
+  name: ILOffset
+  fullName: System.Reflection.Emit.ILGenerator.ILOffset
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/ILGenerator.cs
+    startLine: 1359
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public virtual int ILOffset { get; }
+    content.vb: Public Overridable ReadOnly Property ILOffset As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+references:
+- uid: System.Reflection.Emit
+  isExternal: false
+  name: System.Reflection.Emit
+  fullName: System.Reflection.Emit
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Reflection.Emit.OpCode
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.OpCode.yml
+  name: OpCode
+  fullName: System.Reflection.Emit.OpCode
+  type: Struct
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte
+  fullName: System.Byte
+  type: Struct
+- uid: System.SByte
+  parent: System
+  isExternal: false
+  href: System.SByte.yml
+  name: SByte
+  fullName: System.SByte
+  type: Struct
+- uid: System.Int16
+  parent: System
+  isExternal: false
+  href: System.Int16.yml
+  name: Int16
+  fullName: System.Int16
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.MethodInfo.yml
+  name: MethodInfo
+  fullName: System.Reflection.MethodInfo
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Reflection.CallingConventions
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.CallingConventions.yml
+  name: CallingConventions
+  fullName: System.Reflection.CallingConventions
+  type: Enum
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Type[]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[]
+  name.vb: Type()
+  fullName: System.Type[]
+  fullName.vb: System.Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()
+- uid: System.Runtime.InteropServices.CallingConvention
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.CallingConvention.yml
+  name: CallingConvention
+  fullName: System.Runtime.InteropServices.CallingConvention
+  type: Enum
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Reflection.Emit.SignatureHelper
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: SignatureHelper
+  fullName: System.Reflection.Emit.SignatureHelper
+  type: Class
+- uid: System.Reflection.ConstructorInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.ConstructorInfo.yml
+  name: ConstructorInfo
+  fullName: System.Reflection.ConstructorInfo
+  type: Class
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.Single
+  parent: System
+  isExternal: false
+  href: System.Single.yml
+  name: Single
+  fullName: System.Single
+  type: Struct
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct
+- uid: System.Reflection.Emit.Label
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.Label.yml
+  name: Label
+  fullName: System.Reflection.Emit.Label
+  type: Struct
+- uid: System.Reflection.Emit.Label[]
+  isExternal: false
+  href: System.Reflection.Emit.Label.yml
+  name: Label[]
+  name.vb: Label()
+  fullName: System.Reflection.Emit.Label[]
+  fullName.vb: System.Reflection.Emit.Label()
+  spec.csharp:
+  - uid: System.Reflection.Emit.Label
+    name: Label
+    fullName: System.Reflection.Emit.Label
+    href: System.Reflection.Emit.Label.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.Emit.Label
+    name: Label
+    fullName: System.Reflection.Emit.Label
+    href: System.Reflection.Emit.Label.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.FieldInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.FieldInfo.yml
+  name: FieldInfo
+  fullName: System.Reflection.FieldInfo
+  type: Class
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Reflection.Emit.LocalBuilder
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.LocalBuilder.yml
+  name: LocalBuilder
+  fullName: System.Reflection.Emit.LocalBuilder
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
+  parent: System.Diagnostics.SymbolStore
+  isExternal: false
+  href: System.Diagnostics.SymbolStore.ISymbolDocumentWriter.yml
+  name: ISymbolDocumentWriter
+  fullName: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
+  type: Interface
+- uid: System.Diagnostics.SymbolStore
+  isExternal: false
+  name: System.Diagnostics.SymbolStore
+  fullName: System.Diagnostics.SymbolStore
+  type: Namespace

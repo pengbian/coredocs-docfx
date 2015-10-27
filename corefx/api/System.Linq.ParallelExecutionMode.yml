@@ -1,0 +1,74 @@
+items:
+- uid: System.Linq.ParallelExecutionMode
+  id: ParallelExecutionMode
+  parent: System.Linq
+  children:
+  - System.Linq.ParallelExecutionMode.Default
+  - System.Linq.ParallelExecutionMode.ForceParallelism
+  href: System.Linq.ParallelExecutionMode.yml
+  name: ParallelExecutionMode
+  fullName: System.Linq.ParallelExecutionMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Linq.Parallel/src/System/Linq/ParallelExecutionMode.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Linq.Parallel/src/System/Linq/ParallelExecutionMode.cs
+    startLine: 19
+  assemblies:
+  - System.Linq.Parallel
+  namespace: System.Linq
+  summary: >-
+    The query execution mode is a hint that specifies how the system should handle
+
+    performance trade-offs when parallelizing queries.
+  syntax:
+    content: public enum ParallelExecutionMode
+    content.vb: Public Enum ParallelExecutionMode
+- uid: System.Linq.ParallelExecutionMode.Default
+  id: Default
+  parent: System.Linq.ParallelExecutionMode
+  href: System.Linq.ParallelExecutionMode.yml
+  name: Default
+  fullName: System.Linq.ParallelExecutionMode.Default
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Linq.Parallel/src/System/Linq/ParallelExecutionMode.cs
+    startLine: 26
+  assemblies:
+  - System.Linq.Parallel
+  namespace: System.Linq
+  summary: >-
+    By default, the system will use algorithms for queries
+
+    that are ripe for parallelism and will avoid algorithms with high
+
+    overheads that will likely result in slow downs for parallel execution.
+  syntax:
+    content: Default = 0
+- uid: System.Linq.ParallelExecutionMode.ForceParallelism
+  id: ForceParallelism
+  parent: System.Linq.ParallelExecutionMode
+  href: System.Linq.ParallelExecutionMode.yml
+  name: ForceParallelism
+  fullName: System.Linq.ParallelExecutionMode.ForceParallelism
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Linq.Parallel/src/System/Linq/ParallelExecutionMode.cs
+    startLine: 31
+  assemblies:
+  - System.Linq.Parallel
+  namespace: System.Linq
+  summary: Parallelize the entire query, even if that means using high-overhead algorithms.
+  syntax:
+    content: ForceParallelism = 1
+references:
+- uid: System.Linq
+  isExternal: false
+  name: System.Linq
+  fullName: System.Linq
+  type: Namespace

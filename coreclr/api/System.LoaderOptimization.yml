@@ -1,0 +1,97 @@
+items:
+- uid: System.LoaderOptimization
+  id: LoaderOptimization
+  parent: System
+  children:
+  - System.LoaderOptimization.MultiDomain
+  - System.LoaderOptimization.MultiDomainHost
+  - System.LoaderOptimization.NotSpecified
+  - System.LoaderOptimization.SingleDomain
+  href: System.LoaderOptimization.yml
+  name: LoaderOptimization
+  fullName: System.LoaderOptimization
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/AppDomainAttributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/AppDomainAttributes.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public enum LoaderOptimization
+    content.vb: Public Enum LoaderOptimization
+- uid: System.LoaderOptimization.NotSpecified
+  id: NotSpecified
+  parent: System.LoaderOptimization
+  href: System.LoaderOptimization.yml
+  name: NotSpecified
+  fullName: System.LoaderOptimization.NotSpecified
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomainAttributes.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: NotSpecified = 0
+- uid: System.LoaderOptimization.SingleDomain
+  id: SingleDomain
+  parent: System.LoaderOptimization
+  href: System.LoaderOptimization.yml
+  name: SingleDomain
+  fullName: System.LoaderOptimization.SingleDomain
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomainAttributes.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: SingleDomain = 1
+- uid: System.LoaderOptimization.MultiDomain
+  id: MultiDomain
+  parent: System.LoaderOptimization
+  href: System.LoaderOptimization.yml
+  name: MultiDomain
+  fullName: System.LoaderOptimization.MultiDomain
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomainAttributes.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: MultiDomain = 2
+- uid: System.LoaderOptimization.MultiDomainHost
+  id: MultiDomainHost
+  parent: System.LoaderOptimization
+  href: System.LoaderOptimization.yml
+  name: MultiDomainHost
+  fullName: System.LoaderOptimization.MultiDomainHost
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/AppDomainAttributes.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: MultiDomainHost = 3
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

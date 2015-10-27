@@ -1,0 +1,597 @@
+items:
+- uid: System.Runtime.InteropServices.RegistrationServices
+  id: RegistrationServices
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.RegistrationServices.GetManagedCategoryGuid
+  - System.Runtime.InteropServices.RegistrationServices.GetProgIdForType(System.Type)
+  - System.Runtime.InteropServices.RegistrationServices.GetRegistrableTypesInAssembly(System.Reflection.Assembly)
+  - System.Runtime.InteropServices.RegistrationServices.RegisterAssembly(System.Reflection.Assembly,System.Runtime.InteropServices.AssemblyRegistrationFlags)
+  - System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type,System.Guid@)
+  - System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type,System.Runtime.InteropServices.RegistrationClassContext,System.Runtime.InteropServices.RegistrationConnectionType)
+  - System.Runtime.InteropServices.RegistrationServices.TypeRepresentsComType(System.Type)
+  - System.Runtime.InteropServices.RegistrationServices.TypeRequiresRegistration(System.Type)
+  - System.Runtime.InteropServices.RegistrationServices.UnregisterAssembly(System.Reflection.Assembly)
+  - System.Runtime.InteropServices.RegistrationServices.UnregisterTypeForComClients(System.Int32)
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: RegistrationServices
+  fullName: System.Runtime.InteropServices.RegistrationServices
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: 'public class RegistrationServices : IRegistrationServices'
+    content.vb: Public Class RegistrationServices Implements IRegistrationServices
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.InteropServices.IRegistrationServices
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Runtime.InteropServices.RegistrationServices.RegisterAssembly(System.Reflection.Assembly,System.Runtime.InteropServices.AssemblyRegistrationFlags)
+  id: RegisterAssembly(System.Reflection.Assembly,System.Runtime.InteropServices.AssemblyRegistrationFlags)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: RegisterAssembly(Assembly, AssemblyRegistrationFlags)
+  fullName: System.Runtime.InteropServices.RegistrationServices.RegisterAssembly(System.Reflection.Assembly, System.Runtime.InteropServices.AssemblyRegistrationFlags)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 92
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual bool RegisterAssembly(Assembly assembly, AssemblyRegistrationFlags flags)
+    content.vb: Public Overridable Function RegisterAssembly(assembly As Assembly, flags As AssemblyRegistrationFlags) As Boolean
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+    - id: flags
+      type: System.Runtime.InteropServices.AssemblyRegistrationFlags
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.UnregisterAssembly(System.Reflection.Assembly)
+  id: UnregisterAssembly(System.Reflection.Assembly)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: UnregisterAssembly(Assembly)
+  fullName: System.Runtime.InteropServices.RegistrationServices.UnregisterAssembly(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 155
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual bool UnregisterAssembly(Assembly assembly)
+    content.vb: Public Overridable Function UnregisterAssembly(assembly As Assembly) As Boolean
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.GetRegistrableTypesInAssembly(System.Reflection.Assembly)
+  id: GetRegistrableTypesInAssembly(System.Reflection.Assembly)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: GetRegistrableTypesInAssembly(Assembly)
+  fullName: System.Runtime.InteropServices.RegistrationServices.GetRegistrableTypesInAssembly(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 215
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual Type[] GetRegistrableTypesInAssembly(Assembly assembly)
+    content.vb: Public Overridable Function GetRegistrableTypesInAssembly(assembly As Assembly) As Type()
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+    return:
+      type: System.Type[]
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.GetProgIdForType(System.Type)
+  id: GetProgIdForType(System.Type)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: GetProgIdForType(Type)
+  fullName: System.Runtime.InteropServices.RegistrationServices.GetProgIdForType(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 247
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual string GetProgIdForType(Type type)
+    content.vb: Public Overridable Function GetProgIdForType(type As Type) As String
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.String
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type,System.Guid@)
+  id: RegisterTypeForComClients(System.Type,System.Guid@)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: RegisterTypeForComClients(Type, ref Guid)
+  name.vb: RegisterTypeForComClients(Type, ByRef Guid)
+  fullName: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type, ref System.Guid)
+  fullName.vb: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type, ByRef System.Guid)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 253
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual void RegisterTypeForComClients(Type type, ref Guid g)
+    content.vb: Public Overridable Sub RegisterTypeForComClients(type As Type, ByRef g As Guid)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: g
+      type: System.Guid
+- uid: System.Runtime.InteropServices.RegistrationServices.GetManagedCategoryGuid
+  id: GetManagedCategoryGuid
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: GetManagedCategoryGuid()
+  fullName: System.Runtime.InteropServices.RegistrationServices.GetManagedCategoryGuid()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 272
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual Guid GetManagedCategoryGuid()
+    content.vb: Public Overridable Function GetManagedCategoryGuid As Guid
+    return:
+      type: System.Guid
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.TypeRequiresRegistration(System.Type)
+  id: TypeRequiresRegistration(System.Type)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: TypeRequiresRegistration(Type)
+  fullName: System.Runtime.InteropServices.RegistrationServices.TypeRequiresRegistration(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 277
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual bool TypeRequiresRegistration(Type type)
+    content.vb: Public Overridable Function TypeRequiresRegistration(type As Type) As Boolean
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.TypeRepresentsComType(System.Type)
+  id: TypeRepresentsComType(System.Type)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: TypeRepresentsComType(Type)
+  fullName: System.Runtime.InteropServices.RegistrationServices.TypeRepresentsComType(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 283
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual bool TypeRepresentsComType(Type type)
+    content.vb: Public Overridable Function TypeRepresentsComType(type As Type) As Boolean
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type,System.Runtime.InteropServices.RegistrationClassContext,System.Runtime.InteropServices.RegistrationConnectionType)
+  id: RegisterTypeForComClients(System.Type,System.Runtime.InteropServices.RegistrationClassContext,System.Runtime.InteropServices.RegistrationConnectionType)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: RegisterTypeForComClients(Type, RegistrationClassContext, RegistrationConnectionType)
+  fullName: System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients(System.Type, System.Runtime.InteropServices.RegistrationClassContext, System.Runtime.InteropServices.RegistrationConnectionType)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 308
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual int RegisterTypeForComClients(Type type, RegistrationClassContext classContext, RegistrationConnectionType flags)
+    content.vb: Public Overridable Function RegisterTypeForComClients(type As Type, classContext As RegistrationClassContext, flags As RegistrationConnectionType) As Integer
+    parameters:
+    - id: type
+      type: System.Type
+    - id: classContext
+      type: System.Runtime.InteropServices.RegistrationClassContext
+    - id: flags
+      type: System.Runtime.InteropServices.RegistrationConnectionType
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Runtime.InteropServices.RegistrationServices.UnregisterTypeForComClients(System.Int32)
+  id: UnregisterTypeForComClients(System.Int32)
+  parent: System.Runtime.InteropServices.RegistrationServices
+  href: System.Runtime.InteropServices.RegistrationServices.yml
+  name: UnregisterTypeForComClients(Int32)
+  fullName: System.Runtime.InteropServices.RegistrationServices.UnregisterTypeForComClients(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 328
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public virtual void UnregisterTypeForComClients(int cookie)
+    content.vb: Public Overridable Sub UnregisterTypeForComClients(cookie As Integer)
+    parameters:
+    - id: cookie
+      type: System.Int32
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.Runtime.InteropServices.AssemblyRegistrationFlags
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.AssemblyRegistrationFlags.yml
+  name: AssemblyRegistrationFlags
+  fullName: System.Runtime.InteropServices.AssemblyRegistrationFlags
+  type: Enum
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Type[]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[]
+  name.vb: Type()
+  fullName: System.Type[]
+  fullName.vb: System.Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Guid
+  parent: System
+  isExternal: false
+  href: System.Guid.yml
+  name: Guid
+  fullName: System.Guid
+  type: Struct
+- uid: System.Runtime.InteropServices.RegistrationClassContext
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.RegistrationClassContext.yml
+  name: RegistrationClassContext
+  fullName: System.Runtime.InteropServices.RegistrationClassContext
+  type: Enum
+- uid: System.Runtime.InteropServices.RegistrationConnectionType
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: RegistrationConnectionType
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType
+  type: Enum
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct

@@ -1,0 +1,233 @@
+items:
+- uid: System.Security.Permissions.IsolatedStorageContainment
+  id: IsolatedStorageContainment
+  parent: System.Security.Permissions
+  children:
+  - System.Security.Permissions.IsolatedStorageContainment.AdministerIsolatedStorageByUser
+  - System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByMachine
+  - System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByRoamingUser
+  - System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByUser
+  - System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByMachine
+  - System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByRoamingUser
+  - System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByUser
+  - System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByMachine
+  - System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByRoamingUser
+  - System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByUser
+  - System.Security.Permissions.IsolatedStorageContainment.None
+  - System.Security.Permissions.IsolatedStorageContainment.UnrestrictedIsolatedStorage
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: IsolatedStorageContainment
+  fullName: System.Security.Permissions.IsolatedStorageContainment
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: public enum IsolatedStorageContainment
+    content.vb: Public Enum IsolatedStorageContainment
+- uid: System.Security.Permissions.IsolatedStorageContainment.None
+  id: None
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: None
+  fullName: System.Security.Permissions.IsolatedStorageContainment.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: None = 0
+- uid: System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByUser
+  id: DomainIsolationByUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: DomainIsolationByUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: DomainIsolationByUser = 16
+- uid: System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByUser
+  id: ApplicationIsolationByUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: ApplicationIsolationByUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: ApplicationIsolationByUser = 21
+- uid: System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByUser
+  id: AssemblyIsolationByUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: AssemblyIsolationByUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: AssemblyIsolationByUser = 32
+- uid: System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByMachine
+  id: DomainIsolationByMachine
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: DomainIsolationByMachine
+  fullName: System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByMachine
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: DomainIsolationByMachine = 48
+- uid: System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByMachine
+  id: AssemblyIsolationByMachine
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: AssemblyIsolationByMachine
+  fullName: System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByMachine
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: AssemblyIsolationByMachine = 64
+- uid: System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByMachine
+  id: ApplicationIsolationByMachine
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: ApplicationIsolationByMachine
+  fullName: System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByMachine
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: ApplicationIsolationByMachine = 69
+- uid: System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByRoamingUser
+  id: DomainIsolationByRoamingUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: DomainIsolationByRoamingUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.DomainIsolationByRoamingUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: DomainIsolationByRoamingUser = 80
+- uid: System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByRoamingUser
+  id: AssemblyIsolationByRoamingUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: AssemblyIsolationByRoamingUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.AssemblyIsolationByRoamingUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: AssemblyIsolationByRoamingUser = 96
+- uid: System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByRoamingUser
+  id: ApplicationIsolationByRoamingUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: ApplicationIsolationByRoamingUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.ApplicationIsolationByRoamingUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: ApplicationIsolationByRoamingUser = 101
+- uid: System.Security.Permissions.IsolatedStorageContainment.AdministerIsolatedStorageByUser
+  id: AdministerIsolatedStorageByUser
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: AdministerIsolatedStorageByUser
+  fullName: System.Security.Permissions.IsolatedStorageContainment.AdministerIsolatedStorageByUser
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: AdministerIsolatedStorageByUser = 112
+- uid: System.Security.Permissions.IsolatedStorageContainment.UnrestrictedIsolatedStorage
+  id: UnrestrictedIsolatedStorage
+  parent: System.Security.Permissions.IsolatedStorageContainment
+  href: System.Security.Permissions.IsolatedStorageContainment.yml
+  name: UnrestrictedIsolatedStorage
+  fullName: System.Security.Permissions.IsolatedStorageContainment.UnrestrictedIsolatedStorage
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/IsolatedStoragePermission.cs
+    startLine: 28
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: UnrestrictedIsolatedStorage = 240
+references:
+- uid: System.Security.Permissions
+  isExternal: false
+  name: System.Security.Permissions
+  fullName: System.Security.Permissions
+  type: Namespace

@@ -1,0 +1,62 @@
+items:
+- uid: System.Runtime.InteropServices.ICustomAdapter
+  id: ICustomAdapter
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject
+  href: System.Runtime.InteropServices.ICustomAdapter.yml
+  name: ICustomAdapter
+  fullName: System.Runtime.InteropServices.ICustomAdapter
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/ICustomAdapter.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomAdapter.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public interface ICustomAdapter
+    content.vb: Public Interface ICustomAdapter
+- uid: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject
+  id: GetUnderlyingObject
+  parent: System.Runtime.InteropServices.ICustomAdapter
+  href: System.Runtime.InteropServices.ICustomAdapter.yml
+  name: GetUnderlyingObject()
+  fullName: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomAdapter.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: object GetUnderlyingObject()
+    content.vb: Function GetUnderlyingObject As Object
+    return:
+      type: System.Object
+      description: 
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

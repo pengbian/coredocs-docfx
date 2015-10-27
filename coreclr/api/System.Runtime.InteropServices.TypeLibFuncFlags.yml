@@ -1,0 +1,250 @@
+items:
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags
+  id: TypeLibFuncFlags
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FBindable
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FDefaultBind
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FDefaultCollelem
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FDisplayBind
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FHidden
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FImmediateBind
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FNonBrowsable
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FReplaceable
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FRequestEdit
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FRestricted
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FSource
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FUiDefault
+  - System.Runtime.InteropServices.TypeLibFuncFlags.FUsesGetLastError
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: TypeLibFuncFlags
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 299
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum TypeLibFuncFlags
+    content.vb: Public Enum TypeLibFuncFlags
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FRestricted
+  id: FRestricted
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FRestricted
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FRestricted
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 304
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FRestricted = 1
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FSource
+  id: FSource
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FSource
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FSource
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 305
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FSource = 2
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FBindable
+  id: FBindable
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FBindable
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FBindable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 306
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FBindable = 4
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FRequestEdit
+  id: FRequestEdit
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FRequestEdit
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FRequestEdit
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 307
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FRequestEdit = 8
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FDisplayBind
+  id: FDisplayBind
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FDisplayBind
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FDisplayBind
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 308
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FDisplayBind = 16
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FDefaultBind
+  id: FDefaultBind
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FDefaultBind
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FDefaultBind
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 309
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FDefaultBind = 32
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FHidden
+  id: FHidden
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FHidden
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FHidden
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 310
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FHidden = 64
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FUsesGetLastError
+  id: FUsesGetLastError
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FUsesGetLastError
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FUsesGetLastError
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 311
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FUsesGetLastError = 128
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FDefaultCollelem
+  id: FDefaultCollelem
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FDefaultCollelem
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FDefaultCollelem
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 312
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FDefaultCollelem = 256
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FUiDefault
+  id: FUiDefault
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FUiDefault
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FUiDefault
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 313
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FUiDefault = 512
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FNonBrowsable
+  id: FNonBrowsable
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FNonBrowsable
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FNonBrowsable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 314
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FNonBrowsable = 1024
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FReplaceable
+  id: FReplaceable
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FReplaceable
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FReplaceable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 315
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FReplaceable = 2048
+- uid: System.Runtime.InteropServices.TypeLibFuncFlags.FImmediateBind
+  id: FImmediateBind
+  parent: System.Runtime.InteropServices.TypeLibFuncFlags
+  href: System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  name: FImmediateBind
+  fullName: System.Runtime.InteropServices.TypeLibFuncFlags.FImmediateBind
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 316
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: FImmediateBind = 4096
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

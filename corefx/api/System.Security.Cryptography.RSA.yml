@@ -1,0 +1,705 @@
+items:
+- uid: System.Security.Cryptography.RSA
+  id: RSA
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.RSA.#ctor
+  - System.Security.Cryptography.RSA._legalKeySizesValue
+  - System.Security.Cryptography.RSA.DecryptValue(System.Byte[])
+  - System.Security.Cryptography.RSA.EncryptValue(System.Byte[])
+  - System.Security.Cryptography.RSA.ExportParameters(System.Boolean)
+  - System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)
+  - System.Security.Cryptography.RSA.LegalKeySizes
+  href: System.Security.Cryptography.RSA.yml
+  name: RSA
+  fullName: System.Security.Cryptography.RSA
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 8
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: 'public abstract class RSA : AsymmetricAlgorithm, IDisposable'
+    content.vb: Public MustInherit Class RSA Inherits AsymmetricAlgorithm Implements IDisposable
+  inheritance:
+  - System.Object
+  - System.Security.Cryptography.AsymmetricAlgorithm
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Security.Cryptography.AsymmetricAlgorithm.KeySizeValue
+  - System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizesValue
+  - System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+  - System.Security.Cryptography.AsymmetricAlgorithm.Clear
+  - System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)
+  - System.Security.Cryptography.AsymmetricAlgorithm.Create
+  - System.Security.Cryptography.AsymmetricAlgorithm.Create(System.String)
+  - System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(System.String)
+  - System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
+  - System.Security.Cryptography.AsymmetricAlgorithm.KeySize
+  - System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
+  - System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.Cryptography.RSA.#ctor
+  id: '#ctor'
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: RSA()
+  fullName: System.Security.Cryptography.RSA.RSA()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected RSA()
+    content.vb: Protected Sub New
+- uid: System.Security.Cryptography.RSA.DecryptValue(System.Byte[])
+  id: DecryptValue(System.Byte[])
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: DecryptValue(Byte[])
+  name.vb: DecryptValue(Byte())
+  fullName: System.Security.Cryptography.RSA.DecryptValue(System.Byte[])
+  fullName.vb: System.Security.Cryptography.RSA.DecryptValue(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 18
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract byte[] DecryptValue(byte[] rgb)
+    content.vb: Public MustOverride Function DecryptValue(rgb As Byte()) As Byte()
+    parameters:
+    - id: rgb
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.RSA.EncryptValue(System.Byte[])
+  id: EncryptValue(System.Byte[])
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: EncryptValue(Byte[])
+  name.vb: EncryptValue(Byte())
+  fullName: System.Security.Cryptography.RSA.EncryptValue(System.Byte[])
+  fullName.vb: System.Security.Cryptography.RSA.EncryptValue(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 22
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract byte[] EncryptValue(byte[] rgb)
+    content.vb: Public MustOverride Function EncryptValue(rgb As Byte()) As Byte()
+    parameters:
+    - id: rgb
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.RSA.ExportParameters(System.Boolean)
+  id: ExportParameters(System.Boolean)
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: ExportParameters(Boolean)
+  fullName: System.Security.Cryptography.RSA.ExportParameters(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 23
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract RSAParameters ExportParameters(bool includePrivateParameters)
+    content.vb: Public MustOverride Function ExportParameters(includePrivateParameters As Boolean) As RSAParameters
+    parameters:
+    - id: includePrivateParameters
+      type: System.Boolean
+    return:
+      type: System.Security.Cryptography.RSAParameters
+- uid: System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)
+  id: ImportParameters(System.Security.Cryptography.RSAParameters)
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: ImportParameters(RSAParameters)
+  fullName: System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 24
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract void ImportParameters(RSAParameters parameters)
+    content.vb: Public MustOverride Sub ImportParameters(parameters As RSAParameters)
+    parameters:
+    - id: parameters
+      type: System.Security.Cryptography.RSAParameters
+- uid: System.Security.Cryptography.RSA._legalKeySizesValue
+  id: _legalKeySizesValue
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: _legalKeySizesValue
+  fullName: System.Security.Cryptography.RSA._legalKeySizesValue
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 28
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected KeySizes[] _legalKeySizesValue
+    content.vb: Protected _legalKeySizesValue As KeySizes()
+- uid: System.Security.Cryptography.RSA.LegalKeySizes
+  id: LegalKeySizes
+  parent: System.Security.Cryptography.RSA
+  href: System.Security.Cryptography.RSA.yml
+  name: LegalKeySizes
+  fullName: System.Security.Cryptography.RSA.LegalKeySizes
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/Rsa.cs
+    startLine: 29
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public override KeySizes[] LegalKeySizes { get; }
+    content.vb: Public Overrides ReadOnly Property LegalKeySizes As KeySizes()
+    parameters: []
+    return:
+      type: System.Security.Cryptography.KeySizes[]
+  overridden: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Security.Cryptography.AsymmetricAlgorithm
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: AsymmetricAlgorithm
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.KeySizeValue
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: KeySizeValue
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.KeySizeValue
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizesValue
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: LegalKeySizesValue
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizesValue
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: Dispose()
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.Dispose()
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+    name: Dispose
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+    name: Dispose
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.Clear
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: Clear()
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.Clear()
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Clear
+    name: Clear
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Clear
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Clear
+    name: Clear
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Clear
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: Dispose(Boolean)
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)
+    name: Dispose
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)
+    name: Dispose
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Dispose
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.Create
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: Create()
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create()
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Create
+    name: Create
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Create
+    name: Create
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.Create(System.String)
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: Create(String)
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create(System.String)
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Create(System.String)
+    name: Create
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.Create(System.String)
+    name: Create
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(System.String)
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: FromXmlString(String)
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(System.String)
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(System.String)
+    name: FromXmlString
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(System.String)
+    name: FromXmlString
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: ToXmlString(Boolean)
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
+  spec.csharp:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
+    name: ToXmlString
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
+    name: ToXmlString
+    fullName: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.KeySize
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: KeySize
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.KeySize
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: SignatureAlgorithm
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: KeyExchangeAlgorithm
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Cryptography.RSAParameters
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: RSAParameters
+  fullName: System.Security.Cryptography.RSAParameters
+  type: Struct
+- uid: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
+  parent: System.Security.Cryptography.AsymmetricAlgorithm
+  isExternal: true
+  name: LegalKeySizes
+  fullName: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
+- uid: System.Security.Cryptography.KeySizes[]
+  isExternal: true
+  name: KeySizes[]
+  name.vb: KeySizes()
+  fullName: System.Security.Cryptography.KeySizes[]
+  fullName.vb: System.Security.Cryptography.KeySizes()
+  spec.csharp:
+  - uid: System.Security.Cryptography.KeySizes
+    name: KeySizes
+    fullName: System.Security.Cryptography.KeySizes
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Security.Cryptography.KeySizes
+    name: KeySizes
+    fullName: System.Security.Cryptography.KeySizes
+    isExternal: true
+  - name: ()
+    fullName: ()

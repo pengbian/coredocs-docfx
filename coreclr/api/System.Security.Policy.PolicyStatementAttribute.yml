@@ -1,0 +1,97 @@
+items:
+- uid: System.Security.Policy.PolicyStatementAttribute
+  id: PolicyStatementAttribute
+  parent: System.Security.Policy
+  children:
+  - System.Security.Policy.PolicyStatementAttribute.All
+  - System.Security.Policy.PolicyStatementAttribute.Exclusive
+  - System.Security.Policy.PolicyStatementAttribute.LevelFinal
+  - System.Security.Policy.PolicyStatementAttribute.Nothing
+  href: System.Security.Policy.PolicyStatementAttribute.yml
+  name: PolicyStatementAttribute
+  fullName: System.Security.Policy.PolicyStatementAttribute
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Policy/PolicyStatement.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Policy/PolicyStatement.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Policy
+  syntax:
+    content: public enum PolicyStatementAttribute
+    content.vb: Public Enum PolicyStatementAttribute
+- uid: System.Security.Policy.PolicyStatementAttribute.Nothing
+  id: Nothing
+  parent: System.Security.Policy.PolicyStatementAttribute
+  href: System.Security.Policy.PolicyStatementAttribute.yml
+  name: Nothing
+  fullName: System.Security.Policy.PolicyStatementAttribute.Nothing
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Policy/PolicyStatement.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Policy
+  syntax:
+    content: Nothing = 0
+- uid: System.Security.Policy.PolicyStatementAttribute.Exclusive
+  id: Exclusive
+  parent: System.Security.Policy.PolicyStatementAttribute
+  href: System.Security.Policy.PolicyStatementAttribute.yml
+  name: Exclusive
+  fullName: System.Security.Policy.PolicyStatementAttribute.Exclusive
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Policy/PolicyStatement.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Policy
+  syntax:
+    content: Exclusive = 1
+- uid: System.Security.Policy.PolicyStatementAttribute.LevelFinal
+  id: LevelFinal
+  parent: System.Security.Policy.PolicyStatementAttribute
+  href: System.Security.Policy.PolicyStatementAttribute.yml
+  name: LevelFinal
+  fullName: System.Security.Policy.PolicyStatementAttribute.LevelFinal
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Policy/PolicyStatement.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Policy
+  syntax:
+    content: LevelFinal = 2
+- uid: System.Security.Policy.PolicyStatementAttribute.All
+  id: All
+  parent: System.Security.Policy.PolicyStatementAttribute
+  href: System.Security.Policy.PolicyStatementAttribute.yml
+  name: All
+  fullName: System.Security.Policy.PolicyStatementAttribute.All
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Policy/PolicyStatement.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Policy
+  syntax:
+    content: All = 3
+references:
+- uid: System.Security.Policy
+  isExternal: false
+  name: System.Security.Policy
+  fullName: System.Security.Policy
+  type: Namespace

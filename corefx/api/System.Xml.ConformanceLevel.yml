@@ -1,0 +1,80 @@
+items:
+- uid: System.Xml.ConformanceLevel
+  id: ConformanceLevel
+  parent: System.Xml
+  children:
+  - System.Xml.ConformanceLevel.Auto
+  - System.Xml.ConformanceLevel.Document
+  - System.Xml.ConformanceLevel.Fragment
+  href: System.Xml.ConformanceLevel.yml
+  name: ConformanceLevel
+  fullName: System.Xml.ConformanceLevel
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Xml.ReaderWriter/src/System/Xml/Core/ConformanceLevel.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/ConformanceLevel.cs
+    startLine: 5
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: public enum ConformanceLevel
+    content.vb: Public Enum ConformanceLevel
+- uid: System.Xml.ConformanceLevel.Auto
+  id: Auto
+  parent: System.Xml.ConformanceLevel
+  href: System.Xml.ConformanceLevel.yml
+  name: Auto
+  fullName: System.Xml.ConformanceLevel.Auto
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/ConformanceLevel.cs
+    startLine: 8
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Auto = 0
+- uid: System.Xml.ConformanceLevel.Fragment
+  id: Fragment
+  parent: System.Xml.ConformanceLevel
+  href: System.Xml.ConformanceLevel.yml
+  name: Fragment
+  fullName: System.Xml.ConformanceLevel.Fragment
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/ConformanceLevel.cs
+    startLine: 12
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Fragment = 1
+- uid: System.Xml.ConformanceLevel.Document
+  id: Document
+  parent: System.Xml.ConformanceLevel
+  href: System.Xml.ConformanceLevel.yml
+  name: Document
+  fullName: System.Xml.ConformanceLevel.Document
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/ConformanceLevel.cs
+    startLine: 15
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Document = 2
+references:
+- uid: System.Xml
+  isExternal: false
+  name: System.Xml
+  fullName: System.Xml
+  type: Namespace

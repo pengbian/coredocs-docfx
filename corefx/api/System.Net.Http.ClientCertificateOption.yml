@@ -1,0 +1,63 @@
+items:
+- uid: System.Net.Http.ClientCertificateOption
+  id: ClientCertificateOption
+  parent: System.Net.Http
+  children:
+  - System.Net.Http.ClientCertificateOption.Automatic
+  - System.Net.Http.ClientCertificateOption.Manual
+  href: System.Net.Http.ClientCertificateOption.yml
+  name: ClientCertificateOption
+  fullName: System.Net.Http.ClientCertificateOption
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Net.Http/src/System/Net/Http/ClientCertificateOption.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Net.Http/src/System/Net/Http/ClientCertificateOption.cs
+    startLine: 5
+  assemblies:
+  - System.Net.Http
+  namespace: System.Net.Http
+  syntax:
+    content: public enum ClientCertificateOption
+    content.vb: Public Enum ClientCertificateOption
+- uid: System.Net.Http.ClientCertificateOption.Manual
+  id: Manual
+  parent: System.Net.Http.ClientCertificateOption
+  href: System.Net.Http.ClientCertificateOption.yml
+  name: Manual
+  fullName: System.Net.Http.ClientCertificateOption.Manual
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.Http/src/System/Net/Http/ClientCertificateOption.cs
+    startLine: 7
+  assemblies:
+  - System.Net.Http
+  namespace: System.Net.Http
+  syntax:
+    content: Manual = 0
+- uid: System.Net.Http.ClientCertificateOption.Automatic
+  id: Automatic
+  parent: System.Net.Http.ClientCertificateOption
+  href: System.Net.Http.ClientCertificateOption.yml
+  name: Automatic
+  fullName: System.Net.Http.ClientCertificateOption.Automatic
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.Http/src/System/Net/Http/ClientCertificateOption.cs
+    startLine: 8
+  assemblies:
+  - System.Net.Http
+  namespace: System.Net.Http
+  syntax:
+    content: Automatic = 1
+references:
+- uid: System.Net.Http
+  isExternal: false
+  name: System.Net.Http
+  fullName: System.Net.Http
+  type: Namespace

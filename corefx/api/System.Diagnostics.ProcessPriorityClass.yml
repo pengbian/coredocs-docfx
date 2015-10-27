@@ -1,0 +1,131 @@
+items:
+- uid: System.Diagnostics.ProcessPriorityClass
+  id: ProcessPriorityClass
+  parent: System.Diagnostics
+  children:
+  - System.Diagnostics.ProcessPriorityClass.AboveNormal
+  - System.Diagnostics.ProcessPriorityClass.BelowNormal
+  - System.Diagnostics.ProcessPriorityClass.High
+  - System.Diagnostics.ProcessPriorityClass.Idle
+  - System.Diagnostics.ProcessPriorityClass.Normal
+  - System.Diagnostics.ProcessPriorityClass.RealTime
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: ProcessPriorityClass
+  fullName: System.Diagnostics.ProcessPriorityClass
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 9
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public enum ProcessPriorityClass
+    content.vb: Public Enum ProcessPriorityClass
+- uid: System.Diagnostics.ProcessPriorityClass.Normal
+  id: Normal
+  parent: System.Diagnostics.ProcessPriorityClass
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: Normal
+  fullName: System.Diagnostics.ProcessPriorityClass.Normal
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 14
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: Normal = 32
+- uid: System.Diagnostics.ProcessPriorityClass.Idle
+  id: Idle
+  parent: System.Diagnostics.ProcessPriorityClass
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: Idle
+  fullName: System.Diagnostics.ProcessPriorityClass.Idle
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 22
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: Idle = 64
+- uid: System.Diagnostics.ProcessPriorityClass.High
+  id: High
+  parent: System.Diagnostics.ProcessPriorityClass
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: High
+  fullName: System.Diagnostics.ProcessPriorityClass.High
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 32
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: High = 128
+- uid: System.Diagnostics.ProcessPriorityClass.RealTime
+  id: RealTime
+  parent: System.Diagnostics.ProcessPriorityClass
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: RealTime
+  fullName: System.Diagnostics.ProcessPriorityClass.RealTime
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 41
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: RealTime = 256
+- uid: System.Diagnostics.ProcessPriorityClass.BelowNormal
+  id: BelowNormal
+  parent: System.Diagnostics.ProcessPriorityClass
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: BelowNormal
+  fullName: System.Diagnostics.ProcessPriorityClass.BelowNormal
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 46
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: BelowNormal = 16384
+- uid: System.Diagnostics.ProcessPriorityClass.AboveNormal
+  id: AboveNormal
+  parent: System.Diagnostics.ProcessPriorityClass
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: AboveNormal
+  fullName: System.Diagnostics.ProcessPriorityClass.AboveNormal
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessPriorityClass.cs
+    startLine: 51
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: AboveNormal = 32768
+references:
+- uid: System.Diagnostics
+  isExternal: false
+  name: System.Diagnostics
+  fullName: System.Diagnostics
+  type: Namespace

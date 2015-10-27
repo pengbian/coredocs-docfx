@@ -1,0 +1,1140 @@
+items:
+- uid: System.Delegate
+  id: Delegate
+  parent: System
+  children:
+  - System.Delegate.#ctor(System.Object,System.String)
+  - System.Delegate.#ctor(System.Type,System.String)
+  - System.Delegate.Clone
+  - System.Delegate.Combine(System.Delegate,System.Delegate)
+  - System.Delegate.Combine(System.Delegate[])
+  - System.Delegate.CombineImpl(System.Delegate)
+  - System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
+  - System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean)
+  - System.Delegate.CreateDelegate(System.Type,System.Object,System.String)
+  - System.Delegate.CreateDelegate(System.Type,System.Object,System.String,System.Boolean)
+  - System.Delegate.CreateDelegate(System.Type,System.Object,System.String,System.Boolean,System.Boolean)
+  - System.Delegate.CreateDelegate(System.Type,System.Reflection.MethodInfo)
+  - System.Delegate.CreateDelegate(System.Type,System.Reflection.MethodInfo,System.Boolean)
+  - System.Delegate.CreateDelegate(System.Type,System.Type,System.String)
+  - System.Delegate.CreateDelegate(System.Type,System.Type,System.String,System.Boolean)
+  - System.Delegate.CreateDelegate(System.Type,System.Type,System.String,System.Boolean,System.Boolean)
+  - System.Delegate.DynamicInvoke(System.Object[])
+  - System.Delegate.DynamicInvokeImpl(System.Object[])
+  - System.Delegate.Equals(System.Object)
+  - System.Delegate.GetHashCode
+  - System.Delegate.GetInvocationList
+  - System.Delegate.GetMethodImpl
+  - System.Delegate.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Delegate.Method
+  - System.Delegate.op_Equality(System.Delegate,System.Delegate)
+  - System.Delegate.op_Inequality(System.Delegate,System.Delegate)
+  - System.Delegate.Remove(System.Delegate,System.Delegate)
+  - System.Delegate.RemoveAll(System.Delegate,System.Delegate)
+  - System.Delegate.RemoveImpl(System.Delegate)
+  - System.Delegate.Target
+  href: System.Delegate.yml
+  name: Delegate
+  fullName: System.Delegate
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Delegate.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public abstract class Delegate : ICloneable, ISerializable'
+    content.vb: Public MustInherit Class Delegate Implements ICloneable, ISerializable
+  inheritance:
+  - System.Object
+  implements:
+  - System.ICloneable
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Delegate.#ctor(System.Object,System.String)
+  id: '#ctor(System.Object,System.String)'
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Delegate(Object, String)
+  fullName: System.Delegate.Delegate(System.Object, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 43
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected Delegate(object target, string method)
+    content.vb: Protected Sub New(target As Object, method As String)
+    parameters:
+    - id: target
+      type: System.Object
+    - id: method
+      type: System.String
+- uid: System.Delegate.#ctor(System.Type,System.String)
+  id: '#ctor(System.Type,System.String)'
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Delegate(Type, String)
+  fullName: System.Delegate.Delegate(System.Type, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected Delegate(Type target, string method)
+    content.vb: Protected Sub New(target As Type, method As String)
+    parameters:
+    - id: target
+      type: System.Type
+    - id: method
+      type: System.String
+- uid: System.Delegate.DynamicInvoke(System.Object[])
+  id: DynamicInvoke(System.Object[])
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: DynamicInvoke(Object[])
+  name.vb: DynamicInvoke(Object())
+  fullName: System.Delegate.DynamicInvoke(System.Object[])
+  fullName.vb: System.Delegate.DynamicInvoke(System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 103
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object DynamicInvoke(params object[] args)
+    content.vb: Public Function DynamicInvoke(ParamArray args As Object()) As Object
+    parameters:
+    - id: args
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.Delegate.DynamicInvokeImpl(System.Object[])
+  id: DynamicInvokeImpl(System.Object[])
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: DynamicInvokeImpl(Object[])
+  name.vb: DynamicInvokeImpl(Object())
+  fullName: System.Delegate.DynamicInvokeImpl(System.Object[])
+  fullName.vb: System.Delegate.DynamicInvokeImpl(System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 114
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected virtual object DynamicInvokeImpl(object[] args)
+    content.vb: Protected Overridable Function DynamicInvokeImpl(args As Object()) As Object
+    parameters:
+    - id: args
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.Delegate.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Equals(Object)
+  fullName: System.Delegate.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 124
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Delegate.GetHashCode
+  id: GetHashCode
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: GetHashCode()
+  fullName: System.Delegate.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 176
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.Object.GetHashCode
+- uid: System.Delegate.Combine(System.Delegate,System.Delegate)
+  id: Combine(System.Delegate,System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Combine(Delegate, Delegate)
+  fullName: System.Delegate.Combine(System.Delegate, System.Delegate)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 191
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate Combine(Delegate a, Delegate b)
+    content.vb: Public Shared Function Combine(a As Delegate, b As Delegate) As
+    parameters:
+    - id: a
+      type: System.Delegate
+    - id: b
+      type: System.Delegate
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.Combine(System.Delegate[])
+  id: Combine(System.Delegate[])
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Combine(Delegate[])
+  name.vb: Combine(Delegate())
+  fullName: System.Delegate.Combine(System.Delegate[])
+  fullName.vb: System.Delegate.Combine(System.Delegate())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 199
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate Combine(params Delegate[] delegates)
+    content.vb: Public Shared Function Combine(ParamArray delegates As Delegate ()) As
+    parameters:
+    - id: delegates
+      type: System.Delegate[]
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.GetInvocationList
+  id: GetInvocationList
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: GetInvocationList()
+  fullName: System.Delegate.GetInvocationList()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 212
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public virtual Delegate[] GetInvocationList()
+    content.vb: Public Overridable Function GetInvocationList As
+    return:
+      type: System.Delegate[]
+      description: 
+- uid: System.Delegate.Method
+  id: Method
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Method
+  fullName: System.Delegate.Method
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 220
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public MethodInfo Method { get; }
+    content.vb: Public ReadOnly Property Method As MethodInfo
+    parameters: []
+    return:
+      type: System.Reflection.MethodInfo
+      description: 
+- uid: System.Delegate.GetMethodImpl
+  id: GetMethodImpl
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: GetMethodImpl()
+  fullName: System.Delegate.GetMethodImpl()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 228
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected virtual MethodInfo GetMethodImpl()
+    content.vb: Protected Overridable Function GetMethodImpl As MethodInfo
+    return:
+      type: System.Reflection.MethodInfo
+      description: 
+- uid: System.Delegate.Target
+  id: Target
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Target
+  fullName: System.Delegate.Target
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 284
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object Target { get; }
+    content.vb: Public ReadOnly Property Target As Object
+    parameters: []
+    return:
+      type: System.Object
+      description: 
+- uid: System.Delegate.Remove(System.Delegate,System.Delegate)
+  id: Remove(System.Delegate,System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Remove(Delegate, Delegate)
+  fullName: System.Delegate.Remove(System.Delegate, System.Delegate)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 293
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate Remove(Delegate source, Delegate value)
+    content.vb: Public Shared Function Remove(source As Delegate, value As Delegate) As
+    parameters:
+    - id: source
+      type: System.Delegate
+    - id: value
+      type: System.Delegate
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.RemoveAll(System.Delegate,System.Delegate)
+  id: RemoveAll(System.Delegate,System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: RemoveAll(Delegate, Delegate)
+  fullName: System.Delegate.RemoveAll(System.Delegate, System.Delegate)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 308
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate RemoveAll(Delegate source, Delegate value)
+    content.vb: Public Shared Function RemoveAll(source As Delegate, value As Delegate) As
+    parameters:
+    - id: source
+      type: System.Delegate
+    - id: value
+      type: System.Delegate
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CombineImpl(System.Delegate)
+  id: CombineImpl(System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CombineImpl(Delegate)
+  fullName: System.Delegate.CombineImpl(System.Delegate)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 322
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected virtual Delegate CombineImpl(Delegate d)
+    content.vb: Protected Overridable Function CombineImpl(d As Delegate) As
+    parameters:
+    - id: d
+      type: System.Delegate
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.RemoveImpl(System.Delegate)
+  id: RemoveImpl(System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: RemoveImpl(Delegate)
+  fullName: System.Delegate.RemoveImpl(System.Delegate)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 327
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected virtual Delegate RemoveImpl(Delegate d)
+    content.vb: Protected Overridable Function RemoveImpl(d As Delegate) As
+    parameters:
+    - id: d
+      type: System.Delegate
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.Clone
+  id: Clone
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Clone()
+  fullName: System.Delegate.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 333
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public virtual object Clone()
+    content.vb: Public Overridable Function Clone As Object
+    return:
+      type: System.Object
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.String)
+  id: CreateDelegate(System.Type,System.Object,System.String)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Object, String)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Object, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 339
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, object target, string method)
+    content.vb: Public Shared Function CreateDelegate(type As Type, target As Object, method As String) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: target
+      type: System.Object
+    - id: method
+      type: System.String
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.String,System.Boolean)
+  id: CreateDelegate(System.Type,System.Object,System.String,System.Boolean)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Object, String, Boolean)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Object, System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 345
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, object target, string method, bool ignoreCase)
+    content.vb: Public Shared Function CreateDelegate(type As Type, target As Object, method As String, ignoreCase As Boolean) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: target
+      type: System.Object
+    - id: method
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.String,System.Boolean,System.Boolean)
+  id: CreateDelegate(System.Type,System.Object,System.String,System.Boolean,System.Boolean)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Object, String, Boolean, Boolean)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Object, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 368
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, object target, string method, bool ignoreCase, bool throwOnBindFailure)
+    content.vb: Public Shared Function CreateDelegate(type As Type, target As Object, method As String, ignoreCase As Boolean, throwOnBindFailure As Boolean) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: target
+      type: System.Object
+    - id: method
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: throwOnBindFailure
+      type: System.Boolean
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Type,System.String)
+  id: CreateDelegate(System.Type,System.Type,System.String)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Type, String)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Type, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 417
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, Type target, string method)
+    content.vb: Public Shared Function CreateDelegate(type As Type, target As Type, method As String) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: target
+      type: System.Type
+    - id: method
+      type: System.String
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Type,System.String,System.Boolean)
+  id: CreateDelegate(System.Type,System.Type,System.String,System.Boolean)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Type, String, Boolean)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Type, System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 423
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, Type target, string method, bool ignoreCase)
+    content.vb: Public Shared Function CreateDelegate(type As Type, target As Type, method As String, ignoreCase As Boolean) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: target
+      type: System.Type
+    - id: method
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Type,System.String,System.Boolean,System.Boolean)
+  id: CreateDelegate(System.Type,System.Type,System.String,System.Boolean,System.Boolean)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Type, String, Boolean, Boolean)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Type, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 429
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, Type target, string method, bool ignoreCase, bool throwOnBindFailure)
+    content.vb: Public Shared Function CreateDelegate(type As Type, target As Type, method As String, ignoreCase As Boolean, throwOnBindFailure As Boolean) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: target
+      type: System.Type
+    - id: method
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: throwOnBindFailure
+      type: System.Boolean
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Reflection.MethodInfo,System.Boolean)
+  id: CreateDelegate(System.Type,System.Reflection.MethodInfo,System.Boolean)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, MethodInfo, Boolean)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Reflection.MethodInfo, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 479
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, MethodInfo method, bool throwOnBindFailure)
+    content.vb: Public Shared Function CreateDelegate(type As Type, method As MethodInfo, throwOnBindFailure As Boolean) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: method
+      type: System.Reflection.MethodInfo
+    - id: throwOnBindFailure
+      type: System.Boolean
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
+  id: CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Object, MethodInfo)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Object, System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 524
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method)
+    content.vb: Public Shared Function CreateDelegate(type As Type, firstArgument As Object, method As MethodInfo) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: firstArgument
+      type: System.Object
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean)
+  id: CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, Object, MethodInfo, Boolean)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Object, System.Reflection.MethodInfo, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 530
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method, bool throwOnBindFailure)
+    content.vb: Public Shared Function CreateDelegate(type As Type, firstArgument As Object, method As MethodInfo, throwOnBindFailure As Boolean) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: firstArgument
+      type: System.Object
+    - id: method
+      type: System.Reflection.MethodInfo
+    - id: throwOnBindFailure
+      type: System.Boolean
+    return:
+      type: System.Delegate
+      description: 
+- uid: System.Delegate.op_Equality(System.Delegate,System.Delegate)
+  id: op_Equality(System.Delegate,System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Equality(Delegate, Delegate)
+  fullName: System.Delegate.Equality(System.Delegate, System.Delegate)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 571
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator ==(Delegate d1, Delegate d2)
+    content.vb: Public Shared Operator =(d1 As Delegate, d2 As Delegate) As Boolean
+    parameters:
+    - id: d1
+      type: System.Delegate
+    - id: d2
+      type: System.Delegate
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Delegate.op_Inequality(System.Delegate,System.Delegate)
+  id: op_Inequality(System.Delegate,System.Delegate)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: Inequality(Delegate, Delegate)
+  fullName: System.Delegate.Inequality(System.Delegate, System.Delegate)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 579
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator !=(Delegate d1, Delegate d2)
+    content.vb: Public Shared Operator <>(d1 As Delegate, d2 As Delegate) As Boolean
+    parameters:
+    - id: d1
+      type: System.Delegate
+    - id: d2
+      type: System.Delegate
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Delegate.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Delegate.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 591
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+    content.vb: Public Overridable Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+- uid: System.Delegate.CreateDelegate(System.Type,System.Reflection.MethodInfo)
+  id: CreateDelegate(System.Type,System.Reflection.MethodInfo)
+  parent: System.Delegate
+  href: System.Delegate.yml
+  name: CreateDelegate(Type, MethodInfo)
+  fullName: System.Delegate.CreateDelegate(System.Type, System.Reflection.MethodInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Delegate.cs
+    startLine: 673
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Delegate CreateDelegate(Type type, MethodInfo method)
+    content.vb: Public Shared Function CreateDelegate(type As Type, method As MethodInfo) As
+    parameters:
+    - id: type
+      type: System.Type
+    - id: method
+      type: System.Reflection.MethodInfo
+    return:
+      type: System.Delegate
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Delegate
+  parent: System
+  isExternal: false
+  href: System.Delegate.yml
+  name: Delegate
+  fullName: System.Delegate
+  type: Class
+- uid: System.Delegate[]
+  isExternal: false
+  href: System.Delegate.yml
+  name: Delegate[]
+  name.vb: Delegate()
+  fullName: System.Delegate[]
+  fullName.vb: System.Delegate()
+  spec.csharp:
+  - uid: System.Delegate
+    name: Delegate
+    fullName: System.Delegate
+    href: System.Delegate.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Delegate
+    name: Delegate
+    fullName: System.Delegate
+    href: System.Delegate.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.MethodInfo.yml
+  name: MethodInfo
+  fullName: System.Reflection.MethodInfo
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.SerializationInfo.yml
+  name: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+  type: Class
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.StreamingContext.yml
+  name: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+  type: Struct
+- uid: System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  type: Namespace

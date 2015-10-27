@@ -1,0 +1,67 @@
+items:
+- uid: System.IFormatProvider
+  id: IFormatProvider
+  parent: System
+  children:
+  - System.IFormatProvider.GetFormat(System.Type)
+  href: System.IFormatProvider.yml
+  name: IFormatProvider
+  fullName: System.IFormatProvider
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IFormatProvider.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IFormatProvider.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public interface IFormatProvider
+    content.vb: Public Interface IFormatProvider
+- uid: System.IFormatProvider.GetFormat(System.Type)
+  id: GetFormat(System.Type)
+  parent: System.IFormatProvider
+  href: System.IFormatProvider.yml
+  name: GetFormat(Type)
+  fullName: System.IFormatProvider.GetFormat(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IFormatProvider.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: object GetFormat(Type formatType)
+    content.vb: Function GetFormat(formatType As Type) As Object
+    parameters:
+    - id: formatType
+      type: System.Type
+    return:
+      type: System.Object
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class

@@ -1,0 +1,78 @@
+items:
+- uid: System.ICustomFormatter
+  id: ICustomFormatter
+  parent: System
+  children:
+  - System.ICustomFormatter.Format(System.String,System.Object,System.IFormatProvider)
+  href: System.ICustomFormatter.yml
+  name: ICustomFormatter
+  fullName: System.ICustomFormatter
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/ICustomFormatter.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/ICustomFormatter.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public interface ICustomFormatter
+    content.vb: Public Interface ICustomFormatter
+- uid: System.ICustomFormatter.Format(System.String,System.Object,System.IFormatProvider)
+  id: Format(System.String,System.Object,System.IFormatProvider)
+  parent: System.ICustomFormatter
+  href: System.ICustomFormatter.yml
+  name: Format(String, Object, IFormatProvider)
+  fullName: System.ICustomFormatter.Format(System.String, System.Object, System.IFormatProvider)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ICustomFormatter.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: string Format(string format, object arg, IFormatProvider formatProvider)
+    content.vb: Function Format(format As String, arg As Object, formatProvider As IFormatProvider) As String
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg
+      type: System.Object
+    - id: formatProvider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.IFormatProvider
+  parent: System
+  isExternal: false
+  href: System.IFormatProvider.yml
+  name: IFormatProvider
+  fullName: System.IFormatProvider
+  type: Interface

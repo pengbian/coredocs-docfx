@@ -1,0 +1,909 @@
+items:
+- uid: System.GC
+  id: GC
+  parent: System
+  children:
+  - System.GC.AddMemoryPressure(System.Int64)
+  - System.GC.CancelFullGCNotification
+  - System.GC.Collect
+  - System.GC.Collect(System.Int32)
+  - System.GC.Collect(System.Int32,System.GCCollectionMode)
+  - System.GC.Collect(System.Int32,System.GCCollectionMode,System.Boolean)
+  - System.GC.Collect(System.Int32,System.GCCollectionMode,System.Boolean,System.Boolean)
+  - System.GC.CollectionCount(System.Int32)
+  - System.GC.EndNoGCRegion
+  - System.GC.GetGeneration(System.Object)
+  - System.GC.GetGeneration(System.WeakReference)
+  - System.GC.GetTotalMemory(System.Boolean)
+  - System.GC.KeepAlive(System.Object)
+  - System.GC.MaxGeneration
+  - System.GC.RegisterForFullGCNotification(System.Int32,System.Int32)
+  - System.GC.RemoveMemoryPressure(System.Int64)
+  - System.GC.ReRegisterForFinalize(System.Object)
+  - System.GC.SuppressFinalize(System.Object)
+  - System.GC.TryStartNoGCRegion(System.Int64)
+  - System.GC.TryStartNoGCRegion(System.Int64,System.Boolean)
+  - System.GC.TryStartNoGCRegion(System.Int64,System.Int64)
+  - System.GC.TryStartNoGCRegion(System.Int64,System.Int64,System.Boolean)
+  - System.GC.WaitForFullGCApproach
+  - System.GC.WaitForFullGCApproach(System.Int32)
+  - System.GC.WaitForFullGCComplete
+  - System.GC.WaitForFullGCComplete(System.Int32)
+  - System.GC.WaitForPendingFinalizers
+  href: System.GC.yml
+  name: GC
+  fullName: System.GC
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/GC.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 62
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public class GC
+    content.vb: Public Class GC
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.GC.AddMemoryPressure(System.Int64)
+  id: AddMemoryPressure(System.Int64)
+  parent: System.GC
+  href: System.GC.yml
+  name: AddMemoryPressure(Int64)
+  fullName: System.GC.AddMemoryPressure(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 125
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void AddMemoryPressure(long bytesAllocated)
+    content.vb: Public Shared Sub AddMemoryPressure(bytesAllocated As Long)
+    parameters:
+    - id: bytesAllocated
+      type: System.Int64
+- uid: System.GC.RemoveMemoryPressure(System.Int64)
+  id: RemoveMemoryPressure(System.Int64)
+  parent: System.GC
+  href: System.GC.yml
+  name: RemoveMemoryPressure(Int64)
+  fullName: System.GC.RemoveMemoryPressure(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 141
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void RemoveMemoryPressure(long bytesAllocated)
+    content.vb: Public Shared Sub RemoveMemoryPressure(bytesAllocated As Long)
+    parameters:
+    - id: bytesAllocated
+      type: System.Int64
+- uid: System.GC.GetGeneration(System.Object)
+  id: GetGeneration(System.Object)
+  parent: System.GC
+  href: System.GC.yml
+  name: GetGeneration(Object)
+  fullName: System.GC.GetGeneration(System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int GetGeneration(object obj)
+    content.vb: Public Shared Function GetGeneration(obj As Object) As Integer
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.GC.Collect(System.Int32)
+  id: Collect(System.Int32)
+  parent: System.GC
+  href: System.GC.yml
+  name: Collect(Int32)
+  fullName: System.GC.Collect(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 172
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Collect(int generation)
+    content.vb: Public Shared Sub Collect(generation As Integer)
+    parameters:
+    - id: generation
+      type: System.Int32
+- uid: System.GC.Collect
+  id: Collect
+  parent: System.GC
+  href: System.GC.yml
+  name: Collect()
+  fullName: System.GC.Collect()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 180
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Collect()
+    content.vb: Public Shared Sub Collect
+- uid: System.GC.Collect(System.Int32,System.GCCollectionMode)
+  id: Collect(System.Int32,System.GCCollectionMode)
+  parent: System.GC
+  href: System.GC.yml
+  name: Collect(Int32, GCCollectionMode)
+  fullName: System.GC.Collect(System.Int32, System.GCCollectionMode)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Collect(int generation, GCCollectionMode mode)
+    content.vb: Public Shared Sub Collect(generation As Integer, mode As GCCollectionMode)
+    parameters:
+    - id: generation
+      type: System.Int32
+    - id: mode
+      type: System.GCCollectionMode
+- uid: System.GC.Collect(System.Int32,System.GCCollectionMode,System.Boolean)
+  id: Collect(System.Int32,System.GCCollectionMode,System.Boolean)
+  parent: System.GC
+  href: System.GC.yml
+  name: Collect(Int32, GCCollectionMode, Boolean)
+  fullName: System.GC.Collect(System.Int32, System.GCCollectionMode, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 192
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Collect(int generation, GCCollectionMode mode, bool blocking)
+    content.vb: Public Shared Sub Collect(generation As Integer, mode As GCCollectionMode, blocking As Boolean)
+    parameters:
+    - id: generation
+      type: System.Int32
+    - id: mode
+      type: System.GCCollectionMode
+    - id: blocking
+      type: System.Boolean
+- uid: System.GC.Collect(System.Int32,System.GCCollectionMode,System.Boolean,System.Boolean)
+  id: Collect(System.Int32,System.GCCollectionMode,System.Boolean,System.Boolean)
+  parent: System.GC
+  href: System.GC.yml
+  name: Collect(Int32, GCCollectionMode, Boolean, Boolean)
+  fullName: System.GC.Collect(System.Int32, System.GCCollectionMode, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 198
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Collect(int generation, GCCollectionMode mode, bool blocking, bool compacting)
+    content.vb: Public Shared Sub Collect(generation As Integer, mode As GCCollectionMode, blocking As Boolean, compacting As Boolean)
+    parameters:
+    - id: generation
+      type: System.Int32
+    - id: mode
+      type: System.GCCollectionMode
+    - id: blocking
+      type: System.Boolean
+    - id: compacting
+      type: System.Boolean
+- uid: System.GC.CollectionCount(System.Int32)
+  id: CollectionCount(System.Int32)
+  parent: System.GC
+  href: System.GC.yml
+  name: CollectionCount(Int32)
+  fullName: System.GC.CollectionCount(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 235
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int CollectionCount(int generation)
+    content.vb: Public Shared Function CollectionCount(generation As Integer) As Integer
+    parameters:
+    - id: generation
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.GC.KeepAlive(System.Object)
+  id: KeepAlive(System.Object)
+  parent: System.GC
+  href: System.GC.yml
+  name: KeepAlive(Object)
+  fullName: System.GC.KeepAlive(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 292
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void KeepAlive(object obj)
+    content.vb: Public Shared Sub KeepAlive(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+- uid: System.GC.GetGeneration(System.WeakReference)
+  id: GetGeneration(System.WeakReference)
+  parent: System.GC
+  href: System.GC.yml
+  name: GetGeneration(WeakReference)
+  fullName: System.GC.GetGeneration(System.WeakReference)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 300
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int GetGeneration(WeakReference wo)
+    content.vb: Public Shared Function GetGeneration(wo As WeakReference) As Integer
+    parameters:
+    - id: wo
+      type: System.WeakReference
+    return:
+      type: System.Int32
+      description: 
+- uid: System.GC.MaxGeneration
+  id: MaxGeneration
+  parent: System.GC
+  href: System.GC.yml
+  name: MaxGeneration
+  fullName: System.GC.MaxGeneration
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 309
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int MaxGeneration { get; }
+    content.vb: Public Shared ReadOnly Property MaxGeneration As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.GC.WaitForPendingFinalizers
+  id: WaitForPendingFinalizers
+  parent: System.GC
+  href: System.GC.yml
+  name: WaitForPendingFinalizers()
+  fullName: System.GC.WaitForPendingFinalizers()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 319
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WaitForPendingFinalizers()
+    content.vb: Public Shared Sub WaitForPendingFinalizers
+- uid: System.GC.SuppressFinalize(System.Object)
+  id: SuppressFinalize(System.Object)
+  parent: System.GC
+  href: System.GC.yml
+  name: SuppressFinalize(Object)
+  fullName: System.GC.SuppressFinalize(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 332
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SuppressFinalize(object obj)
+    content.vb: Public Shared Sub SuppressFinalize(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+- uid: System.GC.ReRegisterForFinalize(System.Object)
+  id: ReRegisterForFinalize(System.Object)
+  parent: System.GC
+  href: System.GC.yml
+  name: ReRegisterForFinalize(Object)
+  fullName: System.GC.ReRegisterForFinalize(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 349
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void ReRegisterForFinalize(object obj)
+    content.vb: Public Shared Sub ReRegisterForFinalize(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+- uid: System.GC.GetTotalMemory(System.Boolean)
+  id: GetTotalMemory(System.Boolean)
+  parent: System.GC
+  href: System.GC.yml
+  name: GetTotalMemory(Boolean)
+  fullName: System.GC.GetTotalMemory(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 361
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static long GetTotalMemory(bool forceFullCollection)
+    content.vb: Public Shared Function GetTotalMemory(forceFullCollection As Boolean) As Long
+    parameters:
+    - id: forceFullCollection
+      type: System.Boolean
+    return:
+      type: System.Int64
+      description: 
+- uid: System.GC.RegisterForFullGCNotification(System.Int32,System.Int32)
+  id: RegisterForFullGCNotification(System.Int32,System.Int32)
+  parent: System.GC
+  href: System.GC.yml
+  name: RegisterForFullGCNotification(Int32, Int32)
+  fullName: System.GC.RegisterForFullGCNotification(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 397
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void RegisterForFullGCNotification(int maxGenerationThreshold, int largeObjectHeapThreshold)
+    content.vb: Public Shared Sub RegisterForFullGCNotification(maxGenerationThreshold As Integer, largeObjectHeapThreshold As Integer)
+    parameters:
+    - id: maxGenerationThreshold
+      type: System.Int32
+    - id: largeObjectHeapThreshold
+      type: System.Int32
+- uid: System.GC.CancelFullGCNotification
+  id: CancelFullGCNotification
+  parent: System.GC
+  href: System.GC.yml
+  name: CancelFullGCNotification()
+  fullName: System.GC.CancelFullGCNotification()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 426
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void CancelFullGCNotification()
+    content.vb: Public Shared Sub CancelFullGCNotification
+- uid: System.GC.WaitForFullGCApproach
+  id: WaitForFullGCApproach
+  parent: System.GC
+  href: System.GC.yml
+  name: WaitForFullGCApproach()
+  fullName: System.GC.WaitForFullGCApproach()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 435
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static GCNotificationStatus WaitForFullGCApproach()
+    content.vb: Public Shared Function WaitForFullGCApproach As GCNotificationStatus
+    return:
+      type: System.GCNotificationStatus
+      description: 
+- uid: System.GC.WaitForFullGCApproach(System.Int32)
+  id: WaitForFullGCApproach(System.Int32)
+  parent: System.GC
+  href: System.GC.yml
+  name: WaitForFullGCApproach(Int32)
+  fullName: System.GC.WaitForFullGCApproach(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 441
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static GCNotificationStatus WaitForFullGCApproach(int millisecondsTimeout)
+    content.vb: Public Shared Function WaitForFullGCApproach(millisecondsTimeout As Integer) As GCNotificationStatus
+    parameters:
+    - id: millisecondsTimeout
+      type: System.Int32
+    return:
+      type: System.GCNotificationStatus
+      description: 
+- uid: System.GC.WaitForFullGCComplete
+  id: WaitForFullGCComplete
+  parent: System.GC
+  href: System.GC.yml
+  name: WaitForFullGCComplete()
+  fullName: System.GC.WaitForFullGCComplete()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 450
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static GCNotificationStatus WaitForFullGCComplete()
+    content.vb: Public Shared Function WaitForFullGCComplete As GCNotificationStatus
+    return:
+      type: System.GCNotificationStatus
+      description: 
+- uid: System.GC.WaitForFullGCComplete(System.Int32)
+  id: WaitForFullGCComplete(System.Int32)
+  parent: System.GC
+  href: System.GC.yml
+  name: WaitForFullGCComplete(Int32)
+  fullName: System.GC.WaitForFullGCComplete(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 456
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static GCNotificationStatus WaitForFullGCComplete(int millisecondsTimeout)
+    content.vb: Public Shared Function WaitForFullGCComplete(millisecondsTimeout As Integer) As GCNotificationStatus
+    parameters:
+    - id: millisecondsTimeout
+      type: System.Int32
+    return:
+      type: System.GCNotificationStatus
+      description: 
+- uid: System.GC.TryStartNoGCRegion(System.Int64)
+  id: TryStartNoGCRegion(System.Int64)
+  parent: System.GC
+  href: System.GC.yml
+  name: TryStartNoGCRegion(Int64)
+  fullName: System.GC.TryStartNoGCRegion(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 494
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryStartNoGCRegion(long totalSize)
+    content.vb: Public Shared Function TryStartNoGCRegion(totalSize As Long) As Boolean
+    parameters:
+    - id: totalSize
+      type: System.Int64
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.GC.TryStartNoGCRegion(System.Int64,System.Int64)
+  id: TryStartNoGCRegion(System.Int64,System.Int64)
+  parent: System.GC
+  href: System.GC.yml
+  name: TryStartNoGCRegion(Int64, Int64)
+  fullName: System.GC.TryStartNoGCRegion(System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 500
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryStartNoGCRegion(long totalSize, long lohSize)
+    content.vb: Public Shared Function TryStartNoGCRegion(totalSize As Long, lohSize As Long) As Boolean
+    parameters:
+    - id: totalSize
+      type: System.Int64
+    - id: lohSize
+      type: System.Int64
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.GC.TryStartNoGCRegion(System.Int64,System.Boolean)
+  id: TryStartNoGCRegion(System.Int64,System.Boolean)
+  parent: System.GC
+  href: System.GC.yml
+  name: TryStartNoGCRegion(Int64, Boolean)
+  fullName: System.GC.TryStartNoGCRegion(System.Int64, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 506
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryStartNoGCRegion(long totalSize, bool disallowFullBlockingGC)
+    content.vb: Public Shared Function TryStartNoGCRegion(totalSize As Long, disallowFullBlockingGC As Boolean) As Boolean
+    parameters:
+    - id: totalSize
+      type: System.Int64
+    - id: disallowFullBlockingGC
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.GC.TryStartNoGCRegion(System.Int64,System.Int64,System.Boolean)
+  id: TryStartNoGCRegion(System.Int64,System.Int64,System.Boolean)
+  parent: System.GC
+  href: System.GC.yml
+  name: TryStartNoGCRegion(Int64, Int64, Boolean)
+  fullName: System.GC.TryStartNoGCRegion(System.Int64, System.Int64, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 512
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TryStartNoGCRegion(long totalSize, long lohSize, bool disallowFullBlockingGC)
+    content.vb: Public Shared Function TryStartNoGCRegion(totalSize As Long, lohSize As Long, disallowFullBlockingGC As Boolean) As Boolean
+    parameters:
+    - id: totalSize
+      type: System.Int64
+    - id: lohSize
+      type: System.Int64
+    - id: disallowFullBlockingGC
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.GC.EndNoGCRegion
+  id: EndNoGCRegion
+  parent: System.GC
+  href: System.GC.yml
+  name: EndNoGCRegion()
+  fullName: System.GC.EndNoGCRegion()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/GC.cs
+    startLine: 532
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void EndNoGCRegion()
+    content.vb: Public Shared Sub
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.GCCollectionMode
+  parent: System
+  isExternal: false
+  href: System.GCCollectionMode.yml
+  name: GCCollectionMode
+  fullName: System.GCCollectionMode
+  type: Enum
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.WeakReference
+  parent: System
+  isExternal: false
+  href: System.WeakReference.yml
+  name: WeakReference
+  fullName: System.WeakReference
+  type: Class
+- uid: System.GCNotificationStatus
+  parent: System
+  isExternal: false
+  href: System.GCNotificationStatus.yml
+  name: GCNotificationStatus
+  fullName: System.GCNotificationStatus
+  type: Enum

@@ -1,0 +1,45 @@
+items:
+- uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback
+  id: ConditionalWeakTable`2.CreateValueCallback
+  parent: System.Runtime.CompilerServices
+  children: []
+  href: System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback.yml
+  name: ConditionalWeakTable<TKey, TValue>.CreateValueCallback
+  name.vb: ConditionalWeakTable(Of TKey, TValue).CreateValueCallback
+  fullName: System.Runtime.CompilerServices.ConditionalWeakTable<TKey, TValue>.CreateValueCallback
+  fullName.vb: System.Runtime.CompilerServices.ConditionalWeakTable(Of TKey, TValue).CreateValueCallback
+  type: Delegate
+  source:
+    remote:
+      path: src/mscorlib/src/System/Runtime/CompilerServices/ConditionalWeakTable.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/CompilerServices/ConditionalWeakTable.cs
+    startLine: 277
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public delegate TValue CreateValueCallback(TKey key);
+    content.vb: Public Delegate Function CreateValueCallback(key As TKey) As TValue
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: '{TValue}'
+      description: 
+references:
+- uid: System.Runtime.CompilerServices
+  isExternal: false
+  name: System.Runtime.CompilerServices
+  fullName: System.Runtime.CompilerServices
+  type: Namespace
+- uid: '{TKey}'
+  isExternal: false
+  name: TKey
+  fullName: TKey
+- uid: '{TValue}'
+  isExternal: false
+  name: TValue
+  fullName: TValue

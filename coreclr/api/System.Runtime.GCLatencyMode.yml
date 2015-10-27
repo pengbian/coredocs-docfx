@@ -1,0 +1,114 @@
+items:
+- uid: System.Runtime.GCLatencyMode
+  id: GCLatencyMode
+  parent: System.Runtime
+  children:
+  - System.Runtime.GCLatencyMode.Batch
+  - System.Runtime.GCLatencyMode.Interactive
+  - System.Runtime.GCLatencyMode.LowLatency
+  - System.Runtime.GCLatencyMode.NoGCRegion
+  - System.Runtime.GCLatencyMode.SustainedLowLatency
+  href: System.Runtime.GCLatencyMode.yml
+  name: GCLatencyMode
+  fullName: System.Runtime.GCLatencyMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/GcSettings.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: public enum GCLatencyMode
+    content.vb: Public Enum GCLatencyMode
+- uid: System.Runtime.GCLatencyMode.Batch
+  id: Batch
+  parent: System.Runtime.GCLatencyMode
+  href: System.Runtime.GCLatencyMode.yml
+  name: Batch
+  fullName: System.Runtime.GCLatencyMode.Batch
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: Batch = 0
+- uid: System.Runtime.GCLatencyMode.Interactive
+  id: Interactive
+  parent: System.Runtime.GCLatencyMode
+  href: System.Runtime.GCLatencyMode.yml
+  name: Interactive
+  fullName: System.Runtime.GCLatencyMode.Interactive
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: Interactive = 1
+- uid: System.Runtime.GCLatencyMode.LowLatency
+  id: LowLatency
+  parent: System.Runtime.GCLatencyMode
+  href: System.Runtime.GCLatencyMode.yml
+  name: LowLatency
+  fullName: System.Runtime.GCLatencyMode.LowLatency
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: LowLatency = 2
+- uid: System.Runtime.GCLatencyMode.SustainedLowLatency
+  id: SustainedLowLatency
+  parent: System.Runtime.GCLatencyMode
+  href: System.Runtime.GCLatencyMode.yml
+  name: SustainedLowLatency
+  fullName: System.Runtime.GCLatencyMode.SustainedLowLatency
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: SustainedLowLatency = 3
+- uid: System.Runtime.GCLatencyMode.NoGCRegion
+  id: NoGCRegion
+  parent: System.Runtime.GCLatencyMode
+  href: System.Runtime.GCLatencyMode.yml
+  name: NoGCRegion
+  fullName: System.Runtime.GCLatencyMode.NoGCRegion
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 28
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: NoGCRegion = 4
+references:
+- uid: System.Runtime
+  isExternal: false
+  name: System.Runtime
+  fullName: System.Runtime
+  type: Namespace

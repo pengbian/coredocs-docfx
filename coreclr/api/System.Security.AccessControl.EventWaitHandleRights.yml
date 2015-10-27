@@ -1,0 +1,29 @@
+items:
+- uid: System.Security.AccessControl.EventWaitHandleRights
+  id: EventWaitHandleRights
+  parent: System.Security.AccessControl
+  children: []
+  href: System.Security.AccessControl.EventWaitHandleRights.yml
+  name: EventWaitHandleRights
+  fullName: System.Security.AccessControl.EventWaitHandleRights
+  type: Enum
+  source:
+    remote:
+      path: src/mscorlib/src/System/Threading/EventWaitHandle.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/EventWaitHandle.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: public enum EventWaitHandleRights
+    content.vb: Public Enum EventWaitHandleRights
+references:
+- uid: System.Security.AccessControl
+  isExternal: false
+  name: System.Security.AccessControl
+  fullName: System.Security.AccessControl
+  type: Namespace

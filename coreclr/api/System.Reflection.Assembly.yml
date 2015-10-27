@@ -1,0 +1,2574 @@
+items:
+- uid: System.Reflection.Assembly
+  id: Assembly
+  parent: System.Reflection
+  children:
+  - System.Reflection.Assembly.#ctor
+  - System.Reflection.Assembly.CodeBase
+  - System.Reflection.Assembly.CreateInstance(System.String)
+  - System.Reflection.Assembly.CreateInstance(System.String,System.Boolean)
+  - System.Reflection.Assembly.CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  - System.Reflection.Assembly.CreateQualifiedName(System.String,System.String)
+  - System.Reflection.Assembly.CustomAttributes
+  - System.Reflection.Assembly.DefinedTypes
+  - System.Reflection.Assembly.EntryPoint
+  - System.Reflection.Assembly.Equals(System.Object)
+  - System.Reflection.Assembly.EscapedCodeBase
+  - System.Reflection.Assembly.ExportedTypes
+  - System.Reflection.Assembly.FullName
+  - System.Reflection.Assembly.GetAssembly(System.Type)
+  - System.Reflection.Assembly.GetCallingAssembly
+  - System.Reflection.Assembly.GetCustomAttributes(System.Boolean)
+  - System.Reflection.Assembly.GetCustomAttributes(System.Type,System.Boolean)
+  - System.Reflection.Assembly.GetCustomAttributesData
+  - System.Reflection.Assembly.GetEntryAssembly
+  - System.Reflection.Assembly.GetExecutingAssembly
+  - System.Reflection.Assembly.GetExportedTypes
+  - System.Reflection.Assembly.GetFile(System.String)
+  - System.Reflection.Assembly.GetFiles
+  - System.Reflection.Assembly.GetFiles(System.Boolean)
+  - System.Reflection.Assembly.GetHashCode
+  - System.Reflection.Assembly.GetLoadedModules
+  - System.Reflection.Assembly.GetLoadedModules(System.Boolean)
+  - System.Reflection.Assembly.GetManifestResourceInfo(System.String)
+  - System.Reflection.Assembly.GetManifestResourceNames
+  - System.Reflection.Assembly.GetManifestResourceStream(System.String)
+  - System.Reflection.Assembly.GetManifestResourceStream(System.Type,System.String)
+  - System.Reflection.Assembly.GetModule(System.String)
+  - System.Reflection.Assembly.GetModules
+  - System.Reflection.Assembly.GetModules(System.Boolean)
+  - System.Reflection.Assembly.GetName
+  - System.Reflection.Assembly.GetName(System.Boolean)
+  - System.Reflection.Assembly.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Reflection.Assembly.GetReferencedAssemblies
+  - System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)
+  - System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
+  - System.Reflection.Assembly.GetType(System.String)
+  - System.Reflection.Assembly.GetType(System.String,System.Boolean)
+  - System.Reflection.Assembly.GetType(System.String,System.Boolean,System.Boolean)
+  - System.Reflection.Assembly.GetTypes
+  - System.Reflection.Assembly.GlobalAssemblyCache
+  - System.Reflection.Assembly.HostContext
+  - System.Reflection.Assembly.ImageRuntimeVersion
+  - System.Reflection.Assembly.IsDefined(System.Type,System.Boolean)
+  - System.Reflection.Assembly.IsDynamic
+  - System.Reflection.Assembly.Load(System.Byte[])
+  - System.Reflection.Assembly.Load(System.Byte[],System.Byte[])
+  - System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)
+  - System.Reflection.Assembly.Load(System.IO.Stream)
+  - System.Reflection.Assembly.Load(System.IO.Stream,System.IO.Stream)
+  - System.Reflection.Assembly.Load(System.Reflection.AssemblyName)
+  - System.Reflection.Assembly.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
+  - System.Reflection.Assembly.Load(System.String)
+  - System.Reflection.Assembly.Load(System.String,System.Security.Policy.Evidence)
+  - System.Reflection.Assembly.LoadFile(System.String)
+  - System.Reflection.Assembly.LoadFrom(System.String)
+  - System.Reflection.Assembly.LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  - System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence)
+  - System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  - System.Reflection.Assembly.Location
+  - System.Reflection.Assembly.ManifestModule
+  - System.Reflection.Assembly.ModuleResolve
+  - System.Reflection.Assembly.Modules
+  - System.Reflection.Assembly.ReflectionOnly
+  - System.Reflection.Assembly.ReflectionOnlyLoad(System.Byte[])
+  - System.Reflection.Assembly.ReflectionOnlyLoad(System.String)
+  - System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)
+  - System.Reflection.Assembly.ToString
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/Assembly.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 48
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: 'public abstract class Assembly : _Assembly, IEvidenceFactory, ICustomAttributeProvider, ISerializable'
+    content.vb: Public MustInherit Class Assembly Implements _Assembly, IEvidenceFactory, ICustomAttributeProvider, ISerializable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.InteropServices._Assembly
+  - System.Security.IEvidenceFactory
+  - System.Reflection.ICustomAttributeProvider
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Reflection.Assembly.#ctor
+  id: '#ctor'
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Assembly()
+  fullName: System.Reflection.Assembly.Assembly()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 58
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: protected Assembly()
+    content.vb: Protected Sub New
+- uid: System.Reflection.Assembly.CreateQualifiedName(System.String,System.String)
+  id: CreateQualifiedName(System.String,System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: CreateQualifiedName(String, String)
+  fullName: System.Reflection.Assembly.CreateQualifiedName(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 63
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static string CreateQualifiedName(string assemblyName, string typeName)
+    content.vb: Public Shared Function CreateQualifiedName(assemblyName As String, typeName As String) As String
+    parameters:
+    - id: assemblyName
+      type: System.String
+    - id: typeName
+      type: System.String
+    return:
+      type: System.String
+      description: 
+- uid: System.Reflection.Assembly.GetAssembly(System.Type)
+  id: GetAssembly(System.Type)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetAssembly(Type)
+  fullName: System.Reflection.Assembly.GetAssembly(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly GetAssembly(Type type)
+    content.vb: Public Shared Function GetAssembly(type As Type) As Assembly
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Equals(Object)
+  fullName: System.Reflection.Assembly.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 101
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public override bool Equals(object o)
+    content.vb: Public Overrides Function Equals(o As Object) As Boolean
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Reflection.Assembly.GetHashCode
+  id: GetHashCode
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetHashCode()
+  fullName: System.Reflection.Assembly.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 106
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.Object.GetHashCode
+- uid: System.Reflection.Assembly.LoadFrom(System.String)
+  id: LoadFrom(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: LoadFrom(String)
+  fullName: System.Reflection.Assembly.LoadFrom(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 113
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly LoadFrom(string assemblyFile)
+    content.vb: Public Shared Function LoadFrom(assemblyFile As String) As Assembly
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)
+  id: ReflectionOnlyLoadFrom(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ReflectionOnlyLoadFrom(String)
+  fullName: System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 155
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly ReflectionOnlyLoadFrom(string assemblyFile)
+    content.vb: Public Shared Function ReflectionOnlyLoadFrom(assemblyFile As String) As Assembly
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence)
+  id: LoadFrom(System.String,System.Security.Policy.Evidence)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: LoadFrom(String, Evidence)
+  fullName: System.Reflection.Assembly.LoadFrom(System.String, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 174
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly LoadFrom(string assemblyFile, Evidence securityEvidence)
+    content.vb: Public Shared Function LoadFrom(assemblyFile As String, securityEvidence As Evidence) As Assembly
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: securityEvidence
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  id: LoadFrom(System.String,System.Security.Policy.Evidence,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: LoadFrom(String, Evidence, Byte[], AssemblyHashAlgorithm)
+  name.vb: LoadFrom(String, Evidence, Byte(), AssemblyHashAlgorithm)
+  fullName: System.Reflection.Assembly.LoadFrom(System.String, System.Security.Policy.Evidence, System.Byte[], System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  fullName.vb: System.Reflection.Assembly.LoadFrom(System.String, System.Security.Policy.Evidence, System.Byte(), System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 195
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly LoadFrom(string assemblyFile, Evidence securityEvidence, byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm)
+    content.vb: Public Shared Function LoadFrom(assemblyFile As String, securityEvidence As Evidence, hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As Assembly
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: securityEvidence
+      type: System.Security.Policy.Evidence
+    - id: hashValue
+      type: System.Byte[]
+    - id: hashAlgorithm
+      type: System.Configuration.Assemblies.AssemblyHashAlgorithm
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  id: LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: LoadFrom(String, Byte[], AssemblyHashAlgorithm)
+  name.vb: LoadFrom(String, Byte(), AssemblyHashAlgorithm)
+  fullName: System.Reflection.Assembly.LoadFrom(System.String, System.Byte[], System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  fullName.vb: System.Reflection.Assembly.LoadFrom(System.String, System.Byte(), System.Configuration.Assemblies.AssemblyHashAlgorithm)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 217
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly LoadFrom(string assemblyFile, byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm)
+    content.vb: Public Shared Function LoadFrom(assemblyFile As String, hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As Assembly
+    parameters:
+    - id: assemblyFile
+      type: System.String
+    - id: hashValue
+      type: System.Byte[]
+    - id: hashAlgorithm
+      type: System.Configuration.Assemblies.AssemblyHashAlgorithm
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.String)
+  id: Load(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(String)
+  fullName: System.Reflection.Assembly.Load(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 259
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(string assemblyString)
+    content.vb: Public Shared Function Load(assemblyString As String) As Assembly
+    parameters:
+    - id: assemblyString
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.ReflectionOnlyLoad(System.String)
+  id: ReflectionOnlyLoad(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ReflectionOnlyLoad(String)
+  fullName: System.Reflection.Assembly.ReflectionOnlyLoad(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 304
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly ReflectionOnlyLoad(string assemblyString)
+    content.vb: Public Shared Function ReflectionOnlyLoad(assemblyString As String) As Assembly
+    parameters:
+    - id: assemblyString
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.String,System.Security.Policy.Evidence)
+  id: Load(System.String,System.Security.Policy.Evidence)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(String, Evidence)
+  fullName: System.Reflection.Assembly.Load(System.String, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 314
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(string assemblyString, Evidence assemblySecurity)
+    content.vb: Public Shared Function Load(assemblyString As String, assemblySecurity As Evidence) As Assembly
+    parameters:
+    - id: assemblyString
+      type: System.String
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.Reflection.AssemblyName)
+  id: Load(System.Reflection.AssemblyName)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(AssemblyName)
+  fullName: System.Reflection.Assembly.Load(System.Reflection.AssemblyName)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 329
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(AssemblyName assemblyRef)
+    content.vb: Public Shared Function Load(assemblyRef As AssemblyName) As Assembly
+    parameters:
+    - id: assemblyRef
+      type: System.Reflection.AssemblyName
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
+  id: Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(AssemblyName, Evidence)
+  fullName: System.Reflection.Assembly.Load(System.Reflection.AssemblyName, System.Security.Policy.Evidence)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 350
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(AssemblyName assemblyRef, Evidence assemblySecurity)
+    content.vb: Public Shared Function Load(assemblyRef As AssemblyName, assemblySecurity As Evidence) As Assembly
+    parameters:
+    - id: assemblyRef
+      type: System.Reflection.AssemblyName
+    - id: assemblySecurity
+      type: System.Security.Policy.Evidence
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.Byte[])
+  id: Load(System.Byte[])
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(Byte[])
+  name.vb: Load(Byte())
+  fullName: System.Reflection.Assembly.Load(System.Byte[])
+  fullName.vb: System.Reflection.Assembly.Load(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 386
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(byte[] rawAssembly)
+    content.vb: Public Shared Function Load(rawAssembly As Byte()) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.ReflectionOnlyLoad(System.Byte[])
+  id: ReflectionOnlyLoad(System.Byte[])
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ReflectionOnlyLoad(Byte[])
+  name.vb: ReflectionOnlyLoad(Byte())
+  fullName: System.Reflection.Assembly.ReflectionOnlyLoad(System.Byte[])
+  fullName.vb: System.Reflection.Assembly.ReflectionOnlyLoad(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 411
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly ReflectionOnlyLoad(byte[] rawAssembly)
+    content.vb: Public Shared Function ReflectionOnlyLoad(rawAssembly As Byte()) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[])
+  id: Load(System.Byte[],System.Byte[])
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(Byte[], Byte[])
+  name.vb: Load(Byte(), Byte())
+  fullName: System.Reflection.Assembly.Load(System.Byte[], System.Byte[])
+  fullName.vb: System.Reflection.Assembly.Load(System.Byte(), System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 434
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(byte[] rawAssembly, byte[] rawSymbolStore)
+    content.vb: Public Shared Function Load(rawAssembly As Byte(), rawSymbolStore As Byte()) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    - id: rawSymbolStore
+      type: System.Byte[]
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)
+  id: Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(Byte[], Byte[], SecurityContextSource)
+  name.vb: Load(Byte(), Byte(), SecurityContextSource)
+  fullName: System.Reflection.Assembly.Load(System.Byte[], System.Byte[], System.Security.SecurityContextSource)
+  fullName.vb: System.Reflection.Assembly.Load(System.Byte(), System.Byte(), System.Security.SecurityContextSource)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 460
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(byte[] rawAssembly, byte[] rawSymbolStore, SecurityContextSource securityContextSource)
+    content.vb: Public Shared Function Load(rawAssembly As Byte(), rawSymbolStore As Byte(), securityContextSource As SecurityContextSource) As Assembly
+    parameters:
+    - id: rawAssembly
+      type: System.Byte[]
+    - id: rawSymbolStore
+      type: System.Byte[]
+    - id: securityContextSource
+      type: System.Security.SecurityContextSource
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.LoadFile(System.String)
+  id: LoadFile(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: LoadFile(String)
+  fullName: System.Reflection.Assembly.LoadFile(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 524
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly LoadFile(string path)
+    content.vb: Public Shared Function LoadFile(path As String) As Assembly
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.IO.Stream,System.IO.Stream)
+  id: Load(System.IO.Stream,System.IO.Stream)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(Stream, Stream)
+  fullName: System.Reflection.Assembly.Load(System.IO.Stream, System.IO.Stream)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 559
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(Stream assemblyStream, Stream pdbStream)
+    content.vb: Public Shared Function Load(assemblyStream As Stream, pdbStream As Stream) As Assembly
+    parameters:
+    - id: assemblyStream
+      type: System.IO.Stream
+    - id: pdbStream
+      type: System.IO.Stream
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.Load(System.IO.Stream)
+  id: Load(System.IO.Stream)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Load(Stream)
+  fullName: System.Reflection.Assembly.Load(System.IO.Stream)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 570
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly Load(Stream assemblyStream)
+    content.vb: Public Shared Function Load(assemblyStream As Stream) As Assembly
+    parameters:
+    - id: assemblyStream
+      type: System.IO.Stream
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.GetExecutingAssembly
+  id: GetExecutingAssembly
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetExecutingAssembly()
+  fullName: System.Reflection.Assembly.GetExecutingAssembly()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 585
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly GetExecutingAssembly()
+    content.vb: Public Shared Function GetExecutingAssembly As Assembly
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.GetCallingAssembly
+  id: GetCallingAssembly
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetCallingAssembly()
+  fullName: System.Reflection.Assembly.GetCallingAssembly()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 593
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly GetCallingAssembly()
+    content.vb: Public Shared Function GetCallingAssembly As Assembly
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.GetEntryAssembly
+  id: GetEntryAssembly
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetEntryAssembly()
+  fullName: System.Reflection.Assembly.GetEntryAssembly()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 604
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public static Assembly GetEntryAssembly()
+    content.vb: Public Shared Function GetEntryAssembly As Assembly
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.ModuleResolve
+  id: ModuleResolve
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ModuleResolve
+  fullName: System.Reflection.Assembly.ModuleResolve
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 615
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual event ModuleResolveEventHandler ModuleResolve
+    content.vb: Public Overridable Event ModuleResolve As ModuleResolveEventHandler
+- uid: System.Reflection.Assembly.CodeBase
+  id: CodeBase
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: CodeBase
+  fullName: System.Reflection.Assembly.CodeBase
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 629
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual string CodeBase { get; }
+    content.vb: Public Overridable ReadOnly Property CodeBase As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.Reflection.Assembly.EscapedCodeBase
+  id: EscapedCodeBase
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: EscapedCodeBase
+  fullName: System.Reflection.Assembly.EscapedCodeBase
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 640
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual string EscapedCodeBase { get; }
+    content.vb: Public Overridable ReadOnly Property EscapedCodeBase As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.Reflection.Assembly.GetName
+  id: GetName
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetName()
+  fullName: System.Reflection.Assembly.GetName()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 650
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual AssemblyName GetName()
+    content.vb: Public Overridable Function GetName As AssemblyName
+    return:
+      type: System.Reflection.AssemblyName
+      description: 
+- uid: System.Reflection.Assembly.GetName(System.Boolean)
+  id: GetName(System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetName(Boolean)
+  fullName: System.Reflection.Assembly.GetName(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 658
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual AssemblyName GetName(bool copiedName)
+    content.vb: Public Overridable Function GetName(copiedName As Boolean) As AssemblyName
+    parameters:
+    - id: copiedName
+      type: System.Boolean
+    return:
+      type: System.Reflection.AssemblyName
+      description: 
+- uid: System.Reflection.Assembly.FullName
+  id: FullName
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: FullName
+  fullName: System.Reflection.Assembly.FullName
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 665
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual string FullName { get; }
+    content.vb: Public Overridable ReadOnly Property FullName As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.Reflection.Assembly.EntryPoint
+  id: EntryPoint
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: EntryPoint
+  fullName: System.Reflection.Assembly.EntryPoint
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 673
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual MethodInfo EntryPoint { get; }
+    content.vb: Public Overridable ReadOnly Property EntryPoint As MethodInfo
+    parameters: []
+    return:
+      type: System.Reflection.MethodInfo
+      description: 
+- uid: System.Reflection.Assembly.GetType(System.String)
+  id: GetType(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetType(String)
+  fullName: System.Reflection.Assembly.GetType(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 688
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Type GetType(string name)
+    content.vb: Public Overridable Function GetType(name As String) As Type
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Type
+      description: 
+- uid: System.Reflection.Assembly.GetType(System.String,System.Boolean)
+  id: GetType(System.String,System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetType(String, Boolean)
+  fullName: System.Reflection.Assembly.GetType(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 693
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Type GetType(string name, bool throwOnError)
+    content.vb: Public Overridable Function GetType(name As String, throwOnError As Boolean) As Type
+    parameters:
+    - id: name
+      type: System.String
+    - id: throwOnError
+      type: System.Boolean
+    return:
+      type: System.Type
+      description: 
+- uid: System.Reflection.Assembly.GetType(System.String,System.Boolean,System.Boolean)
+  id: GetType(System.String,System.Boolean,System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetType(String, Boolean, Boolean)
+  fullName: System.Reflection.Assembly.GetType(System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 698
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Type GetType(string name, bool throwOnError, bool ignoreCase)
+    content.vb: Public Overridable Function GetType(name As String, throwOnError As Boolean, ignoreCase As Boolean) As Type
+    parameters:
+    - id: name
+      type: System.String
+    - id: throwOnError
+      type: System.Boolean
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.Type
+      description: 
+- uid: System.Reflection.Assembly.ExportedTypes
+  id: ExportedTypes
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ExportedTypes
+  fullName: System.Reflection.Assembly.ExportedTypes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 703
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual IEnumerable<Type> ExportedTypes { get; }
+    content.vb: Public Overridable ReadOnly Property ExportedTypes As IEnumerable(Of Type)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Type}
+      description: 
+- uid: System.Reflection.Assembly.GetExportedTypes
+  id: GetExportedTypes
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetExportedTypes()
+  fullName: System.Reflection.Assembly.GetExportedTypes()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 711
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Type[] GetExportedTypes()
+    content.vb: Public Overridable Function GetExportedTypes As Type()
+    return:
+      type: System.Type[]
+      description: 
+- uid: System.Reflection.Assembly.DefinedTypes
+  id: DefinedTypes
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: DefinedTypes
+  fullName: System.Reflection.Assembly.DefinedTypes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 716
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual IEnumerable<TypeInfo> DefinedTypes { get; }
+    content.vb: Public Overridable ReadOnly Property DefinedTypes As IEnumerable(Of TypeInfo)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
+      description: 
+- uid: System.Reflection.Assembly.GetTypes
+  id: GetTypes
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetTypes()
+  fullName: System.Reflection.Assembly.GetTypes()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 738
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Type[] GetTypes()
+    content.vb: Public Overridable Function GetTypes As Type()
+    return:
+      type: System.Type[]
+      description: 
+- uid: System.Reflection.Assembly.GetManifestResourceStream(System.Type,System.String)
+  id: GetManifestResourceStream(System.Type,System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetManifestResourceStream(Type, String)
+  fullName: System.Reflection.Assembly.GetManifestResourceStream(System.Type, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 765
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Stream GetManifestResourceStream(Type type, string name)
+    content.vb: Public Overridable Function GetManifestResourceStream(type As Type, name As String) As Stream
+    parameters:
+    - id: type
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Reflection.Assembly.GetManifestResourceStream(System.String)
+  id: GetManifestResourceStream(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetManifestResourceStream(String)
+  fullName: System.Reflection.Assembly.GetManifestResourceStream(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 770
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Stream GetManifestResourceStream(string name)
+    content.vb: Public Overridable Function GetManifestResourceStream(name As String) As Stream
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)
+  id: GetSatelliteAssembly(System.Globalization.CultureInfo)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetSatelliteAssembly(CultureInfo)
+  fullName: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 775
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Assembly GetSatelliteAssembly(CultureInfo culture)
+    content.vb: Public Overridable Function GetSatelliteAssembly(culture As CultureInfo) As Assembly
+    parameters:
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
+  id: GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetSatelliteAssembly(CultureInfo, Version)
+  fullName: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo, System.Version)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 781
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Assembly GetSatelliteAssembly(CultureInfo culture, Version version)
+    content.vb: Public Overridable Function GetSatelliteAssembly(culture As CultureInfo, version As Version) As Assembly
+    parameters:
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: version
+      type: System.Version
+    return:
+      type: System.Reflection.Assembly
+      description: 
+- uid: System.Reflection.Assembly.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Reflection.Assembly.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 825
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+    content.vb: Public Overridable Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+- uid: System.Reflection.Assembly.ManifestModule
+  id: ManifestModule
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ManifestModule
+  fullName: System.Reflection.Assembly.ManifestModule
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 831
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Module ManifestModule { get; }
+    content.vb: Public Overridable ReadOnly Property ManifestModule As
+    parameters: []
+    return:
+      type: System.Reflection.Module
+      description: 
+- uid: System.Reflection.Assembly.CustomAttributes
+  id: CustomAttributes
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: CustomAttributes
+  fullName: System.Reflection.Assembly.CustomAttributes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 847
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual IEnumerable<CustomAttributeData> CustomAttributes { get; }
+    content.vb: Public Overridable ReadOnly Property CustomAttributes As IEnumerable(Of CustomAttributeData)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
+      description: 
+- uid: System.Reflection.Assembly.GetCustomAttributes(System.Boolean)
+  id: GetCustomAttributes(System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetCustomAttributes(Boolean)
+  fullName: System.Reflection.Assembly.GetCustomAttributes(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 854
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual object[] GetCustomAttributes(bool inherit)
+    content.vb: Public Overridable Function GetCustomAttributes(inherit As Boolean) As Object()
+    parameters:
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Object[]
+      description: 
+- uid: System.Reflection.Assembly.GetCustomAttributes(System.Type,System.Boolean)
+  id: GetCustomAttributes(System.Type,System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetCustomAttributes(Type, Boolean)
+  fullName: System.Reflection.Assembly.GetCustomAttributes(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 860
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual object[] GetCustomAttributes(Type attributeType, bool inherit)
+    content.vb: Public Overridable Function GetCustomAttributes(attributeType As Type, inherit As Boolean) As Object()
+    parameters:
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Object[]
+      description: 
+- uid: System.Reflection.Assembly.IsDefined(System.Type,System.Boolean)
+  id: IsDefined(System.Type,System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: IsDefined(Type, Boolean)
+  fullName: System.Reflection.Assembly.IsDefined(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 866
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual bool IsDefined(Type attributeType, bool inherit)
+    content.vb: Public Overridable Function IsDefined(attributeType As Type, inherit As Boolean) As Boolean
+    parameters:
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Reflection.Assembly.GetCustomAttributesData
+  id: GetCustomAttributesData
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetCustomAttributesData()
+  fullName: System.Reflection.Assembly.GetCustomAttributesData()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 882
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual IList<CustomAttributeData> GetCustomAttributesData()
+    content.vb: Public Overridable Function GetCustomAttributesData As IList(Of CustomAttributeData)
+    return:
+      type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
+      description: 
+- uid: System.Reflection.Assembly.ReflectionOnly
+  id: ReflectionOnly
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ReflectionOnly
+  fullName: System.Reflection.Assembly.ReflectionOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 889
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual bool ReflectionOnly { get; }
+    content.vb: Public Overridable ReadOnly Property ReflectionOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Reflection.Assembly.CreateInstance(System.String)
+  id: CreateInstance(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: CreateInstance(String)
+  fullName: System.Reflection.Assembly.CreateInstance(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 918
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public object CreateInstance(string typeName)
+    content.vb: Public Function CreateInstance(typeName As String) As Object
+    parameters:
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Object
+      description: 
+- uid: System.Reflection.Assembly.CreateInstance(System.String,System.Boolean)
+  id: CreateInstance(System.String,System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: CreateInstance(String, Boolean)
+  fullName: System.Reflection.Assembly.CreateInstance(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 929
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public object CreateInstance(string typeName, bool ignoreCase)
+    content.vb: Public Function CreateInstance(typeName As String, ignoreCase As Boolean) As Object
+    parameters:
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.Object
+      description: 
+- uid: System.Reflection.Assembly.CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  id: CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: CreateInstance(String, Boolean, BindingFlags, Binder, Object[], CultureInfo, Object[])
+  name.vb: CreateInstance(String, Boolean, BindingFlags, Binder, Object(), CultureInfo, Object())
+  fullName: System.Reflection.Assembly.CreateInstance(System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, System.Object[])
+  fullName.vb: System.Reflection.Assembly.CreateInstance(System.String, System.Boolean, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object(), System.Globalization.CultureInfo, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 941
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual object CreateInstance(string typeName, bool ignoreCase, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes)
+    content.vb: Public Overridable Function CreateInstance(typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As Object
+    parameters:
+    - id: typeName
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: binder
+      type: System.Reflection.Binder
+    - id: args
+      type: System.Object[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: activationAttributes
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.Reflection.Assembly.Modules
+  id: Modules
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Modules
+  fullName: System.Reflection.Assembly.Modules
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 959
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual IEnumerable<Module> Modules { get; }
+    content.vb: Public Overridable ReadOnly Property Modules As IEnumerable(Of Module)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Module}
+      description: 
+- uid: System.Reflection.Assembly.GetLoadedModules
+  id: GetLoadedModules
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetLoadedModules()
+  fullName: System.Reflection.Assembly.GetLoadedModules()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 967
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public Module[] GetLoadedModules()
+    content.vb: Public Function GetLoadedModules As
+    return:
+      type: System.Reflection.Module[]
+      description: 
+- uid: System.Reflection.Assembly.GetLoadedModules(System.Boolean)
+  id: GetLoadedModules(System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetLoadedModules(Boolean)
+  fullName: System.Reflection.Assembly.GetLoadedModules(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 972
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Module[] GetLoadedModules(bool getResourceModules)
+    content.vb: Public Overridable Function GetLoadedModules(getResourceModules As Boolean) As
+    parameters:
+    - id: getResourceModules
+      type: System.Boolean
+    return:
+      type: System.Reflection.Module[]
+      description: 
+- uid: System.Reflection.Assembly.GetModules
+  id: GetModules
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetModules()
+  fullName: System.Reflection.Assembly.GetModules()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 977
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public Module[] GetModules()
+    content.vb: Public Function GetModules As
+    return:
+      type: System.Reflection.Module[]
+      description: 
+- uid: System.Reflection.Assembly.GetModules(System.Boolean)
+  id: GetModules(System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetModules(Boolean)
+  fullName: System.Reflection.Assembly.GetModules(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 982
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Module[] GetModules(bool getResourceModules)
+    content.vb: Public Overridable Function GetModules(getResourceModules As Boolean) As
+    parameters:
+    - id: getResourceModules
+      type: System.Boolean
+    return:
+      type: System.Reflection.Module[]
+      description: 
+- uid: System.Reflection.Assembly.GetModule(System.String)
+  id: GetModule(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetModule(String)
+  fullName: System.Reflection.Assembly.GetModule(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 987
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual Module GetModule(string name)
+    content.vb: Public Overridable Function GetModule(name As String) As
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Reflection.Module
+      description: 
+- uid: System.Reflection.Assembly.GetFile(System.String)
+  id: GetFile(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetFile(String)
+  fullName: System.Reflection.Assembly.GetFile(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 995
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual FileStream GetFile(string name)
+    content.vb: Public Overridable Function GetFile(name As String) As FileStream
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.IO.FileStream
+      description: 
+- uid: System.Reflection.Assembly.GetFiles
+  id: GetFiles
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetFiles()
+  fullName: System.Reflection.Assembly.GetFiles()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1002
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual FileStream[] GetFiles()
+    content.vb: Public Overridable Function GetFiles As FileStream()
+    return:
+      type: System.IO.FileStream[]
+      description: 
+- uid: System.Reflection.Assembly.GetFiles(System.Boolean)
+  id: GetFiles(System.Boolean)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetFiles(Boolean)
+  fullName: System.Reflection.Assembly.GetFiles(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1008
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual FileStream[] GetFiles(bool getResourceModules)
+    content.vb: Public Overridable Function GetFiles(getResourceModules As Boolean) As FileStream()
+    parameters:
+    - id: getResourceModules
+      type: System.Boolean
+    return:
+      type: System.IO.FileStream[]
+      description: 
+- uid: System.Reflection.Assembly.GetManifestResourceNames
+  id: GetManifestResourceNames
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetManifestResourceNames()
+  fullName: System.Reflection.Assembly.GetManifestResourceNames()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1016
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual string[] GetManifestResourceNames()
+    content.vb: Public Overridable Function GetManifestResourceNames As String()
+    return:
+      type: System.String[]
+      description: 
+- uid: System.Reflection.Assembly.GetReferencedAssemblies
+  id: GetReferencedAssemblies
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetReferencedAssemblies()
+  fullName: System.Reflection.Assembly.GetReferencedAssemblies()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1021
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual AssemblyName[] GetReferencedAssemblies()
+    content.vb: Public Overridable Function GetReferencedAssemblies As AssemblyName()
+    return:
+      type: System.Reflection.AssemblyName[]
+      description: 
+- uid: System.Reflection.Assembly.GetManifestResourceInfo(System.String)
+  id: GetManifestResourceInfo(System.String)
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GetManifestResourceInfo(String)
+  fullName: System.Reflection.Assembly.GetManifestResourceInfo(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1026
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual ManifestResourceInfo GetManifestResourceInfo(string resourceName)
+    content.vb: Public Overridable Function GetManifestResourceInfo(resourceName As String) As ManifestResourceInfo
+    parameters:
+    - id: resourceName
+      type: System.String
+    return:
+      type: System.Reflection.ManifestResourceInfo
+      description: 
+- uid: System.Reflection.Assembly.ToString
+  id: ToString
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ToString()
+  fullName: System.Reflection.Assembly.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1031
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+      description: 
+  overridden: System.Object.ToString
+- uid: System.Reflection.Assembly.Location
+  id: Location
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: Location
+  fullName: System.Reflection.Assembly.Location
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1040
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual string Location { get; }
+    content.vb: Public Overridable ReadOnly Property Location As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.Reflection.Assembly.ImageRuntimeVersion
+  id: ImageRuntimeVersion
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: ImageRuntimeVersion
+  fullName: System.Reflection.Assembly.ImageRuntimeVersion
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1053
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual string ImageRuntimeVersion { get; }
+    content.vb: Public Overridable ReadOnly Property ImageRuntimeVersion As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.Reflection.Assembly.GlobalAssemblyCache
+  id: GlobalAssemblyCache
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: GlobalAssemblyCache
+  fullName: System.Reflection.Assembly.GlobalAssemblyCache
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1065
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual bool GlobalAssemblyCache { get; }
+    content.vb: Public Overridable ReadOnly Property GlobalAssemblyCache As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Reflection.Assembly.HostContext
+  id: HostContext
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: HostContext
+  fullName: System.Reflection.Assembly.HostContext
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1073
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual long HostContext { get; }
+    content.vb: Public Overridable ReadOnly Property HostContext As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.Reflection.Assembly.IsDynamic
+  id: IsDynamic
+  parent: System.Reflection.Assembly
+  href: System.Reflection.Assembly.yml
+  name: IsDynamic
+  fullName: System.Reflection.Assembly.IsDynamic
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Assembly.cs
+    startLine: 1089
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public virtual bool IsDynamic { get; }
+    content.vb: Public Overridable ReadOnly Property IsDynamic As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Security.Policy.Evidence
+  parent: System.Security.Policy
+  isExternal: false
+  href: System.Security.Policy.Evidence.yml
+  name: Evidence
+  fullName: System.Security.Policy.Evidence
+  type: Class
+  summary: >-
+    The Evidence class keeps track of information that can be used to make security decisions about
+
+    an assembly or an AppDomain.  There are two types of evidence, one is supplied by the CLR or a
+
+    host, the other supplied by the assembly itself.
+
+
+
+    We keep a dictionary that maps each type of possbile evidence to an EvidenceTypeDescriptor which
+
+    contains the evidence objects themselves if they exist as well as some extra metadata about that
+
+    type of evidence.  This dictionary is fully populated with keys for host evidence at all times and
+
+    for assembly evidence the first time the application evidence is touched.  This means that if a
+
+    Type key does not exist in the dictionary, then that particular type of evidence will never be
+
+    given to the assembly or AppDomain in question as host evidence.  The only exception is if the
+
+    user later manually adds host evidence via the AddHostEvidence API.
+
+
+
+    Assembly supplied evidence is created up front, however host supplied evidence may be lazily
+
+    created.  In the lazy creation case, the Type will map to either an EvidenceTypeDescriptor that does
+
+    not contain any evidence data or null.  As requests come in for that evidence, we'll populate the
+
+    EvidenceTypeDescriptor appropriately.
+- uid: System.Security.Policy
+  isExternal: false
+  name: System.Security.Policy
+  fullName: System.Security.Policy
+  type: Namespace
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  parent: System.Configuration.Assemblies
+  isExternal: false
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: AssemblyHashAlgorithm
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  type: Enum
+- uid: System.Configuration.Assemblies
+  isExternal: false
+  name: System.Configuration.Assemblies
+  fullName: System.Configuration.Assemblies
+  type: Namespace
+- uid: System.Reflection.AssemblyName
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.AssemblyName.yml
+  name: AssemblyName
+  fullName: System.Reflection.AssemblyName
+  type: Class
+- uid: System.Security.SecurityContextSource
+  parent: System.Security
+  isExternal: false
+  href: System.Security.SecurityContextSource.yml
+  name: SecurityContextSource
+  fullName: System.Security.SecurityContextSource
+  type: Enum
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace
+- uid: System.IO.Stream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.Stream.yml
+  name: Stream
+  fullName: System.IO.Stream
+  type: Class
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.MethodInfo.yml
+  name: MethodInfo
+  fullName: System.Reflection.MethodInfo
+  type: Class
+- uid: System.Collections.Generic.IEnumerable{System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<Type>
+  name.vb: IEnumerable(Of Type)
+  fullName: System.Collections.Generic.IEnumerable<System.Type>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<T>
+  name.vb: IEnumerable(Of T)
+  fullName: System.Collections.Generic.IEnumerable<T>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace
+- uid: System.Type[]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[]
+  name.vb: Type()
+  fullName: System.Type[]
+  fullName.vb: System.Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<TypeInfo>
+  name.vb: IEnumerable(Of TypeInfo)
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.TypeInfo>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.TypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Reflection.TypeInfo
+    name: TypeInfo
+    fullName: System.Reflection.TypeInfo
+    href: System.Reflection.TypeInfo.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.TypeInfo
+    name: TypeInfo
+    fullName: System.Reflection.TypeInfo
+    href: System.Reflection.TypeInfo.yml
+  - name: )
+    fullName: )
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CultureInfo.yml
+  name: CultureInfo
+  fullName: System.Globalization.CultureInfo
+  type: Class
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Version
+  parent: System
+  isExternal: false
+  href: System.Version.yml
+  name: Version
+  fullName: System.Version
+  type: Class
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.SerializationInfo.yml
+  name: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+  type: Class
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.StreamingContext.yml
+  name: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+  type: Struct
+- uid: System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  type: Namespace
+- uid: System.Reflection.Module
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Module.yml
+  name: Module
+  fullName: System.Reflection.Module
+  type: Class
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<CustomAttributeData>
+  name.vb: IEnumerable(Of CustomAttributeData)
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.CustomAttributeData>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.CustomAttributeData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    fullName: System.Reflection.CustomAttributeData
+    href: System.Reflection.CustomAttributeData.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    fullName: System.Reflection.CustomAttributeData
+    href: System.Reflection.CustomAttributeData.yml
+  - name: )
+    fullName: )
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: System.Collections.Generic.IList`1.yml
+  name: IList<CustomAttributeData>
+  name.vb: IList(Of CustomAttributeData)
+  fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
+  fullName.vb: System.Collections.Generic.IList(Of System.Reflection.CustomAttributeData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    fullName: System.Reflection.CustomAttributeData
+    href: System.Reflection.CustomAttributeData.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    fullName: System.Reflection.CustomAttributeData
+    href: System.Reflection.CustomAttributeData.yml
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IList`1.yml
+  name: IList<T>
+  name.vb: IList(Of T)
+  fullName: System.Collections.Generic.IList<T>
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.BindingFlags.yml
+  name: BindingFlags
+  fullName: System.Reflection.BindingFlags
+  type: Enum
+- uid: System.Reflection.Binder
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Binder.yml
+  name: Binder
+  fullName: System.Reflection.Binder
+  type: Class
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.Module}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: System.Collections.Generic.IEnumerable`1.yml
+  name: IEnumerable<Module>
+  name.vb: IEnumerable(Of Module)
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.Module>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.Module)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: <
+    fullName: <
+  - uid: System.Reflection.Module
+    name: Module
+    fullName: System.Reflection.Module
+    href: System.Reflection.Module.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    href: System.Collections.Generic.IEnumerable`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.Module
+    name: Module
+    fullName: System.Reflection.Module
+    href: System.Reflection.Module.yml
+  - name: )
+    fullName: )
+- uid: System.Reflection.Module[]
+  isExternal: false
+  href: System.Reflection.Module.yml
+  name: Module[]
+  name.vb: Module()
+  fullName: System.Reflection.Module[]
+  fullName.vb: System.Reflection.Module()
+  spec.csharp:
+  - uid: System.Reflection.Module
+    name: Module
+    fullName: System.Reflection.Module
+    href: System.Reflection.Module.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.Module
+    name: Module
+    fullName: System.Reflection.Module
+    href: System.Reflection.Module.yml
+  - name: ()
+    fullName: ()
+- uid: System.IO.FileStream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileStream.yml
+  name: FileStream
+  fullName: System.IO.FileStream
+  type: Class
+- uid: System.IO.FileStream[]
+  isExternal: false
+  href: System.IO.FileStream.yml
+  name: FileStream[]
+  name.vb: FileStream()
+  fullName: System.IO.FileStream[]
+  fullName.vb: System.IO.FileStream()
+  spec.csharp:
+  - uid: System.IO.FileStream
+    name: FileStream
+    fullName: System.IO.FileStream
+    href: System.IO.FileStream.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.IO.FileStream
+    name: FileStream
+    fullName: System.IO.FileStream
+    href: System.IO.FileStream.yml
+  - name: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.AssemblyName[]
+  isExternal: false
+  href: System.Reflection.AssemblyName.yml
+  name: AssemblyName[]
+  name.vb: AssemblyName()
+  fullName: System.Reflection.AssemblyName[]
+  fullName.vb: System.Reflection.AssemblyName()
+  spec.csharp:
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    fullName: System.Reflection.AssemblyName
+    href: System.Reflection.AssemblyName.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    fullName: System.Reflection.AssemblyName
+    href: System.Reflection.AssemblyName.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.ManifestResourceInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.ManifestResourceInfo.yml
+  name: ManifestResourceInfo
+  fullName: System.Reflection.ManifestResourceInfo
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct

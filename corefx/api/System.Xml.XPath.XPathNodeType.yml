@@ -1,0 +1,199 @@
+items:
+- uid: System.Xml.XPath.XPathNodeType
+  id: XPathNodeType
+  parent: System.Xml.XPath
+  children:
+  - System.Xml.XPath.XPathNodeType.All
+  - System.Xml.XPath.XPathNodeType.Attribute
+  - System.Xml.XPath.XPathNodeType.Comment
+  - System.Xml.XPath.XPathNodeType.Element
+  - System.Xml.XPath.XPathNodeType.Namespace
+  - System.Xml.XPath.XPathNodeType.ProcessingInstruction
+  - System.Xml.XPath.XPathNodeType.Root
+  - System.Xml.XPath.XPathNodeType.SignificantWhitespace
+  - System.Xml.XPath.XPathNodeType.Text
+  - System.Xml.XPath.XPathNodeType.Whitespace
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: XPathNodeType
+  fullName: System.Xml.XPath.XPathNodeType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 5
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: public enum XPathNodeType
+    content.vb: Public Enum XPathNodeType
+- uid: System.Xml.XPath.XPathNodeType.Root
+  id: Root
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Root
+  fullName: System.Xml.XPath.XPathNodeType.Root
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 7
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Root = 0
+- uid: System.Xml.XPath.XPathNodeType.Element
+  id: Element
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Element
+  fullName: System.Xml.XPath.XPathNodeType.Element
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 8
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Element = 1
+- uid: System.Xml.XPath.XPathNodeType.Attribute
+  id: Attribute
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Attribute
+  fullName: System.Xml.XPath.XPathNodeType.Attribute
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 9
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Attribute = 2
+- uid: System.Xml.XPath.XPathNodeType.Namespace
+  id: Namespace
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Namespace
+  fullName: System.Xml.XPath.XPathNodeType.Namespace
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 10
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Namespace = 3
+- uid: System.Xml.XPath.XPathNodeType.Text
+  id: Text
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Text
+  fullName: System.Xml.XPath.XPathNodeType.Text
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 11
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Text = 4
+- uid: System.Xml.XPath.XPathNodeType.SignificantWhitespace
+  id: SignificantWhitespace
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: SignificantWhitespace
+  fullName: System.Xml.XPath.XPathNodeType.SignificantWhitespace
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 12
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: SignificantWhitespace = 5
+- uid: System.Xml.XPath.XPathNodeType.Whitespace
+  id: Whitespace
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Whitespace
+  fullName: System.Xml.XPath.XPathNodeType.Whitespace
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 13
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Whitespace = 6
+- uid: System.Xml.XPath.XPathNodeType.ProcessingInstruction
+  id: ProcessingInstruction
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: ProcessingInstruction
+  fullName: System.Xml.XPath.XPathNodeType.ProcessingInstruction
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 14
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: ProcessingInstruction = 7
+- uid: System.Xml.XPath.XPathNodeType.Comment
+  id: Comment
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: Comment
+  fullName: System.Xml.XPath.XPathNodeType.Comment
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 15
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: Comment = 8
+- uid: System.Xml.XPath.XPathNodeType.All
+  id: All
+  parent: System.Xml.XPath.XPathNodeType
+  href: System.Xml.XPath.XPathNodeType.yml
+  name: All
+  fullName: System.Xml.XPath.XPathNodeType.All
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XPath/src/System/Xml/XPath/XPathNodeType.cs
+    startLine: 16
+  assemblies:
+  - System.Xml.XPath
+  namespace: System.Xml.XPath
+  syntax:
+    content: All = 9
+references:
+- uid: System.Xml.XPath
+  isExternal: false
+  name: System.Xml.XPath
+  fullName: System.Xml.XPath
+  type: Namespace

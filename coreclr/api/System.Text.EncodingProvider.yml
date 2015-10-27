@@ -1,0 +1,422 @@
+items:
+- uid: System.Text.EncodingProvider
+  id: EncodingProvider
+  parent: System.Text
+  children:
+  - System.Text.EncodingProvider.#ctor
+  - System.Text.EncodingProvider.GetEncoding(System.Int32)
+  - System.Text.EncodingProvider.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  - System.Text.EncodingProvider.GetEncoding(System.String)
+  - System.Text.EncodingProvider.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  href: System.Text.EncodingProvider.yml
+  name: EncodingProvider
+  fullName: System.Text.EncodingProvider
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Text/EncodingProvider.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Text/EncodingProvider.cs
+    startLine: 9
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract class EncodingProvider
+    content.vb: Public MustInherit Class EncodingProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Text.EncodingProvider.#ctor
+  id: '#ctor'
+  parent: System.Text.EncodingProvider
+  href: System.Text.EncodingProvider.yml
+  name: EncodingProvider()
+  fullName: System.Text.EncodingProvider.EncodingProvider()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingProvider.cs
+    startLine: 12
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public EncodingProvider()
+    content.vb: Public Sub New
+- uid: System.Text.EncodingProvider.GetEncoding(System.String)
+  id: GetEncoding(System.String)
+  parent: System.Text.EncodingProvider
+  href: System.Text.EncodingProvider.yml
+  name: GetEncoding(String)
+  fullName: System.Text.EncodingProvider.GetEncoding(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingProvider.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract Encoding GetEncoding(string name)
+    content.vb: Public MustOverride Function GetEncoding(name As String) As Encoding
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Text.Encoding
+      description: 
+- uid: System.Text.EncodingProvider.GetEncoding(System.Int32)
+  id: GetEncoding(System.Int32)
+  parent: System.Text.EncodingProvider
+  href: System.Text.EncodingProvider.yml
+  name: GetEncoding(Int32)
+  fullName: System.Text.EncodingProvider.GetEncoding(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingProvider.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract Encoding GetEncoding(int codepage)
+    content.vb: Public MustOverride Function GetEncoding(codepage As Integer) As Encoding
+    parameters:
+    - id: codepage
+      type: System.Int32
+    return:
+      type: System.Text.Encoding
+      description: 
+- uid: System.Text.EncodingProvider.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  id: GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  parent: System.Text.EncodingProvider
+  href: System.Text.EncodingProvider.yml
+  name: GetEncoding(String, EncoderFallback, DecoderFallback)
+  fullName: System.Text.EncodingProvider.GetEncoding(System.String, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingProvider.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual Encoding GetEncoding(string name, EncoderFallback encoderFallback, DecoderFallback decoderFallback)
+    content.vb: Public Overridable Function GetEncoding(name As String, encoderFallback As EncoderFallback, decoderFallback As DecoderFallback) As Encoding
+    parameters:
+    - id: name
+      type: System.String
+    - id: encoderFallback
+      type: System.Text.EncoderFallback
+    - id: decoderFallback
+      type: System.Text.DecoderFallback
+    return:
+      type: System.Text.Encoding
+      description: 
+- uid: System.Text.EncodingProvider.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  id: GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  parent: System.Text.EncodingProvider
+  href: System.Text.EncodingProvider.yml
+  name: GetEncoding(Int32, EncoderFallback, DecoderFallback)
+  fullName: System.Text.EncodingProvider.GetEncoding(System.Int32, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingProvider.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual Encoding GetEncoding(int codepage, EncoderFallback encoderFallback, DecoderFallback decoderFallback)
+    content.vb: Public Overridable Function GetEncoding(codepage As Integer, encoderFallback As EncoderFallback, decoderFallback As DecoderFallback) As Encoding
+    parameters:
+    - id: codepage
+      type: System.Int32
+    - id: encoderFallback
+      type: System.Text.EncoderFallback
+    - id: decoderFallback
+      type: System.Text.DecoderFallback
+    return:
+      type: System.Text.Encoding
+      description: 
+references:
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Text.Encoding
+  parent: System.Text
+  isExternal: false
+  href: System.Text.Encoding.yml
+  name: Encoding
+  fullName: System.Text.Encoding
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Text.EncoderFallback
+  parent: System.Text
+  isExternal: false
+  href: System.Text.EncoderFallback.yml
+  name: EncoderFallback
+  fullName: System.Text.EncoderFallback
+  type: Class
+- uid: System.Text.DecoderFallback
+  parent: System.Text
+  isExternal: false
+  href: System.Text.DecoderFallback.yml
+  name: DecoderFallback
+  fullName: System.Text.DecoderFallback
+  type: Class

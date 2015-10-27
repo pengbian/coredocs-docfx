@@ -1,0 +1,1060 @@
+items:
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile
+  id: IsolatedStorageFile
+  parent: System.IO.IsolatedStorage
+  children:
+  - System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace
+  - System.IO.IsolatedStorage.IsolatedStorageFile.Close
+  - System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String,System.Boolean)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.DefaultQuota
+  - System.IO.IsolatedStorage.IsolatedStorageFile.DeleteDirectory(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.Dispose
+  - System.IO.IsolatedStorage.IsolatedStorageFile.FileExists(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication
+  - System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite
+  - System.IO.IsolatedStorage.IsolatedStorageFile.IncreaseQuotaTo(System.Int64)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled
+  - System.IO.IsolatedStorage.IsolatedStorageFile.MoveDirectory(System.String,System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.MoveFile(System.String,System.String)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  - System.IO.IsolatedStorage.IsolatedStorageFile.Quota
+  - System.IO.IsolatedStorage.IsolatedStorageFile.Remove
+  - System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: IsolatedStorageFile
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 40
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: 'public sealed class IsolatedStorageFile : IDisposable'
+    content.vb: Public NotInheritable Class IsolatedStorageFile Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.DefaultQuota
+  id: DefaultQuota
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: DefaultQuota
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.DefaultQuota
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 105
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public static long DefaultQuota { get; }
+    content.vb: Public Shared ReadOnly Property DefaultQuota As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled
+  id: IsEnabled
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: IsEnabled
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 115
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public static bool IsEnabled { get; }
+    content.vb: Public Shared ReadOnly Property IsEnabled As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize
+  id: UsedSize
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: UsedSize
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 127
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public long UsedSize { get; }
+    content.vb: Public ReadOnly Property UsedSize As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.Quota
+  id: Quota
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: Quota
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.Quota
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 155
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public long Quota { get; }
+    content.vb: Public ReadOnly Property Quota As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace
+  id: AvailableFreeSpace
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: AvailableFreeSpace
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public long AvailableFreeSpace { get; }
+    content.vb: Public ReadOnly Property AvailableFreeSpace As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.Remove
+  id: Remove
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: Remove()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.Remove()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 276
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void Remove()
+    content.vb: Public Sub Remove
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.Close
+  id: Close
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: Close()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.Close()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 404
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.IncreaseQuotaTo(System.Int64)
+  id: IncreaseQuotaTo(System.Int64)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: IncreaseQuotaTo(Int64)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.IncreaseQuotaTo(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 418
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public bool IncreaseQuotaTo(long newQuotaSize)
+    content.vb: Public Function IncreaseQuotaTo(newQuotaSize As Long) As Boolean
+    parameters:
+    - id: newQuotaSize
+      type: System.Int64
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)
+  id: DeleteFile(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: DeleteFile(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 454
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void DeleteFile(string file)
+    content.vb: Public Sub DeleteFile(file As String)
+    parameters:
+    - id: file
+      type: System.String
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.FileExists(System.String)
+  id: FileExists(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: FileExists(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.FileExists(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 498
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public bool FileExists(string path)
+    content.vb: Public Function FileExists(path As String) As Boolean
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)
+  id: DirectoryExists(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: DirectoryExists(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 530
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public bool DirectoryExists(string path)
+    content.vb: Public Function DirectoryExists(path As String) As Boolean
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)
+  id: CreateDirectory(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: CreateDirectory(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 565
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void CreateDirectory(string dir)
+    content.vb: Public Sub CreateDirectory(dir As String)
+    parameters:
+    - id: dir
+      type: System.String
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.DeleteDirectory(System.String)
+  id: DeleteDirectory(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: DeleteDirectory(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.DeleteDirectory(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 625
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void DeleteDirectory(string dir)
+    content.vb: Public Sub DeleteDirectory(dir As String)
+    parameters:
+    - id: dir
+      type: System.String
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames
+  id: GetFileNames
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetFileNames()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 656
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public string[] GetFileNames()
+    content.vb: Public Function GetFileNames As String()
+    return:
+      type: System.String[]
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)
+  id: GetFileNames(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetFileNames(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 664
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public string[] GetFileNames(string searchPattern)
+    content.vb: Public Function GetFileNames(searchPattern As String) As String()
+    parameters:
+    - id: searchPattern
+      type: System.String
+    return:
+      type: System.String[]
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames
+  id: GetDirectoryNames
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetDirectoryNames()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 677
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public string[] GetDirectoryNames()
+    content.vb: Public Function GetDirectoryNames As String()
+    return:
+      type: System.String[]
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)
+  id: GetDirectoryNames(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetDirectoryNames(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 686
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public string[] GetDirectoryNames(string searchPattern)
+    content.vb: Public Function GetDirectoryNames(searchPattern As String) As String()
+    parameters:
+    - id: searchPattern
+      type: System.String
+    return:
+      type: System.String[]
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)
+  id: OpenFile(System.String,System.IO.FileMode)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: OpenFile(String, FileMode)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String, System.IO.FileMode)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 699
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public IsolatedStorageFileStream OpenFile(string path, FileMode mode)
+    content.vb: Public Function OpenFile(path As String, mode As FileMode) As IsolatedStorageFileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    return:
+      type: System.IO.IsolatedStorage.IsolatedStorageFileStream
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)
+  id: OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: OpenFile(String, FileMode, FileAccess)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String, System.IO.FileMode, System.IO.FileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 706
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public IsolatedStorageFileStream OpenFile(string path, FileMode mode, FileAccess access)
+    content.vb: Public Function OpenFile(path As String, mode As FileMode, access As FileAccess) As IsolatedStorageFileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: access
+      type: System.IO.FileAccess
+    return:
+      type: System.IO.IsolatedStorage.IsolatedStorageFileStream
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  id: OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: OpenFile(String, FileMode, FileAccess, FileShare)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 712
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public IsolatedStorageFileStream OpenFile(string path, FileMode mode, FileAccess access, FileShare share)
+    content.vb: Public Function OpenFile(path As String, mode As FileMode, access As FileAccess, share As FileShare) As IsolatedStorageFileStream
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: access
+      type: System.IO.FileAccess
+    - id: share
+      type: System.IO.FileShare
+    return:
+      type: System.IO.IsolatedStorage.IsolatedStorageFileStream
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)
+  id: CreateFile(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: CreateFile(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 718
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public IsolatedStorageFileStream CreateFile(string path)
+    content.vb: Public Function CreateFile(path As String) As IsolatedStorageFileStream
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.IsolatedStorage.IsolatedStorageFileStream
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)
+  id: GetCreationTime(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetCreationTime(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 725
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public DateTimeOffset GetCreationTime(string path)
+    content.vb: Public Function GetCreationTime(path As String) As DateTimeOffset
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTimeOffset
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)
+  id: GetLastAccessTime(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetLastAccessTime(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 757
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public DateTimeOffset GetLastAccessTime(string path)
+    content.vb: Public Function GetLastAccessTime(path As String) As DateTimeOffset
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTimeOffset
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)
+  id: GetLastWriteTime(System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetLastWriteTime(String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 789
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public DateTimeOffset GetLastWriteTime(string path)
+    content.vb: Public Function GetLastWriteTime(path As String) As DateTimeOffset
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.DateTimeOffset
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)
+  id: CopyFile(System.String,System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: CopyFile(String, String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 821
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void CopyFile(string sourceFileName, string destinationFileName)
+    content.vb: Public Sub CopyFile(sourceFileName As String, destinationFileName As String)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String,System.Boolean)
+  id: CopyFile(System.String,System.String,System.Boolean)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: CopyFile(String, String, Boolean)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 843
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void CopyFile(string sourceFileName, string destinationFileName, bool overwrite)
+    content.vb: Public Sub CopyFile(sourceFileName As String, destinationFileName As String, overwrite As Boolean)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+    - id: overwrite
+      type: System.Boolean
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.MoveFile(System.String,System.String)
+  id: MoveFile(System.String,System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: MoveFile(String, String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.MoveFile(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 936
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void MoveFile(string sourceFileName, string destinationFileName)
+    content.vb: Public Sub MoveFile(sourceFileName As String, destinationFileName As String)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.MoveDirectory(System.String,System.String)
+  id: MoveDirectory(System.String,System.String)
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: MoveDirectory(String, String)
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.MoveDirectory(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 986
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void MoveDirectory(string sourceDirectoryName, string destinationDirectoryName)
+    content.vb: Public Sub MoveDirectory(sourceDirectoryName As String, destinationDirectoryName As String)
+    parameters:
+    - id: sourceDirectoryName
+      type: System.String
+    - id: destinationDirectoryName
+      type: System.String
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication
+  id: GetUserStoreForApplication
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetUserStoreForApplication()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 1034
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public static IsolatedStorageFile GetUserStoreForApplication()
+    content.vb: Public Shared Function GetUserStoreForApplication As IsolatedStorageFile
+    return:
+      type: System.IO.IsolatedStorage.IsolatedStorageFile
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite
+  id: GetUserStoreForSite
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: GetUserStoreForSite()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 1090
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public static IsolatedStorageFile GetUserStoreForSite()
+    content.vb: Public Shared Function GetUserStoreForSite As IsolatedStorageFile
+    return:
+      type: System.IO.IsolatedStorage.IsolatedStorageFile
+      description: 
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile.Dispose
+  id: Dispose
+  parent: System.IO.IsolatedStorage.IsolatedStorageFile
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: Dispose()
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/IsolatedStorage/IsolatedStorageFileSmall.cs
+    startLine: 1834
+  assemblies:
+  - mscorlib
+  namespace: System.IO.IsolatedStorage
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+references:
+- uid: System.IO.IsolatedStorage
+  isExternal: false
+  name: System.IO.IsolatedStorage
+  fullName: System.IO.IsolatedStorage
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.IO.FileMode
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileMode.yml
+  name: FileMode
+  fullName: System.IO.FileMode
+  type: Enum
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageFileStream.yml
+  name: IsolatedStorageFileStream
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  type: Class
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.IO.FileAccess
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAccess.yml
+  name: FileAccess
+  fullName: System.IO.FileAccess
+  type: Enum
+- uid: System.IO.FileShare
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileShare.yml
+  name: FileShare
+  fullName: System.IO.FileShare
+  type: Enum
+- uid: System.DateTimeOffset
+  parent: System
+  isExternal: false
+  href: System.DateTimeOffset.yml
+  name: DateTimeOffset
+  fullName: System.DateTimeOffset
+  type: Struct
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile
+  parent: System.IO.IsolatedStorage
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: IsolatedStorageFile
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile
+  type: Class

@@ -1,0 +1,561 @@
+items:
+- uid: System.Security.SecureString
+  id: SecureString
+  parent: System.Security
+  children:
+  - System.Security.SecureString.#ctor
+  - System.Security.SecureString.#ctor(System.Char*,System.Int32)
+  - System.Security.SecureString.AppendChar(System.Char)
+  - System.Security.SecureString.Clear
+  - System.Security.SecureString.Copy
+  - System.Security.SecureString.Dispose
+  - System.Security.SecureString.InsertAt(System.Int32,System.Char)
+  - System.Security.SecureString.IsReadOnly
+  - System.Security.SecureString.Length
+  - System.Security.SecureString.MakeReadOnly
+  - System.Security.SecureString.RemoveAt(System.Int32)
+  - System.Security.SecureString.SetAt(System.Int32,System.Char)
+  href: System.Security.SecureString.yml
+  name: SecureString
+  fullName: System.Security.SecureString
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/securestring.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: 'public sealed class SecureString : IDisposable'
+    content.vb: Public NotInheritable Class SecureString Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.SecureString.#ctor
+  id: '#ctor'
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: SecureString()
+  fullName: System.Security.SecureString.SecureString()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 61
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public SecureString()
+    content.vb: Public Sub New
+- uid: System.Security.SecureString.#ctor(System.Char*,System.Int32)
+  id: '#ctor(System.Char*,System.Int32)'
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: SecureString(Char*, Int32)
+  fullName: System.Security.SecureString.SecureString(System.Char*, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 102
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public SecureString(char *value, int length)
+    content.vb: Public Sub New(value As Char *, length As Integer)
+    parameters:
+    - id: value
+      type: System.Char*
+    - id: length
+      type: System.Int32
+- uid: System.Security.SecureString.Length
+  id: Length
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: Length
+  fullName: System.Security.SecureString.Length
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 122
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public int Length { get; }
+    content.vb: Public ReadOnly Property Length As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Security.SecureString.AppendChar(System.Char)
+  id: AppendChar(System.Char)
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: AppendChar(Char)
+  fullName: System.Security.SecureString.AppendChar(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 131
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void AppendChar(char c)
+    content.vb: Public Sub AppendChar(c As Char)
+    parameters:
+    - id: c
+      type: System.Char
+- uid: System.Security.SecureString.Clear
+  id: Clear
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: Clear()
+  fullName: System.Security.SecureString.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 158
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+- uid: System.Security.SecureString.Copy
+  id: Copy
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: Copy()
+  fullName: System.Security.SecureString.Copy()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 170
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public SecureString Copy()
+    content.vb: Public Function Copy As SecureString
+    return:
+      type: System.Security.SecureString
+      description: 
+- uid: System.Security.SecureString.Dispose
+  id: Dispose
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: Dispose()
+  fullName: System.Security.SecureString.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 177
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.Security.SecureString.InsertAt(System.Int32,System.Char)
+  id: InsertAt(System.Int32,System.Char)
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: InsertAt(Int32, Char)
+  fullName: System.Security.SecureString.InsertAt(System.Int32, System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void InsertAt(int index, char c)
+    content.vb: Public Sub InsertAt(index As Integer, c As Char)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: c
+      type: System.Char
+- uid: System.Security.SecureString.IsReadOnly
+  id: IsReadOnly
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: IsReadOnly()
+  fullName: System.Security.SecureString.IsReadOnly()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 228
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public bool IsReadOnly()
+    content.vb: Public Function IsReadOnly As Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Security.SecureString.MakeReadOnly
+  id: MakeReadOnly
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: MakeReadOnly()
+  fullName: System.Security.SecureString.MakeReadOnly()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 235
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void MakeReadOnly()
+    content.vb: Public Sub MakeReadOnly
+- uid: System.Security.SecureString.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: RemoveAt(Int32)
+  fullName: System.Security.SecureString.RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 242
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void RemoveAt(int index)
+    content.vb: Public Sub RemoveAt(index As Integer)
+    parameters:
+    - id: index
+      type: System.Int32
+- uid: System.Security.SecureString.SetAt(System.Int32,System.Char)
+  id: SetAt(System.Int32,System.Char)
+  parent: System.Security.SecureString
+  href: System.Security.SecureString.yml
+  name: SetAt(Int32, Char)
+  fullName: System.Security.SecureString.SetAt(System.Int32, System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/securestring.cs
+    startLine: 284
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public void SetAt(int index, char c)
+    content.vb: Public Sub SetAt(index As Integer, c As Char)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: c
+      type: System.Char
+references:
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Char*
+  isExternal: false
+  href: System.Char.yml
+  name: Char*
+  fullName: System.Char*
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '*'
+    fullName: '*'
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Char
+  parent: System
+  isExternal: false
+  href: System.Char.yml
+  name: Char
+  fullName: System.Char
+  type: Struct
+- uid: System.Security.SecureString
+  parent: System.Security
+  isExternal: false
+  href: System.Security.SecureString.yml
+  name: SecureString
+  fullName: System.Security.SecureString
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct

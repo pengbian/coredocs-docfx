@@ -1,0 +1,97 @@
+items:
+- uid: System.Runtime.InteropServices.CharSet
+  id: CharSet
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.CharSet.Ansi
+  - System.Runtime.InteropServices.CharSet.Auto
+  - System.Runtime.InteropServices.CharSet.None
+  - System.Runtime.InteropServices.CharSet.Unicode
+  href: System.Runtime.InteropServices.CharSet.yml
+  name: CharSet
+  fullName: System.Runtime.InteropServices.CharSet
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/CharSet.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/CharSet.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum CharSet
+    content.vb: Public Enum CharSet
+- uid: System.Runtime.InteropServices.CharSet.None
+  id: None
+  parent: System.Runtime.InteropServices.CharSet
+  href: System.Runtime.InteropServices.CharSet.yml
+  name: None
+  fullName: System.Runtime.InteropServices.CharSet.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/CharSet.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: None = 1
+- uid: System.Runtime.InteropServices.CharSet.Ansi
+  id: Ansi
+  parent: System.Runtime.InteropServices.CharSet
+  href: System.Runtime.InteropServices.CharSet.yml
+  name: Ansi
+  fullName: System.Runtime.InteropServices.CharSet.Ansi
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/CharSet.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Ansi = 2
+- uid: System.Runtime.InteropServices.CharSet.Unicode
+  id: Unicode
+  parent: System.Runtime.InteropServices.CharSet
+  href: System.Runtime.InteropServices.CharSet.yml
+  name: Unicode
+  fullName: System.Runtime.InteropServices.CharSet.Unicode
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/CharSet.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Unicode = 3
+- uid: System.Runtime.InteropServices.CharSet.Auto
+  id: Auto
+  parent: System.Runtime.InteropServices.CharSet
+  href: System.Runtime.InteropServices.CharSet.yml
+  name: Auto
+  fullName: System.Runtime.InteropServices.CharSet.Auto
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/CharSet.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Auto = 4
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

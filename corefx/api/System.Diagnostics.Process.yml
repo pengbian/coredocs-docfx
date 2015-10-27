@@ -1,0 +1,1795 @@
+items:
+- uid: System.Diagnostics.Process
+  id: Process
+  parent: System.Diagnostics
+  children:
+  - System.Diagnostics.Process.#ctor
+  - System.Diagnostics.Process.BasePriority
+  - System.Diagnostics.Process.BeginErrorReadLine
+  - System.Diagnostics.Process.BeginOutputReadLine
+  - System.Diagnostics.Process.CancelErrorRead
+  - System.Diagnostics.Process.CancelOutputRead
+  - System.Diagnostics.Process.Dispose
+  - System.Diagnostics.Process.Dispose(System.Boolean)
+  - System.Diagnostics.Process.EnableRaisingEvents
+  - System.Diagnostics.Process.EnterDebugMode
+  - System.Diagnostics.Process.ErrorDataReceived
+  - System.Diagnostics.Process.ExitCode
+  - System.Diagnostics.Process.Exited
+  - System.Diagnostics.Process.ExitTime
+  - System.Diagnostics.Process.GetCurrentProcess
+  - System.Diagnostics.Process.GetProcessById(System.Int32)
+  - System.Diagnostics.Process.GetProcessById(System.Int32,System.String)
+  - System.Diagnostics.Process.GetProcesses
+  - System.Diagnostics.Process.GetProcesses(System.String)
+  - System.Diagnostics.Process.GetProcessesByName(System.String)
+  - System.Diagnostics.Process.GetProcessesByName(System.String,System.String)
+  - System.Diagnostics.Process.HasExited
+  - System.Diagnostics.Process.Id
+  - System.Diagnostics.Process.Kill
+  - System.Diagnostics.Process.LeaveDebugMode
+  - System.Diagnostics.Process.MachineName
+  - System.Diagnostics.Process.MainModule
+  - System.Diagnostics.Process.MaxWorkingSet
+  - System.Diagnostics.Process.MinWorkingSet
+  - System.Diagnostics.Process.Modules
+  - System.Diagnostics.Process.NonpagedSystemMemorySize64
+  - System.Diagnostics.Process.OnExited
+  - System.Diagnostics.Process.OutputDataReceived
+  - System.Diagnostics.Process.PagedMemorySize64
+  - System.Diagnostics.Process.PagedSystemMemorySize64
+  - System.Diagnostics.Process.PeakPagedMemorySize64
+  - System.Diagnostics.Process.PeakVirtualMemorySize64
+  - System.Diagnostics.Process.PeakWorkingSet64
+  - System.Diagnostics.Process.PriorityBoostEnabled
+  - System.Diagnostics.Process.PriorityClass
+  - System.Diagnostics.Process.PrivateMemorySize64
+  - System.Diagnostics.Process.PrivilegedProcessorTime
+  - System.Diagnostics.Process.ProcessName
+  - System.Diagnostics.Process.ProcessorAffinity
+  - System.Diagnostics.Process.Refresh
+  - System.Diagnostics.Process.SafeHandle
+  - System.Diagnostics.Process.SessionId
+  - System.Diagnostics.Process.StandardError
+  - System.Diagnostics.Process.StandardInput
+  - System.Diagnostics.Process.StandardOutput
+  - System.Diagnostics.Process.Start
+  - System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)
+  - System.Diagnostics.Process.Start(System.String)
+  - System.Diagnostics.Process.Start(System.String,System.String)
+  - System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)
+  - System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
+  - System.Diagnostics.Process.StartInfo
+  - System.Diagnostics.Process.StartTime
+  - System.Diagnostics.Process.Threads
+  - System.Diagnostics.Process.ToString
+  - System.Diagnostics.Process.TotalProcessorTime
+  - System.Diagnostics.Process.UserProcessorTime
+  - System.Diagnostics.Process.VirtualMemorySize64
+  - System.Diagnostics.Process.WaitForExit
+  - System.Diagnostics.Process.WaitForExit(System.Int32)
+  - System.Diagnostics.Process.WorkingSet64
+  href: System.Diagnostics.Process.yml
+  name: Process
+  fullName: System.Diagnostics.Process
+  type: Class
+  source:
+    remote: &o1
+      path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 15
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: 'public class Process : IDisposable'
+    content.vb: Public Class Process Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Diagnostics.Process.OutputDataReceived
+  id: OutputDataReceived
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: OutputDataReceived
+  fullName: System.Diagnostics.Process.OutputDataReceived
+  type: Event
+  source:
+    remote: &o0
+      path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 70
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public event DataReceivedEventHandler OutputDataReceived
+    content.vb: Public Event OutputDataReceived As DataReceivedEventHandler
+- uid: System.Diagnostics.Process.ErrorDataReceived
+  id: ErrorDataReceived
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: ErrorDataReceived
+  fullName: System.Diagnostics.Process.ErrorDataReceived
+  type: Event
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 71
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public event DataReceivedEventHandler ErrorDataReceived
+    content.vb: Public Event ErrorDataReceived As DataReceivedEventHandler
+- uid: System.Diagnostics.Process.#ctor
+  id: '#ctor'
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Process()
+  fullName: System.Diagnostics.Process.Process()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 92
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public Process()
+    content.vb: Public Sub New
+- uid: System.Diagnostics.Process.SafeHandle
+  id: SafeHandle
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: SafeHandle
+  fullName: System.Diagnostics.Process.SafeHandle
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 110
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public SafeProcessHandle SafeHandle { get; }
+    content.vb: Public ReadOnly Property SafeHandle As SafeProcessHandle
+    parameters: []
+    return:
+      type: Microsoft.Win32.SafeHandles.SafeProcessHandle
+- uid: System.Diagnostics.Process.BasePriority
+  id: BasePriority
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: BasePriority
+  fullName: System.Diagnostics.Process.BasePriority
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 134
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public int BasePriority { get; }
+    content.vb: Public ReadOnly Property BasePriority As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Diagnostics.Process.ExitCode
+  id: ExitCode
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: ExitCode
+  fullName: System.Diagnostics.Process.ExitCode
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 150
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public int ExitCode { get; }
+    content.vb: Public ReadOnly Property ExitCode As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Diagnostics.Process.HasExited
+  id: HasExited
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: HasExited
+  fullName: System.Diagnostics.Process.HasExited
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 165
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public bool HasExited { get; }
+    content.vb: Public ReadOnly Property HasExited As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Diagnostics.Process.ExitTime
+  id: ExitTime
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: ExitTime
+  fullName: System.Diagnostics.Process.ExitTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 187
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public DateTime ExitTime { get; }
+    content.vb: Public ReadOnly Property ExitTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.Diagnostics.Process.Id
+  id: Id
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Id
+  fullName: System.Diagnostics.Process.Id
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 207
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public int Id { get; }
+    content.vb: Public ReadOnly Property Id As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Diagnostics.Process.MachineName
+  id: MachineName
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: MachineName
+  fullName: System.Diagnostics.Process.MachineName
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 222
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public string MachineName { get; }
+    content.vb: Public ReadOnly Property MachineName As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Diagnostics.Process.MaxWorkingSet
+  id: MaxWorkingSet
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: MaxWorkingSet
+  fullName: System.Diagnostics.Process.MaxWorkingSet
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 237
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public IntPtr MaxWorkingSet { get; set; }
+    content.vb: Public Property MaxWorkingSet As IntPtr
+    parameters: []
+    return:
+      type: System.IntPtr
+- uid: System.Diagnostics.Process.MinWorkingSet
+  id: MinWorkingSet
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: MinWorkingSet
+  fullName: System.Diagnostics.Process.MinWorkingSet
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 256
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public IntPtr MinWorkingSet { get; set; }
+    content.vb: Public Property MinWorkingSet As IntPtr
+    parameters: []
+    return:
+      type: System.IntPtr
+- uid: System.Diagnostics.Process.Modules
+  id: Modules
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Modules
+  fullName: System.Diagnostics.Process.Modules
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 269
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public ProcessModuleCollection Modules { get; }
+    content.vb: Public ReadOnly Property Modules As ProcessModuleCollection
+    parameters: []
+    return:
+      type: System.Diagnostics.ProcessModuleCollection
+- uid: System.Diagnostics.Process.NonpagedSystemMemorySize64
+  id: NonpagedSystemMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: NonpagedSystemMemorySize64
+  fullName: System.Diagnostics.Process.NonpagedSystemMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 289
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long NonpagedSystemMemorySize64 { get; }
+    content.vb: Public ReadOnly Property NonpagedSystemMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.PagedMemorySize64
+  id: PagedMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PagedMemorySize64
+  fullName: System.Diagnostics.Process.PagedMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 298
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long PagedMemorySize64 { get; }
+    content.vb: Public ReadOnly Property PagedMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.PagedSystemMemorySize64
+  id: PagedSystemMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PagedSystemMemorySize64
+  fullName: System.Diagnostics.Process.PagedSystemMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 307
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long PagedSystemMemorySize64 { get; }
+    content.vb: Public ReadOnly Property PagedSystemMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.PeakPagedMemorySize64
+  id: PeakPagedMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PeakPagedMemorySize64
+  fullName: System.Diagnostics.Process.PeakPagedMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 316
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long PeakPagedMemorySize64 { get; }
+    content.vb: Public ReadOnly Property PeakPagedMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.PeakWorkingSet64
+  id: PeakWorkingSet64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PeakWorkingSet64
+  fullName: System.Diagnostics.Process.PeakWorkingSet64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 325
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long PeakWorkingSet64 { get; }
+    content.vb: Public ReadOnly Property PeakWorkingSet64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.PeakVirtualMemorySize64
+  id: PeakVirtualMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PeakVirtualMemorySize64
+  fullName: System.Diagnostics.Process.PeakVirtualMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 334
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long PeakVirtualMemorySize64 { get; }
+    content.vb: Public ReadOnly Property PeakVirtualMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.PriorityBoostEnabled
+  id: PriorityBoostEnabled
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PriorityBoostEnabled
+  fullName: System.Diagnostics.Process.PriorityBoostEnabled
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 350
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public bool PriorityBoostEnabled { get; set; }
+    content.vb: Public Property PriorityBoostEnabled As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Diagnostics.Process.PriorityClass
+  id: PriorityClass
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PriorityClass
+  fullName: System.Diagnostics.Process.PriorityClass
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 375
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public ProcessPriorityClass PriorityClass { get; set; }
+    content.vb: Public Property PriorityClass As ProcessPriorityClass
+    parameters: []
+    return:
+      type: System.Diagnostics.ProcessPriorityClass
+- uid: System.Diagnostics.Process.PrivateMemorySize64
+  id: PrivateMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PrivateMemorySize64
+  fullName: System.Diagnostics.Process.PrivateMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 399
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long PrivateMemorySize64 { get; }
+    content.vb: Public ReadOnly Property PrivateMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.ProcessName
+  id: ProcessName
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: ProcessName
+  fullName: System.Diagnostics.Process.ProcessName
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 414
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public string ProcessName { get; }
+    content.vb: Public ReadOnly Property ProcessName As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Diagnostics.Process.ProcessorAffinity
+  id: ProcessorAffinity
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: ProcessorAffinity
+  fullName: System.Diagnostics.Process.ProcessorAffinity
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 429
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public IntPtr ProcessorAffinity { get; set; }
+    content.vb: Public Property ProcessorAffinity As IntPtr
+    parameters: []
+    return:
+      type: System.IntPtr
+- uid: System.Diagnostics.Process.SessionId
+  id: SessionId
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: SessionId
+  fullName: System.Diagnostics.Process.SessionId
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 448
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public int SessionId { get; }
+    content.vb: Public ReadOnly Property SessionId As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Diagnostics.Process.StartInfo
+  id: StartInfo
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: StartInfo
+  fullName: System.Diagnostics.Process.StartInfo
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 463
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public ProcessStartInfo StartInfo { get; set; }
+    content.vb: Public Property StartInfo As ProcessStartInfo
+    parameters: []
+    return:
+      type: System.Diagnostics.ProcessStartInfo
+- uid: System.Diagnostics.Process.Threads
+  id: Threads
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Threads
+  fullName: System.Diagnostics.Process.Threads
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 500
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public ProcessThreadCollection Threads { get; }
+    content.vb: Public ReadOnly Property Threads As ProcessThreadCollection
+    parameters: []
+    return:
+      type: System.Diagnostics.ProcessThreadCollection
+- uid: System.Diagnostics.Process.VirtualMemorySize64
+  id: VirtualMemorySize64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: VirtualMemorySize64
+  fullName: System.Diagnostics.Process.VirtualMemorySize64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 520
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long VirtualMemorySize64 { get; }
+    content.vb: Public ReadOnly Property VirtualMemorySize64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.EnableRaisingEvents
+  id: EnableRaisingEvents
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: EnableRaisingEvents
+  fullName: System.Diagnostics.Process.EnableRaisingEvents
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 536
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public bool EnableRaisingEvents { get; set; }
+    content.vb: Public Property EnableRaisingEvents As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Diagnostics.Process.StandardInput
+  id: StandardInput
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: StandardInput
+  fullName: System.Diagnostics.Process.StandardInput
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 567
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public StreamWriter StandardInput { get; }
+    content.vb: Public ReadOnly Property StandardInput As StreamWriter
+    parameters: []
+    return:
+      type: System.IO.StreamWriter
+- uid: System.Diagnostics.Process.StandardOutput
+  id: StandardOutput
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: StandardOutput
+  fullName: System.Diagnostics.Process.StandardOutput
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 583
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public StreamReader StandardOutput { get; }
+    content.vb: Public ReadOnly Property StandardOutput As StreamReader
+    parameters: []
+    return:
+      type: System.IO.StreamReader
+- uid: System.Diagnostics.Process.StandardError
+  id: StandardError
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: StandardError
+  fullName: System.Diagnostics.Process.StandardError
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 608
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public StreamReader StandardError { get; }
+    content.vb: Public ReadOnly Property StandardError As StreamReader
+    parameters: []
+    return:
+      type: System.IO.StreamReader
+- uid: System.Diagnostics.Process.WorkingSet64
+  id: WorkingSet64
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: WorkingSet64
+  fullName: System.Diagnostics.Process.WorkingSet64
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 630
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public long WorkingSet64 { get; }
+    content.vb: Public ReadOnly Property WorkingSet64 As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.Diagnostics.Process.Exited
+  id: Exited
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Exited
+  fullName: System.Diagnostics.Process.Exited
+  type: Event
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 639
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public event EventHandler Exited
+    content.vb: Public Event Exited As EventHandler
+- uid: System.Diagnostics.Process.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Dispose(Boolean)
+  fullName: System.Diagnostics.Process.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 689
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.Diagnostics.Process.GetProcessById(System.Int32,System.String)
+  id: GetProcessById(System.Int32,System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetProcessById(Int32, String)
+  fullName: System.Diagnostics.Process.GetProcessById(System.Int32, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 859
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process GetProcessById(int processId, string machineName)
+    content.vb: Public Shared Function GetProcessById(processId As Integer, machineName As String) As Process
+    parameters:
+    - id: processId
+      type: System.Int32
+    - id: machineName
+      type: System.String
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.GetProcessById(System.Int32)
+  id: GetProcessById(System.Int32)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetProcessById(Int32)
+  fullName: System.Diagnostics.Process.GetProcessById(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 875
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process GetProcessById(int processId)
+    content.vb: Public Shared Function GetProcessById(processId As Integer) As Process
+    parameters:
+    - id: processId
+      type: System.Int32
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.GetProcessesByName(System.String)
+  id: GetProcessesByName(System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetProcessesByName(String)
+  fullName: System.Diagnostics.Process.GetProcessesByName(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 888
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process[] GetProcessesByName(string processName)
+    content.vb: Public Shared Function GetProcessesByName(processName As String) As Process()
+    parameters:
+    - id: processName
+      type: System.String
+    return:
+      type: System.Diagnostics.Process[]
+- uid: System.Diagnostics.Process.GetProcessesByName(System.String,System.String)
+  id: GetProcessesByName(System.String,System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetProcessesByName(String, String)
+  fullName: System.Diagnostics.Process.GetProcessesByName(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 899
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process[] GetProcessesByName(string processName, string machineName)
+    content.vb: Public Shared Function GetProcessesByName(processName As String, machineName As String) As Process()
+    parameters:
+    - id: processName
+      type: System.String
+    - id: machineName
+      type: System.String
+    return:
+      type: System.Diagnostics.Process[]
+- uid: System.Diagnostics.Process.GetProcesses
+  id: GetProcesses
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetProcesses()
+  fullName: System.Diagnostics.Process.GetProcesses()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 928
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process[] GetProcesses()
+    content.vb: Public Shared Function GetProcesses As Process()
+    return:
+      type: System.Diagnostics.Process[]
+- uid: System.Diagnostics.Process.GetProcesses(System.String)
+  id: GetProcesses(System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetProcesses(String)
+  fullName: System.Diagnostics.Process.GetProcesses(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 940
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process[] GetProcesses(string machineName)
+    content.vb: Public Shared Function GetProcesses(machineName As String) As Process()
+    parameters:
+    - id: machineName
+      type: System.String
+    return:
+      type: System.Diagnostics.Process[]
+- uid: System.Diagnostics.Process.GetCurrentProcess
+  id: GetCurrentProcess
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: GetCurrentProcess()
+  fullName: System.Diagnostics.Process.GetCurrentProcess()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 971
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process GetCurrentProcess()
+    content.vb: Public Shared Function GetCurrentProcess As Process
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.OnExited
+  id: OnExited
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: OnExited()
+  fullName: System.Diagnostics.Process.OnExited()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 981
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: protected void OnExited()
+    content.vb: Protected Sub OnExited
+- uid: System.Diagnostics.Process.Refresh
+  id: Refresh
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Refresh()
+  fullName: System.Diagnostics.Process.Refresh()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1017
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+- uid: System.Diagnostics.Process.Start
+  id: Start
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Start()
+  fullName: System.Diagnostics.Process.Start()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1083
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public bool Start()
+    content.vb: Public Function Start As Boolean
+    return:
+      type: System.Boolean
+- uid: System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)
+  id: Start(System.String,System.String,System.Security.SecureString,System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Start(String, String, SecureString, String)
+  fullName: System.Diagnostics.Process.Start(System.String, System.String, System.Security.SecureString, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1115
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process Start(string fileName, string userName, SecureString password, string domain)
+    content.vb: Public Shared Function Start(fileName As String, userName As String, password As SecureString, domain As String) As Process
+    parameters:
+    - id: fileName
+      type: System.String
+    - id: userName
+      type: System.String
+    - id: password
+      type: System.Security.SecureString
+    - id: domain
+      type: System.String
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
+  id: Start(System.String,System.String,System.String,System.Security.SecureString,System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Start(String, String, String, SecureString, String)
+  fullName: System.Diagnostics.Process.Start(System.String, System.String, System.String, System.Security.SecureString, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1124
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process Start(string fileName, string arguments, string userName, SecureString password, string domain)
+    content.vb: Public Shared Function Start(fileName As String, arguments As String, userName As String, password As SecureString, domain As String) As Process
+    parameters:
+    - id: fileName
+      type: System.String
+    - id: arguments
+      type: System.String
+    - id: userName
+      type: System.String
+    - id: password
+      type: System.Security.SecureString
+    - id: domain
+      type: System.String
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.Start(System.String)
+  id: Start(System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Start(String)
+  fullName: System.Diagnostics.Process.Start(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1140
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process Start(string fileName)
+    content.vb: Public Shared Function Start(fileName As String) As Process
+    parameters:
+    - id: fileName
+      type: System.String
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.Start(System.String,System.String)
+  id: Start(System.String,System.String)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Start(String, String)
+  fullName: System.Diagnostics.Process.Start(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1153
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process Start(string fileName, string arguments)
+    content.vb: Public Shared Function Start(fileName As String, arguments As String) As Process
+    parameters:
+    - id: fileName
+      type: System.String
+    - id: arguments
+      type: System.String
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)
+  id: Start(System.Diagnostics.ProcessStartInfo)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Start(ProcessStartInfo)
+  fullName: System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1166
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public static Process Start(ProcessStartInfo startInfo)
+    content.vb: Public Shared Function Start(startInfo As ProcessStartInfo) As Process
+    parameters:
+    - id: startInfo
+      type: System.Diagnostics.ProcessStartInfo
+    return:
+      type: System.Diagnostics.Process
+- uid: System.Diagnostics.Process.ToString
+  id: ToString
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: ToString()
+  fullName: System.Diagnostics.Process.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1200
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+  overridden: System.Object.ToString
+- uid: System.Diagnostics.Process.WaitForExit
+  id: WaitForExit
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: WaitForExit()
+  fullName: System.Diagnostics.Process.WaitForExit()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1219
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void WaitForExit()
+    content.vb: Public Sub WaitForExit
+- uid: System.Diagnostics.Process.WaitForExit(System.Int32)
+  id: WaitForExit(System.Int32)
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: WaitForExit(Int32)
+  fullName: System.Diagnostics.Process.WaitForExit(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1228
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: >-
+    Instructs the Process component to wait the specified number of milliseconds for
+
+    the associated process to exit.
+  syntax:
+    content: public bool WaitForExit(int milliseconds)
+    content.vb: Public Function WaitForExit(milliseconds As Integer) As Boolean
+    parameters:
+    - id: milliseconds
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Diagnostics.Process.BeginOutputReadLine
+  id: BeginOutputReadLine
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: BeginOutputReadLine()
+  fullName: System.Diagnostics.Process.BeginOutputReadLine()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1246
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void BeginOutputReadLine()
+    content.vb: Public Sub BeginOutputReadLine
+- uid: System.Diagnostics.Process.BeginErrorReadLine
+  id: BeginErrorReadLine
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: BeginErrorReadLine()
+  fullName: System.Diagnostics.Process.BeginErrorReadLine()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1284
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void BeginErrorReadLine()
+    content.vb: Public Sub BeginErrorReadLine
+- uid: System.Diagnostics.Process.CancelOutputRead
+  id: CancelOutputRead
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: CancelOutputRead()
+  fullName: System.Diagnostics.Process.CancelOutputRead()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1321
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void CancelOutputRead()
+    content.vb: Public Sub CancelOutputRead
+- uid: System.Diagnostics.Process.CancelErrorRead
+  id: CancelErrorRead
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: CancelErrorRead()
+  fullName: System.Diagnostics.Process.CancelErrorRead()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1341
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void CancelErrorRead()
+    content.vb: Public Sub CancelErrorRead
+- uid: System.Diagnostics.Process.Dispose
+  id: Dispose
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Dispose()
+  fullName: System.Diagnostics.Process.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.cs
+    startLine: 1377
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.Diagnostics.Process.EnterDebugMode
+  id: EnterDebugMode
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: EnterDebugMode()
+  fullName: System.Diagnostics.Process.EnterDebugMode()
+  type: Method
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 21
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: >-
+    Puts a Process component in state to interact with operating system processes that run in a
+
+    special mode by enabling the native property SeDebugPrivilege on the current thread.
+  syntax:
+    content: public static void EnterDebugMode()
+    content.vb: Public Shared Sub EnterDebugMode
+- uid: System.Diagnostics.Process.LeaveDebugMode
+  id: LeaveDebugMode
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: LeaveDebugMode()
+  fullName: System.Diagnostics.Process.LeaveDebugMode()
+  type: Method
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 30
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: >-
+    Takes a Process component out of the state that lets it interact with operating system processes
+
+    that run in a special mode.
+  syntax:
+    content: public static void LeaveDebugMode()
+    content.vb: Public Shared Sub LeaveDebugMode
+- uid: System.Diagnostics.Process.Kill
+  id: Kill
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: Kill()
+  fullName: System.Diagnostics.Process.Kill()
+  type: Method
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 36
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: Stops the associated process immediately.
+  syntax:
+    content: public void Kill()
+    content.vb: Public Sub Kill
+- uid: System.Diagnostics.Process.MainModule
+  id: MainModule
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: MainModule
+  fullName: System.Diagnostics.Process.MainModule
+  type: Property
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 118
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: Gets the main module for the associated process.
+  syntax:
+    content: public ProcessModule MainModule { get; }
+    content.vb: Public ReadOnly Property MainModule As ProcessModule
+    parameters: []
+    return:
+      type: System.Diagnostics.ProcessModule
+- uid: System.Diagnostics.Process.PrivilegedProcessorTime
+  id: PrivilegedProcessorTime
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: PrivilegedProcessorTime
+  fullName: System.Diagnostics.Process.PrivilegedProcessorTime
+  type: Property
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 195
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: Gets the amount of time the process has spent running code inside the operating system core.
+  syntax:
+    content: public TimeSpan PrivilegedProcessorTime { get; }
+    content.vb: Public ReadOnly Property PrivilegedProcessorTime As TimeSpan
+    parameters: []
+    return:
+      type: System.TimeSpan
+- uid: System.Diagnostics.Process.StartTime
+  id: StartTime
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: StartTime
+  fullName: System.Diagnostics.Process.StartTime
+  type: Property
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 201
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: Gets the time the associated process was started.
+  syntax:
+    content: public DateTime StartTime { get; }
+    content.vb: Public ReadOnly Property StartTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.Diagnostics.Process.TotalProcessorTime
+  id: TotalProcessorTime
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: TotalProcessorTime
+  fullName: System.Diagnostics.Process.TotalProcessorTime
+  type: Property
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 211
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: >-
+    Gets the amount of time the associated process has spent utilizing the CPU.
+
+    It is the sum of the [System.Diagnostics.Process.UserProcessorTime](System.Diagnostics.Process.yml) and
+
+    [System.Diagnostics.Process.PrivilegedProcessorTime](System.Diagnostics.Process.yml).
+  syntax:
+    content: public TimeSpan TotalProcessorTime { get; }
+    content.vb: Public ReadOnly Property TotalProcessorTime As TimeSpan
+    parameters: []
+    return:
+      type: System.TimeSpan
+- uid: System.Diagnostics.Process.UserProcessorTime
+  id: UserProcessorTime
+  parent: System.Diagnostics.Process
+  href: System.Diagnostics.Process.yml
+  name: UserProcessorTime
+  fullName: System.Diagnostics.Process.UserProcessorTime
+  type: Property
+  source:
+    remote: *o1
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/Process.Windows.cs
+    startLine: 220
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  summary: >-
+    Gets the amount of time the associated process has spent running code
+
+    inside the application portion of the process (not the operating system core).
+  syntax:
+    content: public TimeSpan UserProcessorTime { get; }
+    content.vb: Public ReadOnly Property UserProcessorTime As TimeSpan
+    parameters: []
+    return:
+      type: System.TimeSpan
+references:
+- uid: System.Diagnostics
+  isExternal: false
+  name: System.Diagnostics
+  fullName: System.Diagnostics
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: Microsoft.Win32.SafeHandles.SafeProcessHandle
+  isExternal: false
+  href: Microsoft.Win32.SafeHandles.SafeProcessHandle.yml
+  name: SafeProcessHandle
+  fullName: Microsoft.Win32.SafeHandles.SafeProcessHandle
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  fullName: System.DateTime
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.IntPtr
+- uid: System.Diagnostics.ProcessModuleCollection
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.ProcessModuleCollection.yml
+  name: ProcessModuleCollection
+  fullName: System.Diagnostics.ProcessModuleCollection
+  type: Class
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  fullName: System.Int64
+- uid: System.Diagnostics.ProcessPriorityClass
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.ProcessPriorityClass.yml
+  name: ProcessPriorityClass
+  fullName: System.Diagnostics.ProcessPriorityClass
+  type: Enum
+- uid: System.Diagnostics.ProcessStartInfo
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.ProcessStartInfo.yml
+  name: ProcessStartInfo
+  fullName: System.Diagnostics.ProcessStartInfo
+  type: Class
+- uid: System.Diagnostics.ProcessThreadCollection
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.ProcessThreadCollection.yml
+  name: ProcessThreadCollection
+  fullName: System.Diagnostics.ProcessThreadCollection
+  type: Class
+- uid: System.IO.StreamWriter
+  parent: System.IO
+  isExternal: true
+  name: StreamWriter
+  fullName: System.IO.StreamWriter
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.IO.StreamReader
+  parent: System.IO
+  isExternal: true
+  name: StreamReader
+  fullName: System.IO.StreamReader
+- uid: System.Diagnostics.Process
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.Process.yml
+  name: Process
+  fullName: System.Diagnostics.Process
+  type: Class
+- uid: System.Diagnostics.Process[]
+  isExternal: false
+  href: System.Diagnostics.Process.yml
+  name: Process[]
+  name.vb: Process()
+  fullName: System.Diagnostics.Process[]
+  fullName.vb: System.Diagnostics.Process()
+  spec.csharp:
+  - uid: System.Diagnostics.Process
+    name: Process
+    fullName: System.Diagnostics.Process
+    href: System.Diagnostics.Process.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Diagnostics.Process
+    name: Process
+    fullName: System.Diagnostics.Process
+    href: System.Diagnostics.Process.yml
+  - name: ()
+    fullName: ()
+- uid: System.Security.SecureString
+  parent: System.Security
+  isExternal: true
+  name: SecureString
+  fullName: System.Security.SecureString
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Diagnostics.ProcessModule
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.ProcessModule.yml
+  name: ProcessModule
+  fullName: System.Diagnostics.ProcessModule
+  type: Class
+- uid: System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Diagnostics.Process.UserProcessorTime
+- uid: System.Diagnostics.Process.PrivilegedProcessorTime

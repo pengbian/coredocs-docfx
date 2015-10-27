@@ -1,0 +1,81 @@
+items:
+- uid: System.Collections.IStructuralComparable
+  id: IStructuralComparable
+  parent: System.Collections
+  children:
+  - System.Collections.IStructuralComparable.CompareTo(System.Object,System.Collections.IComparer)
+  href: System.Collections.IStructuralComparable.yml
+  name: IStructuralComparable
+  fullName: System.Collections.IStructuralComparable
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/IStructuralComparable.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/IStructuralComparable.cs
+    startLine: 6
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public interface IStructuralComparable
+    content.vb: Public Interface IStructuralComparable
+- uid: System.Collections.IStructuralComparable.CompareTo(System.Object,System.Collections.IComparer)
+  id: CompareTo(System.Object,System.Collections.IComparer)
+  parent: System.Collections.IStructuralComparable
+  href: System.Collections.IStructuralComparable.yml
+  name: CompareTo(Object, IComparer)
+  fullName: System.Collections.IStructuralComparable.CompareTo(System.Object, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IStructuralComparable.cs
+    startLine: 7
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: int CompareTo(object other, IComparer comparer)
+    content.vb: Function CompareTo(other As Object, comparer As IComparer) As Integer
+    parameters:
+    - id: other
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IComparer
+    return:
+      type: System.Int32
+      description: 
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Collections.IComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IComparer.yml
+  name: IComparer
+  fullName: System.Collections.IComparer
+  type: Interface
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

@@ -1,0 +1,63 @@
+items:
+- uid: System.Security.PartialTrustVisibilityLevel
+  id: PartialTrustVisibilityLevel
+  parent: System.Security
+  children:
+  - System.Security.PartialTrustVisibilityLevel.NotVisibleByDefault
+  - System.Security.PartialTrustVisibilityLevel.VisibleToAllHosts
+  href: System.Security.PartialTrustVisibilityLevel.yml
+  name: PartialTrustVisibilityLevel
+  fullName: System.Security.PartialTrustVisibilityLevel
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Attributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Attributes.cs
+    startLine: 52
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public enum PartialTrustVisibilityLevel
+    content.vb: Public Enum PartialTrustVisibilityLevel
+- uid: System.Security.PartialTrustVisibilityLevel.VisibleToAllHosts
+  id: VisibleToAllHosts
+  parent: System.Security.PartialTrustVisibilityLevel
+  href: System.Security.PartialTrustVisibilityLevel.yml
+  name: VisibleToAllHosts
+  fullName: System.Security.PartialTrustVisibilityLevel.VisibleToAllHosts
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Attributes.cs
+    startLine: 54
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: VisibleToAllHosts = 0
+- uid: System.Security.PartialTrustVisibilityLevel.NotVisibleByDefault
+  id: NotVisibleByDefault
+  parent: System.Security.PartialTrustVisibilityLevel
+  href: System.Security.PartialTrustVisibilityLevel.yml
+  name: NotVisibleByDefault
+  fullName: System.Security.PartialTrustVisibilityLevel.NotVisibleByDefault
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Attributes.cs
+    startLine: 55
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: NotVisibleByDefault = 1
+references:
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace

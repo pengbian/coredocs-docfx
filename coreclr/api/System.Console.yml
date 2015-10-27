@@ -1,0 +1,2330 @@
+items:
+- uid: System.Console
+  id: Console
+  parent: System
+  children:
+  - System.Console.BackgroundColor
+  - System.Console.Beep
+  - System.Console.Beep(System.Int32,System.Int32)
+  - System.Console.BufferHeight
+  - System.Console.BufferWidth
+  - System.Console.CancelKeyPress
+  - System.Console.CapsLock
+  - System.Console.Clear
+  - System.Console.CursorLeft
+  - System.Console.CursorSize
+  - System.Console.CursorTop
+  - System.Console.CursorVisible
+  - System.Console.Error
+  - System.Console.ForegroundColor
+  - System.Console.In
+  - System.Console.InputEncoding
+  - System.Console.KeyAvailable
+  - System.Console.LargestWindowHeight
+  - System.Console.LargestWindowWidth
+  - System.Console.MoveBufferArea(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.Console.MoveBufferArea(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Char,System.ConsoleColor,System.ConsoleColor)
+  - System.Console.NumberLock
+  - System.Console.OpenStandardError
+  - System.Console.OpenStandardError(System.Int32)
+  - System.Console.OpenStandardInput
+  - System.Console.OpenStandardInput(System.Int32)
+  - System.Console.OpenStandardOutput
+  - System.Console.OpenStandardOutput(System.Int32)
+  - System.Console.Out
+  - System.Console.OutputEncoding
+  - System.Console.Read
+  - System.Console.ReadKey
+  - System.Console.ReadKey(System.Boolean)
+  - System.Console.ReadLine
+  - System.Console.ResetColor
+  - System.Console.SetBufferSize(System.Int32,System.Int32)
+  - System.Console.SetCursorPosition(System.Int32,System.Int32)
+  - System.Console.SetError(System.IO.TextWriter)
+  - System.Console.SetIn(System.IO.TextReader)
+  - System.Console.SetOut(System.IO.TextWriter)
+  - System.Console.SetWindowPosition(System.Int32,System.Int32)
+  - System.Console.SetWindowSize(System.Int32,System.Int32)
+  - System.Console.Title
+  - System.Console.TreatControlCAsInput
+  - System.Console.WindowHeight
+  - System.Console.WindowLeft
+  - System.Console.WindowTop
+  - System.Console.WindowWidth
+  - System.Console.Write(System.Boolean)
+  - System.Console.Write(System.Char)
+  - System.Console.Write(System.Char[])
+  - System.Console.Write(System.Char[],System.Int32,System.Int32)
+  - System.Console.Write(System.Decimal)
+  - System.Console.Write(System.Double)
+  - System.Console.Write(System.Int32)
+  - System.Console.Write(System.Int64)
+  - System.Console.Write(System.Object)
+  - System.Console.Write(System.Single)
+  - System.Console.Write(System.String)
+  - System.Console.Write(System.String,System.Object)
+  - System.Console.Write(System.String,System.Object,System.Object)
+  - System.Console.Write(System.String,System.Object,System.Object,System.Object)
+  - System.Console.Write(System.String,System.Object,System.Object,System.Object,System.Object,)
+  - System.Console.Write(System.String,System.Object[])
+  - System.Console.Write(System.UInt32)
+  - System.Console.Write(System.UInt64)
+  - System.Console.WriteLine
+  - System.Console.WriteLine(System.Boolean)
+  - System.Console.WriteLine(System.Char)
+  - System.Console.WriteLine(System.Char[])
+  - System.Console.WriteLine(System.Char[],System.Int32,System.Int32)
+  - System.Console.WriteLine(System.Decimal)
+  - System.Console.WriteLine(System.Double)
+  - System.Console.WriteLine(System.Int32)
+  - System.Console.WriteLine(System.Int64)
+  - System.Console.WriteLine(System.Object)
+  - System.Console.WriteLine(System.Single)
+  - System.Console.WriteLine(System.String)
+  - System.Console.WriteLine(System.String,System.Object)
+  - System.Console.WriteLine(System.String,System.Object,System.Object)
+  - System.Console.WriteLine(System.String,System.Object,System.Object,System.Object)
+  - System.Console.WriteLine(System.String,System.Object,System.Object,System.Object,System.Object,)
+  - System.Console.WriteLine(System.String,System.Object[])
+  - System.Console.WriteLine(System.UInt32)
+  - System.Console.WriteLine(System.UInt64)
+  href: System.Console.yml
+  name: Console
+  fullName: System.Console
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Console.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 46
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public class Console
+    content.vb: Public Class Console
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Console.In
+  id: In
+  parent: System.Console
+  href: System.Console.yml
+  name: In
+  fullName: System.Console.In
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 250
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TextReader In { get; }
+    content.vb: Public Shared ReadOnly Property In As TextReader
+    parameters: []
+    return:
+      type: System.IO.TextReader
+      description: 
+- uid: System.Console.Out
+  id: Out
+  parent: System.Console
+  href: System.Console.yml
+  name: Out
+  fullName: System.Console.Out
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 283
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TextWriter Out { get; }
+    content.vb: Public Shared ReadOnly Property Out As TextWriter
+    parameters: []
+    return:
+      type: System.IO.TextWriter
+      description: 
+- uid: System.Console.Error
+  id: Error
+  parent: System.Console
+  href: System.Console.yml
+  name: Error
+  fullName: System.Console.Error
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 294
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TextWriter Error { get; }
+    content.vb: Public Shared ReadOnly Property Error As TextWriter
+    parameters: []
+    return:
+      type: System.IO.TextWriter
+      description: 
+- uid: System.Console.InputEncoding
+  id: InputEncoding
+  parent: System.Console
+  href: System.Console.yml
+  name: InputEncoding
+  fullName: System.Console.InputEncoding
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 501
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Encoding InputEncoding { get; }
+    content.vb: Public Shared ReadOnly Property InputEncoding As Encoding
+    parameters: []
+    return:
+      type: System.Text.Encoding
+      description: 
+- uid: System.Console.OutputEncoding
+  id: OutputEncoding
+  parent: System.Console
+  href: System.Console.yml
+  name: OutputEncoding
+  fullName: System.Console.OutputEncoding
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 552
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Encoding OutputEncoding { get; }
+    content.vb: Public Shared ReadOnly Property OutputEncoding As Encoding
+    parameters: []
+    return:
+      type: System.Text.Encoding
+      description: 
+- uid: System.Console.Beep
+  id: Beep
+  parent: System.Console
+  href: System.Console.yml
+  name: Beep()
+  fullName: System.Console.Beep()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 608
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Beep()
+    content.vb: Public Shared Sub Beep
+- uid: System.Console.Beep(System.Int32,System.Int32)
+  id: Beep(System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: Beep(Int32, Int32)
+  fullName: System.Console.Beep(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 614
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Beep(int frequency, int duration)
+    content.vb: Public Shared Sub Beep(frequency As Integer, duration As Integer)
+    parameters:
+    - id: frequency
+      type: System.Int32
+    - id: duration
+      type: System.Int32
+- uid: System.Console.Clear
+  id: Clear
+  parent: System.Console
+  href: System.Console.yml
+  name: Clear()
+  fullName: System.Console.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 629
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Clear()
+    content.vb: Public Shared Sub Clear
+- uid: System.Console.BackgroundColor
+  id: BackgroundColor
+  parent: System.Console
+  href: System.Console.yml
+  name: BackgroundColor
+  fullName: System.Console.BackgroundColor
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 695
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static ConsoleColor BackgroundColor { get; set; }
+    content.vb: Public Shared Property BackgroundColor As ConsoleColor
+    parameters: []
+    return:
+      type: System.ConsoleColor
+      description: 
+- uid: System.Console.ForegroundColor
+  id: ForegroundColor
+  parent: System.Console
+  href: System.Console.yml
+  name: ForegroundColor
+  fullName: System.Console.ForegroundColor
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 732
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static ConsoleColor ForegroundColor { get; set; }
+    content.vb: Public Shared Property ForegroundColor As ConsoleColor
+    parameters: []
+    return:
+      type: System.ConsoleColor
+      description: 
+- uid: System.Console.ResetColor
+  id: ResetColor
+  parent: System.Console
+  href: System.Console.yml
+  name: ResetColor()
+  fullName: System.Console.ResetColor()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 769
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void ResetColor()
+    content.vb: Public Shared Sub ResetColor
+- uid: System.Console.MoveBufferArea(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: MoveBufferArea(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: MoveBufferArea(Int32, Int32, Int32, Int32, Int32, Int32)
+  fullName: System.Console.MoveBufferArea(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 788
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void MoveBufferArea(int sourceLeft, int sourceTop, int sourceWidth, int sourceHeight, int targetLeft, int targetTop)
+    content.vb: Public Shared Sub MoveBufferArea(sourceLeft As Integer, sourceTop As Integer, sourceWidth As Integer, sourceHeight As Integer, targetLeft As Integer, targetTop As Integer)
+    parameters:
+    - id: sourceLeft
+      type: System.Int32
+    - id: sourceTop
+      type: System.Int32
+    - id: sourceWidth
+      type: System.Int32
+    - id: sourceHeight
+      type: System.Int32
+    - id: targetLeft
+      type: System.Int32
+    - id: targetTop
+      type: System.Int32
+- uid: System.Console.MoveBufferArea(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Char,System.ConsoleColor,System.ConsoleColor)
+  id: MoveBufferArea(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Char,System.ConsoleColor,System.ConsoleColor)
+  parent: System.Console
+  href: System.Console.yml
+  name: MoveBufferArea(Int32, Int32, Int32, Int32, Int32, Int32, Char, ConsoleColor, ConsoleColor)
+  fullName: System.Console.MoveBufferArea(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Char, System.ConsoleColor, System.ConsoleColor)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 794
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void MoveBufferArea(int sourceLeft, int sourceTop, int sourceWidth, int sourceHeight, int targetLeft, int targetTop, char sourceChar, ConsoleColor sourceForeColor, ConsoleColor sourceBackColor)
+    content.vb: Public Shared Sub MoveBufferArea(sourceLeft As Integer, sourceTop As Integer, sourceWidth As Integer, sourceHeight As Integer, targetLeft As Integer, targetTop As Integer, sourceChar As Char, sourceForeColor As ConsoleColor, sourceBackColor As ConsoleColor)
+    parameters:
+    - id: sourceLeft
+      type: System.Int32
+    - id: sourceTop
+      type: System.Int32
+    - id: sourceWidth
+      type: System.Int32
+    - id: sourceHeight
+      type: System.Int32
+    - id: targetLeft
+      type: System.Int32
+    - id: targetTop
+      type: System.Int32
+    - id: sourceChar
+      type: System.Char
+    - id: sourceForeColor
+      type: System.ConsoleColor
+    - id: sourceBackColor
+      type: System.ConsoleColor
+- uid: System.Console.BufferHeight
+  id: BufferHeight
+  parent: System.Console
+  href: System.Console.yml
+  name: BufferHeight
+  fullName: System.Console.BufferHeight
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 939
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BufferHeight { get; set; }
+    content.vb: Public Shared Property BufferHeight As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.BufferWidth
+  id: BufferWidth
+  parent: System.Console
+  href: System.Console.yml
+  name: BufferWidth
+  fullName: System.Console.BufferWidth
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 950
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BufferWidth { get; set; }
+    content.vb: Public Shared Property BufferWidth As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.SetBufferSize(System.Int32,System.Int32)
+  id: SetBufferSize(System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetBufferSize(Int32, Int32)
+  fullName: System.Console.SetBufferSize(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 961
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetBufferSize(int width, int height)
+    content.vb: Public Shared Sub SetBufferSize(width As Integer, height As Integer)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+- uid: System.Console.WindowHeight
+  id: WindowHeight
+  parent: System.Console
+  href: System.Console.yml
+  name: WindowHeight
+  fullName: System.Console.WindowHeight
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 983
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int WindowHeight { get; set; }
+    content.vb: Public Shared Property WindowHeight As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.WindowWidth
+  id: WindowWidth
+  parent: System.Console
+  href: System.Console.yml
+  name: WindowWidth
+  fullName: System.Console.WindowWidth
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 994
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int WindowWidth { get; set; }
+    content.vb: Public Shared Property WindowWidth As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.SetWindowSize(System.Int32,System.Int32)
+  id: SetWindowSize(System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetWindowSize(Int32, Int32)
+  fullName: System.Console.SetWindowSize(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1005
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetWindowSize(int width, int height)
+    content.vb: Public Shared Sub SetWindowSize(width As Integer, height As Integer)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+- uid: System.Console.LargestWindowWidth
+  id: LargestWindowWidth
+  parent: System.Console
+  href: System.Console.yml
+  name: LargestWindowWidth
+  fullName: System.Console.LargestWindowWidth
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1069
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LargestWindowWidth { get; }
+    content.vb: Public Shared ReadOnly Property LargestWindowWidth As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.LargestWindowHeight
+  id: LargestWindowHeight
+  parent: System.Console
+  href: System.Console.yml
+  name: LargestWindowHeight
+  fullName: System.Console.LargestWindowHeight
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1079
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LargestWindowHeight { get; }
+    content.vb: Public Shared ReadOnly Property LargestWindowHeight As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.WindowLeft
+  id: WindowLeft
+  parent: System.Console
+  href: System.Console.yml
+  name: WindowLeft
+  fullName: System.Console.WindowLeft
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1089
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int WindowLeft { get; set; }
+    content.vb: Public Shared Property WindowLeft As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.WindowTop
+  id: WindowTop
+  parent: System.Console
+  href: System.Console.yml
+  name: WindowTop
+  fullName: System.Console.WindowTop
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1100
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int WindowTop { get; set; }
+    content.vb: Public Shared Property WindowTop As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.SetWindowPosition(System.Int32,System.Int32)
+  id: SetWindowPosition(System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetWindowPosition(Int32, Int32)
+  fullName: System.Console.SetWindowPosition(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1111
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetWindowPosition(int left, int top)
+    content.vb: Public Shared Sub SetWindowPosition(left As Integer, top As Integer)
+    parameters:
+    - id: left
+      type: System.Int32
+    - id: top
+      type: System.Int32
+- uid: System.Console.CursorLeft
+  id: CursorLeft
+  parent: System.Console
+  href: System.Console.yml
+  name: CursorLeft
+  fullName: System.Console.CursorLeft
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1140
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int CursorLeft { get; set; }
+    content.vb: Public Shared Property CursorLeft As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.CursorTop
+  id: CursorTop
+  parent: System.Console
+  href: System.Console.yml
+  name: CursorTop
+  fullName: System.Console.CursorTop
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1151
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int CursorTop { get; set; }
+    content.vb: Public Shared Property CursorTop As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.SetCursorPosition(System.Int32,System.Int32)
+  id: SetCursorPosition(System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetCursorPosition(Int32, Int32)
+  fullName: System.Console.SetCursorPosition(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1162
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetCursorPosition(int left, int top)
+    content.vb: Public Shared Sub SetCursorPosition(left As Integer, top As Integer)
+    parameters:
+    - id: left
+      type: System.Int32
+    - id: top
+      type: System.Int32
+- uid: System.Console.CursorSize
+  id: CursorSize
+  parent: System.Console
+  href: System.Console.yml
+  name: CursorSize
+  fullName: System.Console.CursorSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1194
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int CursorSize { get; set; }
+    content.vb: Public Shared Property CursorSize As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.CursorVisible
+  id: CursorVisible
+  parent: System.Console
+  href: System.Console.yml
+  name: CursorVisible
+  fullName: System.Console.CursorVisible
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1227
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool CursorVisible { get; set; }
+    content.vb: Public Shared Property CursorVisible As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Console.Title
+  id: Title
+  parent: System.Console
+  href: System.Console.yml
+  name: Title
+  fullName: System.Console.Title
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1260
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static string Title { get; set; }
+    content.vb: Public Shared Property Title As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.Console.ReadKey
+  id: ReadKey
+  parent: System.Console
+  href: System.Console.yml
+  name: ReadKey()
+  fullName: System.Console.ReadKey()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1308
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static ConsoleKeyInfo ReadKey()
+    content.vb: Public Shared Function ReadKey As ConsoleKeyInfo
+    return:
+      type: System.ConsoleKeyInfo
+      description: 
+- uid: System.Console.ReadKey(System.Boolean)
+  id: ReadKey(System.Boolean)
+  parent: System.Console
+  href: System.Console.yml
+  name: ReadKey(Boolean)
+  fullName: System.Console.ReadKey(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1345
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static ConsoleKeyInfo ReadKey(bool intercept)
+    content.vb: Public Shared Function ReadKey(intercept As Boolean) As ConsoleKeyInfo
+    parameters:
+    - id: intercept
+      type: System.Boolean
+    return:
+      type: System.ConsoleKeyInfo
+      description: 
+- uid: System.Console.KeyAvailable
+  id: KeyAvailable
+  parent: System.Console
+  href: System.Console.yml
+  name: KeyAvailable
+  fullName: System.Console.KeyAvailable
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1432
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool KeyAvailable { get; }
+    content.vb: Public Shared ReadOnly Property KeyAvailable As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Console.NumberLock
+  id: NumberLock
+  parent: System.Console
+  href: System.Console.yml
+  name: NumberLock
+  fullName: System.Console.NumberLock
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1474
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool NumberLock { get; }
+    content.vb: Public Shared ReadOnly Property NumberLock As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Console.CapsLock
+  id: CapsLock
+  parent: System.Console
+  href: System.Console.yml
+  name: CapsLock
+  fullName: System.Console.CapsLock
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1482
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool CapsLock { get; }
+    content.vb: Public Shared ReadOnly Property CapsLock As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Console.TreatControlCAsInput
+  id: TreatControlCAsInput
+  parent: System.Console
+  href: System.Console.yml
+  name: TreatControlCAsInput
+  fullName: System.Console.TreatControlCAsInput
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1490
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TreatControlCAsInput { get; set; }
+    content.vb: Public Shared Property TreatControlCAsInput As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Console.CancelKeyPress
+  id: CancelKeyPress
+  parent: System.Console
+  href: System.Console.yml
+  name: CancelKeyPress
+  fullName: System.Console.CancelKeyPress
+  type: Event
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1656
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static event ConsoleCancelEventHandler CancelKeyPress
+    content.vb: Public Shared Event CancelKeyPress As ConsoleCancelEventHandler
+- uid: System.Console.OpenStandardError
+  id: OpenStandardError
+  parent: System.Console
+  href: System.Console.yml
+  name: OpenStandardError()
+  fullName: System.Console.OpenStandardError()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1686
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Stream OpenStandardError()
+    content.vb: Public Shared Function OpenStandardError As Stream
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Console.OpenStandardError(System.Int32)
+  id: OpenStandardError(System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: OpenStandardError(Int32)
+  fullName: System.Console.OpenStandardError(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1692
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Stream OpenStandardError(int bufferSize)
+    content.vb: Public Shared Function OpenStandardError(bufferSize As Integer) As Stream
+    parameters:
+    - id: bufferSize
+      type: System.Int32
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Console.OpenStandardInput
+  id: OpenStandardInput
+  parent: System.Console
+  href: System.Console.yml
+  name: OpenStandardInput()
+  fullName: System.Console.OpenStandardInput()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1703
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Stream OpenStandardInput()
+    content.vb: Public Shared Function OpenStandardInput As Stream
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Console.OpenStandardInput(System.Int32)
+  id: OpenStandardInput(System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: OpenStandardInput(Int32)
+  fullName: System.Console.OpenStandardInput(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1709
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Stream OpenStandardInput(int bufferSize)
+    content.vb: Public Shared Function OpenStandardInput(bufferSize As Integer) As Stream
+    parameters:
+    - id: bufferSize
+      type: System.Int32
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Console.OpenStandardOutput
+  id: OpenStandardOutput
+  parent: System.Console
+  href: System.Console.yml
+  name: OpenStandardOutput()
+  fullName: System.Console.OpenStandardOutput()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1720
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Stream OpenStandardOutput()
+    content.vb: Public Shared Function OpenStandardOutput As Stream
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Console.OpenStandardOutput(System.Int32)
+  id: OpenStandardOutput(System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: OpenStandardOutput(Int32)
+  fullName: System.Console.OpenStandardOutput(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1726
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Stream OpenStandardOutput(int bufferSize)
+    content.vb: Public Shared Function OpenStandardOutput(bufferSize As Integer) As Stream
+    parameters:
+    - id: bufferSize
+      type: System.Int32
+    return:
+      type: System.IO.Stream
+      description: 
+- uid: System.Console.SetIn(System.IO.TextReader)
+  id: SetIn(System.IO.TextReader)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetIn(TextReader)
+  fullName: System.Console.SetIn(System.IO.TextReader)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1738
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetIn(TextReader newIn)
+    content.vb: Public Shared Sub SetIn(newIn As TextReader)
+    parameters:
+    - id: newIn
+      type: System.IO.TextReader
+- uid: System.Console.SetOut(System.IO.TextWriter)
+  id: SetOut(System.IO.TextWriter)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetOut(TextWriter)
+  fullName: System.Console.SetOut(System.IO.TextWriter)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1758
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetOut(TextWriter newOut)
+    content.vb: Public Shared Sub SetOut(newOut As TextWriter)
+    parameters:
+    - id: newOut
+      type: System.IO.TextWriter
+- uid: System.Console.SetError(System.IO.TextWriter)
+  id: SetError(System.IO.TextWriter)
+  parent: System.Console
+  href: System.Console.yml
+  name: SetError(TextWriter)
+  fullName: System.Console.SetError(System.IO.TextWriter)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1780
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void SetError(TextWriter newError)
+    content.vb: Public Shared Sub SetError(newError As TextWriter)
+    parameters:
+    - id: newError
+      type: System.IO.TextWriter
+- uid: System.Console.Read
+  id: Read
+  parent: System.Console
+  href: System.Console.yml
+  name: Read()
+  fullName: System.Console.Read()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1808
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int Read()
+    content.vb: Public Shared Function Read As Integer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Console.ReadLine
+  id: ReadLine
+  parent: System.Console
+  href: System.Console.yml
+  name: ReadLine()
+  fullName: System.Console.ReadLine()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1815
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static string ReadLine()
+    content.vb: Public Shared Function ReadLine As String
+    return:
+      type: System.String
+      description: 
+- uid: System.Console.WriteLine
+  id: WriteLine
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine()
+  fullName: System.Console.WriteLine()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1822
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine()
+    content.vb: Public Shared Sub WriteLine
+- uid: System.Console.WriteLine(System.Boolean)
+  id: WriteLine(System.Boolean)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Boolean)
+  fullName: System.Console.WriteLine(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1829
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(bool value)
+    content.vb: Public Shared Sub WriteLine(value As Boolean)
+    parameters:
+    - id: value
+      type: System.Boolean
+- uid: System.Console.WriteLine(System.Char)
+  id: WriteLine(System.Char)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Char)
+  fullName: System.Console.WriteLine(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1836
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(char value)
+    content.vb: Public Shared Sub WriteLine(value As Char)
+    parameters:
+    - id: value
+      type: System.Char
+- uid: System.Console.WriteLine(System.Char[])
+  id: WriteLine(System.Char[])
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Char[])
+  name.vb: WriteLine(Char())
+  fullName: System.Console.WriteLine(System.Char[])
+  fullName.vb: System.Console.WriteLine(System.Char())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1843
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(char[] buffer)
+    content.vb: Public Shared Sub WriteLine(buffer As Char())
+    parameters:
+    - id: buffer
+      type: System.Char[]
+- uid: System.Console.WriteLine(System.Char[],System.Int32,System.Int32)
+  id: WriteLine(System.Char[],System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Char[], Int32, Int32)
+  name.vb: WriteLine(Char(), Int32, Int32)
+  fullName: System.Console.WriteLine(System.Char[], System.Int32, System.Int32)
+  fullName.vb: System.Console.WriteLine(System.Char(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1850
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(char[] buffer, int index, int count)
+    content.vb: Public Shared Sub WriteLine(buffer As Char(), index As Integer, count As Integer)
+    parameters:
+    - id: buffer
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+- uid: System.Console.WriteLine(System.Decimal)
+  id: WriteLine(System.Decimal)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Decimal)
+  fullName: System.Console.WriteLine(System.Decimal)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1857
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(decimal value)
+    content.vb: Public Shared Sub WriteLine(value As Decimal)
+    parameters:
+    - id: value
+      type: System.Decimal
+- uid: System.Console.WriteLine(System.Double)
+  id: WriteLine(System.Double)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Double)
+  fullName: System.Console.WriteLine(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1864
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(double value)
+    content.vb: Public Shared Sub WriteLine(value As Double)
+    parameters:
+    - id: value
+      type: System.Double
+- uid: System.Console.WriteLine(System.Single)
+  id: WriteLine(System.Single)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Single)
+  fullName: System.Console.WriteLine(System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1871
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(float value)
+    content.vb: Public Shared Sub WriteLine(value As Single)
+    parameters:
+    - id: value
+      type: System.Single
+- uid: System.Console.WriteLine(System.Int32)
+  id: WriteLine(System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Int32)
+  fullName: System.Console.WriteLine(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1878
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(int value)
+    content.vb: Public Shared Sub WriteLine(value As Integer)
+    parameters:
+    - id: value
+      type: System.Int32
+- uid: System.Console.WriteLine(System.UInt32)
+  id: WriteLine(System.UInt32)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(UInt32)
+  fullName: System.Console.WriteLine(System.UInt32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1885
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(uint value)
+    content.vb: Public Shared Sub WriteLine(value As UInteger)
+    parameters:
+    - id: value
+      type: System.UInt32
+- uid: System.Console.WriteLine(System.Int64)
+  id: WriteLine(System.Int64)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Int64)
+  fullName: System.Console.WriteLine(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1893
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(long value)
+    content.vb: Public Shared Sub WriteLine(value As Long)
+    parameters:
+    - id: value
+      type: System.Int64
+- uid: System.Console.WriteLine(System.UInt64)
+  id: WriteLine(System.UInt64)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(UInt64)
+  fullName: System.Console.WriteLine(System.UInt64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1900
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(ulong value)
+    content.vb: Public Shared Sub WriteLine(value As ULong)
+    parameters:
+    - id: value
+      type: System.UInt64
+- uid: System.Console.WriteLine(System.Object)
+  id: WriteLine(System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(Object)
+  fullName: System.Console.WriteLine(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1908
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(object value)
+    content.vb: Public Shared Sub WriteLine(value As Object)
+    parameters:
+    - id: value
+      type: System.Object
+- uid: System.Console.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(String)
+  fullName: System.Console.WriteLine(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1915
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(string value)
+    content.vb: Public Shared Sub WriteLine(value As String)
+    parameters:
+    - id: value
+      type: System.String
+- uid: System.Console.WriteLine(System.String,System.Object)
+  id: WriteLine(System.String,System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(String, Object)
+  fullName: System.Console.WriteLine(System.String, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1923
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(string format, object arg0)
+    content.vb: Public Shared Sub WriteLine(format As String, arg0 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+- uid: System.Console.WriteLine(System.String,System.Object,System.Object)
+  id: WriteLine(System.String,System.Object,System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(String, Object, Object)
+  fullName: System.Console.WriteLine(System.String, System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1930
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(string format, object arg0, object arg1)
+    content.vb: Public Shared Sub WriteLine(format As String, arg0 As Object, arg1 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+    - id: arg1
+      type: System.Object
+- uid: System.Console.WriteLine(System.String,System.Object,System.Object,System.Object)
+  id: WriteLine(System.String,System.Object,System.Object,System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(String, Object, Object, Object)
+  fullName: System.Console.WriteLine(System.String, System.Object, System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1937
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(string format, object arg0, object arg1, object arg2)
+    content.vb: Public Shared Sub WriteLine(format As String, arg0 As Object, arg1 As Object, arg2 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+    - id: arg1
+      type: System.Object
+    - id: arg2
+      type: System.Object
+- uid: System.Console.WriteLine(System.String,System.Object,System.Object,System.Object,System.Object,)
+  id: WriteLine(System.String,System.Object,System.Object,System.Object,System.Object,)
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(String, Object, Object, Object, Object)
+  fullName: System.Console.WriteLine(System.String, System.Object, System.Object, System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1944
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(string format, object arg0, object arg1, object arg2, object arg3)
+    content.vb: Public Shared Sub WriteLine(format As String, arg0 As Object, arg1 As Object, arg2 As Object, arg3 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+    - id: arg1
+      type: System.Object
+    - id: arg2
+      type: System.Object
+    - id: arg3
+      type: System.Object
+- uid: System.Console.WriteLine(System.String,System.Object[])
+  id: WriteLine(System.String,System.Object[])
+  parent: System.Console
+  href: System.Console.yml
+  name: WriteLine(String, Object[])
+  name.vb: WriteLine(String, Object())
+  fullName: System.Console.WriteLine(System.String, System.Object[])
+  fullName.vb: System.Console.WriteLine(System.String, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1974
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void WriteLine(string format, params object[] arg)
+    content.vb: Public Shared Sub WriteLine(format As String, ParamArray arg As Object())
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg
+      type: System.Object[]
+- uid: System.Console.Write(System.String,System.Object)
+  id: Write(System.String,System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(String, Object)
+  fullName: System.Console.Write(System.String, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1984
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(string format, object arg0)
+    content.vb: Public Shared Sub Write(format As String, arg0 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+- uid: System.Console.Write(System.String,System.Object,System.Object)
+  id: Write(System.String,System.Object,System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(String, Object, Object)
+  fullName: System.Console.Write(System.String, System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1991
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(string format, object arg0, object arg1)
+    content.vb: Public Shared Sub Write(format As String, arg0 As Object, arg1 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+    - id: arg1
+      type: System.Object
+- uid: System.Console.Write(System.String,System.Object,System.Object,System.Object)
+  id: Write(System.String,System.Object,System.Object,System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(String, Object, Object, Object)
+  fullName: System.Console.Write(System.String, System.Object, System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 1998
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(string format, object arg0, object arg1, object arg2)
+    content.vb: Public Shared Sub Write(format As String, arg0 As Object, arg1 As Object, arg2 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+    - id: arg1
+      type: System.Object
+    - id: arg2
+      type: System.Object
+- uid: System.Console.Write(System.String,System.Object,System.Object,System.Object,System.Object,)
+  id: Write(System.String,System.Object,System.Object,System.Object,System.Object,)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(String, Object, Object, Object, Object)
+  fullName: System.Console.Write(System.String, System.Object, System.Object, System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2005
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(string format, object arg0, object arg1, object arg2, object arg3)
+    content.vb: Public Shared Sub Write(format As String, arg0 As Object, arg1 As Object, arg2 As Object, arg3 As Object)
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg0
+      type: System.Object
+    - id: arg1
+      type: System.Object
+    - id: arg2
+      type: System.Object
+    - id: arg3
+      type: System.Object
+- uid: System.Console.Write(System.String,System.Object[])
+  id: Write(System.String,System.Object[])
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(String, Object[])
+  name.vb: Write(String, Object())
+  fullName: System.Console.Write(System.String, System.Object[])
+  fullName.vb: System.Console.Write(System.String, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2035
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(string format, params object[] arg)
+    content.vb: Public Shared Sub Write(format As String, ParamArray arg As Object())
+    parameters:
+    - id: format
+      type: System.String
+    - id: arg
+      type: System.Object[]
+- uid: System.Console.Write(System.Boolean)
+  id: Write(System.Boolean)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Boolean)
+  fullName: System.Console.Write(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2045
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(bool value)
+    content.vb: Public Shared Sub Write(value As Boolean)
+    parameters:
+    - id: value
+      type: System.Boolean
+- uid: System.Console.Write(System.Char)
+  id: Write(System.Char)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Char)
+  fullName: System.Console.Write(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2052
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(char value)
+    content.vb: Public Shared Sub Write(value As Char)
+    parameters:
+    - id: value
+      type: System.Char
+- uid: System.Console.Write(System.Char[])
+  id: Write(System.Char[])
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Char[])
+  name.vb: Write(Char())
+  fullName: System.Console.Write(System.Char[])
+  fullName.vb: System.Console.Write(System.Char())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2059
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(char[] buffer)
+    content.vb: Public Shared Sub Write(buffer As Char())
+    parameters:
+    - id: buffer
+      type: System.Char[]
+- uid: System.Console.Write(System.Char[],System.Int32,System.Int32)
+  id: Write(System.Char[],System.Int32,System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Char[], Int32, Int32)
+  name.vb: Write(Char(), Int32, Int32)
+  fullName: System.Console.Write(System.Char[], System.Int32, System.Int32)
+  fullName.vb: System.Console.Write(System.Char(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2066
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(char[] buffer, int index, int count)
+    content.vb: Public Shared Sub Write(buffer As Char(), index As Integer, count As Integer)
+    parameters:
+    - id: buffer
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+- uid: System.Console.Write(System.Double)
+  id: Write(System.Double)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Double)
+  fullName: System.Console.Write(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2073
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(double value)
+    content.vb: Public Shared Sub Write(value As Double)
+    parameters:
+    - id: value
+      type: System.Double
+- uid: System.Console.Write(System.Decimal)
+  id: Write(System.Decimal)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Decimal)
+  fullName: System.Console.Write(System.Decimal)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2080
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(decimal value)
+    content.vb: Public Shared Sub Write(value As Decimal)
+    parameters:
+    - id: value
+      type: System.Decimal
+- uid: System.Console.Write(System.Single)
+  id: Write(System.Single)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Single)
+  fullName: System.Console.Write(System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2087
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(float value)
+    content.vb: Public Shared Sub Write(value As Single)
+    parameters:
+    - id: value
+      type: System.Single
+- uid: System.Console.Write(System.Int32)
+  id: Write(System.Int32)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Int32)
+  fullName: System.Console.Write(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2094
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(int value)
+    content.vb: Public Shared Sub Write(value As Integer)
+    parameters:
+    - id: value
+      type: System.Int32
+- uid: System.Console.Write(System.UInt32)
+  id: Write(System.UInt32)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(UInt32)
+  fullName: System.Console.Write(System.UInt32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2101
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(uint value)
+    content.vb: Public Shared Sub Write(value As UInteger)
+    parameters:
+    - id: value
+      type: System.UInt32
+- uid: System.Console.Write(System.Int64)
+  id: Write(System.Int64)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Int64)
+  fullName: System.Console.Write(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2109
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(long value)
+    content.vb: Public Shared Sub Write(value As Long)
+    parameters:
+    - id: value
+      type: System.Int64
+- uid: System.Console.Write(System.UInt64)
+  id: Write(System.UInt64)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(UInt64)
+  fullName: System.Console.Write(System.UInt64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2116
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(ulong value)
+    content.vb: Public Shared Sub Write(value As ULong)
+    parameters:
+    - id: value
+      type: System.UInt64
+- uid: System.Console.Write(System.Object)
+  id: Write(System.Object)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(Object)
+  fullName: System.Console.Write(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2124
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(object value)
+    content.vb: Public Shared Sub Write(value As Object)
+    parameters:
+    - id: value
+      type: System.Object
+- uid: System.Console.Write(System.String)
+  id: Write(System.String)
+  parent: System.Console
+  href: System.Console.yml
+  name: Write(String)
+  fullName: System.Console.Write(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Console.cs
+    startLine: 2131
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Write(string value)
+    content.vb: Public Shared Sub Write(value As String)
+    parameters:
+    - id: value
+      type: System.String
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.IO.TextReader
+  parent: System.IO
+  isExternal: false
+  href: System.IO.TextReader.yml
+  name: TextReader
+  fullName: System.IO.TextReader
+  type: Class
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.IO.TextWriter
+  parent: System.IO
+  isExternal: false
+  href: System.IO.TextWriter.yml
+  name: TextWriter
+  fullName: System.IO.TextWriter
+  type: Class
+- uid: System.Text.Encoding
+  parent: System.Text
+  isExternal: false
+  href: System.Text.Encoding.yml
+  name: Encoding
+  fullName: System.Text.Encoding
+  type: Class
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.ConsoleColor
+  parent: System
+  isExternal: false
+  href: System.ConsoleColor.yml
+  name: ConsoleColor
+  fullName: System.ConsoleColor
+  type: Enum
+- uid: System.Char
+  parent: System
+  isExternal: false
+  href: System.Char.yml
+  name: Char
+  fullName: System.Char
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.ConsoleKeyInfo
+  parent: System
+  isExternal: false
+  href: System.ConsoleKeyInfo.yml
+  name: ConsoleKeyInfo
+  fullName: System.ConsoleKeyInfo
+  type: Struct
+- uid: System.IO.Stream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.Stream.yml
+  name: Stream
+  fullName: System.IO.Stream
+  type: Class
+- uid: System.Char[]
+  isExternal: false
+  href: System.Char.yml
+  name: Char[]
+  name.vb: Char()
+  fullName: System.Char[]
+  fullName.vb: System.Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ()
+    fullName: ()
+- uid: System.Decimal
+  parent: System
+  isExternal: false
+  href: System.Decimal.yml
+  name: Decimal
+  fullName: System.Decimal
+  type: Struct
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct
+- uid: System.Single
+  parent: System
+  isExternal: false
+  href: System.Single.yml
+  name: Single
+  fullName: System.Single
+  type: Struct
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  href: System.UInt32.yml
+  name: UInt32
+  fullName: System.UInt32
+  type: Struct
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.UInt64
+  parent: System
+  isExternal: false
+  href: System.UInt64.yml
+  name: UInt64
+  fullName: System.UInt64
+  type: Struct
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()

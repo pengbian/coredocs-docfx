@@ -1,0 +1,648 @@
+items:
+- uid: System.Reflection.Binder
+  id: Binder
+  parent: System.Reflection
+  children:
+  - System.Reflection.Binder.BindToField(System.Reflection.BindingFlags,System.Reflection.FieldInfo[],System.Object,System.Globalization.CultureInfo)
+  - System.Reflection.Binder.BindToMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Object[]@,System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[],System.Object@)
+  - System.Reflection.Binder.ChangeType(System.Object,System.Type,System.Globalization.CultureInfo)
+  - System.Reflection.Binder.ReorderArgumentArray(System.Object[]@,System.Object)
+  - System.Reflection.Binder.SelectMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Type[],System.Reflection.ParameterModifier[])
+  - System.Reflection.Binder.SelectProperty(System.Reflection.BindingFlags,System.Reflection.PropertyInfo[],System.Type,System.Type[],System.Reflection.ParameterModifier[])
+  href: System.Reflection.Binder.yml
+  name: Binder
+  fullName: System.Reflection.Binder
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/Binder.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract class Binder
+    content.vb: Public MustInherit Class Binder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Reflection.Binder.BindToMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Object[]@,System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[],System.Object@)
+  id: BindToMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Object[]@,System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[],System.Object@)
+  parent: System.Reflection.Binder
+  href: System.Reflection.Binder.yml
+  name: BindToMethod(BindingFlags, MethodBase[], ref Object[], ParameterModifier[], CultureInfo, String[], out Object)
+  name.vb: BindToMethod(BindingFlags, MethodBase(), ByRef Object(), ParameterModifier(), CultureInfo, String(), ByRef Object)
+  fullName: System.Reflection.Binder.BindToMethod(System.Reflection.BindingFlags, System.Reflection.MethodBase[], ref System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[], out System.Object)
+  fullName.vb: System.Reflection.Binder.BindToMethod(System.Reflection.BindingFlags, System.Reflection.MethodBase(), ByRef System.Object(), System.Reflection.ParameterModifier(), System.Globalization.CultureInfo, System.String(), ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract MethodBase BindToMethod(BindingFlags bindingAttr, MethodBase[] match, ref object[] args, ParameterModifier[] modifiers, CultureInfo culture, string[] names, out object state)
+    content.vb: Public MustOverride Function BindToMethod(bindingAttr As BindingFlags, match As MethodBase(), ByRef args As Object(), modifiers As ParameterModifier(), culture As CultureInfo, names As String(), ByRef state As Object) As MethodBase
+    parameters:
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: match
+      type: System.Reflection.MethodBase[]
+    - id: args
+      type: System.Object[]
+    - id: modifiers
+      type: System.Reflection.ParameterModifier[]
+    - id: culture
+      type: System.Globalization.CultureInfo
+    - id: names
+      type: System.String[]
+    - id: state
+      type: System.Object
+    return:
+      type: System.Reflection.MethodBase
+      description: 
+- uid: System.Reflection.Binder.BindToField(System.Reflection.BindingFlags,System.Reflection.FieldInfo[],System.Object,System.Globalization.CultureInfo)
+  id: BindToField(System.Reflection.BindingFlags,System.Reflection.FieldInfo[],System.Object,System.Globalization.CultureInfo)
+  parent: System.Reflection.Binder
+  href: System.Reflection.Binder.yml
+  name: BindToField(BindingFlags, FieldInfo[], Object, CultureInfo)
+  name.vb: BindToField(BindingFlags, FieldInfo(), Object, CultureInfo)
+  fullName: System.Reflection.Binder.BindToField(System.Reflection.BindingFlags, System.Reflection.FieldInfo[], System.Object, System.Globalization.CultureInfo)
+  fullName.vb: System.Reflection.Binder.BindToField(System.Reflection.BindingFlags, System.Reflection.FieldInfo(), System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 28
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract FieldInfo BindToField(BindingFlags bindingAttr, FieldInfo[] match, object value, CultureInfo culture)
+    content.vb: Public MustOverride Function BindToField(bindingAttr As BindingFlags, match As FieldInfo(), value As Object, culture As CultureInfo) As FieldInfo
+    parameters:
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: match
+      type: System.Reflection.FieldInfo[]
+    - id: value
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Reflection.FieldInfo
+      description: 
+- uid: System.Reflection.Binder.SelectMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Type[],System.Reflection.ParameterModifier[])
+  id: SelectMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Type[],System.Reflection.ParameterModifier[])
+  parent: System.Reflection.Binder
+  href: System.Reflection.Binder.yml
+  name: SelectMethod(BindingFlags, MethodBase[], Type[], ParameterModifier[])
+  name.vb: SelectMethod(BindingFlags, MethodBase(), Type(), ParameterModifier())
+  fullName: System.Reflection.Binder.SelectMethod(System.Reflection.BindingFlags, System.Reflection.MethodBase[], System.Type[], System.Reflection.ParameterModifier[])
+  fullName.vb: System.Reflection.Binder.SelectMethod(System.Reflection.BindingFlags, System.Reflection.MethodBase(), System.Type(), System.Reflection.ParameterModifier())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract MethodBase SelectMethod(BindingFlags bindingAttr, MethodBase[] match, Type[] types, ParameterModifier[] modifiers)
+    content.vb: Public MustOverride Function SelectMethod(bindingAttr As BindingFlags, match As MethodBase(), types As Type(), modifiers As ParameterModifier()) As MethodBase
+    parameters:
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: match
+      type: System.Reflection.MethodBase[]
+    - id: types
+      type: System.Type[]
+    - id: modifiers
+      type: System.Reflection.ParameterModifier[]
+    return:
+      type: System.Reflection.MethodBase
+      description: 
+- uid: System.Reflection.Binder.SelectProperty(System.Reflection.BindingFlags,System.Reflection.PropertyInfo[],System.Type,System.Type[],System.Reflection.ParameterModifier[])
+  id: SelectProperty(System.Reflection.BindingFlags,System.Reflection.PropertyInfo[],System.Type,System.Type[],System.Reflection.ParameterModifier[])
+  parent: System.Reflection.Binder
+  href: System.Reflection.Binder.yml
+  name: SelectProperty(BindingFlags, PropertyInfo[], Type, Type[], ParameterModifier[])
+  name.vb: SelectProperty(BindingFlags, PropertyInfo(), Type, Type(), ParameterModifier())
+  fullName: System.Reflection.Binder.SelectProperty(System.Reflection.BindingFlags, System.Reflection.PropertyInfo[], System.Type, System.Type[], System.Reflection.ParameterModifier[])
+  fullName.vb: System.Reflection.Binder.SelectProperty(System.Reflection.BindingFlags, System.Reflection.PropertyInfo(), System.Type, System.Type(), System.Reflection.ParameterModifier())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract PropertyInfo SelectProperty(BindingFlags bindingAttr, PropertyInfo[] match, Type returnType, Type[] indexes, ParameterModifier[] modifiers)
+    content.vb: Public MustOverride Function SelectProperty(bindingAttr As BindingFlags, match As PropertyInfo(), returnType As Type, indexes As Type(), modifiers As ParameterModifier()) As PropertyInfo
+    parameters:
+    - id: bindingAttr
+      type: System.Reflection.BindingFlags
+    - id: match
+      type: System.Reflection.PropertyInfo[]
+    - id: returnType
+      type: System.Type
+    - id: indexes
+      type: System.Type[]
+    - id: modifiers
+      type: System.Reflection.ParameterModifier[]
+    return:
+      type: System.Reflection.PropertyInfo
+      description: 
+- uid: System.Reflection.Binder.ChangeType(System.Object,System.Type,System.Globalization.CultureInfo)
+  id: ChangeType(System.Object,System.Type,System.Globalization.CultureInfo)
+  parent: System.Reflection.Binder
+  href: System.Reflection.Binder.yml
+  name: ChangeType(Object, Type, CultureInfo)
+  fullName: System.Reflection.Binder.ChangeType(System.Object, System.Type, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 45
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract object ChangeType(object value, Type type, CultureInfo culture)
+    content.vb: Public MustOverride Function ChangeType(value As Object, type As Type, culture As CultureInfo) As Object
+    parameters:
+    - id: value
+      type: System.Object
+    - id: type
+      type: System.Type
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+      description: 
+- uid: System.Reflection.Binder.ReorderArgumentArray(System.Object[]@,System.Object)
+  id: ReorderArgumentArray(System.Object[]@,System.Object)
+  parent: System.Reflection.Binder
+  href: System.Reflection.Binder.yml
+  name: ReorderArgumentArray(ref Object[], Object)
+  name.vb: ReorderArgumentArray(ByRef Object(), Object)
+  fullName: System.Reflection.Binder.ReorderArgumentArray(ref System.Object[], System.Object)
+  fullName.vb: System.Reflection.Binder.ReorderArgumentArray(ByRef System.Object(), System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Binder.cs
+    startLine: 47
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public abstract void ReorderArgumentArray(ref object[] args, object state)
+    content.vb: Public MustOverride Sub ReorderArgumentArray(ByRef args As Object(), state As Object)
+    parameters:
+    - id: args
+      type: System.Object[]
+    - id: state
+      type: System.Object
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.BindingFlags.yml
+  name: BindingFlags
+  fullName: System.Reflection.BindingFlags
+  type: Enum
+- uid: System.Reflection.MethodBase[]
+  isExternal: false
+  href: System.Reflection.MethodBase.yml
+  name: MethodBase[]
+  name.vb: MethodBase()
+  fullName: System.Reflection.MethodBase[]
+  fullName.vb: System.Reflection.MethodBase()
+  spec.csharp:
+  - uid: System.Reflection.MethodBase
+    name: MethodBase
+    fullName: System.Reflection.MethodBase
+    href: System.Reflection.MethodBase.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.MethodBase
+    name: MethodBase
+    fullName: System.Reflection.MethodBase
+    href: System.Reflection.MethodBase.yml
+  - name: ()
+    fullName: ()
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.ParameterModifier[]
+  isExternal: false
+  href: System.Reflection.ParameterModifier.yml
+  name: ParameterModifier[]
+  name.vb: ParameterModifier()
+  fullName: System.Reflection.ParameterModifier[]
+  fullName.vb: System.Reflection.ParameterModifier()
+  spec.csharp:
+  - uid: System.Reflection.ParameterModifier
+    name: ParameterModifier
+    fullName: System.Reflection.ParameterModifier
+    href: System.Reflection.ParameterModifier.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.ParameterModifier
+    name: ParameterModifier
+    fullName: System.Reflection.ParameterModifier
+    href: System.Reflection.ParameterModifier.yml
+  - name: ()
+    fullName: ()
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CultureInfo.yml
+  name: CultureInfo
+  fullName: System.Globalization.CultureInfo
+  type: Class
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.MethodBase
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.MethodBase.yml
+  name: MethodBase
+  fullName: System.Reflection.MethodBase
+  type: Class
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Reflection.FieldInfo[]
+  isExternal: false
+  href: System.Reflection.FieldInfo.yml
+  name: FieldInfo[]
+  name.vb: FieldInfo()
+  fullName: System.Reflection.FieldInfo[]
+  fullName.vb: System.Reflection.FieldInfo()
+  spec.csharp:
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    href: System.Reflection.FieldInfo.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    fullName: System.Reflection.FieldInfo
+    href: System.Reflection.FieldInfo.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.FieldInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.FieldInfo.yml
+  name: FieldInfo
+  fullName: System.Reflection.FieldInfo
+  type: Class
+- uid: System.Type[]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[]
+  name.vb: Type()
+  fullName: System.Type[]
+  fullName.vb: System.Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.PropertyInfo[]
+  isExternal: false
+  href: System.Reflection.PropertyInfo.yml
+  name: PropertyInfo[]
+  name.vb: PropertyInfo()
+  fullName: System.Reflection.PropertyInfo[]
+  fullName.vb: System.Reflection.PropertyInfo()
+  spec.csharp:
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    href: System.Reflection.PropertyInfo.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    href: System.Reflection.PropertyInfo.yml
+  - name: ()
+    fullName: ()
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.PropertyInfo.yml
+  name: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+  type: Class

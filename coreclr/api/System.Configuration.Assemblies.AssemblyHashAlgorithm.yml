@@ -1,0 +1,131 @@
+items:
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  id: AssemblyHashAlgorithm
+  parent: System.Configuration.Assemblies
+  children:
+  - System.Configuration.Assemblies.AssemblyHashAlgorithm.MD5
+  - System.Configuration.Assemblies.AssemblyHashAlgorithm.None
+  - System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA1
+  - System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA256
+  - System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA384
+  - System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA512
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: AssemblyHashAlgorithm
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: public enum AssemblyHashAlgorithm
+    content.vb: Public Enum AssemblyHashAlgorithm
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm.None
+  id: None
+  parent: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: None
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: None = 0
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm.MD5
+  id: MD5
+  parent: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: MD5
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm.MD5
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: MD5 = 32771
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA1
+  id: SHA1
+  parent: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: SHA1
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA1
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: SHA1 = 32772
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA256
+  id: SHA256
+  parent: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: SHA256
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA256
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: SHA256 = 32780
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA384
+  id: SHA384
+  parent: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: SHA384
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA384
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: SHA384 = 32781
+- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA512
+  id: SHA512
+  parent: System.Configuration.Assemblies.AssemblyHashAlgorithm
+  href: System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  name: SHA512
+  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm.SHA512
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Configuration/Assemblies/AssemblyHashAlgorithm.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Configuration.Assemblies
+  syntax:
+    content: SHA512 = 32782
+references:
+- uid: System.Configuration.Assemblies
+  isExternal: false
+  name: System.Configuration.Assemblies
+  fullName: System.Configuration.Assemblies
+  type: Namespace

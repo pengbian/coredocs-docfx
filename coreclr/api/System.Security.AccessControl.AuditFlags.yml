@@ -1,0 +1,80 @@
+items:
+- uid: System.Security.AccessControl.AuditFlags
+  id: AuditFlags
+  parent: System.Security.AccessControl
+  children:
+  - System.Security.AccessControl.AuditFlags.Failure
+  - System.Security.AccessControl.AuditFlags.None
+  - System.Security.AccessControl.AuditFlags.Success
+  href: System.Security.AccessControl.AuditFlags.yml
+  name: AuditFlags
+  fullName: System.Security.AccessControl.AuditFlags
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: public enum AuditFlags
+    content.vb: Public Enum AuditFlags
+- uid: System.Security.AccessControl.AuditFlags.None
+  id: None
+  parent: System.Security.AccessControl.AuditFlags
+  href: System.Security.AccessControl.AuditFlags.yml
+  name: None
+  fullName: System.Security.AccessControl.AuditFlags.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: None = 0
+- uid: System.Security.AccessControl.AuditFlags.Success
+  id: Success
+  parent: System.Security.AccessControl.AuditFlags
+  href: System.Security.AccessControl.AuditFlags.yml
+  name: Success
+  fullName: System.Security.AccessControl.AuditFlags.Success
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: Success = 1
+- uid: System.Security.AccessControl.AuditFlags.Failure
+  id: Failure
+  parent: System.Security.AccessControl.AuditFlags
+  href: System.Security.AccessControl.AuditFlags.yml
+  name: Failure
+  fullName: System.Security.AccessControl.AuditFlags.Failure
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 28
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: Failure = 2
+references:
+- uid: System.Security.AccessControl
+  isExternal: false
+  name: System.Security.AccessControl
+  fullName: System.Security.AccessControl
+  type: Namespace

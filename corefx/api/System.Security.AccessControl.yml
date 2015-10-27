@@ -1,0 +1,32 @@
+items:
+- uid: System.Security.AccessControl
+  id: System.Security.AccessControl
+  children:
+  - System.Security.AccessControl.RegistryRights
+  href: System.Security.AccessControl.yml
+  name: System.Security.AccessControl
+  fullName: System.Security.AccessControl
+  type: Namespace
+  source:
+    remote:
+      path: src/Microsoft.Win32.Registry/src/System/Security/AccessControl/RegistryRights.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/Microsoft.Win32.Registry/src/System/Security/AccessControl/RegistryRights.cs
+    startLine: 5
+  assemblies:
+  - Microsoft.Win32.Registry
+references:
+- uid: System.Security.AccessControl.RegistryRights
+  parent: System.Security.AccessControl
+  isExternal: false
+  href: System.Security.AccessControl.RegistryRights.yml
+  name: RegistryRights
+  fullName: System.Security.AccessControl.RegistryRights
+  type: Enum
+- uid: System.Security.AccessControl
+  isExternal: false
+  name: System.Security.AccessControl
+  fullName: System.Security.AccessControl
+  type: Namespace

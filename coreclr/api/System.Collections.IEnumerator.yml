@@ -1,0 +1,109 @@
+items:
+- uid: System.Collections.IEnumerator
+  id: IEnumerator
+  parent: System.Collections
+  children:
+  - System.Collections.IEnumerator.Current
+  - System.Collections.IEnumerator.MoveNext
+  - System.Collections.IEnumerator.Reset
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/IEnumerator.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/IEnumerator.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public interface IEnumerator
+    content.vb: Public Interface IEnumerator
+- uid: System.Collections.IEnumerator.MoveNext
+  id: MoveNext
+  parent: System.Collections.IEnumerator
+  href: System.Collections.IEnumerator.yml
+  name: MoveNext()
+  fullName: System.Collections.IEnumerator.MoveNext()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IEnumerator.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: bool MoveNext()
+    content.vb: Function MoveNext As Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.IEnumerator.Current
+  id: Current
+  parent: System.Collections.IEnumerator
+  href: System.Collections.IEnumerator.yml
+  name: Current
+  fullName: System.Collections.IEnumerator.Current
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IEnumerator.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: object Current { get; }
+    content.vb: ReadOnly Property Current As Object
+    parameters: []
+    return:
+      type: System.Object
+      description: 
+- uid: System.Collections.IEnumerator.Reset
+  id: Reset
+  parent: System.Collections.IEnumerator
+  href: System.Collections.IEnumerator.yml
+  name: Reset()
+  fullName: System.Collections.IEnumerator.Reset()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IEnumerator.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: void Reset()
+    content.vb: Sub Reset
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class

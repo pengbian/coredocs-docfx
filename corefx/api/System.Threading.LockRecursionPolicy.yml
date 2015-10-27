@@ -1,0 +1,62 @@
+items:
+- uid: System.Threading.LockRecursionPolicy
+  id: LockRecursionPolicy
+  parent: System.Threading
+  children:
+  - System.Threading.LockRecursionPolicy.NoRecursion
+  - System.Threading.LockRecursionPolicy.SupportsRecursion
+  href: System.Threading.LockRecursionPolicy.yml
+  name: LockRecursionPolicy
+  fullName: System.Threading.LockRecursionPolicy
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Threading/src/System/Threading/ReaderWriterLockSlim.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Threading/src/System/Threading/ReaderWriterLockSlim.cs
+    startLine: 9
+  assemblies:
+  - System.Threading
+  namespace: System.Threading
+  syntax:
+    content: public enum LockRecursionPolicy
+    content.vb: Public Enum LockRecursionPolicy
+- uid: System.Threading.LockRecursionPolicy.NoRecursion
+  id: NoRecursion
+  parent: System.Threading.LockRecursionPolicy
+  href: System.Threading.LockRecursionPolicy.yml
+  name: NoRecursion
+  fullName: System.Threading.LockRecursionPolicy.NoRecursion
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Threading/src/System/Threading/ReaderWriterLockSlim.cs
+    startLine: 11
+  assemblies:
+  - System.Threading
+  namespace: System.Threading
+  syntax:
+    content: NoRecursion = 0
+- uid: System.Threading.LockRecursionPolicy.SupportsRecursion
+  id: SupportsRecursion
+  parent: System.Threading.LockRecursionPolicy
+  href: System.Threading.LockRecursionPolicy.yml
+  name: SupportsRecursion
+  fullName: System.Threading.LockRecursionPolicy.SupportsRecursion
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Threading/src/System/Threading/ReaderWriterLockSlim.cs
+    startLine: 12
+  assemblies:
+  - System.Threading
+  namespace: System.Threading
+  syntax:
+    content: SupportsRecursion = 1
+references:
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading

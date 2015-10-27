@@ -1,0 +1,69 @@
+items:
+- uid: System.IFormattable
+  id: IFormattable
+  parent: System
+  children:
+  - System.IFormattable.ToString(System.String,System.IFormatProvider)
+  href: System.IFormattable.yml
+  name: IFormattable
+  fullName: System.IFormattable
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IFormattable.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IFormattable.cs
+    startLine: 8
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public interface IFormattable
+    content.vb: Public Interface IFormattable
+- uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: System.IFormattable
+  href: System.IFormattable.yml
+  name: ToString(String, IFormatProvider)
+  fullName: System.IFormattable.ToString(System.String, System.IFormatProvider)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IFormattable.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: string ToString(string format, IFormatProvider formatProvider)
+    content.vb: Function ToString(format As String, formatProvider As IFormatProvider) As String
+    parameters:
+    - id: format
+      type: System.String
+    - id: formatProvider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.IFormatProvider
+  parent: System
+  isExternal: false
+  href: System.IFormatProvider.yml
+  name: IFormatProvider
+  fullName: System.IFormatProvider
+  type: Interface

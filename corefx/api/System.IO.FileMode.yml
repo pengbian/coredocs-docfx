@@ -1,0 +1,131 @@
+items:
+- uid: System.IO.FileMode
+  id: FileMode
+  parent: System.IO
+  children:
+  - System.IO.FileMode.Append
+  - System.IO.FileMode.Create
+  - System.IO.FileMode.CreateNew
+  - System.IO.FileMode.Open
+  - System.IO.FileMode.OpenOrCreate
+  - System.IO.FileMode.Truncate
+  href: System.IO.FileMode.yml
+  name: FileMode
+  fullName: System.IO.FileMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 16
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: public enum FileMode
+    content.vb: Public Enum FileMode
+- uid: System.IO.FileMode.CreateNew
+  id: CreateNew
+  parent: System.IO.FileMode
+  href: System.IO.FileMode.yml
+  name: CreateNew
+  fullName: System.IO.FileMode.CreateNew
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 21
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: CreateNew = 1
+- uid: System.IO.FileMode.Create
+  id: Create
+  parent: System.IO.FileMode
+  href: System.IO.FileMode.yml
+  name: Create
+  fullName: System.IO.FileMode.Create
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 26
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: Create = 2
+- uid: System.IO.FileMode.Open
+  id: Open
+  parent: System.IO.FileMode
+  href: System.IO.FileMode.yml
+  name: Open
+  fullName: System.IO.FileMode.Open
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 31
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: Open = 3
+- uid: System.IO.FileMode.OpenOrCreate
+  id: OpenOrCreate
+  parent: System.IO.FileMode
+  href: System.IO.FileMode.yml
+  name: OpenOrCreate
+  fullName: System.IO.FileMode.OpenOrCreate
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 36
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: OpenOrCreate = 4
+- uid: System.IO.FileMode.Truncate
+  id: Truncate
+  parent: System.IO.FileMode
+  href: System.IO.FileMode.yml
+  name: Truncate
+  fullName: System.IO.FileMode.Truncate
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 43
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: Truncate = 5
+- uid: System.IO.FileMode.Append
+  id: Append
+  parent: System.IO.FileMode
+  href: System.IO.FileMode.yml
+  name: Append
+  fullName: System.IO.FileMode.Append
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem.Primitives/src/System/IO/FileMode.cs
+    startLine: 49
+  assemblies:
+  - System.IO.FileSystem.Primitives
+  namespace: System.IO
+  syntax:
+    content: Append = 6
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace

@@ -1,0 +1,610 @@
+items:
+- uid: System.Runtime.InteropServices.GCHandle
+  id: GCHandle
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject
+  - System.Runtime.InteropServices.GCHandle.Alloc(System.Object)
+  - System.Runtime.InteropServices.GCHandle.Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  - System.Runtime.InteropServices.GCHandle.Equals(System.Object)
+  - System.Runtime.InteropServices.GCHandle.Free
+  - System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
+  - System.Runtime.InteropServices.GCHandle.GetHashCode
+  - System.Runtime.InteropServices.GCHandle.IsAllocated
+  - System.Runtime.InteropServices.GCHandle.op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  - System.Runtime.InteropServices.GCHandle.op_Explicit(System.IntPtr)~System.Runtime.InteropServices.GCHandle
+  - System.Runtime.InteropServices.GCHandle.op_Explicit(System.Runtime.InteropServices.GCHandle)~System.IntPtr
+  - System.Runtime.InteropServices.GCHandle.op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  - System.Runtime.InteropServices.GCHandle.Target
+  - System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+  type: Struct
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 40
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public struct GCHandle
+    content.vb: Public Structure GCHandle
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object)
+  id: Alloc(System.Object)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Alloc(Object)
+  fullName: System.Runtime.InteropServices.GCHandle.Alloc(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 87
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static GCHandle Alloc(object value)
+    content.vb: Public Shared Function Alloc(value As Object) As GCHandle
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  id: Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Alloc(Object, GCHandleType)
+  fullName: System.Runtime.InteropServices.GCHandle.Alloc(System.Object, System.Runtime.InteropServices.GCHandleType)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 93
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static GCHandle Alloc(object value, GCHandleType type)
+    content.vb: Public Shared Function Alloc(value As Object, type As GCHandleType) As GCHandle
+    parameters:
+    - id: value
+      type: System.Object
+    - id: type
+      type: System.Runtime.InteropServices.GCHandleType
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.Free
+  id: Free
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Free()
+  fullName: System.Runtime.InteropServices.GCHandle.Free()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 101
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public void Free()
+    content.vb: Public Sub Free
+- uid: System.Runtime.InteropServices.GCHandle.Target
+  id: Target
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Target
+  fullName: System.Runtime.InteropServices.GCHandle.Target
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 133
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public object Target { get; set; }
+    content.vb: Public Property Target As Object
+    parameters: []
+    return:
+      type: System.Object
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject
+  id: AddrOfPinnedObject
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: AddrOfPinnedObject()
+  fullName: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 158
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public IntPtr AddrOfPinnedObject()
+    content.vb: Public Function AddrOfPinnedObject As IntPtr
+    return:
+      type: System.IntPtr
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.IsAllocated
+  id: IsAllocated
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: IsAllocated
+  fullName: System.Runtime.InteropServices.GCHandle.IsAllocated
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 177
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public bool IsAllocated { get; }
+    content.vb: Public ReadOnly Property IsAllocated As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.IntPtr)~System.Runtime.InteropServices.GCHandle
+  id: op_Explicit(System.IntPtr)~System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Explicit(IntPtr to GCHandle)
+  name.vb: Narrowing(IntPtr to GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.Explicit(System.IntPtr to System.Runtime.InteropServices.GCHandle)
+  fullName.vb: System.Runtime.InteropServices.GCHandle.Narrowing(System.IntPtr to System.Runtime.InteropServices.GCHandle)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 187
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static explicit operator GCHandle(IntPtr value)
+    content.vb: Public Shared Narrowing Operator CType(value As IntPtr) As GCHandle
+    parameters:
+    - id: value
+      type: System.IntPtr
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
+  id: FromIntPtr(System.IntPtr)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: FromIntPtr(IntPtr)
+  fullName: System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 193
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static GCHandle FromIntPtr(IntPtr value)
+    content.vb: Public Shared Function FromIntPtr(value As IntPtr) As GCHandle
+    parameters:
+    - id: value
+      type: System.IntPtr
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.Runtime.InteropServices.GCHandle)~System.IntPtr
+  id: op_Explicit(System.Runtime.InteropServices.GCHandle)~System.IntPtr
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Explicit(GCHandle to IntPtr)
+  name.vb: Narrowing(GCHandle to IntPtr)
+  fullName: System.Runtime.InteropServices.GCHandle.Explicit(System.Runtime.InteropServices.GCHandle to System.IntPtr)
+  fullName.vb: System.Runtime.InteropServices.GCHandle.Narrowing(System.Runtime.InteropServices.GCHandle to System.IntPtr)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 220
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static explicit operator IntPtr(GCHandle value)
+    content.vb: Public Shared Narrowing Operator CType(value As GCHandle) As IntPtr
+    parameters:
+    - id: value
+      type: System.Runtime.InteropServices.GCHandle
+    return:
+      type: System.IntPtr
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  id: ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: ToIntPtr(GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 225
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static IntPtr ToIntPtr(GCHandle value)
+    content.vb: Public Shared Function ToIntPtr(value As GCHandle) As IntPtr
+    parameters:
+    - id: value
+      type: System.Runtime.InteropServices.GCHandle
+    return:
+      type: System.IntPtr
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.GetHashCode
+  id: GetHashCode
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: GetHashCode()
+  fullName: System.Runtime.InteropServices.GCHandle.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 238
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.ValueType.GetHashCode
+- uid: System.Runtime.InteropServices.GCHandle.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Equals(Object)
+  fullName: System.Runtime.InteropServices.GCHandle.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 243
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public override bool Equals(object o)
+    content.vb: Public Overrides Function Equals(o As Object) As Boolean
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.ValueType.Equals(System.Object)
+- uid: System.Runtime.InteropServices.GCHandle.op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  id: op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Equality(GCHandle, GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.Equality(System.Runtime.InteropServices.GCHandle, System.Runtime.InteropServices.GCHandle)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 256
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static bool operator ==(GCHandle a, GCHandle b)
+    content.vb: Public Shared Operator =(a As GCHandle, b As GCHandle) As Boolean
+    parameters:
+    - id: a
+      type: System.Runtime.InteropServices.GCHandle
+    - id: b
+      type: System.Runtime.InteropServices.GCHandle
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Runtime.InteropServices.GCHandle.op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  id: op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: Inequality(GCHandle, GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.Inequality(System.Runtime.InteropServices.GCHandle, System.Runtime.InteropServices.GCHandle)
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 261
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public static bool operator !=(GCHandle a, GCHandle b)
+    content.vb: Public Shared Operator <>(a As GCHandle, b As GCHandle) As Boolean
+    parameters:
+    - id: a
+      type: System.Runtime.InteropServices.GCHandle
+    - id: b
+      type: System.Runtime.InteropServices.GCHandle
+    return:
+      type: System.Boolean
+      description: 
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType
+  parent: System
+  isExternal: false
+  href: System.ValueType.yml
+  name: ValueType
+  fullName: System.ValueType
+  type: Class
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.GCHandle.yml
+  name: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+  type: Struct
+- uid: System.Runtime.InteropServices.GCHandleType
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.GCHandleType.yml
+  name: GCHandleType
+  fullName: System.Runtime.InteropServices.GCHandleType
+  type: Enum
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )

@@ -1,0 +1,693 @@
+items:
+- uid: System.Security.Principal.IdentityReferenceCollection
+  id: IdentityReferenceCollection
+  parent: System.Security.Principal
+  children:
+  - System.Security.Principal.IdentityReferenceCollection.#ctor
+  - System.Security.Principal.IdentityReferenceCollection.#ctor(System.Int32)
+  - System.Security.Principal.IdentityReferenceCollection.Add(System.Security.Principal.IdentityReference)
+  - System.Security.Principal.IdentityReferenceCollection.Clear
+  - System.Security.Principal.IdentityReferenceCollection.Contains(System.Security.Principal.IdentityReference)
+  - System.Security.Principal.IdentityReferenceCollection.CopyTo(System.Security.Principal.IdentityReference[],System.Int32)
+  - System.Security.Principal.IdentityReferenceCollection.Count
+  - System.Security.Principal.IdentityReferenceCollection.GetEnumerator
+  - System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)
+  - System.Security.Principal.IdentityReferenceCollection.Remove(System.Security.Principal.IdentityReference)
+  - System.Security.Principal.IdentityReferenceCollection.System#Collections#Generic#ICollection{System#Security#Principal#IdentityReference}#IsReadOnly
+  - System.Security.Principal.IdentityReferenceCollection.System#Collections#IEnumerable#GetEnumerator
+  - System.Security.Principal.IdentityReferenceCollection.Translate(System.Type)
+  - System.Security.Principal.IdentityReferenceCollection.Translate(System.Type,System.Boolean)
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: IdentityReferenceCollection
+  fullName: System.Security.Principal.IdentityReferenceCollection
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 12
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: 'public class IdentityReferenceCollection : ICollection<IdentityReference>, IEnumerable<IdentityReference>, IEnumerable'
+    content.vb: Public Class IdentityReferenceCollection Implements ICollection(Of IdentityReference), IEnumerable(Of IdentityReference), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.ICollection{System.Security.Principal.IdentityReference}
+  - System.Collections.Generic.IEnumerable{System.Security.Principal.IdentityReference}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.Principal.IdentityReferenceCollection.#ctor
+  id: '#ctor'
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: IdentityReferenceCollection()
+  fullName: System.Security.Principal.IdentityReferenceCollection.IdentityReferenceCollection()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 30
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public IdentityReferenceCollection()
+    content.vb: Public Sub New
+- uid: System.Security.Principal.IdentityReferenceCollection.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: IdentityReferenceCollection(Int32)
+  fullName: System.Security.Principal.IdentityReferenceCollection.IdentityReferenceCollection(System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 39
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public IdentityReferenceCollection(int capacity)
+    content.vb: Public Sub New(capacity As Integer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+- uid: System.Security.Principal.IdentityReferenceCollection.CopyTo(System.Security.Principal.IdentityReference[],System.Int32)
+  id: CopyTo(System.Security.Principal.IdentityReference[],System.Int32)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: CopyTo(IdentityReference[], Int32)
+  name.vb: CopyTo(IdentityReference(), Int32)
+  fullName: System.Security.Principal.IdentityReferenceCollection.CopyTo(System.Security.Principal.IdentityReference[], System.Int32)
+  fullName.vb: System.Security.Principal.IdentityReferenceCollection.CopyTo(System.Security.Principal.IdentityReference(), System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 48
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public void CopyTo(IdentityReference[] array, int offset)
+    content.vb: Public Sub CopyTo(array As IdentityReference(), offset As Integer)
+    parameters:
+    - id: array
+      type: System.Security.Principal.IdentityReference[]
+    - id: offset
+      type: System.Int32
+- uid: System.Security.Principal.IdentityReferenceCollection.Count
+  id: Count
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Count
+  fullName: System.Security.Principal.IdentityReferenceCollection.Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 53
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public int Count { get; }
+    content.vb: Public ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Security.Principal.IdentityReferenceCollection.System#Collections#Generic#ICollection{System#Security#Principal#IdentityReference}#IsReadOnly
+  id: System#Collections#Generic#ICollection{System#Security#Principal#IdentityReference}#IsReadOnly
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: ICollection<IdentityReference>.IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<System.Security.Principal.IdentityReference>.IsReadOnly
+  fullName: System.Security.Principal.IdentityReferenceCollection.System.Collections.Generic.ICollection<System.Security.Principal.IdentityReference>.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 61
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: bool ICollection<IdentityReference>.IsReadOnly { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.Generic.ICollection<System.Security.Principal.IdentityReference>.IsReadOnly As Boolean Implements ICollection(Of IdentityReference).IsReadOnly
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Security.Principal.IdentityReferenceCollection.Add(System.Security.Principal.IdentityReference)
+  id: Add(System.Security.Principal.IdentityReference)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Add(IdentityReference)
+  fullName: System.Security.Principal.IdentityReferenceCollection.Add(System.Security.Principal.IdentityReference)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 69
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public void Add(IdentityReference identity)
+    content.vb: Public Sub Add(identity As IdentityReference)
+    parameters:
+    - id: identity
+      type: System.Security.Principal.IdentityReference
+- uid: System.Security.Principal.IdentityReferenceCollection.Remove(System.Security.Principal.IdentityReference)
+  id: Remove(System.Security.Principal.IdentityReference)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Remove(IdentityReference)
+  fullName: System.Security.Principal.IdentityReferenceCollection.Remove(System.Security.Principal.IdentityReference)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 80
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public bool Remove(IdentityReference identity)
+    content.vb: Public Function Remove(identity As IdentityReference) As Boolean
+    parameters:
+    - id: identity
+      type: System.Security.Principal.IdentityReference
+    return:
+      type: System.Boolean
+- uid: System.Security.Principal.IdentityReferenceCollection.Clear
+  id: Clear
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Clear()
+  fullName: System.Security.Principal.IdentityReferenceCollection.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 96
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+- uid: System.Security.Principal.IdentityReferenceCollection.Contains(System.Security.Principal.IdentityReference)
+  id: Contains(System.Security.Principal.IdentityReference)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Contains(IdentityReference)
+  fullName: System.Security.Principal.IdentityReferenceCollection.Contains(System.Security.Principal.IdentityReference)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 101
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public bool Contains(IdentityReference identity)
+    content.vb: Public Function Contains(identity As IdentityReference) As Boolean
+    parameters:
+    - id: identity
+      type: System.Security.Principal.IdentityReference
+    return:
+      type: System.Boolean
+- uid: System.Security.Principal.IdentityReferenceCollection.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: System.Security.Principal.IdentityReferenceCollection.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 116
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+- uid: System.Security.Principal.IdentityReferenceCollection.GetEnumerator
+  id: GetEnumerator
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: GetEnumerator()
+  fullName: System.Security.Principal.IdentityReferenceCollection.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 121
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public IEnumerator<IdentityReference> GetEnumerator()
+    content.vb: Public Function GetEnumerator As IEnumerator(Of IdentityReference)
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Security.Principal.IdentityReference}
+- uid: System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Item[Int32]
+  name.vb: Item(Int32)
+  fullName: System.Security.Principal.IdentityReferenceCollection.Item[System.Int32]
+  fullName.vb: System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 130
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public IdentityReference this[int index] { get; set; }
+    content.vb: Public Property Item(index As Integer) As IdentityReference
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Security.Principal.IdentityReference
+- uid: System.Security.Principal.IdentityReferenceCollection.Translate(System.Type)
+  id: Translate(System.Type)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Translate(Type)
+  fullName: System.Security.Principal.IdentityReferenceCollection.Translate(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 157
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public IdentityReferenceCollection Translate(Type targetType)
+    content.vb: Public Function Translate(targetType As Type) As IdentityReferenceCollection
+    parameters:
+    - id: targetType
+      type: System.Type
+    return:
+      type: System.Security.Principal.IdentityReferenceCollection
+- uid: System.Security.Principal.IdentityReferenceCollection.Translate(System.Type,System.Boolean)
+  id: Translate(System.Type,System.Boolean)
+  parent: System.Security.Principal.IdentityReferenceCollection
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: Translate(Type, Boolean)
+  fullName: System.Security.Principal.IdentityReferenceCollection.Translate(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs
+    startLine: 162
+  assemblies:
+  - System.Security.Principal.Windows
+  namespace: System.Security.Principal
+  syntax:
+    content: public IdentityReferenceCollection Translate(Type targetType, bool forceSuccess)
+    content.vb: Public Function Translate(targetType As Type, forceSuccess As Boolean) As IdentityReferenceCollection
+    parameters:
+    - id: targetType
+      type: System.Type
+    - id: forceSuccess
+      type: System.Boolean
+    return:
+      type: System.Security.Principal.IdentityReferenceCollection
+references:
+- uid: System.Security.Principal
+  isExternal: false
+  name: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Security.Principal.IdentityReference[]
+  isExternal: false
+  href: System.Security.Principal.IdentityReference.yml
+  name: IdentityReference[]
+  name.vb: IdentityReference()
+  fullName: System.Security.Principal.IdentityReference[]
+  fullName.vb: System.Security.Principal.IdentityReference()
+  spec.csharp:
+  - uid: System.Security.Principal.IdentityReference
+    name: IdentityReference
+    fullName: System.Security.Principal.IdentityReference
+    href: System.Security.Principal.IdentityReference.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Security.Principal.IdentityReference
+    name: IdentityReference
+    fullName: System.Security.Principal.IdentityReference
+    href: System.Security.Principal.IdentityReference.yml
+  - name: ()
+    fullName: ()
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Principal.IdentityReference
+  parent: System.Security.Principal
+  isExternal: false
+  href: System.Security.Principal.IdentityReference.yml
+  name: IdentityReference
+  fullName: System.Security.Principal.IdentityReference
+  type: Class
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+- uid: System.Collections.Generic.IEnumerator{System.Security.Principal.IdentityReference}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: System.Security.Principal.IdentityReference.yml
+  name: IEnumerator<IdentityReference>
+  name.vb: IEnumerator(Of IdentityReference)
+  fullName: System.Collections.Generic.IEnumerator<System.Security.Principal.IdentityReference>
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Security.Principal.IdentityReference)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: System.Security.Principal.IdentityReference
+    name: IdentityReference
+    fullName: System.Security.Principal.IdentityReference
+    href: System.Security.Principal.IdentityReference.yml
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Principal.IdentityReference
+    name: IdentityReference
+    fullName: System.Security.Principal.IdentityReference
+    href: System.Security.Principal.IdentityReference.yml
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  parent: System.Collections.Generic
+  isExternal: true
+  name: IEnumerator<T>
+  name.vb: IEnumerator(Of T)
+  fullName: System.Collections.Generic.IEnumerator<T>
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: System.Security.Principal.IdentityReferenceCollection
+  parent: System.Security.Principal
+  isExternal: false
+  href: System.Security.Principal.IdentityReferenceCollection.yml
+  name: IdentityReferenceCollection
+  fullName: System.Security.Principal.IdentityReferenceCollection
+  type: Class

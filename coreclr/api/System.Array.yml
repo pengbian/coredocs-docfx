@@ -1,0 +1,3847 @@
+items:
+- uid: System.Array
+  id: Array
+  parent: System
+  children:
+  - System.Array.AsReadOnly``1(``0[])
+  - System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+  - System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+  - System.Array.BinarySearch(System.Array,System.Object)
+  - System.Array.BinarySearch(System.Array,System.Object,System.Collections.IComparer)
+  - System.Array.BinarySearch``1(``0[],``0)
+  - System.Array.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})
+  - System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0)
+  - System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})
+  - System.Array.Clear(System.Array,System.Int32,System.Int32)
+  - System.Array.Clone
+  - System.Array.ConstrainedCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  - System.Array.ConvertAll``2(``0[],System.Converter{``0,``1})
+  - System.Array.Copy(System.Array,System.Array,System.Int32)
+  - System.Array.Copy(System.Array,System.Array,System.Int64)
+  - System.Array.Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  - System.Array.Copy(System.Array,System.Int64,System.Array,System.Int64,System.Int64)
+  - System.Array.CopyTo(System.Array,System.Int32)
+  - System.Array.CopyTo(System.Array,System.Int64)
+  - System.Array.CreateInstance(System.Type,System.Int32)
+  - System.Array.CreateInstance(System.Type,System.Int32,System.Int32)
+  - System.Array.CreateInstance(System.Type,System.Int32,System.Int32,System.Int32)
+  - System.Array.CreateInstance(System.Type,System.Int32[])
+  - System.Array.CreateInstance(System.Type,System.Int32[],System.Int32[])
+  - System.Array.CreateInstance(System.Type,System.Int64[])
+  - System.Array.Empty``1
+  - System.Array.Exists``1(``0[],System.Predicate{``0})
+  - System.Array.Find``1(``0[],System.Predicate{``0})
+  - System.Array.FindAll``1(``0[],System.Predicate{``0})
+  - System.Array.FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
+  - System.Array.FindIndex``1(``0[],System.Int32,System.Predicate{``0})
+  - System.Array.FindIndex``1(``0[],System.Predicate{``0})
+  - System.Array.FindLast``1(``0[],System.Predicate{``0})
+  - System.Array.FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
+  - System.Array.FindLastIndex``1(``0[],System.Int32,System.Predicate{``0})
+  - System.Array.FindLastIndex``1(``0[],System.Predicate{``0})
+  - System.Array.ForEach``1(``0[],System.Action{``0})
+  - System.Array.GetEnumerator
+  - System.Array.GetLength(System.Int32)
+  - System.Array.GetLongLength(System.Int32)
+  - System.Array.GetLowerBound(System.Int32)
+  - System.Array.GetUpperBound(System.Int32)
+  - System.Array.GetValue(System.Int32)
+  - System.Array.GetValue(System.Int32,System.Int32)
+  - System.Array.GetValue(System.Int32,System.Int32,System.Int32)
+  - System.Array.GetValue(System.Int32[])
+  - System.Array.GetValue(System.Int64)
+  - System.Array.GetValue(System.Int64,System.Int64)
+  - System.Array.GetValue(System.Int64,System.Int64,System.Int64)
+  - System.Array.GetValue(System.Int64[])
+  - System.Array.IndexOf(System.Array,System.Object)
+  - System.Array.IndexOf(System.Array,System.Object,System.Int32)
+  - System.Array.IndexOf(System.Array,System.Object,System.Int32,System.Int32)
+  - System.Array.IndexOf``1(``0[],``0)
+  - System.Array.IndexOf``1(``0[],``0,System.Int32)
+  - System.Array.IndexOf``1(``0[],``0,System.Int32,System.Int32)
+  - System.Array.Initialize
+  - System.Array.IsFixedSize
+  - System.Array.IsReadOnly
+  - System.Array.IsSynchronized
+  - System.Array.LastIndexOf(System.Array,System.Object)
+  - System.Array.LastIndexOf(System.Array,System.Object,System.Int32)
+  - System.Array.LastIndexOf(System.Array,System.Object,System.Int32,System.Int32)
+  - System.Array.LastIndexOf``1(``0[],``0)
+  - System.Array.LastIndexOf``1(``0[],``0,System.Int32)
+  - System.Array.LastIndexOf``1(``0[],``0,System.Int32,System.Int32)
+  - System.Array.Length
+  - System.Array.LongLength
+  - System.Array.Rank
+  - System.Array.Resize``1(``0[]@,System.Int32)
+  - System.Array.Reverse(System.Array)
+  - System.Array.Reverse(System.Array,System.Int32,System.Int32)
+  - System.Array.SetValue(System.Object,System.Int32)
+  - System.Array.SetValue(System.Object,System.Int32,System.Int32)
+  - System.Array.SetValue(System.Object,System.Int32,System.Int32,System.Int32)
+  - System.Array.SetValue(System.Object,System.Int32[])
+  - System.Array.SetValue(System.Object,System.Int64)
+  - System.Array.SetValue(System.Object,System.Int64,System.Int64)
+  - System.Array.SetValue(System.Object,System.Int64,System.Int64,System.Int64)
+  - System.Array.SetValue(System.Object,System.Int64[])
+  - System.Array.Sort(System.Array)
+  - System.Array.Sort(System.Array,System.Array)
+  - System.Array.Sort(System.Array,System.Array,System.Collections.IComparer)
+  - System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32)
+  - System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32,System.Collections.IComparer)
+  - System.Array.Sort(System.Array,System.Collections.IComparer)
+  - System.Array.Sort(System.Array,System.Int32,System.Int32)
+  - System.Array.Sort(System.Array,System.Int32,System.Int32,System.Collections.IComparer)
+  - System.Array.Sort``1(``0[])
+  - System.Array.Sort``1(``0[],System.Collections.Generic.IComparer{``0})
+  - System.Array.Sort``1(``0[],System.Comparison{``0})
+  - System.Array.Sort``1(``0[],System.Int32,System.Int32)
+  - System.Array.Sort``1(``0[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})
+  - System.Array.Sort``2(``0[],``1[])
+  - System.Array.Sort``2(``0[],``1[],System.Collections.Generic.IComparer{``0})
+  - System.Array.Sort``2(``0[],``1[],System.Int32,System.Int32)
+  - System.Array.Sort``2(``0[],``1[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})
+  - System.Array.SyncRoot
+  - System.Array.System#Collections#ICollection#Count
+  - System.Array.System#Collections#IList#Add(System.Object)
+  - System.Array.System#Collections#IList#Clear
+  - System.Array.System#Collections#IList#Contains(System.Object)
+  - System.Array.System#Collections#IList#IndexOf(System.Object)
+  - System.Array.System#Collections#IList#Insert(System.Int32,System.Object)
+  - System.Array.System#Collections#IList#Item(System.Int32)
+  - System.Array.System#Collections#IList#Remove(System.Object)
+  - System.Array.System#Collections#IList#RemoveAt(System.Int32)
+  - System.Array.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
+  - System.Array.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
+  - System.Array.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  - System.Array.TrueForAll``1(``0[],System.Predicate{``0})
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Array.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public abstract class Array : ICloneable, IList, ICollection, IEnumerable, IStructuralComparable, IStructuralEquatable'
+    content.vb: Public MustInherit Class Array Implements ICloneable, IList, ICollection, IEnumerable, IStructuralComparable, IStructuralEquatable
+  inheritance:
+  - System.Object
+  implements:
+  - System.ICloneable
+  - System.Collections.IList
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - System.Collections.IStructuralComparable
+  - System.Collections.IStructuralEquatable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Array.AsReadOnly``1(``0[])
+  id: AsReadOnly``1(``0[])
+  parent: System.Array
+  href: System.Array.yml
+  name: AsReadOnly<T>(T[])
+  name.vb: AsReadOnly(Of T)(T())
+  fullName: System.Array.AsReadOnly<T>(T[])
+  fullName.vb: System.Array.AsReadOnly(Of T)(T())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 35
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static ReadOnlyCollection<T> AsReadOnly<T>(T[] array)
+    content.vb: Public Shared Function AsReadOnly(Of T)(array As T()) As ReadOnlyCollection(Of T)
+    parameters:
+    - id: array
+      type: '{T}[]'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
+      description: 
+- uid: System.Array.Resize``1(``0[]@,System.Int32)
+  id: Resize``1(``0[]@,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Resize<T>(ref T[], Int32)
+  name.vb: Resize(Of T)(ByRef T(), Int32)
+  fullName: System.Array.Resize<T>(ref T[], System.Int32)
+  fullName.vb: System.Array.Resize(Of T)(ByRef T(), System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 45
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Resize<T>(ref T[] array, int newSize)
+    content.vb: Public Shared Sub Resize(Of T)(ByRef array As T(), newSize As Integer)
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: newSize
+      type: System.Int32
+    typeParameters:
+    - id: T
+- uid: System.Array.CreateInstance(System.Type,System.Int32)
+  id: CreateInstance(System.Type,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: CreateInstance(Type, Int32)
+  fullName: System.Array.CreateInstance(System.Type, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 67
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Array CreateInstance(Type elementType, int length)
+    content.vb: Public Shared Function CreateInstance(elementType As Type, length As Integer) As Array
+    parameters:
+    - id: elementType
+      type: System.Type
+    - id: length
+      type: System.Int32
+    return:
+      type: System.Array
+      description: 
+- uid: System.Array.CreateInstance(System.Type,System.Int32,System.Int32)
+  id: CreateInstance(System.Type,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: CreateInstance(Type, Int32, Int32)
+  fullName: System.Array.CreateInstance(System.Type, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 85
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Array CreateInstance(Type elementType, int length1, int length2)
+    content.vb: Public Shared Function CreateInstance(elementType As Type, length1 As Integer, length2 As Integer) As Array
+    parameters:
+    - id: elementType
+      type: System.Type
+    - id: length1
+      type: System.Int32
+    - id: length2
+      type: System.Int32
+    return:
+      type: System.Array
+      description: 
+- uid: System.Array.CreateInstance(System.Type,System.Int32,System.Int32,System.Int32)
+  id: CreateInstance(System.Type,System.Int32,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: CreateInstance(Type, Int32, Int32, Int32)
+  fullName: System.Array.CreateInstance(System.Type, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 106
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Array CreateInstance(Type elementType, int length1, int length2, int length3)
+    content.vb: Public Shared Function CreateInstance(elementType As Type, length1 As Integer, length2 As Integer, length3 As Integer) As Array
+    parameters:
+    - id: elementType
+      type: System.Type
+    - id: length1
+      type: System.Int32
+    - id: length2
+      type: System.Int32
+    - id: length3
+      type: System.Int32
+    return:
+      type: System.Array
+      description: 
+- uid: System.Array.CreateInstance(System.Type,System.Int32[])
+  id: CreateInstance(System.Type,System.Int32[])
+  parent: System.Array
+  href: System.Array.yml
+  name: CreateInstance(Type, Int32[])
+  name.vb: CreateInstance(Type, Int32())
+  fullName: System.Array.CreateInstance(System.Type, System.Int32[])
+  fullName.vb: System.Array.CreateInstance(System.Type, System.Int32())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 133
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Array CreateInstance(Type elementType, params int[] lengths)
+    content.vb: Public Shared Function CreateInstance(elementType As Type, ParamArray lengths As Integer()) As Array
+    parameters:
+    - id: elementType
+      type: System.Type
+    - id: lengths
+      type: System.Int32[]
+    return:
+      type: System.Array
+      description: 
+- uid: System.Array.CreateInstance(System.Type,System.Int64[])
+  id: CreateInstance(System.Type,System.Int64[])
+  parent: System.Array
+  href: System.Array.yml
+  name: CreateInstance(Type, Int64[])
+  name.vb: CreateInstance(Type, Int64())
+  fullName: System.Array.CreateInstance(System.Type, System.Int64[])
+  fullName.vb: System.Array.CreateInstance(System.Type, System.Int64())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 162
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Array CreateInstance(Type elementType, params long[] lengths)
+    content.vb: Public Shared Function CreateInstance(elementType As Type, ParamArray lengths As Long()) As Array
+    parameters:
+    - id: elementType
+      type: System.Type
+    - id: lengths
+      type: System.Int64[]
+    return:
+      type: System.Array
+      description: 
+- uid: System.Array.CreateInstance(System.Type,System.Int32[],System.Int32[])
+  id: CreateInstance(System.Type,System.Int32[],System.Int32[])
+  parent: System.Array
+  href: System.Array.yml
+  name: CreateInstance(Type, Int32[], Int32[])
+  name.vb: CreateInstance(Type, Int32(), Int32())
+  fullName: System.Array.CreateInstance(System.Type, System.Int32[], System.Int32[])
+  fullName.vb: System.Array.CreateInstance(System.Type, System.Int32(), System.Int32())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 187
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Array CreateInstance(Type elementType, int[] lengths, int[] lowerBounds)
+    content.vb: Public Shared Function CreateInstance(elementType As Type, lengths As Integer(), lowerBounds As Integer()) As Array
+    parameters:
+    - id: elementType
+      type: System.Type
+    - id: lengths
+      type: System.Int32[]
+    - id: lowerBounds
+      type: System.Int32[]
+    return:
+      type: System.Array
+      description: 
+- uid: System.Array.Copy(System.Array,System.Array,System.Int32)
+  id: Copy(System.Array,System.Array,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Copy(Array, Array, Int32)
+  fullName: System.Array.Copy(System.Array, System.Array, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 263
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Copy(Array sourceArray, Array destinationArray, int length)
+    content.vb: Public Shared Sub Copy(sourceArray As Array, destinationArray As Array, length As Integer)
+    parameters:
+    - id: sourceArray
+      type: System.Array
+    - id: destinationArray
+      type: System.Array
+    - id: length
+      type: System.Int32
+- uid: System.Array.Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  id: Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Copy(Array, Int32, Array, Int32, Int32)
+  fullName: System.Array.Copy(System.Array, System.Int32, System.Array, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 285
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Copy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length)
+    content.vb: Public Shared Sub Copy(sourceArray As Array, sourceIndex As Integer, destinationArray As Array, destinationIndex As Integer, length As Integer)
+    parameters:
+    - id: sourceArray
+      type: System.Array
+    - id: sourceIndex
+      type: System.Int32
+    - id: destinationArray
+      type: System.Array
+    - id: destinationIndex
+      type: System.Int32
+    - id: length
+      type: System.Int32
+- uid: System.Array.ConstrainedCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  id: ConstrainedCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: ConstrainedCopy(Array, Int32, Array, Int32, Int32)
+  fullName: System.Array.ConstrainedCopy(System.Array, System.Int32, System.Array, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 306
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length)
+    content.vb: Public Shared Sub ConstrainedCopy(sourceArray As Array, sourceIndex As Integer, destinationArray As Array, destinationIndex As Integer, length As Integer)
+    parameters:
+    - id: sourceArray
+      type: System.Array
+    - id: sourceIndex
+      type: System.Int32
+    - id: destinationArray
+      type: System.Array
+    - id: destinationIndex
+      type: System.Int32
+    - id: length
+      type: System.Int32
+- uid: System.Array.Copy(System.Array,System.Array,System.Int64)
+  id: Copy(System.Array,System.Array,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: Copy(Array, Array, Int64)
+  fullName: System.Array.Copy(System.Array, System.Array, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 313
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Copy(Array sourceArray, Array destinationArray, long length)
+    content.vb: Public Shared Sub Copy(sourceArray As Array, destinationArray As Array, length As Long)
+    parameters:
+    - id: sourceArray
+      type: System.Array
+    - id: destinationArray
+      type: System.Array
+    - id: length
+      type: System.Int64
+- uid: System.Array.Copy(System.Array,System.Int64,System.Array,System.Int64,System.Int64)
+  id: Copy(System.Array,System.Int64,System.Array,System.Int64,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: Copy(Array, Int64, Array, Int64, Int64)
+  fullName: System.Array.Copy(System.Array, System.Int64, System.Array, System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 322
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Copy(Array sourceArray, long sourceIndex, Array destinationArray, long destinationIndex, long length)
+    content.vb: Public Shared Sub Copy(sourceArray As Array, sourceIndex As Long, destinationArray As Array, destinationIndex As Long, length As Long)
+    parameters:
+    - id: sourceArray
+      type: System.Array
+    - id: sourceIndex
+      type: System.Int64
+    - id: destinationArray
+      type: System.Array
+    - id: destinationIndex
+      type: System.Int64
+    - id: length
+      type: System.Int64
+- uid: System.Array.Clear(System.Array,System.Int32,System.Int32)
+  id: Clear(System.Array,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Clear(Array, Int32, Int32)
+  fullName: System.Array.Clear(System.Array, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Clear(Array array, int index, int length)
+    content.vb: Public Shared Sub Clear(array As Array, index As Integer, length As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+- uid: System.Array.GetValue(System.Int32[])
+  id: GetValue(System.Int32[])
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int32[])
+  name.vb: GetValue(Int32())
+  fullName: System.Array.GetValue(System.Int32[])
+  fullName.vb: System.Array.GetValue(System.Int32())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 345
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(params int[] indices)
+    content.vb: Public Function GetValue(ParamArray indices As Integer()) As Object
+    parameters:
+    - id: indices
+      type: System.Int32[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int32)
+  id: GetValue(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int32)
+  fullName: System.Array.GetValue(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 360
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(int index)
+    content.vb: Public Function GetValue(index As Integer) As Object
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int32,System.Int32)
+  id: GetValue(System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int32, Int32)
+  fullName: System.Array.GetValue(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 372
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(int index1, int index2)
+    content.vb: Public Function GetValue(index1 As Integer, index2 As Integer) As Object
+    parameters:
+    - id: index1
+      type: System.Int32
+    - id: index2
+      type: System.Int32
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int32,System.Int32,System.Int32)
+  id: GetValue(System.Int32,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int32, Int32, Int32)
+  fullName: System.Array.GetValue(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 388
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(int index1, int index2, int index3)
+    content.vb: Public Function GetValue(index1 As Integer, index2 As Integer, index3 As Integer) As Object
+    parameters:
+    - id: index1
+      type: System.Int32
+    - id: index2
+      type: System.Int32
+    - id: index3
+      type: System.Int32
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int64)
+  id: GetValue(System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int64)
+  fullName: System.Array.GetValue(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 405
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(long index)
+    content.vb: Public Function GetValue(index As Long) As Object
+    parameters:
+    - id: index
+      type: System.Int64
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int64,System.Int64)
+  id: GetValue(System.Int64,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int64, Int64)
+  fullName: System.Array.GetValue(System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 415
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(long index1, long index2)
+    content.vb: Public Function GetValue(index1 As Long, index2 As Long) As Object
+    parameters:
+    - id: index1
+      type: System.Int64
+    - id: index2
+      type: System.Int64
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int64,System.Int64,System.Int64)
+  id: GetValue(System.Int64,System.Int64,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int64, Int64, Int64)
+  fullName: System.Array.GetValue(System.Int64, System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 427
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(long index1, long index2, long index3)
+    content.vb: Public Function GetValue(index1 As Long, index2 As Long, index3 As Long) As Object
+    parameters:
+    - id: index1
+      type: System.Int64
+    - id: index2
+      type: System.Int64
+    - id: index3
+      type: System.Int64
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.GetValue(System.Int64[])
+  id: GetValue(System.Int64[])
+  parent: System.Array
+  href: System.Array.yml
+  name: GetValue(Int64[])
+  name.vb: GetValue(Int64())
+  fullName: System.Array.GetValue(System.Int64[])
+  fullName.vb: System.Array.GetValue(System.Int64())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 441
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object GetValue(params long[] indices)
+    content.vb: Public Function GetValue(ParamArray indices As Long()) As Object
+    parameters:
+    - id: indices
+      type: System.Int64[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.SetValue(System.Object,System.Int32)
+  id: SetValue(System.Object,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int32)
+  fullName: System.Array.SetValue(System.Object, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 464
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, int index)
+    content.vb: Public Sub SetValue(value As Object, index As Integer)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: index
+      type: System.Int32
+- uid: System.Array.SetValue(System.Object,System.Int32,System.Int32)
+  id: SetValue(System.Object,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int32, Int32)
+  fullName: System.Array.SetValue(System.Object, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 476
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, int index1, int index2)
+    content.vb: Public Sub SetValue(value As Object, index1 As Integer, index2 As Integer)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: index1
+      type: System.Int32
+    - id: index2
+      type: System.Int32
+- uid: System.Array.SetValue(System.Object,System.Int32,System.Int32,System.Int32)
+  id: SetValue(System.Object,System.Int32,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int32, Int32, Int32)
+  fullName: System.Array.SetValue(System.Object, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 492
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, int index1, int index2, int index3)
+    content.vb: Public Sub SetValue(value As Object, index1 As Integer, index2 As Integer, index3 As Integer)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: index1
+      type: System.Int32
+    - id: index2
+      type: System.Int32
+    - id: index3
+      type: System.Int32
+- uid: System.Array.SetValue(System.Object,System.Int32[])
+  id: SetValue(System.Object,System.Int32[])
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int32[])
+  name.vb: SetValue(Object, Int32())
+  fullName: System.Array.SetValue(System.Object, System.Int32[])
+  fullName.vb: System.Array.SetValue(System.Object, System.Int32())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 509
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, params int[] indices)
+    content.vb: Public Sub SetValue(value As Object, ParamArray indices As Integer())
+    parameters:
+    - id: value
+      type: System.Object
+    - id: indices
+      type: System.Int32[]
+- uid: System.Array.SetValue(System.Object,System.Int64)
+  id: SetValue(System.Object,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int64)
+  fullName: System.Array.SetValue(System.Object, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 524
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, long index)
+    content.vb: Public Sub SetValue(value As Object, index As Long)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: index
+      type: System.Int64
+- uid: System.Array.SetValue(System.Object,System.Int64,System.Int64)
+  id: SetValue(System.Object,System.Int64,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int64, Int64)
+  fullName: System.Array.SetValue(System.Object, System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 534
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, long index1, long index2)
+    content.vb: Public Sub SetValue(value As Object, index1 As Long, index2 As Long)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: index1
+      type: System.Int64
+    - id: index2
+      type: System.Int64
+- uid: System.Array.SetValue(System.Object,System.Int64,System.Int64,System.Int64)
+  id: SetValue(System.Object,System.Int64,System.Int64,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int64, Int64, Int64)
+  fullName: System.Array.SetValue(System.Object, System.Int64, System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 546
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, long index1, long index2, long index3)
+    content.vb: Public Sub SetValue(value As Object, index1 As Long, index2 As Long, index3 As Long)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: index1
+      type: System.Int64
+    - id: index2
+      type: System.Int64
+    - id: index3
+      type: System.Int64
+- uid: System.Array.SetValue(System.Object,System.Int64[])
+  id: SetValue(System.Object,System.Int64[])
+  parent: System.Array
+  href: System.Array.yml
+  name: SetValue(Object, Int64[])
+  name.vb: SetValue(Object, Int64())
+  fullName: System.Array.SetValue(System.Object, System.Int64[])
+  fullName.vb: System.Array.SetValue(System.Object, System.Int64())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 560
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void SetValue(object value, params long[] indices)
+    content.vb: Public Sub SetValue(value As Object, ParamArray indices As Long())
+    parameters:
+    - id: value
+      type: System.Object
+    - id: indices
+      type: System.Int64[]
+- uid: System.Array.Length
+  id: Length
+  parent: System.Array
+  href: System.Array.yml
+  name: Length
+  fullName: System.Array.Length
+  type: Property
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Length { get; }
+    content.vb: Public ReadOnly Property Length As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LongLength
+  id: LongLength
+  parent: System.Array
+  href: System.Array.yml
+  name: LongLength
+  fullName: System.Array.LongLength
+  type: Property
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public long LongLength { get; }
+    content.vb: Public ReadOnly Property LongLength As Long
+    parameters: []
+    return:
+      type: System.Int64
+      description: 
+- uid: System.Array.GetLength(System.Int32)
+  id: GetLength(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetLength(Int32)
+  fullName: System.Array.GetLength(System.Int32)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int GetLength(int dimension)
+    content.vb: Public Function GetLength(dimension As Integer) As Integer
+    parameters:
+    - id: dimension
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.GetLongLength(System.Int32)
+  id: GetLongLength(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetLongLength(Int32)
+  fullName: System.Array.GetLongLength(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 631
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public long GetLongLength(int dimension)
+    content.vb: Public Function GetLongLength(dimension As Integer) As Long
+    parameters:
+    - id: dimension
+      type: System.Int32
+    return:
+      type: System.Int64
+      description: 
+- uid: System.Array.Rank
+  id: Rank
+  parent: System.Array
+  href: System.Array.yml
+  name: Rank
+  fullName: System.Array.Rank
+  type: Property
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Rank { get; }
+    content.vb: Public ReadOnly Property Rank As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.GetUpperBound(System.Int32)
+  id: GetUpperBound(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetUpperBound(Int32)
+  fullName: System.Array.GetUpperBound(System.Int32)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int GetUpperBound(int dimension)
+    content.vb: Public Function GetUpperBound(dimension As Integer) As Integer
+    parameters:
+    - id: dimension
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.GetLowerBound(System.Int32)
+  id: GetLowerBound(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: GetLowerBound(Int32)
+  fullName: System.Array.GetLowerBound(System.Int32)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int GetLowerBound(int dimension)
+    content.vb: Public Function GetLowerBound(dimension As Integer) As Integer
+    parameters:
+    - id: dimension
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.System#Collections#ICollection#Count
+  id: System#Collections#ICollection#Count
+  parent: System.Array
+  href: System.Array.yml
+  name: ICollection.Count
+  name.vb: System.Collections.ICollection.Count
+  fullName: System.Array.System.Collections.ICollection.Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 664
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int ICollection.Count { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.Count As Integer Implements ICollection.Count
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.SyncRoot
+  id: SyncRoot
+  parent: System.Array
+  href: System.Array.yml
+  name: SyncRoot
+  fullName: System.Array.SyncRoot
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 670
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object SyncRoot { get; }
+    content.vb: Public ReadOnly Property SyncRoot As Object
+    parameters: []
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.IsReadOnly
+  id: IsReadOnly
+  parent: System.Array
+  href: System.Array.yml
+  name: IsReadOnly
+  fullName: System.Array.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 674
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsReadOnly { get; }
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.IsFixedSize
+  id: IsFixedSize
+  parent: System.Array
+  href: System.Array.yml
+  name: IsFixedSize
+  fullName: System.Array.IsFixedSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 677
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsFixedSize { get; }
+    content.vb: Public ReadOnly Property IsFixedSize As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.IsSynchronized
+  id: IsSynchronized
+  parent: System.Array
+  href: System.Array.yml
+  name: IsSynchronized
+  fullName: System.Array.IsSynchronized
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 685
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool IsSynchronized { get; }
+    content.vb: Public ReadOnly Property IsSynchronized As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.System#Collections#IList#Item(System.Int32)
+  id: System#Collections#IList#Item(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.Item[Int32]
+  name.vb: System.Collections.IList.Item(Int32)
+  fullName: System.Array.System.Collections.IList.Item[System.Int32]
+  fullName.vb: System.Array.System.Collections.IList.Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 689
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: object IList.this[int index] { get; set; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.Item(index As Integer) As Object Implements IList.this
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.System#Collections#IList#Add(System.Object)
+  id: System#Collections#IList#Add(System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.Add(Object)
+  name.vb: System.Collections.IList.Add(Object)
+  fullName: System.Array.System.Collections.IList.Add(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 694
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IList.Add(object value)
+    content.vb: Function System.Collections.IList.Add(value As Object) As Integer Implements IList.Add
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.System#Collections#IList#Contains(System.Object)
+  id: System#Collections#IList#Contains(System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.Contains(Object)
+  name.vb: System.Collections.IList.Contains(Object)
+  fullName: System.Array.System.Collections.IList.Contains(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 699
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: bool IList.Contains(object value)
+    content.vb: Function System.Collections.IList.Contains(value As Object) As Boolean Implements IList.Contains
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.System#Collections#IList#Clear
+  id: System#Collections#IList#Clear
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.Clear()
+  name.vb: System.Collections.IList.Clear()
+  fullName: System.Array.System.Collections.IList.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 704
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void IList.Clear()
+    content.vb: Sub System.Collections.IList.Clear Implements IList.Clear
+- uid: System.Array.System#Collections#IList#IndexOf(System.Object)
+  id: System#Collections#IList#IndexOf(System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.IndexOf(Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+  fullName: System.Array.System.Collections.IList.IndexOf(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 709
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IList.IndexOf(object value)
+    content.vb: Function System.Collections.IList.IndexOf(value As Object) As Integer Implements IList.IndexOf
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.System#Collections#IList#Insert(System.Int32,System.Object)
+  id: System#Collections#IList#Insert(System.Int32,System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.Insert(Int32, Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+  fullName: System.Array.System.Collections.IList.Insert(System.Int32, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 714
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void IList.Insert(int index, object value)
+    content.vb: Sub System.Collections.IList.Insert(index As Integer, value As Object) Implements IList.Insert
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: value
+      type: System.Object
+- uid: System.Array.System#Collections#IList#Remove(System.Object)
+  id: System#Collections#IList#Remove(System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.Remove(Object)
+  name.vb: System.Collections.IList.Remove(Object)
+  fullName: System.Array.System.Collections.IList.Remove(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 719
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void IList.Remove(object value)
+    content.vb: Sub System.Collections.IList.Remove(value As Object) Implements IList.Remove
+    parameters:
+    - id: value
+      type: System.Object
+- uid: System.Array.System#Collections#IList#RemoveAt(System.Int32)
+  id: System#Collections#IList#RemoveAt(System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: IList.RemoveAt(Int32)
+  name.vb: System.Collections.IList.RemoveAt(Int32)
+  fullName: System.Array.System.Collections.IList.RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 724
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void IList.RemoveAt(int index)
+    content.vb: Sub System.Collections.IList.RemoveAt(index As Integer) Implements IList.RemoveAt
+    parameters:
+    - id: index
+      type: System.Int32
+- uid: System.Array.Clone
+  id: Clone
+  parent: System.Array
+  href: System.Array.yml
+  name: Clone()
+  fullName: System.Array.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 731
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object Clone()
+    content.vb: Public Function Clone As Object
+    return:
+      type: System.Object
+      description: 
+- uid: System.Array.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
+  id: System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: IStructuralComparable.CompareTo(Object, IComparer)
+  name.vb: System.Collections.IStructuralComparable.CompareTo(Object, IComparer)
+  fullName: System.Array.System.Collections.IStructuralComparable.CompareTo(System.Object, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 736
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IStructuralComparable.CompareTo(object other, IComparer comparer)
+    content.vb: Function System.Collections.IStructuralComparable.CompareTo(other As Object, comparer As IComparer) As Integer Implements IStructuralComparable.CompareTo
+    parameters:
+    - id: other
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IComparer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
+  id: System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: IStructuralEquatable.Equals(Object, IEqualityComparer)
+  name.vb: System.Collections.IStructuralEquatable.Equals(Object, IEqualityComparer)
+  fullName: System.Array.System.Collections.IStructuralEquatable.Equals(System.Object, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 761
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: bool IStructuralEquatable.Equals(object other, IEqualityComparer comparer)
+    content.vb: Function System.Collections.IStructuralEquatable.Equals(other As Object, comparer As IEqualityComparer) As Boolean Implements IStructuralEquatable.Equals
+    parameters:
+    - id: other
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  id: System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: IStructuralEquatable.GetHashCode(IEqualityComparer)
+  name.vb: System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
+  fullName: System.Array.System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 796
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IStructuralEquatable.GetHashCode(IEqualityComparer comparer)
+    content.vb: Function System.Collections.IStructuralEquatable.GetHashCode(comparer As IEqualityComparer) As Integer Implements IStructuralEquatable.GetHashCode
+    parameters:
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch(System.Array,System.Object)
+  id: BinarySearch(System.Array,System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch(Array, Object)
+  fullName: System.Array.BinarySearch(System.Array, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 823
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch(Array array, object value)
+    content.vb: Public Shared Function BinarySearch(array As Array, value As Object) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+  id: BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch(Array, Int32, Int32, Object)
+  fullName: System.Array.BinarySearch(System.Array, System.Int32, System.Int32, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 847
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch(Array array, int index, int length, object value)
+    content.vb: Public Shared Function BinarySearch(array As Array, index As Integer, length As Integer, value As Object) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch(System.Array,System.Object,System.Collections.IComparer)
+  id: BinarySearch(System.Array,System.Object,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch(Array, Object, IComparer)
+  fullName: System.Array.BinarySearch(System.Array, System.Object, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 867
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch(Array array, object value, IComparer comparer)
+    content.vb: Public Shared Function BinarySearch(array As Array, value As Object, comparer As IComparer) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IComparer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+  id: BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch(Array, Int32, Int32, Object, IComparer)
+  fullName: System.Array.BinarySearch(System.Array, System.Int32, System.Int32, System.Object, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 892
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch(Array array, int index, int length, object value, IComparer comparer)
+    content.vb: Public Shared Function BinarySearch(array As Array, index As Integer, length As Integer, value As Object, comparer As IComparer) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IComparer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch``1(``0[],``0)
+  id: BinarySearch``1(``0[],``0)
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch<T>(T[], T)
+  name.vb: BinarySearch(Of T)(T(), T)
+  fullName: System.Array.BinarySearch<T>(T[], T)
+  fullName.vb: System.Array.BinarySearch(Of T)(T(), T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 967
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch<T>(T[] array, T value)
+    content.vb: Public Shared Function BinarySearch(Of T)(array As T(), value As T) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})
+  id: BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch<T>(T[], T, IComparer<T>)
+  name.vb: BinarySearch(Of T)(T(), T, IComparer(Of T))
+  fullName: System.Array.BinarySearch<T>(T[], T, System.Collections.Generic.IComparer<T>)
+  fullName.vb: System.Array.BinarySearch(Of T)(T(), T, System.Collections.Generic.IComparer(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 976
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch<T>(T[] array, T value, IComparer<T> comparer)
+    content.vb: Public Shared Function BinarySearch(Of T)(array As T(), value As T, comparer As IComparer(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    - id: comparer
+      type: System.Collections.Generic.IComparer{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0)
+  id: BinarySearch``1(``0[],System.Int32,System.Int32,``0)
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch<T>(T[], Int32, Int32, T)
+  name.vb: BinarySearch(Of T)(T(), Int32, Int32, T)
+  fullName: System.Array.BinarySearch<T>(T[], System.Int32, System.Int32, T)
+  fullName.vb: System.Array.BinarySearch(Of T)(T(), System.Int32, System.Int32, T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 985
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch<T>(T[] array, int index, int length, T value)
+    content.vb: Public Shared Function BinarySearch(Of T)(array As T(), index As Integer, length As Integer, value As T) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})
+  id: BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: BinarySearch<T>(T[], Int32, Int32, T, IComparer<T>)
+  name.vb: BinarySearch(Of T)(T(), Int32, Int32, T, IComparer(Of T))
+  fullName: System.Array.BinarySearch<T>(T[], System.Int32, System.Int32, T, System.Collections.Generic.IComparer<T>)
+  fullName.vb: System.Array.BinarySearch(Of T)(T(), System.Int32, System.Int32, T, System.Collections.Generic.IComparer(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 991
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int BinarySearch<T>(T[] array, int index, int length, T value, IComparer<T> comparer)
+    content.vb: Public Shared Function BinarySearch(Of T)(array As T(), index As Integer, length As Integer, value As T, comparer As IComparer(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: value
+      type: '{T}'
+    - id: comparer
+      type: System.Collections.Generic.IComparer{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.ConvertAll``2(``0[],System.Converter{``0,``1})
+  id: ConvertAll``2(``0[],System.Converter{``0,``1})
+  parent: System.Array
+  href: System.Array.yml
+  name: ConvertAll<TInput, TOutput>(TInput[], Converter<TInput, TOutput>)
+  name.vb: ConvertAll(Of TInput, TOutput)(TInput(), Converter(Of TInput, TOutput))
+  fullName: System.Array.ConvertAll<TInput, TOutput>(TInput[], System.Converter<TInput, TOutput>)
+  fullName.vb: System.Array.ConvertAll(Of TInput, TOutput)(TInput(), System.Converter(Of TInput, TOutput))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1012
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter)
+    content.vb: Public Shared Function ConvertAll(Of TInput, TOutput)(array As TInput(), converter As Converter(Of TInput, TOutput)) As TOutput()
+    parameters:
+    - id: array
+      type: '{TInput}[]'
+    - id: converter
+      type: System.Converter{{TInput},{TOutput}}
+    typeParameters:
+    - id: TInput
+    - id: TOutput
+    return:
+      type: '{TOutput}[]'
+      description: 
+- uid: System.Array.CopyTo(System.Array,System.Int32)
+  id: CopyTo(System.Array,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: CopyTo(Array, Int32)
+  fullName: System.Array.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1038
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void CopyTo(Array array, int index)
+    content.vb: Public Sub CopyTo(array As Array, index As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+- uid: System.Array.CopyTo(System.Array,System.Int64)
+  id: CopyTo(System.Array,System.Int64)
+  parent: System.Array
+  href: System.Array.yml
+  name: CopyTo(Array, Int64)
+  fullName: System.Array.CopyTo(System.Array, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1048
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void CopyTo(Array array, long index)
+    content.vb: Public Sub CopyTo(array As Array, index As Long)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int64
+- uid: System.Array.Empty``1
+  id: Empty``1
+  parent: System.Array
+  href: System.Array.yml
+  name: Empty<T>()
+  name.vb: Empty(Of T)()
+  fullName: System.Array.Empty<T>()
+  fullName.vb: System.Array.Empty(Of T)()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1059
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static T[] Empty<T>()
+    content.vb: Public Shared Function Empty(Of T) As T()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+      description: 
+- uid: System.Array.Exists``1(``0[],System.Predicate{``0})
+  id: Exists``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Exists<T>(T[], Predicate<T>)
+  name.vb: Exists(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.Exists<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.Exists(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1070
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool Exists<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function Exists(Of T)(array As T(), match As Predicate(Of T)) As Boolean
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.Find``1(``0[],System.Predicate{``0})
+  id: Find``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Find<T>(T[], Predicate<T>)
+  name.vb: Find(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.Find<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.Find(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1074
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static T Find<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function Find(Of T)(array As T(), match As Predicate(Of T)) As T
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: 
+- uid: System.Array.FindAll``1(``0[],System.Predicate{``0})
+  id: FindAll``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindAll<T>(T[], Predicate<T>)
+  name.vb: FindAll(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.FindAll<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.FindAll(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1092
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static T[] FindAll<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function FindAll(Of T)(array As T(), match As Predicate(Of T)) As T()
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+      description: 
+- uid: System.Array.FindIndex``1(``0[],System.Predicate{``0})
+  id: FindIndex``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindIndex<T>(T[], Predicate<T>)
+  name.vb: FindIndex(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.FindIndex<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.FindIndex(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1111
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int FindIndex<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function FindIndex(Of T)(array As T(), match As Predicate(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.FindIndex``1(``0[],System.Int32,System.Predicate{``0})
+  id: FindIndex``1(``0[],System.Int32,System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindIndex<T>(T[], Int32, Predicate<T>)
+  name.vb: FindIndex(Of T)(T(), Int32, Predicate(Of T))
+  fullName: System.Array.FindIndex<T>(T[], System.Int32, System.Predicate<T>)
+  fullName.vb: System.Array.FindIndex(Of T)(T(), System.Int32, System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1121
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int FindIndex<T>(T[] array, int startIndex, Predicate<T> match)
+    content.vb: Public Shared Function FindIndex(Of T)(array As T(), startIndex As Integer, match As Predicate(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: startIndex
+      type: System.Int32
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
+  id: FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindIndex<T>(T[], Int32, Int32, Predicate<T>)
+  name.vb: FindIndex(Of T)(T(), Int32, Int32, Predicate(Of T))
+  fullName: System.Array.FindIndex<T>(T[], System.Int32, System.Int32, System.Predicate<T>)
+  fullName.vb: System.Array.FindIndex(Of T)(T(), System.Int32, System.Int32, System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1131
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int FindIndex<T>(T[] array, int startIndex, int count, Predicate<T> match)
+    content.vb: Public Shared Function FindIndex(Of T)(array As T(), startIndex As Integer, count As Integer, match As Predicate(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.FindLast``1(``0[],System.Predicate{``0})
+  id: FindLast``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindLast<T>(T[], Predicate<T>)
+  name.vb: FindLast(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.FindLast<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.FindLast(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1157
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static T FindLast<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function FindLast(Of T)(array As T(), match As Predicate(Of T)) As T
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: 
+- uid: System.Array.FindLastIndex``1(``0[],System.Predicate{``0})
+  id: FindLastIndex``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindLastIndex<T>(T[], Predicate<T>)
+  name.vb: FindLastIndex(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.FindLastIndex<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.FindLastIndex(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1175
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int FindLastIndex<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function FindLastIndex(Of T)(array As T(), match As Predicate(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.FindLastIndex``1(``0[],System.Int32,System.Predicate{``0})
+  id: FindLastIndex``1(``0[],System.Int32,System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindLastIndex<T>(T[], Int32, Predicate<T>)
+  name.vb: FindLastIndex(Of T)(T(), Int32, Predicate(Of T))
+  fullName: System.Array.FindLastIndex<T>(T[], System.Int32, System.Predicate<T>)
+  fullName.vb: System.Array.FindLastIndex(Of T)(T(), System.Int32, System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1184
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int FindLastIndex<T>(T[] array, int startIndex, Predicate<T> match)
+    content.vb: Public Shared Function FindLastIndex(Of T)(array As T(), startIndex As Integer, match As Predicate(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: startIndex
+      type: System.Int32
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
+  id: FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: FindLastIndex<T>(T[], Int32, Int32, Predicate<T>)
+  name.vb: FindLastIndex(Of T)(T(), Int32, Int32, Predicate(Of T))
+  fullName: System.Array.FindLastIndex<T>(T[], System.Int32, System.Int32, System.Predicate<T>)
+  fullName.vb: System.Array.FindLastIndex(Of T)(T(), System.Int32, System.Int32, System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1193
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int FindLastIndex<T>(T[] array, int startIndex, int count, Predicate<T> match)
+    content.vb: Public Shared Function FindLastIndex(Of T)(array As T(), startIndex As Integer, count As Integer, match As Predicate(Of T)) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.ForEach``1(``0[],System.Action{``0})
+  id: ForEach``1(``0[],System.Action{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: ForEach<T>(T[], Action<T>)
+  name.vb: ForEach(Of T)(T(), Action(Of T))
+  fullName: System.Array.ForEach<T>(T[], System.Action<T>)
+  fullName.vb: System.Array.ForEach(Of T)(T(), System.Action(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1230
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void ForEach<T>(T[] array, Action<T> action)
+    content.vb: Public Shared Sub ForEach(Of T)(array As T(), action As Action(Of T))
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: action
+      type: System.Action{{T}}
+    typeParameters:
+    - id: T
+- uid: System.Array.GetEnumerator
+  id: GetEnumerator
+  parent: System.Array
+  href: System.Array.yml
+  name: GetEnumerator()
+  fullName: System.Array.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1249
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public IEnumerator GetEnumerator()
+    content.vb: Public Function GetEnumerator As IEnumerator
+    return:
+      type: System.Collections.IEnumerator
+      description: 
+- uid: System.Array.IndexOf(System.Array,System.Object)
+  id: IndexOf(System.Array,System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: IndexOf(Array, Object)
+  fullName: System.Array.IndexOf(System.Array, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1262
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int IndexOf(Array array, object value)
+    content.vb: Public Shared Function IndexOf(array As Array, value As Object) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.IndexOf(System.Array,System.Object,System.Int32)
+  id: IndexOf(System.Array,System.Object,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: IndexOf(Array, Object, Int32)
+  fullName: System.Array.IndexOf(System.Array, System.Object, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1278
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int IndexOf(Array array, object value, int startIndex)
+    content.vb: Public Shared Function IndexOf(array As Array, value As Object, startIndex As Integer) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.IndexOf(System.Array,System.Object,System.Int32,System.Int32)
+  id: IndexOf(System.Array,System.Object,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: IndexOf(Array, Object, Int32, Int32)
+  fullName: System.Array.IndexOf(System.Array, System.Object, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1294
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int IndexOf(Array array, object value, int startIndex, int count)
+    content.vb: Public Shared Function IndexOf(array As Array, value As Object, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.IndexOf``1(``0[],``0)
+  id: IndexOf``1(``0[],``0)
+  parent: System.Array
+  href: System.Array.yml
+  name: IndexOf<T>(T[], T)
+  name.vb: IndexOf(Of T)(T(), T)
+  fullName: System.Array.IndexOf<T>(T[], T)
+  fullName.vb: System.Array.IndexOf(Of T)(T(), T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1349
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int IndexOf<T>(T[] array, T value)
+    content.vb: Public Shared Function IndexOf(Of T)(array As T(), value As T) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.IndexOf``1(``0[],``0,System.Int32)
+  id: IndexOf``1(``0[],``0,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: IndexOf<T>(T[], T, Int32)
+  name.vb: IndexOf(Of T)(T(), T, Int32)
+  fullName: System.Array.IndexOf<T>(T[], T, System.Int32)
+  fullName.vb: System.Array.IndexOf(Of T)(T(), T, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1361
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int IndexOf<T>(T[] array, T value, int startIndex)
+    content.vb: Public Shared Function IndexOf(Of T)(array As T(), value As T, startIndex As Integer) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    - id: startIndex
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.IndexOf``1(``0[],``0,System.Int32,System.Int32)
+  id: IndexOf``1(``0[],``0,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: IndexOf<T>(T[], T, Int32, Int32)
+  name.vb: IndexOf(Of T)(T(), T, Int32, Int32)
+  fullName: System.Array.IndexOf<T>(T[], T, System.Int32, System.Int32)
+  fullName.vb: System.Array.IndexOf(Of T)(T(), T, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1371
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int IndexOf<T>(T[] array, T value, int startIndex, int count)
+    content.vb: Public Shared Function IndexOf(Of T)(array As T(), value As T, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LastIndexOf(System.Array,System.Object)
+  id: LastIndexOf(System.Array,System.Object)
+  parent: System.Array
+  href: System.Array.yml
+  name: LastIndexOf(Array, Object)
+  fullName: System.Array.LastIndexOf(System.Array, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1399
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LastIndexOf(Array array, object value)
+    content.vb: Public Shared Function LastIndexOf(array As Array, value As Object) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LastIndexOf(System.Array,System.Object,System.Int32)
+  id: LastIndexOf(System.Array,System.Object,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: LastIndexOf(Array, Object, Int32)
+  fullName: System.Array.LastIndexOf(System.Array, System.Object, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1414
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LastIndexOf(Array array, object value, int startIndex)
+    content.vb: Public Shared Function LastIndexOf(array As Array, value As Object, startIndex As Integer) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LastIndexOf(System.Array,System.Object,System.Int32,System.Int32)
+  id: LastIndexOf(System.Array,System.Object,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: LastIndexOf(Array, Object, Int32, Int32)
+  fullName: System.Array.LastIndexOf(System.Array, System.Object, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1430
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LastIndexOf(Array array, object value, int startIndex, int count)
+    content.vb: Public Shared Function LastIndexOf(array As Array, value As Object, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: array
+      type: System.Array
+    - id: value
+      type: System.Object
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LastIndexOf``1(``0[],``0)
+  id: LastIndexOf``1(``0[],``0)
+  parent: System.Array
+  href: System.Array.yml
+  name: LastIndexOf<T>(T[], T)
+  name.vb: LastIndexOf(Of T)(T(), T)
+  fullName: System.Array.LastIndexOf<T>(T[], T)
+  fullName.vb: System.Array.LastIndexOf(Of T)(T(), T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1486
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LastIndexOf<T>(T[] array, T value)
+    content.vb: Public Shared Function LastIndexOf(Of T)(array As T(), value As T) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LastIndexOf``1(``0[],``0,System.Int32)
+  id: LastIndexOf``1(``0[],``0,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: LastIndexOf<T>(T[], T, Int32)
+  name.vb: LastIndexOf(Of T)(T(), T, Int32)
+  fullName: System.Array.LastIndexOf<T>(T[], T, System.Int32)
+  fullName.vb: System.Array.LastIndexOf(Of T)(T(), T, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1496
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LastIndexOf<T>(T[] array, T value, int startIndex)
+    content.vb: Public Shared Function LastIndexOf(Of T)(array As T(), value As T, startIndex As Integer) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    - id: startIndex
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.LastIndexOf``1(``0[],``0,System.Int32,System.Int32)
+  id: LastIndexOf``1(``0[],``0,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: LastIndexOf<T>(T[], T, Int32, Int32)
+  name.vb: LastIndexOf(Of T)(T(), T, Int32, Int32)
+  fullName: System.Array.LastIndexOf<T>(T[], T, System.Int32, System.Int32)
+  fullName.vb: System.Array.LastIndexOf(Of T)(T(), T, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1506
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static int LastIndexOf<T>(T[] array, T value, int startIndex, int count)
+    content.vb: Public Shared Function LastIndexOf(Of T)(array As T(), value As T, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: value
+      type: '{T}'
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Array.Reverse(System.Array)
+  id: Reverse(System.Array)
+  parent: System.Array
+  href: System.Array.yml
+  name: Reverse(Array)
+  fullName: System.Array.Reverse(System.Array)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1553
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Reverse(Array array)
+    content.vb: Public Shared Sub Reverse(array As Array)
+    parameters:
+    - id: array
+      type: System.Array
+- uid: System.Array.Reverse(System.Array,System.Int32,System.Int32)
+  id: Reverse(System.Array,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Reverse(Array, Int32, Int32)
+  fullName: System.Array.Reverse(System.Array, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1567
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Reverse(Array array, int index, int length)
+    content.vb: Public Shared Sub Reverse(array As Array, index As Integer, length As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+- uid: System.Array.Sort(System.Array)
+  id: Sort(System.Array)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array)
+  fullName: System.Array.Sort(System.Array)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1616
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array array)
+    content.vb: Public Shared Sub Sort(array As Array)
+    parameters:
+    - id: array
+      type: System.Array
+- uid: System.Array.Sort(System.Array,System.Array)
+  id: Sort(System.Array,System.Array)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, Array)
+  fullName: System.Array.Sort(System.Array, System.Array)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1630
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array keys, Array items)
+    content.vb: Public Shared Sub Sort(keys As Array, items As Array)
+    parameters:
+    - id: keys
+      type: System.Array
+    - id: items
+      type: System.Array
+- uid: System.Array.Sort(System.Array,System.Int32,System.Int32)
+  id: Sort(System.Array,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, Int32, Int32)
+  fullName: System.Array.Sort(System.Array, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1642
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array array, int index, int length)
+    content.vb: Public Shared Sub Sort(array As Array, index As Integer, length As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+- uid: System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32)
+  id: Sort(System.Array,System.Array,System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, Array, Int32, Int32)
+  fullName: System.Array.Sort(System.Array, System.Array, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1653
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array keys, Array items, int index, int length)
+    content.vb: Public Shared Sub Sort(keys As Array, items As Array, index As Integer, length As Integer)
+    parameters:
+    - id: keys
+      type: System.Array
+    - id: items
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+- uid: System.Array.Sort(System.Array,System.Collections.IComparer)
+  id: Sort(System.Array,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, IComparer)
+  fullName: System.Array.Sort(System.Array, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1664
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array array, IComparer comparer)
+    content.vb: Public Shared Sub Sort(array As Array, comparer As IComparer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Array.Sort(System.Array,System.Array,System.Collections.IComparer)
+  id: Sort(System.Array,System.Array,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, Array, IComparer)
+  fullName: System.Array.Sort(System.Array, System.Array, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1680
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array keys, Array items, IComparer comparer)
+    content.vb: Public Shared Sub Sort(keys As Array, items As Array, comparer As IComparer)
+    parameters:
+    - id: keys
+      type: System.Array
+    - id: items
+      type: System.Array
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Array.Sort(System.Array,System.Int32,System.Int32,System.Collections.IComparer)
+  id: Sort(System.Array,System.Int32,System.Int32,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, Int32, Int32, IComparer)
+  fullName: System.Array.Sort(System.Array, System.Int32, System.Int32, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1694
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array array, int index, int length, IComparer comparer)
+    content.vb: Public Shared Sub Sort(array As Array, index As Integer, length As Integer, comparer As IComparer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32,System.Collections.IComparer)
+  id: Sort(System.Array,System.Array,System.Int32,System.Int32,System.Collections.IComparer)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort(Array, Array, Int32, Int32, IComparer)
+  fullName: System.Array.Sort(System.Array, System.Array, System.Int32, System.Int32, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1707
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort(Array keys, Array items, int index, int length, IComparer comparer)
+    content.vb: Public Shared Sub Sort(keys As Array, items As Array, index As Integer, length As Integer, comparer As IComparer)
+    parameters:
+    - id: keys
+      type: System.Array
+    - id: items
+      type: System.Array
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Array.Sort``1(``0[])
+  id: Sort``1(``0[])
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<T>(T[])
+  name.vb: Sort(Of T)(T())
+  fullName: System.Array.Sort<T>(T[])
+  fullName.vb: System.Array.Sort(Of T)(T())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1750
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<T>(T[] array)
+    content.vb: Public Shared Sub Sort(Of T)(array As T())
+    parameters:
+    - id: array
+      type: '{T}[]'
+    typeParameters:
+    - id: T
+- uid: System.Array.Sort``2(``0[],``1[])
+  id: Sort``2(``0[],``1[])
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<TKey, TValue>(TKey[], TValue[])
+  name.vb: Sort(Of TKey, TValue)(TKey(), TValue())
+  fullName: System.Array.Sort<TKey, TValue>(TKey[], TValue[])
+  fullName.vb: System.Array.Sort(Of TKey, TValue)(TKey(), TValue())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1758
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items)
+    content.vb: Public Shared Sub Sort(Of TKey, TValue)(keys As TKey(), items As TValue())
+    parameters:
+    - id: keys
+      type: '{TKey}[]'
+    - id: items
+      type: '{TValue}[]'
+    typeParameters:
+    - id: TKey
+    - id: TValue
+- uid: System.Array.Sort``1(``0[],System.Int32,System.Int32)
+  id: Sort``1(``0[],System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<T>(T[], Int32, Int32)
+  name.vb: Sort(Of T)(T(), Int32, Int32)
+  fullName: System.Array.Sort<T>(T[], System.Int32, System.Int32)
+  fullName.vb: System.Array.Sort(Of T)(T(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1766
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<T>(T[] array, int index, int length)
+    content.vb: Public Shared Sub Sort(Of T)(array As T(), index As Integer, length As Integer)
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    typeParameters:
+    - id: T
+- uid: System.Array.Sort``2(``0[],``1[],System.Int32,System.Int32)
+  id: Sort``2(``0[],``1[],System.Int32,System.Int32)
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<TKey, TValue>(TKey[], TValue[], Int32, Int32)
+  name.vb: Sort(Of TKey, TValue)(TKey(), TValue(), Int32, Int32)
+  fullName: System.Array.Sort<TKey, TValue>(TKey[], TValue[], System.Int32, System.Int32)
+  fullName.vb: System.Array.Sort(Of TKey, TValue)(TKey(), TValue(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1771
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items, int index, int length)
+    content.vb: Public Shared Sub Sort(Of TKey, TValue)(keys As TKey(), items As TValue(), index As Integer, length As Integer)
+    parameters:
+    - id: keys
+      type: '{TKey}[]'
+    - id: items
+      type: '{TValue}[]'
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    typeParameters:
+    - id: TKey
+    - id: TValue
+- uid: System.Array.Sort``1(``0[],System.Collections.Generic.IComparer{``0})
+  id: Sort``1(``0[],System.Collections.Generic.IComparer{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<T>(T[], IComparer<T>)
+  name.vb: Sort(Of T)(T(), IComparer(Of T))
+  fullName: System.Array.Sort<T>(T[], System.Collections.Generic.IComparer<T>)
+  fullName.vb: System.Array.Sort(Of T)(T(), System.Collections.Generic.IComparer(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1776
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<T>(T[] array, IComparer<T> comparer)
+    content.vb: Public Shared Sub Sort(Of T)(array As T(), comparer As IComparer(Of T))
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: comparer
+      type: System.Collections.Generic.IComparer{{T}}
+    typeParameters:
+    - id: T
+- uid: System.Array.Sort``2(``0[],``1[],System.Collections.Generic.IComparer{``0})
+  id: Sort``2(``0[],``1[],System.Collections.Generic.IComparer{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<TKey, TValue>(TKey[], TValue[], IComparer<TKey>)
+  name.vb: Sort(Of TKey, TValue)(TKey(), TValue(), IComparer(Of TKey))
+  fullName: System.Array.Sort<TKey, TValue>(TKey[], TValue[], System.Collections.Generic.IComparer<TKey>)
+  fullName.vb: System.Array.Sort(Of TKey, TValue)(TKey(), TValue(), System.Collections.Generic.IComparer(Of TKey))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1784
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items, IComparer<TKey> comparer)
+    content.vb: Public Shared Sub Sort(Of TKey, TValue)(keys As TKey(), items As TValue(), comparer As IComparer(Of TKey))
+    parameters:
+    - id: keys
+      type: '{TKey}[]'
+    - id: items
+      type: '{TValue}[]'
+    - id: comparer
+      type: System.Collections.Generic.IComparer{{TKey}}
+    typeParameters:
+    - id: TKey
+    - id: TValue
+- uid: System.Array.Sort``1(``0[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})
+  id: Sort``1(``0[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<T>(T[], Int32, Int32, IComparer<T>)
+  name.vb: Sort(Of T)(T(), Int32, Int32, IComparer(Of T))
+  fullName: System.Array.Sort<T>(T[], System.Int32, System.Int32, System.Collections.Generic.IComparer<T>)
+  fullName.vb: System.Array.Sort(Of T)(T(), System.Int32, System.Int32, System.Collections.Generic.IComparer(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1792
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<T>(T[] array, int index, int length, IComparer<T> comparer)
+    content.vb: Public Shared Sub Sort(Of T)(array As T(), index As Integer, length As Integer, comparer As IComparer(Of T))
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: comparer
+      type: System.Collections.Generic.IComparer{{T}}
+    typeParameters:
+    - id: T
+- uid: System.Array.Sort``2(``0[],``1[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})
+  id: Sort``2(``0[],``1[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<TKey, TValue>(TKey[], TValue[], Int32, Int32, IComparer<TKey>)
+  name.vb: Sort(Of TKey, TValue)(TKey(), TValue(), Int32, Int32, IComparer(Of TKey))
+  fullName: System.Array.Sort<TKey, TValue>(TKey[], TValue[], System.Int32, System.Int32, System.Collections.Generic.IComparer<TKey>)
+  fullName.vb: System.Array.Sort(Of TKey, TValue)(TKey(), TValue(), System.Int32, System.Int32, System.Collections.Generic.IComparer(Of TKey))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1821
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items, int index, int length, IComparer<TKey> comparer)
+    content.vb: Public Shared Sub Sort(Of TKey, TValue)(keys As TKey(), items As TValue(), index As Integer, length As Integer, comparer As IComparer(Of TKey))
+    parameters:
+    - id: keys
+      type: '{TKey}[]'
+    - id: items
+      type: '{TValue}[]'
+    - id: index
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: comparer
+      type: System.Collections.Generic.IComparer{{TKey}}
+    typeParameters:
+    - id: TKey
+    - id: TValue
+- uid: System.Array.Sort``1(``0[],System.Comparison{``0})
+  id: Sort``1(``0[],System.Comparison{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: Sort<T>(T[], Comparison<T>)
+  name.vb: Sort(Of T)(T(), Comparison(Of T))
+  fullName: System.Array.Sort<T>(T[], System.Comparison<T>)
+  fullName.vb: System.Array.Sort(Of T)(T(), System.Comparison(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1856
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static void Sort<T>(T[] array, Comparison<T> comparison)
+    content.vb: Public Shared Sub Sort(Of T)(array As T(), comparison As Comparison(Of T))
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: comparison
+      type: System.Comparison{{T}}
+    typeParameters:
+    - id: T
+- uid: System.Array.TrueForAll``1(``0[],System.Predicate{``0})
+  id: TrueForAll``1(``0[],System.Predicate{``0})
+  parent: System.Array
+  href: System.Array.yml
+  name: TrueForAll<T>(T[], Predicate<T>)
+  name.vb: TrueForAll(Of T)(T(), Predicate(Of T))
+  fullName: System.Array.TrueForAll<T>(T[], System.Predicate<T>)
+  fullName.vb: System.Array.TrueForAll(Of T)(T(), System.Predicate(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Array.cs
+    startLine: 1870
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool TrueForAll<T>(T[] array, Predicate<T> match)
+    content.vb: Public Shared Function TrueForAll(Of T)(array As T(), match As Predicate(Of T)) As Boolean
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Array.Initialize
+  id: Initialize
+  parent: System.Array
+  href: System.Array.yml
+  name: Initialize()
+  fullName: System.Array.Initialize()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: '{T}[]'
+  isExternal: false
+  name: T[]
+  name.vb: T()
+  fullName: T[]
+  fullName.vb: T()
+  spec.csharp:
+  - name: T
+    fullName: T
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    fullName: T
+  - name: ()
+    fullName: ()
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  href: System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  name: ReadOnlyCollection<T>
+  name.vb: ReadOnlyCollection(Of T)
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    href: System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    href: System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  parent: System.Collections.ObjectModel
+  isExternal: false
+  href: System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  name: ReadOnlyCollection<T>
+  name.vb: ReadOnlyCollection(Of T)
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  type: Class
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    href: System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    href: System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  isExternal: false
+  name: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Array
+  parent: System
+  isExternal: false
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class
+- uid: System.Int32[]
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32[]
+  name.vb: Int32()
+  fullName: System.Int32[]
+  fullName.vb: System.Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int64[]
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64[]
+  name.vb: Int64()
+  fullName: System.Int64[]
+  fullName.vb: System.Int64()
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    fullName: System.Int64
+    href: System.Int64.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int64
+    name: Int64
+    fullName: System.Int64
+    href: System.Int64.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Collections.IComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IComparer.yml
+  name: IComparer
+  fullName: System.Collections.IComparer
+  type: Interface
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Collections.IEqualityComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEqualityComparer.yml
+  name: IEqualityComparer
+  fullName: System.Collections.IEqualityComparer
+  type: Interface
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: System.Collections.Generic.IComparer{{T}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IComparer`1
+  href: System.Collections.Generic.IComparer`1.yml
+  name: IComparer<T>
+  name.vb: IComparer(Of T)
+  fullName: System.Collections.Generic.IComparer<T>
+  fullName.vb: System.Collections.Generic.IComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    fullName: System.Collections.Generic.IComparer
+    href: System.Collections.Generic.IComparer`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    fullName: System.Collections.Generic.IComparer
+    href: System.Collections.Generic.IComparer`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IComparer`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IComparer`1.yml
+  name: IComparer<T>
+  name.vb: IComparer(Of T)
+  fullName: System.Collections.Generic.IComparer<T>
+  fullName.vb: System.Collections.Generic.IComparer(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    fullName: System.Collections.Generic.IComparer
+    href: System.Collections.Generic.IComparer`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    fullName: System.Collections.Generic.IComparer
+    href: System.Collections.Generic.IComparer`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace
+- uid: '{TInput}[]'
+  isExternal: false
+  name: TInput[]
+  name.vb: TInput()
+  fullName: TInput[]
+  fullName.vb: TInput()
+  spec.csharp:
+  - name: TInput
+    fullName: TInput
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TInput
+    fullName: TInput
+  - name: ()
+    fullName: ()
+- uid: System.Converter{{TInput},{TOutput}}
+  parent: System
+  definition: System.Converter`2
+  href: System.Converter`2.yml
+  name: Converter<TInput, TOutput>
+  name.vb: Converter(Of TInput, TOutput)
+  fullName: System.Converter<TInput, TOutput>
+  fullName.vb: System.Converter(Of TInput, TOutput)
+  spec.csharp:
+  - uid: System.Converter`2
+    name: Converter
+    fullName: System.Converter
+    href: System.Converter`2.yml
+  - name: <
+    fullName: <
+  - name: TInput
+    fullName: TInput
+  - name: ', '
+    fullName: ', '
+  - name: TOutput
+    fullName: TOutput
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Converter`2
+    name: Converter
+    fullName: System.Converter
+    href: System.Converter`2.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TInput
+    fullName: TInput
+  - name: ', '
+    fullName: ', '
+  - name: TOutput
+    fullName: TOutput
+  - name: )
+    fullName: )
+- uid: '{TOutput}[]'
+  isExternal: false
+  name: TOutput[]
+  name.vb: TOutput()
+  fullName: TOutput[]
+  fullName.vb: TOutput()
+  spec.csharp:
+  - name: TOutput
+    fullName: TOutput
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TOutput
+    fullName: TOutput
+  - name: ()
+    fullName: ()
+- uid: System.Converter`2
+  isExternal: false
+  href: System.Converter`2.yml
+  name: Converter<TInput, TOutput>
+  name.vb: Converter(Of TInput, TOutput)
+  fullName: System.Converter<TInput, TOutput>
+  fullName.vb: System.Converter(Of TInput, TOutput)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Converter`2
+    name: Converter
+    fullName: System.Converter
+    href: System.Converter`2.yml
+  - name: <
+    fullName: <
+  - name: TInput
+    fullName: TInput
+  - name: ', '
+    fullName: ', '
+  - name: TOutput
+    fullName: TOutput
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Converter`2
+    name: Converter
+    fullName: System.Converter
+    href: System.Converter`2.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TInput
+    fullName: TInput
+  - name: ', '
+    fullName: ', '
+  - name: TOutput
+    fullName: TOutput
+  - name: )
+    fullName: )
+- uid: System.Predicate{{T}}
+  parent: System
+  definition: System.Predicate`1
+  href: System.Predicate`1.yml
+  name: Predicate<T>
+  name.vb: Predicate(Of T)
+  fullName: System.Predicate<T>
+  fullName.vb: System.Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    href: System.Predicate`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    href: System.Predicate`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Predicate`1
+  isExternal: false
+  href: System.Predicate`1.yml
+  name: Predicate<T>
+  name.vb: Predicate(Of T)
+  fullName: System.Predicate<T>
+  fullName.vb: System.Predicate(Of T)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    href: System.Predicate`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    href: System.Predicate`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Action{{T}}
+  parent: System
+  definition: System.Action`1
+  href: System.Action`1.yml
+  name: Action<T>
+  name.vb: Action(Of T)
+  fullName: System.Action<T>
+  fullName.vb: System.Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    href: System.Action`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    href: System.Action`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Action`1
+  isExternal: false
+  href: System.Action`1.yml
+  name: Action<T>
+  name.vb: Action(Of T)
+  fullName: System.Action<T>
+  fullName.vb: System.Action(Of T)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    href: System.Action`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    href: System.Action`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface
+- uid: '{TKey}[]'
+  isExternal: false
+  name: TKey[]
+  name.vb: TKey()
+  fullName: TKey[]
+  fullName.vb: TKey()
+  spec.csharp:
+  - name: TKey
+    fullName: TKey
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TKey
+    fullName: TKey
+  - name: ()
+    fullName: ()
+- uid: '{TValue}[]'
+  isExternal: false
+  name: TValue[]
+  name.vb: TValue()
+  fullName: TValue[]
+  fullName.vb: TValue()
+  spec.csharp:
+  - name: TValue
+    fullName: TValue
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TValue
+    fullName: TValue
+  - name: ()
+    fullName: ()
+- uid: System.Collections.Generic.IComparer{{TKey}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IComparer`1
+  href: System.Collections.Generic.IComparer`1.yml
+  name: IComparer<TKey>
+  name.vb: IComparer(Of TKey)
+  fullName: System.Collections.Generic.IComparer<TKey>
+  fullName.vb: System.Collections.Generic.IComparer(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    fullName: System.Collections.Generic.IComparer
+    href: System.Collections.Generic.IComparer`1.yml
+  - name: <
+    fullName: <
+  - name: TKey
+    fullName: TKey
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    fullName: System.Collections.Generic.IComparer
+    href: System.Collections.Generic.IComparer`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    fullName: TKey
+  - name: )
+    fullName: )
+- uid: System.Comparison{{T}}
+  parent: System
+  definition: System.Comparison`1
+  href: System.Comparison`1.yml
+  name: Comparison<T>
+  name.vb: Comparison(Of T)
+  fullName: System.Comparison<T>
+  fullName.vb: System.Comparison(Of T)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    fullName: System.Comparison
+    href: System.Comparison`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    fullName: System.Comparison
+    href: System.Comparison`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Comparison`1
+  isExternal: false
+  href: System.Comparison`1.yml
+  name: Comparison<T>
+  name.vb: Comparison(Of T)
+  fullName: System.Comparison<T>
+  fullName.vb: System.Comparison(Of T)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    fullName: System.Comparison
+    href: System.Comparison`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    fullName: System.Comparison
+    href: System.Comparison`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )

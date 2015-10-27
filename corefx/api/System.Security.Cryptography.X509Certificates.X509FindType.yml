@@ -1,0 +1,284 @@
+items:
+- uid: System.Security.Cryptography.X509Certificates.X509FindType
+  id: X509FindType
+  parent: System.Security.Cryptography.X509Certificates
+  children:
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByApplicationPolicy
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByCertificatePolicy
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByExtension
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerDistinguishedName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByKeyUsage
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySerialNumber
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectDistinguishedName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectKeyIdentifier
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTemplateName
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeExpired
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeNotYetValid
+  - System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeValid
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: X509FindType
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 8
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: public enum X509FindType
+    content.vb: Public Enum X509FindType
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint
+  id: FindByThumbprint
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByThumbprint
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 10
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByThumbprint = 0
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectName
+  id: FindBySubjectName
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindBySubjectName
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 11
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindBySubjectName = 1
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectDistinguishedName
+  id: FindBySubjectDistinguishedName
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindBySubjectDistinguishedName
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectDistinguishedName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 12
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindBySubjectDistinguishedName = 2
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerName
+  id: FindByIssuerName
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByIssuerName
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 13
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByIssuerName = 3
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerDistinguishedName
+  id: FindByIssuerDistinguishedName
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByIssuerDistinguishedName
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByIssuerDistinguishedName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByIssuerDistinguishedName = 4
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindBySerialNumber
+  id: FindBySerialNumber
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindBySerialNumber
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindBySerialNumber
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 15
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindBySerialNumber = 5
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeValid
+  id: FindByTimeValid
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByTimeValid
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeValid
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 16
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByTimeValid = 6
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeNotYetValid
+  id: FindByTimeNotYetValid
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByTimeNotYetValid
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeNotYetValid
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 17
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByTimeNotYetValid = 7
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeExpired
+  id: FindByTimeExpired
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByTimeExpired
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByTimeExpired
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 18
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByTimeExpired = 8
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByTemplateName
+  id: FindByTemplateName
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByTemplateName
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByTemplateName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 19
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByTemplateName = 9
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByApplicationPolicy
+  id: FindByApplicationPolicy
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByApplicationPolicy
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByApplicationPolicy
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 20
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByApplicationPolicy = 10
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByCertificatePolicy
+  id: FindByCertificatePolicy
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByCertificatePolicy
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByCertificatePolicy
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 21
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByCertificatePolicy = 11
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByExtension
+  id: FindByExtension
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByExtension
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByExtension
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 22
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByExtension = 12
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindByKeyUsage
+  id: FindByKeyUsage
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindByKeyUsage
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindByKeyUsage
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 23
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindByKeyUsage = 13
+- uid: System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectKeyIdentifier
+  id: FindBySubjectKeyIdentifier
+  parent: System.Security.Cryptography.X509Certificates.X509FindType
+  href: System.Security.Cryptography.X509Certificates.X509FindType.yml
+  name: FindBySubjectKeyIdentifier
+  fullName: System.Security.Cryptography.X509Certificates.X509FindType.FindBySubjectKeyIdentifier
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509FindType.cs
+    startLine: 24
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: FindBySubjectKeyIdentifier = 14
+references:
+- uid: System.Security.Cryptography.X509Certificates
+  isExternal: false
+  name: System.Security.Cryptography.X509Certificates
+  fullName: System.Security.Cryptography.X509Certificates
+  type: Namespace

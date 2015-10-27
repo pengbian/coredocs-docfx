@@ -1,0 +1,709 @@
+items:
+- uid: System.Reflection.Emit.DynamicILInfo
+  id: DynamicILInfo
+  parent: System.Reflection.Emit
+  children:
+  - System.Reflection.Emit.DynamicILInfo.DynamicMethod
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Byte[])
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Reflection.Emit.DynamicMethod)
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle)
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle)
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle,System.RuntimeTypeHandle)
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeTypeHandle)
+  - System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.String)
+  - System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte*,System.Int32,System.Int32)
+  - System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte[],System.Int32)
+  - System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte*,System.Int32)
+  - System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte[])
+  - System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte*,System.Int32)
+  - System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte[])
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: DynamicILInfo
+  fullName: System.Reflection.Emit.DynamicILInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1005
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public class DynamicILInfo
+    content.vb: Public Class DynamicILInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Reflection.Emit.DynamicILInfo.DynamicMethod
+  id: DynamicMethod
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: DynamicMethod
+  fullName: System.Reflection.Emit.DynamicILInfo.DynamicMethod
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1056
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public DynamicMethod DynamicMethod { get; }
+    content.vb: Public ReadOnly Property DynamicMethod As DynamicMethod
+    parameters: []
+    return:
+      type: System.Reflection.Emit.DynamicMethod
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte[],System.Int32)
+  id: SetCode(System.Byte[],System.Int32)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: SetCode(Byte[], Int32)
+  name.vb: SetCode(Byte(), Int32)
+  fullName: System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte[], System.Int32)
+  fullName.vb: System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte(), System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1059
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void SetCode(byte[] code, int maxStackSize)
+    content.vb: Public Sub SetCode(code As Byte(), maxStackSize As Integer)
+    parameters:
+    - id: code
+      type: System.Byte[]
+    - id: maxStackSize
+      type: System.Int32
+- uid: System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte*,System.Int32,System.Int32)
+  id: SetCode(System.Byte*,System.Int32,System.Int32)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: SetCode(Byte*, Int32, Int32)
+  fullName: System.Reflection.Emit.DynamicILInfo.SetCode(System.Byte*, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1065
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void SetCode(byte *code, int codeSize, int maxStackSize)
+    content.vb: Public Sub SetCode(code As Byte *, codeSize As Integer, maxStackSize As Integer)
+    parameters:
+    - id: code
+      type: System.Byte*
+    - id: codeSize
+      type: System.Int32
+    - id: maxStackSize
+      type: System.Int32
+- uid: System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte[])
+  id: SetExceptions(System.Byte[])
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: SetExceptions(Byte[])
+  name.vb: SetExceptions(Byte())
+  fullName: System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte[])
+  fullName.vb: System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1086
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void SetExceptions(byte[] exceptions)
+    content.vb: Public Sub SetExceptions(exceptions As Byte())
+    parameters:
+    - id: exceptions
+      type: System.Byte[]
+- uid: System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte*,System.Int32)
+  id: SetExceptions(System.Byte*,System.Int32)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: SetExceptions(Byte*, Int32)
+  fullName: System.Reflection.Emit.DynamicILInfo.SetExceptions(System.Byte*, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1091
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void SetExceptions(byte *exceptions, int exceptionsSize)
+    content.vb: Public Sub SetExceptions(exceptions As Byte *, exceptionsSize As Integer)
+    parameters:
+    - id: exceptions
+      type: System.Byte*
+    - id: exceptionsSize
+      type: System.Int32
+- uid: System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte[])
+  id: SetLocalSignature(System.Byte[])
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: SetLocalSignature(Byte[])
+  name.vb: SetLocalSignature(Byte())
+  fullName: System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte[])
+  fullName.vb: System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1111
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void SetLocalSignature(byte[] localSignature)
+    content.vb: Public Sub SetLocalSignature(localSignature As Byte())
+    parameters:
+    - id: localSignature
+      type: System.Byte[]
+- uid: System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte*,System.Int32)
+  id: SetLocalSignature(System.Byte*,System.Int32)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: SetLocalSignature(Byte*, Int32)
+  fullName: System.Reflection.Emit.DynamicILInfo.SetLocalSignature(System.Byte*, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1116
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void SetLocalSignature(byte *localSignature, int signatureSize)
+    content.vb: Public Sub SetLocalSignature(localSignature As Byte *, signatureSize As Integer)
+    parameters:
+    - id: localSignature
+      type: System.Byte*
+    - id: signatureSize
+      type: System.Int32
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle)
+  id: GetTokenFor(System.RuntimeMethodHandle)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(RuntimeMethodHandle)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1137
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(RuntimeMethodHandle method)
+    content.vb: Public Function GetTokenFor(method As RuntimeMethodHandle) As Integer
+    parameters:
+    - id: method
+      type: System.RuntimeMethodHandle
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Reflection.Emit.DynamicMethod)
+  id: GetTokenFor(System.Reflection.Emit.DynamicMethod)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(DynamicMethod)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Reflection.Emit.DynamicMethod)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1142
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(DynamicMethod method)
+    content.vb: Public Function GetTokenFor(method As DynamicMethod) As Integer
+    parameters:
+    - id: method
+      type: System.Reflection.Emit.DynamicMethod
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle,System.RuntimeTypeHandle)
+  id: GetTokenFor(System.RuntimeMethodHandle,System.RuntimeTypeHandle)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(RuntimeMethodHandle, RuntimeTypeHandle)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeMethodHandle, System.RuntimeTypeHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1146
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(RuntimeMethodHandle method, RuntimeTypeHandle contextType)
+    content.vb: Public Function GetTokenFor(method As RuntimeMethodHandle, contextType As RuntimeTypeHandle) As Integer
+    parameters:
+    - id: method
+      type: System.RuntimeMethodHandle
+    - id: contextType
+      type: System.RuntimeTypeHandle
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle)
+  id: GetTokenFor(System.RuntimeFieldHandle)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(RuntimeFieldHandle)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1150
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(RuntimeFieldHandle field)
+    content.vb: Public Function GetTokenFor(field As RuntimeFieldHandle) As Integer
+    parameters:
+    - id: field
+      type: System.RuntimeFieldHandle
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
+  id: GetTokenFor(System.RuntimeFieldHandle,System.RuntimeTypeHandle)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(RuntimeFieldHandle, RuntimeTypeHandle)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeFieldHandle, System.RuntimeTypeHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1154
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(RuntimeFieldHandle field, RuntimeTypeHandle contextType)
+    content.vb: Public Function GetTokenFor(field As RuntimeFieldHandle, contextType As RuntimeTypeHandle) As Integer
+    parameters:
+    - id: field
+      type: System.RuntimeFieldHandle
+    - id: contextType
+      type: System.RuntimeTypeHandle
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeTypeHandle)
+  id: GetTokenFor(System.RuntimeTypeHandle)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(RuntimeTypeHandle)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.RuntimeTypeHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1158
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(RuntimeTypeHandle type)
+    content.vb: Public Function GetTokenFor(type As RuntimeTypeHandle) As Integer
+    parameters:
+    - id: type
+      type: System.RuntimeTypeHandle
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.String)
+  id: GetTokenFor(System.String)
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(String)
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1162
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(string literal)
+    content.vb: Public Function GetTokenFor(literal As String) As Integer
+    parameters:
+    - id: literal
+      type: System.String
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Byte[])
+  id: GetTokenFor(System.Byte[])
+  parent: System.Reflection.Emit.DynamicILInfo
+  href: System.Reflection.Emit.DynamicILInfo.yml
+  name: GetTokenFor(Byte[])
+  name.vb: GetTokenFor(Byte())
+  fullName: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Byte[])
+  fullName.vb: System.Reflection.Emit.DynamicILInfo.GetTokenFor(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/DynamicILGenerator.cs
+    startLine: 1166
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public int GetTokenFor(byte[] signature)
+    content.vb: Public Function GetTokenFor(signature As Byte()) As Integer
+    parameters:
+    - id: signature
+      type: System.Byte[]
+    return:
+      type: System.Int32
+      description: 
+references:
+- uid: System.Reflection.Emit
+  isExternal: false
+  name: System.Reflection.Emit
+  fullName: System.Reflection.Emit
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Reflection.Emit.DynamicMethod
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.DynamicMethod.yml
+  name: DynamicMethod
+  fullName: System.Reflection.Emit.DynamicMethod
+  type: Class
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Byte*
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte*
+  fullName: System.Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '*'
+    fullName: '*'
+- uid: System.RuntimeMethodHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeMethodHandle.yml
+  name: RuntimeMethodHandle
+  fullName: System.RuntimeMethodHandle
+  type: Struct
+- uid: System.RuntimeTypeHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeTypeHandle.yml
+  name: RuntimeTypeHandle
+  fullName: System.RuntimeTypeHandle
+  type: Struct
+- uid: System.RuntimeFieldHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeFieldHandle.yml
+  name: RuntimeFieldHandle
+  fullName: System.RuntimeFieldHandle
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class

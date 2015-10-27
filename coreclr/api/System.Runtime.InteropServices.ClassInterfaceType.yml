@@ -1,0 +1,80 @@
+items:
+- uid: System.Runtime.InteropServices.ClassInterfaceType
+  id: ClassInterfaceType
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.ClassInterfaceType.AutoDispatch
+  - System.Runtime.InteropServices.ClassInterfaceType.AutoDual
+  - System.Runtime.InteropServices.ClassInterfaceType.None
+  href: System.Runtime.InteropServices.ClassInterfaceType.yml
+  name: ClassInterfaceType
+  fullName: System.Runtime.InteropServices.ClassInterfaceType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 110
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum ClassInterfaceType
+    content.vb: Public Enum ClassInterfaceType
+- uid: System.Runtime.InteropServices.ClassInterfaceType.None
+  id: None
+  parent: System.Runtime.InteropServices.ClassInterfaceType
+  href: System.Runtime.InteropServices.ClassInterfaceType.yml
+  name: None
+  fullName: System.Runtime.InteropServices.ClassInterfaceType.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 114
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: None = 0
+- uid: System.Runtime.InteropServices.ClassInterfaceType.AutoDispatch
+  id: AutoDispatch
+  parent: System.Runtime.InteropServices.ClassInterfaceType
+  href: System.Runtime.InteropServices.ClassInterfaceType.yml
+  name: AutoDispatch
+  fullName: System.Runtime.InteropServices.ClassInterfaceType.AutoDispatch
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 115
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: AutoDispatch = 1
+- uid: System.Runtime.InteropServices.ClassInterfaceType.AutoDual
+  id: AutoDual
+  parent: System.Runtime.InteropServices.ClassInterfaceType
+  href: System.Runtime.InteropServices.ClassInterfaceType.yml
+  name: AutoDual
+  fullName: System.Runtime.InteropServices.ClassInterfaceType.AutoDual
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 116
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: AutoDual = 2
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

@@ -1,0 +1,479 @@
+items:
+- uid: System.OperatingSystem
+  id: OperatingSystem
+  parent: System
+  children:
+  - System.OperatingSystem.#ctor(System.PlatformID,System.Version)
+  - System.OperatingSystem.Clone
+  - System.OperatingSystem.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.OperatingSystem.Platform
+  - System.OperatingSystem.ServicePack
+  - System.OperatingSystem.ToString
+  - System.OperatingSystem.Version
+  - System.OperatingSystem.VersionString
+  href: System.OperatingSystem.yml
+  name: OperatingSystem
+  fullName: System.OperatingSystem
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/OperatingSystem.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public sealed class OperatingSystem : ICloneable, ISerializable'
+    content.vb: Public NotInheritable Class OperatingSystem Implements ICloneable, ISerializable
+  inheritance:
+  - System.Object
+  implements:
+  - System.ICloneable
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.OperatingSystem.#ctor(System.PlatformID,System.Version)
+  id: '#ctor(System.PlatformID,System.Version)'
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: OperatingSystem(PlatformID, Version)
+  fullName: System.OperatingSystem.OperatingSystem(System.PlatformID, System.Version)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 32
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public OperatingSystem(PlatformID platform, Version version)
+    content.vb: Public Sub New(platform As PlatformID, version As Version)
+    parameters:
+    - id: platform
+      type: System.PlatformID
+    - id: version
+      type: System.Version
+- uid: System.OperatingSystem.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.OperatingSystem.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 76
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public void GetObjectData(SerializationInfo info, StreamingContext context)
+    content.vb: Public Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+- uid: System.OperatingSystem.Platform
+  id: Platform
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: Platform
+  fullName: System.OperatingSystem.Platform
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 88
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public PlatformID Platform { get; }
+    content.vb: Public ReadOnly Property Platform As PlatformID
+    parameters: []
+    return:
+      type: System.PlatformID
+      description: 
+- uid: System.OperatingSystem.ServicePack
+  id: ServicePack
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: ServicePack
+  fullName: System.OperatingSystem.ServicePack
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 92
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string ServicePack { get; }
+    content.vb: Public ReadOnly Property ServicePack As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.OperatingSystem.Version
+  id: Version
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: Version
+  fullName: System.OperatingSystem.Version
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 102
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Version Version { get; }
+    content.vb: Public ReadOnly Property Version As Version
+    parameters: []
+    return:
+      type: System.Version
+      description: 
+- uid: System.OperatingSystem.Clone
+  id: Clone
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: Clone()
+  fullName: System.OperatingSystem.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 106
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public object Clone()
+    content.vb: Public Function Clone As Object
+    return:
+      type: System.Object
+      description: 
+- uid: System.OperatingSystem.ToString
+  id: ToString
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: ToString()
+  fullName: System.OperatingSystem.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 111
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+      description: 
+  overridden: System.Object.ToString
+- uid: System.OperatingSystem.VersionString
+  id: VersionString
+  parent: System.OperatingSystem
+  href: System.OperatingSystem.yml
+  name: VersionString
+  fullName: System.OperatingSystem.VersionString
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/OperatingSystem.cs
+    startLine: 115
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public string VersionString { get; }
+    content.vb: Public ReadOnly Property VersionString As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.PlatformID
+  parent: System
+  isExternal: false
+  href: System.PlatformID.yml
+  name: PlatformID
+  fullName: System.PlatformID
+  type: Enum
+- uid: System.Version
+  parent: System
+  isExternal: false
+  href: System.Version.yml
+  name: Version
+  fullName: System.Version
+  type: Class
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.SerializationInfo.yml
+  name: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+  type: Class
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.StreamingContext.yml
+  name: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+  type: Struct
+- uid: System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

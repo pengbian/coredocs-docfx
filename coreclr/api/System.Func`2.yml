@@ -1,0 +1,48 @@
+items:
+- uid: System.Func`2
+  id: Func`2
+  parent: System
+  children: []
+  href: System.Func`2.yml
+  name: Func<T, TResult>
+  name.vb: Func(Of T, TResult)
+  fullName: System.Func<T, TResult>
+  fullName.vb: System.Func(Of T, TResult)
+  type: Delegate
+  source:
+    remote:
+      path: src/mscorlib/src/System/Action.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Action.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public delegate TResult Func<in T, out TResult>(T arg);
+    content.vb: Public Delegate Function Func(Of In T, Out TResult)(arg As T) As TResult
+    parameters:
+    - id: arg
+      type: '{T}'
+    typeParameters:
+    - id: T
+    - id: TResult
+    return:
+      type: '{TResult}'
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: '{TResult}'
+  isExternal: false
+  name: TResult
+  fullName: TResult

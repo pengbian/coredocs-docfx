@@ -1,0 +1,123 @@
+items:
+- uid: System.Runtime.InteropServices.ITypeLibImporterNotifySink
+  id: ITypeLibImporterNotifySink
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.ITypeLibImporterNotifySink.ReportEvent(System.Runtime.InteropServices.ImporterEventKind,System.Int32,System.String)
+  - System.Runtime.InteropServices.ITypeLibImporterNotifySink.ResolveRef(System.Object)
+  href: System.Runtime.InteropServices.ITypeLibImporterNotifySink.yml
+  name: ITypeLibImporterNotifySink
+  fullName: System.Runtime.InteropServices.ITypeLibImporterNotifySink
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 75
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public interface ITypeLibImporterNotifySink
+    content.vb: Public Interface ITypeLibImporterNotifySink
+- uid: System.Runtime.InteropServices.ITypeLibImporterNotifySink.ReportEvent(System.Runtime.InteropServices.ImporterEventKind,System.Int32,System.String)
+  id: ReportEvent(System.Runtime.InteropServices.ImporterEventKind,System.Int32,System.String)
+  parent: System.Runtime.InteropServices.ITypeLibImporterNotifySink
+  href: System.Runtime.InteropServices.ITypeLibImporterNotifySink.yml
+  name: ReportEvent(ImporterEventKind, Int32, String)
+  fullName: System.Runtime.InteropServices.ITypeLibImporterNotifySink.ReportEvent(System.Runtime.InteropServices.ImporterEventKind, System.Int32, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 80
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void ReportEvent(ImporterEventKind eventKind, int eventCode, string eventMsg)
+    content.vb: Sub ReportEvent(eventKind As ImporterEventKind, eventCode As Integer, eventMsg As String)
+    parameters:
+    - id: eventKind
+      type: System.Runtime.InteropServices.ImporterEventKind
+    - id: eventCode
+      type: System.Int32
+    - id: eventMsg
+      type: System.String
+- uid: System.Runtime.InteropServices.ITypeLibImporterNotifySink.ResolveRef(System.Object)
+  id: ResolveRef(System.Object)
+  parent: System.Runtime.InteropServices.ITypeLibImporterNotifySink
+  href: System.Runtime.InteropServices.ITypeLibImporterNotifySink.yml
+  name: ResolveRef(Object)
+  fullName: System.Runtime.InteropServices.ITypeLibImporterNotifySink.ResolveRef(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 84
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Assembly ResolveRef(object typeLib)
+    content.vb: Function ResolveRef(typeLib As Object) As Assembly
+    parameters:
+    - id: typeLib
+      type: System.Object
+    return:
+      type: System.Reflection.Assembly
+      description: 
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Runtime.InteropServices.ImporterEventKind
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.ImporterEventKind.yml
+  name: ImporterEventKind
+  fullName: System.Runtime.InteropServices.ImporterEventKind
+  type: Enum
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

@@ -1,0 +1,369 @@
+items:
+- uid: System.Reflection.BindingFlags
+  id: BindingFlags
+  parent: System.Reflection
+  children:
+  - System.Reflection.BindingFlags.CreateInstance
+  - System.Reflection.BindingFlags.DeclaredOnly
+  - System.Reflection.BindingFlags.Default
+  - System.Reflection.BindingFlags.ExactBinding
+  - System.Reflection.BindingFlags.FlattenHierarchy
+  - System.Reflection.BindingFlags.GetField
+  - System.Reflection.BindingFlags.GetProperty
+  - System.Reflection.BindingFlags.IgnoreCase
+  - System.Reflection.BindingFlags.IgnoreReturn
+  - System.Reflection.BindingFlags.Instance
+  - System.Reflection.BindingFlags.InvokeMethod
+  - System.Reflection.BindingFlags.NonPublic
+  - System.Reflection.BindingFlags.OptionalParamBinding
+  - System.Reflection.BindingFlags.Public
+  - System.Reflection.BindingFlags.PutDispProperty
+  - System.Reflection.BindingFlags.PutRefDispProperty
+  - System.Reflection.BindingFlags.SetField
+  - System.Reflection.BindingFlags.SetProperty
+  - System.Reflection.BindingFlags.Static
+  - System.Reflection.BindingFlags.SuppressChangeType
+  href: System.Reflection.BindingFlags.yml
+  name: BindingFlags
+  fullName: System.Reflection.BindingFlags
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public enum BindingFlags
+    content.vb: Public Enum BindingFlags
+- uid: System.Reflection.BindingFlags.Default
+  id: Default
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: Default
+  fullName: System.Reflection.BindingFlags.Default
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Default = 0
+- uid: System.Reflection.BindingFlags.IgnoreCase
+  id: IgnoreCase
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: IgnoreCase
+  fullName: System.Reflection.BindingFlags.IgnoreCase
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 29
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: IgnoreCase = 1
+- uid: System.Reflection.BindingFlags.DeclaredOnly
+  id: DeclaredOnly
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: DeclaredOnly
+  fullName: System.Reflection.BindingFlags.DeclaredOnly
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: DeclaredOnly = 2
+- uid: System.Reflection.BindingFlags.Instance
+  id: Instance
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: Instance
+  fullName: System.Reflection.BindingFlags.Instance
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Instance = 4
+- uid: System.Reflection.BindingFlags.Static
+  id: Static
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: Static
+  fullName: System.Reflection.BindingFlags.Static
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 32
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Static = 8
+- uid: System.Reflection.BindingFlags.Public
+  id: Public
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: Public
+  fullName: System.Reflection.BindingFlags.Public
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Public = 16
+- uid: System.Reflection.BindingFlags.NonPublic
+  id: NonPublic
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: NonPublic
+  fullName: System.Reflection.BindingFlags.NonPublic
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: NonPublic = 32
+- uid: System.Reflection.BindingFlags.FlattenHierarchy
+  id: FlattenHierarchy
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: FlattenHierarchy
+  fullName: System.Reflection.BindingFlags.FlattenHierarchy
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 35
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: FlattenHierarchy = 64
+- uid: System.Reflection.BindingFlags.InvokeMethod
+  id: InvokeMethod
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: InvokeMethod
+  fullName: System.Reflection.BindingFlags.InvokeMethod
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 40
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: InvokeMethod = 256
+- uid: System.Reflection.BindingFlags.CreateInstance
+  id: CreateInstance
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: CreateInstance
+  fullName: System.Reflection.BindingFlags.CreateInstance
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 41
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: CreateInstance = 512
+- uid: System.Reflection.BindingFlags.GetField
+  id: GetField
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: GetField
+  fullName: System.Reflection.BindingFlags.GetField
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: GetField = 1024
+- uid: System.Reflection.BindingFlags.SetField
+  id: SetField
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: SetField
+  fullName: System.Reflection.BindingFlags.SetField
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 43
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: SetField = 2048
+- uid: System.Reflection.BindingFlags.GetProperty
+  id: GetProperty
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: GetProperty
+  fullName: System.Reflection.BindingFlags.GetProperty
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 44
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: GetProperty = 4096
+- uid: System.Reflection.BindingFlags.SetProperty
+  id: SetProperty
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: SetProperty
+  fullName: System.Reflection.BindingFlags.SetProperty
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 45
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: SetProperty = 8192
+- uid: System.Reflection.BindingFlags.PutDispProperty
+  id: PutDispProperty
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: PutDispProperty
+  fullName: System.Reflection.BindingFlags.PutDispProperty
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: PutDispProperty = 16384
+- uid: System.Reflection.BindingFlags.PutRefDispProperty
+  id: PutRefDispProperty
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: PutRefDispProperty
+  fullName: System.Reflection.BindingFlags.PutRefDispProperty
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 50
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: PutRefDispProperty = 32768
+- uid: System.Reflection.BindingFlags.ExactBinding
+  id: ExactBinding
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: ExactBinding
+  fullName: System.Reflection.BindingFlags.ExactBinding
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 52
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: ExactBinding = 65536
+- uid: System.Reflection.BindingFlags.SuppressChangeType
+  id: SuppressChangeType
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: SuppressChangeType
+  fullName: System.Reflection.BindingFlags.SuppressChangeType
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 53
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: SuppressChangeType = 131072
+- uid: System.Reflection.BindingFlags.OptionalParamBinding
+  id: OptionalParamBinding
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: OptionalParamBinding
+  fullName: System.Reflection.BindingFlags.OptionalParamBinding
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 57
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: OptionalParamBinding = 262144
+- uid: System.Reflection.BindingFlags.IgnoreReturn
+  id: IgnoreReturn
+  parent: System.Reflection.BindingFlags
+  href: System.Reflection.BindingFlags.yml
+  name: IgnoreReturn
+  fullName: System.Reflection.BindingFlags.IgnoreReturn
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/BindingFlags.cs
+    startLine: 60
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: IgnoreReturn = 16777216
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

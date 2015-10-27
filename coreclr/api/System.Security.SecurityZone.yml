@@ -1,0 +1,131 @@
+items:
+- uid: System.Security.SecurityZone
+  id: SecurityZone
+  parent: System.Security
+  children:
+  - System.Security.SecurityZone.Internet
+  - System.Security.SecurityZone.Intranet
+  - System.Security.SecurityZone.MyComputer
+  - System.Security.SecurityZone.NoZone
+  - System.Security.SecurityZone.Trusted
+  - System.Security.SecurityZone.Untrusted
+  href: System.Security.SecurityZone.yml
+  name: SecurityZone
+  fullName: System.Security.SecurityZone
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/SecurityZone.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public enum SecurityZone
+    content.vb: Public Enum SecurityZone
+- uid: System.Security.SecurityZone.MyComputer
+  id: MyComputer
+  parent: System.Security.SecurityZone
+  href: System.Security.SecurityZone.yml
+  name: MyComputer
+  fullName: System.Security.SecurityZone.MyComputer
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: MyComputer = 0
+- uid: System.Security.SecurityZone.Intranet
+  id: Intranet
+  parent: System.Security.SecurityZone
+  href: System.Security.SecurityZone.yml
+  name: Intranet
+  fullName: System.Security.SecurityZone.Intranet
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: Intranet = 1
+- uid: System.Security.SecurityZone.Trusted
+  id: Trusted
+  parent: System.Security.SecurityZone
+  href: System.Security.SecurityZone.yml
+  name: Trusted
+  fullName: System.Security.SecurityZone.Trusted
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: Trusted = 2
+- uid: System.Security.SecurityZone.Internet
+  id: Internet
+  parent: System.Security.SecurityZone
+  href: System.Security.SecurityZone.yml
+  name: Internet
+  fullName: System.Security.SecurityZone.Internet
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: Internet = 3
+- uid: System.Security.SecurityZone.Untrusted
+  id: Untrusted
+  parent: System.Security.SecurityZone
+  href: System.Security.SecurityZone.yml
+  name: Untrusted
+  fullName: System.Security.SecurityZone.Untrusted
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: Untrusted = 4
+- uid: System.Security.SecurityZone.NoZone
+  id: NoZone
+  parent: System.Security.SecurityZone
+  href: System.Security.SecurityZone.yml
+  name: NoZone
+  fullName: System.Security.SecurityZone.NoZone
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/SecurityZone.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: NoZone = -1
+references:
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace

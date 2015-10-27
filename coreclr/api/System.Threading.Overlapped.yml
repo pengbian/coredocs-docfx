@@ -1,0 +1,646 @@
+items:
+- uid: System.Threading.Overlapped
+  id: Overlapped
+  parent: System.Threading
+  children:
+  - System.Threading.Overlapped.#ctor
+  - System.Threading.Overlapped.#ctor(System.Int32,System.Int32,System.Int32,System.IAsyncResult)
+  - System.Threading.Overlapped.#ctor(System.Int32,System.Int32,System.IntPtr,System.IAsyncResult)
+  - System.Threading.Overlapped.AsyncResult
+  - System.Threading.Overlapped.EventHandle
+  - System.Threading.Overlapped.EventHandleIntPtr
+  - System.Threading.Overlapped.Free(System.Threading.NativeOverlapped*)
+  - System.Threading.Overlapped.OffsetHigh
+  - System.Threading.Overlapped.OffsetLow
+  - System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback)
+  - System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback,System.Object)
+  - System.Threading.Overlapped.Unpack(System.Threading.NativeOverlapped*)
+  - System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback)
+  - System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback,System.Object)
+  href: System.Threading.Overlapped.yml
+  name: Overlapped
+  fullName: System.Threading.Overlapped
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Threading/Overlapped.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 276
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public class Overlapped
+    content.vb: Public Class Overlapped
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Threading.Overlapped.#ctor
+  id: '#ctor'
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Overlapped()
+  fullName: System.Threading.Overlapped.Overlapped()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 283
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Overlapped()
+    content.vb: Public Sub New
+- uid: System.Threading.Overlapped.#ctor(System.Int32,System.Int32,System.IntPtr,System.IAsyncResult)
+  id: '#ctor(System.Int32,System.Int32,System.IntPtr,System.IAsyncResult)'
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Overlapped(Int32, Int32, IntPtr, IAsyncResult)
+  fullName: System.Threading.Overlapped.Overlapped(System.Int32, System.Int32, System.IntPtr, System.IAsyncResult)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 291
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Overlapped(int offsetLo, int offsetHi, IntPtr hEvent, IAsyncResult ar)
+    content.vb: Public Sub New(offsetLo As Integer, offsetHi As Integer, hEvent As IntPtr, ar As IAsyncResult)
+    parameters:
+    - id: offsetLo
+      type: System.Int32
+    - id: offsetHi
+      type: System.Int32
+    - id: hEvent
+      type: System.IntPtr
+    - id: ar
+      type: System.IAsyncResult
+- uid: System.Threading.Overlapped.#ctor(System.Int32,System.Int32,System.Int32,System.IAsyncResult)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.IAsyncResult)'
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Overlapped(Int32, Int32, Int32, IAsyncResult)
+  fullName: System.Threading.Overlapped.Overlapped(System.Int32, System.Int32, System.Int32, System.IAsyncResult)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 301
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Overlapped(int offsetLo, int offsetHi, int hEvent, IAsyncResult ar)
+    content.vb: Public Sub New(offsetLo As Integer, offsetHi As Integer, hEvent As Integer, ar As IAsyncResult)
+    parameters:
+    - id: offsetLo
+      type: System.Int32
+    - id: offsetHi
+      type: System.Int32
+    - id: hEvent
+      type: System.Int32
+    - id: ar
+      type: System.IAsyncResult
+- uid: System.Threading.Overlapped.AsyncResult
+  id: AsyncResult
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: AsyncResult
+  fullName: System.Threading.Overlapped.AsyncResult
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 306
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public IAsyncResult AsyncResult { get; set; }
+    content.vb: Public Property AsyncResult As IAsyncResult
+    parameters: []
+    return:
+      type: System.IAsyncResult
+      description: 
+- uid: System.Threading.Overlapped.OffsetLow
+  id: OffsetLow
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: OffsetLow
+  fullName: System.Threading.Overlapped.OffsetLow
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 312
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public int OffsetLow { get; set; }
+    content.vb: Public Property OffsetLow As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Threading.Overlapped.OffsetHigh
+  id: OffsetHigh
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: OffsetHigh
+  fullName: System.Threading.Overlapped.OffsetHigh
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 318
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public int OffsetHigh { get; set; }
+    content.vb: Public Property OffsetHigh As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Threading.Overlapped.EventHandle
+  id: EventHandle
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: EventHandle
+  fullName: System.Threading.Overlapped.EventHandle
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 324
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public int EventHandle { get; set; }
+    content.vb: Public Property EventHandle As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Threading.Overlapped.EventHandleIntPtr
+  id: EventHandleIntPtr
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: EventHandleIntPtr
+  fullName: System.Threading.Overlapped.EventHandleIntPtr
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 331
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public IntPtr EventHandleIntPtr { get; set; }
+    content.vb: Public Property EventHandleIntPtr As IntPtr
+    parameters: []
+    return:
+      type: System.IntPtr
+      description: 
+- uid: System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback)
+  id: Pack(System.Threading.IOCompletionCallback)
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Pack(IOCompletionCallback)
+  fullName: System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 354
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public NativeOverlapped*Pack(IOCompletionCallback iocb)
+    content.vb: Public Function Pack(iocb As IOCompletionCallback) As NativeOverlapped
+    parameters:
+    - id: iocb
+      type: System.Threading.IOCompletionCallback
+    return:
+      type: System.Threading.NativeOverlapped*
+      description: 
+- uid: System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback,System.Object)
+  id: Pack(System.Threading.IOCompletionCallback,System.Object)
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Pack(IOCompletionCallback, Object)
+  fullName: System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 362
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public NativeOverlapped*Pack(IOCompletionCallback iocb, object userData)
+    content.vb: Public Function Pack(iocb As IOCompletionCallback, userData As Object) As NativeOverlapped
+    parameters:
+    - id: iocb
+      type: System.Threading.IOCompletionCallback
+    - id: userData
+      type: System.Object
+    return:
+      type: System.Threading.NativeOverlapped*
+      description: 
+- uid: System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback)
+  id: UnsafePack(System.Threading.IOCompletionCallback)
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: UnsafePack(IOCompletionCallback)
+  fullName: System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 369
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public NativeOverlapped*UnsafePack(IOCompletionCallback iocb)
+    content.vb: Public Function UnsafePack(iocb As IOCompletionCallback) As NativeOverlapped
+    parameters:
+    - id: iocb
+      type: System.Threading.IOCompletionCallback
+    return:
+      type: System.Threading.NativeOverlapped*
+      description: 
+- uid: System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback,System.Object)
+  id: UnsafePack(System.Threading.IOCompletionCallback,System.Object)
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: UnsafePack(IOCompletionCallback, Object)
+  fullName: System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 377
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public NativeOverlapped*UnsafePack(IOCompletionCallback iocb, object userData)
+    content.vb: Public Function UnsafePack(iocb As IOCompletionCallback, userData As Object) As NativeOverlapped
+    parameters:
+    - id: iocb
+      type: System.Threading.IOCompletionCallback
+    - id: userData
+      type: System.Object
+    return:
+      type: System.Threading.NativeOverlapped*
+      description: 
+- uid: System.Threading.Overlapped.Unpack(System.Threading.NativeOverlapped*)
+  id: Unpack(System.Threading.NativeOverlapped*)
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Unpack(NativeOverlapped*)
+  fullName: System.Threading.Overlapped.Unpack(System.Threading.NativeOverlapped*)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 388
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static Overlapped Unpack(NativeOverlapped*nativeOverlappedPtr)
+    content.vb: Public Shared Function Unpack(nativeOverlappedPtr As NativeOverlapped *) As Overlapped
+    parameters:
+    - id: nativeOverlappedPtr
+      type: System.Threading.NativeOverlapped*
+    return:
+      type: System.Threading.Overlapped
+      description: 
+- uid: System.Threading.Overlapped.Free(System.Threading.NativeOverlapped*)
+  id: Free(System.Threading.NativeOverlapped*)
+  parent: System.Threading.Overlapped
+  href: System.Threading.Overlapped.yml
+  name: Free(NativeOverlapped*)
+  fullName: System.Threading.Overlapped.Free(System.Threading.NativeOverlapped*)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Overlapped.cs
+    startLine: 401
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Free(NativeOverlapped*nativeOverlappedPtr)
+    content.vb: Public Shared Sub Free(nativeOverlappedPtr As NativeOverlapped *)
+    parameters:
+    - id: nativeOverlappedPtr
+      type: System.Threading.NativeOverlapped*
+references:
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System.IAsyncResult
+  parent: System
+  isExternal: false
+  href: System.IAsyncResult.yml
+  name: IAsyncResult
+  fullName: System.IAsyncResult
+  type: Interface
+- uid: System.Threading.IOCompletionCallback
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.IOCompletionCallback.yml
+  name: IOCompletionCallback
+  fullName: System.Threading.IOCompletionCallback
+  type: Delegate
+- uid: System.Threading.NativeOverlapped*
+  isExternal: false
+  href: System.Threading.NativeOverlapped.yml
+  name: NativeOverlapped*
+  fullName: System.Threading.NativeOverlapped*
+  spec.csharp:
+  - uid: System.Threading.NativeOverlapped
+    name: NativeOverlapped
+    fullName: System.Threading.NativeOverlapped
+    href: System.Threading.NativeOverlapped.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Threading.NativeOverlapped
+    name: NativeOverlapped
+    fullName: System.Threading.NativeOverlapped
+    href: System.Threading.NativeOverlapped.yml
+  - name: '*'
+    fullName: '*'
+- uid: System.Threading.Overlapped
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.Overlapped.yml
+  name: Overlapped
+  fullName: System.Threading.Overlapped
+  type: Class

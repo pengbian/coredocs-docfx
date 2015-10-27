@@ -1,0 +1,1113 @@
+items:
+- uid: Microsoft.Win32.RegistryKey
+  id: RegistryKey
+  parent: Microsoft.Win32
+  children:
+  - Microsoft.Win32.RegistryKey.CreateSubKey(System.String)
+  - Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean)
+  - Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
+  - Microsoft.Win32.RegistryKey.DeleteSubKey(System.String)
+  - Microsoft.Win32.RegistryKey.DeleteSubKey(System.String,System.Boolean)
+  - Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String)
+  - Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String,System.Boolean)
+  - Microsoft.Win32.RegistryKey.DeleteValue(System.String)
+  - Microsoft.Win32.RegistryKey.DeleteValue(System.String,System.Boolean)
+  - Microsoft.Win32.RegistryKey.Dispose
+  - Microsoft.Win32.RegistryKey.Flush
+  - Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
+  - Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
+  - Microsoft.Win32.RegistryKey.GetSubKeyNames
+  - Microsoft.Win32.RegistryKey.GetValue(System.String)
+  - Microsoft.Win32.RegistryKey.GetValue(System.String,System.Object)
+  - Microsoft.Win32.RegistryKey.GetValue(System.String,System.Object,Microsoft.Win32.RegistryValueOptions)
+  - Microsoft.Win32.RegistryKey.GetValueKind(System.String)
+  - Microsoft.Win32.RegistryKey.GetValueNames
+  - Microsoft.Win32.RegistryKey.Handle
+  - Microsoft.Win32.RegistryKey.Name
+  - Microsoft.Win32.RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView)
+  - Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
+  - Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView)
+  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
+  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)
+  - Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Security.AccessControl.RegistryRights)
+  - Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object)
+  - Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind)
+  - Microsoft.Win32.RegistryKey.SubKeyCount
+  - Microsoft.Win32.RegistryKey.ToString
+  - Microsoft.Win32.RegistryKey.ValueCount
+  - Microsoft.Win32.RegistryKey.View
+  href: Microsoft.Win32.RegistryKey.yml
+  name: RegistryKey
+  fullName: Microsoft.Win32.RegistryKey
+  type: Class
+  source:
+    remote: &o0
+      path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 83
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: 'public sealed class RegistryKey : IDisposable'
+    content.vb: Public NotInheritable Class RegistryKey Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Microsoft.Win32.RegistryKey.Flush
+  id: Flush
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: Flush()
+  fullName: Microsoft.Win32.RegistryKey.Flush()
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 244
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush
+- uid: Microsoft.Win32.RegistryKey.Dispose
+  id: Dispose
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: Dispose()
+  fullName: Microsoft.Win32.RegistryKey.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 256
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: Microsoft.Win32.RegistryKey.CreateSubKey(System.String)
+  id: CreateSubKey(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: CreateSubKey(String)
+  fullName: Microsoft.Win32.RegistryKey.CreateSubKey(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 268
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryKey CreateSubKey(string subkey)
+    content.vb: Public Function CreateSubKey(subkey As String) As RegistryKey
+    parameters:
+    - id: subkey
+      type: System.String
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean)
+  id: CreateSubKey(System.String,System.Boolean)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: CreateSubKey(String, Boolean)
+  fullName: Microsoft.Win32.RegistryKey.CreateSubKey(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 274
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryKey CreateSubKey(string subkey, bool writable)
+    content.vb: Public Function CreateSubKey(subkey As String, writable As Boolean) As RegistryKey
+    parameters:
+    - id: subkey
+      type: System.String
+    - id: writable
+      type: System.Boolean
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
+  id: CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: CreateSubKey(String, Boolean, RegistryOptions)
+  fullName: Microsoft.Win32.RegistryKey.CreateSubKey(System.String, System.Boolean, Microsoft.Win32.RegistryOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 279
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryKey CreateSubKey(string subkey, bool writable, RegistryOptions options)
+    content.vb: Public Function CreateSubKey(subkey As String, writable As Boolean, options As RegistryOptions) As RegistryKey
+    parameters:
+    - id: subkey
+      type: System.String
+    - id: writable
+      type: System.Boolean
+    - id: options
+      type: Microsoft.Win32.RegistryOptions
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.DeleteSubKey(System.String)
+  id: DeleteSubKey(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: DeleteSubKey(String)
+  fullName: Microsoft.Win32.RegistryKey.DeleteSubKey(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 342
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void DeleteSubKey(string subkey)
+    content.vb: Public Sub DeleteSubKey(subkey As String)
+    parameters:
+    - id: subkey
+      type: System.String
+- uid: Microsoft.Win32.RegistryKey.DeleteSubKey(System.String,System.Boolean)
+  id: DeleteSubKey(System.String,System.Boolean)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: DeleteSubKey(String, Boolean)
+  fullName: Microsoft.Win32.RegistryKey.DeleteSubKey(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 347
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void DeleteSubKey(string subkey, bool throwOnMissingSubKey)
+    content.vb: Public Sub DeleteSubKey(subkey As String, throwOnMissingSubKey As Boolean)
+    parameters:
+    - id: subkey
+      type: System.String
+    - id: throwOnMissingSubKey
+      type: System.Boolean
+- uid: Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String)
+  id: DeleteSubKeyTree(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: DeleteSubKeyTree(String)
+  fullName: Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 397
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void DeleteSubKeyTree(string subkey)
+    content.vb: Public Sub DeleteSubKeyTree(subkey As String)
+    parameters:
+    - id: subkey
+      type: System.String
+- uid: Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String,System.Boolean)
+  id: DeleteSubKeyTree(System.String,System.Boolean)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: DeleteSubKeyTree(String, Boolean)
+  fullName: Microsoft.Win32.RegistryKey.DeleteSubKeyTree(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 402
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void DeleteSubKeyTree(string subkey, bool throwOnMissingSubKey)
+    content.vb: Public Sub DeleteSubKeyTree(subkey As String, throwOnMissingSubKey As Boolean)
+    parameters:
+    - id: subkey
+      type: System.String
+    - id: throwOnMissingSubKey
+      type: System.Boolean
+- uid: Microsoft.Win32.RegistryKey.DeleteValue(System.String)
+  id: DeleteValue(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: DeleteValue(String)
+  fullName: Microsoft.Win32.RegistryKey.DeleteValue(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 488
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void DeleteValue(string name)
+    content.vb: Public Sub DeleteValue(name As String)
+    parameters:
+    - id: name
+      type: System.String
+- uid: Microsoft.Win32.RegistryKey.DeleteValue(System.String,System.Boolean)
+  id: DeleteValue(System.String,System.Boolean)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: DeleteValue(String, Boolean)
+  fullName: Microsoft.Win32.RegistryKey.DeleteValue(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 493
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void DeleteValue(string name, bool throwOnMissingValue)
+    content.vb: Public Sub DeleteValue(name As String, throwOnMissingValue As Boolean)
+    parameters:
+    - id: name
+      type: System.String
+    - id: throwOnMissingValue
+      type: System.Boolean
+- uid: Microsoft.Win32.RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView)
+  id: OpenBaseKey(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: OpenBaseKey(RegistryHive, RegistryView)
+  fullName: Microsoft.Win32.RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive, Microsoft.Win32.RegistryView)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 559
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public static RegistryKey OpenBaseKey(RegistryHive hKey, RegistryView view)
+    content.vb: Public Shared Function OpenBaseKey(hKey As RegistryHive, view As RegistryView) As RegistryKey
+    parameters:
+    - id: hKey
+      type: Microsoft.Win32.RegistryHive
+    - id: view
+      type: Microsoft.Win32.RegistryView
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
+  id: OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: OpenRemoteBaseKey(RegistryHive, String)
+  fullName: Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 583
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public static RegistryKey OpenRemoteBaseKey(RegistryHive hKey, string machineName)
+    content.vb: Public Shared Function OpenRemoteBaseKey(hKey As RegistryHive, machineName As String) As RegistryKey
+    parameters:
+    - id: hKey
+      type: Microsoft.Win32.RegistryHive
+    - id: machineName
+      type: System.String
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView)
+  id: OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: OpenRemoteBaseKey(RegistryHive, String, RegistryView)
+  fullName: Microsoft.Win32.RegistryKey.OpenRemoteBaseKey(Microsoft.Win32.RegistryHive, System.String, Microsoft.Win32.RegistryView)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 588
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public static RegistryKey OpenRemoteBaseKey(RegistryHive hKey, string machineName, RegistryView view)
+    content.vb: Public Shared Function OpenRemoteBaseKey(hKey As RegistryHive, machineName As String, view As RegistryView) As RegistryKey
+    parameters:
+    - id: hKey
+      type: Microsoft.Win32.RegistryHive
+    - id: machineName
+      type: System.String
+    - id: view
+      type: Microsoft.Win32.RegistryView
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)
+  id: OpenSubKey(System.String,System.Boolean)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: OpenSubKey(String, Boolean)
+  fullName: Microsoft.Win32.RegistryKey.OpenSubKey(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 629
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryKey OpenSubKey(string name, bool writable)
+    content.vb: Public Function OpenSubKey(name As String, writable As Boolean) As RegistryKey
+    parameters:
+    - id: name
+      type: System.String
+    - id: writable
+      type: System.Boolean
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Security.AccessControl.RegistryRights)
+  id: OpenSubKey(System.String,System.Security.AccessControl.RegistryRights)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: OpenSubKey(String, RegistryRights)
+  fullName: Microsoft.Win32.RegistryKey.OpenSubKey(System.String, System.Security.AccessControl.RegistryRights)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 635
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryKey OpenSubKey(string name, RegistryRights rights)
+    content.vb: Public Function OpenSubKey(name As String, rights As RegistryRights) As RegistryKey
+    parameters:
+    - id: name
+      type: System.String
+    - id: rights
+      type: System.Security.AccessControl.RegistryRights
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
+  id: OpenSubKey(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: OpenSubKey(String)
+  fullName: Microsoft.Win32.RegistryKey.OpenSubKey(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 699
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryKey OpenSubKey(string name)
+    content.vb: Public Function OpenSubKey(name As String) As RegistryKey
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.SubKeyCount
+  id: SubKeyCount
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: SubKeyCount
+  fullName: Microsoft.Win32.RegistryKey.SubKeyCount
+  type: Property
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 710
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public int SubKeyCount { get; }
+    content.vb: Public ReadOnly Property SubKeyCount As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: Microsoft.Win32.RegistryKey.View
+  id: View
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: View
+  fullName: Microsoft.Win32.RegistryKey.View
+  type: Property
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 719
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryView View { get; }
+    content.vb: Public ReadOnly Property View As RegistryView
+    parameters: []
+    return:
+      type: Microsoft.Win32.RegistryView
+- uid: Microsoft.Win32.RegistryKey.Handle
+  id: Handle
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: Handle
+  fullName: Microsoft.Win32.RegistryKey.Handle
+  type: Property
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 729
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public SafeRegistryHandle Handle { get; }
+    content.vb: Public ReadOnly Property Handle As SafeRegistryHandle
+    parameters: []
+    return:
+      type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+- uid: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
+  id: FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: FromHandle(SafeRegistryHandle)
+  fullName: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 788
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public static RegistryKey FromHandle(SafeRegistryHandle handle)
+    content.vb: Public Shared Function FromHandle(handle As SafeRegistryHandle) As RegistryKey
+    parameters:
+    - id: handle
+      type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
+  id: FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: FromHandle(SafeRegistryHandle, RegistryView)
+  fullName: Microsoft.Win32.RegistryKey.FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle, Microsoft.Win32.RegistryView)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 794
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public static RegistryKey FromHandle(SafeRegistryHandle handle, RegistryView view)
+    content.vb: Public Shared Function FromHandle(handle As SafeRegistryHandle, view As RegistryView) As RegistryKey
+    parameters:
+    - id: handle
+      type: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+    - id: view
+      type: Microsoft.Win32.RegistryView
+    return:
+      type: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.RegistryKey.GetSubKeyNames
+  id: GetSubKeyNames
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: GetSubKeyNames()
+  fullName: Microsoft.Win32.RegistryKey.GetSubKeyNames()
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 833
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public string[] GetSubKeyNames()
+    content.vb: Public Function GetSubKeyNames As String()
+    return:
+      type: System.String[]
+- uid: Microsoft.Win32.RegistryKey.ValueCount
+  id: ValueCount
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: ValueCount
+  fullName: Microsoft.Win32.RegistryKey.ValueCount
+  type: Property
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 880
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public int ValueCount { get; }
+    content.vb: Public ReadOnly Property ValueCount As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: Microsoft.Win32.RegistryKey.GetValueNames
+  id: GetValueNames
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: GetValueNames()
+  fullName: Microsoft.Win32.RegistryKey.GetValueNames()
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 917
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public string[] GetValueNames()
+    content.vb: Public Function GetValueNames As String()
+    return:
+      type: System.String[]
+- uid: Microsoft.Win32.RegistryKey.GetValue(System.String)
+  id: GetValue(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: GetValue(String)
+  fullName: Microsoft.Win32.RegistryKey.GetValue(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 971
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public object GetValue(string name)
+    content.vb: Public Function GetValue(name As String) As Object
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Object
+- uid: Microsoft.Win32.RegistryKey.GetValue(System.String,System.Object)
+  id: GetValue(System.String,System.Object)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: GetValue(String, Object)
+  fullName: Microsoft.Win32.RegistryKey.GetValue(System.String, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 992
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public object GetValue(string name, object defaultValue)
+    content.vb: Public Function GetValue(name As String, defaultValue As Object) As Object
+    parameters:
+    - id: name
+      type: System.String
+    - id: defaultValue
+      type: System.Object
+    return:
+      type: System.Object
+- uid: Microsoft.Win32.RegistryKey.GetValue(System.String,System.Object,Microsoft.Win32.RegistryValueOptions)
+  id: GetValue(System.String,System.Object,Microsoft.Win32.RegistryValueOptions)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: GetValue(String, Object, RegistryValueOptions)
+  fullName: Microsoft.Win32.RegistryKey.GetValue(System.String, System.Object, Microsoft.Win32.RegistryValueOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 998
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public object GetValue(string name, object defaultValue, RegistryValueOptions options)
+    content.vb: Public Function GetValue(name As String, defaultValue As Object, options As RegistryValueOptions) As Object
+    parameters:
+    - id: name
+      type: System.String
+    - id: defaultValue
+      type: System.Object
+    - id: options
+      type: Microsoft.Win32.RegistryValueOptions
+    return:
+      type: System.Object
+- uid: Microsoft.Win32.RegistryKey.GetValueKind(System.String)
+  id: GetValueKind(System.String)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: GetValueKind(String)
+  fullName: Microsoft.Win32.RegistryKey.GetValueKind(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 1264
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public RegistryValueKind GetValueKind(string name)
+    content.vb: Public Function GetValueKind(name As String) As RegistryValueKind
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: Microsoft.Win32.RegistryValueKind
+- uid: Microsoft.Win32.RegistryKey.Name
+  id: Name
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: Name
+  fullName: Microsoft.Win32.RegistryKey.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 1310
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public string Name { get; }
+    content.vb: Public ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object)
+  id: SetValue(System.String,System.Object)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: SetValue(String, Object)
+  fullName: Microsoft.Win32.RegistryKey.SetValue(System.String, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 1331
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void SetValue(string name, object value)
+    content.vb: Public Sub SetValue(name As String, value As Object)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Object
+- uid: Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind)
+  id: SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind)
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: SetValue(String, Object, RegistryValueKind)
+  fullName: Microsoft.Win32.RegistryKey.SetValue(System.String, System.Object, Microsoft.Win32.RegistryValueKind)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 1336
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public void SetValue(string name, object value, RegistryValueKind valueKind)
+    content.vb: Public Sub SetValue(name As String, value As Object, valueKind As RegistryValueKind)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Object
+    - id: valueKind
+      type: Microsoft.Win32.RegistryValueKind
+- uid: Microsoft.Win32.RegistryKey.ToString
+  id: ToString
+  parent: Microsoft.Win32.RegistryKey
+  href: Microsoft.Win32.RegistryKey.yml
+  name: ToString()
+  fullName: Microsoft.Win32.RegistryKey.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryKey.cs
+    startLine: 1510
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+  overridden: System.Object.ToString
+references:
+- uid: Microsoft.Win32
+  isExternal: false
+  name: Microsoft.Win32
+  fullName: Microsoft.Win32
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: Microsoft.Win32.RegistryKey
+  parent: Microsoft.Win32
+  isExternal: false
+  href: Microsoft.Win32.RegistryKey.yml
+  name: RegistryKey
+  fullName: Microsoft.Win32.RegistryKey
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.Win32.RegistryOptions
+  parent: Microsoft.Win32
+  isExternal: false
+  href: Microsoft.Win32.RegistryOptions.yml
+  name: RegistryOptions
+  fullName: Microsoft.Win32.RegistryOptions
+  type: Enum
+- uid: Microsoft.Win32.RegistryHive
+  parent: Microsoft.Win32
+  isExternal: false
+  href: Microsoft.Win32.RegistryHive.yml
+  name: RegistryHive
+  fullName: Microsoft.Win32.RegistryHive
+  type: Enum
+- uid: Microsoft.Win32.RegistryView
+  parent: Microsoft.Win32
+  isExternal: false
+  href: Microsoft.Win32.RegistryView.yml
+  name: RegistryView
+  fullName: Microsoft.Win32.RegistryView
+  type: Enum
+- uid: System.Security.AccessControl.RegistryRights
+  parent: System.Security.AccessControl
+  isExternal: false
+  href: System.Security.AccessControl.RegistryRights.yml
+  name: RegistryRights
+  fullName: System.Security.AccessControl.RegistryRights
+  type: Enum
+- uid: System.Security.AccessControl
+  isExternal: false
+  name: System.Security.AccessControl
+  fullName: System.Security.AccessControl
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+  parent: Microsoft.Win32.SafeHandles
+  isExternal: false
+  href: Microsoft.Win32.SafeHandles.SafeRegistryHandle.yml
+  name: SafeRegistryHandle
+  fullName: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+  type: Class
+- uid: Microsoft.Win32.SafeHandles
+  isExternal: false
+  name: Microsoft.Win32.SafeHandles
+  fullName: Microsoft.Win32.SafeHandles
+  type: Namespace
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: Microsoft.Win32.RegistryValueOptions
+  parent: Microsoft.Win32
+  isExternal: false
+  href: Microsoft.Win32.RegistryValueOptions.yml
+  name: RegistryValueOptions
+  fullName: Microsoft.Win32.RegistryValueOptions
+  type: Enum
+- uid: Microsoft.Win32.RegistryValueKind
+  parent: Microsoft.Win32
+  isExternal: false
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: RegistryValueKind
+  fullName: Microsoft.Win32.RegistryValueKind
+  type: Enum
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

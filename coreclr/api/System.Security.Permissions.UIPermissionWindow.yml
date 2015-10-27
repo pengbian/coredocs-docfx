@@ -1,0 +1,97 @@
+items:
+- uid: System.Security.Permissions.UIPermissionWindow
+  id: UIPermissionWindow
+  parent: System.Security.Permissions
+  children:
+  - System.Security.Permissions.UIPermissionWindow.AllWindows
+  - System.Security.Permissions.UIPermissionWindow.NoWindows
+  - System.Security.Permissions.UIPermissionWindow.SafeSubWindows
+  - System.Security.Permissions.UIPermissionWindow.SafeTopLevelWindows
+  href: System.Security.Permissions.UIPermissionWindow.yml
+  name: UIPermissionWindow
+  fullName: System.Security.Permissions.UIPermissionWindow
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Permissions/UIPermission.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Permissions/UIPermission.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: public enum UIPermissionWindow
+    content.vb: Public Enum UIPermissionWindow
+- uid: System.Security.Permissions.UIPermissionWindow.NoWindows
+  id: NoWindows
+  parent: System.Security.Permissions.UIPermissionWindow
+  href: System.Security.Permissions.UIPermissionWindow.yml
+  name: NoWindows
+  fullName: System.Security.Permissions.UIPermissionWindow.NoWindows
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/UIPermission.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: NoWindows = 0
+- uid: System.Security.Permissions.UIPermissionWindow.SafeSubWindows
+  id: SafeSubWindows
+  parent: System.Security.Permissions.UIPermissionWindow
+  href: System.Security.Permissions.UIPermissionWindow.yml
+  name: SafeSubWindows
+  fullName: System.Security.Permissions.UIPermissionWindow.SafeSubWindows
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/UIPermission.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: SafeSubWindows = 1
+- uid: System.Security.Permissions.UIPermissionWindow.SafeTopLevelWindows
+  id: SafeTopLevelWindows
+  parent: System.Security.Permissions.UIPermissionWindow
+  href: System.Security.Permissions.UIPermissionWindow.yml
+  name: SafeTopLevelWindows
+  fullName: System.Security.Permissions.UIPermissionWindow.SafeTopLevelWindows
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/UIPermission.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: SafeTopLevelWindows = 2
+- uid: System.Security.Permissions.UIPermissionWindow.AllWindows
+  id: AllWindows
+  parent: System.Security.Permissions.UIPermissionWindow
+  href: System.Security.Permissions.UIPermissionWindow.yml
+  name: AllWindows
+  fullName: System.Security.Permissions.UIPermissionWindow.AllWindows
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/UIPermission.cs
+    startLine: 29
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: AllWindows = 3
+references:
+- uid: System.Security.Permissions
+  isExternal: false
+  name: System.Security.Permissions
+  fullName: System.Security.Permissions
+  type: Namespace

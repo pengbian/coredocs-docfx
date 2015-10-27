@@ -1,0 +1,534 @@
+items:
+- uid: System.Tuple`1
+  id: Tuple`1
+  parent: System
+  children:
+  - System.Tuple`1.#ctor(`0)
+  - System.Tuple`1.Equals(System.Object)
+  - System.Tuple`1.GetHashCode
+  - System.Tuple`1.Item1
+  - System.Tuple`1.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
+  - System.Tuple`1.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
+  - System.Tuple`1.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  - System.Tuple`1.System#IComparable#CompareTo(System.Object)
+  - System.Tuple`1.ToString
+  href: System.Tuple`1.yml
+  name: Tuple<T1>
+  name.vb: Tuple(Of T1)
+  fullName: System.Tuple<T1>
+  fullName.vb: System.Tuple(Of T1)
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Tuple.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 83
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public class Tuple<T1> : IStructuralEquatable, IStructuralComparable, IComparable, ITuple'
+    content.vb: Public Class Tuple(Of T1) Implements IStructuralEquatable, IStructuralComparable, IComparable, ITuple
+    typeParameters:
+    - id: T1
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.IStructuralEquatable
+  - System.Collections.IStructuralComparable
+  - System.IComparable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Tuple`1.Item1
+  id: Item1
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: Item1
+  fullName: System.Tuple<T1>.Item1
+  fullName.vb: System.Tuple(Of T1).Item1
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 88
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public T1 Item1 { get; }
+    content.vb: Public ReadOnly Property Item1 As T1
+    parameters: []
+    return:
+      type: '{T1}'
+      description: 
+- uid: System.Tuple`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: Tuple(T1)
+  fullName: System.Tuple<T1>.Tuple(T1)
+  fullName.vb: System.Tuple(Of T1).Tuple(T1)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 90
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public Tuple(T1 item1)
+    content.vb: Public Sub New(item1 As T1)
+    parameters:
+    - id: item1
+      type: '{T1}'
+- uid: System.Tuple`1.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: Equals(Object)
+  fullName: System.Tuple<T1>.Equals(System.Object)
+  fullName.vb: System.Tuple(Of T1).Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 94
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Tuple`1.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
+  id: System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: IStructuralEquatable.Equals(Object, IEqualityComparer)
+  name.vb: System.Collections.IStructuralEquatable.Equals(Object, IEqualityComparer)
+  fullName: System.Tuple<T1>.System.Collections.IStructuralEquatable.Equals(System.Object, System.Collections.IEqualityComparer)
+  fullName.vb: System.Tuple(Of T1).System.Collections.IStructuralEquatable.Equals(System.Object, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 98
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: bool IStructuralEquatable.Equals(object other, IEqualityComparer comparer)
+    content.vb: Function System.Collections.IStructuralEquatable.Equals(other As Object, comparer As IEqualityComparer) As Boolean Implements IStructuralEquatable.Equals
+    parameters:
+    - id: other
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Tuple`1.System#IComparable#CompareTo(System.Object)
+  id: System#IComparable#CompareTo(System.Object)
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: IComparable.CompareTo(Object)
+  name.vb: System.IComparable.CompareTo(Object)
+  fullName: System.Tuple<T1>.System.IComparable.CompareTo(System.Object)
+  fullName.vb: System.Tuple(Of T1).System.IComparable.CompareTo(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 110
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IComparable.CompareTo(object obj)
+    content.vb: Function System.IComparable.CompareTo(obj As Object) As Integer Implements IComparable.CompareTo
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Tuple`1.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
+  id: System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: IStructuralComparable.CompareTo(Object, IComparer)
+  name.vb: System.Collections.IStructuralComparable.CompareTo(Object, IComparer)
+  fullName: System.Tuple<T1>.System.Collections.IStructuralComparable.CompareTo(System.Object, System.Collections.IComparer)
+  fullName.vb: System.Tuple(Of T1).System.Collections.IStructuralComparable.CompareTo(System.Object, System.Collections.IComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 114
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IStructuralComparable.CompareTo(object other, IComparer comparer)
+    content.vb: Function System.Collections.IStructuralComparable.CompareTo(other As Object, comparer As IComparer) As Integer Implements IStructuralComparable.CompareTo
+    parameters:
+    - id: other
+      type: System.Object
+    - id: comparer
+      type: System.Collections.IComparer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Tuple`1.GetHashCode
+  id: GetHashCode
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: GetHashCode()
+  fullName: System.Tuple<T1>.GetHashCode()
+  fullName.vb: System.Tuple(Of T1).GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 126
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.Object.GetHashCode
+- uid: System.Tuple`1.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  id: System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: IStructuralEquatable.GetHashCode(IEqualityComparer)
+  name.vb: System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
+  fullName: System.Tuple<T1>.System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer)
+  fullName.vb: System.Tuple(Of T1).System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 130
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IStructuralEquatable.GetHashCode(IEqualityComparer comparer)
+    content.vb: Function System.Collections.IStructuralEquatable.GetHashCode(comparer As IEqualityComparer) As Integer Implements IStructuralEquatable.GetHashCode
+    parameters:
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Tuple`1.ToString
+  id: ToString
+  parent: System.Tuple`1
+  href: System.Tuple`1.yml
+  name: ToString()
+  fullName: System.Tuple<T1>.ToString()
+  fullName.vb: System.Tuple(Of T1).ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Tuple.cs
+    startLine: 137
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+      description: 
+  overridden: System.Object.ToString
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: '{T1}'
+  isExternal: false
+  name: T1
+  fullName: T1
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Collections.IEqualityComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEqualityComparer.yml
+  name: IEqualityComparer
+  fullName: System.Collections.IEqualityComparer
+  type: Interface
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Collections.IComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IComparer.yml
+  name: IComparer
+  fullName: System.Collections.IComparer
+  type: Interface
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class

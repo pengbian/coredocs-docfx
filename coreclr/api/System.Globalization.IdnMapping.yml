@@ -1,0 +1,549 @@
+items:
+- uid: System.Globalization.IdnMapping
+  id: IdnMapping
+  parent: System.Globalization
+  children:
+  - System.Globalization.IdnMapping.#ctor
+  - System.Globalization.IdnMapping.AllowUnassigned
+  - System.Globalization.IdnMapping.Equals(System.Object)
+  - System.Globalization.IdnMapping.GetAscii(System.String)
+  - System.Globalization.IdnMapping.GetAscii(System.String,System.Int32)
+  - System.Globalization.IdnMapping.GetAscii(System.String,System.Int32,System.Int32)
+  - System.Globalization.IdnMapping.GetHashCode
+  - System.Globalization.IdnMapping.GetUnicode(System.String)
+  - System.Globalization.IdnMapping.GetUnicode(System.String,System.Int32)
+  - System.Globalization.IdnMapping.GetUnicode(System.String,System.Int32,System.Int32)
+  - System.Globalization.IdnMapping.UseStd3AsciiRules
+  href: System.Globalization.IdnMapping.yml
+  name: IdnMapping
+  fullName: System.Globalization.IdnMapping
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 70
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public sealed class IdnMapping
+    content.vb: Public NotInheritable Class IdnMapping
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Globalization.IdnMapping.#ctor
+  id: '#ctor'
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: IdnMapping()
+  fullName: System.Globalization.IdnMapping.IdnMapping()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 88
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public IdnMapping()
+    content.vb: Public Sub New
+- uid: System.Globalization.IdnMapping.AllowUnassigned
+  id: AllowUnassigned
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: AllowUnassigned
+  fullName: System.Globalization.IdnMapping.AllowUnassigned
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 92
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public bool AllowUnassigned { get; set; }
+    content.vb: Public Property AllowUnassigned As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Globalization.IdnMapping.UseStd3AsciiRules
+  id: UseStd3AsciiRules
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: UseStd3AsciiRules
+  fullName: System.Globalization.IdnMapping.UseStd3AsciiRules
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 105
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public bool UseStd3AsciiRules { get; set; }
+    content.vb: Public Property UseStd3AsciiRules As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Globalization.IdnMapping.GetAscii(System.String)
+  id: GetAscii(System.String)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetAscii(String)
+  fullName: System.Globalization.IdnMapping.GetAscii(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 119
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public string GetAscii(string unicode)
+    content.vb: Public Function GetAscii(unicode As String) As String
+    parameters:
+    - id: unicode
+      type: System.String
+    return:
+      type: System.String
+      description: 
+- uid: System.Globalization.IdnMapping.GetAscii(System.String,System.Int32)
+  id: GetAscii(System.String,System.Int32)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetAscii(String, Int32)
+  fullName: System.Globalization.IdnMapping.GetAscii(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 124
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public string GetAscii(string unicode, int index)
+    content.vb: Public Function GetAscii(unicode As String, index As Integer) As String
+    parameters:
+    - id: unicode
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.String
+      description: 
+- uid: System.Globalization.IdnMapping.GetAscii(System.String,System.Int32,System.Int32)
+  id: GetAscii(System.String,System.Int32,System.Int32)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetAscii(String, Int32, Int32)
+  fullName: System.Globalization.IdnMapping.GetAscii(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 131
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public string GetAscii(string unicode, int index, int count)
+    content.vb: Public Function GetAscii(unicode As String, index As Integer, count As Integer) As String
+    parameters:
+    - id: unicode
+      type: System.String
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.String
+      description: 
+- uid: System.Globalization.IdnMapping.GetUnicode(System.String)
+  id: GetUnicode(System.String)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetUnicode(String)
+  fullName: System.Globalization.IdnMapping.GetUnicode(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 242
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public string GetUnicode(string ascii)
+    content.vb: Public Function GetUnicode(ascii As String) As String
+    parameters:
+    - id: ascii
+      type: System.String
+    return:
+      type: System.String
+      description: 
+- uid: System.Globalization.IdnMapping.GetUnicode(System.String,System.Int32)
+  id: GetUnicode(System.String,System.Int32)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetUnicode(String, Int32)
+  fullName: System.Globalization.IdnMapping.GetUnicode(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 247
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public string GetUnicode(string ascii, int index)
+    content.vb: Public Function GetUnicode(ascii As String, index As Integer) As String
+    parameters:
+    - id: ascii
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.String
+      description: 
+- uid: System.Globalization.IdnMapping.GetUnicode(System.String,System.Int32,System.Int32)
+  id: GetUnicode(System.String,System.Int32,System.Int32)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetUnicode(String, Int32, Int32)
+  fullName: System.Globalization.IdnMapping.GetUnicode(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 254
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public string GetUnicode(string ascii, int index, int count)
+    content.vb: Public Function GetUnicode(ascii As String, index As Integer, count As Integer) As String
+    parameters:
+    - id: ascii
+      type: System.String
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.String
+      description: 
+- uid: System.Globalization.IdnMapping.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: Equals(Object)
+  fullName: System.Globalization.IdnMapping.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 330
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Globalization.IdnMapping.GetHashCode
+  id: GetHashCode
+  parent: System.Globalization.IdnMapping
+  href: System.Globalization.IdnMapping.yml
+  name: GetHashCode()
+  fullName: System.Globalization.IdnMapping.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/IdnMapping.cs
+    startLine: 343
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.Object.GetHashCode
+references:
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

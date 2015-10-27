@@ -1,0 +1,1322 @@
+items:
+- uid: System.Attribute
+  id: Attribute
+  parent: System
+  children:
+  - System.Attribute.#ctor
+  - System.Attribute.Equals(System.Object)
+  - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
+  - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
+  - System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
+  - System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
+  - System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
+  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
+  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Module)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
+  - System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
+  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
+  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
+  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  - System.Attribute.GetHashCode
+  - System.Attribute.IsDefaultAttribute
+  - System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
+  - System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
+  - System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
+  - System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  - System.Attribute.IsDefined(System.Reflection.Module,System.Type)
+  - System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
+  - System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
+  - System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  - System.Attribute.Match(System.Object)
+  - System.Attribute.TypeId
+  href: System.Attribute.yml
+  name: Attribute
+  fullName: System.Attribute
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Attribute.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public abstract class Attribute : _Attribute'
+    content.vb: Public MustInherit Class Attribute Implements _Attribute
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.InteropServices._Attribute
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
+  id: GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(MemberInfo, Type)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 447
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(MemberInfo element, Type type)
+    content.vb: Public Shared Function GetCustomAttributes(element As MemberInfo, type As Type) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: type
+      type: System.Type
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(MemberInfo, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 452
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(MemberInfo element, Type type, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As MemberInfo, type As Type, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: type
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
+  id: GetCustomAttributes(System.Reflection.MemberInfo)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(MemberInfo)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 477
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(MemberInfo element)
+    content.vb: Public Shared Function GetCustomAttributes(element As MemberInfo) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(MemberInfo, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 482
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(MemberInfo element, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As MemberInfo, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
+  id: IsDefined(System.Reflection.MemberInfo,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(MemberInfo, Type)
+  fullName: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 501
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(MemberInfo element, Type attributeType)
+    content.vb: Public Shared Function IsDefined(element As MemberInfo, attributeType As Type) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  id: IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(MemberInfo, Type, Boolean)
+  fullName: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 506
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(MemberInfo element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function IsDefined(element As MemberInfo, attributeType As Type, inherit As Boolean) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
+  id: GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(MemberInfo, Type)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 533
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(MemberInfo element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttribute(element As MemberInfo, attributeType As Type) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  id: GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(MemberInfo, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 538
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(MemberInfo element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttribute(element As MemberInfo, attributeType As Type, inherit As Boolean) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.MemberInfo
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
+  id: GetCustomAttributes(System.Reflection.ParameterInfo)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(ParameterInfo)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 554
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(ParameterInfo element)
+    content.vb: Public Shared Function GetCustomAttributes(element As ParameterInfo) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
+  id: GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(ParameterInfo, Type)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 559
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(ParameterInfo element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttributes(element As ParameterInfo, attributeType As Type) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(ParameterInfo, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 564
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(ParameterInfo element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As ParameterInfo, attributeType As Type, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(ParameterInfo, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 587
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(ParameterInfo element, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As ParameterInfo, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
+  id: IsDefined(System.Reflection.ParameterInfo,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(ParameterInfo, Type)
+  fullName: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 604
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(ParameterInfo element, Type attributeType)
+    content.vb: Public Shared Function IsDefined(element As ParameterInfo, attributeType As Type) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  id: IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(ParameterInfo, Type, Boolean)
+  fullName: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 609
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(ParameterInfo element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function IsDefined(element As ParameterInfo, attributeType As Type, inherit As Boolean) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
+  id: GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(ParameterInfo, Type)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 641
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(ParameterInfo element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttribute(element As ParameterInfo, attributeType As Type) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  id: GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(ParameterInfo, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 646
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(ParameterInfo element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttribute(element As ParameterInfo, attributeType As Type, inherit As Boolean) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.ParameterInfo
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
+  id: GetCustomAttributes(System.Reflection.Module,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Module, Type)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 667
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Module element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttributes(element As Module, attributeType As Type) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module)
+  id: GetCustomAttributes(System.Reflection.Module)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Module)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 672
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Module element)
+    content.vb: Public Shared Function GetCustomAttributes(element As Module) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.Module,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Module, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 677
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Module element, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As Module, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Module, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 686
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Module element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As Module, attributeType As Type, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type)
+  id: IsDefined(System.Reflection.Module,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(Module, Type)
+  fullName: System.Attribute.IsDefined(System.Reflection.Module, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 701
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(Module element, Type attributeType)
+    content.vb: Public Shared Function IsDefined(element As Module, attributeType As Type) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
+  id: IsDefined(System.Reflection.Module,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(Module, Type, Boolean)
+  fullName: System.Attribute.IsDefined(System.Reflection.Module, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 706
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(Module element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function IsDefined(element As Module, attributeType As Type, inherit As Boolean) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
+  id: GetCustomAttribute(System.Reflection.Module,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(Module, Type)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 722
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(Module element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttribute(element As Module, attributeType As Type) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
+  id: GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(Module, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 727
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(Module element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttribute(element As Module, attributeType As Type, inherit As Boolean) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.Module
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
+  id: GetCustomAttributes(System.Reflection.Assembly,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Assembly, Type)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 745
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Assembly element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttributes(element As Assembly, attributeType As Type) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Assembly, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 750
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Assembly element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As Assembly, attributeType As Type, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
+  id: GetCustomAttributes(System.Reflection.Assembly)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Assembly)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 765
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Assembly element)
+    content.vb: Public Shared Function GetCustomAttributes(element As Assembly) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
+  id: GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttributes(Assembly, Boolean)
+  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 770
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute[] GetCustomAttributes(Assembly element, bool inherit)
+    content.vb: Public Shared Function GetCustomAttributes(element As Assembly, inherit As Boolean) As Attribute()
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute[]
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
+  id: IsDefined(System.Reflection.Assembly,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(Assembly, Type)
+  fullName: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 779
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(Assembly element, Type attributeType)
+    content.vb: Public Shared Function IsDefined(element As Assembly, attributeType As Type) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
+  id: IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefined(Assembly, Type, Boolean)
+  fullName: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 784
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool IsDefined(Assembly element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function IsDefined(element As Assembly, attributeType As Type, inherit As Boolean) As Boolean
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
+  id: GetCustomAttribute(System.Reflection.Assembly,System.Type)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(Assembly, Type)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 800
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(Assembly element, Type attributeType)
+    content.vb: Public Shared Function GetCustomAttribute(element As Assembly, attributeType As Type) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: attributeType
+      type: System.Type
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
+  id: GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetCustomAttribute(Assembly, Type, Boolean)
+  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 805
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static Attribute GetCustomAttribute(Assembly element, Type attributeType, bool inherit)
+    content.vb: Public Shared Function GetCustomAttribute(element As Assembly, attributeType As Type, inherit As Boolean) As Attribute
+    parameters:
+    - id: element
+      type: System.Reflection.Assembly
+    - id: attributeType
+      type: System.Type
+    - id: inherit
+      type: System.Boolean
+    return:
+      type: System.Attribute
+      description: 
+- uid: System.Attribute.#ctor
+  id: '#ctor'
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: Attribute()
+  fullName: System.Attribute.Attribute()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 825
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: protected Attribute()
+    content.vb: Protected Sub New
+- uid: System.Attribute.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: Equals(Object)
+  fullName: System.Attribute.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 829
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Attribute.GetHashCode
+  id: GetHashCode
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: GetHashCode()
+  fullName: System.Attribute.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 908
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+      description: 
+  overridden: System.Object.GetHashCode
+- uid: System.Attribute.TypeId
+  id: TypeId
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: TypeId
+  fullName: System.Attribute.TypeId
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 940
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public virtual object TypeId { get; }
+    content.vb: Public Overridable ReadOnly Property TypeId As Object
+    parameters: []
+    return:
+      type: System.Object
+      description: 
+- uid: System.Attribute.Match(System.Object)
+  id: Match(System.Object)
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: Match(Object)
+  fullName: System.Attribute.Match(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 942
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public virtual bool Match(object obj)
+    content.vb: Public Overridable Function Match(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Attribute.IsDefaultAttribute
+  id: IsDefaultAttribute
+  parent: System.Attribute
+  href: System.Attribute.yml
+  name: IsDefaultAttribute()
+  fullName: System.Attribute.IsDefaultAttribute()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Attribute.cs
+    startLine: 946
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public virtual bool IsDefaultAttribute()
+    content.vb: Public Overridable Function IsDefaultAttribute As Boolean
+    return:
+      type: System.Boolean
+      description: 
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Reflection.MemberInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.MemberInfo.yml
+  name: MemberInfo
+  fullName: System.Reflection.MemberInfo
+  type: Class
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Attribute[]
+  isExternal: false
+  href: System.Attribute.yml
+  name: Attribute[]
+  name.vb: Attribute()
+  fullName: System.Attribute[]
+  fullName.vb: System.Attribute()
+  spec.csharp:
+  - uid: System.Attribute
+    name: Attribute
+    fullName: System.Attribute
+    href: System.Attribute.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Attribute
+    name: Attribute
+    fullName: System.Attribute
+    href: System.Attribute.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Attribute
+  parent: System
+  isExternal: false
+  href: System.Attribute.yml
+  name: Attribute
+  fullName: System.Attribute
+  type: Class
+- uid: System.Reflection.ParameterInfo
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.ParameterInfo.yml
+  name: ParameterInfo
+  fullName: System.Reflection.ParameterInfo
+  type: Class
+- uid: System.Reflection.Module
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Module.yml
+  name: Module
+  fullName: System.Reflection.Module
+  type: Class
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct

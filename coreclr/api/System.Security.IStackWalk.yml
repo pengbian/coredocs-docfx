@@ -1,0 +1,101 @@
+items:
+- uid: System.Security.IStackWalk
+  id: IStackWalk
+  parent: System.Security
+  children:
+  - System.Security.IStackWalk.Assert
+  - System.Security.IStackWalk.Demand
+  - System.Security.IStackWalk.Deny
+  - System.Security.IStackWalk.PermitOnly
+  href: System.Security.IStackWalk.yml
+  name: IStackWalk
+  fullName: System.Security.IStackWalk
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/IStackWalk.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/IStackWalk.cs
+    startLine: 6
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: public interface IStackWalk
+    content.vb: Public Interface IStackWalk
+- uid: System.Security.IStackWalk.Assert
+  id: Assert
+  parent: System.Security.IStackWalk
+  href: System.Security.IStackWalk.yml
+  name: Assert()
+  fullName: System.Security.IStackWalk.Assert()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IStackWalk.cs
+    startLine: 9
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: void Assert()
+    content.vb: Sub Assert
+- uid: System.Security.IStackWalk.Demand
+  id: Demand
+  parent: System.Security.IStackWalk
+  href: System.Security.IStackWalk.yml
+  name: Demand()
+  fullName: System.Security.IStackWalk.Demand()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IStackWalk.cs
+    startLine: 12
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: void Demand()
+    content.vb: Sub Demand
+- uid: System.Security.IStackWalk.Deny
+  id: Deny
+  parent: System.Security.IStackWalk
+  href: System.Security.IStackWalk.yml
+  name: Deny()
+  fullName: System.Security.IStackWalk.Deny()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IStackWalk.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: void Deny()
+    content.vb: Sub Deny
+- uid: System.Security.IStackWalk.PermitOnly
+  id: PermitOnly
+  parent: System.Security.IStackWalk
+  href: System.Security.IStackWalk.yml
+  name: PermitOnly()
+  fullName: System.Security.IStackWalk.PermitOnly()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IStackWalk.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: void PermitOnly()
+    content.vb: Sub PermitOnly
+references:
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace

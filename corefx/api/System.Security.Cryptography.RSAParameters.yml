@@ -1,0 +1,381 @@
+items:
+- uid: System.Security.Cryptography.RSAParameters
+  id: RSAParameters
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.RSAParameters.D
+  - System.Security.Cryptography.RSAParameters.DP
+  - System.Security.Cryptography.RSAParameters.DQ
+  - System.Security.Cryptography.RSAParameters.Exponent
+  - System.Security.Cryptography.RSAParameters.InverseQ
+  - System.Security.Cryptography.RSAParameters.Modulus
+  - System.Security.Cryptography.RSAParameters.P
+  - System.Security.Cryptography.RSAParameters.Q
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: RSAParameters
+  fullName: System.Security.Cryptography.RSAParameters
+  type: Struct
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 9
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public struct RSAParameters
+    content.vb: Public Structure RSAParameters
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: System.Security.Cryptography.RSAParameters.D
+  id: D
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: D
+  fullName: System.Security.Cryptography.RSAParameters.D
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 12
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] D
+    content.vb: Public D As Byte()
+- uid: System.Security.Cryptography.RSAParameters.DP
+  id: DP
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: DP
+  fullName: System.Security.Cryptography.RSAParameters.DP
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 13
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] DP
+    content.vb: Public DP As Byte()
+- uid: System.Security.Cryptography.RSAParameters.DQ
+  id: DQ
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: DQ
+  fullName: System.Security.Cryptography.RSAParameters.DQ
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] DQ
+    content.vb: Public DQ As Byte()
+- uid: System.Security.Cryptography.RSAParameters.Exponent
+  id: Exponent
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: Exponent
+  fullName: System.Security.Cryptography.RSAParameters.Exponent
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 15
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Exponent
+    content.vb: Public Exponent As Byte()
+- uid: System.Security.Cryptography.RSAParameters.InverseQ
+  id: InverseQ
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: InverseQ
+  fullName: System.Security.Cryptography.RSAParameters.InverseQ
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 16
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] InverseQ
+    content.vb: Public InverseQ As Byte()
+- uid: System.Security.Cryptography.RSAParameters.Modulus
+  id: Modulus
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: Modulus
+  fullName: System.Security.Cryptography.RSAParameters.Modulus
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 17
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Modulus
+    content.vb: Public Modulus As Byte()
+- uid: System.Security.Cryptography.RSAParameters.P
+  id: P
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: P
+  fullName: System.Security.Cryptography.RSAParameters.P
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 18
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] P
+    content.vb: Public P As Byte()
+- uid: System.Security.Cryptography.RSAParameters.Q
+  id: Q
+  parent: System.Security.Cryptography.RSAParameters
+  href: System.Security.Cryptography.RSAParameters.yml
+  name: Q
+  fullName: System.Security.Cryptography.RSAParameters.Q
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/RSAParameters.cs
+    startLine: 19
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Q
+    content.vb: Public Q As Byte()
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace
+- uid: System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

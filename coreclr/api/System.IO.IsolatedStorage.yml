@@ -1,0 +1,75 @@
+items:
+- uid: System.IO.IsolatedStorage
+  id: System.IO.IsolatedStorage
+  children:
+  - System.IO.IsolatedStorage.IsolatedStorageException
+  - System.IO.IsolatedStorage.IsolatedStorageFile
+  - System.IO.IsolatedStorage.IsolatedStorageFileIOHelperBase
+  - System.IO.IsolatedStorage.IsolatedStorageFileStream
+  - System.IO.IsolatedStorage.IsolatedStorageGroup
+  - System.IO.IsolatedStorage.IsolatedStorageSecurityOptions
+  - System.IO.IsolatedStorage.IsolatedStorageSecurityState
+  href: System.IO.IsolatedStorage.yml
+  name: System.IO.IsolatedStorage
+  fullName: System.IO.IsolatedStorage
+  type: Namespace
+  source:
+    remote:
+      path: src/mscorlib/src/System/IO/IsolatedStorage/__HResults.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IO/IsolatedStorage/__HResults.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+references:
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageFileStream.yml
+  name: IsolatedStorageFileStream
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  type: Class
+- uid: System.IO.IsolatedStorage.IsolatedStorageException
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageException.yml
+  name: IsolatedStorageException
+  fullName: System.IO.IsolatedStorage.IsolatedStorageException
+  type: Class
+- uid: System.IO.IsolatedStorage.IsolatedStorageSecurityOptions
+  parent: System.IO.IsolatedStorage
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageSecurityOptions.yml
+  name: IsolatedStorageSecurityOptions
+  fullName: System.IO.IsolatedStorage.IsolatedStorageSecurityOptions
+  type: Enum
+- uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageSecurityState.yml
+  name: IsolatedStorageSecurityState
+  fullName: System.IO.IsolatedStorage.IsolatedStorageSecurityState
+  type: Class
+- uid: System.IO.IsolatedStorage.IsolatedStorageFile
+  parent: System.IO.IsolatedStorage
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  name: IsolatedStorageFile
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFile
+  type: Class
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileIOHelperBase
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageFileIOHelperBase.yml
+  name: IsolatedStorageFileIOHelperBase
+  fullName: System.IO.IsolatedStorage.IsolatedStorageFileIOHelperBase
+  type: Class
+- uid: System.IO.IsolatedStorage.IsolatedStorageGroup
+  isExternal: false
+  href: System.IO.IsolatedStorage.IsolatedStorageGroup.yml
+  name: IsolatedStorageGroup
+  fullName: System.IO.IsolatedStorage.IsolatedStorageGroup
+  type: Class
+- uid: System.IO.IsolatedStorage
+  isExternal: false
+  name: System.IO.IsolatedStorage
+  fullName: System.IO.IsolatedStorage
+  type: Namespace

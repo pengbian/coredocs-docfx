@@ -1,0 +1,131 @@
+items:
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags
+  id: TypeLibExporterFlags
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.TypeLibExporterFlags.CallerResolvedReferences
+  - System.Runtime.InteropServices.TypeLibExporterFlags.ExportAs32Bit
+  - System.Runtime.InteropServices.TypeLibExporterFlags.ExportAs64Bit
+  - System.Runtime.InteropServices.TypeLibExporterFlags.None
+  - System.Runtime.InteropServices.TypeLibExporterFlags.OldNames
+  - System.Runtime.InteropServices.TypeLibExporterFlags.OnlyReferenceRegistered
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: TypeLibExporterFlags
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 44
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum TypeLibExporterFlags
+    content.vb: Public Enum TypeLibExporterFlags
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags.None
+  id: None
+  parent: System.Runtime.InteropServices.TypeLibExporterFlags
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: None
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: None = 0
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags.OnlyReferenceRegistered
+  id: OnlyReferenceRegistered
+  parent: System.Runtime.InteropServices.TypeLibExporterFlags
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: OnlyReferenceRegistered
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags.OnlyReferenceRegistered
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 50
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: OnlyReferenceRegistered = 1
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags.CallerResolvedReferences
+  id: CallerResolvedReferences
+  parent: System.Runtime.InteropServices.TypeLibExporterFlags
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: CallerResolvedReferences
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags.CallerResolvedReferences
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 51
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: CallerResolvedReferences = 2
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags.OldNames
+  id: OldNames
+  parent: System.Runtime.InteropServices.TypeLibExporterFlags
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: OldNames
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags.OldNames
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 52
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: OldNames = 4
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags.ExportAs32Bit
+  id: ExportAs32Bit
+  parent: System.Runtime.InteropServices.TypeLibExporterFlags
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: ExportAs32Bit
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags.ExportAs32Bit
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 53
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: ExportAs32Bit = 16
+- uid: System.Runtime.InteropServices.TypeLibExporterFlags.ExportAs64Bit
+  id: ExportAs64Bit
+  parent: System.Runtime.InteropServices.TypeLibExporterFlags
+  href: System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  name: ExportAs64Bit
+  fullName: System.Runtime.InteropServices.TypeLibExporterFlags.ExportAs64Bit
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ITypeLibConverter.cs
+    startLine: 54
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: ExportAs64Bit = 32
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

@@ -1,0 +1,969 @@
+items:
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile
+  id: MemoryMappedFile
+  parent: System.IO.MemoryMappedFiles
+  children:
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose(System.Boolean)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
+  - System.IO.MemoryMappedFiles.MemoryMappedFile.SafeMemoryMappedFileHandle
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: MemoryMappedFile
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile
+  type: Class
+  source:
+    remote:
+      path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.Windows.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.Windows.cs
+    startLine: 11
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: 'public class MemoryMappedFile : IDisposable'
+    content.vb: Public Class MemoryMappedFile Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String)
+  id: OpenExisting(System.String)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: OpenExisting(String)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String)
+  type: Method
+  source:
+    remote: &o0
+      path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 48
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile OpenExisting(string mapName)
+    content.vb: Public Shared Function OpenExisting(mapName As String) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
+  id: OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: OpenExisting(String, MemoryMappedFileRights)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String, System.IO.MemoryMappedFiles.MemoryMappedFileRights)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 53
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile OpenExisting(string mapName, MemoryMappedFileRights desiredAccessRights)
+    content.vb: Public Shared Function OpenExisting(mapName As String, desiredAccessRights As MemoryMappedFileRights) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: desiredAccessRights
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileRights
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
+  id: OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,HandleInheritability)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: OpenExisting(String, MemoryMappedFileRights, HandleInheritability)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.OpenExisting(System.String, System.IO.MemoryMappedFiles.MemoryMappedFileRights, HandleInheritability)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 58
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile OpenExisting(string mapName, MemoryMappedFileRights desiredAccessRights, HandleInheritability inheritability)
+    content.vb: Public Shared Function OpenExisting(mapName As String, desiredAccessRights As MemoryMappedFileRights, inheritability As HandleInheritability) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: desiredAccessRights
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileRights
+    - id: inheritability
+      type: HandleInheritability
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String)
+  id: CreateFromFile(System.String)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateFromFile(String)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 94
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateFromFile(string path)
+    content.vb: Public Shared Function CreateFromFile(path As String) As MemoryMappedFile
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode)
+  id: CreateFromFile(System.String,System.IO.FileMode)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateFromFile(String, FileMode)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String, System.IO.FileMode)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 98
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateFromFile(string path, FileMode mode)
+    content.vb: Public Shared Function CreateFromFile(path As String, mode As FileMode) As MemoryMappedFile
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)
+  id: CreateFromFile(System.String,System.IO.FileMode,System.String)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateFromFile(String, FileMode, String)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String, System.IO.FileMode, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 103
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateFromFile(string path, FileMode mode, string mapName)
+    content.vb: Public Shared Function CreateFromFile(path As String, mode As FileMode, mapName As String) As MemoryMappedFile
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: mapName
+      type: System.String
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
+  id: CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateFromFile(String, FileMode, String, Int64)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String, System.IO.FileMode, System.String, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 108
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateFromFile(string path, FileMode mode, string mapName, long capacity)
+    content.vb: Public Shared Function CreateFromFile(path As String, mode As FileMode, mapName As String, capacity As Long) As MemoryMappedFile
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  id: CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateFromFile(String, FileMode, String, Int64, MemoryMappedFileAccess)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String, System.IO.FileMode, System.String, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 113
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateFromFile(string path, FileMode mode, string mapName, long capacity, MemoryMappedFileAccess access)
+    content.vb: Public Shared Function CreateFromFile(path As String, mode As FileMode, mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile
+    parameters:
+    - id: path
+      type: System.String
+    - id: mode
+      type: System.IO.FileMode
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
+  id: CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,HandleInheritability,System.Boolean)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateFromFile(FileStream, String, Int64, MemoryMappedFileAccess, HandleInheritability, Boolean)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream, System.String, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess, HandleInheritability, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 191
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateFromFile(FileStream fileStream, string mapName, long capacity, MemoryMappedFileAccess access, HandleInheritability inheritability, bool leaveOpen)
+    content.vb: Public Shared Function CreateFromFile(fileStream As FileStream, mapName As String, capacity As Long, access As MemoryMappedFileAccess, inheritability As HandleInheritability, leaveOpen As Boolean) As MemoryMappedFile
+    parameters:
+    - id: fileStream
+      type: System.IO.FileStream
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    - id: inheritability
+      type: HandleInheritability
+    - id: leaveOpen
+      type: System.Boolean
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)
+  id: CreateNew(System.String,System.Int64)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateNew(String, Int64)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 259
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateNew(string mapName, long capacity)
+    content.vb: Public Shared Function CreateNew(mapName As String, capacity As Long) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  id: CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateNew(String, Int64, MemoryMappedFileAccess)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 265
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateNew(string mapName, long capacity, MemoryMappedFileAccess access)
+    content.vb: Public Shared Function CreateNew(mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
+  id: CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateNew(String, Int64, MemoryMappedFileAccess, MemoryMappedFileOptions, HandleInheritability)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess, System.IO.MemoryMappedFiles.MemoryMappedFileOptions, HandleInheritability)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 271
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateNew(string mapName, long capacity, MemoryMappedFileAccess access, MemoryMappedFileOptions options, HandleInheritability inheritability)
+    content.vb: Public Shared Function CreateNew(mapName As String, capacity As Long, access As MemoryMappedFileAccess, options As MemoryMappedFileOptions, inheritability As HandleInheritability) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    - id: options
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileOptions
+    - id: inheritability
+      type: HandleInheritability
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64)
+  id: CreateOrOpen(System.String,System.Int64)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateOrOpen(String, Int64)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 320
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateOrOpen(string mapName, long capacity)
+    content.vb: Public Shared Function CreateOrOpen(mapName As String, capacity As Long) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  id: CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateOrOpen(String, Int64, MemoryMappedFileAccess)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 326
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateOrOpen(string mapName, long capacity, MemoryMappedFileAccess access)
+    content.vb: Public Shared Function CreateOrOpen(mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
+  id: CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,HandleInheritability)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateOrOpen(String, Int64, MemoryMappedFileAccess, MemoryMappedFileOptions, HandleInheritability)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateOrOpen(System.String, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess, System.IO.MemoryMappedFiles.MemoryMappedFileOptions, HandleInheritability)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 332
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public static MemoryMappedFile CreateOrOpen(string mapName, long capacity, MemoryMappedFileAccess access, MemoryMappedFileOptions options, HandleInheritability inheritability)
+    content.vb: Public Shared Function CreateOrOpen(mapName As String, capacity As Long, access As MemoryMappedFileAccess, options As MemoryMappedFileOptions, inheritability As HandleInheritability) As MemoryMappedFile
+    parameters:
+    - id: mapName
+      type: System.String
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    - id: options
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileOptions
+    - id: inheritability
+      type: HandleInheritability
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedFile
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream
+  id: CreateViewStream
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateViewStream()
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 387
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public MemoryMappedViewStream CreateViewStream()
+    content.vb: Public Function CreateViewStream As MemoryMappedViewStream
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64)
+  id: CreateViewStream(System.Int64,System.Int64)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateViewStream(Int64, Int64)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 392
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public MemoryMappedViewStream CreateViewStream(long offset, long size)
+    content.vb: Public Function CreateViewStream(offset As Long, size As Long) As MemoryMappedViewStream
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: size
+      type: System.Int64
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  id: CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateViewStream(Int64, Int64, MemoryMappedFileAccess)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewStream(System.Int64, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 397
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public MemoryMappedViewStream CreateViewStream(long offset, long size, MemoryMappedFileAccess access)
+    content.vb: Public Function CreateViewStream(offset As Long, size As Long, access As MemoryMappedFileAccess) As MemoryMappedViewStream
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: size
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor
+  id: CreateViewAccessor
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateViewAccessor()
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 425
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public MemoryMappedViewAccessor CreateViewAccessor()
+    content.vb: Public Function CreateViewAccessor As MemoryMappedViewAccessor
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64)
+  id: CreateViewAccessor(System.Int64,System.Int64)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateViewAccessor(Int64, Int64)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 430
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public MemoryMappedViewAccessor CreateViewAccessor(long offset, long size)
+    content.vb: Public Function CreateViewAccessor(offset As Long, size As Long) As MemoryMappedViewAccessor
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: size
+      type: System.Int64
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  id: CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: CreateViewAccessor(Int64, Int64, MemoryMappedFileAccess)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.CreateViewAccessor(System.Int64, System.Int64, System.IO.MemoryMappedFiles.MemoryMappedFileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 435
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public MemoryMappedViewAccessor CreateViewAccessor(long offset, long size, MemoryMappedFileAccess access)
+    content.vb: Public Function CreateViewAccessor(offset As Long, size As Long, access As MemoryMappedFileAccess) As MemoryMappedViewAccessor
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: size
+      type: System.Int64
+    - id: access
+      type: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+    return:
+      type: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose
+  id: Dispose
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: Dispose()
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 462
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: Dispose(Boolean)
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 468
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile.SafeMemoryMappedFileHandle
+  id: SafeMemoryMappedFileHandle
+  parent: System.IO.MemoryMappedFiles.MemoryMappedFile
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: SafeMemoryMappedFileHandle
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile.SafeMemoryMappedFileHandle
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.MemoryMappedFiles/src/System/IO/MemoryMappedFiles/MemoryMappedFile.cs
+    startLine: 487
+  assemblies:
+  - System.IO.MemoryMappedFiles
+  namespace: System.IO.MemoryMappedFiles
+  syntax:
+    content: public SafeMemoryMappedFileHandle SafeMemoryMappedFileHandle { get; }
+    content.vb: Public ReadOnly Property SafeMemoryMappedFileHandle As SafeMemoryMappedFileHandle
+    parameters: []
+    return:
+      type: Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle
+references:
+- uid: System.IO.MemoryMappedFiles
+  isExternal: false
+  name: System.IO.MemoryMappedFiles
+  fullName: System.IO.MemoryMappedFiles
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFile
+  parent: System.IO.MemoryMappedFiles
+  isExternal: false
+  href: System.IO.MemoryMappedFiles.MemoryMappedFile.yml
+  name: MemoryMappedFile
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFile
+  type: Class
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFileRights
+  parent: System.IO.MemoryMappedFiles
+  isExternal: false
+  href: System.IO.MemoryMappedFiles.MemoryMappedFileRights.yml
+  name: MemoryMappedFileRights
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFileRights
+  type: Enum
+- uid: HandleInheritability
+  isExternal: true
+  name: HandleInheritability
+  fullName: HandleInheritability
+- uid: System.IO.FileMode
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileMode.yml
+  name: FileMode
+  fullName: System.IO.FileMode
+  type: Enum
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  fullName: System.Int64
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+  parent: System.IO.MemoryMappedFiles
+  isExternal: false
+  href: System.IO.MemoryMappedFiles.MemoryMappedFileAccess.yml
+  name: MemoryMappedFileAccess
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFileAccess
+  type: Enum
+- uid: System.IO.FileStream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileStream.yml
+  name: FileStream
+  fullName: System.IO.FileStream
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.IO.MemoryMappedFiles.MemoryMappedFileOptions
+  parent: System.IO.MemoryMappedFiles
+  isExternal: false
+  href: System.IO.MemoryMappedFiles.MemoryMappedFileOptions.yml
+  name: MemoryMappedFileOptions
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedFileOptions
+  type: Enum
+- uid: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+  parent: System.IO.MemoryMappedFiles
+  isExternal: false
+  href: System.IO.MemoryMappedFiles.MemoryMappedViewStream.yml
+  name: MemoryMappedViewStream
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedViewStream
+  type: Class
+- uid: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+  parent: System.IO.MemoryMappedFiles
+  isExternal: false
+  href: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor.yml
+  name: MemoryMappedViewAccessor
+  fullName: System.IO.MemoryMappedFiles.MemoryMappedViewAccessor
+  type: Class
+- uid: Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle
+  parent: Microsoft.Win32.SafeHandles
+  isExternal: false
+  href: Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle.yml
+  name: SafeMemoryMappedFileHandle
+  fullName: Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle
+  type: Class
+- uid: Microsoft.Win32.SafeHandles
+  isExternal: false
+  name: Microsoft.Win32.SafeHandles
+  fullName: Microsoft.Win32.SafeHandles
+  type: Namespace

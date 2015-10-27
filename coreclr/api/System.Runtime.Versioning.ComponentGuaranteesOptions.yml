@@ -1,0 +1,97 @@
+items:
+- uid: System.Runtime.Versioning.ComponentGuaranteesOptions
+  id: ComponentGuaranteesOptions
+  parent: System.Runtime.Versioning
+  children:
+  - System.Runtime.Versioning.ComponentGuaranteesOptions.Exchange
+  - System.Runtime.Versioning.ComponentGuaranteesOptions.None
+  - System.Runtime.Versioning.ComponentGuaranteesOptions.SideBySide
+  - System.Runtime.Versioning.ComponentGuaranteesOptions.Stable
+  href: System.Runtime.Versioning.ComponentGuaranteesOptions.yml
+  name: ComponentGuaranteesOptions
+  fullName: System.Runtime.Versioning.ComponentGuaranteesOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/Versioning/ComponentGuaranteesAttribute.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/Versioning/ComponentGuaranteesAttribute.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: public enum ComponentGuaranteesOptions
+    content.vb: Public Enum ComponentGuaranteesOptions
+- uid: System.Runtime.Versioning.ComponentGuaranteesOptions.None
+  id: None
+  parent: System.Runtime.Versioning.ComponentGuaranteesOptions
+  href: System.Runtime.Versioning.ComponentGuaranteesOptions.yml
+  name: None
+  fullName: System.Runtime.Versioning.ComponentGuaranteesOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ComponentGuaranteesAttribute.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: None = 0
+- uid: System.Runtime.Versioning.ComponentGuaranteesOptions.Exchange
+  id: Exchange
+  parent: System.Runtime.Versioning.ComponentGuaranteesOptions
+  href: System.Runtime.Versioning.ComponentGuaranteesOptions.yml
+  name: Exchange
+  fullName: System.Runtime.Versioning.ComponentGuaranteesOptions.Exchange
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ComponentGuaranteesAttribute.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Exchange = 1
+- uid: System.Runtime.Versioning.ComponentGuaranteesOptions.Stable
+  id: Stable
+  parent: System.Runtime.Versioning.ComponentGuaranteesOptions
+  href: System.Runtime.Versioning.ComponentGuaranteesOptions.yml
+  name: Stable
+  fullName: System.Runtime.Versioning.ComponentGuaranteesOptions.Stable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ComponentGuaranteesAttribute.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Stable = 2
+- uid: System.Runtime.Versioning.ComponentGuaranteesOptions.SideBySide
+  id: SideBySide
+  parent: System.Runtime.Versioning.ComponentGuaranteesOptions
+  href: System.Runtime.Versioning.ComponentGuaranteesOptions.yml
+  name: SideBySide
+  fullName: System.Runtime.Versioning.ComponentGuaranteesOptions.SideBySide
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ComponentGuaranteesAttribute.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: SideBySide = 4
+references:
+- uid: System.Runtime.Versioning
+  isExternal: false
+  name: System.Runtime.Versioning
+  fullName: System.Runtime.Versioning
+  type: Namespace

@@ -1,0 +1,3939 @@
+- uid: Microsoft.Win32
+  name: Microsoft.Win32
+  href: api/Microsoft.Win32.yml
+  items:
+  - uid: Microsoft.Win32.Registry
+    name: Registry
+    href: api/Microsoft.Win32.Registry.yml
+  - uid: Microsoft.Win32.RegistryHive
+    name: RegistryHive
+    href: api/Microsoft.Win32.RegistryHive.yml
+  - uid: Microsoft.Win32.RegistryKey
+    name: RegistryKey
+    href: api/Microsoft.Win32.RegistryKey.yml
+  - uid: Microsoft.Win32.RegistryKeyPermissionCheck
+    name: RegistryKeyPermissionCheck
+    href: api/Microsoft.Win32.RegistryKeyPermissionCheck.yml
+  - uid: Microsoft.Win32.RegistryOptions
+    name: RegistryOptions
+    href: api/Microsoft.Win32.RegistryOptions.yml
+  - uid: Microsoft.Win32.RegistryValueKind
+    name: RegistryValueKind
+    href: api/Microsoft.Win32.RegistryValueKind.yml
+  - uid: Microsoft.Win32.RegistryValueOptions
+    name: RegistryValueOptions
+    href: api/Microsoft.Win32.RegistryValueOptions.yml
+  - uid: Microsoft.Win32.RegistryView
+    name: RegistryView
+    href: api/Microsoft.Win32.RegistryView.yml
+- uid: Microsoft.Win32.SafeHandles
+  name: Microsoft.Win32.SafeHandles
+  href: api/Microsoft.Win32.SafeHandles.yml
+  items:
+  - uid: Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid
+    name: CriticalHandleMinusOneIsInvalid
+    href: api/Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid.yml
+  - uid: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid
+    name: CriticalHandleZeroOrMinusOneIsInvalid
+    href: api/Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid.yml
+  - uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
+    name: SafeAccessTokenHandle
+    href: api/Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.yml
+  - uid: Microsoft.Win32.SafeHandles.SafeFileHandle
+    name: SafeFileHandle
+    href: api/Microsoft.Win32.SafeHandles.SafeFileHandle.yml
+  - uid: Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid
+    name: SafeHandleMinusOneIsInvalid
+    href: api/Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid.yml
+  - uid: Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
+    name: SafeHandleZeroOrMinusOneIsInvalid
+    href: api/Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid.yml
+  - uid: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+    name: SafeRegistryHandle
+    href: api/Microsoft.Win32.SafeHandles.SafeRegistryHandle.yml
+  - uid: Microsoft.Win32.SafeHandles.SafeWaitHandle
+    name: SafeWaitHandle
+    href: api/Microsoft.Win32.SafeHandles.SafeWaitHandle.yml
+- uid: System
+  name: System
+  href: api/System.yml
+  items:
+  - uid: System._AppDomain
+    name: _AppDomain
+    href: api/System._AppDomain.yml
+  - uid: System.AccessViolationException
+    name: AccessViolationException
+    href: api/System.AccessViolationException.yml
+  - uid: System.Action
+    name: Action
+    href: api/System.Action.yml
+  - uid: System.Action`1
+    name: Action<T>
+    name.vb: Action(Of T)
+    href: api/System.Action`1.yml
+  - uid: System.Action`8
+    name: Action<T1, T2, T3, T4, T5, T6, T7, T8>
+    name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8)
+    href: api/System.Action`8.yml
+  - uid: System.Action`7
+    name: Action<T1, T2, T3, T4, T5, T6, T7>
+    name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7)
+    href: api/System.Action`7.yml
+  - uid: System.Action`6
+    name: Action<T1, T2, T3, T4, T5, T6>
+    name.vb: Action(Of T1, T2, T3, T4, T5, T6)
+    href: api/System.Action`6.yml
+  - uid: System.Action`5
+    name: Action<T1, T2, T3, T4, T5>
+    name.vb: Action(Of T1, T2, T3, T4, T5)
+    href: api/System.Action`5.yml
+  - uid: System.Action`4
+    name: Action<T1, T2, T3, T4>
+    name.vb: Action(Of T1, T2, T3, T4)
+    href: api/System.Action`4.yml
+  - uid: System.Action`3
+    name: Action<T1, T2, T3>
+    name.vb: Action(Of T1, T2, T3)
+    href: api/System.Action`3.yml
+  - uid: System.Action`2
+    name: Action<T1, T2>
+    name.vb: Action(Of T1, T2)
+    href: api/System.Action`2.yml
+  - uid: System.Activator
+    name: Activator
+    href: api/System.Activator.yml
+  - uid: System.AggregateException
+    name: AggregateException
+    href: api/System.AggregateException.yml
+  - uid: System.AppContext
+    name: AppContext
+    href: api/System.AppContext.yml
+  - uid: System.AppDomain
+    name: AppDomain
+    href: api/System.AppDomain.yml
+  - uid: System.AppDomainInitializer
+    name: AppDomainInitializer
+    href: api/System.AppDomainInitializer.yml
+  - uid: System.AppDomainManager
+    name: AppDomainManager
+    href: api/System.AppDomainManager.yml
+  - uid: System.AppDomainPauseManager
+    name: AppDomainPauseManager
+    href: api/System.AppDomainPauseManager.yml
+  - uid: System.AppDomainSetup
+    name: AppDomainSetup
+    href: api/System.AppDomainSetup.yml
+  - uid: System.AppDomainUnloadedException
+    name: AppDomainUnloadedException
+    href: api/System.AppDomainUnloadedException.yml
+  - uid: System.ApplicationException
+    name: ApplicationException
+    href: api/System.ApplicationException.yml
+  - uid: System.ApplicationId
+    name: ApplicationId
+    href: api/System.ApplicationId.yml
+  - uid: System.ArgIterator
+    name: ArgIterator
+    href: api/System.ArgIterator.yml
+  - uid: System.ArgumentException
+    name: ArgumentException
+    href: api/System.ArgumentException.yml
+  - uid: System.ArgumentNullException
+    name: ArgumentNullException
+    href: api/System.ArgumentNullException.yml
+  - uid: System.ArgumentOutOfRangeException
+    name: ArgumentOutOfRangeException
+    href: api/System.ArgumentOutOfRangeException.yml
+  - uid: System.ArithmeticException
+    name: ArithmeticException
+    href: api/System.ArithmeticException.yml
+  - uid: System.Array
+    name: Array
+    href: api/System.Array.yml
+  - uid: System.ArraySegment`1
+    name: ArraySegment<T>
+    name.vb: ArraySegment(Of T)
+    href: api/System.ArraySegment`1.yml
+  - uid: System.ArrayTypeMismatchException
+    name: ArrayTypeMismatchException
+    href: api/System.ArrayTypeMismatchException.yml
+  - uid: System.AssemblyLoadEventArgs
+    name: AssemblyLoadEventArgs
+    href: api/System.AssemblyLoadEventArgs.yml
+  - uid: System.AssemblyLoadEventHandler
+    name: AssemblyLoadEventHandler
+    href: api/System.AssemblyLoadEventHandler.yml
+  - uid: System.AsyncCallback
+    name: AsyncCallback
+    href: api/System.AsyncCallback.yml
+  - uid: System.Attribute
+    name: Attribute
+    href: api/System.Attribute.yml
+  - uid: System.AttributeTargets
+    name: AttributeTargets
+    href: api/System.AttributeTargets.yml
+  - uid: System.AttributeUsageAttribute
+    name: AttributeUsageAttribute
+    href: api/System.AttributeUsageAttribute.yml
+  - uid: System.BadImageFormatException
+    name: BadImageFormatException
+    href: api/System.BadImageFormatException.yml
+  - uid: System.Base64FormattingOptions
+    name: Base64FormattingOptions
+    href: api/System.Base64FormattingOptions.yml
+  - uid: System.BitConverter
+    name: BitConverter
+    href: api/System.BitConverter.yml
+  - uid: System.Boolean
+    name: Boolean
+    href: api/System.Boolean.yml
+  - uid: System.Buffer
+    name: Buffer
+    href: api/System.Buffer.yml
+  - uid: System.Byte
+    name: Byte
+    href: api/System.Byte.yml
+  - uid: System.CannotUnloadAppDomainException
+    name: CannotUnloadAppDomainException
+    href: api/System.CannotUnloadAppDomainException.yml
+  - uid: System.Char
+    name: Char
+    href: api/System.Char.yml
+  - uid: System.CharEnumerator
+    name: CharEnumerator
+    href: api/System.CharEnumerator.yml
+  - uid: System.CLSCompliantAttribute
+    name: CLSCompliantAttribute
+    href: api/System.CLSCompliantAttribute.yml
+  - uid: System.Comparison`1
+    name: Comparison<T>
+    name.vb: Comparison(Of T)
+    href: api/System.Comparison`1.yml
+  - uid: System.Console
+    name: Console
+    href: api/System.Console.yml
+  - uid: System.ConsoleCancelEventArgs
+    name: ConsoleCancelEventArgs
+    href: api/System.ConsoleCancelEventArgs.yml
+  - uid: System.ConsoleCancelEventHandler
+    name: ConsoleCancelEventHandler
+    href: api/System.ConsoleCancelEventHandler.yml
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    href: api/System.ConsoleColor.yml
+  - uid: System.ConsoleKey
+    name: ConsoleKey
+    href: api/System.ConsoleKey.yml
+  - uid: System.ConsoleKeyInfo
+    name: ConsoleKeyInfo
+    href: api/System.ConsoleKeyInfo.yml
+  - uid: System.ConsoleModifiers
+    name: ConsoleModifiers
+    href: api/System.ConsoleModifiers.yml
+  - uid: System.ConsoleSpecialKey
+    name: ConsoleSpecialKey
+    href: api/System.ConsoleSpecialKey.yml
+  - uid: System.ContextBoundObject
+    name: ContextBoundObject
+    href: api/System.ContextBoundObject.yml
+  - uid: System.ContextMarshalException
+    name: ContextMarshalException
+    href: api/System.ContextMarshalException.yml
+  - uid: System.ContextStaticAttribute
+    name: ContextStaticAttribute
+    href: api/System.ContextStaticAttribute.yml
+  - uid: System.Convert
+    name: Convert
+    href: api/System.Convert.yml
+  - uid: System.Converter`2
+    name: Converter<TInput, TOutput>
+    name.vb: Converter(Of TInput, TOutput)
+    href: api/System.Converter`2.yml
+  - uid: System.DataMisalignedException
+    name: DataMisalignedException
+    href: api/System.DataMisalignedException.yml
+  - uid: System.DateTime
+    name: DateTime
+    href: api/System.DateTime.yml
+  - uid: System.DateTimeKind
+    name: DateTimeKind
+    href: api/System.DateTimeKind.yml
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    href: api/System.DateTimeOffset.yml
+  - uid: System.DayOfWeek
+    name: DayOfWeek
+    href: api/System.DayOfWeek.yml
+  - uid: System.DBNull
+    name: DBNull
+    href: api/System.DBNull.yml
+  - uid: System.Decimal
+    name: Decimal
+    href: api/System.Decimal.yml
+  - uid: System.Delegate
+    name: Delegate
+    href: api/System.Delegate.yml
+  - uid: System.DivideByZeroException
+    name: DivideByZeroException
+    href: api/System.DivideByZeroException.yml
+  - uid: System.DllNotFoundException
+    name: DllNotFoundException
+    href: api/System.DllNotFoundException.yml
+  - uid: System.Double
+    name: Double
+    href: api/System.Double.yml
+  - uid: System.DuplicateWaitObjectException
+    name: DuplicateWaitObjectException
+    href: api/System.DuplicateWaitObjectException.yml
+  - uid: System.EntryPointNotFoundException
+    name: EntryPointNotFoundException
+    href: api/System.EntryPointNotFoundException.yml
+  - uid: System.Enum
+    name: Enum
+    href: api/System.Enum.yml
+  - uid: System.Environment
+    name: Environment
+    href: api/System.Environment.yml
+  - uid: System.Environment.SpecialFolder
+    name: Environment.SpecialFolder
+    href: api/System.Environment.SpecialFolder.yml
+  - uid: System.Environment.SpecialFolderOption
+    name: Environment.SpecialFolderOption
+    href: api/System.Environment.SpecialFolderOption.yml
+  - uid: System.EnvironmentVariableTarget
+    name: EnvironmentVariableTarget
+    href: api/System.EnvironmentVariableTarget.yml
+  - uid: System.EventArgs
+    name: EventArgs
+    href: api/System.EventArgs.yml
+  - uid: System.EventHandler
+    name: EventHandler
+    href: api/System.EventHandler.yml
+  - uid: System.EventHandler`1
+    name: EventHandler<TEventArgs>
+    name.vb: EventHandler(Of TEventArgs)
+    href: api/System.EventHandler`1.yml
+  - uid: System.Exception
+    name: Exception
+    href: api/System.Exception.yml
+  - uid: System.ExecutionEngineException
+    name: ExecutionEngineException
+    href: api/System.ExecutionEngineException.yml
+  - uid: System.FieldAccessException
+    name: FieldAccessException
+    href: api/System.FieldAccessException.yml
+  - uid: System.FlagsAttribute
+    name: FlagsAttribute
+    href: api/System.FlagsAttribute.yml
+  - uid: System.FormatException
+    name: FormatException
+    href: api/System.FormatException.yml
+  - uid: System.FormattableString
+    name: FormattableString
+    href: api/System.FormattableString.yml
+  - uid: System.Func`2
+    name: Func<T, TResult>
+    name.vb: Func(Of T, TResult)
+    href: api/System.Func`2.yml
+  - uid: System.Func`9
+    name: Func<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+    name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
+    href: api/System.Func`9.yml
+  - uid: System.Func`8
+    name: Func<T1, T2, T3, T4, T5, T6, T7, TResult>
+    name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+    href: api/System.Func`8.yml
+  - uid: System.Func`7
+    name: Func<T1, T2, T3, T4, T5, T6, TResult>
+    name.vb: Func(Of T1, T2, T3, T4, T5, T6, TResult)
+    href: api/System.Func`7.yml
+  - uid: System.Func`6
+    name: Func<T1, T2, T3, T4, T5, TResult>
+    name.vb: Func(Of T1, T2, T3, T4, T5, TResult)
+    href: api/System.Func`6.yml
+  - uid: System.Func`5
+    name: Func<T1, T2, T3, T4, TResult>
+    name.vb: Func(Of T1, T2, T3, T4, TResult)
+    href: api/System.Func`5.yml
+  - uid: System.Func`4
+    name: Func<T1, T2, T3, TResult>
+    name.vb: Func(Of T1, T2, T3, TResult)
+    href: api/System.Func`4.yml
+  - uid: System.Func`3
+    name: Func<T1, T2, TResult>
+    name.vb: Func(Of T1, T2, TResult)
+    href: api/System.Func`3.yml
+  - uid: System.Func`1
+    name: Func<TResult>
+    name.vb: Func(Of TResult)
+    href: api/System.Func`1.yml
+  - uid: System.GC
+    name: GC
+    href: api/System.GC.yml
+  - uid: System.GCCollectionMode
+    name: GCCollectionMode
+    href: api/System.GCCollectionMode.yml
+  - uid: System.GCNotificationStatus
+    name: GCNotificationStatus
+    href: api/System.GCNotificationStatus.yml
+  - uid: System.Guid
+    name: Guid
+    href: api/System.Guid.yml
+  - uid: System.IAppDomainPauseManager
+    name: IAppDomainPauseManager
+    href: api/System.IAppDomainPauseManager.yml
+  - uid: System.IAppDomainSetup
+    name: IAppDomainSetup
+    href: api/System.IAppDomainSetup.yml
+  - uid: System.IAsyncResult
+    name: IAsyncResult
+    href: api/System.IAsyncResult.yml
+  - uid: System.ICloneable
+    name: ICloneable
+    href: api/System.ICloneable.yml
+  - uid: System.IComparable
+    name: IComparable
+    href: api/System.IComparable.yml
+  - uid: System.IComparable`1
+    name: IComparable<T>
+    name.vb: IComparable(Of T)
+    href: api/System.IComparable`1.yml
+  - uid: System.IConvertible
+    name: IConvertible
+    href: api/System.IConvertible.yml
+  - uid: System.ICustomFormatter
+    name: ICustomFormatter
+    href: api/System.ICustomFormatter.yml
+  - uid: System.IDisposable
+    name: IDisposable
+    href: api/System.IDisposable.yml
+  - uid: System.IEquatable`1
+    name: IEquatable<T>
+    name.vb: IEquatable(Of T)
+    href: api/System.IEquatable`1.yml
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    href: api/System.IFormatProvider.yml
+  - uid: System.IFormattable
+    name: IFormattable
+    href: api/System.IFormattable.yml
+  - uid: System.IndexOutOfRangeException
+    name: IndexOutOfRangeException
+    href: api/System.IndexOutOfRangeException.yml
+  - uid: System.InsufficientExecutionStackException
+    name: InsufficientExecutionStackException
+    href: api/System.InsufficientExecutionStackException.yml
+  - uid: System.InsufficientMemoryException
+    name: InsufficientMemoryException
+    href: api/System.InsufficientMemoryException.yml
+  - uid: System.Int16
+    name: Int16
+    href: api/System.Int16.yml
+  - uid: System.Int32
+    name: Int32
+    href: api/System.Int32.yml
+  - uid: System.Int64
+    name: Int64
+    href: api/System.Int64.yml
+  - uid: System.IntPtr
+    name: IntPtr
+    href: api/System.IntPtr.yml
+  - uid: System.InvalidCastException
+    name: InvalidCastException
+    href: api/System.InvalidCastException.yml
+  - uid: System.InvalidOperationException
+    name: InvalidOperationException
+    href: api/System.InvalidOperationException.yml
+  - uid: System.InvalidProgramException
+    name: InvalidProgramException
+    href: api/System.InvalidProgramException.yml
+  - uid: System.InvalidTimeZoneException
+    name: InvalidTimeZoneException
+    href: api/System.InvalidTimeZoneException.yml
+  - uid: System.IObservable`1
+    name: IObservable<T>
+    name.vb: IObservable(Of T)
+    href: api/System.IObservable`1.yml
+  - uid: System.IObserver`1
+    name: IObserver<T>
+    name.vb: IObserver(Of T)
+    href: api/System.IObserver`1.yml
+  - uid: System.IProgress`1
+    name: IProgress<T>
+    name.vb: IProgress(Of T)
+    href: api/System.IProgress`1.yml
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    href: api/System.IServiceProvider.yml
+  - uid: System.Lazy`1
+    name: Lazy<T>
+    name.vb: Lazy(Of T)
+    href: api/System.Lazy`1.yml
+  - uid: System.LoaderOptimization
+    name: LoaderOptimization
+    href: api/System.LoaderOptimization.yml
+  - uid: System.LoaderOptimizationAttribute
+    name: LoaderOptimizationAttribute
+    href: api/System.LoaderOptimizationAttribute.yml
+  - uid: System.LocalDataStoreSlot
+    name: LocalDataStoreSlot
+    href: api/System.LocalDataStoreSlot.yml
+  - uid: System.MarshalByRefObject
+    name: MarshalByRefObject
+    href: api/System.MarshalByRefObject.yml
+  - uid: System.Math
+    name: Math
+    href: api/System.Math.yml
+  - uid: System.MemberAccessException
+    name: MemberAccessException
+    href: api/System.MemberAccessException.yml
+  - uid: System.MethodAccessException
+    name: MethodAccessException
+    href: api/System.MethodAccessException.yml
+  - uid: System.MidpointRounding
+    name: MidpointRounding
+    href: api/System.MidpointRounding.yml
+  - uid: System.MissingFieldException
+    name: MissingFieldException
+    href: api/System.MissingFieldException.yml
+  - uid: System.MissingMemberException
+    name: MissingMemberException
+    href: api/System.MissingMemberException.yml
+  - uid: System.MissingMethodException
+    name: MissingMethodException
+    href: api/System.MissingMethodException.yml
+  - uid: System.ModuleHandle
+    name: ModuleHandle
+    href: api/System.ModuleHandle.yml
+  - uid: System.MTAThreadAttribute
+    name: MTAThreadAttribute
+    href: api/System.MTAThreadAttribute.yml
+  - uid: System.MulticastDelegate
+    name: MulticastDelegate
+    href: api/System.MulticastDelegate.yml
+  - uid: System.MulticastNotSupportedException
+    name: MulticastNotSupportedException
+    href: api/System.MulticastNotSupportedException.yml
+  - uid: System.NonSerializedAttribute
+    name: NonSerializedAttribute
+    href: api/System.NonSerializedAttribute.yml
+  - uid: System.NotFiniteNumberException
+    name: NotFiniteNumberException
+    href: api/System.NotFiniteNumberException.yml
+  - uid: System.NotImplementedException
+    name: NotImplementedException
+    href: api/System.NotImplementedException.yml
+  - uid: System.NotSupportedException
+    name: NotSupportedException
+    href: api/System.NotSupportedException.yml
+  - uid: System.Nullable
+    name: Nullable
+    href: api/System.Nullable.yml
+  - uid: System.Nullable`1
+    name: Nullable<T>
+    name.vb: Nullable(Of T)
+    href: api/System.Nullable`1.yml
+  - uid: System.NullReferenceException
+    name: NullReferenceException
+    href: api/System.NullReferenceException.yml
+  - uid: System.Object
+    name: Object
+    href: api/System.Object.yml
+  - uid: System.ObjectDisposedException
+    name: ObjectDisposedException
+    href: api/System.ObjectDisposedException.yml
+  - uid: System.ObsoleteAttribute
+    name: ObsoleteAttribute
+    href: api/System.ObsoleteAttribute.yml
+  - uid: System.OperatingSystem
+    name: OperatingSystem
+    href: api/System.OperatingSystem.yml
+  - uid: System.OperationCanceledException
+    name: OperationCanceledException
+    href: api/System.OperationCanceledException.yml
+  - uid: System.OutOfMemoryException
+    name: OutOfMemoryException
+    href: api/System.OutOfMemoryException.yml
+  - uid: System.OverflowException
+    name: OverflowException
+    href: api/System.OverflowException.yml
+  - uid: System.ParamArrayAttribute
+    name: ParamArrayAttribute
+    href: api/System.ParamArrayAttribute.yml
+  - uid: System.PlatformID
+    name: PlatformID
+    href: api/System.PlatformID.yml
+  - uid: System.PlatformNotSupportedException
+    name: PlatformNotSupportedException
+    href: api/System.PlatformNotSupportedException.yml
+  - uid: System.Platforms
+    name: Platforms
+    href: api/System.Platforms.yml
+  - uid: System.Predicate`1
+    name: Predicate<T>
+    name.vb: Predicate(Of T)
+    href: api/System.Predicate`1.yml
+  - uid: System.Progress`1
+    name: Progress<T>
+    name.vb: Progress(Of T)
+    href: api/System.Progress`1.yml
+  - uid: System.Random
+    name: Random
+    href: api/System.Random.yml
+  - uid: System.RankException
+    name: RankException
+    href: api/System.RankException.yml
+  - uid: System.ResolveEventArgs
+    name: ResolveEventArgs
+    href: api/System.ResolveEventArgs.yml
+  - uid: System.ResolveEventHandler
+    name: ResolveEventHandler
+    href: api/System.ResolveEventHandler.yml
+  - uid: System.RuntimeArgumentHandle
+    name: RuntimeArgumentHandle
+    href: api/System.RuntimeArgumentHandle.yml
+  - uid: System.RuntimeFieldHandle
+    name: RuntimeFieldHandle
+    href: api/System.RuntimeFieldHandle.yml
+  - uid: System.RuntimeMethodHandle
+    name: RuntimeMethodHandle
+    href: api/System.RuntimeMethodHandle.yml
+  - uid: System.RuntimeTypeHandle
+    name: RuntimeTypeHandle
+    href: api/System.RuntimeTypeHandle.yml
+  - uid: System.SByte
+    name: SByte
+    href: api/System.SByte.yml
+  - uid: System.SerializableAttribute
+    name: SerializableAttribute
+    href: api/System.SerializableAttribute.yml
+  - uid: System.Single
+    name: Single
+    href: api/System.Single.yml
+  - uid: System.StackOverflowException
+    name: StackOverflowException
+    href: api/System.StackOverflowException.yml
+  - uid: System.STAThreadAttribute
+    name: STAThreadAttribute
+    href: api/System.STAThreadAttribute.yml
+  - uid: System.String
+    name: String
+    href: api/System.String.yml
+  - uid: System.StringComparer
+    name: StringComparer
+    href: api/System.StringComparer.yml
+  - uid: System.StringComparison
+    name: StringComparison
+    href: api/System.StringComparison.yml
+  - uid: System.StringSplitOptions
+    name: StringSplitOptions
+    href: api/System.StringSplitOptions.yml
+  - uid: System.SupportedPlatformsAttribute
+    name: SupportedPlatformsAttribute
+    href: api/System.SupportedPlatformsAttribute.yml
+  - uid: System.SystemException
+    name: SystemException
+    href: api/System.SystemException.yml
+  - uid: System.ThreadStaticAttribute
+    name: ThreadStaticAttribute
+    href: api/System.ThreadStaticAttribute.yml
+  - uid: System.TimeoutException
+    name: TimeoutException
+    href: api/System.TimeoutException.yml
+  - uid: System.TimeSpan
+    name: TimeSpan
+    href: api/System.TimeSpan.yml
+  - uid: System.TimeZoneInfo
+    name: TimeZoneInfo
+    href: api/System.TimeZoneInfo.yml
+  - uid: System.TimeZoneInfo.AdjustmentRule
+    name: TimeZoneInfo.AdjustmentRule
+    href: api/System.TimeZoneInfo.AdjustmentRule.yml
+  - uid: System.TimeZoneInfo.TransitionTime
+    name: TimeZoneInfo.TransitionTime
+    href: api/System.TimeZoneInfo.TransitionTime.yml
+  - uid: System.TimeZoneNotFoundException
+    name: TimeZoneNotFoundException
+    href: api/System.TimeZoneNotFoundException.yml
+  - uid: System.Tuple
+    name: Tuple
+    href: api/System.Tuple.yml
+  - uid: System.Tuple`8
+    name: Tuple<T1, T2, T3, T4, T5, T6, T7, TRest>
+    name.vb: Tuple(Of T1, T2, T3, T4, T5, T6, T7, TRest)
+    href: api/System.Tuple`8.yml
+  - uid: System.Tuple`7
+    name: Tuple<T1, T2, T3, T4, T5, T6, T7>
+    name.vb: Tuple(Of T1, T2, T3, T4, T5, T6, T7)
+    href: api/System.Tuple`7.yml
+  - uid: System.Tuple`6
+    name: Tuple<T1, T2, T3, T4, T5, T6>
+    name.vb: Tuple(Of T1, T2, T3, T4, T5, T6)
+    href: api/System.Tuple`6.yml
+  - uid: System.Tuple`5
+    name: Tuple<T1, T2, T3, T4, T5>
+    name.vb: Tuple(Of T1, T2, T3, T4, T5)
+    href: api/System.Tuple`5.yml
+  - uid: System.Tuple`4
+    name: Tuple<T1, T2, T3, T4>
+    name.vb: Tuple(Of T1, T2, T3, T4)
+    href: api/System.Tuple`4.yml
+  - uid: System.Tuple`3
+    name: Tuple<T1, T2, T3>
+    name.vb: Tuple(Of T1, T2, T3)
+    href: api/System.Tuple`3.yml
+  - uid: System.Tuple`2
+    name: Tuple<T1, T2>
+    name.vb: Tuple(Of T1, T2)
+    href: api/System.Tuple`2.yml
+  - uid: System.Tuple`1
+    name: Tuple<T1>
+    name.vb: Tuple(Of T1)
+    href: api/System.Tuple`1.yml
+  - uid: System.Type
+    name: Type
+    href: api/System.Type.yml
+  - uid: System.TypeAccessException
+    name: TypeAccessException
+    href: api/System.TypeAccessException.yml
+  - uid: System.TypeCode
+    name: TypeCode
+    href: api/System.TypeCode.yml
+  - uid: System.TypedReference
+    name: TypedReference
+    href: api/System.TypedReference.yml
+  - uid: System.TypeInitializationException
+    name: TypeInitializationException
+    href: api/System.TypeInitializationException.yml
+  - uid: System.TypeLoadException
+    name: TypeLoadException
+    href: api/System.TypeLoadException.yml
+  - uid: System.TypeUnloadedException
+    name: TypeUnloadedException
+    href: api/System.TypeUnloadedException.yml
+  - uid: System.UInt16
+    name: UInt16
+    href: api/System.UInt16.yml
+  - uid: System.UInt32
+    name: UInt32
+    href: api/System.UInt32.yml
+  - uid: System.UInt64
+    name: UInt64
+    href: api/System.UInt64.yml
+  - uid: System.UIntPtr
+    name: UIntPtr
+    href: api/System.UIntPtr.yml
+  - uid: System.UnauthorizedAccessException
+    name: UnauthorizedAccessException
+    href: api/System.UnauthorizedAccessException.yml
+  - uid: System.UnhandledExceptionEventArgs
+    name: UnhandledExceptionEventArgs
+    href: api/System.UnhandledExceptionEventArgs.yml
+  - uid: System.UnhandledExceptionEventHandler
+    name: UnhandledExceptionEventHandler
+    href: api/System.UnhandledExceptionEventHandler.yml
+  - uid: System.ValueType
+    name: ValueType
+    href: api/System.ValueType.yml
+  - uid: System.Version
+    name: Version
+    href: api/System.Version.yml
+  - uid: System.Void
+    name: Void
+    href: api/System.Void.yml
+  - uid: System.WeakReference
+    name: WeakReference
+    href: api/System.WeakReference.yml
+  - uid: System.WeakReference`1
+    name: WeakReference<T>
+    name.vb: WeakReference(Of T)
+    href: api/System.WeakReference`1.yml
+- uid: System.Collections
+  name: System.Collections
+  href: api/System.Collections.yml
+  items:
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    href: api/System.Collections.ArrayList.yml
+  - uid: System.Collections.BitArray
+    name: BitArray
+    href: api/System.Collections.BitArray.yml
+  - uid: System.Collections.CollectionBase
+    name: CollectionBase
+    href: api/System.Collections.CollectionBase.yml
+  - uid: System.Collections.Comparer
+    name: Comparer
+    href: api/System.Collections.Comparer.yml
+  - uid: System.Collections.DictionaryEntry
+    name: DictionaryEntry
+    href: api/System.Collections.DictionaryEntry.yml
+  - uid: System.Collections.Hashtable
+    name: Hashtable
+    href: api/System.Collections.Hashtable.yml
+  - uid: System.Collections.ICollection
+    name: ICollection
+    href: api/System.Collections.ICollection.yml
+  - uid: System.Collections.IComparer
+    name: IComparer
+    href: api/System.Collections.IComparer.yml
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    href: api/System.Collections.IDictionary.yml
+  - uid: System.Collections.IDictionaryEnumerator
+    name: IDictionaryEnumerator
+    href: api/System.Collections.IDictionaryEnumerator.yml
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    href: api/System.Collections.IEnumerable.yml
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    href: api/System.Collections.IEnumerator.yml
+  - uid: System.Collections.IEqualityComparer
+    name: IEqualityComparer
+    href: api/System.Collections.IEqualityComparer.yml
+  - uid: System.Collections.IHashCodeProvider
+    name: IHashCodeProvider
+    href: api/System.Collections.IHashCodeProvider.yml
+  - uid: System.Collections.IList
+    name: IList
+    href: api/System.Collections.IList.yml
+  - uid: System.Collections.IStructuralComparable
+    name: IStructuralComparable
+    href: api/System.Collections.IStructuralComparable.yml
+  - uid: System.Collections.IStructuralEquatable
+    name: IStructuralEquatable
+    href: api/System.Collections.IStructuralEquatable.yml
+  - uid: System.Collections.SortedList
+    name: SortedList
+    href: api/System.Collections.SortedList.yml
+  - uid: System.Collections.Stack
+    name: Stack
+    href: api/System.Collections.Stack.yml
+  - uid: System.Collections.StructuralComparisons
+    name: StructuralComparisons
+    href: api/System.Collections.StructuralComparisons.yml
+- uid: System.Collections.Concurrent
+  name: System.Collections.Concurrent
+  href: api/System.Collections.Concurrent.yml
+  items:
+  - uid: System.Collections.Concurrent.ConcurrentDictionary`2
+    name: ConcurrentDictionary<TKey, TValue>
+    name.vb: ConcurrentDictionary(Of TKey, TValue)
+    href: api/System.Collections.Concurrent.ConcurrentDictionary`2.yml
+  - uid: System.Collections.Concurrent.ConcurrentQueue`1
+    name: ConcurrentQueue<T>
+    name.vb: ConcurrentQueue(Of T)
+    href: api/System.Collections.Concurrent.ConcurrentQueue`1.yml
+  - uid: System.Collections.Concurrent.ConcurrentStack`1
+    name: ConcurrentStack<T>
+    name.vb: ConcurrentStack(Of T)
+    href: api/System.Collections.Concurrent.ConcurrentStack`1.yml
+  - uid: System.Collections.Concurrent.EnumerablePartitionerOptions
+    name: EnumerablePartitionerOptions
+    href: api/System.Collections.Concurrent.EnumerablePartitionerOptions.yml
+  - uid: System.Collections.Concurrent.IProducerConsumerCollection`1
+    name: IProducerConsumerCollection<T>
+    name.vb: IProducerConsumerCollection(Of T)
+    href: api/System.Collections.Concurrent.IProducerConsumerCollection`1.yml
+  - uid: System.Collections.Concurrent.OrderablePartitioner`1
+    name: OrderablePartitioner<TSource>
+    name.vb: OrderablePartitioner(Of TSource)
+    href: api/System.Collections.Concurrent.OrderablePartitioner`1.yml
+  - uid: System.Collections.Concurrent.Partitioner
+    name: Partitioner
+    href: api/System.Collections.Concurrent.Partitioner.yml
+  - uid: System.Collections.Concurrent.Partitioner`1
+    name: Partitioner<TSource>
+    name.vb: Partitioner(Of TSource)
+    href: api/System.Collections.Concurrent.Partitioner`1.yml
+- uid: System.Collections.Generic
+  name: System.Collections.Generic
+  href: api/System.Collections.Generic.yml
+  items:
+  - uid: System.Collections.Generic.Comparer`1
+    name: Comparer<T>
+    name.vb: Comparer(Of T)
+    href: api/System.Collections.Generic.Comparer`1.yml
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary<TKey, TValue>
+    name.vb: Dictionary(Of TKey, TValue)
+    href: api/System.Collections.Generic.Dictionary`2.yml
+  - uid: System.Collections.Generic.Dictionary`2.Enumerator
+    name: Dictionary<TKey, TValue>.Enumerator
+    name.vb: Dictionary(Of TKey, TValue).Enumerator
+    href: api/System.Collections.Generic.Dictionary`2.Enumerator.yml
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary<TKey, TValue>.KeyCollection
+    name.vb: Dictionary(Of TKey, TValue).KeyCollection
+    href: api/System.Collections.Generic.Dictionary`2.KeyCollection.yml
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator
+    name: Dictionary<TKey, TValue>.KeyCollection.Enumerator
+    name.vb: Dictionary(Of TKey, TValue).KeyCollection.Enumerator
+    href: api/System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.yml
+  - uid: System.Collections.Generic.Dictionary`2.ValueCollection
+    name: Dictionary<TKey, TValue>.ValueCollection
+    name.vb: Dictionary(Of TKey, TValue).ValueCollection
+    href: api/System.Collections.Generic.Dictionary`2.ValueCollection.yml
+  - uid: System.Collections.Generic.Dictionary`2.ValueCollection.Enumerator
+    name: Dictionary<TKey, TValue>.ValueCollection.Enumerator
+    name.vb: Dictionary(Of TKey, TValue).ValueCollection.Enumerator
+    href: api/System.Collections.Generic.Dictionary`2.ValueCollection.Enumerator.yml
+  - uid: System.Collections.Generic.EqualityComparer`1
+    name: EqualityComparer<T>
+    name.vb: EqualityComparer(Of T)
+    href: api/System.Collections.Generic.EqualityComparer`1.yml
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection<T>
+    name.vb: ICollection(Of T)
+    href: api/System.Collections.Generic.ICollection`1.yml
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer<T>
+    name.vb: IComparer(Of T)
+    href: api/System.Collections.Generic.IComparer`1.yml
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary<TKey, TValue>
+    name.vb: IDictionary(Of TKey, TValue)
+    href: api/System.Collections.Generic.IDictionary`2.yml
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable<T>
+    name.vb: IEnumerable(Of T)
+    href: api/System.Collections.Generic.IEnumerable`1.yml
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator<T>
+    name.vb: IEnumerator(Of T)
+    href: api/System.Collections.Generic.IEnumerator`1.yml
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer<T>
+    name.vb: IEqualityComparer(Of T)
+    href: api/System.Collections.Generic.IEqualityComparer`1.yml
+  - uid: System.Collections.Generic.IList`1
+    name: IList<T>
+    name.vb: IList(Of T)
+    href: api/System.Collections.Generic.IList`1.yml
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection<T>
+    name.vb: IReadOnlyCollection(Of T)
+    href: api/System.Collections.Generic.IReadOnlyCollection`1.yml
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary<TKey, TValue>
+    name.vb: IReadOnlyDictionary(Of TKey, TValue)
+    href: api/System.Collections.Generic.IReadOnlyDictionary`2.yml
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList<T>
+    name.vb: IReadOnlyList(Of T)
+    href: api/System.Collections.Generic.IReadOnlyList`1.yml
+  - uid: System.Collections.Generic.KeyNotFoundException
+    name: KeyNotFoundException
+    href: api/System.Collections.Generic.KeyNotFoundException.yml
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair<TKey, TValue>
+    name.vb: KeyValuePair(Of TKey, TValue)
+    href: api/System.Collections.Generic.KeyValuePair`2.yml
+  - uid: System.Collections.Generic.List`1
+    name: List<T>
+    name.vb: List(Of T)
+    href: api/System.Collections.Generic.List`1.yml
+  - uid: System.Collections.Generic.List`1.Enumerator
+    name: List<T>.Enumerator
+    name.vb: List(Of T).Enumerator
+    href: api/System.Collections.Generic.List`1.Enumerator.yml
+- uid: System.Collections.ObjectModel
+  name: System.Collections.ObjectModel
+  href: api/System.Collections.ObjectModel.yml
+  items:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection<T>
+    name.vb: Collection(Of T)
+    href: api/System.Collections.ObjectModel.Collection`1.yml
+  - uid: System.Collections.ObjectModel.KeyedCollection`2
+    name: KeyedCollection<TKey, TItem>
+    name.vb: KeyedCollection(Of TKey, TItem)
+    href: api/System.Collections.ObjectModel.KeyedCollection`2.yml
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection<T>
+    name.vb: ReadOnlyCollection(Of T)
+    href: api/System.Collections.ObjectModel.ReadOnlyCollection`1.yml
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary<TKey, TValue>
+    name.vb: ReadOnlyDictionary(Of TKey, TValue)
+    href: api/System.Collections.ObjectModel.ReadOnlyDictionary`2.yml
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
+    name: ReadOnlyDictionary<TKey, TValue>.KeyCollection
+    name.vb: ReadOnlyDictionary(Of TKey, TValue).KeyCollection
+    href: api/System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.yml
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
+    name: ReadOnlyDictionary<TKey, TValue>.ValueCollection
+    name.vb: ReadOnlyDictionary(Of TKey, TValue).ValueCollection
+    href: api/System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.yml
+- uid: System.Configuration.Assemblies
+  name: System.Configuration.Assemblies
+  href: api/System.Configuration.Assemblies.yml
+  items:
+  - uid: System.Configuration.Assemblies.AssemblyHash
+    name: AssemblyHash
+    href: api/System.Configuration.Assemblies.AssemblyHash.yml
+  - uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
+    name: AssemblyHashAlgorithm
+    href: api/System.Configuration.Assemblies.AssemblyHashAlgorithm.yml
+  - uid: System.Configuration.Assemblies.AssemblyVersionCompatibility
+    name: AssemblyVersionCompatibility
+    href: api/System.Configuration.Assemblies.AssemblyVersionCompatibility.yml
+- uid: System.Diagnostics
+  name: System.Diagnostics
+  href: api/System.Diagnostics.yml
+  items:
+  - uid: System.Diagnostics.ConditionalAttribute
+    name: ConditionalAttribute
+    href: api/System.Diagnostics.ConditionalAttribute.yml
+  - uid: System.Diagnostics.DebuggableAttribute
+    name: DebuggableAttribute
+    href: api/System.Diagnostics.DebuggableAttribute.yml
+  - uid: System.Diagnostics.DebuggableAttribute.DebuggingModes
+    name: DebuggableAttribute.DebuggingModes
+    href: api/System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  - uid: System.Diagnostics.Debugger
+    name: Debugger
+    href: api/System.Diagnostics.Debugger.yml
+  - uid: System.Diagnostics.DebuggerBrowsableAttribute
+    name: DebuggerBrowsableAttribute
+    href: api/System.Diagnostics.DebuggerBrowsableAttribute.yml
+  - uid: System.Diagnostics.DebuggerBrowsableState
+    name: DebuggerBrowsableState
+    href: api/System.Diagnostics.DebuggerBrowsableState.yml
+  - uid: System.Diagnostics.DebuggerDisplayAttribute
+    name: DebuggerDisplayAttribute
+    href: api/System.Diagnostics.DebuggerDisplayAttribute.yml
+  - uid: System.Diagnostics.DebuggerHiddenAttribute
+    name: DebuggerHiddenAttribute
+    href: api/System.Diagnostics.DebuggerHiddenAttribute.yml
+  - uid: System.Diagnostics.DebuggerNonUserCodeAttribute
+    name: DebuggerNonUserCodeAttribute
+    href: api/System.Diagnostics.DebuggerNonUserCodeAttribute.yml
+  - uid: System.Diagnostics.DebuggerStepperBoundaryAttribute
+    name: DebuggerStepperBoundaryAttribute
+    href: api/System.Diagnostics.DebuggerStepperBoundaryAttribute.yml
+  - uid: System.Diagnostics.DebuggerStepThroughAttribute
+    name: DebuggerStepThroughAttribute
+    href: api/System.Diagnostics.DebuggerStepThroughAttribute.yml
+  - uid: System.Diagnostics.DebuggerTypeProxyAttribute
+    name: DebuggerTypeProxyAttribute
+    href: api/System.Diagnostics.DebuggerTypeProxyAttribute.yml
+  - uid: System.Diagnostics.DebuggerVisualizerAttribute
+    name: DebuggerVisualizerAttribute
+    href: api/System.Diagnostics.DebuggerVisualizerAttribute.yml
+  - uid: System.Diagnostics.StackFrame
+    name: StackFrame
+    href: api/System.Diagnostics.StackFrame.yml
+  - uid: System.Diagnostics.StackTrace
+    name: StackTrace
+    href: api/System.Diagnostics.StackTrace.yml
+- uid: System.Diagnostics.CodeAnalysis
+  name: System.Diagnostics.CodeAnalysis
+  href: api/System.Diagnostics.CodeAnalysis.yml
+  items:
+  - uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+    name: SuppressMessageAttribute
+    href: api/System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.yml
+- uid: System.Diagnostics.Contracts
+  name: System.Diagnostics.Contracts
+  href: api/System.Diagnostics.Contracts.yml
+  items:
+  - uid: System.Diagnostics.Contracts.Contract
+    name: Contract
+    href: api/System.Diagnostics.Contracts.Contract.yml
+  - uid: System.Diagnostics.Contracts.ContractAbbreviatorAttribute
+    name: ContractAbbreviatorAttribute
+    href: api/System.Diagnostics.Contracts.ContractAbbreviatorAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractArgumentValidatorAttribute
+    name: ContractArgumentValidatorAttribute
+    href: api/System.Diagnostics.Contracts.ContractArgumentValidatorAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractClassAttribute
+    name: ContractClassAttribute
+    href: api/System.Diagnostics.Contracts.ContractClassAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractClassForAttribute
+    name: ContractClassForAttribute
+    href: api/System.Diagnostics.Contracts.ContractClassForAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractFailedEventArgs
+    name: ContractFailedEventArgs
+    href: api/System.Diagnostics.Contracts.ContractFailedEventArgs.yml
+  - uid: System.Diagnostics.Contracts.ContractFailureKind
+    name: ContractFailureKind
+    href: api/System.Diagnostics.Contracts.ContractFailureKind.yml
+  - uid: System.Diagnostics.Contracts.ContractInvariantMethodAttribute
+    name: ContractInvariantMethodAttribute
+    href: api/System.Diagnostics.Contracts.ContractInvariantMethodAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractOptionAttribute
+    name: ContractOptionAttribute
+    href: api/System.Diagnostics.Contracts.ContractOptionAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute
+    name: ContractPublicPropertyNameAttribute
+    href: api/System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute
+    name: ContractReferenceAssemblyAttribute
+    href: api/System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute
+    name: ContractRuntimeIgnoredAttribute
+    href: api/System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute.yml
+  - uid: System.Diagnostics.Contracts.ContractVerificationAttribute
+    name: ContractVerificationAttribute
+    href: api/System.Diagnostics.Contracts.ContractVerificationAttribute.yml
+  - uid: System.Diagnostics.Contracts.PureAttribute
+    name: PureAttribute
+    href: api/System.Diagnostics.Contracts.PureAttribute.yml
+- uid: System.Diagnostics.Contracts.Internal
+  name: System.Diagnostics.Contracts.Internal
+  href: api/System.Diagnostics.Contracts.Internal.yml
+  items:
+  - uid: System.Diagnostics.Contracts.Internal.ContractHelper
+    name: ContractHelper
+    href: api/System.Diagnostics.Contracts.Internal.ContractHelper.yml
+- uid: System.Diagnostics.SymbolStore
+  name: System.Diagnostics.SymbolStore
+  href: api/System.Diagnostics.SymbolStore.yml
+  items:
+  - uid: System.Diagnostics.SymbolStore.ISymbolBinder
+    name: ISymbolBinder
+    href: api/System.Diagnostics.SymbolStore.ISymbolBinder.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolBinder1
+    name: ISymbolBinder1
+    href: api/System.Diagnostics.SymbolStore.ISymbolBinder1.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolDocument
+    name: ISymbolDocument
+    href: api/System.Diagnostics.SymbolStore.ISymbolDocument.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
+    name: ISymbolDocumentWriter
+    href: api/System.Diagnostics.SymbolStore.ISymbolDocumentWriter.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolMethod
+    name: ISymbolMethod
+    href: api/System.Diagnostics.SymbolStore.ISymbolMethod.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolNamespace
+    name: ISymbolNamespace
+    href: api/System.Diagnostics.SymbolStore.ISymbolNamespace.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolReader
+    name: ISymbolReader
+    href: api/System.Diagnostics.SymbolStore.ISymbolReader.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolScope
+    name: ISymbolScope
+    href: api/System.Diagnostics.SymbolStore.ISymbolScope.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolVariable
+    name: ISymbolVariable
+    href: api/System.Diagnostics.SymbolStore.ISymbolVariable.yml
+  - uid: System.Diagnostics.SymbolStore.ISymbolWriter
+    name: ISymbolWriter
+    href: api/System.Diagnostics.SymbolStore.ISymbolWriter.yml
+  - uid: System.Diagnostics.SymbolStore.SymAddressKind
+    name: SymAddressKind
+    href: api/System.Diagnostics.SymbolStore.SymAddressKind.yml
+  - uid: System.Diagnostics.SymbolStore.SymbolToken
+    name: SymbolToken
+    href: api/System.Diagnostics.SymbolStore.SymbolToken.yml
+  - uid: System.Diagnostics.SymbolStore.SymDocumentType
+    name: SymDocumentType
+    href: api/System.Diagnostics.SymbolStore.SymDocumentType.yml
+  - uid: System.Diagnostics.SymbolStore.SymLanguageType
+    name: SymLanguageType
+    href: api/System.Diagnostics.SymbolStore.SymLanguageType.yml
+  - uid: System.Diagnostics.SymbolStore.SymLanguageVendor
+    name: SymLanguageVendor
+    href: api/System.Diagnostics.SymbolStore.SymLanguageVendor.yml
+- uid: System.Diagnostics.Tracing
+  name: System.Diagnostics.Tracing
+  href: api/System.Diagnostics.Tracing.yml
+  items:
+  - uid: System.Diagnostics.Tracing.EventActivityOptions
+    name: EventActivityOptions
+    href: api/System.Diagnostics.Tracing.EventActivityOptions.yml
+  - uid: System.Diagnostics.Tracing.EventAttribute
+    name: EventAttribute
+    href: api/System.Diagnostics.Tracing.EventAttribute.yml
+  - uid: System.Diagnostics.Tracing.EventChannel
+    name: EventChannel
+    href: api/System.Diagnostics.Tracing.EventChannel.yml
+  - uid: System.Diagnostics.Tracing.EventCommand
+    name: EventCommand
+    href: api/System.Diagnostics.Tracing.EventCommand.yml
+  - uid: System.Diagnostics.Tracing.EventCommandEventArgs
+    name: EventCommandEventArgs
+    href: api/System.Diagnostics.Tracing.EventCommandEventArgs.yml
+  - uid: System.Diagnostics.Tracing.EventDataAttribute
+    name: EventDataAttribute
+    href: api/System.Diagnostics.Tracing.EventDataAttribute.yml
+  - uid: System.Diagnostics.Tracing.EventFieldAttribute
+    name: EventFieldAttribute
+    href: api/System.Diagnostics.Tracing.EventFieldAttribute.yml
+  - uid: System.Diagnostics.Tracing.EventFieldFormat
+    name: EventFieldFormat
+    href: api/System.Diagnostics.Tracing.EventFieldFormat.yml
+  - uid: System.Diagnostics.Tracing.EventFieldTags
+    name: EventFieldTags
+    href: api/System.Diagnostics.Tracing.EventFieldTags.yml
+  - uid: System.Diagnostics.Tracing.EventIgnoreAttribute
+    name: EventIgnoreAttribute
+    href: api/System.Diagnostics.Tracing.EventIgnoreAttribute.yml
+  - uid: System.Diagnostics.Tracing.EventKeywords
+    name: EventKeywords
+    href: api/System.Diagnostics.Tracing.EventKeywords.yml
+  - uid: System.Diagnostics.Tracing.EventLevel
+    name: EventLevel
+    href: api/System.Diagnostics.Tracing.EventLevel.yml
+  - uid: System.Diagnostics.Tracing.EventListener
+    name: EventListener
+    href: api/System.Diagnostics.Tracing.EventListener.yml
+  - uid: System.Diagnostics.Tracing.EventManifestOptions
+    name: EventManifestOptions
+    href: api/System.Diagnostics.Tracing.EventManifestOptions.yml
+  - uid: System.Diagnostics.Tracing.EventOpcode
+    name: EventOpcode
+    href: api/System.Diagnostics.Tracing.EventOpcode.yml
+  - uid: System.Diagnostics.Tracing.EventSource
+    name: EventSource
+    href: api/System.Diagnostics.Tracing.EventSource.yml
+  - uid: System.Diagnostics.Tracing.EventSource.EventData
+    name: EventSource.EventData
+    href: api/System.Diagnostics.Tracing.EventSource.EventData.yml
+  - uid: System.Diagnostics.Tracing.EventSourceAttribute
+    name: EventSourceAttribute
+    href: api/System.Diagnostics.Tracing.EventSourceAttribute.yml
+  - uid: System.Diagnostics.Tracing.EventSourceException
+    name: EventSourceException
+    href: api/System.Diagnostics.Tracing.EventSourceException.yml
+  - uid: System.Diagnostics.Tracing.EventSourceOptions
+    name: EventSourceOptions
+    href: api/System.Diagnostics.Tracing.EventSourceOptions.yml
+  - uid: System.Diagnostics.Tracing.EventSourceSettings
+    name: EventSourceSettings
+    href: api/System.Diagnostics.Tracing.EventSourceSettings.yml
+  - uid: System.Diagnostics.Tracing.EventTags
+    name: EventTags
+    href: api/System.Diagnostics.Tracing.EventTags.yml
+  - uid: System.Diagnostics.Tracing.EventTask
+    name: EventTask
+    href: api/System.Diagnostics.Tracing.EventTask.yml
+  - uid: System.Diagnostics.Tracing.EventWrittenEventArgs
+    name: EventWrittenEventArgs
+    href: api/System.Diagnostics.Tracing.EventWrittenEventArgs.yml
+  - uid: System.Diagnostics.Tracing.NonEventAttribute
+    name: NonEventAttribute
+    href: api/System.Diagnostics.Tracing.NonEventAttribute.yml
+- uid: System.Globalization
+  name: System.Globalization
+  href: api/System.Globalization.yml
+  items:
+  - uid: System.Globalization.Calendar
+    name: Calendar
+    href: api/System.Globalization.Calendar.yml
+  - uid: System.Globalization.CalendarAlgorithmType
+    name: CalendarAlgorithmType
+    href: api/System.Globalization.CalendarAlgorithmType.yml
+  - uid: System.Globalization.CalendarWeekRule
+    name: CalendarWeekRule
+    href: api/System.Globalization.CalendarWeekRule.yml
+  - uid: System.Globalization.CharUnicodeInfo
+    name: CharUnicodeInfo
+    href: api/System.Globalization.CharUnicodeInfo.yml
+  - uid: System.Globalization.ChineseLunisolarCalendar
+    name: ChineseLunisolarCalendar
+    href: api/System.Globalization.ChineseLunisolarCalendar.yml
+  - uid: System.Globalization.CompareInfo
+    name: CompareInfo
+    href: api/System.Globalization.CompareInfo.yml
+  - uid: System.Globalization.CompareOptions
+    name: CompareOptions
+    href: api/System.Globalization.CompareOptions.yml
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    href: api/System.Globalization.CultureInfo.yml
+  - uid: System.Globalization.CultureNotFoundException
+    name: CultureNotFoundException
+    href: api/System.Globalization.CultureNotFoundException.yml
+  - uid: System.Globalization.CultureTypes
+    name: CultureTypes
+    href: api/System.Globalization.CultureTypes.yml
+  - uid: System.Globalization.DateTimeFormatInfo
+    name: DateTimeFormatInfo
+    href: api/System.Globalization.DateTimeFormatInfo.yml
+  - uid: System.Globalization.DateTimeStyles
+    name: DateTimeStyles
+    href: api/System.Globalization.DateTimeStyles.yml
+  - uid: System.Globalization.DaylightTime
+    name: DaylightTime
+    href: api/System.Globalization.DaylightTime.yml
+  - uid: System.Globalization.DigitShapes
+    name: DigitShapes
+    href: api/System.Globalization.DigitShapes.yml
+  - uid: System.Globalization.EastAsianLunisolarCalendar
+    name: EastAsianLunisolarCalendar
+    href: api/System.Globalization.EastAsianLunisolarCalendar.yml
+  - uid: System.Globalization.GregorianCalendar
+    name: GregorianCalendar
+    href: api/System.Globalization.GregorianCalendar.yml
+  - uid: System.Globalization.GregorianCalendarTypes
+    name: GregorianCalendarTypes
+    href: api/System.Globalization.GregorianCalendarTypes.yml
+  - uid: System.Globalization.HebrewCalendar
+    name: HebrewCalendar
+    href: api/System.Globalization.HebrewCalendar.yml
+  - uid: System.Globalization.HijriCalendar
+    name: HijriCalendar
+    href: api/System.Globalization.HijriCalendar.yml
+  - uid: System.Globalization.IdnMapping
+    name: IdnMapping
+    href: api/System.Globalization.IdnMapping.yml
+  - uid: System.Globalization.JapaneseCalendar
+    name: JapaneseCalendar
+    href: api/System.Globalization.JapaneseCalendar.yml
+  - uid: System.Globalization.JapaneseLunisolarCalendar
+    name: JapaneseLunisolarCalendar
+    href: api/System.Globalization.JapaneseLunisolarCalendar.yml
+  - uid: System.Globalization.JulianCalendar
+    name: JulianCalendar
+    href: api/System.Globalization.JulianCalendar.yml
+  - uid: System.Globalization.KoreanCalendar
+    name: KoreanCalendar
+    href: api/System.Globalization.KoreanCalendar.yml
+  - uid: System.Globalization.KoreanLunisolarCalendar
+    name: KoreanLunisolarCalendar
+    href: api/System.Globalization.KoreanLunisolarCalendar.yml
+  - uid: System.Globalization.NumberFormatInfo
+    name: NumberFormatInfo
+    href: api/System.Globalization.NumberFormatInfo.yml
+  - uid: System.Globalization.NumberStyles
+    name: NumberStyles
+    href: api/System.Globalization.NumberStyles.yml
+  - uid: System.Globalization.PersianCalendar
+    name: PersianCalendar
+    href: api/System.Globalization.PersianCalendar.yml
+  - uid: System.Globalization.RegionInfo
+    name: RegionInfo
+    href: api/System.Globalization.RegionInfo.yml
+  - uid: System.Globalization.SortKey
+    name: SortKey
+    href: api/System.Globalization.SortKey.yml
+  - uid: System.Globalization.StringInfo
+    name: StringInfo
+    href: api/System.Globalization.StringInfo.yml
+  - uid: System.Globalization.TaiwanCalendar
+    name: TaiwanCalendar
+    href: api/System.Globalization.TaiwanCalendar.yml
+  - uid: System.Globalization.TaiwanLunisolarCalendar
+    name: TaiwanLunisolarCalendar
+    href: api/System.Globalization.TaiwanLunisolarCalendar.yml
+  - uid: System.Globalization.TextElementEnumerator
+    name: TextElementEnumerator
+    href: api/System.Globalization.TextElementEnumerator.yml
+  - uid: System.Globalization.TextInfo
+    name: TextInfo
+    href: api/System.Globalization.TextInfo.yml
+  - uid: System.Globalization.ThaiBuddhistCalendar
+    name: ThaiBuddhistCalendar
+    href: api/System.Globalization.ThaiBuddhistCalendar.yml
+  - uid: System.Globalization.TimeSpanStyles
+    name: TimeSpanStyles
+    href: api/System.Globalization.TimeSpanStyles.yml
+  - uid: System.Globalization.UmAlQuraCalendar
+    name: UmAlQuraCalendar
+    href: api/System.Globalization.UmAlQuraCalendar.yml
+  - uid: System.Globalization.UnicodeCategory
+    name: UnicodeCategory
+    href: api/System.Globalization.UnicodeCategory.yml
+- uid: System.IO
+  name: System.IO
+  href: api/System.IO.yml
+  items:
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    href: api/System.IO.BinaryReader.yml
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    href: api/System.IO.BinaryWriter.yml
+  - uid: System.IO.BufferedStream
+    name: BufferedStream
+    href: api/System.IO.BufferedStream.yml
+  - uid: System.IO.Directory
+    name: Directory
+    href: api/System.IO.Directory.yml
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    href: api/System.IO.DirectoryInfo.yml
+  - uid: System.IO.DirectoryNotFoundException
+    name: DirectoryNotFoundException
+    href: api/System.IO.DirectoryNotFoundException.yml
+  - uid: System.IO.DriveInfo
+    name: DriveInfo
+    href: api/System.IO.DriveInfo.yml
+  - uid: System.IO.DriveNotFoundException
+    name: DriveNotFoundException
+    href: api/System.IO.DriveNotFoundException.yml
+  - uid: System.IO.DriveType
+    name: DriveType
+    href: api/System.IO.DriveType.yml
+  - uid: System.IO.EndOfStreamException
+    name: EndOfStreamException
+    href: api/System.IO.EndOfStreamException.yml
+  - uid: System.IO.File
+    name: File
+    href: api/System.IO.File.yml
+  - uid: System.IO.FileAccess
+    name: FileAccess
+    href: api/System.IO.FileAccess.yml
+  - uid: System.IO.FileAttributes
+    name: FileAttributes
+    href: api/System.IO.FileAttributes.yml
+  - uid: System.IO.FileInfo
+    name: FileInfo
+    href: api/System.IO.FileInfo.yml
+  - uid: System.IO.FileLoadException
+    name: FileLoadException
+    href: api/System.IO.FileLoadException.yml
+  - uid: System.IO.FileMode
+    name: FileMode
+    href: api/System.IO.FileMode.yml
+  - uid: System.IO.FileNotFoundException
+    name: FileNotFoundException
+    href: api/System.IO.FileNotFoundException.yml
+  - uid: System.IO.FileOptions
+    name: FileOptions
+    href: api/System.IO.FileOptions.yml
+  - uid: System.IO.FileShare
+    name: FileShare
+    href: api/System.IO.FileShare.yml
+  - uid: System.IO.FileStream
+    name: FileStream
+    href: api/System.IO.FileStream.yml
+  - uid: System.IO.FileSystemInfo
+    name: FileSystemInfo
+    href: api/System.IO.FileSystemInfo.yml
+  - uid: System.IO.IOException
+    name: IOException
+    href: api/System.IO.IOException.yml
+  - uid: System.IO.MemoryStream
+    name: MemoryStream
+    href: api/System.IO.MemoryStream.yml
+  - uid: System.IO.Path
+    name: Path
+    href: api/System.IO.Path.yml
+  - uid: System.IO.PathTooLongException
+    name: PathTooLongException
+    href: api/System.IO.PathTooLongException.yml
+  - uid: System.IO.SearchOption
+    name: SearchOption
+    href: api/System.IO.SearchOption.yml
+  - uid: System.IO.SeekOrigin
+    name: SeekOrigin
+    href: api/System.IO.SeekOrigin.yml
+  - uid: System.IO.Stream
+    name: Stream
+    href: api/System.IO.Stream.yml
+  - uid: System.IO.StreamReader
+    name: StreamReader
+    href: api/System.IO.StreamReader.yml
+  - uid: System.IO.StreamWriter
+    name: StreamWriter
+    href: api/System.IO.StreamWriter.yml
+  - uid: System.IO.StringReader
+    name: StringReader
+    href: api/System.IO.StringReader.yml
+  - uid: System.IO.StringWriter
+    name: StringWriter
+    href: api/System.IO.StringWriter.yml
+  - uid: System.IO.TextReader
+    name: TextReader
+    href: api/System.IO.TextReader.yml
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    href: api/System.IO.TextWriter.yml
+  - uid: System.IO.UnmanagedMemoryAccessor
+    name: UnmanagedMemoryAccessor
+    href: api/System.IO.UnmanagedMemoryAccessor.yml
+  - uid: System.IO.UnmanagedMemoryStream
+    name: UnmanagedMemoryStream
+    href: api/System.IO.UnmanagedMemoryStream.yml
+- uid: System.IO.IsolatedStorage
+  name: System.IO.IsolatedStorage
+  href: api/System.IO.IsolatedStorage.yml
+  items:
+  - uid: System.IO.IsolatedStorage.IsolatedStorageException
+    name: IsolatedStorageException
+    href: api/System.IO.IsolatedStorage.IsolatedStorageException.yml
+  - uid: System.IO.IsolatedStorage.IsolatedStorageFile
+    name: IsolatedStorageFile
+    href: api/System.IO.IsolatedStorage.IsolatedStorageFile.yml
+  - uid: System.IO.IsolatedStorage.IsolatedStorageFileIOHelperBase
+    name: IsolatedStorageFileIOHelperBase
+    href: api/System.IO.IsolatedStorage.IsolatedStorageFileIOHelperBase.yml
+  - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream
+    name: IsolatedStorageFileStream
+    href: api/System.IO.IsolatedStorage.IsolatedStorageFileStream.yml
+  - uid: System.IO.IsolatedStorage.IsolatedStorageGroup
+    name: IsolatedStorageGroup
+    href: api/System.IO.IsolatedStorage.IsolatedStorageGroup.yml
+  - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityOptions
+    name: IsolatedStorageSecurityOptions
+    href: api/System.IO.IsolatedStorage.IsolatedStorageSecurityOptions.yml
+  - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState
+    name: IsolatedStorageSecurityState
+    href: api/System.IO.IsolatedStorage.IsolatedStorageSecurityState.yml
+- uid: System.Reflection
+  name: System.Reflection
+  href: api/System.Reflection.yml
+  items:
+  - uid: System.Reflection.AmbiguousMatchException
+    name: AmbiguousMatchException
+    href: api/System.Reflection.AmbiguousMatchException.yml
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    href: api/System.Reflection.Assembly.yml
+  - uid: System.Reflection.AssemblyAlgorithmIdAttribute
+    name: AssemblyAlgorithmIdAttribute
+    href: api/System.Reflection.AssemblyAlgorithmIdAttribute.yml
+  - uid: System.Reflection.AssemblyCompanyAttribute
+    name: AssemblyCompanyAttribute
+    href: api/System.Reflection.AssemblyCompanyAttribute.yml
+  - uid: System.Reflection.AssemblyConfigurationAttribute
+    name: AssemblyConfigurationAttribute
+    href: api/System.Reflection.AssemblyConfigurationAttribute.yml
+  - uid: System.Reflection.AssemblyContentType
+    name: AssemblyContentType
+    href: api/System.Reflection.AssemblyContentType.yml
+  - uid: System.Reflection.AssemblyCopyrightAttribute
+    name: AssemblyCopyrightAttribute
+    href: api/System.Reflection.AssemblyCopyrightAttribute.yml
+  - uid: System.Reflection.AssemblyCultureAttribute
+    name: AssemblyCultureAttribute
+    href: api/System.Reflection.AssemblyCultureAttribute.yml
+  - uid: System.Reflection.AssemblyDefaultAliasAttribute
+    name: AssemblyDefaultAliasAttribute
+    href: api/System.Reflection.AssemblyDefaultAliasAttribute.yml
+  - uid: System.Reflection.AssemblyDelaySignAttribute
+    name: AssemblyDelaySignAttribute
+    href: api/System.Reflection.AssemblyDelaySignAttribute.yml
+  - uid: System.Reflection.AssemblyDescriptionAttribute
+    name: AssemblyDescriptionAttribute
+    href: api/System.Reflection.AssemblyDescriptionAttribute.yml
+  - uid: System.Reflection.AssemblyFileVersionAttribute
+    name: AssemblyFileVersionAttribute
+    href: api/System.Reflection.AssemblyFileVersionAttribute.yml
+  - uid: System.Reflection.AssemblyFlagsAttribute
+    name: AssemblyFlagsAttribute
+    href: api/System.Reflection.AssemblyFlagsAttribute.yml
+  - uid: System.Reflection.AssemblyInformationalVersionAttribute
+    name: AssemblyInformationalVersionAttribute
+    href: api/System.Reflection.AssemblyInformationalVersionAttribute.yml
+  - uid: System.Reflection.AssemblyKeyFileAttribute
+    name: AssemblyKeyFileAttribute
+    href: api/System.Reflection.AssemblyKeyFileAttribute.yml
+  - uid: System.Reflection.AssemblyKeyNameAttribute
+    name: AssemblyKeyNameAttribute
+    href: api/System.Reflection.AssemblyKeyNameAttribute.yml
+  - uid: System.Reflection.AssemblyMetadataAttribute
+    name: AssemblyMetadataAttribute
+    href: api/System.Reflection.AssemblyMetadataAttribute.yml
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    href: api/System.Reflection.AssemblyName.yml
+  - uid: System.Reflection.AssemblyNameFlags
+    name: AssemblyNameFlags
+    href: api/System.Reflection.AssemblyNameFlags.yml
+  - uid: System.Reflection.AssemblyNameProxy
+    name: AssemblyNameProxy
+    href: api/System.Reflection.AssemblyNameProxy.yml
+  - uid: System.Reflection.AssemblyProductAttribute
+    name: AssemblyProductAttribute
+    href: api/System.Reflection.AssemblyProductAttribute.yml
+  - uid: System.Reflection.AssemblySignatureKeyAttribute
+    name: AssemblySignatureKeyAttribute
+    href: api/System.Reflection.AssemblySignatureKeyAttribute.yml
+  - uid: System.Reflection.AssemblyTitleAttribute
+    name: AssemblyTitleAttribute
+    href: api/System.Reflection.AssemblyTitleAttribute.yml
+  - uid: System.Reflection.AssemblyTrademarkAttribute
+    name: AssemblyTrademarkAttribute
+    href: api/System.Reflection.AssemblyTrademarkAttribute.yml
+  - uid: System.Reflection.AssemblyVersionAttribute
+    name: AssemblyVersionAttribute
+    href: api/System.Reflection.AssemblyVersionAttribute.yml
+  - uid: System.Reflection.Binder
+    name: Binder
+    href: api/System.Reflection.Binder.yml
+  - uid: System.Reflection.BindingFlags
+    name: BindingFlags
+    href: api/System.Reflection.BindingFlags.yml
+  - uid: System.Reflection.CallingConventions
+    name: CallingConventions
+    href: api/System.Reflection.CallingConventions.yml
+  - uid: System.Reflection.ConstructorInfo
+    name: ConstructorInfo
+    href: api/System.Reflection.ConstructorInfo.yml
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    href: api/System.Reflection.CustomAttributeData.yml
+  - uid: System.Reflection.CustomAttributeExtensions
+    name: CustomAttributeExtensions
+    href: api/System.Reflection.CustomAttributeExtensions.yml
+  - uid: System.Reflection.CustomAttributeFormatException
+    name: CustomAttributeFormatException
+    href: api/System.Reflection.CustomAttributeFormatException.yml
+  - uid: System.Reflection.CustomAttributeNamedArgument
+    name: CustomAttributeNamedArgument
+    href: api/System.Reflection.CustomAttributeNamedArgument.yml
+  - uid: System.Reflection.CustomAttributeTypedArgument
+    name: CustomAttributeTypedArgument
+    href: api/System.Reflection.CustomAttributeTypedArgument.yml
+  - uid: System.Reflection.DefaultMemberAttribute
+    name: DefaultMemberAttribute
+    href: api/System.Reflection.DefaultMemberAttribute.yml
+  - uid: System.Reflection.EventAttributes
+    name: EventAttributes
+    href: api/System.Reflection.EventAttributes.yml
+  - uid: System.Reflection.EventInfo
+    name: EventInfo
+    href: api/System.Reflection.EventInfo.yml
+  - uid: System.Reflection.ExceptionHandlingClause
+    name: ExceptionHandlingClause
+    href: api/System.Reflection.ExceptionHandlingClause.yml
+  - uid: System.Reflection.ExceptionHandlingClauseOptions
+    name: ExceptionHandlingClauseOptions
+    href: api/System.Reflection.ExceptionHandlingClauseOptions.yml
+  - uid: System.Reflection.FieldAttributes
+    name: FieldAttributes
+    href: api/System.Reflection.FieldAttributes.yml
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    href: api/System.Reflection.FieldInfo.yml
+  - uid: System.Reflection.GenericParameterAttributes
+    name: GenericParameterAttributes
+    href: api/System.Reflection.GenericParameterAttributes.yml
+  - uid: System.Reflection.ICustomAttributeProvider
+    name: ICustomAttributeProvider
+    href: api/System.Reflection.ICustomAttributeProvider.yml
+  - uid: System.Reflection.ImageFileMachine
+    name: ImageFileMachine
+    href: api/System.Reflection.ImageFileMachine.yml
+  - uid: System.Reflection.InterfaceMapping
+    name: InterfaceMapping
+    href: api/System.Reflection.InterfaceMapping.yml
+  - uid: System.Reflection.IntrospectionExtensions
+    name: IntrospectionExtensions
+    href: api/System.Reflection.IntrospectionExtensions.yml
+  - uid: System.Reflection.InvalidFilterCriteriaException
+    name: InvalidFilterCriteriaException
+    href: api/System.Reflection.InvalidFilterCriteriaException.yml
+  - uid: System.Reflection.IReflect
+    name: IReflect
+    href: api/System.Reflection.IReflect.yml
+  - uid: System.Reflection.IReflectableType
+    name: IReflectableType
+    href: api/System.Reflection.IReflectableType.yml
+  - uid: System.Reflection.LocalVariableInfo
+    name: LocalVariableInfo
+    href: api/System.Reflection.LocalVariableInfo.yml
+  - uid: System.Reflection.ManifestResourceInfo
+    name: ManifestResourceInfo
+    href: api/System.Reflection.ManifestResourceInfo.yml
+  - uid: System.Reflection.MemberFilter
+    name: MemberFilter
+    href: api/System.Reflection.MemberFilter.yml
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    href: api/System.Reflection.MemberInfo.yml
+  - uid: System.Reflection.MemberTypes
+    name: MemberTypes
+    href: api/System.Reflection.MemberTypes.yml
+  - uid: System.Reflection.MethodAttributes
+    name: MethodAttributes
+    href: api/System.Reflection.MethodAttributes.yml
+  - uid: System.Reflection.MethodBase
+    name: MethodBase
+    href: api/System.Reflection.MethodBase.yml
+  - uid: System.Reflection.MethodBody
+    name: MethodBody
+    href: api/System.Reflection.MethodBody.yml
+  - uid: System.Reflection.MethodImplAttributes
+    name: MethodImplAttributes
+    href: api/System.Reflection.MethodImplAttributes.yml
+  - uid: System.Reflection.MethodInfo
+    name: MethodInfo
+    href: api/System.Reflection.MethodInfo.yml
+  - uid: System.Reflection.Missing
+    name: Missing
+    href: api/System.Reflection.Missing.yml
+  - uid: System.Reflection.Module
+    name: Module
+    href: api/System.Reflection.Module.yml
+  - uid: System.Reflection.ModuleResolveEventHandler
+    name: ModuleResolveEventHandler
+    href: api/System.Reflection.ModuleResolveEventHandler.yml
+  - uid: System.Reflection.ObfuscateAssemblyAttribute
+    name: ObfuscateAssemblyAttribute
+    href: api/System.Reflection.ObfuscateAssemblyAttribute.yml
+  - uid: System.Reflection.ObfuscationAttribute
+    name: ObfuscationAttribute
+    href: api/System.Reflection.ObfuscationAttribute.yml
+  - uid: System.Reflection.ParameterAttributes
+    name: ParameterAttributes
+    href: api/System.Reflection.ParameterAttributes.yml
+  - uid: System.Reflection.ParameterInfo
+    name: ParameterInfo
+    href: api/System.Reflection.ParameterInfo.yml
+  - uid: System.Reflection.ParameterModifier
+    name: ParameterModifier
+    href: api/System.Reflection.ParameterModifier.yml
+  - uid: System.Reflection.Pointer
+    name: Pointer
+    href: api/System.Reflection.Pointer.yml
+  - uid: System.Reflection.PortableExecutableKinds
+    name: PortableExecutableKinds
+    href: api/System.Reflection.PortableExecutableKinds.yml
+  - uid: System.Reflection.ProcessorArchitecture
+    name: ProcessorArchitecture
+    href: api/System.Reflection.ProcessorArchitecture.yml
+  - uid: System.Reflection.PropertyAttributes
+    name: PropertyAttributes
+    href: api/System.Reflection.PropertyAttributes.yml
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    href: api/System.Reflection.PropertyInfo.yml
+  - uid: System.Reflection.ReflectionContext
+    name: ReflectionContext
+    href: api/System.Reflection.ReflectionContext.yml
+  - uid: System.Reflection.ReflectionTypeLoadException
+    name: ReflectionTypeLoadException
+    href: api/System.Reflection.ReflectionTypeLoadException.yml
+  - uid: System.Reflection.ResourceAttributes
+    name: ResourceAttributes
+    href: api/System.Reflection.ResourceAttributes.yml
+  - uid: System.Reflection.ResourceLocation
+    name: ResourceLocation
+    href: api/System.Reflection.ResourceLocation.yml
+  - uid: System.Reflection.RuntimeReflectionExtensions
+    name: RuntimeReflectionExtensions
+    href: api/System.Reflection.RuntimeReflectionExtensions.yml
+  - uid: System.Reflection.StrongNameKeyPair
+    name: StrongNameKeyPair
+    href: api/System.Reflection.StrongNameKeyPair.yml
+  - uid: System.Reflection.TargetException
+    name: TargetException
+    href: api/System.Reflection.TargetException.yml
+  - uid: System.Reflection.TargetInvocationException
+    name: TargetInvocationException
+    href: api/System.Reflection.TargetInvocationException.yml
+  - uid: System.Reflection.TargetParameterCountException
+    name: TargetParameterCountException
+    href: api/System.Reflection.TargetParameterCountException.yml
+  - uid: System.Reflection.TypeAttributes
+    name: TypeAttributes
+    href: api/System.Reflection.TypeAttributes.yml
+  - uid: System.Reflection.TypeDelegator
+    name: TypeDelegator
+    href: api/System.Reflection.TypeDelegator.yml
+  - uid: System.Reflection.TypeFilter
+    name: TypeFilter
+    href: api/System.Reflection.TypeFilter.yml
+  - uid: System.Reflection.TypeInfo
+    name: TypeInfo
+    href: api/System.Reflection.TypeInfo.yml
+- uid: System.Reflection.Emit
+  name: System.Reflection.Emit
+  href: api/System.Reflection.Emit.yml
+  items:
+  - uid: System.Reflection.Emit.AssemblyBuilder
+    name: AssemblyBuilder
+    href: api/System.Reflection.Emit.AssemblyBuilder.yml
+  - uid: System.Reflection.Emit.AssemblyBuilderAccess
+    name: AssemblyBuilderAccess
+    href: api/System.Reflection.Emit.AssemblyBuilderAccess.yml
+  - uid: System.Reflection.Emit.ConstructorBuilder
+    name: ConstructorBuilder
+    href: api/System.Reflection.Emit.ConstructorBuilder.yml
+  - uid: System.Reflection.Emit.CustomAttributeBuilder
+    name: CustomAttributeBuilder
+    href: api/System.Reflection.Emit.CustomAttributeBuilder.yml
+  - uid: System.Reflection.Emit.DynamicILInfo
+    name: DynamicILInfo
+    href: api/System.Reflection.Emit.DynamicILInfo.yml
+  - uid: System.Reflection.Emit.DynamicMethod
+    name: DynamicMethod
+    href: api/System.Reflection.Emit.DynamicMethod.yml
+  - uid: System.Reflection.Emit.EnumBuilder
+    name: EnumBuilder
+    href: api/System.Reflection.Emit.EnumBuilder.yml
+  - uid: System.Reflection.Emit.EventBuilder
+    name: EventBuilder
+    href: api/System.Reflection.Emit.EventBuilder.yml
+  - uid: System.Reflection.Emit.EventToken
+    name: EventToken
+    href: api/System.Reflection.Emit.EventToken.yml
+  - uid: System.Reflection.Emit.ExceptionHandler
+    name: ExceptionHandler
+    href: api/System.Reflection.Emit.ExceptionHandler.yml
+  - uid: System.Reflection.Emit.FieldBuilder
+    name: FieldBuilder
+    href: api/System.Reflection.Emit.FieldBuilder.yml
+  - uid: System.Reflection.Emit.FieldToken
+    name: FieldToken
+    href: api/System.Reflection.Emit.FieldToken.yml
+  - uid: System.Reflection.Emit.FlowControl
+    name: FlowControl
+    href: api/System.Reflection.Emit.FlowControl.yml
+  - uid: System.Reflection.Emit.GenericTypeParameterBuilder
+    name: GenericTypeParameterBuilder
+    href: api/System.Reflection.Emit.GenericTypeParameterBuilder.yml
+  - uid: System.Reflection.Emit.ILGenerator
+    name: ILGenerator
+    href: api/System.Reflection.Emit.ILGenerator.yml
+  - uid: System.Reflection.Emit.Label
+    name: Label
+    href: api/System.Reflection.Emit.Label.yml
+  - uid: System.Reflection.Emit.LocalBuilder
+    name: LocalBuilder
+    href: api/System.Reflection.Emit.LocalBuilder.yml
+  - uid: System.Reflection.Emit.MethodBuilder
+    name: MethodBuilder
+    href: api/System.Reflection.Emit.MethodBuilder.yml
+  - uid: System.Reflection.Emit.MethodToken
+    name: MethodToken
+    href: api/System.Reflection.Emit.MethodToken.yml
+  - uid: System.Reflection.Emit.ModuleBuilder
+    name: ModuleBuilder
+    href: api/System.Reflection.Emit.ModuleBuilder.yml
+  - uid: System.Reflection.Emit.OpCode
+    name: OpCode
+    href: api/System.Reflection.Emit.OpCode.yml
+  - uid: System.Reflection.Emit.OpCodes
+    name: OpCodes
+    href: api/System.Reflection.Emit.OpCodes.yml
+  - uid: System.Reflection.Emit.OpCodeType
+    name: OpCodeType
+    href: api/System.Reflection.Emit.OpCodeType.yml
+  - uid: System.Reflection.Emit.OperandType
+    name: OperandType
+    href: api/System.Reflection.Emit.OperandType.yml
+  - uid: System.Reflection.Emit.PackingSize
+    name: PackingSize
+    href: api/System.Reflection.Emit.PackingSize.yml
+  - uid: System.Reflection.Emit.ParameterBuilder
+    name: ParameterBuilder
+    href: api/System.Reflection.Emit.ParameterBuilder.yml
+  - uid: System.Reflection.Emit.ParameterToken
+    name: ParameterToken
+    href: api/System.Reflection.Emit.ParameterToken.yml
+  - uid: System.Reflection.Emit.PEFileKinds
+    name: PEFileKinds
+    href: api/System.Reflection.Emit.PEFileKinds.yml
+  - uid: System.Reflection.Emit.PropertyBuilder
+    name: PropertyBuilder
+    href: api/System.Reflection.Emit.PropertyBuilder.yml
+  - uid: System.Reflection.Emit.PropertyToken
+    name: PropertyToken
+    href: api/System.Reflection.Emit.PropertyToken.yml
+  - uid: System.Reflection.Emit.SignatureHelper
+    name: SignatureHelper
+    href: api/System.Reflection.Emit.SignatureHelper.yml
+  - uid: System.Reflection.Emit.SignatureToken
+    name: SignatureToken
+    href: api/System.Reflection.Emit.SignatureToken.yml
+  - uid: System.Reflection.Emit.StackBehaviour
+    name: StackBehaviour
+    href: api/System.Reflection.Emit.StackBehaviour.yml
+  - uid: System.Reflection.Emit.StringToken
+    name: StringToken
+    href: api/System.Reflection.Emit.StringToken.yml
+  - uid: System.Reflection.Emit.TypeBuilder
+    name: TypeBuilder
+    href: api/System.Reflection.Emit.TypeBuilder.yml
+  - uid: System.Reflection.Emit.TypeToken
+    name: TypeToken
+    href: api/System.Reflection.Emit.TypeToken.yml
+  - uid: System.Reflection.Emit.UnmanagedMarshal
+    name: UnmanagedMarshal
+    href: api/System.Reflection.Emit.UnmanagedMarshal.yml
+- uid: System.Reflection.Metadata
+  name: System.Reflection.Metadata
+  href: api/System.Reflection.Metadata.yml
+  items:
+  - uid: System.Reflection.Metadata.AssemblyExtensions
+    name: AssemblyExtensions
+    href: api/System.Reflection.Metadata.AssemblyExtensions.yml
+- uid: System.Resources
+  name: System.Resources
+  href: api/System.Resources.yml
+  items:
+  - uid: System.Resources.IResourceReader
+    name: IResourceReader
+    href: api/System.Resources.IResourceReader.yml
+  - uid: System.Resources.IResourceWriter
+    name: IResourceWriter
+    href: api/System.Resources.IResourceWriter.yml
+  - uid: System.Resources.MissingManifestResourceException
+    name: MissingManifestResourceException
+    href: api/System.Resources.MissingManifestResourceException.yml
+  - uid: System.Resources.MissingSatelliteAssemblyException
+    name: MissingSatelliteAssemblyException
+    href: api/System.Resources.MissingSatelliteAssemblyException.yml
+  - uid: System.Resources.NeutralResourcesLanguageAttribute
+    name: NeutralResourcesLanguageAttribute
+    href: api/System.Resources.NeutralResourcesLanguageAttribute.yml
+  - uid: System.Resources.ResourceManager
+    name: ResourceManager
+    href: api/System.Resources.ResourceManager.yml
+  - uid: System.Resources.ResourceReader
+    name: ResourceReader
+    href: api/System.Resources.ResourceReader.yml
+  - uid: System.Resources.ResourceSet
+    name: ResourceSet
+    href: api/System.Resources.ResourceSet.yml
+  - uid: System.Resources.SatelliteContractVersionAttribute
+    name: SatelliteContractVersionAttribute
+    href: api/System.Resources.SatelliteContractVersionAttribute.yml
+  - uid: System.Resources.UltimateResourceFallbackLocation
+    name: UltimateResourceFallbackLocation
+    href: api/System.Resources.UltimateResourceFallbackLocation.yml
+- uid: System.Runtime
+  name: System.Runtime
+  href: api/System.Runtime.yml
+  items:
+  - uid: System.Runtime.GCLargeObjectHeapCompactionMode
+    name: GCLargeObjectHeapCompactionMode
+    href: api/System.Runtime.GCLargeObjectHeapCompactionMode.yml
+  - uid: System.Runtime.GCLatencyMode
+    name: GCLatencyMode
+    href: api/System.Runtime.GCLatencyMode.yml
+  - uid: System.Runtime.GCSettings
+    name: GCSettings
+    href: api/System.Runtime.GCSettings.yml
+  - uid: System.Runtime.MemoryFailPoint
+    name: MemoryFailPoint
+    href: api/System.Runtime.MemoryFailPoint.yml
+  - uid: System.Runtime.ProfileOptimization
+    name: ProfileOptimization
+    href: api/System.Runtime.ProfileOptimization.yml
+- uid: System.Runtime.CompilerServices
+  name: System.Runtime.CompilerServices
+  href: api/System.Runtime.CompilerServices.yml
+  items:
+  - uid: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute
+    name: AccessedThroughPropertyAttribute
+    href: api/System.Runtime.CompilerServices.AccessedThroughPropertyAttribute.yml
+  - uid: System.Runtime.CompilerServices.AsyncStateMachineAttribute
+    name: AsyncStateMachineAttribute
+    href: api/System.Runtime.CompilerServices.AsyncStateMachineAttribute.yml
+  - uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+    name: AsyncTaskMethodBuilder
+    href: api/System.Runtime.CompilerServices.AsyncTaskMethodBuilder.yml
+  - uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
+    name: AsyncTaskMethodBuilder<TResult>
+    name.vb: AsyncTaskMethodBuilder(Of TResult)
+    href: api/System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.yml
+  - uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+    name: AsyncVoidMethodBuilder
+    href: api/System.Runtime.CompilerServices.AsyncVoidMethodBuilder.yml
+  - uid: System.Runtime.CompilerServices.CallConvCdecl
+    name: CallConvCdecl
+    href: api/System.Runtime.CompilerServices.CallConvCdecl.yml
+  - uid: System.Runtime.CompilerServices.CallConvFastcall
+    name: CallConvFastcall
+    href: api/System.Runtime.CompilerServices.CallConvFastcall.yml
+  - uid: System.Runtime.CompilerServices.CallConvStdcall
+    name: CallConvStdcall
+    href: api/System.Runtime.CompilerServices.CallConvStdcall.yml
+  - uid: System.Runtime.CompilerServices.CallConvThiscall
+    name: CallConvThiscall
+    href: api/System.Runtime.CompilerServices.CallConvThiscall.yml
+  - uid: System.Runtime.CompilerServices.CallerFilePathAttribute
+    name: CallerFilePathAttribute
+    href: api/System.Runtime.CompilerServices.CallerFilePathAttribute.yml
+  - uid: System.Runtime.CompilerServices.CallerLineNumberAttribute
+    name: CallerLineNumberAttribute
+    href: api/System.Runtime.CompilerServices.CallerLineNumberAttribute.yml
+  - uid: System.Runtime.CompilerServices.CallerMemberNameAttribute
+    name: CallerMemberNameAttribute
+    href: api/System.Runtime.CompilerServices.CallerMemberNameAttribute.yml
+  - uid: System.Runtime.CompilerServices.CompilationRelaxations
+    name: CompilationRelaxations
+    href: api/System.Runtime.CompilerServices.CompilationRelaxations.yml
+  - uid: System.Runtime.CompilerServices.CompilationRelaxationsAttribute
+    name: CompilationRelaxationsAttribute
+    href: api/System.Runtime.CompilerServices.CompilationRelaxationsAttribute.yml
+  - uid: System.Runtime.CompilerServices.CompilerGeneratedAttribute
+    name: CompilerGeneratedAttribute
+    href: api/System.Runtime.CompilerServices.CompilerGeneratedAttribute.yml
+  - uid: System.Runtime.CompilerServices.CompilerGlobalScopeAttribute
+    name: CompilerGlobalScopeAttribute
+    href: api/System.Runtime.CompilerServices.CompilerGlobalScopeAttribute.yml
+  - uid: System.Runtime.CompilerServices.CompilerMarshalOverride
+    name: CompilerMarshalOverride
+    href: api/System.Runtime.CompilerServices.CompilerMarshalOverride.yml
+  - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2
+    name: ConditionalWeakTable<TKey, TValue>
+    name.vb: ConditionalWeakTable(Of TKey, TValue)
+    href: api/System.Runtime.CompilerServices.ConditionalWeakTable`2.yml
+  - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback
+    name: ConditionalWeakTable<TKey, TValue>.CreateValueCallback
+    name.vb: ConditionalWeakTable(Of TKey, TValue).CreateValueCallback
+    href: api/System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback.yml
+  - uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+    name: ConfiguredTaskAwaitable
+    href: api/System.Runtime.CompilerServices.ConfiguredTaskAwaitable.yml
+  - uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+    name: ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+    href: api/System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.yml
+  - uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1
+    name: ConfiguredTaskAwaitable<TResult>
+    name.vb: ConfiguredTaskAwaitable(Of TResult)
+    href: api/System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.yml
+  - uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter
+    name: ConfiguredTaskAwaitable<TResult>.ConfiguredTaskAwaiter
+    name.vb: ConfiguredTaskAwaitable(Of TResult).ConfiguredTaskAwaiter
+    href: api/System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.yml
+  - uid: System.Runtime.CompilerServices.ContractHelper
+    name: ContractHelper
+    href: api/System.Runtime.CompilerServices.ContractHelper.yml
+  - uid: System.Runtime.CompilerServices.CustomConstantAttribute
+    name: CustomConstantAttribute
+    href: api/System.Runtime.CompilerServices.CustomConstantAttribute.yml
+  - uid: System.Runtime.CompilerServices.DateTimeConstantAttribute
+    name: DateTimeConstantAttribute
+    href: api/System.Runtime.CompilerServices.DateTimeConstantAttribute.yml
+  - uid: System.Runtime.CompilerServices.DecimalConstantAttribute
+    name: DecimalConstantAttribute
+    href: api/System.Runtime.CompilerServices.DecimalConstantAttribute.yml
+  - uid: System.Runtime.CompilerServices.DefaultDependencyAttribute
+    name: DefaultDependencyAttribute
+    href: api/System.Runtime.CompilerServices.DefaultDependencyAttribute.yml
+  - uid: System.Runtime.CompilerServices.DependencyAttribute
+    name: DependencyAttribute
+    href: api/System.Runtime.CompilerServices.DependencyAttribute.yml
+  - uid: System.Runtime.CompilerServices.DisablePrivateReflectionAttribute
+    name: DisablePrivateReflectionAttribute
+    href: api/System.Runtime.CompilerServices.DisablePrivateReflectionAttribute.yml
+  - uid: System.Runtime.CompilerServices.DiscardableAttribute
+    name: DiscardableAttribute
+    href: api/System.Runtime.CompilerServices.DiscardableAttribute.yml
+  - uid: System.Runtime.CompilerServices.ExtensionAttribute
+    name: ExtensionAttribute
+    href: api/System.Runtime.CompilerServices.ExtensionAttribute.yml
+  - uid: System.Runtime.CompilerServices.FixedAddressValueTypeAttribute
+    name: FixedAddressValueTypeAttribute
+    href: api/System.Runtime.CompilerServices.FixedAddressValueTypeAttribute.yml
+  - uid: System.Runtime.CompilerServices.FixedBufferAttribute
+    name: FixedBufferAttribute
+    href: api/System.Runtime.CompilerServices.FixedBufferAttribute.yml
+  - uid: System.Runtime.CompilerServices.FormattableStringFactory
+    name: FormattableStringFactory
+    href: api/System.Runtime.CompilerServices.FormattableStringFactory.yml
+  - uid: System.Runtime.CompilerServices.HasCopySemanticsAttribute
+    name: HasCopySemanticsAttribute
+    href: api/System.Runtime.CompilerServices.HasCopySemanticsAttribute.yml
+  - uid: System.Runtime.CompilerServices.IAsyncStateMachine
+    name: IAsyncStateMachine
+    href: api/System.Runtime.CompilerServices.IAsyncStateMachine.yml
+  - uid: System.Runtime.CompilerServices.ICastable
+    name: ICastable
+    href: api/System.Runtime.CompilerServices.ICastable.yml
+  - uid: System.Runtime.CompilerServices.ICriticalNotifyCompletion
+    name: ICriticalNotifyCompletion
+    href: api/System.Runtime.CompilerServices.ICriticalNotifyCompletion.yml
+  - uid: System.Runtime.CompilerServices.IDispatchConstantAttribute
+    name: IDispatchConstantAttribute
+    href: api/System.Runtime.CompilerServices.IDispatchConstantAttribute.yml
+  - uid: System.Runtime.CompilerServices.IndexerNameAttribute
+    name: IndexerNameAttribute
+    href: api/System.Runtime.CompilerServices.IndexerNameAttribute.yml
+  - uid: System.Runtime.CompilerServices.INotifyCompletion
+    name: INotifyCompletion
+    href: api/System.Runtime.CompilerServices.INotifyCompletion.yml
+  - uid: System.Runtime.CompilerServices.InternalsVisibleToAttribute
+    name: InternalsVisibleToAttribute
+    href: api/System.Runtime.CompilerServices.InternalsVisibleToAttribute.yml
+  - uid: System.Runtime.CompilerServices.IsBoxed
+    name: IsBoxed
+    href: api/System.Runtime.CompilerServices.IsBoxed.yml
+  - uid: System.Runtime.CompilerServices.IsByValue
+    name: IsByValue
+    href: api/System.Runtime.CompilerServices.IsByValue.yml
+  - uid: System.Runtime.CompilerServices.IsConst
+    name: IsConst
+    href: api/System.Runtime.CompilerServices.IsConst.yml
+  - uid: System.Runtime.CompilerServices.IsCopyConstructed
+    name: IsCopyConstructed
+    href: api/System.Runtime.CompilerServices.IsCopyConstructed.yml
+  - uid: System.Runtime.CompilerServices.IsExplicitlyDereferenced
+    name: IsExplicitlyDereferenced
+    href: api/System.Runtime.CompilerServices.IsExplicitlyDereferenced.yml
+  - uid: System.Runtime.CompilerServices.IsImplicitlyDereferenced
+    name: IsImplicitlyDereferenced
+    href: api/System.Runtime.CompilerServices.IsImplicitlyDereferenced.yml
+  - uid: System.Runtime.CompilerServices.IsJitIntrinsic
+    name: IsJitIntrinsic
+    href: api/System.Runtime.CompilerServices.IsJitIntrinsic.yml
+  - uid: System.Runtime.CompilerServices.IsLong
+    name: IsLong
+    href: api/System.Runtime.CompilerServices.IsLong.yml
+  - uid: System.Runtime.CompilerServices.IsPinned
+    name: IsPinned
+    href: api/System.Runtime.CompilerServices.IsPinned.yml
+  - uid: System.Runtime.CompilerServices.IsSignUnspecifiedByte
+    name: IsSignUnspecifiedByte
+    href: api/System.Runtime.CompilerServices.IsSignUnspecifiedByte.yml
+  - uid: System.Runtime.CompilerServices.IsUdtReturn
+    name: IsUdtReturn
+    href: api/System.Runtime.CompilerServices.IsUdtReturn.yml
+  - uid: System.Runtime.CompilerServices.IsVolatile
+    name: IsVolatile
+    href: api/System.Runtime.CompilerServices.IsVolatile.yml
+  - uid: System.Runtime.CompilerServices.IteratorStateMachineAttribute
+    name: IteratorStateMachineAttribute
+    href: api/System.Runtime.CompilerServices.IteratorStateMachineAttribute.yml
+  - uid: System.Runtime.CompilerServices.IUnknownConstantAttribute
+    name: IUnknownConstantAttribute
+    href: api/System.Runtime.CompilerServices.IUnknownConstantAttribute.yml
+  - uid: System.Runtime.CompilerServices.LoadHint
+    name: LoadHint
+    href: api/System.Runtime.CompilerServices.LoadHint.yml
+  - uid: System.Runtime.CompilerServices.MethodCodeType
+    name: MethodCodeType
+    href: api/System.Runtime.CompilerServices.MethodCodeType.yml
+  - uid: System.Runtime.CompilerServices.MethodImplAttribute
+    name: MethodImplAttribute
+    href: api/System.Runtime.CompilerServices.MethodImplAttribute.yml
+  - uid: System.Runtime.CompilerServices.MethodImplOptions
+    name: MethodImplOptions
+    href: api/System.Runtime.CompilerServices.MethodImplOptions.yml
+  - uid: System.Runtime.CompilerServices.NativeCppClassAttribute
+    name: NativeCppClassAttribute
+    href: api/System.Runtime.CompilerServices.NativeCppClassAttribute.yml
+  - uid: System.Runtime.CompilerServices.ReferenceAssemblyAttribute
+    name: ReferenceAssemblyAttribute
+    href: api/System.Runtime.CompilerServices.ReferenceAssemblyAttribute.yml
+  - uid: System.Runtime.CompilerServices.RequiredAttributeAttribute
+    name: RequiredAttributeAttribute
+    href: api/System.Runtime.CompilerServices.RequiredAttributeAttribute.yml
+  - uid: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
+    name: RuntimeCompatibilityAttribute
+    href: api/System.Runtime.CompilerServices.RuntimeCompatibilityAttribute.yml
+  - uid: System.Runtime.CompilerServices.RuntimeHelpers
+    name: RuntimeHelpers
+    href: api/System.Runtime.CompilerServices.RuntimeHelpers.yml
+  - uid: System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode
+    name: RuntimeHelpers.CleanupCode
+    href: api/System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode.yml
+  - uid: System.Runtime.CompilerServices.RuntimeHelpers.TryCode
+    name: RuntimeHelpers.TryCode
+    href: api/System.Runtime.CompilerServices.RuntimeHelpers.TryCode.yml
+  - uid: System.Runtime.CompilerServices.RuntimeWrappedException
+    name: RuntimeWrappedException
+    href: api/System.Runtime.CompilerServices.RuntimeWrappedException.yml
+  - uid: System.Runtime.CompilerServices.ScopelessEnumAttribute
+    name: ScopelessEnumAttribute
+    href: api/System.Runtime.CompilerServices.ScopelessEnumAttribute.yml
+  - uid: System.Runtime.CompilerServices.SpecialNameAttribute
+    name: SpecialNameAttribute
+    href: api/System.Runtime.CompilerServices.SpecialNameAttribute.yml
+  - uid: System.Runtime.CompilerServices.StateMachineAttribute
+    name: StateMachineAttribute
+    href: api/System.Runtime.CompilerServices.StateMachineAttribute.yml
+  - uid: System.Runtime.CompilerServices.StringFreezingAttribute
+    name: StringFreezingAttribute
+    href: api/System.Runtime.CompilerServices.StringFreezingAttribute.yml
+  - uid: System.Runtime.CompilerServices.SuppressIldasmAttribute
+    name: SuppressIldasmAttribute
+    href: api/System.Runtime.CompilerServices.SuppressIldasmAttribute.yml
+  - uid: System.Runtime.CompilerServices.TaskAwaiter
+    name: TaskAwaiter
+    href: api/System.Runtime.CompilerServices.TaskAwaiter.yml
+  - uid: System.Runtime.CompilerServices.TaskAwaiter`1
+    name: TaskAwaiter<TResult>
+    name.vb: TaskAwaiter(Of TResult)
+    href: api/System.Runtime.CompilerServices.TaskAwaiter`1.yml
+  - uid: System.Runtime.CompilerServices.TypeForwardedFromAttribute
+    name: TypeForwardedFromAttribute
+    href: api/System.Runtime.CompilerServices.TypeForwardedFromAttribute.yml
+  - uid: System.Runtime.CompilerServices.TypeForwardedToAttribute
+    name: TypeForwardedToAttribute
+    href: api/System.Runtime.CompilerServices.TypeForwardedToAttribute.yml
+  - uid: System.Runtime.CompilerServices.UnsafeValueTypeAttribute
+    name: UnsafeValueTypeAttribute
+    href: api/System.Runtime.CompilerServices.UnsafeValueTypeAttribute.yml
+  - uid: System.Runtime.CompilerServices.YieldAwaitable
+    name: YieldAwaitable
+    href: api/System.Runtime.CompilerServices.YieldAwaitable.yml
+  - uid: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter
+    name: YieldAwaitable.YieldAwaiter
+    href: api/System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter.yml
+- uid: System.Runtime.ConstrainedExecution
+  name: System.Runtime.ConstrainedExecution
+  href: api/System.Runtime.ConstrainedExecution.yml
+  items:
+  - uid: System.Runtime.ConstrainedExecution.Cer
+    name: Cer
+    href: api/System.Runtime.ConstrainedExecution.Cer.yml
+  - uid: System.Runtime.ConstrainedExecution.Consistency
+    name: Consistency
+    href: api/System.Runtime.ConstrainedExecution.Consistency.yml
+  - uid: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+    name: CriticalFinalizerObject
+    href: api/System.Runtime.ConstrainedExecution.CriticalFinalizerObject.yml
+  - uid: System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute
+    name: PrePrepareMethodAttribute
+    href: api/System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute.yml
+  - uid: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
+    name: ReliabilityContractAttribute
+    href: api/System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.yml
+- uid: System.Runtime.ExceptionServices
+  name: System.Runtime.ExceptionServices
+  href: api/System.Runtime.ExceptionServices.yml
+  items:
+  - uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    name: ExceptionDispatchInfo
+    href: api/System.Runtime.ExceptionServices.ExceptionDispatchInfo.yml
+  - uid: System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
+    name: HandleProcessCorruptedStateExceptionsAttribute
+    href: api/System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute.yml
+- uid: System.Runtime.InteropServices
+  name: System.Runtime.InteropServices
+  href: api/System.Runtime.InteropServices.yml
+  items:
+  - uid: System.Runtime.InteropServices._Activator
+    name: _Activator
+    href: api/System.Runtime.InteropServices._Activator.yml
+  - uid: System.Runtime.InteropServices._Assembly
+    name: _Assembly
+    href: api/System.Runtime.InteropServices._Assembly.yml
+  - uid: System.Runtime.InteropServices._AssemblyBuilder
+    name: _AssemblyBuilder
+    href: api/System.Runtime.InteropServices._AssemblyBuilder.yml
+  - uid: System.Runtime.InteropServices._AssemblyName
+    name: _AssemblyName
+    href: api/System.Runtime.InteropServices._AssemblyName.yml
+  - uid: System.Runtime.InteropServices._Attribute
+    name: _Attribute
+    href: api/System.Runtime.InteropServices._Attribute.yml
+  - uid: System.Runtime.InteropServices._ConstructorBuilder
+    name: _ConstructorBuilder
+    href: api/System.Runtime.InteropServices._ConstructorBuilder.yml
+  - uid: System.Runtime.InteropServices._ConstructorInfo
+    name: _ConstructorInfo
+    href: api/System.Runtime.InteropServices._ConstructorInfo.yml
+  - uid: System.Runtime.InteropServices._CustomAttributeBuilder
+    name: _CustomAttributeBuilder
+    href: api/System.Runtime.InteropServices._CustomAttributeBuilder.yml
+  - uid: System.Runtime.InteropServices._EnumBuilder
+    name: _EnumBuilder
+    href: api/System.Runtime.InteropServices._EnumBuilder.yml
+  - uid: System.Runtime.InteropServices._EventBuilder
+    name: _EventBuilder
+    href: api/System.Runtime.InteropServices._EventBuilder.yml
+  - uid: System.Runtime.InteropServices._EventInfo
+    name: _EventInfo
+    href: api/System.Runtime.InteropServices._EventInfo.yml
+  - uid: System.Runtime.InteropServices._Exception
+    name: _Exception
+    href: api/System.Runtime.InteropServices._Exception.yml
+  - uid: System.Runtime.InteropServices._FieldBuilder
+    name: _FieldBuilder
+    href: api/System.Runtime.InteropServices._FieldBuilder.yml
+  - uid: System.Runtime.InteropServices._FieldInfo
+    name: _FieldInfo
+    href: api/System.Runtime.InteropServices._FieldInfo.yml
+  - uid: System.Runtime.InteropServices._ILGenerator
+    name: _ILGenerator
+    href: api/System.Runtime.InteropServices._ILGenerator.yml
+  - uid: System.Runtime.InteropServices._LocalBuilder
+    name: _LocalBuilder
+    href: api/System.Runtime.InteropServices._LocalBuilder.yml
+  - uid: System.Runtime.InteropServices._MemberInfo
+    name: _MemberInfo
+    href: api/System.Runtime.InteropServices._MemberInfo.yml
+  - uid: System.Runtime.InteropServices._MethodBase
+    name: _MethodBase
+    href: api/System.Runtime.InteropServices._MethodBase.yml
+  - uid: System.Runtime.InteropServices._MethodBuilder
+    name: _MethodBuilder
+    href: api/System.Runtime.InteropServices._MethodBuilder.yml
+  - uid: System.Runtime.InteropServices._MethodInfo
+    name: _MethodInfo
+    href: api/System.Runtime.InteropServices._MethodInfo.yml
+  - uid: System.Runtime.InteropServices._Module
+    name: _Module
+    href: api/System.Runtime.InteropServices._Module.yml
+  - uid: System.Runtime.InteropServices._ModuleBuilder
+    name: _ModuleBuilder
+    href: api/System.Runtime.InteropServices._ModuleBuilder.yml
+  - uid: System.Runtime.InteropServices._ParameterBuilder
+    name: _ParameterBuilder
+    href: api/System.Runtime.InteropServices._ParameterBuilder.yml
+  - uid: System.Runtime.InteropServices._ParameterInfo
+    name: _ParameterInfo
+    href: api/System.Runtime.InteropServices._ParameterInfo.yml
+  - uid: System.Runtime.InteropServices._PropertyBuilder
+    name: _PropertyBuilder
+    href: api/System.Runtime.InteropServices._PropertyBuilder.yml
+  - uid: System.Runtime.InteropServices._PropertyInfo
+    name: _PropertyInfo
+    href: api/System.Runtime.InteropServices._PropertyInfo.yml
+  - uid: System.Runtime.InteropServices._SignatureHelper
+    name: _SignatureHelper
+    href: api/System.Runtime.InteropServices._SignatureHelper.yml
+  - uid: System.Runtime.InteropServices._Thread
+    name: _Thread
+    href: api/System.Runtime.InteropServices._Thread.yml
+  - uid: System.Runtime.InteropServices._Type
+    name: _Type
+    href: api/System.Runtime.InteropServices._Type.yml
+  - uid: System.Runtime.InteropServices._TypeBuilder
+    name: _TypeBuilder
+    href: api/System.Runtime.InteropServices._TypeBuilder.yml
+  - uid: System.Runtime.InteropServices.AllowReversePInvokeCallsAttribute
+    name: AllowReversePInvokeCallsAttribute
+    href: api/System.Runtime.InteropServices.AllowReversePInvokeCallsAttribute.yml
+  - uid: System.Runtime.InteropServices.ArrayWithOffset
+    name: ArrayWithOffset
+    href: api/System.Runtime.InteropServices.ArrayWithOffset.yml
+  - uid: System.Runtime.InteropServices.AssemblyRegistrationFlags
+    name: AssemblyRegistrationFlags
+    href: api/System.Runtime.InteropServices.AssemblyRegistrationFlags.yml
+  - uid: System.Runtime.InteropServices.AutomationProxyAttribute
+    name: AutomationProxyAttribute
+    href: api/System.Runtime.InteropServices.AutomationProxyAttribute.yml
+  - uid: System.Runtime.InteropServices.BestFitMappingAttribute
+    name: BestFitMappingAttribute
+    href: api/System.Runtime.InteropServices.BestFitMappingAttribute.yml
+  - uid: System.Runtime.InteropServices.BIND_OPTS
+    name: BIND_OPTS
+    href: api/System.Runtime.InteropServices.BIND_OPTS.yml
+  - uid: System.Runtime.InteropServices.BINDPTR
+    name: BINDPTR
+    href: api/System.Runtime.InteropServices.BINDPTR.yml
+  - uid: System.Runtime.InteropServices.BStrWrapper
+    name: BStrWrapper
+    href: api/System.Runtime.InteropServices.BStrWrapper.yml
+  - uid: System.Runtime.InteropServices.CALLCONV
+    name: CALLCONV
+    href: api/System.Runtime.InteropServices.CALLCONV.yml
+  - uid: System.Runtime.InteropServices.CallingConvention
+    name: CallingConvention
+    href: api/System.Runtime.InteropServices.CallingConvention.yml
+  - uid: System.Runtime.InteropServices.CharSet
+    name: CharSet
+    href: api/System.Runtime.InteropServices.CharSet.yml
+  - uid: System.Runtime.InteropServices.ClassInterfaceAttribute
+    name: ClassInterfaceAttribute
+    href: api/System.Runtime.InteropServices.ClassInterfaceAttribute.yml
+  - uid: System.Runtime.InteropServices.ClassInterfaceType
+    name: ClassInterfaceType
+    href: api/System.Runtime.InteropServices.ClassInterfaceType.yml
+  - uid: System.Runtime.InteropServices.CoClassAttribute
+    name: CoClassAttribute
+    href: api/System.Runtime.InteropServices.CoClassAttribute.yml
+  - uid: System.Runtime.InteropServices.ComAliasNameAttribute
+    name: ComAliasNameAttribute
+    href: api/System.Runtime.InteropServices.ComAliasNameAttribute.yml
+  - uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute
+    name: ComCompatibleVersionAttribute
+    href: api/System.Runtime.InteropServices.ComCompatibleVersionAttribute.yml
+  - uid: System.Runtime.InteropServices.ComConversionLossAttribute
+    name: ComConversionLossAttribute
+    href: api/System.Runtime.InteropServices.ComConversionLossAttribute.yml
+  - uid: System.Runtime.InteropServices.ComDefaultInterfaceAttribute
+    name: ComDefaultInterfaceAttribute
+    href: api/System.Runtime.InteropServices.ComDefaultInterfaceAttribute.yml
+  - uid: System.Runtime.InteropServices.ComEventInterfaceAttribute
+    name: ComEventInterfaceAttribute
+    href: api/System.Runtime.InteropServices.ComEventInterfaceAttribute.yml
+  - uid: System.Runtime.InteropServices.ComEventsHelper
+    name: ComEventsHelper
+    href: api/System.Runtime.InteropServices.ComEventsHelper.yml
+  - uid: System.Runtime.InteropServices.COMException
+    name: COMException
+    href: api/System.Runtime.InteropServices.COMException.yml
+  - uid: System.Runtime.InteropServices.ComImportAttribute
+    name: ComImportAttribute
+    href: api/System.Runtime.InteropServices.ComImportAttribute.yml
+  - uid: System.Runtime.InteropServices.ComInterfaceType
+    name: ComInterfaceType
+    href: api/System.Runtime.InteropServices.ComInterfaceType.yml
+  - uid: System.Runtime.InteropServices.ComMemberType
+    name: ComMemberType
+    href: api/System.Runtime.InteropServices.ComMemberType.yml
+  - uid: System.Runtime.InteropServices.ComRegisterFunctionAttribute
+    name: ComRegisterFunctionAttribute
+    href: api/System.Runtime.InteropServices.ComRegisterFunctionAttribute.yml
+  - uid: System.Runtime.InteropServices.ComSourceInterfacesAttribute
+    name: ComSourceInterfacesAttribute
+    href: api/System.Runtime.InteropServices.ComSourceInterfacesAttribute.yml
+  - uid: System.Runtime.InteropServices.ComUnregisterFunctionAttribute
+    name: ComUnregisterFunctionAttribute
+    href: api/System.Runtime.InteropServices.ComUnregisterFunctionAttribute.yml
+  - uid: System.Runtime.InteropServices.ComVisibleAttribute
+    name: ComVisibleAttribute
+    href: api/System.Runtime.InteropServices.ComVisibleAttribute.yml
+  - uid: System.Runtime.InteropServices.CONNECTDATA
+    name: CONNECTDATA
+    href: api/System.Runtime.InteropServices.CONNECTDATA.yml
+  - uid: System.Runtime.InteropServices.CriticalHandle
+    name: CriticalHandle
+    href: api/System.Runtime.InteropServices.CriticalHandle.yml
+  - uid: System.Runtime.InteropServices.CurrencyWrapper
+    name: CurrencyWrapper
+    href: api/System.Runtime.InteropServices.CurrencyWrapper.yml
+  - uid: System.Runtime.InteropServices.CustomQueryInterfaceMode
+    name: CustomQueryInterfaceMode
+    href: api/System.Runtime.InteropServices.CustomQueryInterfaceMode.yml
+  - uid: System.Runtime.InteropServices.CustomQueryInterfaceResult
+    name: CustomQueryInterfaceResult
+    href: api/System.Runtime.InteropServices.CustomQueryInterfaceResult.yml
+  - uid: System.Runtime.InteropServices.DefaultCharSetAttribute
+    name: DefaultCharSetAttribute
+    href: api/System.Runtime.InteropServices.DefaultCharSetAttribute.yml
+  - uid: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
+    name: DefaultDllImportSearchPathsAttribute
+    href: api/System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute.yml
+  - uid: System.Runtime.InteropServices.DESCKIND
+    name: DESCKIND
+    href: api/System.Runtime.InteropServices.DESCKIND.yml
+  - uid: System.Runtime.InteropServices.DispatchWrapper
+    name: DispatchWrapper
+    href: api/System.Runtime.InteropServices.DispatchWrapper.yml
+  - uid: System.Runtime.InteropServices.DispIdAttribute
+    name: DispIdAttribute
+    href: api/System.Runtime.InteropServices.DispIdAttribute.yml
+  - uid: System.Runtime.InteropServices.DISPPARAMS
+    name: DISPPARAMS
+    href: api/System.Runtime.InteropServices.DISPPARAMS.yml
+  - uid: System.Runtime.InteropServices.DllImportAttribute
+    name: DllImportAttribute
+    href: api/System.Runtime.InteropServices.DllImportAttribute.yml
+  - uid: System.Runtime.InteropServices.DllImportSearchPath
+    name: DllImportSearchPath
+    href: api/System.Runtime.InteropServices.DllImportSearchPath.yml
+  - uid: System.Runtime.InteropServices.ELEMDESC
+    name: ELEMDESC
+    href: api/System.Runtime.InteropServices.ELEMDESC.yml
+  - uid: System.Runtime.InteropServices.ELEMDESC.DESCUNION
+    name: ELEMDESC.DESCUNION
+    href: api/System.Runtime.InteropServices.ELEMDESC.DESCUNION.yml
+  - uid: System.Runtime.InteropServices.ErrorWrapper
+    name: ErrorWrapper
+    href: api/System.Runtime.InteropServices.ErrorWrapper.yml
+  - uid: System.Runtime.InteropServices.EXCEPINFO
+    name: EXCEPINFO
+    href: api/System.Runtime.InteropServices.EXCEPINFO.yml
+  - uid: System.Runtime.InteropServices.ExporterEventKind
+    name: ExporterEventKind
+    href: api/System.Runtime.InteropServices.ExporterEventKind.yml
+  - uid: System.Runtime.InteropServices.ExtensibleClassFactory
+    name: ExtensibleClassFactory
+    href: api/System.Runtime.InteropServices.ExtensibleClassFactory.yml
+  - uid: System.Runtime.InteropServices.ExternalException
+    name: ExternalException
+    href: api/System.Runtime.InteropServices.ExternalException.yml
+  - uid: System.Runtime.InteropServices.FieldOffsetAttribute
+    name: FieldOffsetAttribute
+    href: api/System.Runtime.InteropServices.FieldOffsetAttribute.yml
+  - uid: System.Runtime.InteropServices.FILETIME
+    name: FILETIME
+    href: api/System.Runtime.InteropServices.FILETIME.yml
+  - uid: System.Runtime.InteropServices.FUNCDESC
+    name: FUNCDESC
+    href: api/System.Runtime.InteropServices.FUNCDESC.yml
+  - uid: System.Runtime.InteropServices.FUNCFLAGS
+    name: FUNCFLAGS
+    href: api/System.Runtime.InteropServices.FUNCFLAGS.yml
+  - uid: System.Runtime.InteropServices.FUNCKIND
+    name: FUNCKIND
+    href: api/System.Runtime.InteropServices.FUNCKIND.yml
+  - uid: System.Runtime.InteropServices.GCHandle
+    name: GCHandle
+    href: api/System.Runtime.InteropServices.GCHandle.yml
+  - uid: System.Runtime.InteropServices.GCHandleType
+    name: GCHandleType
+    href: api/System.Runtime.InteropServices.GCHandleType.yml
+  - uid: System.Runtime.InteropServices.GuidAttribute
+    name: GuidAttribute
+    href: api/System.Runtime.InteropServices.GuidAttribute.yml
+  - uid: System.Runtime.InteropServices.HandleRef
+    name: HandleRef
+    href: api/System.Runtime.InteropServices.HandleRef.yml
+  - uid: System.Runtime.InteropServices.ICustomAdapter
+    name: ICustomAdapter
+    href: api/System.Runtime.InteropServices.ICustomAdapter.yml
+  - uid: System.Runtime.InteropServices.ICustomFactory
+    name: ICustomFactory
+    href: api/System.Runtime.InteropServices.ICustomFactory.yml
+  - uid: System.Runtime.InteropServices.ICustomMarshaler
+    name: ICustomMarshaler
+    href: api/System.Runtime.InteropServices.ICustomMarshaler.yml
+  - uid: System.Runtime.InteropServices.ICustomQueryInterface
+    name: ICustomQueryInterface
+    href: api/System.Runtime.InteropServices.ICustomQueryInterface.yml
+  - uid: System.Runtime.InteropServices.IDispatchImplAttribute
+    name: IDispatchImplAttribute
+    href: api/System.Runtime.InteropServices.IDispatchImplAttribute.yml
+  - uid: System.Runtime.InteropServices.IDispatchImplType
+    name: IDispatchImplType
+    href: api/System.Runtime.InteropServices.IDispatchImplType.yml
+  - uid: System.Runtime.InteropServices.IDLDESC
+    name: IDLDESC
+    href: api/System.Runtime.InteropServices.IDLDESC.yml
+  - uid: System.Runtime.InteropServices.IDLFLAG
+    name: IDLFLAG
+    href: api/System.Runtime.InteropServices.IDLFLAG.yml
+  - uid: System.Runtime.InteropServices.IMPLTYPEFLAGS
+    name: IMPLTYPEFLAGS
+    href: api/System.Runtime.InteropServices.IMPLTYPEFLAGS.yml
+  - uid: System.Runtime.InteropServices.ImportedFromTypeLibAttribute
+    name: ImportedFromTypeLibAttribute
+    href: api/System.Runtime.InteropServices.ImportedFromTypeLibAttribute.yml
+  - uid: System.Runtime.InteropServices.ImporterEventKind
+    name: ImporterEventKind
+    href: api/System.Runtime.InteropServices.ImporterEventKind.yml
+  - uid: System.Runtime.InteropServices.InAttribute
+    name: InAttribute
+    href: api/System.Runtime.InteropServices.InAttribute.yml
+  - uid: System.Runtime.InteropServices.InterfaceTypeAttribute
+    name: InterfaceTypeAttribute
+    href: api/System.Runtime.InteropServices.InterfaceTypeAttribute.yml
+  - uid: System.Runtime.InteropServices.InvalidComObjectException
+    name: InvalidComObjectException
+    href: api/System.Runtime.InteropServices.InvalidComObjectException.yml
+  - uid: System.Runtime.InteropServices.InvalidOleVariantTypeException
+    name: InvalidOleVariantTypeException
+    href: api/System.Runtime.InteropServices.InvalidOleVariantTypeException.yml
+  - uid: System.Runtime.InteropServices.INVOKEKIND
+    name: INVOKEKIND
+    href: api/System.Runtime.InteropServices.INVOKEKIND.yml
+  - uid: System.Runtime.InteropServices.IRegistrationServices
+    name: IRegistrationServices
+    href: api/System.Runtime.InteropServices.IRegistrationServices.yml
+  - uid: System.Runtime.InteropServices.ITypeLibConverter
+    name: ITypeLibConverter
+    href: api/System.Runtime.InteropServices.ITypeLibConverter.yml
+  - uid: System.Runtime.InteropServices.ITypeLibExporterNameProvider
+    name: ITypeLibExporterNameProvider
+    href: api/System.Runtime.InteropServices.ITypeLibExporterNameProvider.yml
+  - uid: System.Runtime.InteropServices.ITypeLibExporterNotifySink
+    name: ITypeLibExporterNotifySink
+    href: api/System.Runtime.InteropServices.ITypeLibExporterNotifySink.yml
+  - uid: System.Runtime.InteropServices.ITypeLibImporterNotifySink
+    name: ITypeLibImporterNotifySink
+    href: api/System.Runtime.InteropServices.ITypeLibImporterNotifySink.yml
+  - uid: System.Runtime.InteropServices.LayoutKind
+    name: LayoutKind
+    href: api/System.Runtime.InteropServices.LayoutKind.yml
+  - uid: System.Runtime.InteropServices.LCIDConversionAttribute
+    name: LCIDConversionAttribute
+    href: api/System.Runtime.InteropServices.LCIDConversionAttribute.yml
+  - uid: System.Runtime.InteropServices.LIBFLAGS
+    name: LIBFLAGS
+    href: api/System.Runtime.InteropServices.LIBFLAGS.yml
+  - uid: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute
+    name: ManagedToNativeComInteropStubAttribute
+    href: api/System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.yml
+  - uid: System.Runtime.InteropServices.Marshal
+    name: Marshal
+    href: api/System.Runtime.InteropServices.Marshal.yml
+  - uid: System.Runtime.InteropServices.MarshalAsAttribute
+    name: MarshalAsAttribute
+    href: api/System.Runtime.InteropServices.MarshalAsAttribute.yml
+  - uid: System.Runtime.InteropServices.MarshalDirectiveException
+    name: MarshalDirectiveException
+    href: api/System.Runtime.InteropServices.MarshalDirectiveException.yml
+  - uid: System.Runtime.InteropServices.NativeCallableAttribute
+    name: NativeCallableAttribute
+    href: api/System.Runtime.InteropServices.NativeCallableAttribute.yml
+  - uid: System.Runtime.InteropServices.ObjectCreationDelegate
+    name: ObjectCreationDelegate
+    href: api/System.Runtime.InteropServices.ObjectCreationDelegate.yml
+  - uid: System.Runtime.InteropServices.OptionalAttribute
+    name: OptionalAttribute
+    href: api/System.Runtime.InteropServices.OptionalAttribute.yml
+  - uid: System.Runtime.InteropServices.OutAttribute
+    name: OutAttribute
+    href: api/System.Runtime.InteropServices.OutAttribute.yml
+  - uid: System.Runtime.InteropServices.PARAMDESC
+    name: PARAMDESC
+    href: api/System.Runtime.InteropServices.PARAMDESC.yml
+  - uid: System.Runtime.InteropServices.PARAMFLAG
+    name: PARAMFLAG
+    href: api/System.Runtime.InteropServices.PARAMFLAG.yml
+  - uid: System.Runtime.InteropServices.PreserveSigAttribute
+    name: PreserveSigAttribute
+    href: api/System.Runtime.InteropServices.PreserveSigAttribute.yml
+  - uid: System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute
+    name: PrimaryInteropAssemblyAttribute
+    href: api/System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute.yml
+  - uid: System.Runtime.InteropServices.ProgIdAttribute
+    name: ProgIdAttribute
+    href: api/System.Runtime.InteropServices.ProgIdAttribute.yml
+  - uid: System.Runtime.InteropServices.RegistrationClassContext
+    name: RegistrationClassContext
+    href: api/System.Runtime.InteropServices.RegistrationClassContext.yml
+  - uid: System.Runtime.InteropServices.RegistrationConnectionType
+    name: RegistrationConnectionType
+    href: api/System.Runtime.InteropServices.RegistrationConnectionType.yml
+  - uid: System.Runtime.InteropServices.RegistrationServices
+    name: RegistrationServices
+    href: api/System.Runtime.InteropServices.RegistrationServices.yml
+  - uid: System.Runtime.InteropServices.RuntimeEnvironment
+    name: RuntimeEnvironment
+    href: api/System.Runtime.InteropServices.RuntimeEnvironment.yml
+  - uid: System.Runtime.InteropServices.SafeArrayRankMismatchException
+    name: SafeArrayRankMismatchException
+    href: api/System.Runtime.InteropServices.SafeArrayRankMismatchException.yml
+  - uid: System.Runtime.InteropServices.SafeArrayTypeMismatchException
+    name: SafeArrayTypeMismatchException
+    href: api/System.Runtime.InteropServices.SafeArrayTypeMismatchException.yml
+  - uid: System.Runtime.InteropServices.SafeBuffer
+    name: SafeBuffer
+    href: api/System.Runtime.InteropServices.SafeBuffer.yml
+  - uid: System.Runtime.InteropServices.SafeHandle
+    name: SafeHandle
+    href: api/System.Runtime.InteropServices.SafeHandle.yml
+  - uid: System.Runtime.InteropServices.SEHException
+    name: SEHException
+    href: api/System.Runtime.InteropServices.SEHException.yml
+  - uid: System.Runtime.InteropServices.SetWin32ContextInIDispatchAttribute
+    name: SetWin32ContextInIDispatchAttribute
+    href: api/System.Runtime.InteropServices.SetWin32ContextInIDispatchAttribute.yml
+  - uid: System.Runtime.InteropServices.STATSTG
+    name: STATSTG
+    href: api/System.Runtime.InteropServices.STATSTG.yml
+  - uid: System.Runtime.InteropServices.StructLayoutAttribute
+    name: StructLayoutAttribute
+    href: api/System.Runtime.InteropServices.StructLayoutAttribute.yml
+  - uid: System.Runtime.InteropServices.SYSKIND
+    name: SYSKIND
+    href: api/System.Runtime.InteropServices.SYSKIND.yml
+  - uid: System.Runtime.InteropServices.TYPEATTR
+    name: TYPEATTR
+    href: api/System.Runtime.InteropServices.TYPEATTR.yml
+  - uid: System.Runtime.InteropServices.TYPEDESC
+    name: TYPEDESC
+    href: api/System.Runtime.InteropServices.TYPEDESC.yml
+  - uid: System.Runtime.InteropServices.TYPEFLAGS
+    name: TYPEFLAGS
+    href: api/System.Runtime.InteropServices.TYPEFLAGS.yml
+  - uid: System.Runtime.InteropServices.TypeIdentifierAttribute
+    name: TypeIdentifierAttribute
+    href: api/System.Runtime.InteropServices.TypeIdentifierAttribute.yml
+  - uid: System.Runtime.InteropServices.TYPEKIND
+    name: TYPEKIND
+    href: api/System.Runtime.InteropServices.TYPEKIND.yml
+  - uid: System.Runtime.InteropServices.TYPELIBATTR
+    name: TYPELIBATTR
+    href: api/System.Runtime.InteropServices.TYPELIBATTR.yml
+  - uid: System.Runtime.InteropServices.TypeLibExporterFlags
+    name: TypeLibExporterFlags
+    href: api/System.Runtime.InteropServices.TypeLibExporterFlags.yml
+  - uid: System.Runtime.InteropServices.TypeLibFuncAttribute
+    name: TypeLibFuncAttribute
+    href: api/System.Runtime.InteropServices.TypeLibFuncAttribute.yml
+  - uid: System.Runtime.InteropServices.TypeLibFuncFlags
+    name: TypeLibFuncFlags
+    href: api/System.Runtime.InteropServices.TypeLibFuncFlags.yml
+  - uid: System.Runtime.InteropServices.TypeLibImportClassAttribute
+    name: TypeLibImportClassAttribute
+    href: api/System.Runtime.InteropServices.TypeLibImportClassAttribute.yml
+  - uid: System.Runtime.InteropServices.TypeLibImporterFlags
+    name: TypeLibImporterFlags
+    href: api/System.Runtime.InteropServices.TypeLibImporterFlags.yml
+  - uid: System.Runtime.InteropServices.TypeLibTypeAttribute
+    name: TypeLibTypeAttribute
+    href: api/System.Runtime.InteropServices.TypeLibTypeAttribute.yml
+  - uid: System.Runtime.InteropServices.TypeLibTypeFlags
+    name: TypeLibTypeFlags
+    href: api/System.Runtime.InteropServices.TypeLibTypeFlags.yml
+  - uid: System.Runtime.InteropServices.TypeLibVarAttribute
+    name: TypeLibVarAttribute
+    href: api/System.Runtime.InteropServices.TypeLibVarAttribute.yml
+  - uid: System.Runtime.InteropServices.TypeLibVarFlags
+    name: TypeLibVarFlags
+    href: api/System.Runtime.InteropServices.TypeLibVarFlags.yml
+  - uid: System.Runtime.InteropServices.TypeLibVersionAttribute
+    name: TypeLibVersionAttribute
+    href: api/System.Runtime.InteropServices.TypeLibVersionAttribute.yml
+  - uid: System.Runtime.InteropServices.UCOMIBindCtx
+    name: UCOMIBindCtx
+    href: api/System.Runtime.InteropServices.UCOMIBindCtx.yml
+  - uid: System.Runtime.InteropServices.UCOMIConnectionPoint
+    name: UCOMIConnectionPoint
+    href: api/System.Runtime.InteropServices.UCOMIConnectionPoint.yml
+  - uid: System.Runtime.InteropServices.UCOMIConnectionPointContainer
+    name: UCOMIConnectionPointContainer
+    href: api/System.Runtime.InteropServices.UCOMIConnectionPointContainer.yml
+  - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
+    name: UCOMIEnumConnectionPoints
+    href: api/System.Runtime.InteropServices.UCOMIEnumConnectionPoints.yml
+  - uid: System.Runtime.InteropServices.UCOMIEnumConnections
+    name: UCOMIEnumConnections
+    href: api/System.Runtime.InteropServices.UCOMIEnumConnections.yml
+  - uid: System.Runtime.InteropServices.UCOMIEnumMoniker
+    name: UCOMIEnumMoniker
+    href: api/System.Runtime.InteropServices.UCOMIEnumMoniker.yml
+  - uid: System.Runtime.InteropServices.UCOMIEnumString
+    name: UCOMIEnumString
+    href: api/System.Runtime.InteropServices.UCOMIEnumString.yml
+  - uid: System.Runtime.InteropServices.UCOMIEnumVARIANT
+    name: UCOMIEnumVARIANT
+    href: api/System.Runtime.InteropServices.UCOMIEnumVARIANT.yml
+  - uid: System.Runtime.InteropServices.UCOMIMoniker
+    name: UCOMIMoniker
+    href: api/System.Runtime.InteropServices.UCOMIMoniker.yml
+  - uid: System.Runtime.InteropServices.UCOMIPersistFile
+    name: UCOMIPersistFile
+    href: api/System.Runtime.InteropServices.UCOMIPersistFile.yml
+  - uid: System.Runtime.InteropServices.UCOMIRunningObjectTable
+    name: UCOMIRunningObjectTable
+    href: api/System.Runtime.InteropServices.UCOMIRunningObjectTable.yml
+  - uid: System.Runtime.InteropServices.UCOMIStream
+    name: UCOMIStream
+    href: api/System.Runtime.InteropServices.UCOMIStream.yml
+  - uid: System.Runtime.InteropServices.UCOMITypeComp
+    name: UCOMITypeComp
+    href: api/System.Runtime.InteropServices.UCOMITypeComp.yml
+  - uid: System.Runtime.InteropServices.UCOMITypeInfo
+    name: UCOMITypeInfo
+    href: api/System.Runtime.InteropServices.UCOMITypeInfo.yml
+  - uid: System.Runtime.InteropServices.UCOMITypeLib
+    name: UCOMITypeLib
+    href: api/System.Runtime.InteropServices.UCOMITypeLib.yml
+  - uid: System.Runtime.InteropServices.UnknownWrapper
+    name: UnknownWrapper
+    href: api/System.Runtime.InteropServices.UnknownWrapper.yml
+  - uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
+    name: UnmanagedFunctionPointerAttribute
+    href: api/System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.yml
+  - uid: System.Runtime.InteropServices.UnmanagedType
+    name: UnmanagedType
+    href: api/System.Runtime.InteropServices.UnmanagedType.yml
+  - uid: System.Runtime.InteropServices.VARDESC
+    name: VARDESC
+    href: api/System.Runtime.InteropServices.VARDESC.yml
+  - uid: System.Runtime.InteropServices.VARDESC.DESCUNION
+    name: VARDESC.DESCUNION
+    href: api/System.Runtime.InteropServices.VARDESC.DESCUNION.yml
+  - uid: System.Runtime.InteropServices.VarEnum
+    name: VarEnum
+    href: api/System.Runtime.InteropServices.VarEnum.yml
+  - uid: System.Runtime.InteropServices.VARFLAGS
+    name: VARFLAGS
+    href: api/System.Runtime.InteropServices.VARFLAGS.yml
+  - uid: System.Runtime.InteropServices.VariantWrapper
+    name: VariantWrapper
+    href: api/System.Runtime.InteropServices.VariantWrapper.yml
+- uid: System.Runtime.InteropServices.ComTypes
+  name: System.Runtime.InteropServices.ComTypes
+  href: api/System.Runtime.InteropServices.ComTypes.yml
+  items:
+  - uid: System.Runtime.InteropServices.ComTypes.BIND_OPTS
+    name: BIND_OPTS
+    href: api/System.Runtime.InteropServices.ComTypes.BIND_OPTS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.BINDPTR
+    name: BINDPTR
+    href: api/System.Runtime.InteropServices.ComTypes.BINDPTR.yml
+  - uid: System.Runtime.InteropServices.ComTypes.CALLCONV
+    name: CALLCONV
+    href: api/System.Runtime.InteropServices.ComTypes.CALLCONV.yml
+  - uid: System.Runtime.InteropServices.ComTypes.CONNECTDATA
+    name: CONNECTDATA
+    href: api/System.Runtime.InteropServices.ComTypes.CONNECTDATA.yml
+  - uid: System.Runtime.InteropServices.ComTypes.DESCKIND
+    name: DESCKIND
+    href: api/System.Runtime.InteropServices.ComTypes.DESCKIND.yml
+  - uid: System.Runtime.InteropServices.ComTypes.DISPPARAMS
+    name: DISPPARAMS
+    href: api/System.Runtime.InteropServices.ComTypes.DISPPARAMS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ELEMDESC
+    name: ELEMDESC
+    href: api/System.Runtime.InteropServices.ComTypes.ELEMDESC.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ELEMDESC.DESCUNION
+    name: ELEMDESC.DESCUNION
+    href: api/System.Runtime.InteropServices.ComTypes.ELEMDESC.DESCUNION.yml
+  - uid: System.Runtime.InteropServices.ComTypes.EXCEPINFO
+    name: EXCEPINFO
+    href: api/System.Runtime.InteropServices.ComTypes.EXCEPINFO.yml
+  - uid: System.Runtime.InteropServices.ComTypes.FILETIME
+    name: FILETIME
+    href: api/System.Runtime.InteropServices.ComTypes.FILETIME.yml
+  - uid: System.Runtime.InteropServices.ComTypes.FUNCDESC
+    name: FUNCDESC
+    href: api/System.Runtime.InteropServices.ComTypes.FUNCDESC.yml
+  - uid: System.Runtime.InteropServices.ComTypes.FUNCFLAGS
+    name: FUNCFLAGS
+    href: api/System.Runtime.InteropServices.ComTypes.FUNCFLAGS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.FUNCKIND
+    name: FUNCKIND
+    href: api/System.Runtime.InteropServices.ComTypes.FUNCKIND.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IBindCtx
+    name: IBindCtx
+    href: api/System.Runtime.InteropServices.ComTypes.IBindCtx.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IConnectionPoint
+    name: IConnectionPoint
+    href: api/System.Runtime.InteropServices.ComTypes.IConnectionPoint.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IConnectionPointContainer
+    name: IConnectionPointContainer
+    href: api/System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IDLDESC
+    name: IDLDESC
+    href: api/System.Runtime.InteropServices.ComTypes.IDLDESC.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IDLFLAG
+    name: IDLFLAG
+    href: api/System.Runtime.InteropServices.ComTypes.IDLFLAG.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints
+    name: IEnumConnectionPoints
+    href: api/System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IEnumConnections
+    name: IEnumConnections
+    href: api/System.Runtime.InteropServices.ComTypes.IEnumConnections.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker
+    name: IEnumMoniker
+    href: api/System.Runtime.InteropServices.ComTypes.IEnumMoniker.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IEnumString
+    name: IEnumString
+    href: api/System.Runtime.InteropServices.ComTypes.IEnumString.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+    name: IEnumVARIANT
+    href: api/System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IMoniker
+    name: IMoniker
+    href: api/System.Runtime.InteropServices.ComTypes.IMoniker.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS
+    name: IMPLTYPEFLAGS
+    href: api/System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.INVOKEKIND
+    name: INVOKEKIND
+    href: api/System.Runtime.InteropServices.ComTypes.INVOKEKIND.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IPersistFile
+    name: IPersistFile
+    href: api/System.Runtime.InteropServices.ComTypes.IPersistFile.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+    name: IRunningObjectTable
+    href: api/System.Runtime.InteropServices.ComTypes.IRunningObjectTable.yml
+  - uid: System.Runtime.InteropServices.ComTypes.IStream
+    name: IStream
+    href: api/System.Runtime.InteropServices.ComTypes.IStream.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ITypeComp
+    name: ITypeComp
+    href: api/System.Runtime.InteropServices.ComTypes.ITypeComp.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo
+    name: ITypeInfo
+    href: api/System.Runtime.InteropServices.ComTypes.ITypeInfo.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo2
+    name: ITypeInfo2
+    href: api/System.Runtime.InteropServices.ComTypes.ITypeInfo2.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ITypeLib
+    name: ITypeLib
+    href: api/System.Runtime.InteropServices.ComTypes.ITypeLib.yml
+  - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2
+    name: ITypeLib2
+    href: api/System.Runtime.InteropServices.ComTypes.ITypeLib2.yml
+  - uid: System.Runtime.InteropServices.ComTypes.LIBFLAGS
+    name: LIBFLAGS
+    href: api/System.Runtime.InteropServices.ComTypes.LIBFLAGS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.PARAMDESC
+    name: PARAMDESC
+    href: api/System.Runtime.InteropServices.ComTypes.PARAMDESC.yml
+  - uid: System.Runtime.InteropServices.ComTypes.PARAMFLAG
+    name: PARAMFLAG
+    href: api/System.Runtime.InteropServices.ComTypes.PARAMFLAG.yml
+  - uid: System.Runtime.InteropServices.ComTypes.STATSTG
+    name: STATSTG
+    href: api/System.Runtime.InteropServices.ComTypes.STATSTG.yml
+  - uid: System.Runtime.InteropServices.ComTypes.SYSKIND
+    name: SYSKIND
+    href: api/System.Runtime.InteropServices.ComTypes.SYSKIND.yml
+  - uid: System.Runtime.InteropServices.ComTypes.TYPEATTR
+    name: TYPEATTR
+    href: api/System.Runtime.InteropServices.ComTypes.TYPEATTR.yml
+  - uid: System.Runtime.InteropServices.ComTypes.TYPEDESC
+    name: TYPEDESC
+    href: api/System.Runtime.InteropServices.ComTypes.TYPEDESC.yml
+  - uid: System.Runtime.InteropServices.ComTypes.TYPEFLAGS
+    name: TYPEFLAGS
+    href: api/System.Runtime.InteropServices.ComTypes.TYPEFLAGS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.TYPEKIND
+    name: TYPEKIND
+    href: api/System.Runtime.InteropServices.ComTypes.TYPEKIND.yml
+  - uid: System.Runtime.InteropServices.ComTypes.TYPELIBATTR
+    name: TYPELIBATTR
+    href: api/System.Runtime.InteropServices.ComTypes.TYPELIBATTR.yml
+  - uid: System.Runtime.InteropServices.ComTypes.VARDESC
+    name: VARDESC
+    href: api/System.Runtime.InteropServices.ComTypes.VARDESC.yml
+  - uid: System.Runtime.InteropServices.ComTypes.VARDESC.DESCUNION
+    name: VARDESC.DESCUNION
+    href: api/System.Runtime.InteropServices.ComTypes.VARDESC.DESCUNION.yml
+  - uid: System.Runtime.InteropServices.ComTypes.VARFLAGS
+    name: VARFLAGS
+    href: api/System.Runtime.InteropServices.ComTypes.VARFLAGS.yml
+  - uid: System.Runtime.InteropServices.ComTypes.VARKIND
+    name: VARKIND
+    href: api/System.Runtime.InteropServices.ComTypes.VARKIND.yml
+- uid: System.Runtime.InteropServices.Expando
+  name: System.Runtime.InteropServices.Expando
+  href: api/System.Runtime.InteropServices.Expando.yml
+  items:
+  - uid: System.Runtime.InteropServices.Expando.IExpando
+    name: IExpando
+    href: api/System.Runtime.InteropServices.Expando.IExpando.yml
+- uid: System.Runtime.InteropServices.WindowsRuntime
+  name: System.Runtime.InteropServices.WindowsRuntime
+  href: api/System.Runtime.InteropServices.WindowsRuntime.yml
+  items:
+  - uid: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute
+    name: DefaultInterfaceAttribute
+    href: api/System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs
+    name: DesignerNamespaceResolveEventArgs
+    href: api/System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
+    name: EventRegistrationToken
+    href: api/System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
+    name: EventRegistrationTokenTable<T>
+    name.vb: EventRegistrationTokenTable(Of T)
+    href: api/System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.IActivationFactory
+    name: IActivationFactory
+    href: api/System.Runtime.InteropServices.WindowsRuntime.IActivationFactory.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute
+    name: InterfaceImplementedInVersionAttribute
+    href: api/System.Runtime.InteropServices.WindowsRuntime.InterfaceImplementedInVersionAttribute.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.ReadOnlyArrayAttribute
+    name: ReadOnlyArrayAttribute
+    href: api/System.Runtime.InteropServices.WindowsRuntime.ReadOnlyArrayAttribute.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute
+    name: ReturnValueNameAttribute
+    href: api/System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal
+    name: WindowsRuntimeMarshal
+    href: api/System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata
+    name: WindowsRuntimeMetadata
+    href: api/System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.yml
+  - uid: System.Runtime.InteropServices.WindowsRuntime.WriteOnlyArrayAttribute
+    name: WriteOnlyArrayAttribute
+    href: api/System.Runtime.InteropServices.WindowsRuntime.WriteOnlyArrayAttribute.yml
+- uid: System.Runtime.Loader
+  name: System.Runtime.Loader
+  href: api/System.Runtime.Loader.yml
+  items:
+  - uid: System.Runtime.Loader.AssemblyLoadContext
+    name: AssemblyLoadContext
+    href: api/System.Runtime.Loader.AssemblyLoadContext.yml
+- uid: System.Runtime.Remoting
+  name: System.Runtime.Remoting
+  href: api/System.Runtime.Remoting.yml
+  items:
+  - uid: System.Runtime.Remoting.IObjectHandle
+    name: IObjectHandle
+    href: api/System.Runtime.Remoting.IObjectHandle.yml
+  - uid: System.Runtime.Remoting.ObjectHandle
+    name: ObjectHandle
+    href: api/System.Runtime.Remoting.ObjectHandle.yml
+- uid: System.Runtime.Serialization
+  name: System.Runtime.Serialization
+  href: api/System.Runtime.Serialization.yml
+  items:
+  - uid: System.Runtime.Serialization.FormatterConverter
+    name: FormatterConverter
+    href: api/System.Runtime.Serialization.FormatterConverter.yml
+  - uid: System.Runtime.Serialization.FormatterServices
+    name: FormatterServices
+    href: api/System.Runtime.Serialization.FormatterServices.yml
+  - uid: System.Runtime.Serialization.IDeserializationCallback
+    name: IDeserializationCallback
+    href: api/System.Runtime.Serialization.IDeserializationCallback.yml
+  - uid: System.Runtime.Serialization.IFormatter
+    name: IFormatter
+    href: api/System.Runtime.Serialization.IFormatter.yml
+  - uid: System.Runtime.Serialization.IFormatterConverter
+    name: IFormatterConverter
+    href: api/System.Runtime.Serialization.IFormatterConverter.yml
+  - uid: System.Runtime.Serialization.IObjectReference
+    name: IObjectReference
+    href: api/System.Runtime.Serialization.IObjectReference.yml
+  - uid: System.Runtime.Serialization.ISerializable
+    name: ISerializable
+    href: api/System.Runtime.Serialization.ISerializable.yml
+  - uid: System.Runtime.Serialization.ISerializationSurrogate
+    name: ISerializationSurrogate
+    href: api/System.Runtime.Serialization.ISerializationSurrogate.yml
+  - uid: System.Runtime.Serialization.ISurrogateSelector
+    name: ISurrogateSelector
+    href: api/System.Runtime.Serialization.ISurrogateSelector.yml
+  - uid: System.Runtime.Serialization.OnDeserializedAttribute
+    name: OnDeserializedAttribute
+    href: api/System.Runtime.Serialization.OnDeserializedAttribute.yml
+  - uid: System.Runtime.Serialization.OnDeserializingAttribute
+    name: OnDeserializingAttribute
+    href: api/System.Runtime.Serialization.OnDeserializingAttribute.yml
+  - uid: System.Runtime.Serialization.OnSerializedAttribute
+    name: OnSerializedAttribute
+    href: api/System.Runtime.Serialization.OnSerializedAttribute.yml
+  - uid: System.Runtime.Serialization.OnSerializingAttribute
+    name: OnSerializingAttribute
+    href: api/System.Runtime.Serialization.OnSerializingAttribute.yml
+  - uid: System.Runtime.Serialization.OptionalFieldAttribute
+    name: OptionalFieldAttribute
+    href: api/System.Runtime.Serialization.OptionalFieldAttribute.yml
+  - uid: System.Runtime.Serialization.SerializationBinder
+    name: SerializationBinder
+    href: api/System.Runtime.Serialization.SerializationBinder.yml
+  - uid: System.Runtime.Serialization.SerializationEntry
+    name: SerializationEntry
+    href: api/System.Runtime.Serialization.SerializationEntry.yml
+  - uid: System.Runtime.Serialization.SerializationException
+    name: SerializationException
+    href: api/System.Runtime.Serialization.SerializationException.yml
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    href: api/System.Runtime.Serialization.SerializationInfo.yml
+  - uid: System.Runtime.Serialization.SerializationInfoEnumerator
+    name: SerializationInfoEnumerator
+    href: api/System.Runtime.Serialization.SerializationInfoEnumerator.yml
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    href: api/System.Runtime.Serialization.StreamingContext.yml
+  - uid: System.Runtime.Serialization.StreamingContextStates
+    name: StreamingContextStates
+    href: api/System.Runtime.Serialization.StreamingContextStates.yml
+- uid: System.Runtime.Serialization.Formatters
+  name: System.Runtime.Serialization.Formatters
+  href: api/System.Runtime.Serialization.Formatters.yml
+  items:
+  - uid: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
+    name: FormatterAssemblyStyle
+    href: api/System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.yml
+  - uid: System.Runtime.Serialization.Formatters.FormatterTypeStyle
+    name: FormatterTypeStyle
+    href: api/System.Runtime.Serialization.Formatters.FormatterTypeStyle.yml
+  - uid: System.Runtime.Serialization.Formatters.IFieldInfo
+    name: IFieldInfo
+    href: api/System.Runtime.Serialization.Formatters.IFieldInfo.yml
+  - uid: System.Runtime.Serialization.Formatters.InternalRM
+    name: InternalRM
+    href: api/System.Runtime.Serialization.Formatters.InternalRM.yml
+  - uid: System.Runtime.Serialization.Formatters.InternalST
+    name: InternalST
+    href: api/System.Runtime.Serialization.Formatters.InternalST.yml
+  - uid: System.Runtime.Serialization.Formatters.TypeFilterLevel
+    name: TypeFilterLevel
+    href: api/System.Runtime.Serialization.Formatters.TypeFilterLevel.yml
+- uid: System.Runtime.Versioning
+  name: System.Runtime.Versioning
+  href: api/System.Runtime.Versioning.yml
+  items:
+  - uid: System.Runtime.Versioning.CompatibilitySwitch
+    name: CompatibilitySwitch
+    href: api/System.Runtime.Versioning.CompatibilitySwitch.yml
+  - uid: System.Runtime.Versioning.ComponentGuaranteesAttribute
+    name: ComponentGuaranteesAttribute
+    href: api/System.Runtime.Versioning.ComponentGuaranteesAttribute.yml
+  - uid: System.Runtime.Versioning.ComponentGuaranteesOptions
+    name: ComponentGuaranteesOptions
+    href: api/System.Runtime.Versioning.ComponentGuaranteesOptions.yml
+  - uid: System.Runtime.Versioning.ResourceConsumptionAttribute
+    name: ResourceConsumptionAttribute
+    href: api/System.Runtime.Versioning.ResourceConsumptionAttribute.yml
+  - uid: System.Runtime.Versioning.ResourceExposureAttribute
+    name: ResourceExposureAttribute
+    href: api/System.Runtime.Versioning.ResourceExposureAttribute.yml
+  - uid: System.Runtime.Versioning.ResourceScope
+    name: ResourceScope
+    href: api/System.Runtime.Versioning.ResourceScope.yml
+  - uid: System.Runtime.Versioning.TargetFrameworkAttribute
+    name: TargetFrameworkAttribute
+    href: api/System.Runtime.Versioning.TargetFrameworkAttribute.yml
+  - uid: System.Runtime.Versioning.VersioningHelper
+    name: VersioningHelper
+    href: api/System.Runtime.Versioning.VersioningHelper.yml
+- uid: System.Security
+  name: System.Security
+  href: api/System.Security.yml
+  items:
+  - uid: System.Security.AllowPartiallyTrustedCallersAttribute
+    name: AllowPartiallyTrustedCallersAttribute
+    href: api/System.Security.AllowPartiallyTrustedCallersAttribute.yml
+  - uid: System.Security.CodeAccessPermission
+    name: CodeAccessPermission
+    href: api/System.Security.CodeAccessPermission.yml
+  - uid: System.Security.HostProtectionException
+    name: HostProtectionException
+    href: api/System.Security.HostProtectionException.yml
+  - uid: System.Security.HostSecurityManager
+    name: HostSecurityManager
+    href: api/System.Security.HostSecurityManager.yml
+  - uid: System.Security.HostSecurityManagerOptions
+    name: HostSecurityManagerOptions
+    href: api/System.Security.HostSecurityManagerOptions.yml
+  - uid: System.Security.IEvidenceFactory
+    name: IEvidenceFactory
+    href: api/System.Security.IEvidenceFactory.yml
+  - uid: System.Security.IPermission
+    name: IPermission
+    href: api/System.Security.IPermission.yml
+  - uid: System.Security.ISecurityEncodable
+    name: ISecurityEncodable
+    href: api/System.Security.ISecurityEncodable.yml
+  - uid: System.Security.ISecurityPolicyEncodable
+    name: ISecurityPolicyEncodable
+    href: api/System.Security.ISecurityPolicyEncodable.yml
+  - uid: System.Security.IStackWalk
+    name: IStackWalk
+    href: api/System.Security.IStackWalk.yml
+  - uid: System.Security.NamedPermissionSet
+    name: NamedPermissionSet
+    href: api/System.Security.NamedPermissionSet.yml
+  - uid: System.Security.PartialTrustVisibilityLevel
+    name: PartialTrustVisibilityLevel
+    href: api/System.Security.PartialTrustVisibilityLevel.yml
+  - uid: System.Security.PermissionSet
+    name: PermissionSet
+    href: api/System.Security.PermissionSet.yml
+  - uid: System.Security.PolicyLevelType
+    name: PolicyLevelType
+    href: api/System.Security.PolicyLevelType.yml
+  - uid: System.Security.SecureString
+    name: SecureString
+    href: api/System.Security.SecureString.yml
+  - uid: System.Security.SecurityContextSource
+    name: SecurityContextSource
+    href: api/System.Security.SecurityContextSource.yml
+  - uid: System.Security.SecurityCriticalAttribute
+    name: SecurityCriticalAttribute
+    href: api/System.Security.SecurityCriticalAttribute.yml
+  - uid: System.Security.SecurityElement
+    name: SecurityElement
+    href: api/System.Security.SecurityElement.yml
+  - uid: System.Security.SecurityException
+    name: SecurityException
+    href: api/System.Security.SecurityException.yml
+  - uid: System.Security.SecurityManager
+    name: SecurityManager
+    href: api/System.Security.SecurityManager.yml
+  - uid: System.Security.SecuritySafeCriticalAttribute
+    name: SecuritySafeCriticalAttribute
+    href: api/System.Security.SecuritySafeCriticalAttribute.yml
+  - uid: System.Security.SecurityState
+    name: SecurityState
+    href: api/System.Security.SecurityState.yml
+  - uid: System.Security.SecurityTransparentAttribute
+    name: SecurityTransparentAttribute
+    href: api/System.Security.SecurityTransparentAttribute.yml
+  - uid: System.Security.SecurityTreatAsSafeAttribute
+    name: SecurityTreatAsSafeAttribute
+    href: api/System.Security.SecurityTreatAsSafeAttribute.yml
+  - uid: System.Security.SecurityZone
+    name: SecurityZone
+    href: api/System.Security.SecurityZone.yml
+  - uid: System.Security.SuppressUnmanagedCodeSecurityAttribute
+    name: SuppressUnmanagedCodeSecurityAttribute
+    href: api/System.Security.SuppressUnmanagedCodeSecurityAttribute.yml
+  - uid: System.Security.UnverifiableCodeAttribute
+    name: UnverifiableCodeAttribute
+    href: api/System.Security.UnverifiableCodeAttribute.yml
+  - uid: System.Security.VerificationException
+    name: VerificationException
+    href: api/System.Security.VerificationException.yml
+  - uid: System.Security.XmlSyntaxException
+    name: XmlSyntaxException
+    href: api/System.Security.XmlSyntaxException.yml
+- uid: System.Security.AccessControl
+  name: System.Security.AccessControl
+  href: api/System.Security.AccessControl.yml
+  items:
+  - uid: System.Security.AccessControl.AccessControlActions
+    name: AccessControlActions
+    href: api/System.Security.AccessControl.AccessControlActions.yml
+  - uid: System.Security.AccessControl.AccessControlSections
+    name: AccessControlSections
+    href: api/System.Security.AccessControl.AccessControlSections.yml
+  - uid: System.Security.AccessControl.AuditFlags
+    name: AuditFlags
+    href: api/System.Security.AccessControl.AuditFlags.yml
+  - uid: System.Security.AccessControl.EventWaitHandleRights
+    name: EventWaitHandleRights
+    href: api/System.Security.AccessControl.EventWaitHandleRights.yml
+  - uid: System.Security.AccessControl.EventWaitHandleSecurity
+    name: EventWaitHandleSecurity
+    href: api/System.Security.AccessControl.EventWaitHandleSecurity.yml
+  - uid: System.Security.AccessControl.InheritanceFlags
+    name: InheritanceFlags
+    href: api/System.Security.AccessControl.InheritanceFlags.yml
+  - uid: System.Security.AccessControl.PropagationFlags
+    name: PropagationFlags
+    href: api/System.Security.AccessControl.PropagationFlags.yml
+  - uid: System.Security.AccessControl.ResourceType
+    name: ResourceType
+    href: api/System.Security.AccessControl.ResourceType.yml
+  - uid: System.Security.AccessControl.SecurityInfos
+    name: SecurityInfos
+    href: api/System.Security.AccessControl.SecurityInfos.yml
+- uid: System.Security.Cryptography
+  name: System.Security.Cryptography
+  href: api/System.Security.Cryptography.yml
+  items:
+  - uid: System.Security.Cryptography.Aes
+    name: Aes
+    href: api/System.Security.Cryptography.Aes.yml
+  - uid: System.Security.Cryptography.AsymmetricAlgorithm
+    name: AsymmetricAlgorithm
+    href: api/System.Security.Cryptography.AsymmetricAlgorithm.yml
+  - uid: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter
+    name: AsymmetricKeyExchangeDeformatter
+    href: api/System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.yml
+  - uid: System.Security.Cryptography.AsymmetricKeyExchangeFormatter
+    name: AsymmetricKeyExchangeFormatter
+    href: api/System.Security.Cryptography.AsymmetricKeyExchangeFormatter.yml
+  - uid: System.Security.Cryptography.AsymmetricSignatureDeformatter
+    name: AsymmetricSignatureDeformatter
+    href: api/System.Security.Cryptography.AsymmetricSignatureDeformatter.yml
+  - uid: System.Security.Cryptography.AsymmetricSignatureFormatter
+    name: AsymmetricSignatureFormatter
+    href: api/System.Security.Cryptography.AsymmetricSignatureFormatter.yml
+  - uid: System.Security.Cryptography.CipherMode
+    name: CipherMode
+    href: api/System.Security.Cryptography.CipherMode.yml
+  - uid: System.Security.Cryptography.CryptoConfig
+    name: CryptoConfig
+    href: api/System.Security.Cryptography.CryptoConfig.yml
+  - uid: System.Security.Cryptography.CryptographicException
+    name: CryptographicException
+    href: api/System.Security.Cryptography.CryptographicException.yml
+  - uid: System.Security.Cryptography.CryptographicUnexpectedOperationException
+    name: CryptographicUnexpectedOperationException
+    href: api/System.Security.Cryptography.CryptographicUnexpectedOperationException.yml
+  - uid: System.Security.Cryptography.CryptoStream
+    name: CryptoStream
+    href: api/System.Security.Cryptography.CryptoStream.yml
+  - uid: System.Security.Cryptography.CryptoStreamMode
+    name: CryptoStreamMode
+    href: api/System.Security.Cryptography.CryptoStreamMode.yml
+  - uid: System.Security.Cryptography.CspKeyContainerInfo
+    name: CspKeyContainerInfo
+    href: api/System.Security.Cryptography.CspKeyContainerInfo.yml
+  - uid: System.Security.Cryptography.CspParameters
+    name: CspParameters
+    href: api/System.Security.Cryptography.CspParameters.yml
+  - uid: System.Security.Cryptography.CspProviderFlags
+    name: CspProviderFlags
+    href: api/System.Security.Cryptography.CspProviderFlags.yml
+  - uid: System.Security.Cryptography.DeriveBytes
+    name: DeriveBytes
+    href: api/System.Security.Cryptography.DeriveBytes.yml
+  - uid: System.Security.Cryptography.DES
+    name: DES
+    href: api/System.Security.Cryptography.DES.yml
+  - uid: System.Security.Cryptography.DSA
+    name: DSA
+    href: api/System.Security.Cryptography.DSA.yml
+  - uid: System.Security.Cryptography.DSAParameters
+    name: DSAParameters
+    href: api/System.Security.Cryptography.DSAParameters.yml
+  - uid: System.Security.Cryptography.DSASignatureDeformatter
+    name: DSASignatureDeformatter
+    href: api/System.Security.Cryptography.DSASignatureDeformatter.yml
+  - uid: System.Security.Cryptography.DSASignatureFormatter
+    name: DSASignatureFormatter
+    href: api/System.Security.Cryptography.DSASignatureFormatter.yml
+  - uid: System.Security.Cryptography.FromBase64Transform
+    name: FromBase64Transform
+    href: api/System.Security.Cryptography.FromBase64Transform.yml
+  - uid: System.Security.Cryptography.FromBase64TransformMode
+    name: FromBase64TransformMode
+    href: api/System.Security.Cryptography.FromBase64TransformMode.yml
+  - uid: System.Security.Cryptography.HashAlgorithm
+    name: HashAlgorithm
+    href: api/System.Security.Cryptography.HashAlgorithm.yml
+  - uid: System.Security.Cryptography.HMAC
+    name: HMAC
+    href: api/System.Security.Cryptography.HMAC.yml
+  - uid: System.Security.Cryptography.HMACMD5
+    name: HMACMD5
+    href: api/System.Security.Cryptography.HMACMD5.yml
+  - uid: System.Security.Cryptography.HMACRIPEMD160
+    name: HMACRIPEMD160
+    href: api/System.Security.Cryptography.HMACRIPEMD160.yml
+  - uid: System.Security.Cryptography.HMACSHA1
+    name: HMACSHA1
+    href: api/System.Security.Cryptography.HMACSHA1.yml
+  - uid: System.Security.Cryptography.HMACSHA256
+    name: HMACSHA256
+    href: api/System.Security.Cryptography.HMACSHA256.yml
+  - uid: System.Security.Cryptography.HMACSHA384
+    name: HMACSHA384
+    href: api/System.Security.Cryptography.HMACSHA384.yml
+  - uid: System.Security.Cryptography.HMACSHA512
+    name: HMACSHA512
+    href: api/System.Security.Cryptography.HMACSHA512.yml
+  - uid: System.Security.Cryptography.ICryptoTransform
+    name: ICryptoTransform
+    href: api/System.Security.Cryptography.ICryptoTransform.yml
+  - uid: System.Security.Cryptography.ICspAsymmetricAlgorithm
+    name: ICspAsymmetricAlgorithm
+    href: api/System.Security.Cryptography.ICspAsymmetricAlgorithm.yml
+  - uid: System.Security.Cryptography.KeyedHashAlgorithm
+    name: KeyedHashAlgorithm
+    href: api/System.Security.Cryptography.KeyedHashAlgorithm.yml
+  - uid: System.Security.Cryptography.KeyNumber
+    name: KeyNumber
+    href: api/System.Security.Cryptography.KeyNumber.yml
+  - uid: System.Security.Cryptography.KeySizes
+    name: KeySizes
+    href: api/System.Security.Cryptography.KeySizes.yml
+  - uid: System.Security.Cryptography.MACTripleDES
+    name: MACTripleDES
+    href: api/System.Security.Cryptography.MACTripleDES.yml
+  - uid: System.Security.Cryptography.MaskGenerationMethod
+    name: MaskGenerationMethod
+    href: api/System.Security.Cryptography.MaskGenerationMethod.yml
+  - uid: System.Security.Cryptography.MD5
+    name: MD5
+    href: api/System.Security.Cryptography.MD5.yml
+  - uid: System.Security.Cryptography.MD5CryptoServiceProvider
+    name: MD5CryptoServiceProvider
+    href: api/System.Security.Cryptography.MD5CryptoServiceProvider.yml
+  - uid: System.Security.Cryptography.PaddingMode
+    name: PaddingMode
+    href: api/System.Security.Cryptography.PaddingMode.yml
+  - uid: System.Security.Cryptography.PasswordDeriveBytes
+    name: PasswordDeriveBytes
+    href: api/System.Security.Cryptography.PasswordDeriveBytes.yml
+  - uid: System.Security.Cryptography.PKCS1MaskGenerationMethod
+    name: PKCS1MaskGenerationMethod
+    href: api/System.Security.Cryptography.PKCS1MaskGenerationMethod.yml
+  - uid: System.Security.Cryptography.RandomNumberGenerator
+    name: RandomNumberGenerator
+    href: api/System.Security.Cryptography.RandomNumberGenerator.yml
+  - uid: System.Security.Cryptography.Rfc2898DeriveBytes
+    name: Rfc2898DeriveBytes
+    href: api/System.Security.Cryptography.Rfc2898DeriveBytes.yml
+  - uid: System.Security.Cryptography.Rijndael
+    name: Rijndael
+    href: api/System.Security.Cryptography.Rijndael.yml
+  - uid: System.Security.Cryptography.RijndaelManaged
+    name: RijndaelManaged
+    href: api/System.Security.Cryptography.RijndaelManaged.yml
+  - uid: System.Security.Cryptography.RijndaelManagedTransform
+    name: RijndaelManagedTransform
+    href: api/System.Security.Cryptography.RijndaelManagedTransform.yml
+  - uid: System.Security.Cryptography.RIPEMD160
+    name: RIPEMD160
+    href: api/System.Security.Cryptography.RIPEMD160.yml
+  - uid: System.Security.Cryptography.RIPEMD160Managed
+    name: RIPEMD160Managed
+    href: api/System.Security.Cryptography.RIPEMD160Managed.yml
+  - uid: System.Security.Cryptography.RNGCryptoServiceProvider
+    name: RNGCryptoServiceProvider
+    href: api/System.Security.Cryptography.RNGCryptoServiceProvider.yml
+  - uid: System.Security.Cryptography.RSA
+    name: RSA
+    href: api/System.Security.Cryptography.RSA.yml
+  - uid: System.Security.Cryptography.RSACryptoServiceProvider
+    name: RSACryptoServiceProvider
+    href: api/System.Security.Cryptography.RSACryptoServiceProvider.yml
+  - uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
+    name: RSAOAEPKeyExchangeDeformatter
+    href: api/System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.yml
+  - uid: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter
+    name: RSAOAEPKeyExchangeFormatter
+    href: api/System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.yml
+  - uid: System.Security.Cryptography.RSAParameters
+    name: RSAParameters
+    href: api/System.Security.Cryptography.RSAParameters.yml
+  - uid: System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter
+    name: RSAPKCS1KeyExchangeDeformatter
+    href: api/System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter.yml
+  - uid: System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter
+    name: RSAPKCS1KeyExchangeFormatter
+    href: api/System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter.yml
+  - uid: System.Security.Cryptography.RSAPKCS1SignatureDeformatter
+    name: RSAPKCS1SignatureDeformatter
+    href: api/System.Security.Cryptography.RSAPKCS1SignatureDeformatter.yml
+  - uid: System.Security.Cryptography.RSAPKCS1SignatureFormatter
+    name: RSAPKCS1SignatureFormatter
+    href: api/System.Security.Cryptography.RSAPKCS1SignatureFormatter.yml
+  - uid: System.Security.Cryptography.SHA1
+    name: SHA1
+    href: api/System.Security.Cryptography.SHA1.yml
+  - uid: System.Security.Cryptography.SHA1CryptoServiceProvider
+    name: SHA1CryptoServiceProvider
+    href: api/System.Security.Cryptography.SHA1CryptoServiceProvider.yml
+  - uid: System.Security.Cryptography.SHA1Managed
+    name: SHA1Managed
+    href: api/System.Security.Cryptography.SHA1Managed.yml
+  - uid: System.Security.Cryptography.SHA256
+    name: SHA256
+    href: api/System.Security.Cryptography.SHA256.yml
+  - uid: System.Security.Cryptography.SHA256Managed
+    name: SHA256Managed
+    href: api/System.Security.Cryptography.SHA256Managed.yml
+  - uid: System.Security.Cryptography.SHA384
+    name: SHA384
+    href: api/System.Security.Cryptography.SHA384.yml
+  - uid: System.Security.Cryptography.SHA384Managed
+    name: SHA384Managed
+    href: api/System.Security.Cryptography.SHA384Managed.yml
+  - uid: System.Security.Cryptography.SHA512
+    name: SHA512
+    href: api/System.Security.Cryptography.SHA512.yml
+  - uid: System.Security.Cryptography.SHA512Managed
+    name: SHA512Managed
+    href: api/System.Security.Cryptography.SHA512Managed.yml
+  - uid: System.Security.Cryptography.SignatureDescription
+    name: SignatureDescription
+    href: api/System.Security.Cryptography.SignatureDescription.yml
+  - uid: System.Security.Cryptography.SymmetricAlgorithm
+    name: SymmetricAlgorithm
+    href: api/System.Security.Cryptography.SymmetricAlgorithm.yml
+  - uid: System.Security.Cryptography.ToBase64Transform
+    name: ToBase64Transform
+    href: api/System.Security.Cryptography.ToBase64Transform.yml
+  - uid: System.Security.Cryptography.TripleDES
+    name: TripleDES
+    href: api/System.Security.Cryptography.TripleDES.yml
+- uid: System.Security.Cryptography.X509Certificates
+  name: System.Security.Cryptography.X509Certificates
+  href: api/System.Security.Cryptography.X509Certificates.yml
+  items:
+  - uid: System.Security.Cryptography.X509Certificates.X509Certificate
+    name: X509Certificate
+    href: api/System.Security.Cryptography.X509Certificates.X509Certificate.yml
+  - uid: System.Security.Cryptography.X509Certificates.X509ContentType
+    name: X509ContentType
+    href: api/System.Security.Cryptography.X509Certificates.X509ContentType.yml
+  - uid: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
+    name: X509KeyStorageFlags
+    href: api/System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.yml
+- uid: System.Security.Permissions
+  name: System.Security.Permissions
+  href: api/System.Security.Permissions.yml
+  items:
+  - uid: System.Security.Permissions.CodeAccessSecurityAttribute
+    name: CodeAccessSecurityAttribute
+    href: api/System.Security.Permissions.CodeAccessSecurityAttribute.yml
+  - uid: System.Security.Permissions.EnvironmentPermission
+    name: EnvironmentPermission
+    href: api/System.Security.Permissions.EnvironmentPermission.yml
+  - uid: System.Security.Permissions.EnvironmentPermissionAccess
+    name: EnvironmentPermissionAccess
+    href: api/System.Security.Permissions.EnvironmentPermissionAccess.yml
+  - uid: System.Security.Permissions.EnvironmentPermissionAttribute
+    name: EnvironmentPermissionAttribute
+    href: api/System.Security.Permissions.EnvironmentPermissionAttribute.yml
+  - uid: System.Security.Permissions.FileDialogPermission
+    name: FileDialogPermission
+    href: api/System.Security.Permissions.FileDialogPermission.yml
+  - uid: System.Security.Permissions.FileDialogPermissionAccess
+    name: FileDialogPermissionAccess
+    href: api/System.Security.Permissions.FileDialogPermissionAccess.yml
+  - uid: System.Security.Permissions.FileDialogPermissionAttribute
+    name: FileDialogPermissionAttribute
+    href: api/System.Security.Permissions.FileDialogPermissionAttribute.yml
+  - uid: System.Security.Permissions.FileIOPermission
+    name: FileIOPermission
+    href: api/System.Security.Permissions.FileIOPermission.yml
+  - uid: System.Security.Permissions.FileIOPermissionAccess
+    name: FileIOPermissionAccess
+    href: api/System.Security.Permissions.FileIOPermissionAccess.yml
+  - uid: System.Security.Permissions.FileIOPermissionAttribute
+    name: FileIOPermissionAttribute
+    href: api/System.Security.Permissions.FileIOPermissionAttribute.yml
+  - uid: System.Security.Permissions.GacIdentityPermission
+    name: GacIdentityPermission
+    href: api/System.Security.Permissions.GacIdentityPermission.yml
+  - uid: System.Security.Permissions.GacIdentityPermissionAttribute
+    name: GacIdentityPermissionAttribute
+    href: api/System.Security.Permissions.GacIdentityPermissionAttribute.yml
+  - uid: System.Security.Permissions.HostProtectionAttribute
+    name: HostProtectionAttribute
+    href: api/System.Security.Permissions.HostProtectionAttribute.yml
+  - uid: System.Security.Permissions.HostProtectionResource
+    name: HostProtectionResource
+    href: api/System.Security.Permissions.HostProtectionResource.yml
+  - uid: System.Security.Permissions.IsolatedStorageContainment
+    name: IsolatedStorageContainment
+    href: api/System.Security.Permissions.IsolatedStorageContainment.yml
+  - uid: System.Security.Permissions.IsolatedStorageFilePermission
+    name: IsolatedStorageFilePermission
+    href: api/System.Security.Permissions.IsolatedStorageFilePermission.yml
+  - uid: System.Security.Permissions.IsolatedStoragePermission
+    name: IsolatedStoragePermission
+    href: api/System.Security.Permissions.IsolatedStoragePermission.yml
+  - uid: System.Security.Permissions.IUnrestrictedPermission
+    name: IUnrestrictedPermission
+    href: api/System.Security.Permissions.IUnrestrictedPermission.yml
+  - uid: System.Security.Permissions.KeyContainerPermission
+    name: KeyContainerPermission
+    href: api/System.Security.Permissions.KeyContainerPermission.yml
+  - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry
+    name: KeyContainerPermissionAccessEntry
+    href: api/System.Security.Permissions.KeyContainerPermissionAccessEntry.yml
+  - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
+    name: KeyContainerPermissionAccessEntryCollection
+    href: api/System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.yml
+  - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator
+    name: KeyContainerPermissionAccessEntryEnumerator
+    href: api/System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator.yml
+  - uid: System.Security.Permissions.KeyContainerPermissionAttribute
+    name: KeyContainerPermissionAttribute
+    href: api/System.Security.Permissions.KeyContainerPermissionAttribute.yml
+  - uid: System.Security.Permissions.KeyContainerPermissionFlags
+    name: KeyContainerPermissionFlags
+    href: api/System.Security.Permissions.KeyContainerPermissionFlags.yml
+  - uid: System.Security.Permissions.PermissionSetAttribute
+    name: PermissionSetAttribute
+    href: api/System.Security.Permissions.PermissionSetAttribute.yml
+  - uid: System.Security.Permissions.PermissionState
+    name: PermissionState
+    href: api/System.Security.Permissions.PermissionState.yml
+  - uid: System.Security.Permissions.ReflectionPermission
+    name: ReflectionPermission
+    href: api/System.Security.Permissions.ReflectionPermission.yml
+  - uid: System.Security.Permissions.ReflectionPermissionAttribute
+    name: ReflectionPermissionAttribute
+    href: api/System.Security.Permissions.ReflectionPermissionAttribute.yml
+  - uid: System.Security.Permissions.ReflectionPermissionFlag
+    name: ReflectionPermissionFlag
+    href: api/System.Security.Permissions.ReflectionPermissionFlag.yml
+  - uid: System.Security.Permissions.RegistryPermission
+    name: RegistryPermission
+    href: api/System.Security.Permissions.RegistryPermission.yml
+  - uid: System.Security.Permissions.RegistryPermissionAccess
+    name: RegistryPermissionAccess
+    href: api/System.Security.Permissions.RegistryPermissionAccess.yml
+  - uid: System.Security.Permissions.RegistryPermissionAttribute
+    name: RegistryPermissionAttribute
+    href: api/System.Security.Permissions.RegistryPermissionAttribute.yml
+  - uid: System.Security.Permissions.SecurityAction
+    name: SecurityAction
+    href: api/System.Security.Permissions.SecurityAction.yml
+  - uid: System.Security.Permissions.SecurityAttribute
+    name: SecurityAttribute
+    href: api/System.Security.Permissions.SecurityAttribute.yml
+  - uid: System.Security.Permissions.SecurityPermission
+    name: SecurityPermission
+    href: api/System.Security.Permissions.SecurityPermission.yml
+  - uid: System.Security.Permissions.SecurityPermissionAttribute
+    name: SecurityPermissionAttribute
+    href: api/System.Security.Permissions.SecurityPermissionAttribute.yml
+  - uid: System.Security.Permissions.SecurityPermissionFlag
+    name: SecurityPermissionFlag
+    href: api/System.Security.Permissions.SecurityPermissionFlag.yml
+  - uid: System.Security.Permissions.SiteIdentityPermission
+    name: SiteIdentityPermission
+    href: api/System.Security.Permissions.SiteIdentityPermission.yml
+  - uid: System.Security.Permissions.SiteIdentityPermissionAttribute
+    name: SiteIdentityPermissionAttribute
+    href: api/System.Security.Permissions.SiteIdentityPermissionAttribute.yml
+  - uid: System.Security.Permissions.StrongNameIdentityPermission
+    name: StrongNameIdentityPermission
+    href: api/System.Security.Permissions.StrongNameIdentityPermission.yml
+  - uid: System.Security.Permissions.StrongNameIdentityPermissionAttribute
+    name: StrongNameIdentityPermissionAttribute
+    href: api/System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml
+  - uid: System.Security.Permissions.StrongNamePublicKeyBlob
+    name: StrongNamePublicKeyBlob
+    href: api/System.Security.Permissions.StrongNamePublicKeyBlob.yml
+  - uid: System.Security.Permissions.UIPermission
+    name: UIPermission
+    href: api/System.Security.Permissions.UIPermission.yml
+  - uid: System.Security.Permissions.UIPermissionAttribute
+    name: UIPermissionAttribute
+    href: api/System.Security.Permissions.UIPermissionAttribute.yml
+  - uid: System.Security.Permissions.UIPermissionClipboard
+    name: UIPermissionClipboard
+    href: api/System.Security.Permissions.UIPermissionClipboard.yml
+  - uid: System.Security.Permissions.UIPermissionWindow
+    name: UIPermissionWindow
+    href: api/System.Security.Permissions.UIPermissionWindow.yml
+  - uid: System.Security.Permissions.UrlIdentityPermission
+    name: UrlIdentityPermission
+    href: api/System.Security.Permissions.UrlIdentityPermission.yml
+  - uid: System.Security.Permissions.UrlIdentityPermissionAttribute
+    name: UrlIdentityPermissionAttribute
+    href: api/System.Security.Permissions.UrlIdentityPermissionAttribute.yml
+  - uid: System.Security.Permissions.ZoneIdentityPermission
+    name: ZoneIdentityPermission
+    href: api/System.Security.Permissions.ZoneIdentityPermission.yml
+  - uid: System.Security.Permissions.ZoneIdentityPermissionAttribute
+    name: ZoneIdentityPermissionAttribute
+    href: api/System.Security.Permissions.ZoneIdentityPermissionAttribute.yml
+- uid: System.Security.Policy
+  name: System.Security.Policy
+  href: api/System.Security.Policy.yml
+  items:
+  - uid: System.Security.Policy.ApplicationTrust
+    name: ApplicationTrust
+    href: api/System.Security.Policy.ApplicationTrust.yml
+  - uid: System.Security.Policy.ApplicationVersionMatch
+    name: ApplicationVersionMatch
+    href: api/System.Security.Policy.ApplicationVersionMatch.yml
+  - uid: System.Security.Policy.Evidence
+    name: Evidence
+    href: api/System.Security.Policy.Evidence.yml
+  - uid: System.Security.Policy.EvidenceBase
+    name: EvidenceBase
+    href: api/System.Security.Policy.EvidenceBase.yml
+  - uid: System.Security.Policy.IIdentityPermissionFactory
+    name: IIdentityPermissionFactory
+    href: api/System.Security.Policy.IIdentityPermissionFactory.yml
+  - uid: System.Security.Policy.PolicyException
+    name: PolicyException
+    href: api/System.Security.Policy.PolicyException.yml
+  - uid: System.Security.Policy.PolicyStatement
+    name: PolicyStatement
+    href: api/System.Security.Policy.PolicyStatement.yml
+  - uid: System.Security.Policy.PolicyStatementAttribute
+    name: PolicyStatementAttribute
+    href: api/System.Security.Policy.PolicyStatementAttribute.yml
+  - uid: System.Security.Policy.Site
+    name: Site
+    href: api/System.Security.Policy.Site.yml
+  - uid: System.Security.Policy.StrongName
+    name: StrongName
+    href: api/System.Security.Policy.StrongName.yml
+  - uid: System.Security.Policy.Url
+    name: Url
+    href: api/System.Security.Policy.Url.yml
+  - uid: System.Security.Policy.Zone
+    name: Zone
+    href: api/System.Security.Policy.Zone.yml
+- uid: System.Security.Principal
+  name: System.Security.Principal
+  href: api/System.Security.Principal.yml
+  items:
+  - uid: System.Security.Principal.GenericIdentity
+    name: GenericIdentity
+    href: api/System.Security.Principal.GenericIdentity.yml
+  - uid: System.Security.Principal.GenericPrincipal
+    name: GenericPrincipal
+    href: api/System.Security.Principal.GenericPrincipal.yml
+  - uid: System.Security.Principal.IIdentity
+    name: IIdentity
+    href: api/System.Security.Principal.IIdentity.yml
+  - uid: System.Security.Principal.IPrincipal
+    name: IPrincipal
+    href: api/System.Security.Principal.IPrincipal.yml
+  - uid: System.Security.Principal.PrincipalPolicy
+    name: PrincipalPolicy
+    href: api/System.Security.Principal.PrincipalPolicy.yml
+  - uid: System.Security.Principal.TokenAccessLevels
+    name: TokenAccessLevels
+    href: api/System.Security.Principal.TokenAccessLevels.yml
+  - uid: System.Security.Principal.TokenImpersonationLevel
+    name: TokenImpersonationLevel
+    href: api/System.Security.Principal.TokenImpersonationLevel.yml
+- uid: System.Text
+  name: System.Text
+  href: api/System.Text.yml
+  items:
+  - uid: System.Text.ASCIIEncoding
+    name: ASCIIEncoding
+    href: api/System.Text.ASCIIEncoding.yml
+  - uid: System.Text.Decoder
+    name: Decoder
+    href: api/System.Text.Decoder.yml
+  - uid: System.Text.DecoderExceptionFallback
+    name: DecoderExceptionFallback
+    href: api/System.Text.DecoderExceptionFallback.yml
+  - uid: System.Text.DecoderExceptionFallbackBuffer
+    name: DecoderExceptionFallbackBuffer
+    href: api/System.Text.DecoderExceptionFallbackBuffer.yml
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    href: api/System.Text.DecoderFallback.yml
+  - uid: System.Text.DecoderFallbackBuffer
+    name: DecoderFallbackBuffer
+    href: api/System.Text.DecoderFallbackBuffer.yml
+  - uid: System.Text.DecoderFallbackException
+    name: DecoderFallbackException
+    href: api/System.Text.DecoderFallbackException.yml
+  - uid: System.Text.DecoderReplacementFallback
+    name: DecoderReplacementFallback
+    href: api/System.Text.DecoderReplacementFallback.yml
+  - uid: System.Text.DecoderReplacementFallbackBuffer
+    name: DecoderReplacementFallbackBuffer
+    href: api/System.Text.DecoderReplacementFallbackBuffer.yml
+  - uid: System.Text.Encoder
+    name: Encoder
+    href: api/System.Text.Encoder.yml
+  - uid: System.Text.EncoderExceptionFallback
+    name: EncoderExceptionFallback
+    href: api/System.Text.EncoderExceptionFallback.yml
+  - uid: System.Text.EncoderExceptionFallbackBuffer
+    name: EncoderExceptionFallbackBuffer
+    href: api/System.Text.EncoderExceptionFallbackBuffer.yml
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    href: api/System.Text.EncoderFallback.yml
+  - uid: System.Text.EncoderFallbackBuffer
+    name: EncoderFallbackBuffer
+    href: api/System.Text.EncoderFallbackBuffer.yml
+  - uid: System.Text.EncoderFallbackException
+    name: EncoderFallbackException
+    href: api/System.Text.EncoderFallbackException.yml
+  - uid: System.Text.EncoderReplacementFallback
+    name: EncoderReplacementFallback
+    href: api/System.Text.EncoderReplacementFallback.yml
+  - uid: System.Text.EncoderReplacementFallbackBuffer
+    name: EncoderReplacementFallbackBuffer
+    href: api/System.Text.EncoderReplacementFallbackBuffer.yml
+  - uid: System.Text.Encoding
+    name: Encoding
+    href: api/System.Text.Encoding.yml
+  - uid: System.Text.EncodingInfo
+    name: EncodingInfo
+    href: api/System.Text.EncodingInfo.yml
+  - uid: System.Text.EncodingProvider
+    name: EncodingProvider
+    href: api/System.Text.EncodingProvider.yml
+  - uid: System.Text.NormalizationForm
+    name: NormalizationForm
+    href: api/System.Text.NormalizationForm.yml
+  - uid: System.Text.StringBuilder
+    name: StringBuilder
+    href: api/System.Text.StringBuilder.yml
+  - uid: System.Text.UnicodeEncoding
+    name: UnicodeEncoding
+    href: api/System.Text.UnicodeEncoding.yml
+  - uid: System.Text.UTF32Encoding
+    name: UTF32Encoding
+    href: api/System.Text.UTF32Encoding.yml
+  - uid: System.Text.UTF7Encoding
+    name: UTF7Encoding
+    href: api/System.Text.UTF7Encoding.yml
+  - uid: System.Text.UTF8Encoding
+    name: UTF8Encoding
+    href: api/System.Text.UTF8Encoding.yml
+- uid: System.Threading
+  name: System.Threading
+  href: api/System.Threading.yml
+  items:
+  - uid: System.Threading.AbandonedMutexException
+    name: AbandonedMutexException
+    href: api/System.Threading.AbandonedMutexException.yml
+  - uid: System.Threading.ApartmentState
+    name: ApartmentState
+    href: api/System.Threading.ApartmentState.yml
+  - uid: System.Threading.AsyncLocal`1
+    name: AsyncLocal<T>
+    name.vb: AsyncLocal(Of T)
+    href: api/System.Threading.AsyncLocal`1.yml
+  - uid: System.Threading.AsyncLocalValueChangedArgs`1
+    name: AsyncLocalValueChangedArgs<T>
+    name.vb: AsyncLocalValueChangedArgs(Of T)
+    href: api/System.Threading.AsyncLocalValueChangedArgs`1.yml
+  - uid: System.Threading.AutoResetEvent
+    name: AutoResetEvent
+    href: api/System.Threading.AutoResetEvent.yml
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    href: api/System.Threading.CancellationToken.yml
+  - uid: System.Threading.CancellationTokenRegistration
+    name: CancellationTokenRegistration
+    href: api/System.Threading.CancellationTokenRegistration.yml
+  - uid: System.Threading.CancellationTokenSource
+    name: CancellationTokenSource
+    href: api/System.Threading.CancellationTokenSource.yml
+  - uid: System.Threading.ContextCallback
+    name: ContextCallback
+    href: api/System.Threading.ContextCallback.yml
+  - uid: System.Threading.CountdownEvent
+    name: CountdownEvent
+    href: api/System.Threading.CountdownEvent.yml
+  - uid: System.Threading.EventResetMode
+    name: EventResetMode
+    href: api/System.Threading.EventResetMode.yml
+  - uid: System.Threading.EventWaitHandle
+    name: EventWaitHandle
+    href: api/System.Threading.EventWaitHandle.yml
+  - uid: System.Threading.ExecutionContext
+    name: ExecutionContext
+    href: api/System.Threading.ExecutionContext.yml
+  - uid: System.Threading.Interlocked
+    name: Interlocked
+    href: api/System.Threading.Interlocked.yml
+  - uid: System.Threading.IOCompletionCallback
+    name: IOCompletionCallback
+    href: api/System.Threading.IOCompletionCallback.yml
+  - uid: System.Threading.LazyInitializer
+    name: LazyInitializer
+    href: api/System.Threading.LazyInitializer.yml
+  - uid: System.Threading.LazyThreadSafetyMode
+    name: LazyThreadSafetyMode
+    href: api/System.Threading.LazyThreadSafetyMode.yml
+  - uid: System.Threading.LockCookie
+    name: LockCookie
+    href: api/System.Threading.LockCookie.yml
+  - uid: System.Threading.LockRecursionException
+    name: LockRecursionException
+    href: api/System.Threading.LockRecursionException.yml
+  - uid: System.Threading.ManualResetEvent
+    name: ManualResetEvent
+    href: api/System.Threading.ManualResetEvent.yml
+  - uid: System.Threading.ManualResetEventSlim
+    name: ManualResetEventSlim
+    href: api/System.Threading.ManualResetEventSlim.yml
+  - uid: System.Threading.Monitor
+    name: Monitor
+    href: api/System.Threading.Monitor.yml
+  - uid: System.Threading.Mutex
+    name: Mutex
+    href: api/System.Threading.Mutex.yml
+  - uid: System.Threading.Mutex.MutexRights
+    name: Mutex.MutexRights
+    href: api/System.Threading.Mutex.MutexRights.yml
+  - uid: System.Threading.Mutex.MutexSecurity
+    name: Mutex.MutexSecurity
+    href: api/System.Threading.Mutex.MutexSecurity.yml
+  - uid: System.Threading.NativeOverlapped
+    name: NativeOverlapped
+    href: api/System.Threading.NativeOverlapped.yml
+  - uid: System.Threading.Overlapped
+    name: Overlapped
+    href: api/System.Threading.Overlapped.yml
+  - uid: System.Threading.ParameterizedThreadStart
+    name: ParameterizedThreadStart
+    href: api/System.Threading.ParameterizedThreadStart.yml
+  - uid: System.Threading.RegisteredWaitHandle
+    name: RegisteredWaitHandle
+    href: api/System.Threading.RegisteredWaitHandle.yml
+  - uid: System.Threading.SemaphoreFullException
+    name: SemaphoreFullException
+    href: api/System.Threading.SemaphoreFullException.yml
+  - uid: System.Threading.SemaphoreSlim
+    name: SemaphoreSlim
+    href: api/System.Threading.SemaphoreSlim.yml
+  - uid: System.Threading.SendOrPostCallback
+    name: SendOrPostCallback
+    href: api/System.Threading.SendOrPostCallback.yml
+  - uid: System.Threading.SpinLock
+    name: SpinLock
+    href: api/System.Threading.SpinLock.yml
+  - uid: System.Threading.SpinWait
+    name: SpinWait
+    href: api/System.Threading.SpinWait.yml
+  - uid: System.Threading.SynchronizationContext
+    name: SynchronizationContext
+    href: api/System.Threading.SynchronizationContext.yml
+  - uid: System.Threading.SynchronizationLockException
+    name: SynchronizationLockException
+    href: api/System.Threading.SynchronizationLockException.yml
+  - uid: System.Threading.Thread
+    name: Thread
+    href: api/System.Threading.Thread.yml
+  - uid: System.Threading.ThreadAbortException
+    name: ThreadAbortException
+    href: api/System.Threading.ThreadAbortException.yml
+  - uid: System.Threading.ThreadInterruptedException
+    name: ThreadInterruptedException
+    href: api/System.Threading.ThreadInterruptedException.yml
+  - uid: System.Threading.ThreadLocal`1
+    name: ThreadLocal<T>
+    name.vb: ThreadLocal(Of T)
+    href: api/System.Threading.ThreadLocal`1.yml
+  - uid: System.Threading.ThreadPool
+    name: ThreadPool
+    href: api/System.Threading.ThreadPool.yml
+  - uid: System.Threading.ThreadPriority
+    name: ThreadPriority
+    href: api/System.Threading.ThreadPriority.yml
+  - uid: System.Threading.ThreadStart
+    name: ThreadStart
+    href: api/System.Threading.ThreadStart.yml
+  - uid: System.Threading.ThreadStartException
+    name: ThreadStartException
+    href: api/System.Threading.ThreadStartException.yml
+  - uid: System.Threading.ThreadState
+    name: ThreadState
+    href: api/System.Threading.ThreadState.yml
+  - uid: System.Threading.ThreadStateException
+    name: ThreadStateException
+    href: api/System.Threading.ThreadStateException.yml
+  - uid: System.Threading.Timeout
+    name: Timeout
+    href: api/System.Threading.Timeout.yml
+  - uid: System.Threading.Timer
+    name: Timer
+    href: api/System.Threading.Timer.yml
+  - uid: System.Threading.TimerCallback
+    name: TimerCallback
+    href: api/System.Threading.TimerCallback.yml
+  - uid: System.Threading.Volatile
+    name: Volatile
+    href: api/System.Threading.Volatile.yml
+  - uid: System.Threading.WaitCallback
+    name: WaitCallback
+    href: api/System.Threading.WaitCallback.yml
+  - uid: System.Threading.WaitHandle
+    name: WaitHandle
+    href: api/System.Threading.WaitHandle.yml
+  - uid: System.Threading.WaitHandleCannotBeOpenedException
+    name: WaitHandleCannotBeOpenedException
+    href: api/System.Threading.WaitHandleCannotBeOpenedException.yml
+  - uid: System.Threading.WaitHandleExtensions
+    name: WaitHandleExtensions
+    href: api/System.Threading.WaitHandleExtensions.yml
+  - uid: System.Threading.WaitOrTimerCallback
+    name: WaitOrTimerCallback
+    href: api/System.Threading.WaitOrTimerCallback.yml
+- uid: System.Threading.Tasks
+  name: System.Threading.Tasks
+  href: api/System.Threading.Tasks.yml
+  items:
+  - uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
+    name: ConcurrentExclusiveSchedulerPair
+    href: api/System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.yml
+  - uid: System.Threading.Tasks.Parallel
+    name: Parallel
+    href: api/System.Threading.Tasks.Parallel.yml
+  - uid: System.Threading.Tasks.ParallelLoopResult
+    name: ParallelLoopResult
+    href: api/System.Threading.Tasks.ParallelLoopResult.yml
+  - uid: System.Threading.Tasks.ParallelLoopState
+    name: ParallelLoopState
+    href: api/System.Threading.Tasks.ParallelLoopState.yml
+  - uid: System.Threading.Tasks.ParallelOptions
+    name: ParallelOptions
+    href: api/System.Threading.Tasks.ParallelOptions.yml
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    href: api/System.Threading.Tasks.Task.yml
+  - uid: System.Threading.Tasks.Task`1
+    name: Task<TResult>
+    name.vb: Task(Of TResult)
+    href: api/System.Threading.Tasks.Task`1.yml
+  - uid: System.Threading.Tasks.TaskCanceledException
+    name: TaskCanceledException
+    href: api/System.Threading.Tasks.TaskCanceledException.yml
+  - uid: System.Threading.Tasks.TaskCompletionSource`1
+    name: TaskCompletionSource<TResult>
+    name.vb: TaskCompletionSource(Of TResult)
+    href: api/System.Threading.Tasks.TaskCompletionSource`1.yml
+  - uid: System.Threading.Tasks.TaskContinuationOptions
+    name: TaskContinuationOptions
+    href: api/System.Threading.Tasks.TaskContinuationOptions.yml
+  - uid: System.Threading.Tasks.TaskCreationOptions
+    name: TaskCreationOptions
+    href: api/System.Threading.Tasks.TaskCreationOptions.yml
+  - uid: System.Threading.Tasks.TaskFactory
+    name: TaskFactory
+    href: api/System.Threading.Tasks.TaskFactory.yml
+  - uid: System.Threading.Tasks.TaskFactory`1
+    name: TaskFactory<TResult>
+    name.vb: TaskFactory(Of TResult)
+    href: api/System.Threading.Tasks.TaskFactory`1.yml
+  - uid: System.Threading.Tasks.TaskScheduler
+    name: TaskScheduler
+    href: api/System.Threading.Tasks.TaskScheduler.yml
+  - uid: System.Threading.Tasks.TaskSchedulerException
+    name: TaskSchedulerException
+    href: api/System.Threading.Tasks.TaskSchedulerException.yml
+  - uid: System.Threading.Tasks.TaskStatus
+    name: TaskStatus
+    href: api/System.Threading.Tasks.TaskStatus.yml
+  - uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+    name: UnobservedTaskExceptionEventArgs
+    href: api/System.Threading.Tasks.UnobservedTaskExceptionEventArgs.yml

@@ -1,0 +1,1333 @@
+items:
+- uid: System.Collections.Hashtable
+  id: Hashtable
+  parent: System.Collections
+  children:
+  - System.Collections.Hashtable.#ctor
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  - System.Collections.Hashtable.#ctor(System.Int32)
+  - System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  - System.Collections.Hashtable.#ctor(System.Int32,System.Single)
+  - System.Collections.Hashtable.#ctor(System.Int32,System.Single,System.Collections.IEqualityComparer)
+  - System.Collections.Hashtable.#ctor(System.Int32,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  - System.Collections.Hashtable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Collections.Hashtable.Add(System.Object,System.Object)
+  - System.Collections.Hashtable.Clear
+  - System.Collections.Hashtable.Clone
+  - System.Collections.Hashtable.comparer
+  - System.Collections.Hashtable.Contains(System.Object)
+  - System.Collections.Hashtable.ContainsKey(System.Object)
+  - System.Collections.Hashtable.ContainsValue(System.Object)
+  - System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
+  - System.Collections.Hashtable.Count
+  - System.Collections.Hashtable.EqualityComparer
+  - System.Collections.Hashtable.GetEnumerator
+  - System.Collections.Hashtable.GetHash(System.Object)
+  - System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Collections.Hashtable.hcp
+  - System.Collections.Hashtable.IsFixedSize
+  - System.Collections.Hashtable.IsReadOnly
+  - System.Collections.Hashtable.IsSynchronized
+  - System.Collections.Hashtable.Item(System.Object)
+  - System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
+  - System.Collections.Hashtable.Keys
+  - System.Collections.Hashtable.OnDeserialization(System.Object)
+  - System.Collections.Hashtable.Remove(System.Object)
+  - System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
+  - System.Collections.Hashtable.SyncRoot
+  - System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
+  - System.Collections.Hashtable.Values
+  href: System.Collections.Hashtable.yml
+  name: Hashtable
+  fullName: System.Collections.Hashtable
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/Hashtable.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: 'public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, IDeserializationCallback, ICloneable'
+    content.vb: Public Class Hashtable Implements IDictionary, ICollection, IEnumerable, ISerializable, IDeserializationCallback, ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.IDictionary
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - System.Runtime.Serialization.ISerializable
+  - System.Runtime.Serialization.IDeserializationCallback
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Collections.Hashtable.hcp
+  id: hcp
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: hcp
+  fullName: System.Collections.Hashtable.hcp
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 169
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: protected IHashCodeProvider hcp { get; set; }
+    content.vb: Protected Property hcp As IHashCodeProvider
+    parameters: []
+    return:
+      type: System.Collections.IHashCodeProvider
+      description: 
+- uid: System.Collections.Hashtable.comparer
+  id: comparer
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: comparer
+  fullName: System.Collections.Hashtable.comparer
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 200
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: protected IComparer comparer { get; set; }
+    content.vb: Protected Property comparer As IComparer
+    parameters: []
+    return:
+      type: System.Collections.IComparer
+      description: 
+- uid: System.Collections.Hashtable.EqualityComparer
+  id: EqualityComparer
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: EqualityComparer
+  fullName: System.Collections.Hashtable.EqualityComparer
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 230
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: protected IEqualityComparer EqualityComparer { get; }
+    content.vb: Protected ReadOnly Property EqualityComparer As IEqualityComparer
+    parameters: []
+    return:
+      type: System.Collections.IEqualityComparer
+      description: 
+- uid: System.Collections.Hashtable.#ctor
+  id: '#ctor'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable()
+  fullName: System.Collections.Hashtable.Hashtable()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 246
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable()
+    content.vb: Public Sub New
+- uid: System.Collections.Hashtable.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(Int32)
+  fullName: System.Collections.Hashtable.Hashtable(System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 256
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(int capacity)
+    content.vb: Public Sub New(capacity As Integer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+- uid: System.Collections.Hashtable.#ctor(System.Int32,System.Single)
+  id: '#ctor(System.Int32,System.Single)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(Int32, Single)
+  fullName: System.Collections.Hashtable.Hashtable(System.Int32, System.Single)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 270
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(int capacity, float loadFactor)
+    content.vb: Public Sub New(capacity As Integer, loadFactor As Single)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    - id: loadFactor
+      type: System.Single
+- uid: System.Collections.Hashtable.#ctor(System.Int32,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  id: '#ctor(System.Int32,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(Int32, Single, IHashCodeProvider, IComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Int32, System.Single, System.Collections.IHashCodeProvider, System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 312
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(int capacity, float loadFactor, IHashCodeProvider hcp, IComparer comparer)
+    content.vb: Public Sub New(capacity As Integer, loadFactor As Single, hcp As IHashCodeProvider, comparer As IComparer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    - id: loadFactor
+      type: System.Single
+    - id: hcp
+      type: System.Collections.IHashCodeProvider
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.Hashtable.#ctor(System.Int32,System.Single,System.Collections.IEqualityComparer)
+  id: '#ctor(System.Int32,System.Single,System.Collections.IEqualityComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(Int32, Single, IEqualityComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Int32, System.Single, System.Collections.IEqualityComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 322
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(int capacity, float loadFactor, IEqualityComparer equalityComparer)
+    content.vb: Public Sub New(capacity As Integer, loadFactor As Single, equalityComparer As IEqualityComparer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    - id: loadFactor
+      type: System.Single
+    - id: equalityComparer
+      type: System.Collections.IEqualityComparer
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  id: '#ctor(System.Collections.IHashCodeProvider,System.Collections.IComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IHashCodeProvider, IComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IHashCodeProvider, System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 330
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IHashCodeProvider hcp, IComparer comparer)
+    content.vb: Public Sub New(hcp As IHashCodeProvider, comparer As IComparer)
+    parameters:
+    - id: hcp
+      type: System.Collections.IHashCodeProvider
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IEqualityComparer)
+  id: '#ctor(System.Collections.IEqualityComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IEqualityComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IEqualityComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 334
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IEqualityComparer equalityComparer)
+    content.vb: Public Sub New(equalityComparer As IEqualityComparer)
+    parameters:
+    - id: equalityComparer
+      type: System.Collections.IEqualityComparer
+- uid: System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  id: '#ctor(System.Int32,System.Collections.IHashCodeProvider,System.Collections.IComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(Int32, IHashCodeProvider, IComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Int32, System.Collections.IHashCodeProvider, System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 341
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(int capacity, IHashCodeProvider hcp, IComparer comparer)
+    content.vb: Public Sub New(capacity As Integer, hcp As IHashCodeProvider, comparer As IComparer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    - id: hcp
+      type: System.Collections.IHashCodeProvider
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IEqualityComparer)
+  id: '#ctor(System.Int32,System.Collections.IEqualityComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(Int32, IEqualityComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Int32, System.Collections.IEqualityComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 346
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(int capacity, IEqualityComparer equalityComparer)
+    content.vb: Public Sub New(capacity As Integer, equalityComparer As IEqualityComparer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    - id: equalityComparer
+      type: System.Collections.IEqualityComparer
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IDictionary)
+  id: '#ctor(System.Collections.IDictionary)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IDictionary)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IDictionary)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 353
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IDictionary d)
+    content.vb: Public Sub New(d As IDictionary)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single)
+  id: '#ctor(System.Collections.IDictionary,System.Single)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IDictionary, Single)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IDictionary, System.Single)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 359
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IDictionary d, float loadFactor)
+    content.vb: Public Sub New(d As IDictionary, loadFactor As Single)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+    - id: loadFactor
+      type: System.Single
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  id: '#ctor(System.Collections.IDictionary,System.Collections.IHashCodeProvider,System.Collections.IComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IDictionary, IHashCodeProvider, IComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IDictionary, System.Collections.IHashCodeProvider, System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 363
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IDictionary d, IHashCodeProvider hcp, IComparer comparer)
+    content.vb: Public Sub New(d As IDictionary, hcp As IHashCodeProvider, comparer As IComparer)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+    - id: hcp
+      type: System.Collections.IHashCodeProvider
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Collections.IEqualityComparer)
+  id: '#ctor(System.Collections.IDictionary,System.Collections.IEqualityComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IDictionary, IEqualityComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IDictionary, System.Collections.IEqualityComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 368
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IDictionary d, IEqualityComparer equalityComparer)
+    content.vb: Public Sub New(d As IDictionary, equalityComparer As IEqualityComparer)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+    - id: equalityComparer
+      type: System.Collections.IEqualityComparer
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)
+  id: '#ctor(System.Collections.IDictionary,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IDictionary, Single, IHashCodeProvider, IComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IDictionary, System.Single, System.Collections.IHashCodeProvider, System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 372
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IDictionary d, float loadFactor, IHashCodeProvider hcp, IComparer comparer)
+    content.vb: Public Sub New(d As IDictionary, loadFactor As Single, hcp As IHashCodeProvider, comparer As IComparer)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+    - id: loadFactor
+      type: System.Single
+    - id: hcp
+      type: System.Collections.IHashCodeProvider
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IEqualityComparer)
+  id: '#ctor(System.Collections.IDictionary,System.Single,System.Collections.IEqualityComparer)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(IDictionary, Single, IEqualityComparer)
+  fullName: System.Collections.Hashtable.Hashtable(System.Collections.IDictionary, System.Single, System.Collections.IEqualityComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 383
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public Hashtable(IDictionary d, float loadFactor, IEqualityComparer equalityComparer)
+    content.vb: Public Sub New(d As IDictionary, loadFactor As Single, equalityComparer As IEqualityComparer)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+    - id: loadFactor
+      type: System.Single
+    - id: equalityComparer
+      type: System.Collections.IEqualityComparer
+- uid: System.Collections.Hashtable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Hashtable(SerializationInfo, StreamingContext)
+  fullName: System.Collections.Hashtable.Hashtable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 393
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: protected Hashtable(SerializationInfo info, StreamingContext context)
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+- uid: System.Collections.Hashtable.Add(System.Object,System.Object)
+  id: Add(System.Object,System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Add(Object, Object)
+  fullName: System.Collections.Hashtable.Add(System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 438
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void Add(object key, object value)
+    content.vb: Public Overridable Sub Add(key As Object, value As Object)
+    parameters:
+    - id: key
+      type: System.Object
+    - id: value
+      type: System.Object
+- uid: System.Collections.Hashtable.Clear
+  id: Clear
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Clear()
+  fullName: System.Collections.Hashtable.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 443
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void Clear()
+    content.vb: Public Overridable Sub Clear
+- uid: System.Collections.Hashtable.Clone
+  id: Clone
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Clone()
+  fullName: System.Collections.Hashtable.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 472
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object Clone()
+    content.vb: Public Overridable Function Clone As Object
+    return:
+      type: System.Object
+      description: 
+- uid: System.Collections.Hashtable.Contains(System.Object)
+  id: Contains(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Contains(Object)
+  fullName: System.Collections.Hashtable.Contains(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 493
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool Contains(object key)
+    content.vb: Public Overridable Function Contains(key As Object) As Boolean
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.ContainsKey(System.Object)
+  id: ContainsKey(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: ContainsKey(Object)
+  fullName: System.Collections.Hashtable.ContainsKey(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 500
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool ContainsKey(object key)
+    content.vb: Public Overridable Function ContainsKey(key As Object) As Boolean
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.ContainsValue(System.Object)
+  id: ContainsValue(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: ContainsValue(Object)
+  fullName: System.Collections.Hashtable.ContainsValue(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 536
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool ContainsValue(object value)
+    content.vb: Public Overridable Function ContainsValue(value As Object) As Boolean
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
+  id: CopyTo(System.Array,System.Int32)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: CopyTo(Array, Int32)
+  fullName: System.Collections.Hashtable.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 588
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void CopyTo(Array array, int arrayIndex)
+    content.vb: Public Overridable Sub CopyTo(array As Array, arrayIndex As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: arrayIndex
+      type: System.Int32
+- uid: System.Collections.Hashtable.Item(System.Object)
+  id: Item(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Item[Object]
+  name.vb: Item(Object)
+  fullName: System.Collections.Hashtable.Item[System.Object]
+  fullName.vb: System.Collections.Hashtable.Item(System.Object)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 641
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object this[object key] { get; set; }
+    content.vb: Public Overridable Property Item(key As Object) As Object
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Object
+      description: 
+- uid: System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: System.Collections.Hashtable.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 778
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+      description: 
+- uid: System.Collections.Hashtable.GetEnumerator
+  id: GetEnumerator
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: GetEnumerator()
+  fullName: System.Collections.Hashtable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 787
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual IDictionaryEnumerator GetEnumerator()
+    content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
+    return:
+      type: System.Collections.IDictionaryEnumerator
+      description: 
+- uid: System.Collections.Hashtable.GetHash(System.Object)
+  id: GetHash(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: GetHash(Object)
+  fullName: System.Collections.Hashtable.GetHash(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 794
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: protected virtual int GetHash(object key)
+    content.vb: Protected Overridable Function GetHash(key As Object) As Integer
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Collections.Hashtable.IsReadOnly
+  id: IsReadOnly
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: IsReadOnly
+  fullName: System.Collections.Hashtable.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 802
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool IsReadOnly { get; }
+    content.vb: Public Overridable ReadOnly Property IsReadOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.IsFixedSize
+  id: IsFixedSize
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: IsFixedSize
+  fullName: System.Collections.Hashtable.IsFixedSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 806
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool IsFixedSize { get; }
+    content.vb: Public Overridable ReadOnly Property IsFixedSize As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.IsSynchronized
+  id: IsSynchronized
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: IsSynchronized
+  fullName: System.Collections.Hashtable.IsSynchronized
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 811
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool IsSynchronized { get; }
+    content.vb: Public Overridable ReadOnly Property IsSynchronized As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
+  id: KeyEquals(System.Object,System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: KeyEquals(Object, Object)
+  fullName: System.Collections.Hashtable.KeyEquals(System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 819
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: protected virtual bool KeyEquals(object item, object key)
+    content.vb: Protected Overridable Function KeyEquals(item As Object, key As Object) As Boolean
+    parameters:
+    - id: item
+      type: System.Object
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.Collections.Hashtable.Keys
+  id: Keys
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Keys
+  fullName: System.Collections.Hashtable.Keys
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 843
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual ICollection Keys { get; }
+    content.vb: Public Overridable ReadOnly Property Keys As ICollection
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+      description: 
+- uid: System.Collections.Hashtable.Values
+  id: Values
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Values
+  fullName: System.Collections.Hashtable.Values
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 860
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual ICollection Values { get; }
+    content.vb: Public Overridable ReadOnly Property Values As ICollection
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+      description: 
+- uid: System.Collections.Hashtable.Remove(System.Object)
+  id: Remove(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Remove(Object)
+  fullName: System.Collections.Hashtable.Remove(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 1068
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void Remove(object key)
+    content.vb: Public Overridable Sub Remove(key As Object)
+    parameters:
+    - id: key
+      type: System.Object
+- uid: System.Collections.Hashtable.SyncRoot
+  id: SyncRoot
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: SyncRoot
+  fullName: System.Collections.Hashtable.SyncRoot
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 1116
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object SyncRoot { get; }
+    content.vb: Public Overridable ReadOnly Property SyncRoot As Object
+    parameters: []
+    return:
+      type: System.Object
+      description: 
+- uid: System.Collections.Hashtable.Count
+  id: Count
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Count
+  fullName: System.Collections.Hashtable.Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 1127
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual int Count { get; }
+    content.vb: Public Overridable ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+      description: 
+- uid: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
+  id: Synchronized(System.Collections.Hashtable)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: Synchronized(Hashtable)
+  fullName: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 1133
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public static Hashtable Synchronized(Hashtable table)
+    content.vb: Public Shared Function Synchronized(table As Hashtable) As Hashtable
+    parameters:
+    - id: table
+      type: System.Collections.Hashtable
+    return:
+      type: System.Collections.Hashtable
+      description: 
+- uid: System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 1145
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+    content.vb: Public Overridable Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+- uid: System.Collections.Hashtable.OnDeserialization(System.Object)
+  id: OnDeserialization(System.Object)
+  parent: System.Collections.Hashtable
+  href: System.Collections.Hashtable.yml
+  name: OnDeserialization(Object)
+  fullName: System.Collections.Hashtable.OnDeserialization(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Hashtable.cs
+    startLine: 1205
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void OnDeserialization(object sender)
+    content.vb: Public Overridable Sub OnDeserialization(sender As Object)
+    parameters:
+    - id: sender
+      type: System.Object
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Collections.IHashCodeProvider
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IHashCodeProvider.yml
+  name: IHashCodeProvider
+  fullName: System.Collections.IHashCodeProvider
+  type: Interface
+- uid: System.Collections.IComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IComparer.yml
+  name: IComparer
+  fullName: System.Collections.IComparer
+  type: Interface
+- uid: System.Collections.IEqualityComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEqualityComparer.yml
+  name: IEqualityComparer
+  fullName: System.Collections.IEqualityComparer
+  type: Interface
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Single
+  parent: System
+  isExternal: false
+  href: System.Single.yml
+  name: Single
+  fullName: System.Single
+  type: Struct
+- uid: System.Collections.IDictionary
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IDictionary.yml
+  name: IDictionary
+  fullName: System.Collections.IDictionary
+  type: Interface
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.SerializationInfo.yml
+  name: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+  type: Class
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.StreamingContext.yml
+  name: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+  type: Struct
+- uid: System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Array
+  parent: System
+  isExternal: false
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface
+- uid: System.Collections.IDictionaryEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IDictionaryEnumerator.yml
+  name: IDictionaryEnumerator
+  fullName: System.Collections.IDictionaryEnumerator
+  type: Interface
+- uid: System.Collections.ICollection
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: ICollection
+  fullName: System.Collections.ICollection
+  type: Interface
+- uid: System.Collections.Hashtable
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.Hashtable.yml
+  name: Hashtable
+  fullName: System.Collections.Hashtable
+  type: Class

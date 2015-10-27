@@ -1,0 +1,32 @@
+items:
+- uid: System.Runtime.Versioning
+  id: System.Runtime.Versioning
+  children:
+  - System.Runtime.Versioning.FrameworkName
+  href: System.Runtime.Versioning.yml
+  name: System.Runtime.Versioning
+  fullName: System.Runtime.Versioning
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Runtime.Extensions/src/System/Runtime/Versioning/FrameworkName.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Runtime.Extensions/src/System/Runtime/Versioning/FrameworkName.cs
+    startLine: 9
+  assemblies:
+  - System.Runtime.Extensions
+references:
+- uid: System.Runtime.Versioning.FrameworkName
+  parent: System.Runtime.Versioning
+  isExternal: false
+  href: System.Runtime.Versioning.FrameworkName.yml
+  name: FrameworkName
+  fullName: System.Runtime.Versioning.FrameworkName
+  type: Class
+- uid: System.Runtime.Versioning
+  isExternal: false
+  name: System.Runtime.Versioning
+  fullName: System.Runtime.Versioning
+  type: Namespace

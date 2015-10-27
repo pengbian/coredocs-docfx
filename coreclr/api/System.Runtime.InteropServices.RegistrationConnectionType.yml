@@ -1,0 +1,114 @@
+items:
+- uid: System.Runtime.InteropServices.RegistrationConnectionType
+  id: RegistrationConnectionType
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.RegistrationConnectionType.MultipleUse
+  - System.Runtime.InteropServices.RegistrationConnectionType.MultiSeparate
+  - System.Runtime.InteropServices.RegistrationConnectionType.SingleUse
+  - System.Runtime.InteropServices.RegistrationConnectionType.Surrogate
+  - System.Runtime.InteropServices.RegistrationConnectionType.Suspended
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: RegistrationConnectionType
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 58
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum RegistrationConnectionType
+    content.vb: Public Enum RegistrationConnectionType
+- uid: System.Runtime.InteropServices.RegistrationConnectionType.SingleUse
+  id: SingleUse
+  parent: System.Runtime.InteropServices.RegistrationConnectionType
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: SingleUse
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType.SingleUse
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 61
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: SingleUse = 0
+- uid: System.Runtime.InteropServices.RegistrationConnectionType.MultipleUse
+  id: MultipleUse
+  parent: System.Runtime.InteropServices.RegistrationConnectionType
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: MultipleUse
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType.MultipleUse
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 62
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: MultipleUse = 1
+- uid: System.Runtime.InteropServices.RegistrationConnectionType.MultiSeparate
+  id: MultiSeparate
+  parent: System.Runtime.InteropServices.RegistrationConnectionType
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: MultiSeparate
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType.MultiSeparate
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 63
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: MultiSeparate = 2
+- uid: System.Runtime.InteropServices.RegistrationConnectionType.Suspended
+  id: Suspended
+  parent: System.Runtime.InteropServices.RegistrationConnectionType
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: Suspended
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType.Suspended
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 64
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Suspended = 4
+- uid: System.Runtime.InteropServices.RegistrationConnectionType.Surrogate
+  id: Surrogate
+  parent: System.Runtime.InteropServices.RegistrationConnectionType
+  href: System.Runtime.InteropServices.RegistrationConnectionType.yml
+  name: Surrogate
+  fullName: System.Runtime.InteropServices.RegistrationConnectionType.Surrogate
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/RegistrationServices.cs
+    startLine: 65
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Surrogate = 8
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

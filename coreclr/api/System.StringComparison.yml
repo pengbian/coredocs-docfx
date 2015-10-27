@@ -1,0 +1,131 @@
+items:
+- uid: System.StringComparison
+  id: StringComparison
+  parent: System
+  children:
+  - System.StringComparison.CurrentCulture
+  - System.StringComparison.CurrentCultureIgnoreCase
+  - System.StringComparison.InvariantCulture
+  - System.StringComparison.InvariantCultureIgnoreCase
+  - System.StringComparison.Ordinal
+  - System.StringComparison.OrdinalIgnoreCase
+  href: System.StringComparison.yml
+  name: StringComparison
+  fullName: System.StringComparison
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/StringComparison.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public enum StringComparison
+    content.vb: Public Enum StringComparison
+- uid: System.StringComparison.CurrentCulture
+  id: CurrentCulture
+  parent: System.StringComparison
+  href: System.StringComparison.yml
+  name: CurrentCulture
+  fullName: System.StringComparison.CurrentCulture
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: CurrentCulture = 0
+- uid: System.StringComparison.CurrentCultureIgnoreCase
+  id: CurrentCultureIgnoreCase
+  parent: System.StringComparison
+  href: System.StringComparison.yml
+  name: CurrentCultureIgnoreCase
+  fullName: System.StringComparison.CurrentCultureIgnoreCase
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: CurrentCultureIgnoreCase = 1
+- uid: System.StringComparison.InvariantCulture
+  id: InvariantCulture
+  parent: System.StringComparison
+  href: System.StringComparison.yml
+  name: InvariantCulture
+  fullName: System.StringComparison.InvariantCulture
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: InvariantCulture = 2
+- uid: System.StringComparison.InvariantCultureIgnoreCase
+  id: InvariantCultureIgnoreCase
+  parent: System.StringComparison
+  href: System.StringComparison.yml
+  name: InvariantCultureIgnoreCase
+  fullName: System.StringComparison.InvariantCultureIgnoreCase
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: InvariantCultureIgnoreCase = 3
+- uid: System.StringComparison.Ordinal
+  id: Ordinal
+  parent: System.StringComparison
+  href: System.StringComparison.yml
+  name: Ordinal
+  fullName: System.StringComparison.Ordinal
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: Ordinal = 4
+- uid: System.StringComparison.OrdinalIgnoreCase
+  id: OrdinalIgnoreCase
+  parent: System.StringComparison
+  href: System.StringComparison.yml
+  name: OrdinalIgnoreCase
+  fullName: System.StringComparison.OrdinalIgnoreCase
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/StringComparison.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: OrdinalIgnoreCase = 5
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

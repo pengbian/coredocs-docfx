@@ -1,0 +1,216 @@
+items:
+- uid: System.Text.RegularExpressions.RegexOptions
+  id: RegexOptions
+  parent: System.Text.RegularExpressions
+  children:
+  - System.Text.RegularExpressions.RegexOptions.Compiled
+  - System.Text.RegularExpressions.RegexOptions.CultureInvariant
+  - System.Text.RegularExpressions.RegexOptions.Debug
+  - System.Text.RegularExpressions.RegexOptions.ECMAScript
+  - System.Text.RegularExpressions.RegexOptions.ExplicitCapture
+  - System.Text.RegularExpressions.RegexOptions.IgnoreCase
+  - System.Text.RegularExpressions.RegexOptions.IgnorePatternWhitespace
+  - System.Text.RegularExpressions.RegexOptions.Multiline
+  - System.Text.RegularExpressions.RegexOptions.None
+  - System.Text.RegularExpressions.RegexOptions.RightToLeft
+  - System.Text.RegularExpressions.RegexOptions.Singleline
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: RegexOptions
+  fullName: System.Text.RegularExpressions.RegexOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 5
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: public enum RegexOptions
+    content.vb: Public Enum RegexOptions
+- uid: System.Text.RegularExpressions.RegexOptions.None
+  id: None
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: None
+  fullName: System.Text.RegularExpressions.RegexOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 8
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: None = 0
+- uid: System.Text.RegularExpressions.RegexOptions.IgnoreCase
+  id: IgnoreCase
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: IgnoreCase
+  fullName: System.Text.RegularExpressions.RegexOptions.IgnoreCase
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 9
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: IgnoreCase = 1
+- uid: System.Text.RegularExpressions.RegexOptions.Multiline
+  id: Multiline
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: Multiline
+  fullName: System.Text.RegularExpressions.RegexOptions.Multiline
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 10
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: Multiline = 2
+- uid: System.Text.RegularExpressions.RegexOptions.ExplicitCapture
+  id: ExplicitCapture
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: ExplicitCapture
+  fullName: System.Text.RegularExpressions.RegexOptions.ExplicitCapture
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 11
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: ExplicitCapture = 4
+- uid: System.Text.RegularExpressions.RegexOptions.Compiled
+  id: Compiled
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: Compiled
+  fullName: System.Text.RegularExpressions.RegexOptions.Compiled
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 12
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: Compiled = 8
+- uid: System.Text.RegularExpressions.RegexOptions.Singleline
+  id: Singleline
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: Singleline
+  fullName: System.Text.RegularExpressions.RegexOptions.Singleline
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 13
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: Singleline = 16
+- uid: System.Text.RegularExpressions.RegexOptions.IgnorePatternWhitespace
+  id: IgnorePatternWhitespace
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: IgnorePatternWhitespace
+  fullName: System.Text.RegularExpressions.RegexOptions.IgnorePatternWhitespace
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 14
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: IgnorePatternWhitespace = 32
+- uid: System.Text.RegularExpressions.RegexOptions.RightToLeft
+  id: RightToLeft
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: RightToLeft
+  fullName: System.Text.RegularExpressions.RegexOptions.RightToLeft
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 15
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: RightToLeft = 64
+- uid: System.Text.RegularExpressions.RegexOptions.Debug
+  id: Debug
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: Debug
+  fullName: System.Text.RegularExpressions.RegexOptions.Debug
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 18
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: Debug = 128
+- uid: System.Text.RegularExpressions.RegexOptions.ECMAScript
+  id: ECMAScript
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: ECMAScript
+  fullName: System.Text.RegularExpressions.RegexOptions.ECMAScript
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 21
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: ECMAScript = 256
+- uid: System.Text.RegularExpressions.RegexOptions.CultureInvariant
+  id: CultureInvariant
+  parent: System.Text.RegularExpressions.RegexOptions
+  href: System.Text.RegularExpressions.RegexOptions.yml
+  name: CultureInvariant
+  fullName: System.Text.RegularExpressions.RegexOptions.CultureInvariant
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexOptions.cs
+    startLine: 22
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: CultureInvariant = 512
+references:
+- uid: System.Text.RegularExpressions
+  isExternal: false
+  name: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  type: Namespace

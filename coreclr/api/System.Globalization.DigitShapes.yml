@@ -1,0 +1,80 @@
+items:
+- uid: System.Globalization.DigitShapes
+  id: DigitShapes
+  parent: System.Globalization
+  children:
+  - System.Globalization.DigitShapes.Context
+  - System.Globalization.DigitShapes.NativeNational
+  - System.Globalization.DigitShapes.None
+  href: System.Globalization.DigitShapes.yml
+  name: DigitShapes
+  fullName: System.Globalization.DigitShapes
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Globalization/DigitShapes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Globalization/DigitShapes.cs
+    startLine: 9
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public enum DigitShapes
+    content.vb: Public Enum DigitShapes
+- uid: System.Globalization.DigitShapes.Context
+  id: Context
+  parent: System.Globalization.DigitShapes
+  href: System.Globalization.DigitShapes.yml
+  name: Context
+  fullName: System.Globalization.DigitShapes.Context
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/DigitShapes.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: Context = 0
+- uid: System.Globalization.DigitShapes.None
+  id: None
+  parent: System.Globalization.DigitShapes
+  href: System.Globalization.DigitShapes.yml
+  name: None
+  fullName: System.Globalization.DigitShapes.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/DigitShapes.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: None = 1
+- uid: System.Globalization.DigitShapes.NativeNational
+  id: NativeNational
+  parent: System.Globalization.DigitShapes
+  href: System.Globalization.DigitShapes.yml
+  name: NativeNational
+  fullName: System.Globalization.DigitShapes.NativeNational
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/DigitShapes.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: NativeNational = 2
+references:
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace

@@ -1,0 +1,2210 @@
+items:
+- uid: System
+  id: System
+  children:
+  - System.Action`10
+  - System.Action`11
+  - System.Action`12
+  - System.Action`13
+  - System.Action`14
+  - System.Action`15
+  - System.Action`16
+  - System.Action`9
+  - System.BitConverter
+  - System.Console
+  - System.ConsoleCancelEventArgs
+  - System.ConsoleCancelEventHandler
+  - System.ConsoleColor
+  - System.ConsoleSpecialKey
+  - System.Func`10
+  - System.Func`11
+  - System.Func`12
+  - System.Func`13
+  - System.Func`14
+  - System.Func`15
+  - System.Func`16
+  - System.Func`17
+  - System.IServiceProvider
+  - System.Lazy`2
+  - System.StringNormalizationExtensions
+  - System.Uri
+  - System.UriBuilder
+  - System.UriComponents
+  - System.UriFormat
+  - System.UriFormatException
+  - System.UriHostNameType
+  - System.UriKind
+  href: System.yml
+  name: System
+  fullName: System
+  type: Namespace
+  source:
+    remote:
+      path: src/System.ComponentModel/src/System/ComponentModel/IRevertibleChangeTracking.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.ComponentModel/src/System/ComponentModel/IRevertibleChangeTracking.cs
+    startLine: 5
+  assemblies:
+  - System.ComponentModel
+references:
+- uid: System.IServiceProvider
+  isExternal: false
+  href: System.IServiceProvider.yml
+  name: IServiceProvider
+  fullName: System.IServiceProvider
+  type: Interface
+- uid: System.BitConverter
+  isExternal: false
+  href: System.BitConverter.yml
+  name: BitConverter
+  fullName: System.BitConverter
+  type: Class
+- uid: System.Console
+  isExternal: false
+  href: System.Console.yml
+  name: Console
+  fullName: System.Console
+  type: Class
+- uid: System.ConsoleCancelEventHandler
+  parent: System
+  isExternal: false
+  href: System.ConsoleCancelEventHandler.yml
+  name: ConsoleCancelEventHandler
+  fullName: System.ConsoleCancelEventHandler
+  type: Delegate
+- uid: System.ConsoleCancelEventArgs
+  parent: System
+  isExternal: false
+  href: System.ConsoleCancelEventArgs.yml
+  name: ConsoleCancelEventArgs
+  fullName: System.ConsoleCancelEventArgs
+  type: Class
+- uid: System.ConsoleColor
+  parent: System
+  isExternal: false
+  href: System.ConsoleColor.yml
+  name: ConsoleColor
+  fullName: System.ConsoleColor
+  type: Enum
+- uid: System.ConsoleSpecialKey
+  parent: System
+  isExternal: false
+  href: System.ConsoleSpecialKey.yml
+  name: ConsoleSpecialKey
+  fullName: System.ConsoleSpecialKey
+  type: Enum
+- uid: System.Uri
+  parent: System
+  isExternal: false
+  href: System.Uri.yml
+  name: Uri
+  fullName: System.Uri
+  type: Class
+- uid: System.UriBuilder
+  isExternal: false
+  href: System.UriBuilder.yml
+  name: UriBuilder
+  fullName: System.UriBuilder
+  type: Class
+- uid: System.UriKind
+  parent: System
+  isExternal: false
+  href: System.UriKind.yml
+  name: UriKind
+  fullName: System.UriKind
+  type: Enum
+- uid: System.UriComponents
+  parent: System
+  isExternal: false
+  href: System.UriComponents.yml
+  name: UriComponents
+  fullName: System.UriComponents
+  type: Enum
+- uid: System.UriFormat
+  parent: System
+  isExternal: false
+  href: System.UriFormat.yml
+  name: UriFormat
+  fullName: System.UriFormat
+  type: Enum
+- uid: System.UriFormatException
+  isExternal: false
+  href: System.UriFormatException.yml
+  name: UriFormatException
+  fullName: System.UriFormatException
+  type: Class
+  summary: An exception class used when an invalid Uniform Resource Identifier is detected.
+- uid: System.UriHostNameType
+  parent: System
+  isExternal: false
+  href: System.UriHostNameType.yml
+  name: UriHostNameType
+  fullName: System.UriHostNameType
+  type: Enum
+- uid: System.Action`9
+  isExternal: false
+  href: System.Action`9.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`9
+    name: Action
+    fullName: System.Action
+    href: System.Action`9.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`9
+    name: Action
+    fullName: System.Action
+    href: System.Action`9.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: )
+    fullName: )
+- uid: System.Action`10
+  isExternal: false
+  href: System.Action`10.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`10
+    name: Action
+    fullName: System.Action
+    href: System.Action`10.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`10
+    name: Action
+    fullName: System.Action
+    href: System.Action`10.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: )
+    fullName: )
+- uid: System.Action`11
+  isExternal: false
+  href: System.Action`11.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`11
+    name: Action
+    fullName: System.Action
+    href: System.Action`11.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`11
+    name: Action
+    fullName: System.Action
+    href: System.Action`11.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: )
+    fullName: )
+- uid: System.Action`12
+  isExternal: false
+  href: System.Action`12.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`12
+    name: Action
+    fullName: System.Action
+    href: System.Action`12.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`12
+    name: Action
+    fullName: System.Action
+    href: System.Action`12.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: )
+    fullName: )
+- uid: System.Action`13
+  isExternal: false
+  href: System.Action`13.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`13
+    name: Action
+    fullName: System.Action
+    href: System.Action`13.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`13
+    name: Action
+    fullName: System.Action
+    href: System.Action`13.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: )
+    fullName: )
+- uid: System.Action`14
+  isExternal: false
+  href: System.Action`14.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`14
+    name: Action
+    fullName: System.Action
+    href: System.Action`14.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`14
+    name: Action
+    fullName: System.Action
+    href: System.Action`14.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: )
+    fullName: )
+- uid: System.Action`15
+  isExternal: false
+  href: System.Action`15.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`15
+    name: Action
+    fullName: System.Action
+    href: System.Action`15.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`15
+    name: Action
+    fullName: System.Action
+    href: System.Action`15.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: )
+    fullName: )
+- uid: System.Action`16
+  isExternal: false
+  href: System.Action`16.yml
+  name: Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  name.vb: Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  fullName: System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  fullName.vb: System.Action(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Action`16
+    name: Action
+    fullName: System.Action
+    href: System.Action`16.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: ', '
+    fullName: ', '
+  - name: T16
+    fullName: T16
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`16
+    name: Action
+    fullName: System.Action
+    href: System.Action`16.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: ', '
+    fullName: ', '
+  - name: T16
+    fullName: T16
+  - name: )
+    fullName: )
+- uid: System.Func`10
+  isExternal: false
+  href: System.Func`10.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`10
+    name: Func
+    fullName: System.Func
+    href: System.Func`10.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`10
+    name: Func
+    fullName: System.Func
+    href: System.Func`10.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`11
+  isExternal: false
+  href: System.Func`11.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`11
+    name: Func
+    fullName: System.Func
+    href: System.Func`11.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`11
+    name: Func
+    fullName: System.Func
+    href: System.Func`11.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`12
+  isExternal: false
+  href: System.Func`12.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`12
+    name: Func
+    fullName: System.Func
+    href: System.Func`12.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`12
+    name: Func
+    fullName: System.Func
+    href: System.Func`12.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`13
+  isExternal: false
+  href: System.Func`13.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`13
+    name: Func
+    fullName: System.Func
+    href: System.Func`13.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`13
+    name: Func
+    fullName: System.Func
+    href: System.Func`13.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`14
+  isExternal: false
+  href: System.Func`14.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`14
+    name: Func
+    fullName: System.Func
+    href: System.Func`14.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`14
+    name: Func
+    fullName: System.Func
+    href: System.Func`14.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`15
+  isExternal: false
+  href: System.Func`15.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`15
+    name: Func
+    fullName: System.Func
+    href: System.Func`15.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`15
+    name: Func
+    fullName: System.Func
+    href: System.Func`15.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`16
+  isExternal: false
+  href: System.Func`16.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`16
+    name: Func
+    fullName: System.Func
+    href: System.Func`16.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`16
+    name: Func
+    fullName: System.Func
+    href: System.Func`16.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Func`17
+  isExternal: false
+  href: System.Func`17.yml
+  name: Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  name.vb: Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  fullName: System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  fullName.vb: System.Func(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  type: Delegate
+  spec.csharp:
+  - uid: System.Func`17
+    name: Func
+    fullName: System.Func
+    href: System.Func`17.yml
+  - name: <
+    fullName: <
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: ', '
+    fullName: ', '
+  - name: T16
+    fullName: T16
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`17
+    name: Func
+    fullName: System.Func
+    href: System.Func`17.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T1
+    fullName: T1
+  - name: ', '
+    fullName: ', '
+  - name: T2
+    fullName: T2
+  - name: ', '
+    fullName: ', '
+  - name: T3
+    fullName: T3
+  - name: ', '
+    fullName: ', '
+  - name: T4
+    fullName: T4
+  - name: ', '
+    fullName: ', '
+  - name: T5
+    fullName: T5
+  - name: ', '
+    fullName: ', '
+  - name: T6
+    fullName: T6
+  - name: ', '
+    fullName: ', '
+  - name: T7
+    fullName: T7
+  - name: ', '
+    fullName: ', '
+  - name: T8
+    fullName: T8
+  - name: ', '
+    fullName: ', '
+  - name: T9
+    fullName: T9
+  - name: ', '
+    fullName: ', '
+  - name: T10
+    fullName: T10
+  - name: ', '
+    fullName: ', '
+  - name: T11
+    fullName: T11
+  - name: ', '
+    fullName: ', '
+  - name: T12
+    fullName: T12
+  - name: ', '
+    fullName: ', '
+  - name: T13
+    fullName: T13
+  - name: ', '
+    fullName: ', '
+  - name: T14
+    fullName: T14
+  - name: ', '
+    fullName: ', '
+  - name: T15
+    fullName: T15
+  - name: ', '
+    fullName: ', '
+  - name: T16
+    fullName: T16
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Lazy`2
+  isExternal: false
+  href: System.Lazy`2.yml
+  name: Lazy<T, TMetadata>
+  name.vb: Lazy(Of T, TMetadata)
+  fullName: System.Lazy<T, TMetadata>
+  fullName.vb: System.Lazy(Of T, TMetadata)
+  type: Class
+  spec.csharp:
+  - uid: System.Lazy`2
+    name: Lazy
+    fullName: System.Lazy
+    href: System.Lazy`2.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: TMetadata
+    fullName: TMetadata
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Lazy`2
+    name: Lazy
+    fullName: System.Lazy
+    href: System.Lazy`2.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: TMetadata
+    fullName: TMetadata
+  - name: )
+    fullName: )
+- uid: System.StringNormalizationExtensions
+  isExternal: false
+  href: System.StringNormalizationExtensions.yml
+  name: StringNormalizationExtensions
+  fullName: System.StringNormalizationExtensions
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

@@ -1,0 +1,84 @@
+items:
+- uid: System.Xml.Linq.SaveOptions
+  id: SaveOptions
+  parent: System.Xml.Linq
+  children:
+  - System.Xml.Linq.SaveOptions.DisableFormatting
+  - System.Xml.Linq.SaveOptions.None
+  - System.Xml.Linq.SaveOptions.OmitDuplicateNamespaces
+  href: System.Xml.Linq.SaveOptions.yml
+  name: SaveOptions
+  fullName: System.Xml.Linq.SaveOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 632
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Specifies a set of options for Save().
+  syntax:
+    content: public enum SaveOptions
+    content.vb: Public Enum SaveOptions
+- uid: System.Xml.Linq.SaveOptions.None
+  id: None
+  parent: System.Xml.Linq.SaveOptions
+  href: System.Xml.Linq.SaveOptions.yml
+  name: None
+  fullName: System.Xml.Linq.SaveOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 636
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Default options.
+  syntax:
+    content: None = 0
+- uid: System.Xml.Linq.SaveOptions.DisableFormatting
+  id: DisableFormatting
+  parent: System.Xml.Linq.SaveOptions
+  href: System.Xml.Linq.SaveOptions.yml
+  name: DisableFormatting
+  fullName: System.Xml.Linq.SaveOptions.DisableFormatting
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 639
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Disable formatting.
+  syntax:
+    content: DisableFormatting = 1
+- uid: System.Xml.Linq.SaveOptions.OmitDuplicateNamespaces
+  id: OmitDuplicateNamespaces
+  parent: System.Xml.Linq.SaveOptions
+  href: System.Xml.Linq.SaveOptions.yml
+  name: OmitDuplicateNamespaces
+  fullName: System.Xml.Linq.SaveOptions.OmitDuplicateNamespaces
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 642
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Remove duplicate namespace declarations.
+  syntax:
+    content: OmitDuplicateNamespaces = 2
+references:
+- uid: System.Xml.Linq
+  isExternal: false
+  name: System.Xml.Linq
+  fullName: System.Xml.Linq
+  type: Namespace

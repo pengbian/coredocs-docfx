@@ -1,0 +1,692 @@
+items:
+- uid: System.IO.FileSystemInfo
+  id: FileSystemInfo
+  parent: System.IO
+  children:
+  - System.IO.FileSystemInfo.#ctor
+  - System.IO.FileSystemInfo.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.IO.FileSystemInfo.Attributes
+  - System.IO.FileSystemInfo.CreationTime
+  - System.IO.FileSystemInfo.CreationTimeUtc
+  - System.IO.FileSystemInfo.Delete
+  - System.IO.FileSystemInfo.Exists
+  - System.IO.FileSystemInfo.Extension
+  - System.IO.FileSystemInfo.FullName
+  - System.IO.FileSystemInfo.FullPath
+  - System.IO.FileSystemInfo.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.IO.FileSystemInfo.LastAccessTime
+  - System.IO.FileSystemInfo.LastAccessTimeUtc
+  - System.IO.FileSystemInfo.LastWriteTime
+  - System.IO.FileSystemInfo.LastWriteTimeUtc
+  - System.IO.FileSystemInfo.Name
+  - System.IO.FileSystemInfo.OriginalPath
+  - System.IO.FileSystemInfo.Refresh
+  href: System.IO.FileSystemInfo.yml
+  name: FileSystemInfo
+  fullName: System.IO.FileSystemInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: 'public abstract class FileSystemInfo : ISerializable'
+    content.vb: Public MustInherit Class FileSystemInfo Implements ISerializable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.FileSystemInfo.FullPath
+  id: FullPath
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FullPath
+  fullName: System.IO.FileSystemInfo.FullPath
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 46
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected string FullPath
+    content.vb: Protected FullPath As String
+- uid: System.IO.FileSystemInfo.OriginalPath
+  id: OriginalPath
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: OriginalPath
+  fullName: System.IO.FileSystemInfo.OriginalPath
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 47
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected string OriginalPath
+    content.vb: Protected OriginalPath As String
+- uid: System.IO.FileSystemInfo.#ctor
+  id: '#ctor'
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FileSystemInfo()
+  fullName: System.IO.FileSystemInfo.FileSystemInfo()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 52
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected FileSystemInfo()
+    content.vb: Protected Sub New
+- uid: System.IO.FileSystemInfo.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FileSystemInfo(SerializationInfo, StreamingContext)
+  fullName: System.IO.FileSystemInfo.FileSystemInfo(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 61
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected FileSystemInfo(SerializationInfo info, StreamingContext context)
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+- uid: System.IO.FileSystemInfo.FullName
+  id: FullName
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FullName
+  fullName: System.IO.FileSystemInfo.FullName
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 85
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual string FullName { get; }
+    content.vb: Public Overridable ReadOnly Property FullName As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.IO.FileSystemInfo.Extension
+  id: Extension
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Extension
+  fullName: System.IO.FileSystemInfo.Extension
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 121
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public string Extension { get; }
+    content.vb: Public ReadOnly Property Extension As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.IO.FileSystemInfo.Name
+  id: Name
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Name
+  fullName: System.IO.FileSystemInfo.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 140
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public abstract string Name { get; }
+    content.vb: Public MustOverride ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+      description: 
+- uid: System.IO.FileSystemInfo.Exists
+  id: Exists
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Exists
+  fullName: System.IO.FileSystemInfo.Exists
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 145
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public abstract bool Exists { get; }
+    content.vb: Public MustOverride ReadOnly Property Exists As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+      description: 
+- uid: System.IO.FileSystemInfo.Delete
+  id: Delete
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Delete()
+  fullName: System.IO.FileSystemInfo.Delete()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 151
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public abstract void Delete()
+    content.vb: Public MustOverride Sub Delete
+- uid: System.IO.FileSystemInfo.CreationTime
+  id: CreationTime
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: CreationTime
+  fullName: System.IO.FileSystemInfo.CreationTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 153
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public DateTime CreationTime { get; set; }
+    content.vb: Public Property CreationTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.FileSystemInfo.CreationTimeUtc
+  id: CreationTimeUtc
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: CreationTimeUtc
+  fullName: System.IO.FileSystemInfo.CreationTimeUtc
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 165
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public DateTime CreationTimeUtc { get; set; }
+    content.vb: Public Property CreationTimeUtc As Date
+    parameters: []
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.FileSystemInfo.LastAccessTime
+  id: LastAccessTime
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastAccessTime
+  fullName: System.IO.FileSystemInfo.LastAccessTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 197
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastAccessTime { get; set; }
+    content.vb: Public Property LastAccessTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.FileSystemInfo.LastAccessTimeUtc
+  id: LastAccessTimeUtc
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastAccessTimeUtc
+  fullName: System.IO.FileSystemInfo.LastAccessTimeUtc
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 208
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastAccessTimeUtc { get; set; }
+    content.vb: Public Property LastAccessTimeUtc As Date
+    parameters: []
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.FileSystemInfo.LastWriteTime
+  id: LastWriteTime
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastWriteTime
+  fullName: System.IO.FileSystemInfo.LastWriteTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 239
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastWriteTime { get; set; }
+    content.vb: Public Property LastWriteTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.FileSystemInfo.LastWriteTimeUtc
+  id: LastWriteTimeUtc
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastWriteTimeUtc
+  fullName: System.IO.FileSystemInfo.LastWriteTimeUtc
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 251
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastWriteTimeUtc { get; set; }
+    content.vb: Public Property LastWriteTimeUtc As Date
+    parameters: []
+    return:
+      type: System.DateTime
+      description: 
+- uid: System.IO.FileSystemInfo.Refresh
+  id: Refresh
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Refresh()
+  fullName: System.IO.FileSystemInfo.Refresh()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 282
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+- uid: System.IO.FileSystemInfo.Attributes
+  id: Attributes
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Attributes
+  fullName: System.IO.FileSystemInfo.Attributes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 288
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public FileAttributes Attributes { get; set; }
+    content.vb: Public Property Attributes As FileAttributes
+    parameters: []
+    return:
+      type: System.IO.FileAttributes
+      description: 
+- uid: System.IO.FileSystemInfo.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.IO.FileSystemInfo.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/FileSystemInfo.cs
+    startLine: 333
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+    content.vb: Public Overridable Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.SerializationInfo.yml
+  name: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+  type: Class
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.StreamingContext.yml
+  name: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+  type: Struct
+- uid: System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.DateTime
+  parent: System
+  isExternal: false
+  href: System.DateTime.yml
+  name: DateTime
+  fullName: System.DateTime
+  type: Struct
+- uid: System.IO.FileAttributes
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAttributes.yml
+  name: FileAttributes
+  fullName: System.IO.FileAttributes
+  type: Enum

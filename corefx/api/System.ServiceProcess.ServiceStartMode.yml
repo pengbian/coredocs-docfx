@@ -1,0 +1,80 @@
+items:
+- uid: System.ServiceProcess.ServiceStartMode
+  id: ServiceStartMode
+  parent: System.ServiceProcess
+  children:
+  - System.ServiceProcess.ServiceStartMode.Automatic
+  - System.ServiceProcess.ServiceStartMode.Disabled
+  - System.ServiceProcess.ServiceStartMode.Manual
+  href: System.ServiceProcess.ServiceStartMode.yml
+  name: ServiceStartMode
+  fullName: System.ServiceProcess.ServiceStartMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceStartMode.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceStartMode.cs
+    startLine: 5
+  assemblies:
+  - System.ServiceProcess.ServiceController
+  namespace: System.ServiceProcess
+  syntax:
+    content: public enum ServiceStartMode
+    content.vb: Public Enum ServiceStartMode
+- uid: System.ServiceProcess.ServiceStartMode.Manual
+  id: Manual
+  parent: System.ServiceProcess.ServiceStartMode
+  href: System.ServiceProcess.ServiceStartMode.yml
+  name: Manual
+  fullName: System.ServiceProcess.ServiceStartMode.Manual
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceStartMode.cs
+    startLine: 7
+  assemblies:
+  - System.ServiceProcess.ServiceController
+  namespace: System.ServiceProcess
+  syntax:
+    content: Manual = 3
+- uid: System.ServiceProcess.ServiceStartMode.Automatic
+  id: Automatic
+  parent: System.ServiceProcess.ServiceStartMode
+  href: System.ServiceProcess.ServiceStartMode.yml
+  name: Automatic
+  fullName: System.ServiceProcess.ServiceStartMode.Automatic
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceStartMode.cs
+    startLine: 8
+  assemblies:
+  - System.ServiceProcess.ServiceController
+  namespace: System.ServiceProcess
+  syntax:
+    content: Automatic = 2
+- uid: System.ServiceProcess.ServiceStartMode.Disabled
+  id: Disabled
+  parent: System.ServiceProcess.ServiceStartMode
+  href: System.ServiceProcess.ServiceStartMode.yml
+  name: Disabled
+  fullName: System.ServiceProcess.ServiceStartMode.Disabled
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.ServiceProcess.ServiceController/src/System/ServiceProcess/ServiceStartMode.cs
+    startLine: 9
+  assemblies:
+  - System.ServiceProcess.ServiceController
+  namespace: System.ServiceProcess
+  syntax:
+    content: Disabled = 4
+references:
+- uid: System.ServiceProcess
+  isExternal: false
+  name: System.ServiceProcess
+  fullName: System.ServiceProcess
+  type: Namespace

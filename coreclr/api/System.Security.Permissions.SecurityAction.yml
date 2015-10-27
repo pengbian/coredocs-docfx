@@ -1,0 +1,182 @@
+items:
+- uid: System.Security.Permissions.SecurityAction
+  id: SecurityAction
+  parent: System.Security.Permissions
+  children:
+  - System.Security.Permissions.SecurityAction.Assert
+  - System.Security.Permissions.SecurityAction.Demand
+  - System.Security.Permissions.SecurityAction.Deny
+  - System.Security.Permissions.SecurityAction.InheritanceDemand
+  - System.Security.Permissions.SecurityAction.LinkDemand
+  - System.Security.Permissions.SecurityAction.PermitOnly
+  - System.Security.Permissions.SecurityAction.RequestMinimum
+  - System.Security.Permissions.SecurityAction.RequestOptional
+  - System.Security.Permissions.SecurityAction.RequestRefuse
+  href: System.Security.Permissions.SecurityAction.yml
+  name: SecurityAction
+  fullName: System.Security.Permissions.SecurityAction
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: public enum SecurityAction
+    content.vb: Public Enum SecurityAction
+- uid: System.Security.Permissions.SecurityAction.Demand
+  id: Demand
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: Demand
+  fullName: System.Security.Permissions.SecurityAction.Demand
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: Demand = 2
+- uid: System.Security.Permissions.SecurityAction.Assert
+  id: Assert
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: Assert
+  fullName: System.Security.Permissions.SecurityAction.Assert
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 36
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: Assert = 3
+- uid: System.Security.Permissions.SecurityAction.Deny
+  id: Deny
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: Deny
+  fullName: System.Security.Permissions.SecurityAction.Deny
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: Deny = 4
+- uid: System.Security.Permissions.SecurityAction.PermitOnly
+  id: PermitOnly
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: PermitOnly
+  fullName: System.Security.Permissions.SecurityAction.PermitOnly
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 43
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: PermitOnly = 5
+- uid: System.Security.Permissions.SecurityAction.LinkDemand
+  id: LinkDemand
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: LinkDemand
+  fullName: System.Security.Permissions.SecurityAction.LinkDemand
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 46
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: LinkDemand = 6
+- uid: System.Security.Permissions.SecurityAction.InheritanceDemand
+  id: InheritanceDemand
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: InheritanceDemand
+  fullName: System.Security.Permissions.SecurityAction.InheritanceDemand
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: InheritanceDemand = 7
+- uid: System.Security.Permissions.SecurityAction.RequestMinimum
+  id: RequestMinimum
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: RequestMinimum
+  fullName: System.Security.Permissions.SecurityAction.RequestMinimum
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 52
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: RequestMinimum = 8
+- uid: System.Security.Permissions.SecurityAction.RequestOptional
+  id: RequestOptional
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: RequestOptional
+  fullName: System.Security.Permissions.SecurityAction.RequestOptional
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 56
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: RequestOptional = 9
+- uid: System.Security.Permissions.SecurityAction.RequestRefuse
+  id: RequestRefuse
+  parent: System.Security.Permissions.SecurityAction
+  href: System.Security.Permissions.SecurityAction.yml
+  name: RequestRefuse
+  fullName: System.Security.Permissions.SecurityAction.RequestRefuse
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Permissions/PermissionAttributes.cs
+    startLine: 60
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Permissions
+  syntax:
+    content: RequestRefuse = 10
+references:
+- uid: System.Security.Permissions
+  isExternal: false
+  name: System.Security.Permissions
+  fullName: System.Security.Permissions
+  type: Namespace

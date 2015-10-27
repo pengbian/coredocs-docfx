@@ -1,0 +1,114 @@
+items:
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  id: DebuggableAttribute.DebuggingModes
+  parent: System.Diagnostics
+  children:
+  - System.Diagnostics.DebuggableAttribute.DebuggingModes.Default
+  - System.Diagnostics.DebuggableAttribute.DebuggingModes.DisableOptimizations
+  - System.Diagnostics.DebuggableAttribute.DebuggingModes.EnableEditAndContinue
+  - System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints
+  - System.Diagnostics.DebuggableAttribute.DebuggingModes.None
+  href: System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  name: DebuggableAttribute.DebuggingModes
+  fullName: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+    startLine: 62
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics
+  syntax:
+    content: public enum DebuggingModes
+    content.vb: Public Enum DebuggingModes
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes.None
+  id: None
+  parent: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  href: System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  name: None
+  fullName: System.Diagnostics.DebuggableAttribute.DebuggingModes.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+    startLine: 66
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics
+  syntax:
+    content: None = 0
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes.Default
+  id: Default
+  parent: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  href: System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  name: Default
+  fullName: System.Diagnostics.DebuggableAttribute.DebuggingModes.Default
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+    startLine: 67
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics
+  syntax:
+    content: Default = 1
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes.DisableOptimizations
+  id: DisableOptimizations
+  parent: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  href: System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  name: DisableOptimizations
+  fullName: System.Diagnostics.DebuggableAttribute.DebuggingModes.DisableOptimizations
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics
+  syntax:
+    content: DisableOptimizations = 256
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints
+  id: IgnoreSymbolStoreSequencePoints
+  parent: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  href: System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  name: IgnoreSymbolStoreSequencePoints
+  fullName: System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+    startLine: 69
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics
+  syntax:
+    content: IgnoreSymbolStoreSequencePoints = 2
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes.EnableEditAndContinue
+  id: EnableEditAndContinue
+  parent: System.Diagnostics.DebuggableAttribute.DebuggingModes
+  href: System.Diagnostics.DebuggableAttribute.DebuggingModes.yml
+  name: EnableEditAndContinue
+  fullName: System.Diagnostics.DebuggableAttribute.DebuggingModes.EnableEditAndContinue
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/DebuggerAttributes.cs
+    startLine: 70
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics
+  syntax:
+    content: EnableEditAndContinue = 4
+references:
+- uid: System.Diagnostics
+  isExternal: false
+  name: System.Diagnostics
+  fullName: System.Diagnostics
+  type: Namespace

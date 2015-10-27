@@ -1,0 +1,97 @@
+items:
+- uid: System.Reflection.EventAttributes
+  id: EventAttributes
+  parent: System.Reflection
+  children:
+  - System.Reflection.EventAttributes.None
+  - System.Reflection.EventAttributes.ReservedMask
+  - System.Reflection.EventAttributes.RTSpecialName
+  - System.Reflection.EventAttributes.SpecialName
+  href: System.Reflection.EventAttributes.yml
+  name: EventAttributes
+  fullName: System.Reflection.EventAttributes
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/EventAttributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/EventAttributes.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public enum EventAttributes
+    content.vb: Public Enum EventAttributes
+- uid: System.Reflection.EventAttributes.None
+  id: None
+  parent: System.Reflection.EventAttributes
+  href: System.Reflection.EventAttributes.yml
+  name: None
+  fullName: System.Reflection.EventAttributes.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/EventAttributes.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: None = 0
+- uid: System.Reflection.EventAttributes.SpecialName
+  id: SpecialName
+  parent: System.Reflection.EventAttributes
+  href: System.Reflection.EventAttributes.yml
+  name: SpecialName
+  fullName: System.Reflection.EventAttributes.SpecialName
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/EventAttributes.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: SpecialName = 512
+- uid: System.Reflection.EventAttributes.ReservedMask
+  id: ReservedMask
+  parent: System.Reflection.EventAttributes
+  href: System.Reflection.EventAttributes.yml
+  name: ReservedMask
+  fullName: System.Reflection.EventAttributes.ReservedMask
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/EventAttributes.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: ReservedMask = 1024
+- uid: System.Reflection.EventAttributes.RTSpecialName
+  id: RTSpecialName
+  parent: System.Reflection.EventAttributes
+  href: System.Reflection.EventAttributes.yml
+  name: RTSpecialName
+  fullName: System.Reflection.EventAttributes.RTSpecialName
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/EventAttributes.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: RTSpecialName = 1024
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

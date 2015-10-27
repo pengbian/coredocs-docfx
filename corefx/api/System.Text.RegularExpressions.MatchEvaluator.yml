@@ -1,0 +1,52 @@
+items:
+- uid: System.Text.RegularExpressions.MatchEvaluator
+  id: MatchEvaluator
+  parent: System.Text.RegularExpressions
+  children: []
+  href: System.Text.RegularExpressions.MatchEvaluator.yml
+  name: MatchEvaluator
+  fullName: System.Text.RegularExpressions.MatchEvaluator
+  type: Delegate
+  source:
+    remote:
+      path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/Regex.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/Regex.cs
+    startLine: 951
+  assemblies:
+  - System.Text.RegularExpressions
+  namespace: System.Text.RegularExpressions
+  syntax:
+    content: public delegate string MatchEvaluator(Match match);
+    content.vb: Public Delegate Function MatchEvaluator(match As Match) As String
+    parameters:
+    - id: match
+      type: System.Text.RegularExpressions.Match
+    return:
+      type: System.String
+references:
+- uid: System.Text.RegularExpressions
+  isExternal: false
+  name: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  type: Namespace
+- uid: System.Text.RegularExpressions.Match
+  parent: System.Text.RegularExpressions
+  isExternal: false
+  href: System.Text.RegularExpressions.Match.yml
+  name: Match
+  fullName: System.Text.RegularExpressions.Match
+  type: Class
+  summary: Represents the results from a single regular expression match.
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

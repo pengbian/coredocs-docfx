@@ -1,0 +1,114 @@
+items:
+- uid: System.Security.Cryptography.PaddingMode
+  id: PaddingMode
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.PaddingMode.ANSIX923
+  - System.Security.Cryptography.PaddingMode.ISO10126
+  - System.Security.Cryptography.PaddingMode.None
+  - System.Security.Cryptography.PaddingMode.PKCS7
+  - System.Security.Cryptography.PaddingMode.Zeros
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: PaddingMode
+  fullName: System.Security.Cryptography.PaddingMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public enum PaddingMode
+    content.vb: Public Enum PaddingMode
+- uid: System.Security.Cryptography.PaddingMode.None
+  id: None
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: None
+  fullName: System.Security.Cryptography.PaddingMode.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: None = 1
+- uid: System.Security.Cryptography.PaddingMode.PKCS7
+  id: PKCS7
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: PKCS7
+  fullName: System.Security.Cryptography.PaddingMode.PKCS7
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: PKCS7 = 2
+- uid: System.Security.Cryptography.PaddingMode.Zeros
+  id: Zeros
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: Zeros
+  fullName: System.Security.Cryptography.PaddingMode.Zeros
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 35
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: Zeros = 3
+- uid: System.Security.Cryptography.PaddingMode.ANSIX923
+  id: ANSIX923
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: ANSIX923
+  fullName: System.Security.Cryptography.PaddingMode.ANSIX923
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 36
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: ANSIX923 = 4
+- uid: System.Security.Cryptography.PaddingMode.ISO10126
+  id: ISO10126
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: ISO10126
+  fullName: System.Security.Cryptography.PaddingMode.ISO10126
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 37
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: ISO10126 = 5
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace

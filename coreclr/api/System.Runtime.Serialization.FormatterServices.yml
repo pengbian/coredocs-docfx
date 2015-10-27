@@ -1,0 +1,496 @@
+items:
+- uid: System.Runtime.Serialization.FormatterServices
+  id: FormatterServices
+  parent: System.Runtime.Serialization
+  children:
+  - System.Runtime.Serialization.FormatterServices.GetObjectData(System.Object,System.Reflection.MemberInfo[])
+  - System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(System.Type)
+  - System.Runtime.Serialization.FormatterServices.GetSurrogateForCyclicalReference(System.Runtime.Serialization.ISerializationSurrogate)
+  - System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly(System.Reflection.Assembly,System.String)
+  - System.Runtime.Serialization.FormatterServices.GetUninitializedObject(System.Type)
+  - System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(System.Object,System.Reflection.MemberInfo[],System.Object[])
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: FormatterServices
+  fullName: System.Runtime.Serialization.FormatterServices
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public class FormatterServices
+    content.vb: Public Class FormatterServices
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Runtime.Serialization.FormatterServices.GetUninitializedObject(System.Type)
+  id: GetUninitializedObject(System.Type)
+  parent: System.Runtime.Serialization.FormatterServices
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: GetUninitializedObject(Type)
+  fullName: System.Runtime.Serialization.FormatterServices.GetUninitializedObject(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 253
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public static object GetUninitializedObject(Type type)
+    content.vb: Public Shared Function GetUninitializedObject(type As Type) As Object
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+      description: 
+- uid: System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(System.Type)
+  id: GetSafeUninitializedObject(System.Type)
+  parent: System.Runtime.Serialization.FormatterServices
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: GetSafeUninitializedObject(Type)
+  fullName: System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 267
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public static object GetSafeUninitializedObject(Type type)
+    content.vb: Public Shared Function GetSafeUninitializedObject(type As Type) As Object
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+      description: 
+- uid: System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(System.Object,System.Reflection.MemberInfo[],System.Object[])
+  id: PopulateObjectMembers(System.Object,System.Reflection.MemberInfo[],System.Object[])
+  parent: System.Runtime.Serialization.FormatterServices
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: PopulateObjectMembers(Object, MemberInfo[], Object[])
+  name.vb: PopulateObjectMembers(Object, MemberInfo(), Object())
+  fullName: System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(System.Object, System.Reflection.MemberInfo[], System.Object[])
+  fullName.vb: System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(System.Object, System.Reflection.MemberInfo(), System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 344
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public static object PopulateObjectMembers(object obj, MemberInfo[] members, object[] data)
+    content.vb: Public Shared Function PopulateObjectMembers(obj As Object, members As MemberInfo(), data As Object()) As Object
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: members
+      type: System.Reflection.MemberInfo[]
+    - id: data
+      type: System.Object[]
+    return:
+      type: System.Object
+      description: 
+- uid: System.Runtime.Serialization.FormatterServices.GetObjectData(System.Object,System.Reflection.MemberInfo[])
+  id: GetObjectData(System.Object,System.Reflection.MemberInfo[])
+  parent: System.Runtime.Serialization.FormatterServices
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: GetObjectData(Object, MemberInfo[])
+  name.vb: GetObjectData(Object, MemberInfo())
+  fullName: System.Runtime.Serialization.FormatterServices.GetObjectData(System.Object, System.Reflection.MemberInfo[])
+  fullName.vb: System.Runtime.Serialization.FormatterServices.GetObjectData(System.Object, System.Reflection.MemberInfo())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 399
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public static object[] GetObjectData(object obj, MemberInfo[] members)
+    content.vb: Public Shared Function GetObjectData(obj As Object, members As MemberInfo()) As Object()
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: members
+      type: System.Reflection.MemberInfo[]
+    return:
+      type: System.Object[]
+      description: 
+- uid: System.Runtime.Serialization.FormatterServices.GetSurrogateForCyclicalReference(System.Runtime.Serialization.ISerializationSurrogate)
+  id: GetSurrogateForCyclicalReference(System.Runtime.Serialization.ISerializationSurrogate)
+  parent: System.Runtime.Serialization.FormatterServices
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: GetSurrogateForCyclicalReference(ISerializationSurrogate)
+  fullName: System.Runtime.Serialization.FormatterServices.GetSurrogateForCyclicalReference(System.Runtime.Serialization.ISerializationSurrogate)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 442
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public static ISerializationSurrogate GetSurrogateForCyclicalReference(ISerializationSurrogate innerSurrogate)
+    content.vb: Public Shared Function GetSurrogateForCyclicalReference(innerSurrogate As ISerializationSurrogate) As ISerializationSurrogate
+    parameters:
+    - id: innerSurrogate
+      type: System.Runtime.Serialization.ISerializationSurrogate
+    return:
+      type: System.Runtime.Serialization.ISerializationSurrogate
+      description: 
+- uid: System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly(System.Reflection.Assembly,System.String)
+  id: GetTypeFromAssembly(System.Reflection.Assembly,System.String)
+  parent: System.Runtime.Serialization.FormatterServices
+  href: System.Runtime.Serialization.FormatterServices.yml
+  name: GetTypeFromAssembly(Assembly, String)
+  fullName: System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly(System.Reflection.Assembly, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/FormatterServices.cs
+    startLine: 458
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization
+  syntax:
+    content: public static Type GetTypeFromAssembly(Assembly assem, string name)
+    content.vb: Public Shared Function GetTypeFromAssembly(assem As Assembly, name As String) As Type
+    parameters:
+    - id: assem
+      type: System.Reflection.Assembly
+    - id: name
+      type: System.String
+    return:
+      type: System.Type
+      description: 
+references:
+- uid: System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Reflection.MemberInfo[]
+  isExternal: false
+  href: System.Reflection.MemberInfo.yml
+  name: MemberInfo[]
+  name.vb: MemberInfo()
+  fullName: System.Reflection.MemberInfo[]
+  fullName.vb: System.Reflection.MemberInfo()
+  spec.csharp:
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    href: System.Reflection.MemberInfo.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    href: System.Reflection.MemberInfo.yml
+  - name: ()
+    fullName: ()
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.Runtime.Serialization.ISerializationSurrogate
+  parent: System.Runtime.Serialization
+  isExternal: false
+  href: System.Runtime.Serialization.ISerializationSurrogate.yml
+  name: ISerializationSurrogate
+  fullName: System.Runtime.Serialization.ISerializationSurrogate
+  type: Interface
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

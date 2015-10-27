@@ -1,0 +1,33 @@
+items:
+- uid: System.Resources
+  id: System.Resources
+  children:
+  - System.Resources.ResourceReader
+  - System.Resources.ResourceWriter
+  href: System.Resources.yml
+  name: System.Resources
+  fullName: System.Resources
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Resources.ReaderWriter/src/System/Resources/ResourceWriter.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Resources.ReaderWriter/src/System/Resources/ResourceWriter.cs
+    startLine: 25
+  assemblies:
+  - System.Resources.ReaderWriter
+references:
+- uid: System.Resources.ResourceReader
+  isExternal: false
+  href: System.Resources.ResourceReader.yml
+  name: ResourceReader
+  fullName: System.Resources.ResourceReader
+  type: Class
+- uid: System.Resources.ResourceWriter
+  isExternal: false
+  href: System.Resources.ResourceWriter.yml
+  name: ResourceWriter
+  fullName: System.Resources.ResourceWriter
+  type: Class

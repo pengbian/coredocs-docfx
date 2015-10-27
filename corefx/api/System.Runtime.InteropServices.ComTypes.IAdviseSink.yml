@@ -1,0 +1,162 @@
+items:
+- uid: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  id: IAdviseSink
+  parent: System.Runtime.InteropServices.ComTypes
+  children:
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnClose
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnDataChange(System.Runtime.InteropServices.ComTypes.FORMATETC@,System.Runtime.InteropServices.ComTypes.STGMEDIUM@)
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnRename(System.Runtime.InteropServices.ComTypes.IMoniker)
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnSave
+  - System.Runtime.InteropServices.ComTypes.IAdviseSink.OnViewChange(System.Int32,System.Int32)
+  href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
+  name: IAdviseSink
+  fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  type: Interface
+  source:
+    remote: &o0
+      path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+    startLine: 14
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: public interface IAdviseSink
+    content.vb: Public Interface IAdviseSink
+- uid: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnDataChange(System.Runtime.InteropServices.ComTypes.FORMATETC@,System.Runtime.InteropServices.ComTypes.STGMEDIUM@)
+  id: OnDataChange(System.Runtime.InteropServices.ComTypes.FORMATETC@,System.Runtime.InteropServices.ComTypes.STGMEDIUM@)
+  parent: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
+  name: OnDataChange(ref FORMATETC, ref STGMEDIUM)
+  name.vb: OnDataChange(ByRef FORMATETC, ByRef STGMEDIUM)
+  fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnDataChange(ref System.Runtime.InteropServices.ComTypes.FORMATETC, ref System.Runtime.InteropServices.ComTypes.STGMEDIUM)
+  fullName.vb: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnDataChange(ByRef System.Runtime.InteropServices.ComTypes.FORMATETC, ByRef System.Runtime.InteropServices.ComTypes.STGMEDIUM)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+    startLine: 23
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: void OnDataChange(ref FORMATETC format, ref STGMEDIUM stgmedium)
+    content.vb: Sub OnDataChange(ByRef format As FORMATETC, ByRef stgmedium As STGMEDIUM)
+    parameters:
+    - id: format
+      type: System.Runtime.InteropServices.ComTypes.FORMATETC
+    - id: stgmedium
+      type: System.Runtime.InteropServices.ComTypes.STGMEDIUM
+- uid: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnViewChange(System.Int32,System.Int32)
+  id: OnViewChange(System.Int32,System.Int32)
+  parent: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
+  name: OnViewChange(Int32, Int32)
+  fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnViewChange(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+    startLine: 29
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: void OnViewChange(int aspect, int index)
+    content.vb: Sub OnViewChange(aspect As Integer, index As Integer)
+    parameters:
+    - id: aspect
+      type: System.Int32
+    - id: index
+      type: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnRename(System.Runtime.InteropServices.ComTypes.IMoniker)
+  id: OnRename(System.Runtime.InteropServices.ComTypes.IMoniker)
+  parent: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
+  name: OnRename(IMoniker)
+  fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnRename(System.Runtime.InteropServices.ComTypes.IMoniker)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+    startLine: 36
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: void OnRename(IMoniker moniker)
+    content.vb: Sub OnRename(moniker As IMoniker)
+    parameters:
+    - id: moniker
+      type: System.Runtime.InteropServices.ComTypes.IMoniker
+- uid: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnSave
+  id: OnSave
+  parent: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
+  name: OnSave()
+  fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnSave()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+    startLine: 43
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: void OnSave()
+    content.vb: Sub OnSave
+- uid: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnClose
+  id: OnClose
+  parent: System.Runtime.InteropServices.ComTypes.IAdviseSink
+  href: System.Runtime.InteropServices.ComTypes.IAdviseSink.yml
+  name: OnClose()
+  fullName: System.Runtime.InteropServices.ComTypes.IAdviseSink.OnClose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/IAdviseSink.cs
+    startLine: 50
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: void OnClose()
+    content.vb: Sub OnClose
+references:
+- uid: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  name: System.Runtime.InteropServices.ComTypes
+  fullName: System.Runtime.InteropServices.ComTypes
+  type: Namespace
+- uid: System.Runtime.InteropServices.ComTypes.FORMATETC
+  isExternal: false
+  href: System.Runtime.InteropServices.ComTypes.FORMATETC.yml
+  name: FORMATETC
+  fullName: System.Runtime.InteropServices.ComTypes.FORMATETC
+  type: Struct
+- uid: System.Runtime.InteropServices.ComTypes.STGMEDIUM
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  href: System.Runtime.InteropServices.ComTypes.STGMEDIUM.yml
+  name: STGMEDIUM
+  fullName: System.Runtime.InteropServices.ComTypes.STGMEDIUM
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: true
+  name: IMoniker
+  fullName: System.Runtime.InteropServices.ComTypes.IMoniker

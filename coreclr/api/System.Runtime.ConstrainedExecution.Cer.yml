@@ -1,0 +1,80 @@
+items:
+- uid: System.Runtime.ConstrainedExecution.Cer
+  id: Cer
+  parent: System.Runtime.ConstrainedExecution
+  children:
+  - System.Runtime.ConstrainedExecution.Cer.MayFail
+  - System.Runtime.ConstrainedExecution.Cer.None
+  - System.Runtime.ConstrainedExecution.Cer.Success
+  href: System.Runtime.ConstrainedExecution.Cer.yml
+  name: Cer
+  fullName: System.Runtime.ConstrainedExecution.Cer
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/Reliability/ReliabilityContractAttribute.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/Reliability/ReliabilityContractAttribute.cs
+    startLine: 37
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ConstrainedExecution
+  syntax:
+    content: public enum Cer
+    content.vb: Public Enum Cer
+- uid: System.Runtime.ConstrainedExecution.Cer.None
+  id: None
+  parent: System.Runtime.ConstrainedExecution.Cer
+  href: System.Runtime.ConstrainedExecution.Cer.yml
+  name: None
+  fullName: System.Runtime.ConstrainedExecution.Cer.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Reliability/ReliabilityContractAttribute.cs
+    startLine: 40
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ConstrainedExecution
+  syntax:
+    content: None = 0
+- uid: System.Runtime.ConstrainedExecution.Cer.MayFail
+  id: MayFail
+  parent: System.Runtime.ConstrainedExecution.Cer
+  href: System.Runtime.ConstrainedExecution.Cer.yml
+  name: MayFail
+  fullName: System.Runtime.ConstrainedExecution.Cer.MayFail
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Reliability/ReliabilityContractAttribute.cs
+    startLine: 41
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ConstrainedExecution
+  syntax:
+    content: MayFail = 1
+- uid: System.Runtime.ConstrainedExecution.Cer.Success
+  id: Success
+  parent: System.Runtime.ConstrainedExecution.Cer
+  href: System.Runtime.ConstrainedExecution.Cer.yml
+  name: Success
+  fullName: System.Runtime.ConstrainedExecution.Cer.Success
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Reliability/ReliabilityContractAttribute.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ConstrainedExecution
+  syntax:
+    content: Success = 2
+references:
+- uid: System.Runtime.ConstrainedExecution
+  isExternal: false
+  name: System.Runtime.ConstrainedExecution
+  fullName: System.Runtime.ConstrainedExecution
+  type: Namespace

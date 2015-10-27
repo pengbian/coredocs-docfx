@@ -1,0 +1,106 @@
+items:
+- uid: System.Security.Principal.IIdentity
+  id: IIdentity
+  parent: System.Security.Principal
+  children:
+  - System.Security.Principal.IIdentity.AuthenticationType
+  - System.Security.Principal.IIdentity.IsAuthenticated
+  - System.Security.Principal.IIdentity.Name
+  href: System.Security.Principal.IIdentity.yml
+  name: IIdentity
+  fullName: System.Security.Principal.IIdentity
+  type: Interface
+  source:
+    remote: &o0
+      path: src/System.Security.Principal/src/System/Security/Principal/IIdentity.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Principal/src/System/Security/Principal/IIdentity.cs
+    startLine: 11
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: public interface IIdentity
+    content.vb: Public Interface IIdentity
+- uid: System.Security.Principal.IIdentity.Name
+  id: Name
+  parent: System.Security.Principal.IIdentity
+  href: System.Security.Principal.IIdentity.yml
+  name: Name
+  fullName: System.Security.Principal.IIdentity.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal/src/System/Security/Principal/IIdentity.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: string Name { get; }
+    content.vb: ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Security.Principal.IIdentity.AuthenticationType
+  id: AuthenticationType
+  parent: System.Security.Principal.IIdentity
+  href: System.Security.Principal.IIdentity.yml
+  name: AuthenticationType
+  fullName: System.Security.Principal.IIdentity.AuthenticationType
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal/src/System/Security/Principal/IIdentity.cs
+    startLine: 17
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: string AuthenticationType { get; }
+    content.vb: ReadOnly Property AuthenticationType As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Security.Principal.IIdentity.IsAuthenticated
+  id: IsAuthenticated
+  parent: System.Security.Principal.IIdentity
+  href: System.Security.Principal.IIdentity.yml
+  name: IsAuthenticated
+  fullName: System.Security.Principal.IIdentity.IsAuthenticated
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal/src/System/Security/Principal/IIdentity.cs
+    startLine: 20
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: bool IsAuthenticated { get; }
+    content.vb: ReadOnly Property IsAuthenticated As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+references:
+- uid: System.Security.Principal
+  isExternal: false
+  name: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
