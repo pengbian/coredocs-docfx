@@ -1,0 +1,441 @@
+items:
+- uid: System.Diagnostics.BooleanSwitch
+  id: BooleanSwitch
+  parent: System.Diagnostics
+  children:
+  - System.Diagnostics.BooleanSwitch.#ctor(System.String,System.String)
+  - System.Diagnostics.BooleanSwitch.#ctor(System.String,System.String,System.String)
+  - System.Diagnostics.BooleanSwitch.Enabled
+  - System.Diagnostics.BooleanSwitch.OnValueChanged
+  href: System.Diagnostics.BooleanSwitch.yml
+  name: BooleanSwitch
+  fullName: System.Diagnostics.BooleanSwitch
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
+    startLine: 12
+  assemblies:
+  - System.Diagnostics.TraceSource
+  namespace: System.Diagnostics
+  syntax:
+    content: 'public class BooleanSwitch : Switch'
+    content.vb: Public Class BooleanSwitch Inherits Switch
+  inheritance:
+  - System.Object
+  - System.Diagnostics.Switch
+  inheritedMembers:
+  - System.Diagnostics.Switch.DisplayName
+  - System.Diagnostics.Switch.Description
+  - System.Diagnostics.Switch.SwitchSetting
+  - System.Diagnostics.Switch.Value
+  - System.Diagnostics.Switch.OnSwitchSettingChanged
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Diagnostics.BooleanSwitch.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: System.Diagnostics.BooleanSwitch
+  href: System.Diagnostics.BooleanSwitch.yml
+  name: BooleanSwitch(String, String)
+  fullName: System.Diagnostics.BooleanSwitch.BooleanSwitch(System.String, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
+    startLine: 18
+  assemblies:
+  - System.Diagnostics.TraceSource
+  namespace: System.Diagnostics
+  syntax:
+    content: public BooleanSwitch(string displayName, string description)
+    content.vb: Public Sub New(displayName As String, description As String)
+    parameters:
+    - id: displayName
+      type: System.String
+    - id: description
+      type: System.String
+- uid: System.Diagnostics.BooleanSwitch.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: System.Diagnostics.BooleanSwitch
+  href: System.Diagnostics.BooleanSwitch.yml
+  name: BooleanSwitch(String, String, String)
+  fullName: System.Diagnostics.BooleanSwitch.BooleanSwitch(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
+    startLine: 23
+  assemblies:
+  - System.Diagnostics.TraceSource
+  namespace: System.Diagnostics
+  syntax:
+    content: public BooleanSwitch(string displayName, string description, string defaultSwitchValue)
+    content.vb: Public Sub New(displayName As String, description As String, defaultSwitchValue As String)
+    parameters:
+    - id: displayName
+      type: System.String
+    - id: description
+      type: System.String
+    - id: defaultSwitchValue
+      type: System.String
+- uid: System.Diagnostics.BooleanSwitch.Enabled
+  id: Enabled
+  parent: System.Diagnostics.BooleanSwitch
+  href: System.Diagnostics.BooleanSwitch.yml
+  name: Enabled
+  fullName: System.Diagnostics.BooleanSwitch.Enabled
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
+    startLine: 31
+  assemblies:
+  - System.Diagnostics.TraceSource
+  namespace: System.Diagnostics
+  syntax:
+    content: public bool Enabled { get; set; }
+    content.vb: Public Property Enabled As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Diagnostics.BooleanSwitch.OnValueChanged
+  id: OnValueChanged
+  parent: System.Diagnostics.BooleanSwitch
+  href: System.Diagnostics.BooleanSwitch.yml
+  name: OnValueChanged()
+  fullName: System.Diagnostics.BooleanSwitch.OnValueChanged()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.TraceSource/src/System/Diagnostics/BooleanSwitch.cs
+    startLine: 43
+  assemblies:
+  - System.Diagnostics.TraceSource
+  namespace: System.Diagnostics
+  syntax:
+    content: protected override void OnValueChanged()
+    content.vb: Protected Overrides Sub OnValueChanged
+  overridden: System.Diagnostics.Switch.OnValueChanged
+references:
+- uid: System.Diagnostics
+  isExternal: false
+  name: System.Diagnostics
+  fullName: System.Diagnostics
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Diagnostics.Switch
+  parent: System.Diagnostics
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: Switch
+  fullName: System.Diagnostics.Switch
+  type: Class
+- uid: System.Diagnostics.Switch.DisplayName
+  parent: System.Diagnostics.Switch
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: DisplayName
+  fullName: System.Diagnostics.Switch.DisplayName
+- uid: System.Diagnostics.Switch.Description
+  parent: System.Diagnostics.Switch
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: Description
+  fullName: System.Diagnostics.Switch.Description
+- uid: System.Diagnostics.Switch.SwitchSetting
+  parent: System.Diagnostics.Switch
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: SwitchSetting
+  fullName: System.Diagnostics.Switch.SwitchSetting
+- uid: System.Diagnostics.Switch.Value
+  parent: System.Diagnostics.Switch
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: Value
+  fullName: System.Diagnostics.Switch.Value
+- uid: System.Diagnostics.Switch.OnSwitchSettingChanged
+  parent: System.Diagnostics.Switch
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: OnSwitchSettingChanged()
+  fullName: System.Diagnostics.Switch.OnSwitchSettingChanged()
+  spec.csharp:
+  - uid: System.Diagnostics.Switch.OnSwitchSettingChanged
+    name: OnSwitchSettingChanged
+    fullName: System.Diagnostics.Switch.OnSwitchSettingChanged
+    href: System.Diagnostics.Switch.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Diagnostics.Switch.OnSwitchSettingChanged
+    name: OnSwitchSettingChanged
+    fullName: System.Diagnostics.Switch.OnSwitchSettingChanged
+    href: System.Diagnostics.Switch.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Switch.OnValueChanged
+  parent: System.Diagnostics.Switch
+  isExternal: false
+  href: System.Diagnostics.Switch.yml
+  name: OnValueChanged()
+  fullName: System.Diagnostics.Switch.OnValueChanged()
+  spec.csharp:
+  - uid: System.Diagnostics.Switch.OnValueChanged
+    name: OnValueChanged
+    fullName: System.Diagnostics.Switch.OnValueChanged
+    href: System.Diagnostics.Switch.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Diagnostics.Switch.OnValueChanged
+    name: OnValueChanged
+    fullName: System.Diagnostics.Switch.OnValueChanged
+    href: System.Diagnostics.Switch.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

@@ -1,0 +1,649 @@
+items:
+- uid: System.Runtime.InteropServices.UCOMITypeInfo
+  id: UCOMITypeInfo
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.UCOMITypeInfo.AddressOfMember(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.IntPtr@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.CreateInstance(System.Object,System.Guid@,System.Object@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetContainingTypeLib(System.Runtime.InteropServices.UCOMITypeLib@,System.Int32@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.String@,System.String@,System.Int16@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetDocumentation(System.Int32,System.String@,System.String@,System.Int32@,System.String@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc(System.Int32,System.IntPtr@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames(System.String[],System.Int32,System.Int32[])
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags(System.Int32,System.Int32@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetMops(System.Int32,System.String@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetNames(System.Int32,System.String[],System.Int32,System.Int32@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.UCOMITypeInfo@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeOfImplType(System.Int32,System.Int32@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr(System.IntPtr@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetTypeComp(System.Runtime.InteropServices.UCOMITypeComp@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.GetVarDesc(System.Int32,System.IntPtr@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.DISPPARAMS@,System.Object@,System.Runtime.InteropServices.EXCEPINFO@,System.Int32@)
+  - System.Runtime.InteropServices.UCOMITypeInfo.ReleaseFuncDesc(System.IntPtr)
+  - System.Runtime.InteropServices.UCOMITypeInfo.ReleaseTypeAttr(System.IntPtr)
+  - System.Runtime.InteropServices.UCOMITypeInfo.ReleaseVarDesc(System.IntPtr)
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: UCOMITypeInfo
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 302
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public interface UCOMITypeInfo
+    content.vb: Public Interface UCOMITypeInfo
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr(System.IntPtr@)
+  id: GetTypeAttr(System.IntPtr@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetTypeAttr(out IntPtr)
+  name.vb: GetTypeAttr(ByRef IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr(out System.IntPtr)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr(ByRef System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 308
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetTypeAttr(out IntPtr ppTypeAttr)
+    content.vb: Sub GetTypeAttr(ByRef ppTypeAttr As IntPtr)
+    parameters:
+    - id: ppTypeAttr
+      type: System.IntPtr
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeComp(System.Runtime.InteropServices.UCOMITypeComp@)
+  id: GetTypeComp(System.Runtime.InteropServices.UCOMITypeComp@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetTypeComp(out UCOMITypeComp)
+  name.vb: GetTypeComp(ByRef UCOMITypeComp)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeComp(out System.Runtime.InteropServices.UCOMITypeComp)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeComp(ByRef System.Runtime.InteropServices.UCOMITypeComp)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 309
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetTypeComp(out UCOMITypeComp ppTComp)
+    content.vb: Sub GetTypeComp(ByRef ppTComp As UCOMITypeComp)
+    parameters:
+    - id: ppTComp
+      type: System.Runtime.InteropServices.UCOMITypeComp
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc(System.Int32,System.IntPtr@)
+  id: GetFuncDesc(System.Int32,System.IntPtr@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetFuncDesc(Int32, out IntPtr)
+  name.vb: GetFuncDesc(Int32, ByRef IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc(System.Int32, out System.IntPtr)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc(System.Int32, ByRef System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 310
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetFuncDesc(int index, out IntPtr ppFuncDesc)
+    content.vb: Sub GetFuncDesc(index As Integer, ByRef ppFuncDesc As IntPtr)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: ppFuncDesc
+      type: System.IntPtr
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetVarDesc(System.Int32,System.IntPtr@)
+  id: GetVarDesc(System.Int32,System.IntPtr@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetVarDesc(Int32, out IntPtr)
+  name.vb: GetVarDesc(Int32, ByRef IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetVarDesc(System.Int32, out System.IntPtr)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetVarDesc(System.Int32, ByRef System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 311
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetVarDesc(int index, out IntPtr ppVarDesc)
+    content.vb: Sub GetVarDesc(index As Integer, ByRef ppVarDesc As IntPtr)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: ppVarDesc
+      type: System.IntPtr
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetNames(System.Int32,System.String[],System.Int32,System.Int32@)
+  id: GetNames(System.Int32,System.String[],System.Int32,System.Int32@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetNames(Int32, String[], Int32, out Int32)
+  name.vb: GetNames(Int32, String(), Int32, ByRef Int32)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetNames(System.Int32, System.String[], System.Int32, out System.Int32)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetNames(System.Int32, System.String(), System.Int32, ByRef System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 312
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetNames(int memid, string[] rgBstrNames, int cMaxNames, out int pcNames)
+    content.vb: Sub GetNames(memid As Integer, rgBstrNames As String(), cMaxNames As Integer, ByRef pcNames As Integer)
+    parameters:
+    - id: memid
+      type: System.Int32
+    - id: rgBstrNames
+      type: System.String[]
+    - id: cMaxNames
+      type: System.Int32
+    - id: pcNames
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeOfImplType(System.Int32,System.Int32@)
+  id: GetRefTypeOfImplType(System.Int32,System.Int32@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetRefTypeOfImplType(Int32, out Int32)
+  name.vb: GetRefTypeOfImplType(Int32, ByRef Int32)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeOfImplType(System.Int32, out System.Int32)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeOfImplType(System.Int32, ByRef System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 313
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetRefTypeOfImplType(int index, out int href)
+    content.vb: Sub GetRefTypeOfImplType(index As Integer, ByRef href As Integer)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: href
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags(System.Int32,System.Int32@)
+  id: GetImplTypeFlags(System.Int32,System.Int32@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetImplTypeFlags(Int32, out Int32)
+  name.vb: GetImplTypeFlags(Int32, ByRef Int32)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags(System.Int32, out System.Int32)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags(System.Int32, ByRef System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 314
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetImplTypeFlags(int index, out int pImplTypeFlags)
+    content.vb: Sub GetImplTypeFlags(index As Integer, ByRef pImplTypeFlags As Integer)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: pImplTypeFlags
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames(System.String[],System.Int32,System.Int32[])
+  id: GetIDsOfNames(System.String[],System.Int32,System.Int32[])
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetIDsOfNames(String[], Int32, Int32[])
+  name.vb: GetIDsOfNames(String(), Int32, Int32())
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames(System.String[], System.Int32, System.Int32[])
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames(System.String(), System.Int32, System.Int32())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 315
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetIDsOfNames(string[] rgszNames, int cNames, int[] pMemId)
+    content.vb: Sub GetIDsOfNames(rgszNames As String(), cNames As Integer, pMemId As Integer())
+    parameters:
+    - id: rgszNames
+      type: System.String[]
+    - id: cNames
+      type: System.Int32
+    - id: pMemId
+      type: System.Int32[]
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.DISPPARAMS@,System.Object@,System.Runtime.InteropServices.EXCEPINFO@,System.Int32@)
+  id: Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.DISPPARAMS@,System.Object@,System.Runtime.InteropServices.EXCEPINFO@,System.Int32@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: Invoke(Object, Int32, Int16, ref DISPPARAMS, out Object, out EXCEPINFO, out Int32)
+  name.vb: Invoke(Object, Int32, Int16, ByRef DISPPARAMS, ByRef Object, ByRef EXCEPINFO, ByRef Int32)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.Invoke(System.Object, System.Int32, System.Int16, ref System.Runtime.InteropServices.DISPPARAMS, out System.Object, out System.Runtime.InteropServices.EXCEPINFO, out System.Int32)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.Invoke(System.Object, System.Int32, System.Int16, ByRef System.Runtime.InteropServices.DISPPARAMS, ByRef System.Object, ByRef System.Runtime.InteropServices.EXCEPINFO, ByRef System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 316
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void Invoke(object pvInstance, int memid, short wFlags, ref DISPPARAMS pDispParams, out object pVarResult, out EXCEPINFO pExcepInfo, out int puArgErr)
+    content.vb: Sub Invoke(pvInstance As Object, memid As Integer, wFlags As Short, ByRef pDispParams As DISPPARAMS, ByRef pVarResult As Object, ByRef pExcepInfo As EXCEPINFO, ByRef puArgErr As Integer)
+    parameters:
+    - id: pvInstance
+      type: System.Object
+    - id: memid
+      type: System.Int32
+    - id: wFlags
+      type: System.Int16
+    - id: pDispParams
+      type: System.Runtime.InteropServices.DISPPARAMS
+    - id: pVarResult
+      type: System.Object
+    - id: pExcepInfo
+      type: System.Runtime.InteropServices.EXCEPINFO
+    - id: puArgErr
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetDocumentation(System.Int32,System.String@,System.String@,System.Int32@,System.String@)
+  id: GetDocumentation(System.Int32,System.String@,System.String@,System.Int32@,System.String@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetDocumentation(Int32, out String, out String, out Int32, out String)
+  name.vb: GetDocumentation(Int32, ByRef String, ByRef String, ByRef Int32, ByRef String)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetDocumentation(System.Int32, out System.String, out System.String, out System.Int32, out System.String)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetDocumentation(System.Int32, ByRef System.String, ByRef System.String, ByRef System.Int32, ByRef System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 317
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetDocumentation(int index, out string strName, out string strDocString, out int dwHelpContext, out string strHelpFile)
+    content.vb: Sub GetDocumentation(index As Integer, ByRef strName As String, ByRef strDocString As String, ByRef dwHelpContext As Integer, ByRef strHelpFile As String)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: strName
+      type: System.String
+    - id: strDocString
+      type: System.String
+    - id: dwHelpContext
+      type: System.Int32
+    - id: strHelpFile
+      type: System.String
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.String@,System.String@,System.Int16@)
+  id: GetDllEntry(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.String@,System.String@,System.Int16@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetDllEntry(Int32, INVOKEKIND, out String, out String, out Int16)
+  name.vb: GetDllEntry(Int32, INVOKEKIND, ByRef String, ByRef String, ByRef Int16)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry(System.Int32, System.Runtime.InteropServices.INVOKEKIND, out System.String, out System.String, out System.Int16)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry(System.Int32, System.Runtime.InteropServices.INVOKEKIND, ByRef System.String, ByRef System.String, ByRef System.Int16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 318
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetDllEntry(int memid, INVOKEKIND invKind, out string pBstrDllName, out string pBstrName, out short pwOrdinal)
+    content.vb: Sub GetDllEntry(memid As Integer, invKind As INVOKEKIND, ByRef pBstrDllName As String, ByRef pBstrName As String, ByRef pwOrdinal As Short)
+    parameters:
+    - id: memid
+      type: System.Int32
+    - id: invKind
+      type: System.Runtime.InteropServices.INVOKEKIND
+    - id: pBstrDllName
+      type: System.String
+    - id: pBstrName
+      type: System.String
+    - id: pwOrdinal
+      type: System.Int16
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.UCOMITypeInfo@)
+  id: GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.UCOMITypeInfo@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetRefTypeInfo(Int32, out UCOMITypeInfo)
+  name.vb: GetRefTypeInfo(Int32, ByRef UCOMITypeInfo)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo(System.Int32, out System.Runtime.InteropServices.UCOMITypeInfo)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo(System.Int32, ByRef System.Runtime.InteropServices.UCOMITypeInfo)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 319
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetRefTypeInfo(int hRef, out UCOMITypeInfo ppTI)
+    content.vb: Sub GetRefTypeInfo(hRef As Integer, ByRef ppTI As UCOMITypeInfo)
+    parameters:
+    - id: hRef
+      type: System.Int32
+    - id: ppTI
+      type: System.Runtime.InteropServices.UCOMITypeInfo
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.AddressOfMember(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.IntPtr@)
+  id: AddressOfMember(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.IntPtr@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: AddressOfMember(Int32, INVOKEKIND, out IntPtr)
+  name.vb: AddressOfMember(Int32, INVOKEKIND, ByRef IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.AddressOfMember(System.Int32, System.Runtime.InteropServices.INVOKEKIND, out System.IntPtr)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.AddressOfMember(System.Int32, System.Runtime.InteropServices.INVOKEKIND, ByRef System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 320
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void AddressOfMember(int memid, INVOKEKIND invKind, out IntPtr ppv)
+    content.vb: Sub AddressOfMember(memid As Integer, invKind As INVOKEKIND, ByRef ppv As IntPtr)
+    parameters:
+    - id: memid
+      type: System.Int32
+    - id: invKind
+      type: System.Runtime.InteropServices.INVOKEKIND
+    - id: ppv
+      type: System.IntPtr
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.CreateInstance(System.Object,System.Guid@,System.Object@)
+  id: CreateInstance(System.Object,System.Guid@,System.Object@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: CreateInstance(Object, ref Guid, out Object)
+  name.vb: CreateInstance(Object, ByRef Guid, ByRef Object)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.CreateInstance(System.Object, ref System.Guid, out System.Object)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.CreateInstance(System.Object, ByRef System.Guid, ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 321
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void CreateInstance(object pUnkOuter, ref Guid riid, out object ppvObj)
+    content.vb: Sub CreateInstance(pUnkOuter As Object, ByRef riid As Guid, ByRef ppvObj As Object)
+    parameters:
+    - id: pUnkOuter
+      type: System.Object
+    - id: riid
+      type: System.Guid
+    - id: ppvObj
+      type: System.Object
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetMops(System.Int32,System.String@)
+  id: GetMops(System.Int32,System.String@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetMops(Int32, out String)
+  name.vb: GetMops(Int32, ByRef String)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetMops(System.Int32, out System.String)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetMops(System.Int32, ByRef System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 322
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetMops(int memid, out string pBstrMops)
+    content.vb: Sub GetMops(memid As Integer, ByRef pBstrMops As String)
+    parameters:
+    - id: memid
+      type: System.Int32
+    - id: pBstrMops
+      type: System.String
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.GetContainingTypeLib(System.Runtime.InteropServices.UCOMITypeLib@,System.Int32@)
+  id: GetContainingTypeLib(System.Runtime.InteropServices.UCOMITypeLib@,System.Int32@)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: GetContainingTypeLib(out UCOMITypeLib, out Int32)
+  name.vb: GetContainingTypeLib(ByRef UCOMITypeLib, ByRef Int32)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetContainingTypeLib(out System.Runtime.InteropServices.UCOMITypeLib, out System.Int32)
+  fullName.vb: System.Runtime.InteropServices.UCOMITypeInfo.GetContainingTypeLib(ByRef System.Runtime.InteropServices.UCOMITypeLib, ByRef System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 323
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void GetContainingTypeLib(out UCOMITypeLib ppTLB, out int pIndex)
+    content.vb: Sub GetContainingTypeLib(ByRef ppTLB As UCOMITypeLib, ByRef pIndex As Integer)
+    parameters:
+    - id: ppTLB
+      type: System.Runtime.InteropServices.UCOMITypeLib
+    - id: pIndex
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseTypeAttr(System.IntPtr)
+  id: ReleaseTypeAttr(System.IntPtr)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: ReleaseTypeAttr(IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseTypeAttr(System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 324
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void ReleaseTypeAttr(IntPtr pTypeAttr)
+    content.vb: Sub ReleaseTypeAttr(pTypeAttr As IntPtr)
+    parameters:
+    - id: pTypeAttr
+      type: System.IntPtr
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseFuncDesc(System.IntPtr)
+  id: ReleaseFuncDesc(System.IntPtr)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: ReleaseFuncDesc(IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseFuncDesc(System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 325
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void ReleaseFuncDesc(IntPtr pFuncDesc)
+    content.vb: Sub ReleaseFuncDesc(pFuncDesc As IntPtr)
+    parameters:
+    - id: pFuncDesc
+      type: System.IntPtr
+- uid: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseVarDesc(System.IntPtr)
+  id: ReleaseVarDesc(System.IntPtr)
+  parent: System.Runtime.InteropServices.UCOMITypeInfo
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: ReleaseVarDesc(IntPtr)
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseVarDesc(System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 326
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void ReleaseVarDesc(IntPtr pVarDesc)
+    content.vb: Sub ReleaseVarDesc(pVarDesc As IntPtr)
+    parameters:
+    - id: pVarDesc
+      type: System.IntPtr
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.InteropServices.UCOMITypeComp
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.UCOMITypeComp.yml
+  name: UCOMITypeComp
+  fullName: System.Runtime.InteropServices.UCOMITypeComp
+  type: Interface
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int32[]
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32[]
+  name.vb: Int32()
+  fullName: System.Int32[]
+  fullName.vb: System.Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: ()
+    fullName: ()
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Int16
+  parent: System
+  isExternal: false
+  href: System.Int16.yml
+  name: Int16
+  fullName: System.Int16
+  type: Struct
+- uid: System.Runtime.InteropServices.DISPPARAMS
+  isExternal: false
+  href: System.Runtime.InteropServices.DISPPARAMS.yml
+  name: DISPPARAMS
+  fullName: System.Runtime.InteropServices.DISPPARAMS
+  type: Struct
+- uid: System.Runtime.InteropServices.EXCEPINFO
+  isExternal: false
+  href: System.Runtime.InteropServices.EXCEPINFO.yml
+  name: EXCEPINFO
+  fullName: System.Runtime.InteropServices.EXCEPINFO
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Runtime.InteropServices.INVOKEKIND
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.INVOKEKIND.yml
+  name: INVOKEKIND
+  fullName: System.Runtime.InteropServices.INVOKEKIND
+  type: Enum
+- uid: System.Runtime.InteropServices.UCOMITypeInfo
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.UCOMITypeInfo.yml
+  name: UCOMITypeInfo
+  fullName: System.Runtime.InteropServices.UCOMITypeInfo
+  type: Interface
+- uid: System.Guid
+  parent: System
+  isExternal: false
+  href: System.Guid.yml
+  name: Guid
+  fullName: System.Guid
+  type: Struct
+- uid: System.Runtime.InteropServices.UCOMITypeLib
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.UCOMITypeLib.yml
+  name: UCOMITypeLib
+  fullName: System.Runtime.InteropServices.UCOMITypeLib
+  type: Interface

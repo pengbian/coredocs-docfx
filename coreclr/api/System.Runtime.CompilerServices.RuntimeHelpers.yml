@@ -1,0 +1,644 @@
+items:
+- uid: System.Runtime.CompilerServices.RuntimeHelpers
+  id: RuntimeHelpers
+  parent: System.Runtime.CompilerServices
+  children:
+  - System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack
+  - System.Runtime.CompilerServices.RuntimeHelpers.Equals(System.Object,System.Object)
+  - System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(System.Runtime.CompilerServices.RuntimeHelpers.TryCode,System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode,System.Object)
+  - System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)
+  - System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Object)
+  - System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray(System.Array,System.RuntimeFieldHandle)
+  - System.Runtime.CompilerServices.RuntimeHelpers.OffsetToStringData
+  - System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegions
+  - System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegionsNoOP
+  - System.Runtime.CompilerServices.RuntimeHelpers.PrepareContractedDelegate(System.Delegate)
+  - System.Runtime.CompilerServices.RuntimeHelpers.PrepareDelegate(System.Delegate)
+  - System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle)
+  - System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle,System.RuntimeTypeHandle[])
+  - System.Runtime.CompilerServices.RuntimeHelpers.ProbeForSufficientStack
+  - System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(System.RuntimeTypeHandle)
+  - System.Runtime.CompilerServices.RuntimeHelpers.RunModuleConstructor(System.ModuleHandle)
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: RuntimeHelpers
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public class RuntimeHelpers
+    content.vb: Public Class RuntimeHelpers
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray(System.Array,System.RuntimeFieldHandle)
+  id: InitializeArray(System.Array,System.RuntimeFieldHandle)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: InitializeArray(Array, RuntimeFieldHandle)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray(System.Array, System.RuntimeFieldHandle)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void InitializeArray(Array array, RuntimeFieldHandle fldHandle)
+    content.vb: Public Shared Sub InitializeArray(array As Array, fldHandle As RuntimeFieldHandle)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: fldHandle
+      type: System.RuntimeFieldHandle
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Object)
+  id: GetObjectValue(System.Object)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: GetObjectValue(Object)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static object GetObjectValue(object obj)
+    content.vb: Public Shared Function GetObjectValue(obj As Object) As Object
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Object
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(System.RuntimeTypeHandle)
+  id: RunClassConstructor(System.RuntimeTypeHandle)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: RunClassConstructor(RuntimeTypeHandle)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(System.RuntimeTypeHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 58
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void RunClassConstructor(RuntimeTypeHandle type)
+    content.vb: Public Shared Sub RunClassConstructor(type As RuntimeTypeHandle)
+    parameters:
+    - id: type
+      type: System.RuntimeTypeHandle
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.RunModuleConstructor(System.ModuleHandle)
+  id: RunModuleConstructor(System.ModuleHandle)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: RunModuleConstructor(ModuleHandle)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.RunModuleConstructor(System.ModuleHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 75
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void RunModuleConstructor(ModuleHandle module)
+    content.vb: Public Shared Sub RunModuleConstructor(module As ModuleHandle)
+    parameters:
+    - id: module
+      type: System.ModuleHandle
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle)
+  id: PrepareMethod(System.RuntimeMethodHandle)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: PrepareMethod(RuntimeMethodHandle)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 89
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void PrepareMethod(RuntimeMethodHandle method)
+    content.vb: Public Shared Sub PrepareMethod(method As RuntimeMethodHandle)
+    parameters:
+    - id: method
+      type: System.RuntimeMethodHandle
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle,System.RuntimeTypeHandle[])
+  id: PrepareMethod(System.RuntimeMethodHandle,System.RuntimeTypeHandle[])
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: PrepareMethod(RuntimeMethodHandle, RuntimeTypeHandle[])
+  name.vb: PrepareMethod(RuntimeMethodHandle, RuntimeTypeHandle())
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle, System.RuntimeTypeHandle[])
+  fullName.vb: System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod(System.RuntimeMethodHandle, System.RuntimeTypeHandle())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 99
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void PrepareMethod(RuntimeMethodHandle method, RuntimeTypeHandle[] instantiation)
+    content.vb: Public Shared Sub PrepareMethod(method As RuntimeMethodHandle, instantiation As RuntimeTypeHandle())
+    parameters:
+    - id: method
+      type: System.RuntimeMethodHandle
+    - id: instantiation
+      type: System.RuntimeTypeHandle[]
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareDelegate(System.Delegate)
+  id: PrepareDelegate(System.Delegate)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: PrepareDelegate(Delegate)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.PrepareDelegate(System.Delegate)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void PrepareDelegate(Delegate d)
+    content.vb: Public Shared Sub PrepareDelegate(d As Delegate)
+    parameters:
+    - id: d
+      type: System.Delegate
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareContractedDelegate(System.Delegate)
+  id: PrepareContractedDelegate(System.Delegate)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: PrepareContractedDelegate(Delegate)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.PrepareContractedDelegate(System.Delegate)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void PrepareContractedDelegate(Delegate d)
+    content.vb: Public Shared Sub PrepareContractedDelegate(d As Delegate)
+    parameters:
+    - id: d
+      type: System.Delegate
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)
+  id: GetHashCode(System.Object)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: GetHashCode(Object)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static int GetHashCode(object o)
+    content.vb: Public Shared Function GetHashCode(o As Object) As Integer
+    parameters:
+    - id: o
+      type: System.Object
+    return:
+      type: System.Int32
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.Equals(System.Object,System.Object)
+  id: Equals(System.Object,System.Object)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: Equals(Object, Object)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.Equals(System.Object, System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static bool Equals(object o1, object o2)
+    content.vb: Public Shared Function Equals(o1 As Object, o2 As Object) As Boolean
+    parameters:
+    - id: o1
+      type: System.Object
+    - id: o2
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.OffsetToStringData
+  id: OffsetToStringData
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: OffsetToStringData
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.OffsetToStringData
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 149
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static int OffsetToStringData { get; }
+    content.vb: Public Shared ReadOnly Property OffsetToStringData As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack
+  id: EnsureSufficientExecutionStack
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: EnsureSufficientExecutionStack()
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void EnsureSufficientExecutionStack()
+    content.vb: Public Shared Sub EnsureSufficientExecutionStack
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.ProbeForSufficientStack
+  id: ProbeForSufficientStack
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: ProbeForSufficientStack()
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.ProbeForSufficientStack()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void ProbeForSufficientStack()
+    content.vb: Public Shared Sub ProbeForSufficientStack
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegions
+  id: PrepareConstrainedRegions
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: PrepareConstrainedRegions()
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegions()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 197
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void PrepareConstrainedRegions()
+    content.vb: Public Shared Sub PrepareConstrainedRegions
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegionsNoOP
+  id: PrepareConstrainedRegionsNoOP
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: PrepareConstrainedRegionsNoOP()
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegionsNoOP()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs
+    startLine: 206
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void PrepareConstrainedRegionsNoOP()
+    content.vb: Public Shared Sub PrepareConstrainedRegionsNoOP
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(System.Runtime.CompilerServices.RuntimeHelpers.TryCode,System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode,System.Object)
+  id: ExecuteCodeWithGuaranteedCleanup(System.Runtime.CompilerServices.RuntimeHelpers.TryCode,System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode,System.Object)
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  href: System.Runtime.CompilerServices.RuntimeHelpers.yml
+  name: ExecuteCodeWithGuaranteedCleanup(RuntimeHelpers.TryCode, RuntimeHelpers.CleanupCode, Object)
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(System.Runtime.CompilerServices.RuntimeHelpers.TryCode, System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode, System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public static void ExecuteCodeWithGuaranteedCleanup(RuntimeHelpers.TryCode code, RuntimeHelpers.CleanupCode backoutCode, object userData)
+    content.vb: Public Shared Sub ExecuteCodeWithGuaranteedCleanup(code As RuntimeHelpers.TryCode, backoutCode As RuntimeHelpers.CleanupCode, userData As Object)
+    parameters:
+    - id: code
+      type: System.Runtime.CompilerServices.RuntimeHelpers.TryCode
+    - id: backoutCode
+      type: System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode
+    - id: userData
+      type: System.Object
+references:
+- uid: System.Runtime.CompilerServices
+  isExternal: false
+  name: System.Runtime.CompilerServices
+  fullName: System.Runtime.CompilerServices
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Array
+  parent: System
+  isExternal: false
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class
+- uid: System.RuntimeFieldHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeFieldHandle.yml
+  name: RuntimeFieldHandle
+  fullName: System.RuntimeFieldHandle
+  type: Struct
+- uid: System.RuntimeTypeHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeTypeHandle.yml
+  name: RuntimeTypeHandle
+  fullName: System.RuntimeTypeHandle
+  type: Struct
+- uid: System.ModuleHandle
+  parent: System
+  isExternal: false
+  href: System.ModuleHandle.yml
+  name: ModuleHandle
+  fullName: System.ModuleHandle
+  type: Struct
+- uid: System.RuntimeMethodHandle
+  parent: System
+  isExternal: false
+  href: System.RuntimeMethodHandle.yml
+  name: RuntimeMethodHandle
+  fullName: System.RuntimeMethodHandle
+  type: Struct
+- uid: System.RuntimeTypeHandle[]
+  isExternal: false
+  href: System.RuntimeTypeHandle.yml
+  name: RuntimeTypeHandle[]
+  name.vb: RuntimeTypeHandle()
+  fullName: System.RuntimeTypeHandle[]
+  fullName.vb: System.RuntimeTypeHandle()
+  spec.csharp:
+  - uid: System.RuntimeTypeHandle
+    name: RuntimeTypeHandle
+    fullName: System.RuntimeTypeHandle
+    href: System.RuntimeTypeHandle.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.RuntimeTypeHandle
+    name: RuntimeTypeHandle
+    fullName: System.RuntimeTypeHandle
+    href: System.RuntimeTypeHandle.yml
+  - name: ()
+    fullName: ()
+- uid: System.Delegate
+  parent: System
+  isExternal: false
+  href: System.Delegate.yml
+  name: Delegate
+  fullName: System.Delegate
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.TryCode
+  parent: System.Runtime.CompilerServices
+  isExternal: false
+  href: System.Runtime.CompilerServices.RuntimeHelpers.TryCode.yml
+  name: RuntimeHelpers.TryCode
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.TryCode
+  type: Delegate
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode
+  parent: System.Runtime.CompilerServices
+  isExternal: false
+  href: System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode.yml
+  name: RuntimeHelpers.CleanupCode
+  fullName: System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode
+  type: Delegate

@@ -1,0 +1,29 @@
+items:
+- uid: System.Threading.ThreadStart
+  id: ThreadStart
+  parent: System.Threading
+  children: []
+  href: System.Threading.ThreadStart.yml
+  name: ThreadStart
+  fullName: System.Threading.ThreadStart
+  type: Delegate
+  source:
+    remote:
+      path: src/mscorlib/src/System/Threading/ThreadStart.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/ThreadStart.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public delegate void ThreadStart();
+    content.vb: Public Delegate Sub ThreadStart
+references:
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading
+  type: Namespace

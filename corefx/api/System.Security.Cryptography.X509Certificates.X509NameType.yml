@@ -1,0 +1,131 @@
+items:
+- uid: System.Security.Cryptography.X509Certificates.X509NameType
+  id: X509NameType
+  parent: System.Security.Cryptography.X509Certificates
+  children:
+  - System.Security.Cryptography.X509Certificates.X509NameType.DnsFromAlternativeName
+  - System.Security.Cryptography.X509Certificates.X509NameType.DnsName
+  - System.Security.Cryptography.X509Certificates.X509NameType.EmailName
+  - System.Security.Cryptography.X509Certificates.X509NameType.SimpleName
+  - System.Security.Cryptography.X509Certificates.X509NameType.UpnName
+  - System.Security.Cryptography.X509Certificates.X509NameType.UrlName
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: X509NameType
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 8
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: public enum X509NameType
+    content.vb: Public Enum X509NameType
+- uid: System.Security.Cryptography.X509Certificates.X509NameType.SimpleName
+  id: SimpleName
+  parent: System.Security.Cryptography.X509Certificates.X509NameType
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: SimpleName
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType.SimpleName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 10
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: SimpleName = 0
+- uid: System.Security.Cryptography.X509Certificates.X509NameType.EmailName
+  id: EmailName
+  parent: System.Security.Cryptography.X509Certificates.X509NameType
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: EmailName
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType.EmailName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 11
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: EmailName = 1
+- uid: System.Security.Cryptography.X509Certificates.X509NameType.UpnName
+  id: UpnName
+  parent: System.Security.Cryptography.X509Certificates.X509NameType
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: UpnName
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType.UpnName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 12
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: UpnName = 2
+- uid: System.Security.Cryptography.X509Certificates.X509NameType.DnsName
+  id: DnsName
+  parent: System.Security.Cryptography.X509Certificates.X509NameType
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: DnsName
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType.DnsName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 13
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: DnsName = 3
+- uid: System.Security.Cryptography.X509Certificates.X509NameType.DnsFromAlternativeName
+  id: DnsFromAlternativeName
+  parent: System.Security.Cryptography.X509Certificates.X509NameType
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: DnsFromAlternativeName
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType.DnsFromAlternativeName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: DnsFromAlternativeName = 4
+- uid: System.Security.Cryptography.X509Certificates.X509NameType.UrlName
+  id: UrlName
+  parent: System.Security.Cryptography.X509Certificates.X509NameType
+  href: System.Security.Cryptography.X509Certificates.X509NameType.yml
+  name: UrlName
+  fullName: System.Security.Cryptography.X509Certificates.X509NameType.UrlName
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.X509Certificates/src/System/Security/Cryptography/X509Certificates/X509NameType.cs
+    startLine: 15
+  assemblies:
+  - System.Security.Cryptography.X509Certificates
+  namespace: System.Security.Cryptography.X509Certificates
+  syntax:
+    content: UrlName = 5
+references:
+- uid: System.Security.Cryptography.X509Certificates
+  isExternal: false
+  name: System.Security.Cryptography.X509Certificates
+  fullName: System.Security.Cryptography.X509Certificates
+  type: Namespace

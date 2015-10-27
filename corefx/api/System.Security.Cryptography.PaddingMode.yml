@@ -1,0 +1,80 @@
+items:
+- uid: System.Security.Cryptography.PaddingMode
+  id: PaddingMode
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.PaddingMode.None
+  - System.Security.Cryptography.PaddingMode.PKCS7
+  - System.Security.Cryptography.PaddingMode.Zeros
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: PaddingMode
+  fullName: System.Security.Cryptography.PaddingMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/PaddingMode.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/PaddingMode.cs
+    startLine: 13
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public enum PaddingMode
+    content.vb: Public Enum PaddingMode
+- uid: System.Security.Cryptography.PaddingMode.None
+  id: None
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: None
+  fullName: System.Security.Cryptography.PaddingMode.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/PaddingMode.cs
+    startLine: 15
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: None = 1
+- uid: System.Security.Cryptography.PaddingMode.PKCS7
+  id: PKCS7
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: PKCS7
+  fullName: System.Security.Cryptography.PaddingMode.PKCS7
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/PaddingMode.cs
+    startLine: 16
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: PKCS7 = 2
+- uid: System.Security.Cryptography.PaddingMode.Zeros
+  id: Zeros
+  parent: System.Security.Cryptography.PaddingMode
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: Zeros
+  fullName: System.Security.Cryptography.PaddingMode.Zeros
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/PaddingMode.cs
+    startLine: 17
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: Zeros = 3
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace

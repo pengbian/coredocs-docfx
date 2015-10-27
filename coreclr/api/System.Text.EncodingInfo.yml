@@ -1,0 +1,419 @@
+items:
+- uid: System.Text.EncodingInfo
+  id: EncodingInfo
+  parent: System.Text
+  children:
+  - System.Text.EncodingInfo.CodePage
+  - System.Text.EncodingInfo.DisplayName
+  - System.Text.EncodingInfo.Equals(System.Object)
+  - System.Text.EncodingInfo.GetEncoding
+  - System.Text.EncodingInfo.GetHashCode
+  - System.Text.EncodingInfo.Name
+  href: System.Text.EncodingInfo.yml
+  name: EncodingInfo
+  fullName: System.Text.EncodingInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Text/EncodingInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 9
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public sealed class EncodingInfo
+    content.vb: Public NotInheritable Class EncodingInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Text.EncodingInfo.CodePage
+  id: CodePage
+  parent: System.Text.EncodingInfo
+  href: System.Text.EncodingInfo.yml
+  name: CodePage
+  fullName: System.Text.EncodingInfo.CodePage
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public int CodePage { get; }
+    content.vb: Public ReadOnly Property CodePage As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Text.EncodingInfo.Name
+  id: Name
+  parent: System.Text.EncodingInfo
+  href: System.Text.EncodingInfo.yml
+  name: Name
+  fullName: System.Text.EncodingInfo.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public string Name { get; }
+    content.vb: Public ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Text.EncodingInfo.DisplayName
+  id: DisplayName
+  parent: System.Text.EncodingInfo
+  href: System.Text.EncodingInfo.yml
+  name: DisplayName
+  fullName: System.Text.EncodingInfo.DisplayName
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public string DisplayName { get; }
+    content.vb: Public ReadOnly Property DisplayName As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Text.EncodingInfo.GetEncoding
+  id: GetEncoding
+  parent: System.Text.EncodingInfo
+  href: System.Text.EncodingInfo.yml
+  name: GetEncoding()
+  fullName: System.Text.EncodingInfo.GetEncoding()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 51
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public Encoding GetEncoding()
+    content.vb: Public Function GetEncoding As Encoding
+    return:
+      type: System.Text.Encoding
+- uid: System.Text.EncodingInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Text.EncodingInfo
+  href: System.Text.EncodingInfo.yml
+  name: Equals(Object)
+  fullName: System.Text.EncodingInfo.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 56
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override bool Equals(object value)
+    content.vb: Public Overrides Function Equals(value As Object) As Boolean
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Text.EncodingInfo.GetHashCode
+  id: GetHashCode
+  parent: System.Text.EncodingInfo
+  href: System.Text.EncodingInfo.yml
+  name: GetHashCode()
+  fullName: System.Text.EncodingInfo.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncodingInfo.cs
+    startLine: 66
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+  overridden: System.Object.GetHashCode
+references:
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Text.Encoding
+  parent: System.Text
+  isExternal: false
+  href: System.Text.Encoding.yml
+  name: Encoding
+  fullName: System.Text.Encoding
+  type: Class
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

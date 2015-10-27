@@ -1,0 +1,114 @@
+items:
+- uid: System.Reflection.CallingConventions
+  id: CallingConventions
+  parent: System.Reflection
+  children:
+  - System.Reflection.CallingConventions.Any
+  - System.Reflection.CallingConventions.ExplicitThis
+  - System.Reflection.CallingConventions.HasThis
+  - System.Reflection.CallingConventions.Standard
+  - System.Reflection.CallingConventions.VarArgs
+  href: System.Reflection.CallingConventions.yml
+  name: CallingConventions
+  fullName: System.Reflection.CallingConventions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: public enum CallingConventions
+    content.vb: Public Enum CallingConventions
+- uid: System.Reflection.CallingConventions.Standard
+  id: Standard
+  parent: System.Reflection.CallingConventions
+  href: System.Reflection.CallingConventions.yml
+  name: Standard
+  fullName: System.Reflection.CallingConventions.Standard
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Standard = 1
+- uid: System.Reflection.CallingConventions.VarArgs
+  id: VarArgs
+  parent: System.Reflection.CallingConventions
+  href: System.Reflection.CallingConventions.yml
+  name: VarArgs
+  fullName: System.Reflection.CallingConventions.VarArgs
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: VarArgs = 2
+- uid: System.Reflection.CallingConventions.Any
+  id: Any
+  parent: System.Reflection.CallingConventions
+  href: System.Reflection.CallingConventions.yml
+  name: Any
+  fullName: System.Reflection.CallingConventions.Any
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: Any = 3
+- uid: System.Reflection.CallingConventions.HasThis
+  id: HasThis
+  parent: System.Reflection.CallingConventions
+  href: System.Reflection.CallingConventions.yml
+  name: HasThis
+  fullName: System.Reflection.CallingConventions.HasThis
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: HasThis = 32
+- uid: System.Reflection.CallingConventions.ExplicitThis
+  id: ExplicitThis
+  parent: System.Reflection.CallingConventions
+  href: System.Reflection.CallingConventions.yml
+  name: ExplicitThis
+  fullName: System.Reflection.CallingConventions.ExplicitThis
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/CallingConventions.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  syntax:
+    content: ExplicitThis = 64
+references:
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace

@@ -1,0 +1,63 @@
+items:
+- uid: System.Runtime.InteropServices.ComTypes.DATADIR
+  id: DATADIR
+  parent: System.Runtime.InteropServices.ComTypes
+  children:
+  - System.Runtime.InteropServices.ComTypes.DATADIR.DATADIR_GET
+  - System.Runtime.InteropServices.ComTypes.DATADIR.DATADIR_SET
+  href: System.Runtime.InteropServices.ComTypes.DATADIR.yml
+  name: DATADIR
+  fullName: System.Runtime.InteropServices.ComTypes.DATADIR
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/datadir.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/datadir.cs
+    startLine: 5
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: public enum DATADIR
+    content.vb: Public Enum DATADIR
+- uid: System.Runtime.InteropServices.ComTypes.DATADIR.DATADIR_GET
+  id: DATADIR_GET
+  parent: System.Runtime.InteropServices.ComTypes.DATADIR
+  href: System.Runtime.InteropServices.ComTypes.DATADIR.yml
+  name: DATADIR_GET
+  fullName: System.Runtime.InteropServices.ComTypes.DATADIR.DATADIR_GET
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/datadir.cs
+    startLine: 7
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: DATADIR_GET = 1
+- uid: System.Runtime.InteropServices.ComTypes.DATADIR.DATADIR_SET
+  id: DATADIR_SET
+  parent: System.Runtime.InteropServices.ComTypes.DATADIR
+  href: System.Runtime.InteropServices.ComTypes.DATADIR.yml
+  name: DATADIR_SET
+  fullName: System.Runtime.InteropServices.ComTypes.DATADIR.DATADIR_SET
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Runtime.InteropServices/src/System/Runtime/InteropServices/ComTypes/datadir.cs
+    startLine: 8
+  assemblies:
+  - System.Runtime.InteropServices
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: DATADIR_SET = 2
+references:
+- uid: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  name: System.Runtime.InteropServices.ComTypes
+  fullName: System.Runtime.InteropServices.ComTypes
+  type: Namespace

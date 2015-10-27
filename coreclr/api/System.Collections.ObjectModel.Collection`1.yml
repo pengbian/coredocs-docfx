@@ -1,0 +1,1173 @@
+items:
+- uid: System.Collections.ObjectModel.Collection`1
+  id: Collection`1
+  parent: System.Collections.ObjectModel
+  children:
+  - System.Collections.ObjectModel.Collection`1.#ctor
+  - System.Collections.ObjectModel.Collection`1.#ctor(System.Collections.Generic.IList{`0})
+  - System.Collections.ObjectModel.Collection`1.Add(`0)
+  - System.Collections.ObjectModel.Collection`1.Clear
+  - System.Collections.ObjectModel.Collection`1.ClearItems
+  - System.Collections.ObjectModel.Collection`1.Contains(`0)
+  - System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)
+  - System.Collections.ObjectModel.Collection`1.Count
+  - System.Collections.ObjectModel.Collection`1.GetEnumerator
+  - System.Collections.ObjectModel.Collection`1.IndexOf(`0)
+  - System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)
+  - System.Collections.ObjectModel.Collection`1.InsertItem(System.Int32,`0)
+  - System.Collections.ObjectModel.Collection`1.Item(System.Int32)
+  - System.Collections.ObjectModel.Collection`1.Items
+  - System.Collections.ObjectModel.Collection`1.Remove(`0)
+  - System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)
+  - System.Collections.ObjectModel.Collection`1.RemoveItem(System.Int32)
+  - System.Collections.ObjectModel.Collection`1.SetItem(System.Int32,`0)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  - System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized
+  - System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)
+  - System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Collection<T>
+  name.vb: Collection(Of T)
+  fullName: System.Collections.ObjectModel.Collection<T>
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T)
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: 'public class Collection<T> : IList<T>, ICollection<T>, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable'
+    content.vb: Public Class Collection(Of T) Implements IList(Of T), ICollection(Of T), IList, ICollection, IReadOnlyList(Of T), IReadOnlyCollection(Of T), IEnumerable(Of T), IEnumerable
+    typeParameters:
+    - id: T
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IList{{T}}
+  - System.Collections.Generic.ICollection{{T}}
+  - System.Collections.IList
+  - System.Collections.ICollection
+  - System.Collections.Generic.IReadOnlyList{{T}}
+  - System.Collections.Generic.IReadOnlyCollection{{T}}
+  - System.Collections.Generic.IEnumerable{{T}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Collections.ObjectModel.Collection`1.#ctor
+  id: '#ctor'
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Collection()
+  fullName: System.Collections.ObjectModel.Collection<T>.Collection()
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Collection()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public Collection()
+    content.vb: Public Sub New
+- uid: System.Collections.ObjectModel.Collection`1.#ctor(System.Collections.Generic.IList{`0})
+  id: '#ctor(System.Collections.Generic.IList{`0})'
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Collection(IList<T>)
+  name.vb: Collection(IList(Of T))
+  fullName: System.Collections.ObjectModel.Collection<T>.Collection(System.Collections.Generic.IList<T>)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Collection(System.Collections.Generic.IList(Of T))
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public Collection(IList<T> list)
+    content.vb: Public Sub New(list As IList(Of T))
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{{T}}
+- uid: System.Collections.ObjectModel.Collection`1.Count
+  id: Count
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Count
+  fullName: System.Collections.ObjectModel.Collection<T>.Count
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public int Count { get; }
+    content.vb: Public ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.Items
+  id: Items
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Items
+  fullName: System.Collections.ObjectModel.Collection<T>.Items
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Items
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 38
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: protected IList<T> Items { get; }
+    content.vb: Protected ReadOnly Property Items As IList(Of T)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{{T}}
+- uid: System.Collections.ObjectModel.Collection`1.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Item[Int32]
+  name.vb: Item(Int32)
+  fullName: System.Collections.ObjectModel.Collection<T>.Item[System.Int32]
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public T this[int index] { get; set; }
+    content.vb: Public Property Item(index As Integer) As T
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{T}'
+- uid: System.Collections.ObjectModel.Collection`1.Add(`0)
+  id: Add(`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Add(T)
+  fullName: System.Collections.ObjectModel.Collection<T>.Add(T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Add(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 57
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public void Add(T item)
+    content.vb: Public Sub Add(item As T)
+    parameters:
+    - id: item
+      type: '{T}'
+- uid: System.Collections.ObjectModel.Collection`1.Clear
+  id: Clear
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Clear()
+  fullName: System.Collections.ObjectModel.Collection<T>.Clear()
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 66
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+- uid: System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)
+  id: CopyTo(`0[],System.Int32)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: CopyTo(T[], Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: System.Collections.ObjectModel.Collection<T>.CopyTo(T[], System.Int32)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).CopyTo(T(), System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 74
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public void CopyTo(T[] array, int index)
+    content.vb: Public Sub CopyTo(array As T(), index As Integer)
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: index
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.Contains(`0)
+  id: Contains(`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Contains(T)
+  fullName: System.Collections.ObjectModel.Collection<T>.Contains(T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Contains(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 78
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public bool Contains(T item)
+    content.vb: Public Function Contains(item As T) As Boolean
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.GetEnumerator
+  id: GetEnumerator
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: GetEnumerator()
+  fullName: System.Collections.ObjectModel.Collection<T>.GetEnumerator()
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 82
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public IEnumerator<T> GetEnumerator()
+    content.vb: Public Function GetEnumerator As IEnumerator(Of T)
+    return:
+      type: System.Collections.Generic.IEnumerator{{T}}
+- uid: System.Collections.ObjectModel.Collection`1.IndexOf(`0)
+  id: IndexOf(`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IndexOf(T)
+  fullName: System.Collections.ObjectModel.Collection<T>.IndexOf(T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).IndexOf(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 86
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public int IndexOf(T item)
+    content.vb: Public Function IndexOf(item As T) As Integer
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)
+  id: Insert(System.Int32,`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Insert(Int32, T)
+  fullName: System.Collections.ObjectModel.Collection<T>.Insert(System.Int32, T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Insert(System.Int32, T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 90
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public void Insert(int index, T item)
+    content.vb: Public Sub Insert(index As Integer, item As T)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: item
+      type: '{T}'
+- uid: System.Collections.ObjectModel.Collection`1.Remove(`0)
+  id: Remove(`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: Remove(T)
+  fullName: System.Collections.ObjectModel.Collection<T>.Remove(T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).Remove(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 102
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public bool Remove(T item)
+    content.vb: Public Function Remove(item As T) As Boolean
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: RemoveAt(Int32)
+  fullName: System.Collections.ObjectModel.Collection<T>.RemoveAt(System.Int32)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 113
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: public void RemoveAt(int index)
+    content.vb: Public Sub RemoveAt(index As Integer)
+    parameters:
+    - id: index
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.ClearItems
+  id: ClearItems
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: ClearItems()
+  fullName: System.Collections.ObjectModel.Collection<T>.ClearItems()
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).ClearItems()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 125
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: protected virtual void ClearItems()
+    content.vb: Protected Overridable Sub ClearItems
+- uid: System.Collections.ObjectModel.Collection`1.InsertItem(System.Int32,`0)
+  id: InsertItem(System.Int32,`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: InsertItem(Int32, T)
+  fullName: System.Collections.ObjectModel.Collection<T>.InsertItem(System.Int32, T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).InsertItem(System.Int32, T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 129
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: protected virtual void InsertItem(int index, T item)
+    content.vb: Protected Overridable Sub InsertItem(index As Integer, item As T)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: item
+      type: '{T}'
+- uid: System.Collections.ObjectModel.Collection`1.RemoveItem(System.Int32)
+  id: RemoveItem(System.Int32)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: RemoveItem(Int32)
+  fullName: System.Collections.ObjectModel.Collection<T>.RemoveItem(System.Int32)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).RemoveItem(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 133
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: protected virtual void RemoveItem(int index)
+    content.vb: Protected Overridable Sub RemoveItem(index As Integer)
+    parameters:
+    - id: index
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.SetItem(System.Int32,`0)
+  id: SetItem(System.Int32,`0)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: SetItem(Int32, T)
+  fullName: System.Collections.ObjectModel.Collection<T>.SetItem(System.Int32, T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).SetItem(System.Int32, T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 137
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: protected virtual void SetItem(int index, T item)
+    content.vb: Protected Overridable Sub SetItem(index As Integer, item As T)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: item
+      type: '{T}'
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  id: System#Collections#Generic#ICollection{T}#IsReadOnly
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: ICollection<T>.IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 141
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: bool ICollection<T>.IsReadOnly { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.Generic.ICollection<T>.IsReadOnly As Boolean Implements ICollection(Of T).IsReadOnly
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 147
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized
+  id: System#Collections#ICollection#IsSynchronized
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: ICollection.IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.ICollection.IsSynchronized
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 151
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: bool ICollection.IsSynchronized { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.IsSynchronized As Boolean Implements ICollection.IsSynchronized
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot
+  id: System#Collections#ICollection#SyncRoot
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: ICollection.SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.ICollection.SyncRoot
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.ICollection.SyncRoot
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 155
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: object ICollection.SyncRoot { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.SyncRoot As Object Implements ICollection.SyncRoot
+    parameters: []
+    return:
+      type: System.Object
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  id: System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: ICollection.CopyTo(Array, Int32)
+  name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 170
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: void ICollection.CopyTo(Array array, int index)
+    content.vb: Sub System.Collections.ICollection.CopyTo(array As Array, index As Integer) Implements ICollection.CopyTo
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)
+  id: System#Collections#IList#Item(System.Int32)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.Item[Int32]
+  name.vb: System.Collections.IList.Item(Int32)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.Item[System.Int32]
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 229
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: object IList.this[int index] { get; set; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.Item(index As Integer) As Object Implements IList.this
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly
+  id: System#Collections#IList#IsReadOnly
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.IsReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.IsReadOnly
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 244
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: bool IList.IsReadOnly { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.IsReadOnly As Boolean Implements IList.IsReadOnly
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize
+  id: System#Collections#IList#IsFixedSize
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.IsFixedSize
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.IsFixedSize
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.IsFixedSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 250
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: bool IList.IsFixedSize { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.IsFixedSize As Boolean Implements IList.IsFixedSize
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)
+  id: System#Collections#IList#Add(System.Object)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.Add(Object)
+  name.vb: System.Collections.IList.Add(Object)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.Add(System.Object)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.Add(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 265
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: int IList.Add(object value)
+    content.vb: Function System.Collections.IList.Add(value As Object) As Integer Implements IList.Add
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)
+  id: System#Collections#IList#Contains(System.Object)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.Contains(Object)
+  name.vb: System.Collections.IList.Contains(Object)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.Contains(System.Object)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.Contains(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 281
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: bool IList.Contains(object value)
+    content.vb: Function System.Collections.IList.Contains(value As Object) As Boolean Implements IList.Contains
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)
+  id: System#Collections#IList#IndexOf(System.Object)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.IndexOf(Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.IndexOf(System.Object)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.IndexOf(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 288
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: int IList.IndexOf(object value)
+    content.vb: Function System.Collections.IList.IndexOf(value As Object) As Integer Implements IList.IndexOf
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  id: System#Collections#IList#Insert(System.Int32,System.Object)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.Insert(Int32, Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.Insert(System.Int32, System.Object)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.Insert(System.Int32, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 295
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: void IList.Insert(int index, object value)
+    content.vb: Sub System.Collections.IList.Insert(index As Integer, value As Object) Implements IList.Insert
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: value
+      type: System.Object
+- uid: System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)
+  id: System#Collections#IList#Remove(System.Object)
+  parent: System.Collections.ObjectModel.Collection`1
+  href: System.Collections.ObjectModel.Collection`1.yml
+  name: IList.Remove(Object)
+  name.vb: System.Collections.IList.Remove(Object)
+  fullName: System.Collections.ObjectModel.Collection<T>.System.Collections.IList.Remove(System.Object)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T).System.Collections.IList.Remove(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/ObjectModel/Collection.cs
+    startLine: 310
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.ObjectModel
+  syntax:
+    content: void IList.Remove(object value)
+    content.vb: Sub System.Collections.IList.Remove(value As Object) Implements IList.Remove
+    parameters:
+    - id: value
+      type: System.Object
+references:
+- uid: System.Collections.ObjectModel
+  isExternal: false
+  name: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Collections.Generic.IList{{T}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: System.Collections.Generic.IList`1.yml
+  name: IList<T>
+  name.vb: IList(Of T)
+  fullName: System.Collections.Generic.IList<T>
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IList`1.yml
+  name: IList<T>
+  name.vb: IList(Of T)
+  fullName: System.Collections.Generic.IList<T>
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    href: System.Collections.Generic.IList`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: '{T}[]'
+  isExternal: false
+  name: T[]
+  name.vb: T()
+  fullName: T[]
+  fullName.vb: T()
+  spec.csharp:
+  - name: T
+    fullName: T
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    fullName: T
+  - name: ()
+    fullName: ()
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Collections.Generic.IEnumerator{{T}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: System.Collections.Generic.IEnumerator`1.yml
+  name: IEnumerator<T>
+  name.vb: IEnumerator(Of T)
+  fullName: System.Collections.Generic.IEnumerator<T>
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IEnumerator`1.yml
+  name: IEnumerator<T>
+  name.vb: IEnumerator(Of T)
+  fullName: System.Collections.Generic.IEnumerator<T>
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Array
+  parent: System
+  isExternal: false
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class

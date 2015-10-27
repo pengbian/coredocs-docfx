@@ -1,33 +1,20 @@
 ﻿{
-  "projects": [
-    {
-      "name": "coreclr",
-      "files": [
-        "../coreclr/src/mscorlib/mscorlib.csproj"
-      ],
-      "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
-    },
-    {
-      "name": "corefx",
-      "files": [
-        "../corefx/src/**/src/**/*.csproj"
-      ],
-      "exclude": [ "_site/**", "**/bin/**", "**/obj/**" ]
-    }
-  ],
+  "projects": [],
   "conceptuals": [
     {
       "files": [
         "**/*.md",
         "**/toc.yml",
-        "**/*.png"
+        "**/*.png",
+        "coreclr/**/*.yml",
+        "corefx/**/*.yml"
       ],
       "exclude": [ "_site/**", "**/bin/**", "**/obj/**", "theme/**" ]
     }
   ],
   "externalReferences": [],
   "title": ".NET Core Documentation",
-  "template": "default",
+  "template": "angular",
   "theme": "theme",
   "output": "_site"
 }

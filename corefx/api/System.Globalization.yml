@@ -1,0 +1,33 @@
+items:
+- uid: System.Globalization
+  id: System.Globalization
+  children:
+  - System.Globalization.GlobalizationExtensions
+  - System.Globalization.IdnMapping
+  href: System.Globalization.yml
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+  source:
+    remote:
+      path: src/Common/src/System/Globalization/IdnMapping.Windows.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/Common/src/System/Globalization/IdnMapping.Windows.cs
+    startLine: 5
+  assemblies:
+  - System.Globalization.Extensions
+references:
+- uid: System.Globalization.IdnMapping
+  isExternal: false
+  href: System.Globalization.IdnMapping.yml
+  name: IdnMapping
+  fullName: System.Globalization.IdnMapping
+  type: Class
+- uid: System.Globalization.GlobalizationExtensions
+  isExternal: false
+  href: System.Globalization.GlobalizationExtensions.yml
+  name: GlobalizationExtensions
+  fullName: System.Globalization.GlobalizationExtensions
+  type: Class

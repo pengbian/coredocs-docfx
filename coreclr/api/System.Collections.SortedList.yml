@@ -1,0 +1,1092 @@
+items:
+- uid: System.Collections.SortedList
+  id: SortedList
+  parent: System.Collections
+  children:
+  - System.Collections.SortedList.#ctor
+  - System.Collections.SortedList.#ctor(System.Collections.IComparer)
+  - System.Collections.SortedList.#ctor(System.Collections.IComparer,System.Int32)
+  - System.Collections.SortedList.#ctor(System.Collections.IDictionary)
+  - System.Collections.SortedList.#ctor(System.Collections.IDictionary,System.Collections.IComparer)
+  - System.Collections.SortedList.#ctor(System.Int32)
+  - System.Collections.SortedList.Add(System.Object,System.Object)
+  - System.Collections.SortedList.Capacity
+  - System.Collections.SortedList.Clear
+  - System.Collections.SortedList.Clone
+  - System.Collections.SortedList.Contains(System.Object)
+  - System.Collections.SortedList.ContainsKey(System.Object)
+  - System.Collections.SortedList.ContainsValue(System.Object)
+  - System.Collections.SortedList.CopyTo(System.Array,System.Int32)
+  - System.Collections.SortedList.Count
+  - System.Collections.SortedList.GetByIndex(System.Int32)
+  - System.Collections.SortedList.GetEnumerator
+  - System.Collections.SortedList.GetKey(System.Int32)
+  - System.Collections.SortedList.GetKeyList
+  - System.Collections.SortedList.GetValueList
+  - System.Collections.SortedList.IndexOfKey(System.Object)
+  - System.Collections.SortedList.IndexOfValue(System.Object)
+  - System.Collections.SortedList.IsFixedSize
+  - System.Collections.SortedList.IsReadOnly
+  - System.Collections.SortedList.IsSynchronized
+  - System.Collections.SortedList.Item(System.Object)
+  - System.Collections.SortedList.Keys
+  - System.Collections.SortedList.Remove(System.Object)
+  - System.Collections.SortedList.RemoveAt(System.Int32)
+  - System.Collections.SortedList.SetByIndex(System.Int32,System.Object)
+  - System.Collections.SortedList.Synchronized(System.Collections.SortedList)
+  - System.Collections.SortedList.SyncRoot
+  - System.Collections.SortedList.System#Collections#IEnumerable#GetEnumerator
+  - System.Collections.SortedList.TrimToSize
+  - System.Collections.SortedList.Values
+  href: System.Collections.SortedList.yml
+  name: SortedList
+  fullName: System.Collections.SortedList
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/SortedList.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 59
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: 'public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable'
+    content.vb: Public Class SortedList Implements IDictionary, ICollection, IEnumerable, ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.IDictionary
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Collections.SortedList.#ctor
+  id: '#ctor'
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SortedList()
+  fullName: System.Collections.SortedList.SortedList()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 88
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public SortedList()
+    content.vb: Public Sub New
+- uid: System.Collections.SortedList.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SortedList(Int32)
+  fullName: System.Collections.SortedList.SortedList(System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 106
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public SortedList(int initialCapacity)
+    content.vb: Public Sub New(initialCapacity As Integer)
+    parameters:
+    - id: initialCapacity
+      type: System.Int32
+- uid: System.Collections.SortedList.#ctor(System.Collections.IComparer)
+  id: '#ctor(System.Collections.IComparer)'
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SortedList(IComparer)
+  fullName: System.Collections.SortedList.SortedList(System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 125
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public SortedList(IComparer comparer)
+    content.vb: Public Sub New(comparer As IComparer)
+    parameters:
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.SortedList.#ctor(System.Collections.IComparer,System.Int32)
+  id: '#ctor(System.Collections.IComparer,System.Int32)'
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SortedList(IComparer, Int32)
+  fullName: System.Collections.SortedList.SortedList(System.Collections.IComparer, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 139
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public SortedList(IComparer comparer, int capacity)
+    content.vb: Public Sub New(comparer As IComparer, capacity As Integer)
+    parameters:
+    - id: comparer
+      type: System.Collections.IComparer
+    - id: capacity
+      type: System.Int32
+- uid: System.Collections.SortedList.#ctor(System.Collections.IDictionary)
+  id: '#ctor(System.Collections.IDictionary)'
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SortedList(IDictionary)
+  fullName: System.Collections.SortedList.SortedList(System.Collections.IDictionary)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 150
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public SortedList(IDictionary d)
+    content.vb: Public Sub New(d As IDictionary)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+- uid: System.Collections.SortedList.#ctor(System.Collections.IDictionary,System.Collections.IComparer)
+  id: '#ctor(System.Collections.IDictionary,System.Collections.IComparer)'
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SortedList(IDictionary, IComparer)
+  fullName: System.Collections.SortedList.SortedList(System.Collections.IDictionary, System.Collections.IComparer)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 162
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public SortedList(IDictionary d, IComparer comparer)
+    content.vb: Public Sub New(d As IDictionary, comparer As IComparer)
+    parameters:
+    - id: d
+      type: System.Collections.IDictionary
+    - id: comparer
+      type: System.Collections.IComparer
+- uid: System.Collections.SortedList.Add(System.Object,System.Object)
+  id: Add(System.Object,System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Add(Object, Object)
+  fullName: System.Collections.SortedList.Add(System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 176
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void Add(object key, object value)
+    content.vb: Public Overridable Sub Add(key As Object, value As Object)
+    parameters:
+    - id: key
+      type: System.Object
+    - id: value
+      type: System.Object
+- uid: System.Collections.SortedList.Capacity
+  id: Capacity
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Capacity
+  fullName: System.Collections.SortedList.Capacity
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 191
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual int Capacity { get; set; }
+    content.vb: Public Overridable Property Capacity As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Collections.SortedList.Count
+  id: Count
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Count
+  fullName: System.Collections.SortedList.Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 224
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual int Count { get; }
+    content.vb: Public Overridable ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Collections.SortedList.Keys
+  id: Keys
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Keys
+  fullName: System.Collections.SortedList.Keys
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 234
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual ICollection Keys { get; }
+    content.vb: Public Overridable ReadOnly Property Keys As ICollection
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+- uid: System.Collections.SortedList.Values
+  id: Values
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Values
+  fullName: System.Collections.SortedList.Values
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 244
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual ICollection Values { get; }
+    content.vb: Public Overridable ReadOnly Property Values As ICollection
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+- uid: System.Collections.SortedList.IsReadOnly
+  id: IsReadOnly
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: IsReadOnly
+  fullName: System.Collections.SortedList.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 251
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool IsReadOnly { get; }
+    content.vb: Public Overridable ReadOnly Property IsReadOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.SortedList.IsFixedSize
+  id: IsFixedSize
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: IsFixedSize
+  fullName: System.Collections.SortedList.IsFixedSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 255
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool IsFixedSize { get; }
+    content.vb: Public Overridable ReadOnly Property IsFixedSize As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.SortedList.IsSynchronized
+  id: IsSynchronized
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: IsSynchronized
+  fullName: System.Collections.SortedList.IsSynchronized
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 260
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool IsSynchronized { get; }
+    content.vb: Public Overridable ReadOnly Property IsSynchronized As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.SortedList.SyncRoot
+  id: SyncRoot
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SyncRoot
+  fullName: System.Collections.SortedList.SyncRoot
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 265
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object SyncRoot { get; }
+    content.vb: Public Overridable ReadOnly Property SyncRoot As Object
+    parameters: []
+    return:
+      type: System.Object
+- uid: System.Collections.SortedList.Clear
+  id: Clear
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Clear()
+  fullName: System.Collections.SortedList.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 275
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void Clear()
+    content.vb: Public Overridable Sub Clear
+- uid: System.Collections.SortedList.Clone
+  id: Clone
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Clone()
+  fullName: System.Collections.SortedList.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 287
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object Clone()
+    content.vb: Public Overridable Function Clone As Object
+    return:
+      type: System.Object
+- uid: System.Collections.SortedList.Contains(System.Object)
+  id: Contains(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Contains(Object)
+  fullName: System.Collections.SortedList.Contains(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 302
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool Contains(object key)
+    content.vb: Public Overridable Function Contains(key As Object) As Boolean
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Collections.SortedList.ContainsKey(System.Object)
+  id: ContainsKey(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: ContainsKey(Object)
+  fullName: System.Collections.SortedList.ContainsKey(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 308
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool ContainsKey(object key)
+    content.vb: Public Overridable Function ContainsKey(key As Object) As Boolean
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Collections.SortedList.ContainsValue(System.Object)
+  id: ContainsValue(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: ContainsValue(Object)
+  fullName: System.Collections.SortedList.ContainsValue(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 319
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual bool ContainsValue(object value)
+    content.vb: Public Overridable Function ContainsValue(value As Object) As Boolean
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Collections.SortedList.CopyTo(System.Array,System.Int32)
+  id: CopyTo(System.Array,System.Int32)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: CopyTo(Array, Int32)
+  fullName: System.Collections.SortedList.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 324
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void CopyTo(Array array, int arrayIndex)
+    content.vb: Public Overridable Sub CopyTo(array As Array, arrayIndex As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: arrayIndex
+      type: System.Int32
+- uid: System.Collections.SortedList.GetByIndex(System.Int32)
+  id: GetByIndex(System.Int32)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: GetByIndex(Int32)
+  fullName: System.Collections.SortedList.GetByIndex(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 367
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object GetByIndex(int index)
+    content.vb: Public Overridable Function GetByIndex(index As Integer) As Object
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+- uid: System.Collections.SortedList.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: System.Collections.SortedList.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 379
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+- uid: System.Collections.SortedList.GetEnumerator
+  id: GetEnumerator
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: GetEnumerator()
+  fullName: System.Collections.SortedList.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 388
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual IDictionaryEnumerator GetEnumerator()
+    content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
+    return:
+      type: System.Collections.IDictionaryEnumerator
+- uid: System.Collections.SortedList.GetKey(System.Int32)
+  id: GetKey(System.Int32)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: GetKey(Int32)
+  fullName: System.Collections.SortedList.GetKey(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 394
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object GetKey(int index)
+    content.vb: Public Overridable Function GetKey(index As Integer) As Object
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+- uid: System.Collections.SortedList.GetKeyList
+  id: GetKeyList
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: GetKeyList()
+  fullName: System.Collections.SortedList.GetKeyList()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 412
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual IList GetKeyList()
+    content.vb: Public Overridable Function GetKeyList As IList
+    return:
+      type: System.Collections.IList
+- uid: System.Collections.SortedList.GetValueList
+  id: GetValueList
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: GetValueList()
+  fullName: System.Collections.SortedList.GetValueList()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 428
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual IList GetValueList()
+    content.vb: Public Overridable Function GetValueList As IList
+    return:
+      type: System.Collections.IList
+- uid: System.Collections.SortedList.Item(System.Object)
+  id: Item(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Item[Object]
+  name.vb: Item(Object)
+  fullName: System.Collections.SortedList.Item[System.Object]
+  fullName.vb: System.Collections.SortedList.Item(System.Object)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 436
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual object this[object key] { get; set; }
+    content.vb: Public Overridable Property Item(key As Object) As Object
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Object
+- uid: System.Collections.SortedList.IndexOfKey(System.Object)
+  id: IndexOfKey(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: IndexOfKey(Object)
+  fullName: System.Collections.SortedList.IndexOfKey(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 462
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual int IndexOfKey(object key)
+    content.vb: Public Overridable Function IndexOfKey(key As Object) As Integer
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Int32
+- uid: System.Collections.SortedList.IndexOfValue(System.Object)
+  id: IndexOfValue(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: IndexOfValue(Object)
+  fullName: System.Collections.SortedList.IndexOfValue(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 476
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual int IndexOfValue(object value)
+    content.vb: Public Overridable Function IndexOfValue(value As Object) As Integer
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Int32
+- uid: System.Collections.SortedList.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: RemoveAt(Int32)
+  fullName: System.Collections.SortedList.RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 496
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void RemoveAt(int index)
+    content.vb: Public Overridable Sub RemoveAt(index As Integer)
+    parameters:
+    - id: index
+      type: System.Int32
+- uid: System.Collections.SortedList.Remove(System.Object)
+  id: Remove(System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Remove(Object)
+  fullName: System.Collections.SortedList.Remove(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 513
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void Remove(object key)
+    content.vb: Public Overridable Sub Remove(key As Object)
+    parameters:
+    - id: key
+      type: System.Object
+- uid: System.Collections.SortedList.SetByIndex(System.Int32,System.Object)
+  id: SetByIndex(System.Int32,System.Object)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: SetByIndex(Int32, Object)
+  fullName: System.Collections.SortedList.SetByIndex(System.Int32, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 522
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void SetByIndex(int index, object value)
+    content.vb: Public Overridable Sub SetByIndex(index As Integer, value As Object)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: value
+      type: System.Object
+- uid: System.Collections.SortedList.Synchronized(System.Collections.SortedList)
+  id: Synchronized(System.Collections.SortedList)
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: Synchronized(SortedList)
+  fullName: System.Collections.SortedList.Synchronized(System.Collections.SortedList)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 531
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public static SortedList Synchronized(SortedList list)
+    content.vb: Public Shared Function Synchronized(list As SortedList) As SortedList
+    parameters:
+    - id: list
+      type: System.Collections.SortedList
+    return:
+      type: System.Collections.SortedList
+- uid: System.Collections.SortedList.TrimToSize
+  id: TrimToSize
+  parent: System.Collections.SortedList
+  href: System.Collections.SortedList.yml
+  name: TrimToSize()
+  fullName: System.Collections.SortedList.TrimToSize()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/SortedList.cs
+    startLine: 548
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public virtual void TrimToSize()
+    content.vb: Public Overridable Sub TrimToSize
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Collections.IComparer
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IComparer.yml
+  name: IComparer
+  fullName: System.Collections.IComparer
+  type: Interface
+- uid: System.Collections.IDictionary
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IDictionary.yml
+  name: IDictionary
+  fullName: System.Collections.IDictionary
+  type: Interface
+- uid: System.Collections.ICollection
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: ICollection
+  fullName: System.Collections.ICollection
+  type: Interface
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Array
+  parent: System
+  isExternal: false
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface
+- uid: System.Collections.IDictionaryEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IDictionaryEnumerator.yml
+  name: IDictionaryEnumerator
+  fullName: System.Collections.IDictionaryEnumerator
+  type: Interface
+- uid: System.Collections.IList
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IList.yml
+  name: IList
+  fullName: System.Collections.IList
+  type: Interface
+- uid: System.Collections.SortedList
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.SortedList.yml
+  name: SortedList
+  fullName: System.Collections.SortedList
+  type: Class

@@ -1,0 +1,341 @@
+items:
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  id: ExceptionDispatchInfo
+  parent: System.Runtime.ExceptionServices
+  children:
+  - System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(System.Exception)
+  - System.Runtime.ExceptionServices.ExceptionDispatchInfo.SourceException
+  - System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+  href: System.Runtime.ExceptionServices.ExceptionDispatchInfo.yml
+  name: ExceptionDispatchInfo
+  fullName: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/ExceptionServices/ExceptionServicesCommon.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/ExceptionServices/ExceptionServicesCommon.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ExceptionServices
+  syntax:
+    content: public sealed class ExceptionDispatchInfo
+    content.vb: Public NotInheritable Class ExceptionDispatchInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(System.Exception)
+  id: Capture(System.Exception)
+  parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  href: System.Runtime.ExceptionServices.ExceptionDispatchInfo.yml
+  name: Capture(Exception)
+  fullName: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(System.Exception)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/ExceptionServices/ExceptionServicesCommon.cs
+    startLine: 98
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ExceptionServices
+  syntax:
+    content: public static ExceptionDispatchInfo Capture(Exception source)
+    content.vb: Public Shared Function Capture(source As Exception) As ExceptionDispatchInfo
+    parameters:
+    - id: source
+      type: System.Exception
+    return:
+      type: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.SourceException
+  id: SourceException
+  parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  href: System.Runtime.ExceptionServices.ExceptionDispatchInfo.yml
+  name: SourceException
+  fullName: System.Runtime.ExceptionServices.ExceptionDispatchInfo.SourceException
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/ExceptionServices/ExceptionServicesCommon.cs
+    startLine: 109
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ExceptionServices
+  syntax:
+    content: public Exception SourceException { get; }
+    content.vb: Public ReadOnly Property SourceException As Exception
+    parameters: []
+    return:
+      type: System.Exception
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+  id: Throw
+  parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  href: System.Runtime.ExceptionServices.ExceptionDispatchInfo.yml
+  name: Throw()
+  fullName: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/ExceptionServices/ExceptionServicesCommon.cs
+    startLine: 125
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.ExceptionServices
+  syntax:
+    content: public void Throw()
+    content.vb: Public Sub Throw
+references:
+- uid: System.Runtime.ExceptionServices
+  isExternal: false
+  name: System.Runtime.ExceptionServices
+  fullName: System.Runtime.ExceptionServices
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  href: System.Exception.yml
+  name: Exception
+  fullName: System.Exception
+  type: Class
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  parent: System.Runtime.ExceptionServices
+  isExternal: false
+  href: System.Runtime.ExceptionServices.ExceptionDispatchInfo.yml
+  name: ExceptionDispatchInfo
+  fullName: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  type: Class

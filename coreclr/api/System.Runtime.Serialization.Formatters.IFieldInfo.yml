@@ -1,0 +1,113 @@
+items:
+- uid: System.Runtime.Serialization.Formatters.IFieldInfo
+  id: IFieldInfo
+  parent: System.Runtime.Serialization.Formatters
+  children:
+  - System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames
+  - System.Runtime.Serialization.Formatters.IFieldInfo.FieldTypes
+  href: System.Runtime.Serialization.Formatters.IFieldInfo.yml
+  name: IFieldInfo
+  fullName: System.Runtime.Serialization.Formatters.IFieldInfo
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/Serialization/Formatters/IFieldInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/Serialization/Formatters/IFieldInfo.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization.Formatters
+  syntax:
+    content: public interface IFieldInfo
+    content.vb: Public Interface IFieldInfo
+- uid: System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames
+  id: FieldNames
+  parent: System.Runtime.Serialization.Formatters.IFieldInfo
+  href: System.Runtime.Serialization.Formatters.IFieldInfo.yml
+  name: FieldNames
+  fullName: System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/Formatters/IFieldInfo.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization.Formatters
+  syntax:
+    content: string[] FieldNames { get; set; }
+    content.vb: Property FieldNames As String()
+    parameters: []
+    return:
+      type: System.String[]
+- uid: System.Runtime.Serialization.Formatters.IFieldInfo.FieldTypes
+  id: FieldTypes
+  parent: System.Runtime.Serialization.Formatters.IFieldInfo
+  href: System.Runtime.Serialization.Formatters.IFieldInfo.yml
+  name: FieldTypes
+  fullName: System.Runtime.Serialization.Formatters.IFieldInfo.FieldTypes
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Serialization/Formatters/IFieldInfo.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Serialization.Formatters
+  syntax:
+    content: Type[] FieldTypes { get; set; }
+    content.vb: Property FieldTypes As Type()
+    parameters: []
+    return:
+      type: System.Type[]
+references:
+- uid: System.Runtime.Serialization.Formatters
+  isExternal: false
+  name: System.Runtime.Serialization.Formatters
+  fullName: System.Runtime.Serialization.Formatters
+  type: Namespace
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.Type[]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[]
+  name.vb: Type()
+  fullName: System.Type[]
+  fullName.vb: System.Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()

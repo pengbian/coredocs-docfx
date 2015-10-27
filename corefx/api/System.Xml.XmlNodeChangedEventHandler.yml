@@ -1,0 +1,50 @@
+items:
+- uid: System.Xml.XmlNodeChangedEventHandler
+  id: XmlNodeChangedEventHandler
+  parent: System.Xml
+  children: []
+  href: System.Xml.XmlNodeChangedEventHandler.yml
+  name: XmlNodeChangedEventHandler
+  fullName: System.Xml.XmlNodeChangedEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNodeChangedEventHandler.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Xml.XmlDocument/src/System/Xml/Dom/XmlNodeChangedEventHandler.cs
+    startLine: 5
+  assemblies:
+  - System.Xml.XmlDocument
+  namespace: System.Xml
+  syntax:
+    content: public delegate void XmlNodeChangedEventHandler(object sender, XmlNodeChangedEventArgs e);
+    content.vb: Public Delegate Sub XmlNodeChangedEventHandler(sender As Object, e As XmlNodeChangedEventArgs)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.Xml.XmlNodeChangedEventArgs
+references:
+- uid: System.Xml
+  isExternal: false
+  name: System.Xml
+  fullName: System.Xml
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Xml.XmlNodeChangedEventArgs
+  isExternal: false
+  href: System.Xml.XmlNodeChangedEventArgs.yml
+  name: XmlNodeChangedEventArgs
+  fullName: System.Xml.XmlNodeChangedEventArgs
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

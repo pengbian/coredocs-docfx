@@ -1,0 +1,180 @@
+items:
+- uid: System.Threading.Tasks.TaskCreationOptions
+  id: TaskCreationOptions
+  parent: System.Threading.Tasks
+  children:
+  - System.Threading.Tasks.TaskCreationOptions.AttachedToParent
+  - System.Threading.Tasks.TaskCreationOptions.DenyChildAttach
+  - System.Threading.Tasks.TaskCreationOptions.HideScheduler
+  - System.Threading.Tasks.TaskCreationOptions.LongRunning
+  - System.Threading.Tasks.TaskCreationOptions.None
+  - System.Threading.Tasks.TaskCreationOptions.PreferFairness
+  - System.Threading.Tasks.TaskCreationOptions.RunContinuationsAsynchronously
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: TaskCreationOptions
+  fullName: System.Threading.Tasks.TaskCreationOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6771
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies flags that control optional behavior for the creation and execution of tasks.
+  syntax:
+    content: public enum TaskCreationOptions
+    content.vb: Public Enum TaskCreationOptions
+- uid: System.Threading.Tasks.TaskCreationOptions.None
+  id: None
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: None
+  fullName: System.Threading.Tasks.TaskCreationOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6778
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies that the default behavior should be used.
+  syntax:
+    content: None = 0
+- uid: System.Threading.Tasks.TaskCreationOptions.PreferFairness
+  id: PreferFairness
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: PreferFairness
+  fullName: System.Threading.Tasks.TaskCreationOptions.PreferFairness
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6785
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    A hint to a [System.Threading.Tasks.TaskScheduler](System.Threading.Tasks.TaskScheduler.yml) to schedule a
+
+    task in as fair a manner as possible, meaning that tasks scheduled sooner will be more likely to
+
+    be run sooner, and tasks scheduled later will be more likely to be run later.
+  syntax:
+    content: PreferFairness = 1
+- uid: System.Threading.Tasks.TaskCreationOptions.LongRunning
+  id: LongRunning
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: LongRunning
+  fullName: System.Threading.Tasks.TaskCreationOptions.LongRunning
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6792
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that a task will be a long-running, course-grained operation. It provides a hint to the
+
+    [System.Threading.Tasks.TaskScheduler](System.Threading.Tasks.TaskScheduler.yml) that oversubscription may be
+
+    warranted.
+  syntax:
+    content: LongRunning = 2
+- uid: System.Threading.Tasks.TaskCreationOptions.AttachedToParent
+  id: AttachedToParent
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: AttachedToParent
+  fullName: System.Threading.Tasks.TaskCreationOptions.AttachedToParent
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6797
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies that a task is attached to a parent in the task hierarchy.
+  syntax:
+    content: AttachedToParent = 4
+- uid: System.Threading.Tasks.TaskCreationOptions.DenyChildAttach
+  id: DenyChildAttach
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: DenyChildAttach
+  fullName: System.Threading.Tasks.TaskCreationOptions.DenyChildAttach
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6802
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies that an InvalidOperationException will be thrown if an attempt is made to attach a child task to the created task.
+  syntax:
+    content: DenyChildAttach = 8
+- uid: System.Threading.Tasks.TaskCreationOptions.HideScheduler
+  id: HideScheduler
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: HideScheduler
+  fullName: System.Threading.Tasks.TaskCreationOptions.HideScheduler
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6808
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Prevents the ambient scheduler from being seen as the current scheduler in the created task.  This means that operations
+
+    like StartNew or ContinueWith that are performed in the created task will see TaskScheduler.Default as the current scheduler.
+  syntax:
+    content: HideScheduler = 16
+- uid: System.Threading.Tasks.TaskCreationOptions.RunContinuationsAsynchronously
+  id: RunContinuationsAsynchronously
+  parent: System.Threading.Tasks.TaskCreationOptions
+  href: System.Threading.Tasks.TaskCreationOptions.yml
+  name: RunContinuationsAsynchronously
+  fullName: System.Threading.Tasks.TaskCreationOptions.RunContinuationsAsynchronously
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6816
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Forces continuations added to the current task to be executed asynchronously.
+
+    This option has precedence over TaskContinuationOptions.ExecuteSynchronously
+  syntax:
+    content: RunContinuationsAsynchronously = 64
+references:
+- uid: System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  type: Namespace
+- uid: System.Threading.Tasks.TaskScheduler
+  parent: System.Threading.Tasks
+  isExternal: false
+  href: System.Threading.Tasks.TaskScheduler.yml
+  name: TaskScheduler
+  fullName: System.Threading.Tasks.TaskScheduler
+  type: Class
+  summary: Represents an abstract scheduler for tasks.

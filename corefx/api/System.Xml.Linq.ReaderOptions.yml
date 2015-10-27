@@ -1,0 +1,66 @@
+items:
+- uid: System.Xml.Linq.ReaderOptions
+  id: ReaderOptions
+  parent: System.Xml.Linq
+  children:
+  - System.Xml.Linq.ReaderOptions.None
+  - System.Xml.Linq.ReaderOptions.OmitDuplicateNamespaces
+  href: System.Xml.Linq.ReaderOptions.yml
+  name: ReaderOptions
+  fullName: System.Xml.Linq.ReaderOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 648
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Specifies a set of options for CreateReader().
+  syntax:
+    content: public enum ReaderOptions
+    content.vb: Public Enum ReaderOptions
+- uid: System.Xml.Linq.ReaderOptions.None
+  id: None
+  parent: System.Xml.Linq.ReaderOptions
+  href: System.Xml.Linq.ReaderOptions.yml
+  name: None
+  fullName: System.Xml.Linq.ReaderOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 652
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Default options.
+  syntax:
+    content: None = 0
+- uid: System.Xml.Linq.ReaderOptions.OmitDuplicateNamespaces
+  id: OmitDuplicateNamespaces
+  parent: System.Xml.Linq.ReaderOptions
+  href: System.Xml.Linq.ReaderOptions.yml
+  name: OmitDuplicateNamespaces
+  fullName: System.Xml.Linq.ReaderOptions.OmitDuplicateNamespaces
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.XDocument/src/System/Xml/Linq/XLinq.cs
+    startLine: 655
+  assemblies:
+  - System.Xml.XDocument
+  namespace: System.Xml.Linq
+  summary: Remove duplicate namespace declarations.
+  syntax:
+    content: OmitDuplicateNamespaces = 1
+references:
+- uid: System.Xml.Linq
+  isExternal: false
+  name: System.Xml.Linq
+  fullName: System.Xml.Linq
+  type: Namespace

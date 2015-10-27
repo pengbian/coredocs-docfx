@@ -1,0 +1,492 @@
+items:
+- uid: System.Globalization.CharUnicodeInfo
+  id: CharUnicodeInfo
+  parent: System.Globalization
+  children:
+  - System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.Char)
+  - System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.String,System.Int32)
+  - System.Globalization.CharUnicodeInfo.GetDigitValue(System.Char)
+  - System.Globalization.CharUnicodeInfo.GetDigitValue(System.String,System.Int32)
+  - System.Globalization.CharUnicodeInfo.GetNumericValue(System.Char)
+  - System.Globalization.CharUnicodeInfo.GetNumericValue(System.String,System.Int32)
+  - System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)
+  - System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.String,System.Int32)
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: CharUnicodeInfo
+  fullName: System.Globalization.CharUnicodeInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public class CharUnicodeInfo
+    content.vb: Public Class CharUnicodeInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Globalization.CharUnicodeInfo.GetNumericValue(System.Char)
+  id: GetNumericValue(System.Char)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetNumericValue(Char)
+  fullName: System.Globalization.CharUnicodeInfo.GetNumericValue(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 320
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static double GetNumericValue(char ch)
+    content.vb: Public Shared Function GetNumericValue(ch As Char) As Double
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Double
+- uid: System.Globalization.CharUnicodeInfo.GetNumericValue(System.String,System.Int32)
+  id: GetNumericValue(System.String,System.Int32)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetNumericValue(String, Int32)
+  fullName: System.Globalization.CharUnicodeInfo.GetNumericValue(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 325
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static double GetNumericValue(string s, int index)
+    content.vb: Public Shared Function GetNumericValue(s As String, index As Integer) As Double
+    parameters:
+    - id: s
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Double
+- uid: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.Char)
+  id: GetDecimalDigitValue(System.Char)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetDecimalDigitValue(Char)
+  fullName: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 355
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static int GetDecimalDigitValue(char ch)
+    content.vb: Public Shared Function GetDecimalDigitValue(ch As Char) As Integer
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Int32
+- uid: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.String,System.Int32)
+  id: GetDecimalDigitValue(System.String,System.Int32)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetDecimalDigitValue(String, Int32)
+  fullName: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 360
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static int GetDecimalDigitValue(string s, int index)
+    content.vb: Public Shared Function GetDecimalDigitValue(s As String, index As Integer) As Integer
+    parameters:
+    - id: s
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CharUnicodeInfo.GetDigitValue(System.Char)
+  id: GetDigitValue(System.Char)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetDigitValue(Char)
+  fullName: System.Globalization.CharUnicodeInfo.GetDigitValue(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 392
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static int GetDigitValue(char ch)
+    content.vb: Public Shared Function GetDigitValue(ch As Char) As Integer
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Int32
+- uid: System.Globalization.CharUnicodeInfo.GetDigitValue(System.String,System.Int32)
+  id: GetDigitValue(System.String,System.Int32)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetDigitValue(String, Int32)
+  fullName: System.Globalization.CharUnicodeInfo.GetDigitValue(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 397
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static int GetDigitValue(string s, int index)
+    content.vb: Public Shared Function GetDigitValue(s As String, index As Integer) As Integer
+    parameters:
+    - id: s
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)
+  id: GetUnicodeCategory(System.Char)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetUnicodeCategory(Char)
+  fullName: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 408
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static UnicodeCategory GetUnicodeCategory(char ch)
+    content.vb: Public Shared Function GetUnicodeCategory(ch As Char) As UnicodeCategory
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Globalization.UnicodeCategory
+- uid: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.String,System.Int32)
+  id: GetUnicodeCategory(System.String,System.Int32)
+  parent: System.Globalization.CharUnicodeInfo
+  href: System.Globalization.CharUnicodeInfo.yml
+  name: GetUnicodeCategory(String, Int32)
+  fullName: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CharUnicodeInfo.cs
+    startLine: 413
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static UnicodeCategory GetUnicodeCategory(string s, int index)
+    content.vb: Public Shared Function GetUnicodeCategory(s As String, index As Integer) As UnicodeCategory
+    parameters:
+    - id: s
+      type: System.String
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Globalization.UnicodeCategory
+references:
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Char
+  parent: System
+  isExternal: false
+  href: System.Char.yml
+  name: Char
+  fullName: System.Char
+  type: Struct
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Globalization.UnicodeCategory
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.UnicodeCategory.yml
+  name: UnicodeCategory
+  fullName: System.Globalization.UnicodeCategory
+  type: Enum

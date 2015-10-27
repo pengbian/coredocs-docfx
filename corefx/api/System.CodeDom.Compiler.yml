@@ -1,0 +1,26 @@
+items:
+- uid: System.CodeDom.Compiler
+  id: System.CodeDom.Compiler
+  children:
+  - System.CodeDom.Compiler.GeneratedCodeAttribute
+  href: System.CodeDom.Compiler.yml
+  name: System.CodeDom.Compiler
+  fullName: System.CodeDom.Compiler
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Diagnostics.Tools/src/System/CodeDom/Compiler/GeneratedCodeAttribute.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Diagnostics.Tools/src/System/CodeDom/Compiler/GeneratedCodeAttribute.cs
+    startLine: 3
+  assemblies:
+  - System.Diagnostics.Tools
+references:
+- uid: System.CodeDom.Compiler.GeneratedCodeAttribute
+  isExternal: false
+  href: System.CodeDom.Compiler.GeneratedCodeAttribute.yml
+  name: GeneratedCodeAttribute
+  fullName: System.CodeDom.Compiler.GeneratedCodeAttribute
+  type: Class

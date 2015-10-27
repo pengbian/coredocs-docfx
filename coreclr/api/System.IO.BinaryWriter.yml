@@ -1,0 +1,1091 @@
+items:
+- uid: System.IO.BinaryWriter
+  id: BinaryWriter
+  parent: System.IO
+  children:
+  - System.IO.BinaryWriter.#ctor
+  - System.IO.BinaryWriter.#ctor(System.IO.Stream)
+  - System.IO.BinaryWriter.#ctor(System.IO.Stream,System.Text.Encoding)
+  - System.IO.BinaryWriter.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean)
+  - System.IO.BinaryWriter.BaseStream
+  - System.IO.BinaryWriter.Close
+  - System.IO.BinaryWriter.Dispose
+  - System.IO.BinaryWriter.Dispose(System.Boolean)
+  - System.IO.BinaryWriter.Flush
+  - System.IO.BinaryWriter.Null
+  - System.IO.BinaryWriter.OutStream
+  - System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+  - System.IO.BinaryWriter.Write(System.Boolean)
+  - System.IO.BinaryWriter.Write(System.Byte)
+  - System.IO.BinaryWriter.Write(System.Byte[])
+  - System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+  - System.IO.BinaryWriter.Write(System.Char)
+  - System.IO.BinaryWriter.Write(System.Char[])
+  - System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+  - System.IO.BinaryWriter.Write(System.Decimal)
+  - System.IO.BinaryWriter.Write(System.Double)
+  - System.IO.BinaryWriter.Write(System.Int16)
+  - System.IO.BinaryWriter.Write(System.Int32)
+  - System.IO.BinaryWriter.Write(System.Int64)
+  - System.IO.BinaryWriter.Write(System.SByte)
+  - System.IO.BinaryWriter.Write(System.Single)
+  - System.IO.BinaryWriter.Write(System.String)
+  - System.IO.BinaryWriter.Write(System.UInt16)
+  - System.IO.BinaryWriter.Write(System.UInt32)
+  - System.IO.BinaryWriter.Write(System.UInt64)
+  - System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  href: System.IO.BinaryWriter.yml
+  name: BinaryWriter
+  fullName: System.IO.BinaryWriter
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IO/BinaryWriter.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: 'public class BinaryWriter : IDisposable'
+    content.vb: Public Class BinaryWriter Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.BinaryWriter.Null
+  id: Null
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  fullName: System.IO.BinaryWriter.Null
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 29
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public static readonly BinaryWriter Null
+    content.vb: Public Shared ReadOnly Null As BinaryWriter
+- uid: System.IO.BinaryWriter.OutStream
+  id: OutStream
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: OutStream
+  fullName: System.IO.BinaryWriter.OutStream
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected Stream OutStream
+    content.vb: Protected OutStream As Stream
+- uid: System.IO.BinaryWriter.#ctor
+  id: '#ctor'
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: BinaryWriter()
+  fullName: System.IO.BinaryWriter.BinaryWriter()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 55
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected BinaryWriter()
+    content.vb: Protected Sub New
+- uid: System.IO.BinaryWriter.#ctor(System.IO.Stream)
+  id: '#ctor(System.IO.Stream)'
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: BinaryWriter(Stream)
+  fullName: System.IO.BinaryWriter.BinaryWriter(System.IO.Stream)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 63
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public BinaryWriter(Stream output)
+    content.vb: Public Sub New(output As Stream)
+    parameters:
+    - id: output
+      type: System.IO.Stream
+- uid: System.IO.BinaryWriter.#ctor(System.IO.Stream,System.Text.Encoding)
+  id: '#ctor(System.IO.Stream,System.Text.Encoding)'
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: BinaryWriter(Stream, Encoding)
+  fullName: System.IO.BinaryWriter.BinaryWriter(System.IO.Stream, System.Text.Encoding)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 67
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public BinaryWriter(Stream output, Encoding encoding)
+    content.vb: Public Sub New(output As Stream, encoding As Encoding)
+    parameters:
+    - id: output
+      type: System.IO.Stream
+    - id: encoding
+      type: System.Text.Encoding
+- uid: System.IO.BinaryWriter.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean)
+  id: '#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean)'
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: BinaryWriter(Stream, Encoding, Boolean)
+  fullName: System.IO.BinaryWriter.BinaryWriter(System.IO.Stream, System.Text.Encoding, System.Boolean)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 71
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public BinaryWriter(Stream output, Encoding encoding, bool leaveOpen)
+    content.vb: Public Sub New(output As Stream, encoding As Encoding, leaveOpen As Boolean)
+    parameters:
+    - id: output
+      type: System.IO.Stream
+    - id: encoding
+      type: System.Text.Encoding
+    - id: leaveOpen
+      type: System.Boolean
+- uid: System.IO.BinaryWriter.Close
+  id: Close
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Close()
+  fullName: System.IO.BinaryWriter.Close()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 91
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Close()
+    content.vb: Public Overridable Sub Close
+- uid: System.IO.BinaryWriter.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Dispose(Boolean)
+  fullName: System.IO.BinaryWriter.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 96
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.IO.BinaryWriter.Dispose
+  id: Dispose
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Dispose()
+  fullName: System.IO.BinaryWriter.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 106
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.IO.BinaryWriter.BaseStream
+  id: BaseStream
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: BaseStream
+  fullName: System.IO.BinaryWriter.BaseStream
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 116
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual Stream BaseStream { get; }
+    content.vb: Public Overridable ReadOnly Property BaseStream As Stream
+    parameters: []
+    return:
+      type: System.IO.Stream
+- uid: System.IO.BinaryWriter.Flush
+  id: Flush
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Flush()
+  fullName: System.IO.BinaryWriter.Flush()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 125
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Flush()
+    content.vb: Public Overridable Sub Flush
+- uid: System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+  id: Seek(System.Int32,System.IO.SeekOrigin)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Seek(Int32, SeekOrigin)
+  fullName: System.IO.BinaryWriter.Seek(System.Int32, System.IO.SeekOrigin)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 130
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual long Seek(int offset, SeekOrigin origin)
+    content.vb: Public Overridable Function Seek(offset As Integer, origin As SeekOrigin) As Long
+    parameters:
+    - id: offset
+      type: System.Int32
+    - id: origin
+      type: System.IO.SeekOrigin
+    return:
+      type: System.Int64
+- uid: System.IO.BinaryWriter.Write(System.Boolean)
+  id: Write(System.Boolean)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Boolean)
+  fullName: System.IO.BinaryWriter.Write(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 138
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(bool value)
+    content.vb: Public Overridable Sub Write(value As Boolean)
+    parameters:
+    - id: value
+      type: System.Boolean
+- uid: System.IO.BinaryWriter.Write(System.Byte)
+  id: Write(System.Byte)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Byte)
+  fullName: System.IO.BinaryWriter.Write(System.Byte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 146
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(byte value)
+    content.vb: Public Overridable Sub Write(value As Byte)
+    parameters:
+    - id: value
+      type: System.Byte
+- uid: System.IO.BinaryWriter.Write(System.SByte)
+  id: Write(System.SByte)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(SByte)
+  fullName: System.IO.BinaryWriter.Write(System.SByte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 154
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(sbyte value)
+    content.vb: Public Overridable Sub Write(value As SByte)
+    parameters:
+    - id: value
+      type: System.SByte
+- uid: System.IO.BinaryWriter.Write(System.Byte[])
+  id: Write(System.Byte[])
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Byte[])
+  name.vb: Write(Byte())
+  fullName: System.IO.BinaryWriter.Write(System.Byte[])
+  fullName.vb: System.IO.BinaryWriter.Write(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 165
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(byte[] buffer)
+    content.vb: Public Overridable Sub Write(buffer As Byte())
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+- uid: System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+  id: Write(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Byte[], Int32, Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: System.IO.BinaryWriter.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: System.IO.BinaryWriter.Write(System.Byte(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 177
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(byte[] buffer, int index, int count)
+    content.vb: Public Overridable Sub Write(buffer As Byte(), index As Integer, count As Integer)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+- uid: System.IO.BinaryWriter.Write(System.Char)
+  id: Write(System.Char)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Char)
+  fullName: System.IO.BinaryWriter.Write(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(char ch)
+    content.vb: Public Overridable Sub Write(ch As Char)
+    parameters:
+    - id: ch
+      type: System.Char
+- uid: System.IO.BinaryWriter.Write(System.Char[])
+  id: Write(System.Char[])
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Char[])
+  name.vb: Write(Char())
+  fullName: System.IO.BinaryWriter.Write(System.Char[])
+  fullName.vb: System.IO.BinaryWriter.Write(System.Char())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 205
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(char[] chars)
+    content.vb: Public Overridable Sub Write(chars As Char())
+    parameters:
+    - id: chars
+      type: System.Char[]
+- uid: System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+  id: Write(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Char[], Int32, Int32)
+  name.vb: Write(Char(), Int32, Int32)
+  fullName: System.IO.BinaryWriter.Write(System.Char[], System.Int32, System.Int32)
+  fullName.vb: System.IO.BinaryWriter.Write(System.Char(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 220
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(char[] chars, int index, int count)
+    content.vb: Public Overridable Sub Write(chars As Char(), index As Integer, count As Integer)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+- uid: System.IO.BinaryWriter.Write(System.Double)
+  id: Write(System.Double)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Double)
+  fullName: System.IO.BinaryWriter.Write(System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 230
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(double value)
+    content.vb: Public Overridable Sub Write(value As Double)
+    parameters:
+    - id: value
+      type: System.Double
+- uid: System.IO.BinaryWriter.Write(System.Decimal)
+  id: Write(System.Decimal)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Decimal)
+  fullName: System.IO.BinaryWriter.Write(System.Decimal)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 245
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(decimal value)
+    content.vb: Public Overridable Sub Write(value As Decimal)
+    parameters:
+    - id: value
+      type: System.Decimal
+- uid: System.IO.BinaryWriter.Write(System.Int16)
+  id: Write(System.Int16)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Int16)
+  fullName: System.IO.BinaryWriter.Write(System.Int16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 254
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(short value)
+    content.vb: Public Overridable Sub Write(value As Short)
+    parameters:
+    - id: value
+      type: System.Int16
+- uid: System.IO.BinaryWriter.Write(System.UInt16)
+  id: Write(System.UInt16)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(UInt16)
+  fullName: System.IO.BinaryWriter.Write(System.UInt16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 264
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(ushort value)
+    content.vb: Public Overridable Sub Write(value As UShort)
+    parameters:
+    - id: value
+      type: System.UInt16
+- uid: System.IO.BinaryWriter.Write(System.Int32)
+  id: Write(System.Int32)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Int32)
+  fullName: System.IO.BinaryWriter.Write(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 275
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(int value)
+    content.vb: Public Overridable Sub Write(value As Integer)
+    parameters:
+    - id: value
+      type: System.Int32
+- uid: System.IO.BinaryWriter.Write(System.UInt32)
+  id: Write(System.UInt32)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(UInt32)
+  fullName: System.IO.BinaryWriter.Write(System.UInt32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 287
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(uint value)
+    content.vb: Public Overridable Sub Write(value As UInteger)
+    parameters:
+    - id: value
+      type: System.UInt32
+- uid: System.IO.BinaryWriter.Write(System.Int64)
+  id: Write(System.Int64)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Int64)
+  fullName: System.IO.BinaryWriter.Write(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 300
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(long value)
+    content.vb: Public Overridable Sub Write(value As Long)
+    parameters:
+    - id: value
+      type: System.Int64
+- uid: System.IO.BinaryWriter.Write(System.UInt64)
+  id: Write(System.UInt64)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(UInt64)
+  fullName: System.IO.BinaryWriter.Write(System.UInt64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 316
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(ulong value)
+    content.vb: Public Overridable Sub Write(value As ULong)
+    parameters:
+    - id: value
+      type: System.UInt64
+- uid: System.IO.BinaryWriter.Write(System.Single)
+  id: Write(System.Single)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(Single)
+  fullName: System.IO.BinaryWriter.Write(System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 333
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(float value)
+    content.vb: Public Overridable Sub Write(value As Single)
+    parameters:
+    - id: value
+      type: System.Single
+- uid: System.IO.BinaryWriter.Write(System.String)
+  id: Write(System.String)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write(String)
+  fullName: System.IO.BinaryWriter.Write(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 350
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: public virtual void Write(string value)
+    content.vb: Public Overridable Sub Write(value As String)
+    parameters:
+    - id: value
+      type: System.String
+- uid: System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  id: Write7BitEncodedInt(System.Int32)
+  parent: System.IO.BinaryWriter
+  href: System.IO.BinaryWriter.yml
+  name: Write7BitEncodedInt(Int32)
+  fullName: System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IO/BinaryWriter.cs
+    startLine: 403
+  assemblies:
+  - mscorlib
+  namespace: System.IO
+  syntax:
+    content: protected void Write7BitEncodedInt(int value)
+    content.vb: Protected Sub Write7BitEncodedInt(value As Integer)
+    parameters:
+    - id: value
+      type: System.Int32
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.IO.Stream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.Stream.yml
+  name: Stream
+  fullName: System.IO.Stream
+  type: Class
+- uid: System.Text.Encoding
+  parent: System.Text
+  isExternal: false
+  href: System.Text.Encoding.yml
+  name: Encoding
+  fullName: System.Text.Encoding
+  type: Class
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.IO.SeekOrigin
+  parent: System.IO
+  isExternal: false
+  href: System.IO.SeekOrigin.yml
+  name: SeekOrigin
+  fullName: System.IO.SeekOrigin
+  type: Enum
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte
+  fullName: System.Byte
+  type: Struct
+- uid: System.SByte
+  parent: System
+  isExternal: false
+  href: System.SByte.yml
+  name: SByte
+  fullName: System.SByte
+  type: Struct
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Char
+  parent: System
+  isExternal: false
+  href: System.Char.yml
+  name: Char
+  fullName: System.Char
+  type: Struct
+- uid: System.Char[]
+  isExternal: false
+  href: System.Char.yml
+  name: Char[]
+  name.vb: Char()
+  fullName: System.Char[]
+  fullName.vb: System.Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ()
+    fullName: ()
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct
+- uid: System.Decimal
+  parent: System
+  isExternal: false
+  href: System.Decimal.yml
+  name: Decimal
+  fullName: System.Decimal
+  type: Struct
+- uid: System.Int16
+  parent: System
+  isExternal: false
+  href: System.Int16.yml
+  name: Int16
+  fullName: System.Int16
+  type: Struct
+- uid: System.UInt16
+  parent: System
+  isExternal: false
+  href: System.UInt16.yml
+  name: UInt16
+  fullName: System.UInt16
+  type: Struct
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  href: System.UInt32.yml
+  name: UInt32
+  fullName: System.UInt32
+  type: Struct
+- uid: System.UInt64
+  parent: System
+  isExternal: false
+  href: System.UInt64.yml
+  name: UInt64
+  fullName: System.UInt64
+  type: Struct
+- uid: System.Single
+  parent: System
+  isExternal: false
+  href: System.Single.yml
+  name: Single
+  fullName: System.Single
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class

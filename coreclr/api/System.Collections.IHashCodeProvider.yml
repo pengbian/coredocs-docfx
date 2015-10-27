@@ -1,0 +1,71 @@
+items:
+- uid: System.Collections.IHashCodeProvider
+  id: IHashCodeProvider
+  parent: System.Collections
+  children:
+  - System.Collections.IHashCodeProvider.GetHashCode(System.Object)
+  href: System.Collections.IHashCodeProvider.yml
+  name: IHashCodeProvider
+  fullName: System.Collections.IHashCodeProvider
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/IHashCodeProvider.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/IHashCodeProvider.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public interface IHashCodeProvider
+    content.vb: Public Interface IHashCodeProvider
+- uid: System.Collections.IHashCodeProvider.GetHashCode(System.Object)
+  id: GetHashCode(System.Object)
+  parent: System.Collections.IHashCodeProvider
+  href: System.Collections.IHashCodeProvider.yml
+  name: GetHashCode(Object)
+  fullName: System.Collections.IHashCodeProvider.GetHashCode(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IHashCodeProvider.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: int GetHashCode(object obj)
+    content.vb: Function GetHashCode(obj As Object) As Integer
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

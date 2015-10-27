@@ -1,0 +1,108 @@
+items:
+- uid: System.Threading
+  id: System.Threading
+  children:
+  - System.Threading.Barrier
+  - System.Threading.BarrierPostPhaseException
+  - System.Threading.CountdownEvent
+  - System.Threading.LockRecursionPolicy
+  - System.Threading.PreAllocatedOverlapped
+  - System.Threading.ReaderWriterLockSlim
+  - System.Threading.Semaphore
+  - System.Threading.ThreadPoolBoundHandle
+  - System.Threading.WaitHandleExtensions
+  href: System.Threading.yml
+  name: System.Threading
+  fullName: System.Threading
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Threading/src/System/Threading/Semaphore.Windows.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Threading/src/System/Threading/Semaphore.Windows.cs
+    startLine: 6
+  assemblies:
+  - System.Threading
+references:
+- uid: System.Threading.Semaphore
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.Semaphore.yml
+  name: Semaphore
+  fullName: System.Threading.Semaphore
+  type: Class
+- uid: System.Threading.BarrierPostPhaseException
+  isExternal: false
+  href: System.Threading.BarrierPostPhaseException.yml
+  name: BarrierPostPhaseException
+  fullName: System.Threading.BarrierPostPhaseException
+  type: Class
+  summary: The exception that is thrown when the post-phase action of a @'System.Threading.Barrier' fails.
+- uid: System.Threading.Barrier
+  isExternal: false
+  href: System.Threading.Barrier.yml
+  name: Barrier
+  fullName: System.Threading.Barrier
+  type: Class
+  summary: Enables multiple tasks to cooperatively work on an algorithm in parallel through multiple phases.
+- uid: System.Threading.CountdownEvent
+  isExternal: false
+  href: System.Threading.CountdownEvent.yml
+  name: CountdownEvent
+  fullName: System.Threading.CountdownEvent
+  type: Class
+  summary: Represents a synchronization primitive that is signaled when its count reaches zero.
+- uid: System.Threading.LockRecursionPolicy
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.LockRecursionPolicy.yml
+  name: LockRecursionPolicy
+  fullName: System.Threading.LockRecursionPolicy
+  type: Enum
+- uid: System.Threading.ReaderWriterLockSlim
+  isExternal: false
+  href: System.Threading.ReaderWriterLockSlim.yml
+  name: ReaderWriterLockSlim
+  fullName: System.Threading.ReaderWriterLockSlim
+  type: Class
+  summary: >-
+    A reader-writer lock implementation that is intended to be simple, yet very
+
+    efficient.  In particular only 1 interlocked operation is taken for any lock
+
+    operation (we use spin locks to achieve this).  The spin lock is never held
+
+    for more than a few instructions (in particular, we never call event APIs
+
+    or in fact any non-trivial API while holding the spin lock).
+- uid: System.Threading.ThreadPoolBoundHandle
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.ThreadPoolBoundHandle.yml
+  name: ThreadPoolBoundHandle
+  fullName: System.Threading.ThreadPoolBoundHandle
+  type: Class
+  summary: >-
+    Represents an I/O handle that is bound to the system thread pool and enables low-level
+
+    components to receive notifications for asynchronous I/O operations.
+- uid: System.Threading.PreAllocatedOverlapped
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.PreAllocatedOverlapped.yml
+  name: PreAllocatedOverlapped
+  fullName: System.Threading.PreAllocatedOverlapped
+  type: Class
+  summary: Represents pre-allocated state for native overlapped I/O operations.
+- uid: System.Threading.WaitHandleExtensions
+  isExternal: false
+  href: System.Threading.WaitHandleExtensions.yml
+  name: WaitHandleExtensions
+  fullName: System.Threading.WaitHandleExtensions
+  type: Class
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading

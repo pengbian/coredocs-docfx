@@ -1,0 +1,715 @@
+items:
+- uid: System.Text.Decoder
+  id: Decoder
+  parent: System.Text
+  children:
+  - System.Text.Decoder.#ctor
+  - System.Text.Decoder.Convert(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  - System.Text.Decoder.Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  - System.Text.Decoder.Fallback
+  - System.Text.Decoder.FallbackBuffer
+  - System.Text.Decoder.GetCharCount(System.Byte*,System.Int32,System.Boolean)
+  - System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  - System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  - System.Text.Decoder.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean)
+  - System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  - System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Boolean)
+  - System.Text.Decoder.Reset
+  href: System.Text.Decoder.yml
+  name: Decoder
+  fullName: System.Text.Decoder
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Text/Decoder.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract class Decoder
+    content.vb: Public MustInherit Class Decoder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Text.Decoder.#ctor
+  id: '#ctor'
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: Decoder()
+  fullName: System.Text.Decoder.Decoder()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: protected Decoder()
+    content.vb: Protected Sub New
+- uid: System.Text.Decoder.Fallback
+  id: Fallback
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: Fallback
+  fullName: System.Text.Decoder.Fallback
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public DecoderFallback Fallback { get; set; }
+    content.vb: Public Property Fallback As DecoderFallback
+    parameters: []
+    return:
+      type: System.Text.DecoderFallback
+- uid: System.Text.Decoder.FallbackBuffer
+  id: FallbackBuffer
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: FallbackBuffer
+  fullName: System.Text.Decoder.FallbackBuffer
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 65
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public DecoderFallbackBuffer FallbackBuffer { get; }
+    content.vb: Public ReadOnly Property FallbackBuffer As DecoderFallbackBuffer
+    parameters: []
+    return:
+      type: System.Text.DecoderFallbackBuffer
+- uid: System.Text.Decoder.Reset
+  id: Reset
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: Reset()
+  fullName: System.Text.Decoder.Reset()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 99
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual void Reset()
+    content.vb: Public Overridable Sub Reset
+- uid: System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  id: GetCharCount(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: GetCharCount(Byte[], Int32, Int32)
+  name.vb: GetCharCount(Byte(), Int32, Int32)
+  fullName: System.Text.Decoder.GetCharCount(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: System.Text.Decoder.GetCharCount(System.Byte(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 115
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract int GetCharCount(byte[] bytes, int index, int count)
+    content.vb: Public MustOverride Function GetCharCount(bytes As Byte(), index As Integer, count As Integer) As Integer
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  id: GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: GetCharCount(Byte[], Int32, Int32, Boolean)
+  name.vb: GetCharCount(Byte(), Int32, Int32, Boolean)
+  fullName: System.Text.Decoder.GetCharCount(System.Byte[], System.Int32, System.Int32, System.Boolean)
+  fullName.vb: System.Text.Decoder.GetCharCount(System.Byte(), System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 117
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual int GetCharCount(byte[] bytes, int index, int count, bool flush)
+    content.vb: Public Overridable Function GetCharCount(bytes As Byte(), index As Integer, count As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Decoder.GetCharCount(System.Byte*,System.Int32,System.Boolean)
+  id: GetCharCount(System.Byte*,System.Int32,System.Boolean)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: GetCharCount(Byte*, Int32, Boolean)
+  fullName: System.Text.Decoder.GetCharCount(System.Byte*, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 125
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual int GetCharCount(byte *bytes, int count, bool flush)
+    content.vb: Public Overridable Function GetCharCount(bytes As Byte *, count As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: bytes
+      type: System.Byte*
+    - id: count
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: GetChars(Byte[], Int32, Int32, Char[], Int32)
+  name.vb: GetChars(Byte(), Int32, Int32, Char(), Int32)
+  fullName: System.Text.Decoder.GetChars(System.Byte[], System.Int32, System.Int32, System.Char[], System.Int32)
+  fullName.vb: System.Text.Decoder.GetChars(System.Byte(), System.Int32, System.Int32, System.Char(), System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 165
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
+    content.vb: Public MustOverride Function GetChars(bytes As Byte(), byteIndex As Integer, byteCount As Integer, chars As Char(), charIndex As Integer) As Integer
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Boolean)
+  id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Boolean)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: GetChars(Byte[], Int32, Int32, Char[], Int32, Boolean)
+  name.vb: GetChars(Byte(), Int32, Int32, Char(), Int32, Boolean)
+  fullName: System.Text.Decoder.GetChars(System.Byte[], System.Int32, System.Int32, System.Char[], System.Int32, System.Boolean)
+  fullName.vb: System.Text.Decoder.GetChars(System.Byte(), System.Int32, System.Int32, System.Char(), System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 168
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool flush)
+    content.vb: Public Overridable Function GetChars(bytes As Byte(), byteIndex As Integer, byteCount As Integer, chars As Char(), charIndex As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Decoder.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean)
+  id: GetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: GetChars(Byte*, Int32, Char*, Int32, Boolean)
+  fullName: System.Text.Decoder.GetChars(System.Byte*, System.Int32, System.Char*, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 190
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual int GetChars(byte *bytes, int byteCount, char *chars, int charCount, bool flush)
+    content.vb: Public Overridable Function GetChars(bytes As Byte *, byteCount As Integer, chars As Char *, charCount As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: bytes
+      type: System.Byte*
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char*
+    - id: charCount
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Decoder.Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  id: Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: Convert(Byte[], Int32, Int32, Char[], Int32, Int32, Boolean, out Int32, out Int32, out Boolean)
+  name.vb: Convert(Byte(), Int32, Int32, Char(), Int32, Int32, Boolean, ByRef Int32, ByRef Int32, ByRef Boolean)
+  fullName: System.Text.Decoder.Convert(System.Byte[], System.Int32, System.Int32, System.Char[], System.Int32, System.Int32, System.Boolean, out System.Int32, out System.Int32, out System.Boolean)
+  fullName.vb: System.Text.Decoder.Convert(System.Byte(), System.Int32, System.Int32, System.Char(), System.Int32, System.Int32, System.Boolean, ByRef System.Int32, ByRef System.Int32, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 250
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual void Convert(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed)
+    content.vb: Public Overridable Sub Convert(bytes As Byte(), byteIndex As Integer, byteCount As Integer, chars As Char(), charIndex As Integer, charCount As Integer, flush As Boolean, ByRef bytesUsed As Integer, ByRef charsUsed As Integer, ByRef completed As Boolean)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: charCount
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    - id: bytesUsed
+      type: System.Int32
+    - id: charsUsed
+      type: System.Int32
+    - id: completed
+      type: System.Boolean
+- uid: System.Text.Decoder.Convert(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  id: Convert(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  parent: System.Text.Decoder
+  href: System.Text.Decoder.yml
+  name: Convert(Byte*, Int32, Char*, Int32, Boolean, out Int32, out Int32, out Boolean)
+  name.vb: Convert(Byte*, Int32, Char*, Int32, Boolean, ByRef Int32, ByRef Int32, ByRef Boolean)
+  fullName: System.Text.Decoder.Convert(System.Byte*, System.Int32, System.Char*, System.Int32, System.Boolean, out System.Int32, out System.Int32, out System.Boolean)
+  fullName.vb: System.Text.Decoder.Convert(System.Byte*, System.Int32, System.Char*, System.Int32, System.Boolean, ByRef System.Int32, ByRef System.Int32, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Decoder.cs
+    startLine: 307
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual void Convert(byte *bytes, int byteCount, char *chars, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed)
+    content.vb: Public Overridable Sub Convert(bytes As Byte *, byteCount As Integer, chars As Char *, charCount As Integer, flush As Boolean, ByRef bytesUsed As Integer, ByRef charsUsed As Integer, ByRef completed As Boolean)
+    parameters:
+    - id: bytes
+      type: System.Byte*
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char*
+    - id: charCount
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    - id: bytesUsed
+      type: System.Int32
+    - id: charsUsed
+      type: System.Int32
+    - id: completed
+      type: System.Boolean
+references:
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Text.DecoderFallback
+  parent: System.Text
+  isExternal: false
+  href: System.Text.DecoderFallback.yml
+  name: DecoderFallback
+  fullName: System.Text.DecoderFallback
+  type: Class
+- uid: System.Text.DecoderFallbackBuffer
+  parent: System.Text
+  isExternal: false
+  href: System.Text.DecoderFallbackBuffer.yml
+  name: DecoderFallbackBuffer
+  fullName: System.Text.DecoderFallbackBuffer
+  type: Class
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Byte*
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte*
+  fullName: System.Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '*'
+    fullName: '*'
+- uid: System.Char[]
+  isExternal: false
+  href: System.Char.yml
+  name: Char[]
+  name.vb: Char()
+  fullName: System.Char[]
+  fullName.vb: System.Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ()
+    fullName: ()
+- uid: System.Char*
+  isExternal: false
+  href: System.Char.yml
+  name: Char*
+  fullName: System.Char*
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '*'
+    fullName: '*'

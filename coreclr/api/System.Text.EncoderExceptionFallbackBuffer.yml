@@ -1,0 +1,609 @@
+items:
+- uid: System.Text.EncoderExceptionFallbackBuffer
+  id: EncoderExceptionFallbackBuffer
+  parent: System.Text
+  children:
+  - System.Text.EncoderExceptionFallbackBuffer.#ctor
+  - System.Text.EncoderExceptionFallbackBuffer.Fallback(System.Char,System.Char,System.Int32)
+  - System.Text.EncoderExceptionFallbackBuffer.Fallback(System.Char,System.Int32)
+  - System.Text.EncoderExceptionFallbackBuffer.GetNextChar
+  - System.Text.EncoderExceptionFallbackBuffer.MovePrevious
+  - System.Text.EncoderExceptionFallbackBuffer.Remaining
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: EncoderExceptionFallbackBuffer
+  fullName: System.Text.EncoderExceptionFallbackBuffer
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 48
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: 'public sealed class EncoderExceptionFallbackBuffer : EncoderFallbackBuffer'
+    content.vb: Public NotInheritable Class EncoderExceptionFallbackBuffer Inherits EncoderFallbackBuffer
+  inheritance:
+  - System.Object
+  - System.Text.EncoderFallbackBuffer
+  inheritedMembers:
+  - System.Text.EncoderFallbackBuffer.Reset
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Text.EncoderExceptionFallbackBuffer.#ctor
+  id: '#ctor'
+  parent: System.Text.EncoderExceptionFallbackBuffer
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: EncoderExceptionFallbackBuffer()
+  fullName: System.Text.EncoderExceptionFallbackBuffer.EncoderExceptionFallbackBuffer()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 50
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public EncoderExceptionFallbackBuffer()
+    content.vb: Public Sub New
+- uid: System.Text.EncoderExceptionFallbackBuffer.Fallback(System.Char,System.Int32)
+  id: Fallback(System.Char,System.Int32)
+  parent: System.Text.EncoderExceptionFallbackBuffer
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: Fallback(Char, Int32)
+  fullName: System.Text.EncoderExceptionFallbackBuffer.Fallback(System.Char, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 51
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override bool Fallback(char charUnknown, int index)
+    content.vb: Public Overrides Function Fallback(charUnknown As Char, index As Integer) As Boolean
+    parameters:
+    - id: charUnknown
+      type: System.Char
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+  overridden: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Int32)
+- uid: System.Text.EncoderExceptionFallbackBuffer.Fallback(System.Char,System.Char,System.Int32)
+  id: Fallback(System.Char,System.Char,System.Int32)
+  parent: System.Text.EncoderExceptionFallbackBuffer
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: Fallback(Char, Char, Int32)
+  fullName: System.Text.EncoderExceptionFallbackBuffer.Fallback(System.Char, System.Char, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 59
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index)
+    content.vb: Public Overrides Function Fallback(charUnknownHigh As Char, charUnknownLow As Char, index As Integer) As Boolean
+    parameters:
+    - id: charUnknownHigh
+      type: System.Char
+    - id: charUnknownLow
+      type: System.Char
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+  overridden: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Char,System.Int32)
+- uid: System.Text.EncoderExceptionFallbackBuffer.GetNextChar
+  id: GetNextChar
+  parent: System.Text.EncoderExceptionFallbackBuffer
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: GetNextChar()
+  fullName: System.Text.EncoderExceptionFallbackBuffer.GetNextChar()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 83
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override char GetNextChar()
+    content.vb: Public Overrides Function GetNextChar As Char
+    return:
+      type: System.Char
+  overridden: System.Text.EncoderFallbackBuffer.GetNextChar
+- uid: System.Text.EncoderExceptionFallbackBuffer.MovePrevious
+  id: MovePrevious
+  parent: System.Text.EncoderExceptionFallbackBuffer
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: MovePrevious()
+  fullName: System.Text.EncoderExceptionFallbackBuffer.MovePrevious()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 88
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override bool MovePrevious()
+    content.vb: Public Overrides Function MovePrevious As Boolean
+    return:
+      type: System.Boolean
+  overridden: System.Text.EncoderFallbackBuffer.MovePrevious
+- uid: System.Text.EncoderExceptionFallbackBuffer.Remaining
+  id: Remaining
+  parent: System.Text.EncoderExceptionFallbackBuffer
+  href: System.Text.EncoderExceptionFallbackBuffer.yml
+  name: Remaining
+  fullName: System.Text.EncoderExceptionFallbackBuffer.Remaining
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/EncoderExceptionFallback.cs
+    startLine: 95
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public override int Remaining { get; }
+    content.vb: Public Overrides ReadOnly Property Remaining As Integer
+    parameters: []
+    return:
+      type: System.Int32
+  overridden: System.Text.EncoderFallbackBuffer.Remaining
+references:
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Text.EncoderFallbackBuffer
+  parent: System.Text
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: EncoderFallbackBuffer
+  fullName: System.Text.EncoderFallbackBuffer
+  type: Class
+- uid: System.Text.EncoderFallbackBuffer.Reset
+  parent: System.Text.EncoderFallbackBuffer
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: Reset()
+  fullName: System.Text.EncoderFallbackBuffer.Reset()
+  spec.csharp:
+  - uid: System.Text.EncoderFallbackBuffer.Reset
+    name: Reset
+    fullName: System.Text.EncoderFallbackBuffer.Reset
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.EncoderFallbackBuffer.Reset
+    name: Reset
+    fullName: System.Text.EncoderFallbackBuffer.Reset
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Int32)
+  parent: System.Text.EncoderFallbackBuffer
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: Fallback(Char, Int32)
+  fullName: System.Text.EncoderFallbackBuffer.Fallback(System.Char, System.Int32)
+  spec.csharp:
+  - uid: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Int32)
+    name: Fallback
+    fullName: System.Text.EncoderFallbackBuffer.Fallback
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Int32)
+    name: Fallback
+    fullName: System.Text.EncoderFallbackBuffer.Fallback
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: )
+    fullName: )
+- uid: System.Char
+  parent: System
+  isExternal: false
+  href: System.Char.yml
+  name: Char
+  fullName: System.Char
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Char,System.Int32)
+  parent: System.Text.EncoderFallbackBuffer
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: Fallback(Char, Char, Int32)
+  fullName: System.Text.EncoderFallbackBuffer.Fallback(System.Char, System.Char, System.Int32)
+  spec.csharp:
+  - uid: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Char,System.Int32)
+    name: Fallback
+    fullName: System.Text.EncoderFallbackBuffer.Fallback
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.EncoderFallbackBuffer.Fallback(System.Char,System.Char,System.Int32)
+    name: Fallback
+    fullName: System.Text.EncoderFallbackBuffer.Fallback
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: )
+    fullName: )
+- uid: System.Text.EncoderFallbackBuffer.GetNextChar
+  parent: System.Text.EncoderFallbackBuffer
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: GetNextChar()
+  fullName: System.Text.EncoderFallbackBuffer.GetNextChar()
+  spec.csharp:
+  - uid: System.Text.EncoderFallbackBuffer.GetNextChar
+    name: GetNextChar
+    fullName: System.Text.EncoderFallbackBuffer.GetNextChar
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.EncoderFallbackBuffer.GetNextChar
+    name: GetNextChar
+    fullName: System.Text.EncoderFallbackBuffer.GetNextChar
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Text.EncoderFallbackBuffer.MovePrevious
+  parent: System.Text.EncoderFallbackBuffer
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: MovePrevious()
+  fullName: System.Text.EncoderFallbackBuffer.MovePrevious()
+  spec.csharp:
+  - uid: System.Text.EncoderFallbackBuffer.MovePrevious
+    name: MovePrevious
+    fullName: System.Text.EncoderFallbackBuffer.MovePrevious
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.EncoderFallbackBuffer.MovePrevious
+    name: MovePrevious
+    fullName: System.Text.EncoderFallbackBuffer.MovePrevious
+    href: System.Text.EncoderFallbackBuffer.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Text.EncoderFallbackBuffer.Remaining
+  parent: System.Text.EncoderFallbackBuffer
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: Remaining
+  fullName: System.Text.EncoderFallbackBuffer.Remaining

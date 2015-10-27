@@ -1,0 +1,26 @@
+items:
+- uid: System.Reflection.Metadata
+  id: System.Reflection.Metadata
+  children:
+  - System.Reflection.Metadata.AssemblyExtensions
+  href: System.Reflection.Metadata.yml
+  name: System.Reflection.Metadata
+  fullName: System.Reflection.Metadata
+  type: Namespace
+  source:
+    remote:
+      path: src/mscorlib/src/System/Reflection/Metadata/AssemblyExtensions.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Metadata/AssemblyExtensions.cs
+    startLine: 7
+  assemblies:
+  - mscorlib
+references:
+- uid: System.Reflection.Metadata.AssemblyExtensions
+  isExternal: false
+  href: System.Reflection.Metadata.AssemblyExtensions.yml
+  name: AssemblyExtensions
+  fullName: System.Reflection.Metadata.AssemblyExtensions
+  type: Class

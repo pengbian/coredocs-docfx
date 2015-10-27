@@ -1,0 +1,657 @@
+items:
+- uid: System.Resources.ResourceSet
+  id: ResourceSet
+  parent: System.Resources
+  children:
+  - System.Resources.ResourceSet.#ctor
+  - System.Resources.ResourceSet.#ctor(System.IO.Stream)
+  - System.Resources.ResourceSet.#ctor(System.Resources.IResourceReader)
+  - System.Resources.ResourceSet.#ctor(System.String)
+  - System.Resources.ResourceSet.Close
+  - System.Resources.ResourceSet.Dispose
+  - System.Resources.ResourceSet.Dispose(System.Boolean)
+  - System.Resources.ResourceSet.GetDefaultReader
+  - System.Resources.ResourceSet.GetEnumerator
+  - System.Resources.ResourceSet.GetObject(System.String)
+  - System.Resources.ResourceSet.GetObject(System.String,System.Boolean)
+  - System.Resources.ResourceSet.GetString(System.String)
+  - System.Resources.ResourceSet.GetString(System.String,System.Boolean)
+  - System.Resources.ResourceSet.Reader
+  - System.Resources.ResourceSet.ReadResources
+  - System.Resources.ResourceSet.System#Collections#IEnumerable#GetEnumerator
+  href: System.Resources.ResourceSet.yml
+  name: ResourceSet
+  fullName: System.Resources.ResourceSet
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Resources/ResourceSet.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: 'public class ResourceSet : IDisposable, IEnumerable'
+    content.vb: Public Class ResourceSet Implements IDisposable, IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Resources.ResourceSet.Reader
+  id: Reader
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: Reader
+  fullName: System.Resources.ResourceSet.Reader
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 35
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: protected IResourceReader Reader
+    content.vb: Protected Reader As IResourceReader
+- uid: System.Resources.ResourceSet.#ctor
+  id: '#ctor'
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: ResourceSet()
+  fullName: System.Resources.ResourceSet.ResourceSet()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: protected ResourceSet()
+    content.vb: Protected Sub New
+- uid: System.Resources.ResourceSet.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: ResourceSet(String)
+  fullName: System.Resources.ResourceSet.ResourceSet(System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 67
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public ResourceSet(string fileName)
+    content.vb: Public Sub New(fileName As String)
+    parameters:
+    - id: fileName
+      type: System.String
+- uid: System.Resources.ResourceSet.#ctor(System.IO.Stream)
+  id: '#ctor(System.IO.Stream)'
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: ResourceSet(Stream)
+  fullName: System.Resources.ResourceSet.ResourceSet(System.IO.Stream)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 90
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public ResourceSet(Stream stream)
+    content.vb: Public Sub New(stream As Stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+- uid: System.Resources.ResourceSet.#ctor(System.Resources.IResourceReader)
+  id: '#ctor(System.Resources.IResourceReader)'
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: ResourceSet(IResourceReader)
+  fullName: System.Resources.ResourceSet.ResourceSet(System.Resources.IResourceReader)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 109
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public ResourceSet(IResourceReader reader)
+    content.vb: Public Sub New(reader As IResourceReader)
+    parameters:
+    - id: reader
+      type: System.Resources.IResourceReader
+- uid: System.Resources.ResourceSet.Close
+  id: Close
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: Close()
+  fullName: System.Resources.ResourceSet.Close()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 141
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual void Close()
+    content.vb: Public Overridable Sub Close
+- uid: System.Resources.ResourceSet.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: Dispose(Boolean)
+  fullName: System.Resources.ResourceSet.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 146
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.Resources.ResourceSet.Dispose
+  id: Dispose
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: Dispose()
+  fullName: System.Resources.ResourceSet.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 160
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.Resources.ResourceSet.GetDefaultReader
+  id: GetDefaultReader
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: GetDefaultReader()
+  fullName: System.Resources.ResourceSet.GetDefaultReader()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 178
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual Type GetDefaultReader()
+    content.vb: Public Overridable Function GetDefaultReader As Type
+    return:
+      type: System.Type
+- uid: System.Resources.ResourceSet.GetEnumerator
+  id: GetEnumerator
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: GetEnumerator()
+  fullName: System.Resources.ResourceSet.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 193
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual IDictionaryEnumerator GetEnumerator()
+    content.vb: Public Overridable Function GetEnumerator As IDictionaryEnumerator
+    return:
+      type: System.Collections.IDictionaryEnumerator
+- uid: System.Resources.ResourceSet.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: System.Resources.ResourceSet.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 200
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+- uid: System.Resources.ResourceSet.GetString(System.String)
+  id: GetString(System.String)
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: GetString(String)
+  fullName: System.Resources.ResourceSet.GetString(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 215
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual string GetString(string name)
+    content.vb: Public Overridable Function GetString(name As String) As String
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+- uid: System.Resources.ResourceSet.GetString(System.String,System.Boolean)
+  id: GetString(System.String,System.Boolean)
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: GetString(String, Boolean)
+  fullName: System.Resources.ResourceSet.GetString(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 226
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual string GetString(string name, bool ignoreCase)
+    content.vb: Public Overridable Function GetString(name As String, ignoreCase As Boolean) As String
+    parameters:
+    - id: name
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.String
+- uid: System.Resources.ResourceSet.GetObject(System.String)
+  id: GetObject(System.String)
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: GetObject(String)
+  fullName: System.Resources.ResourceSet.GetObject(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 257
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual object GetObject(string name)
+    content.vb: Public Overridable Function GetObject(name As String) As Object
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Object
+- uid: System.Resources.ResourceSet.GetObject(System.String,System.Boolean)
+  id: GetObject(System.String,System.Boolean)
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: GetObject(String, Boolean)
+  fullName: System.Resources.ResourceSet.GetObject(System.String, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 262
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: public virtual object GetObject(string name, bool ignoreCase)
+    content.vb: Public Overridable Function GetObject(name As String, ignoreCase As Boolean) As Object
+    parameters:
+    - id: name
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.Object
+- uid: System.Resources.ResourceSet.ReadResources
+  id: ReadResources
+  parent: System.Resources.ResourceSet
+  href: System.Resources.ResourceSet.yml
+  name: ReadResources()
+  fullName: System.Resources.ResourceSet.ReadResources()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Resources/ResourceSet.cs
+    startLine: 272
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  syntax:
+    content: protected virtual void ReadResources()
+    content.vb: Protected Overridable Sub ReadResources
+references:
+- uid: System.Resources
+  isExternal: false
+  name: System.Resources
+  fullName: System.Resources
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.IO.Stream
+  parent: System.IO
+  isExternal: false
+  href: System.IO.Stream.yml
+  name: Stream
+  fullName: System.IO.Stream
+  type: Class
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Resources.IResourceReader
+  isExternal: false
+  href: System.Resources.IResourceReader.yml
+  name: IResourceReader
+  fullName: System.Resources.IResourceReader
+  type: Interface
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Collections.IDictionaryEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IDictionaryEnumerator.yml
+  name: IDictionaryEnumerator
+  fullName: System.Collections.IDictionaryEnumerator
+  type: Interface
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface

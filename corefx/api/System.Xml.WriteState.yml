@@ -1,0 +1,148 @@
+items:
+- uid: System.Xml.WriteState
+  id: WriteState
+  parent: System.Xml
+  children:
+  - System.Xml.WriteState.Attribute
+  - System.Xml.WriteState.Closed
+  - System.Xml.WriteState.Content
+  - System.Xml.WriteState.Element
+  - System.Xml.WriteState.Error
+  - System.Xml.WriteState.Prolog
+  - System.Xml.WriteState.Start
+  href: System.Xml.WriteState.yml
+  name: WriteState
+  fullName: System.Xml.WriteState
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 15
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: public enum WriteState
+    content.vb: Public Enum WriteState
+- uid: System.Xml.WriteState.Start
+  id: Start
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Start
+  fullName: System.Xml.WriteState.Start
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 18
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Start = 0
+- uid: System.Xml.WriteState.Prolog
+  id: Prolog
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Prolog
+  fullName: System.Xml.WriteState.Prolog
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 21
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Prolog = 1
+- uid: System.Xml.WriteState.Element
+  id: Element
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Element
+  fullName: System.Xml.WriteState.Element
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 24
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Element = 2
+- uid: System.Xml.WriteState.Attribute
+  id: Attribute
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Attribute
+  fullName: System.Xml.WriteState.Attribute
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 27
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Attribute = 3
+- uid: System.Xml.WriteState.Content
+  id: Content
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Content
+  fullName: System.Xml.WriteState.Content
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 30
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Content = 4
+- uid: System.Xml.WriteState.Closed
+  id: Closed
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Closed
+  fullName: System.Xml.WriteState.Closed
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 33
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Closed = 5
+- uid: System.Xml.WriteState.Error
+  id: Error
+  parent: System.Xml.WriteState
+  href: System.Xml.WriteState.yml
+  name: Error
+  fullName: System.Xml.WriteState.Error
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Xml.ReaderWriter/src/System/Xml/Core/XmlWriter.cs
+    startLine: 36
+  assemblies:
+  - System.Xml.ReaderWriter
+  namespace: System.Xml
+  syntax:
+    content: Error = 6
+references:
+- uid: System.Xml
+  isExternal: false
+  name: System.Xml
+  fullName: System.Xml
+  type: Namespace

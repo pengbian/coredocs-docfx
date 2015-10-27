@@ -1,0 +1,62 @@
+items:
+- uid: System.IServiceProvider
+  id: IServiceProvider
+  parent: System
+  children:
+  - System.IServiceProvider.GetService(System.Type)
+  href: System.IServiceProvider.yml
+  name: IServiceProvider
+  fullName: System.IServiceProvider
+  type: Interface
+  source:
+    remote: &o0
+      path: src/System.ComponentModel/src/System/IServiceProvider.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.ComponentModel/src/System/IServiceProvider.cs
+    startLine: 5
+  assemblies:
+  - System.ComponentModel
+  namespace: System
+  syntax:
+    content: public interface IServiceProvider
+    content.vb: Public Interface IServiceProvider
+- uid: System.IServiceProvider.GetService(System.Type)
+  id: GetService(System.Type)
+  parent: System.IServiceProvider
+  href: System.IServiceProvider.yml
+  name: GetService(Type)
+  fullName: System.IServiceProvider.GetService(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.ComponentModel/src/System/IServiceProvider.cs
+    startLine: 7
+  assemblies:
+  - System.ComponentModel
+  namespace: System
+  syntax:
+    content: object GetService(Type serviceType)
+    content.vb: Function GetService(serviceType As Type) As Object
+    parameters:
+    - id: serviceType
+      type: System.Type
+    return:
+      type: System.Object
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object

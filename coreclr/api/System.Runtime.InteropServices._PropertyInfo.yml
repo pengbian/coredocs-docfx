@@ -1,0 +1,29 @@
+items:
+- uid: System.Runtime.InteropServices._PropertyInfo
+  id: _PropertyInfo
+  parent: System.Runtime.InteropServices
+  children: []
+  href: System.Runtime.InteropServices._PropertyInfo.yml
+  name: _PropertyInfo
+  fullName: System.Runtime.InteropServices._PropertyInfo
+  type: Interface
+  source:
+    remote:
+      path: src/mscorlib/src/System/Reflection/ComInterfaces.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/ComInterfaces.cs
+    startLine: 523
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public interface _PropertyInfo
+    content.vb: Public Interface _PropertyInfo
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

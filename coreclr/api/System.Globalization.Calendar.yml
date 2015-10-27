@@ -1,0 +1,1474 @@
+items:
+- uid: System.Globalization.Calendar
+  id: Calendar
+  parent: System.Globalization
+  children:
+  - System.Globalization.Calendar.#ctor
+  - System.Globalization.Calendar.AddDays(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AddHours(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)
+  - System.Globalization.Calendar.AddMinutes(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AddSeconds(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)
+  - System.Globalization.Calendar.AlgorithmType
+  - System.Globalization.Calendar.Clone
+  - System.Globalization.Calendar.CurrentEra
+  - System.Globalization.Calendar.DaysInYearBeforeMinSupportedYear
+  - System.Globalization.Calendar.Eras
+  - System.Globalization.Calendar.GetDayOfMonth(System.DateTime)
+  - System.Globalization.Calendar.GetDayOfWeek(System.DateTime)
+  - System.Globalization.Calendar.GetDayOfYear(System.DateTime)
+  - System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32)
+  - System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
+  - System.Globalization.Calendar.GetDaysInYear(System.Int32)
+  - System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)
+  - System.Globalization.Calendar.GetEra(System.DateTime)
+  - System.Globalization.Calendar.GetHour(System.DateTime)
+  - System.Globalization.Calendar.GetLeapMonth(System.Int32)
+  - System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)
+  - System.Globalization.Calendar.GetMilliseconds(System.DateTime)
+  - System.Globalization.Calendar.GetMinute(System.DateTime)
+  - System.Globalization.Calendar.GetMonth(System.DateTime)
+  - System.Globalization.Calendar.GetMonthsInYear(System.Int32)
+  - System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)
+  - System.Globalization.Calendar.GetSecond(System.DateTime)
+  - System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
+  - System.Globalization.Calendar.GetYear(System.DateTime)
+  - System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32)
+  - System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32)
+  - System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
+  - System.Globalization.Calendar.IsLeapYear(System.Int32)
+  - System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)
+  - System.Globalization.Calendar.IsReadOnly
+  - System.Globalization.Calendar.MaxSupportedDateTime
+  - System.Globalization.Calendar.MinSupportedDateTime
+  - System.Globalization.Calendar.ReadOnly(System.Globalization.Calendar)
+  - System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - System.Globalization.Calendar.ToFourDigitYear(System.Int32)
+  - System.Globalization.Calendar.TwoDigitYearMax
+  href: System.Globalization.Calendar.yml
+  name: Calendar
+  fullName: System.Globalization.Calendar
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Globalization/Calendar.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: 'public abstract class Calendar : ICloneable'
+    content.vb: Public MustInherit Class Calendar Implements ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Globalization.Calendar.MinSupportedDateTime
+  id: MinSupportedDateTime
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: MinSupportedDateTime
+  fullName: System.Globalization.Calendar.MinSupportedDateTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 98
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime MinSupportedDateTime { get; }
+    content.vb: Public Overridable ReadOnly Property MinSupportedDateTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.MaxSupportedDateTime
+  id: MaxSupportedDateTime
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: MaxSupportedDateTime
+  fullName: System.Globalization.Calendar.MaxSupportedDateTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 109
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime MaxSupportedDateTime { get; }
+    content.vb: Public Overridable ReadOnly Property MaxSupportedDateTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.#ctor
+  id: '#ctor'
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: Calendar()
+  fullName: System.Globalization.Calendar.Calendar()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 121
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: protected Calendar()
+    content.vb: Protected Sub New
+- uid: System.Globalization.Calendar.AlgorithmType
+  id: AlgorithmType
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AlgorithmType
+  fullName: System.Globalization.Calendar.AlgorithmType
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 145
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual CalendarAlgorithmType AlgorithmType { get; }
+    content.vb: Public Overridable ReadOnly Property AlgorithmType As CalendarAlgorithmType
+    parameters: []
+    return:
+      type: System.Globalization.CalendarAlgorithmType
+- uid: System.Globalization.Calendar.IsReadOnly
+  id: IsReadOnly
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsReadOnly
+  fullName: System.Globalization.Calendar.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 161
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public bool IsReadOnly { get; }
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.Clone
+  id: Clone
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: Clone()
+  fullName: System.Globalization.Calendar.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 174
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual object Clone()
+    content.vb: Public Overridable Function Clone As Object
+    return:
+      type: System.Object
+- uid: System.Globalization.Calendar.ReadOnly(System.Globalization.Calendar)
+  id: ReadOnly(System.Globalization.Calendar)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: ReadOnly(Calendar)
+  fullName: System.Globalization.Calendar.ReadOnly(System.Globalization.Calendar)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 190
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static Calendar ReadOnly(Calendar calendar)
+    content.vb: Public Shared Function ReadOnly(calendar As Calendar) As Calendar
+    parameters:
+    - id: calendar
+      type: System.Globalization.Calendar
+    return:
+      type: System.Globalization.Calendar
+- uid: System.Globalization.Calendar.CurrentEra
+  id: CurrentEra
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: CurrentEra
+  fullName: System.Globalization.Calendar.CurrentEra
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 239
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public const int CurrentEra
+    content.vb: Public Const CurrentEra As Integer = 0
+- uid: System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)
+  id: AddMilliseconds(System.DateTime,System.Double)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddMilliseconds(DateTime, Double)
+  fullName: System.Globalization.Calendar.AddMilliseconds(System.DateTime, System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 279
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime AddMilliseconds(DateTime time, double milliseconds)
+    content.vb: Public Overridable Function AddMilliseconds(time As Date, milliseconds As Double) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: milliseconds
+      type: System.Double
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddDays(System.DateTime,System.Int32)
+  id: AddDays(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddDays(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddDays(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 291
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime AddDays(DateTime time, int days)
+    content.vb: Public Overridable Function AddDays(time As Date, days As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: days
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddHours(System.DateTime,System.Int32)
+  id: AddHours(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddHours(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddHours(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 302
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime AddHours(DateTime time, int hours)
+    content.vb: Public Overridable Function AddHours(time As Date, hours As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: hours
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddMinutes(System.DateTime,System.Int32)
+  id: AddMinutes(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddMinutes(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddMinutes(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 314
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime AddMinutes(DateTime time, int minutes)
+    content.vb: Public Overridable Function AddMinutes(time As Date, minutes As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: minutes
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)
+  id: AddMonths(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddMonths(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddMonths(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 337
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract DateTime AddMonths(DateTime time, int months)
+    content.vb: Public MustOverride Function AddMonths(time As Date, months As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: months
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddSeconds(System.DateTime,System.Int32)
+  id: AddSeconds(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddSeconds(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddSeconds(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 346
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime AddSeconds(DateTime time, int seconds)
+    content.vb: Public Overridable Function AddSeconds(time As Date, seconds As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: seconds
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)
+  id: AddWeeks(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddWeeks(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddWeeks(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 355
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime AddWeeks(DateTime time, int weeks)
+    content.vb: Public Overridable Function AddWeeks(time As Date, weeks As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: weeks
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)
+  id: AddYears(System.DateTime,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: AddYears(DateTime, Int32)
+  fullName: System.Globalization.Calendar.AddYears(System.DateTime, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 369
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract DateTime AddYears(DateTime time, int years)
+    content.vb: Public MustOverride Function AddYears(time As Date, years As Integer) As Date
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: years
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.GetDayOfMonth(System.DateTime)
+  id: GetDayOfMonth(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDayOfMonth(DateTime)
+  fullName: System.Globalization.Calendar.GetDayOfMonth(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 375
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetDayOfMonth(DateTime time)
+    content.vb: Public MustOverride Function GetDayOfMonth(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetDayOfWeek(System.DateTime)
+  id: GetDayOfWeek(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDayOfWeek(DateTime)
+  fullName: System.Globalization.Calendar.GetDayOfWeek(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 383
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract DayOfWeek GetDayOfWeek(DateTime time)
+    content.vb: Public MustOverride Function GetDayOfWeek(time As Date) As DayOfWeek
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.DayOfWeek
+- uid: System.Globalization.Calendar.GetDayOfYear(System.DateTime)
+  id: GetDayOfYear(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDayOfYear(DateTime)
+  fullName: System.Globalization.Calendar.GetDayOfYear(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 389
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetDayOfYear(DateTime time)
+    content.vb: Public MustOverride Function GetDayOfYear(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32)
+  id: GetDaysInMonth(System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDaysInMonth(Int32, Int32)
+  fullName: System.Globalization.Calendar.GetDaysInMonth(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 395
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetDaysInMonth(int year, int month)
+    content.vb: Public Overridable Function GetDaysInMonth(year As Integer, month As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
+  id: GetDaysInMonth(System.Int32,System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDaysInMonth(Int32, Int32, Int32)
+  fullName: System.Globalization.Calendar.GetDaysInMonth(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 404
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetDaysInMonth(int year, int month, int era)
+    content.vb: Public MustOverride Function GetDaysInMonth(year As Integer, month As Integer, era As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetDaysInYear(System.Int32)
+  id: GetDaysInYear(System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDaysInYear(Int32)
+  fullName: System.Globalization.Calendar.GetDaysInYear(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 409
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetDaysInYear(int year)
+    content.vb: Public Overridable Function GetDaysInYear(year As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)
+  id: GetDaysInYear(System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetDaysInYear(Int32, Int32)
+  fullName: System.Globalization.Calendar.GetDaysInYear(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 417
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetDaysInYear(int year, int era)
+    content.vb: Public MustOverride Function GetDaysInYear(year As Integer, era As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetEra(System.DateTime)
+  id: GetEra(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetEra(DateTime)
+  fullName: System.Globalization.Calendar.GetEra(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 421
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetEra(DateTime time)
+    content.vb: Public MustOverride Function GetEra(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.Eras
+  id: Eras
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: Eras
+  fullName: System.Globalization.Calendar.Eras
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 432
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int[] Eras { get; }
+    content.vb: Public MustOverride ReadOnly Property Eras As Integer()
+    parameters: []
+    return:
+      type: System.Int32[]
+- uid: System.Globalization.Calendar.GetHour(System.DateTime)
+  id: GetHour(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetHour(DateTime)
+  fullName: System.Globalization.Calendar.GetHour(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 441
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetHour(DateTime time)
+    content.vb: Public Overridable Function GetHour(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetMilliseconds(System.DateTime)
+  id: GetMilliseconds(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetMilliseconds(DateTime)
+  fullName: System.Globalization.Calendar.GetMilliseconds(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 449
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual double GetMilliseconds(DateTime time)
+    content.vb: Public Overridable Function GetMilliseconds(time As Date) As Double
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Double
+- uid: System.Globalization.Calendar.GetMinute(System.DateTime)
+  id: GetMinute(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetMinute(DateTime)
+  fullName: System.Globalization.Calendar.GetMinute(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 457
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetMinute(DateTime time)
+    content.vb: Public Overridable Function GetMinute(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetMonth(System.DateTime)
+  id: GetMonth(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetMonth(DateTime)
+  fullName: System.Globalization.Calendar.GetMonth(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 465
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetMonth(DateTime time)
+    content.vb: Public MustOverride Function GetMonth(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetMonthsInYear(System.Int32)
+  id: GetMonthsInYear(System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetMonthsInYear(Int32)
+  fullName: System.Globalization.Calendar.GetMonthsInYear(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 469
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetMonthsInYear(int year)
+    content.vb: Public Overridable Function GetMonthsInYear(year As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)
+  id: GetMonthsInYear(System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetMonthsInYear(Int32, Int32)
+  fullName: System.Globalization.Calendar.GetMonthsInYear(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 476
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetMonthsInYear(int year, int era)
+    content.vb: Public MustOverride Function GetMonthsInYear(year As Integer, era As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetSecond(System.DateTime)
+  id: GetSecond(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetSecond(DateTime)
+  fullName: System.Globalization.Calendar.GetSecond(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 482
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetSecond(DateTime time)
+    content.vb: Public Overridable Function GetSecond(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.DaysInYearBeforeMinSupportedYear
+  id: DaysInYearBeforeMinSupportedYear
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: DaysInYearBeforeMinSupportedYear
+  fullName: System.Globalization.Calendar.DaysInYearBeforeMinSupportedYear
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 635
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: protected virtual int DaysInYearBeforeMinSupportedYear { get; }
+    content.vb: Protected Overridable ReadOnly Property DaysInYearBeforeMinSupportedYear As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
+  id: GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetWeekOfYear(DateTime, CalendarWeekRule, DayOfWeek)
+  fullName: System.Globalization.Calendar.GetWeekOfYear(System.DateTime, System.Globalization.CalendarWeekRule, System.DayOfWeek)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 648
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetWeekOfYear(DateTime time, CalendarWeekRule rule, DayOfWeek firstDayOfWeek)
+    content.vb: Public Overridable Function GetWeekOfYear(time As Date, rule As CalendarWeekRule, firstDayOfWeek As DayOfWeek) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: rule
+      type: System.Globalization.CalendarWeekRule
+    - id: firstDayOfWeek
+      type: System.DayOfWeek
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetYear(System.DateTime)
+  id: GetYear(System.DateTime)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetYear(DateTime)
+  fullName: System.Globalization.Calendar.GetYear(System.DateTime)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 674
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract int GetYear(DateTime time)
+    content.vb: Public MustOverride Function GetYear(time As Date) As Integer
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32)
+  id: IsLeapDay(System.Int32,System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsLeapDay(Int32, Int32, Int32)
+  fullName: System.Globalization.Calendar.IsLeapDay(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 680
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsLeapDay(int year, int month, int day)
+    content.vb: Public Overridable Function IsLeapDay(year As Integer, month As Integer, day As Integer) As Boolean
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    - id: day
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsLeapDay(Int32, Int32, Int32, Int32)
+  fullName: System.Globalization.Calendar.IsLeapDay(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 689
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract bool IsLeapDay(int year, int month, int day, int era)
+    content.vb: Public MustOverride Function IsLeapDay(year As Integer, month As Integer, day As Integer, era As Integer) As Boolean
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    - id: day
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32)
+  id: IsLeapMonth(System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsLeapMonth(Int32, Int32)
+  fullName: System.Globalization.Calendar.IsLeapMonth(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 695
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsLeapMonth(int year, int month)
+    content.vb: Public Overridable Function IsLeapMonth(year As Integer, month As Integer) As Boolean
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
+  id: IsLeapMonth(System.Int32,System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsLeapMonth(Int32, Int32, Int32)
+  fullName: System.Globalization.Calendar.IsLeapMonth(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 703
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract bool IsLeapMonth(int year, int month, int era)
+    content.vb: Public MustOverride Function IsLeapMonth(year As Integer, month As Integer, era As Integer) As Boolean
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.GetLeapMonth(System.Int32)
+  id: GetLeapMonth(System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetLeapMonth(Int32)
+  fullName: System.Globalization.Calendar.GetLeapMonth(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 709
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetLeapMonth(int year)
+    content.vb: Public Overridable Function GetLeapMonth(year As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)
+  id: GetLeapMonth(System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: GetLeapMonth(Int32, Int32)
+  fullName: System.Globalization.Calendar.GetLeapMonth(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 719
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetLeapMonth(int year, int era)
+    content.vb: Public Overridable Function GetLeapMonth(year As Integer, era As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.IsLeapYear(System.Int32)
+  id: IsLeapYear(System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsLeapYear(Int32)
+  fullName: System.Globalization.Calendar.IsLeapYear(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 739
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsLeapYear(int year)
+    content.vb: Public Overridable Function IsLeapYear(year As Integer) As Boolean
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)
+  id: IsLeapYear(System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: IsLeapYear(Int32, Int32)
+  fullName: System.Globalization.Calendar.IsLeapYear(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 748
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract bool IsLeapYear(int year, int era)
+    content.vb: Public MustOverride Function IsLeapYear(year As Integer, era As Integer) As Boolean
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: ToDateTime(Int32, Int32, Int32, Int32, Int32, Int32, Int32)
+  fullName: System.Globalization.Calendar.ToDateTime(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 753
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond)
+    content.vb: Public Overridable Function ToDateTime(year As Integer, month As Integer, day As Integer, hour As Integer, minute As Integer, second As Integer, millisecond As Integer) As Date
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    - id: day
+      type: System.Int32
+    - id: hour
+      type: System.Int32
+    - id: minute
+      type: System.Int32
+    - id: second
+      type: System.Int32
+    - id: millisecond
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: ToDateTime(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32)
+  fullName: System.Globalization.Calendar.ToDateTime(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 761
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public abstract DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era)
+    content.vb: Public MustOverride Function ToDateTime(year As Integer, month As Integer, day As Integer, hour As Integer, minute As Integer, second As Integer, millisecond As Integer, era As Integer) As Date
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: month
+      type: System.Int32
+    - id: day
+      type: System.Int32
+    - id: hour
+      type: System.Int32
+    - id: minute
+      type: System.Int32
+    - id: second
+      type: System.Int32
+    - id: millisecond
+      type: System.Int32
+    - id: era
+      type: System.Int32
+    return:
+      type: System.DateTime
+- uid: System.Globalization.Calendar.TwoDigitYearMax
+  id: TwoDigitYearMax
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: TwoDigitYearMax
+  fullName: System.Globalization.Calendar.TwoDigitYearMax
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 795
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int TwoDigitYearMax { get; set; }
+    content.vb: Public Overridable Property TwoDigitYearMax As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Globalization.Calendar.ToFourDigitYear(System.Int32)
+  id: ToFourDigitYear(System.Int32)
+  parent: System.Globalization.Calendar
+  href: System.Globalization.Calendar.yml
+  name: ToFourDigitYear(Int32)
+  fullName: System.Globalization.Calendar.ToFourDigitYear(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/Calendar.cs
+    startLine: 814
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int ToFourDigitYear(int year)
+    content.vb: Public Overridable Function ToFourDigitYear(year As Integer) As Integer
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.Int32
+references:
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.DateTime
+  parent: System
+  isExternal: false
+  href: System.DateTime.yml
+  name: DateTime
+  fullName: System.DateTime
+  type: Struct
+- uid: System.Globalization.CalendarAlgorithmType
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CalendarAlgorithmType.yml
+  name: CalendarAlgorithmType
+  fullName: System.Globalization.CalendarAlgorithmType
+  type: Enum
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Globalization.Calendar
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.Calendar.yml
+  name: Calendar
+  fullName: System.Globalization.Calendar
+  type: Class
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.DayOfWeek
+  parent: System
+  isExternal: false
+  href: System.DayOfWeek.yml
+  name: DayOfWeek
+  fullName: System.DayOfWeek
+  type: Enum
+- uid: System.Int32[]
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32[]
+  name.vb: Int32()
+  fullName: System.Int32[]
+  fullName.vb: System.Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: ()
+    fullName: ()
+- uid: System.Globalization.CalendarWeekRule
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CalendarWeekRule.yml
+  name: CalendarWeekRule
+  fullName: System.Globalization.CalendarWeekRule
+  type: Enum

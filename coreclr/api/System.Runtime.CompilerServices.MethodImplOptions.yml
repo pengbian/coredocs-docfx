@@ -1,0 +1,165 @@
+items:
+- uid: System.Runtime.CompilerServices.MethodImplOptions
+  id: MethodImplOptions
+  parent: System.Runtime.CompilerServices
+  children:
+  - System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining
+  - System.Runtime.CompilerServices.MethodImplOptions.ForwardRef
+  - System.Runtime.CompilerServices.MethodImplOptions.InternalCall
+  - System.Runtime.CompilerServices.MethodImplOptions.NoInlining
+  - System.Runtime.CompilerServices.MethodImplOptions.NoOptimization
+  - System.Runtime.CompilerServices.MethodImplOptions.PreserveSig
+  - System.Runtime.CompilerServices.MethodImplOptions.Synchronized
+  - System.Runtime.CompilerServices.MethodImplOptions.Unmanaged
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: MethodImplOptions
+  fullName: System.Runtime.CompilerServices.MethodImplOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 11
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public enum MethodImplOptions
+    content.vb: Public Enum MethodImplOptions
+- uid: System.Runtime.CompilerServices.MethodImplOptions.Unmanaged
+  id: Unmanaged
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: Unmanaged
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.Unmanaged
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: Unmanaged = 4
+- uid: System.Runtime.CompilerServices.MethodImplOptions.ForwardRef
+  id: ForwardRef
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: ForwardRef
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.ForwardRef
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: ForwardRef = 16
+- uid: System.Runtime.CompilerServices.MethodImplOptions.PreserveSig
+  id: PreserveSig
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: PreserveSig
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.PreserveSig
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: PreserveSig = 128
+- uid: System.Runtime.CompilerServices.MethodImplOptions.InternalCall
+  id: InternalCall
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: InternalCall
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.InternalCall
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: InternalCall = 4096
+- uid: System.Runtime.CompilerServices.MethodImplOptions.Synchronized
+  id: Synchronized
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: Synchronized
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.Synchronized
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: Synchronized = 32
+- uid: System.Runtime.CompilerServices.MethodImplOptions.NoInlining
+  id: NoInlining
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: NoInlining
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.NoInlining
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: NoInlining = 8
+- uid: System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining
+  id: AggressiveInlining
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: AggressiveInlining
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: AggressiveInlining = 256
+- uid: System.Runtime.CompilerServices.MethodImplOptions.NoOptimization
+  id: NoOptimization
+  parent: System.Runtime.CompilerServices.MethodImplOptions
+  href: System.Runtime.CompilerServices.MethodImplOptions.yml
+  name: NoOptimization
+  fullName: System.Runtime.CompilerServices.MethodImplOptions.NoOptimization
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/CompilerServices/MethodImplAttribute.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: NoOptimization = 64
+references:
+- uid: System.Runtime.CompilerServices
+  isExternal: false
+  name: System.Runtime.CompilerServices
+  fullName: System.Runtime.CompilerServices
+  type: Namespace

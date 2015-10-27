@@ -1,0 +1,63 @@
+items:
+- uid: System.StringSplitOptions
+  id: StringSplitOptions
+  parent: System
+  children:
+  - System.StringSplitOptions.None
+  - System.StringSplitOptions.RemoveEmptyEntries
+  href: System.StringSplitOptions.yml
+  name: StringSplitOptions
+  fullName: System.StringSplitOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/String.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/String.cs
+    startLine: 3452
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public enum StringSplitOptions
+    content.vb: Public Enum StringSplitOptions
+- uid: System.StringSplitOptions.None
+  id: None
+  parent: System.StringSplitOptions
+  href: System.StringSplitOptions.yml
+  name: None
+  fullName: System.StringSplitOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/String.cs
+    startLine: 3455
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: None = 0
+- uid: System.StringSplitOptions.RemoveEmptyEntries
+  id: RemoveEmptyEntries
+  parent: System.StringSplitOptions
+  href: System.StringSplitOptions.yml
+  name: RemoveEmptyEntries
+  fullName: System.StringSplitOptions.RemoveEmptyEntries
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/String.cs
+    startLine: 3456
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: RemoveEmptyEntries = 1
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

@@ -1,0 +1,93 @@
+items:
+- uid: System.Security.Principal.IPrincipal
+  id: IPrincipal
+  parent: System.Security.Principal
+  children:
+  - System.Security.Principal.IPrincipal.Identity
+  - System.Security.Principal.IPrincipal.IsInRole(System.String)
+  href: System.Security.Principal.IPrincipal.yml
+  name: IPrincipal
+  fullName: System.Security.Principal.IPrincipal
+  type: Interface
+  source:
+    remote: &o0
+      path: src/System.Security.Principal/src/System/Security/Principal/IPrincipal.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Principal/src/System/Security/Principal/IPrincipal.cs
+    startLine: 11
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: public interface IPrincipal
+    content.vb: Public Interface IPrincipal
+- uid: System.Security.Principal.IPrincipal.Identity
+  id: Identity
+  parent: System.Security.Principal.IPrincipal
+  href: System.Security.Principal.IPrincipal.yml
+  name: Identity
+  fullName: System.Security.Principal.IPrincipal.Identity
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Principal/src/System/Security/Principal/IPrincipal.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: IIdentity Identity { get; }
+    content.vb: ReadOnly Property Identity As IIdentity
+    parameters: []
+    return:
+      type: System.Security.Principal.IIdentity
+- uid: System.Security.Principal.IPrincipal.IsInRole(System.String)
+  id: IsInRole(System.String)
+  parent: System.Security.Principal.IPrincipal
+  href: System.Security.Principal.IPrincipal.yml
+  name: IsInRole(String)
+  fullName: System.Security.Principal.IPrincipal.IsInRole(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Principal/src/System/Security/Principal/IPrincipal.cs
+    startLine: 17
+  assemblies:
+  - System.Security.Principal
+  namespace: System.Security.Principal
+  syntax:
+    content: bool IsInRole(string role)
+    content.vb: Function IsInRole(role As String) As Boolean
+    parameters:
+    - id: role
+      type: System.String
+    return:
+      type: System.Boolean
+references:
+- uid: System.Security.Principal
+  isExternal: false
+  name: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: System.Security.Principal.IIdentity
+  isExternal: false
+  href: System.Security.Principal.IIdentity.yml
+  name: IIdentity
+  fullName: System.Security.Principal.IIdentity
+  type: Interface
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

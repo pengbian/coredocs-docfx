@@ -1,0 +1,67 @@
+items:
+- uid: System.Threading.IOCompletionCallback
+  id: IOCompletionCallback
+  parent: System.Threading
+  children: []
+  href: System.Threading.IOCompletionCallback.yml
+  name: IOCompletionCallback
+  fullName: System.Threading.IOCompletionCallback
+  type: Delegate
+  source:
+    remote:
+      path: src/mscorlib/src/System/Threading/ThreadPool.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/ThreadPool.cs
+    startLine: 1335
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public delegate void IOCompletionCallback(uint errorCode, uint numBytes, NativeOverlapped*pOVERLAP);
+    content.vb: Public Delegate Sub IOCompletionCallback(errorCode As UInteger, numBytes As UInteger, pOVERLAP As NativeOverlapped *)
+    parameters:
+    - id: errorCode
+      type: System.UInt32
+    - id: numBytes
+      type: System.UInt32
+    - id: pOVERLAP
+      type: System.Threading.NativeOverlapped*
+references:
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading
+  type: Namespace
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  href: System.UInt32.yml
+  name: UInt32
+  fullName: System.UInt32
+  type: Struct
+- uid: System.Threading.NativeOverlapped*
+  isExternal: false
+  href: System.Threading.NativeOverlapped.yml
+  name: NativeOverlapped*
+  fullName: System.Threading.NativeOverlapped*
+  spec.csharp:
+  - uid: System.Threading.NativeOverlapped
+    name: NativeOverlapped
+    fullName: System.Threading.NativeOverlapped
+    href: System.Threading.NativeOverlapped.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Threading.NativeOverlapped
+    name: NativeOverlapped
+    fullName: System.Threading.NativeOverlapped
+    href: System.Threading.NativeOverlapped.yml
+  - name: '*'
+    fullName: '*'
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

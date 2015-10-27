@@ -1,0 +1,97 @@
+items:
+- uid: System.Runtime.InteropServices.GCHandleType
+  id: GCHandleType
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.GCHandleType.Normal
+  - System.Runtime.InteropServices.GCHandleType.Pinned
+  - System.Runtime.InteropServices.GCHandleType.Weak
+  - System.Runtime.InteropServices.GCHandleType.WeakTrackResurrection
+  href: System.Runtime.InteropServices.GCHandleType.yml
+  name: GCHandleType
+  fullName: System.Runtime.InteropServices.GCHandleType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum GCHandleType
+    content.vb: Public Enum GCHandleType
+- uid: System.Runtime.InteropServices.GCHandleType.Weak
+  id: Weak
+  parent: System.Runtime.InteropServices.GCHandleType
+  href: System.Runtime.InteropServices.GCHandleType.yml
+  name: Weak
+  fullName: System.Runtime.InteropServices.GCHandleType.Weak
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Weak = 0
+- uid: System.Runtime.InteropServices.GCHandleType.WeakTrackResurrection
+  id: WeakTrackResurrection
+  parent: System.Runtime.InteropServices.GCHandleType
+  href: System.Runtime.InteropServices.GCHandleType.yml
+  name: WeakTrackResurrection
+  fullName: System.Runtime.InteropServices.GCHandleType.WeakTrackResurrection
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: WeakTrackResurrection = 1
+- uid: System.Runtime.InteropServices.GCHandleType.Normal
+  id: Normal
+  parent: System.Runtime.InteropServices.GCHandleType
+  href: System.Runtime.InteropServices.GCHandleType.yml
+  name: Normal
+  fullName: System.Runtime.InteropServices.GCHandleType.Normal
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Normal = 2
+- uid: System.Runtime.InteropServices.GCHandleType.Pinned
+  id: Pinned
+  parent: System.Runtime.InteropServices.GCHandleType
+  href: System.Runtime.InteropServices.GCHandleType.yml
+  name: Pinned
+  fullName: System.Runtime.InteropServices.GCHandleType.Pinned
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/GcHandle.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Pinned = 3
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

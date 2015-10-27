@@ -1,0 +1,378 @@
+items:
+- uid: System.Security.Principal.GenericPrincipal
+  id: GenericPrincipal
+  parent: System.Security.Principal
+  children:
+  - System.Security.Principal.GenericPrincipal.#ctor(System.Security.Principal.IIdentity,System.String[])
+  - System.Security.Principal.GenericPrincipal.Identity
+  - System.Security.Principal.GenericPrincipal.IsInRole(System.String)
+  href: System.Security.Principal.GenericPrincipal.yml
+  name: GenericPrincipal
+  fullName: System.Security.Principal.GenericPrincipal
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Principal/GenericPrincipal.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Principal/GenericPrincipal.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: 'public class GenericPrincipal : IPrincipal'
+    content.vb: Public Class GenericPrincipal Implements IPrincipal
+  inheritance:
+  - System.Object
+  implements:
+  - System.Security.Principal.IPrincipal
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.Principal.GenericPrincipal.#ctor(System.Security.Principal.IIdentity,System.String[])
+  id: '#ctor(System.Security.Principal.IIdentity,System.String[])'
+  parent: System.Security.Principal.GenericPrincipal
+  href: System.Security.Principal.GenericPrincipal.yml
+  name: GenericPrincipal(IIdentity, String[])
+  name.vb: GenericPrincipal(IIdentity, String())
+  fullName: System.Security.Principal.GenericPrincipal.GenericPrincipal(System.Security.Principal.IIdentity, System.String[])
+  fullName.vb: System.Security.Principal.GenericPrincipal.GenericPrincipal(System.Security.Principal.IIdentity, System.String())
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Principal/GenericPrincipal.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: public GenericPrincipal(IIdentity identity, string[] roles)
+    content.vb: Public Sub New(identity As IIdentity, roles As String())
+    parameters:
+    - id: identity
+      type: System.Security.Principal.IIdentity
+    - id: roles
+      type: System.String[]
+- uid: System.Security.Principal.GenericPrincipal.Identity
+  id: Identity
+  parent: System.Security.Principal.GenericPrincipal
+  href: System.Security.Principal.GenericPrincipal.yml
+  name: Identity
+  fullName: System.Security.Principal.GenericPrincipal.Identity
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Principal/GenericPrincipal.cs
+    startLine: 116
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: public virtual IIdentity Identity { get; }
+    content.vb: Public Overridable ReadOnly Property Identity As IIdentity
+    parameters: []
+    return:
+      type: System.Security.Principal.IIdentity
+- uid: System.Security.Principal.GenericPrincipal.IsInRole(System.String)
+  id: IsInRole(System.String)
+  parent: System.Security.Principal.GenericPrincipal
+  href: System.Security.Principal.GenericPrincipal.yml
+  name: IsInRole(String)
+  fullName: System.Security.Principal.GenericPrincipal.IsInRole(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Principal/GenericPrincipal.cs
+    startLine: 124
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: public virtual bool IsInRole(string role)
+    content.vb: Public Overridable Function IsInRole(role As String) As Boolean
+    parameters:
+    - id: role
+      type: System.String
+    return:
+      type: System.Boolean
+references:
+- uid: System.Security.Principal
+  isExternal: false
+  name: System.Security.Principal
+  fullName: System.Security.Principal
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Security.Principal.IIdentity
+  parent: System.Security.Principal
+  isExternal: false
+  href: System.Security.Principal.IIdentity.yml
+  name: IIdentity
+  fullName: System.Security.Principal.IIdentity
+  type: Interface
+- uid: System.String[]
+  isExternal: false
+  href: System.String.yml
+  name: String[]
+  name.vb: String()
+  fullName: System.String[]
+  fullName.vb: System.String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    fullName: System.String
+    href: System.String.yml
+  - name: ()
+    fullName: ()
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct

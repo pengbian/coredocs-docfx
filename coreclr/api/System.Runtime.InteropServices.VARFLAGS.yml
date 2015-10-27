@@ -1,0 +1,250 @@
+items:
+- uid: System.Runtime.InteropServices.VARFLAGS
+  id: VARFLAGS
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FBINDABLE
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDEFAULTBIND
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDEFAULTCOLLELEM
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDISPLAYBIND
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FHIDDEN
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FIMMEDIATEBIND
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FNONBROWSABLE
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREADONLY
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREPLACEABLE
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREQUESTEDIT
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FRESTRICTED
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FSOURCE
+  - System.Runtime.InteropServices.VARFLAGS.VARFLAG_FUIDEFAULT
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAGS
+  fullName: System.Runtime.InteropServices.VARFLAGS
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 282
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: 'public enum VARFLAGS : short'
+    content.vb: Public Enum VARFLAGS As Short
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREADONLY
+  id: VARFLAG_FREADONLY
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FREADONLY
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREADONLY
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 287
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FREADONLY = 1
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FSOURCE
+  id: VARFLAG_FSOURCE
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FSOURCE
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FSOURCE
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 288
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FSOURCE = 2
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FBINDABLE
+  id: VARFLAG_FBINDABLE
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FBINDABLE
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FBINDABLE
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 289
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FBINDABLE = 4
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREQUESTEDIT
+  id: VARFLAG_FREQUESTEDIT
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FREQUESTEDIT
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREQUESTEDIT
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 290
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FREQUESTEDIT = 8
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDISPLAYBIND
+  id: VARFLAG_FDISPLAYBIND
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FDISPLAYBIND
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDISPLAYBIND
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 291
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FDISPLAYBIND = 16
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDEFAULTBIND
+  id: VARFLAG_FDEFAULTBIND
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FDEFAULTBIND
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDEFAULTBIND
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 292
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FDEFAULTBIND = 32
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FHIDDEN
+  id: VARFLAG_FHIDDEN
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FHIDDEN
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FHIDDEN
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 293
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FHIDDEN = 64
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FRESTRICTED
+  id: VARFLAG_FRESTRICTED
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FRESTRICTED
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FRESTRICTED
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 294
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FRESTRICTED = 128
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDEFAULTCOLLELEM
+  id: VARFLAG_FDEFAULTCOLLELEM
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FDEFAULTCOLLELEM
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FDEFAULTCOLLELEM
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 295
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FDEFAULTCOLLELEM = 256
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FUIDEFAULT
+  id: VARFLAG_FUIDEFAULT
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FUIDEFAULT
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FUIDEFAULT
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 296
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FUIDEFAULT = 512
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FNONBROWSABLE
+  id: VARFLAG_FNONBROWSABLE
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FNONBROWSABLE
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FNONBROWSABLE
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 297
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FNONBROWSABLE = 1024
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREPLACEABLE
+  id: VARFLAG_FREPLACEABLE
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FREPLACEABLE
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FREPLACEABLE
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 298
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FREPLACEABLE = 2048
+- uid: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FIMMEDIATEBIND
+  id: VARFLAG_FIMMEDIATEBIND
+  parent: System.Runtime.InteropServices.VARFLAGS
+  href: System.Runtime.InteropServices.VARFLAGS.yml
+  name: VARFLAG_FIMMEDIATEBIND
+  fullName: System.Runtime.InteropServices.VARFLAGS.VARFLAG_FIMMEDIATEBIND
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMITypeInfo.cs
+    startLine: 299
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: VARFLAG_FIMMEDIATEBIND = 4096
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

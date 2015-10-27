@@ -1,0 +1,148 @@
+items:
+- uid: System.Runtime.Versioning.ResourceScope
+  id: ResourceScope
+  parent: System.Runtime.Versioning
+  children:
+  - System.Runtime.Versioning.ResourceScope.AppDomain
+  - System.Runtime.Versioning.ResourceScope.Assembly
+  - System.Runtime.Versioning.ResourceScope.Library
+  - System.Runtime.Versioning.ResourceScope.Machine
+  - System.Runtime.Versioning.ResourceScope.None
+  - System.Runtime.Versioning.ResourceScope.Private
+  - System.Runtime.Versioning.ResourceScope.Process
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: ResourceScope
+  fullName: System.Runtime.Versioning.ResourceScope
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 66
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: public enum ResourceScope
+    content.vb: Public Enum ResourceScope
+- uid: System.Runtime.Versioning.ResourceScope.None
+  id: None
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: None
+  fullName: System.Runtime.Versioning.ResourceScope.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 69
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: None = 0
+- uid: System.Runtime.Versioning.ResourceScope.Machine
+  id: Machine
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: Machine
+  fullName: System.Runtime.Versioning.ResourceScope.Machine
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 71
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Machine = 1
+- uid: System.Runtime.Versioning.ResourceScope.Process
+  id: Process
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: Process
+  fullName: System.Runtime.Versioning.ResourceScope.Process
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 72
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Process = 2
+- uid: System.Runtime.Versioning.ResourceScope.AppDomain
+  id: AppDomain
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: AppDomain
+  fullName: System.Runtime.Versioning.ResourceScope.AppDomain
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 73
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: AppDomain = 4
+- uid: System.Runtime.Versioning.ResourceScope.Library
+  id: Library
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: Library
+  fullName: System.Runtime.Versioning.ResourceScope.Library
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 74
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Library = 8
+- uid: System.Runtime.Versioning.ResourceScope.Private
+  id: Private
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: Private
+  fullName: System.Runtime.Versioning.ResourceScope.Private
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 76
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Private = 16
+- uid: System.Runtime.Versioning.ResourceScope.Assembly
+  id: Assembly
+  parent: System.Runtime.Versioning.ResourceScope
+  href: System.Runtime.Versioning.ResourceScope.yml
+  name: Assembly
+  fullName: System.Runtime.Versioning.ResourceScope.Assembly
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/Versioning/ResourceAttributes.cs
+    startLine: 77
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.Versioning
+  syntax:
+    content: Assembly = 32
+references:
+- uid: System.Runtime.Versioning
+  isExternal: false
+  name: System.Runtime.Versioning
+  fullName: System.Runtime.Versioning
+  type: Namespace

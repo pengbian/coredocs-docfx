@@ -1,0 +1,601 @@
+items:
+- uid: System.IO.FileSystemInfo
+  id: FileSystemInfo
+  parent: System.IO
+  children:
+  - System.IO.FileSystemInfo.#ctor
+  - System.IO.FileSystemInfo.Attributes
+  - System.IO.FileSystemInfo.CreationTime
+  - System.IO.FileSystemInfo.CreationTimeUtc
+  - System.IO.FileSystemInfo.Delete
+  - System.IO.FileSystemInfo.Exists
+  - System.IO.FileSystemInfo.Extension
+  - System.IO.FileSystemInfo.FullName
+  - System.IO.FileSystemInfo.FullPath
+  - System.IO.FileSystemInfo.LastAccessTime
+  - System.IO.FileSystemInfo.LastAccessTimeUtc
+  - System.IO.FileSystemInfo.LastWriteTime
+  - System.IO.FileSystemInfo.LastWriteTimeUtc
+  - System.IO.FileSystemInfo.Name
+  - System.IO.FileSystemInfo.OriginalPath
+  - System.IO.FileSystemInfo.Refresh
+  href: System.IO.FileSystemInfo.yml
+  name: FileSystemInfo
+  fullName: System.IO.FileSystemInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 14
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public abstract class FileSystemInfo
+    content.vb: Public MustInherit Class FileSystemInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.FileSystemInfo.FullPath
+  id: FullPath
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FullPath
+  fullName: System.IO.FileSystemInfo.FullPath
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 16
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: protected string FullPath
+    content.vb: Protected FullPath As String
+- uid: System.IO.FileSystemInfo.OriginalPath
+  id: OriginalPath
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: OriginalPath
+  fullName: System.IO.FileSystemInfo.OriginalPath
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 17
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: protected string OriginalPath
+    content.vb: Protected OriginalPath As String
+- uid: System.IO.FileSystemInfo.#ctor
+  id: '#ctor'
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FileSystemInfo()
+  fullName: System.IO.FileSystemInfo.FileSystemInfo()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 21
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: protected FileSystemInfo()
+    content.vb: Protected Sub New
+- uid: System.IO.FileSystemInfo.FullName
+  id: FullName
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: FullName
+  fullName: System.IO.FileSystemInfo.FullName
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 32
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public virtual string FullName { get; }
+    content.vb: Public Overridable ReadOnly Property FullName As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.IO.FileSystemInfo.Extension
+  id: Extension
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Extension
+  fullName: System.IO.FileSystemInfo.Extension
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 41
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public string Extension { get; }
+    content.vb: Public ReadOnly Property Extension As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.IO.FileSystemInfo.Name
+  id: Name
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Name
+  fullName: System.IO.FileSystemInfo.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 75
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public abstract string Name { get; }
+    content.vb: Public MustOverride ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.IO.FileSystemInfo.Exists
+  id: Exists
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Exists
+  fullName: System.IO.FileSystemInfo.Exists
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 81
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public abstract bool Exists { get; }
+    content.vb: Public MustOverride ReadOnly Property Exists As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.IO.FileSystemInfo.Delete
+  id: Delete
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Delete()
+  fullName: System.IO.FileSystemInfo.Delete()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 87
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public abstract void Delete()
+    content.vb: Public MustOverride Sub Delete
+- uid: System.IO.FileSystemInfo.CreationTime
+  id: CreationTime
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: CreationTime
+  fullName: System.IO.FileSystemInfo.CreationTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 89
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public DateTime CreationTime { get; set; }
+    content.vb: Public Property CreationTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.IO.FileSystemInfo.CreationTimeUtc
+  id: CreationTimeUtc
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: CreationTimeUtc
+  fullName: System.IO.FileSystemInfo.CreationTimeUtc
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 102
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public DateTime CreationTimeUtc { get; set; }
+    content.vb: Public Property CreationTimeUtc As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.IO.FileSystemInfo.LastAccessTime
+  id: LastAccessTime
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastAccessTime
+  fullName: System.IO.FileSystemInfo.LastAccessTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 117
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastAccessTime { get; set; }
+    content.vb: Public Property LastAccessTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.IO.FileSystemInfo.LastAccessTimeUtc
+  id: LastAccessTimeUtc
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastAccessTimeUtc
+  fullName: System.IO.FileSystemInfo.LastAccessTimeUtc
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 130
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastAccessTimeUtc { get; set; }
+    content.vb: Public Property LastAccessTimeUtc As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.IO.FileSystemInfo.LastWriteTime
+  id: LastWriteTime
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastWriteTime
+  fullName: System.IO.FileSystemInfo.LastWriteTime
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 144
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastWriteTime { get; set; }
+    content.vb: Public Property LastWriteTime As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.IO.FileSystemInfo.LastWriteTimeUtc
+  id: LastWriteTimeUtc
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: LastWriteTimeUtc
+  fullName: System.IO.FileSystemInfo.LastWriteTimeUtc
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 158
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public DateTime LastWriteTimeUtc { get; set; }
+    content.vb: Public Property LastWriteTimeUtc As Date
+    parameters: []
+    return:
+      type: System.DateTime
+- uid: System.IO.FileSystemInfo.Refresh
+  id: Refresh
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Refresh()
+  fullName: System.IO.FileSystemInfo.Refresh()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 172
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+- uid: System.IO.FileSystemInfo.Attributes
+  id: Attributes
+  parent: System.IO.FileSystemInfo
+  href: System.IO.FileSystemInfo.yml
+  name: Attributes
+  fullName: System.IO.FileSystemInfo.Attributes
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/FileSystemInfo.cs
+    startLine: 177
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public FileAttributes Attributes { get; set; }
+    content.vb: Public Property Attributes As FileAttributes
+    parameters: []
+    return:
+      type: System.IO.FileAttributes
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  fullName: System.DateTime
+- uid: System.IO.FileAttributes
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAttributes.yml
+  name: FileAttributes
+  fullName: System.IO.FileAttributes
+  type: Enum

@@ -1,0 +1,74 @@
+items:
+- uid: System.Threading.Tasks
+  id: System.Threading.Tasks
+  children:
+  - System.Threading.Tasks.Parallel
+  - System.Threading.Tasks.ParallelLoopResult
+  - System.Threading.Tasks.ParallelLoopState
+  - System.Threading.Tasks.ParallelOptions
+  - System.Threading.Tasks.TaskExtensions
+  href: System.Threading.Tasks.yml
+  name: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  type: Namespace
+  source:
+    remote:
+      path: src/System.Threading.Tasks/src/System/Threading/Tasks/TaskExtensions.CoreCLR.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Threading.Tasks/src/System/Threading/Tasks/TaskExtensions.CoreCLR.cs
+    startLine: 6
+  assemblies:
+  - System.Threading.Tasks
+references:
+- uid: System.Threading.Tasks.TaskExtensions
+  isExternal: false
+  href: System.Threading.Tasks.TaskExtensions.yml
+  name: TaskExtensions
+  fullName: System.Threading.Tasks.TaskExtensions
+  type: Class
+  summary: >-
+    Provides a set of static (Shared in Visual Basic) methods for working with specific kinds of
+
+    @'System.Threading.Tasks.Task' instances.
+- uid: System.Threading.Tasks.ParallelOptions
+  isExternal: false
+  href: System.Threading.Tasks.ParallelOptions.yml
+  name: ParallelOptions
+  fullName: System.Threading.Tasks.ParallelOptions
+  type: Class
+  summary: >-
+    Stores options that configure the operation of methods on the
+
+    @'System.Threading.Tasks.Parallel' class.
+- uid: System.Threading.Tasks.Parallel
+  isExternal: false
+  href: System.Threading.Tasks.Parallel.yml
+  name: Parallel
+  fullName: System.Threading.Tasks.Parallel
+  type: Class
+  summary: Provides support for parallel loops and regions.
+- uid: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  href: System.Threading.Tasks.ParallelLoopState.yml
+  name: ParallelLoopState
+  fullName: System.Threading.Tasks.ParallelLoopState
+  type: Class
+  summary: >-
+    Enables iterations of @'System.Threading.Tasks.Parallel' loops to interact with
+
+    other iterations.
+- uid: System.Threading.Tasks.ParallelLoopResult
+  parent: System.Threading.Tasks
+  isExternal: false
+  href: System.Threading.Tasks.ParallelLoopResult.yml
+  name: ParallelLoopResult
+  fullName: System.Threading.Tasks.ParallelLoopResult
+  type: Struct
+  summary: Provides completion status on the execution of a @'System.Threading.Tasks.Parallel' loop.
+- uid: System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  type: Namespace

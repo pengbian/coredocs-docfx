@@ -1,0 +1,1231 @@
+items:
+- uid: System.IO.UnmanagedMemoryAccessor
+  id: UnmanagedMemoryAccessor
+  parent: System.IO
+  children:
+  - System.IO.UnmanagedMemoryAccessor.#ctor
+  - System.IO.UnmanagedMemoryAccessor.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
+  - System.IO.UnmanagedMemoryAccessor.CanRead
+  - System.IO.UnmanagedMemoryAccessor.CanWrite
+  - System.IO.UnmanagedMemoryAccessor.Capacity
+  - System.IO.UnmanagedMemoryAccessor.Dispose
+  - System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
+  - System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
+  - System.IO.UnmanagedMemoryAccessor.IsOpen
+  - System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Boolean)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Byte)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Char)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Decimal)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Double)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int16)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int32)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int64)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.SByte)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Single)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt16)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt32)
+  - System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt64)
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: UnmanagedMemoryAccessor
+  fullName: System.IO.UnmanagedMemoryAccessor
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 15
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  syntax:
+    content: 'public class UnmanagedMemoryAccessor : IDisposable'
+    content.vb: Public Class UnmanagedMemoryAccessor Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.IO.UnmanagedMemoryAccessor.#ctor
+  id: '#ctor'
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: UnmanagedMemoryAccessor()
+  fullName: System.IO.UnmanagedMemoryAccessor.UnmanagedMemoryAccessor()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 30
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Allows to efficiently read typed data from memory or SafeBuffer
+  syntax:
+    content: protected UnmanagedMemoryAccessor()
+    content.vb: Protected Sub New
+- uid: System.IO.UnmanagedMemoryAccessor.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64)
+  id: '#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64)'
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: UnmanagedMemoryAccessor(SafeBuffer, Int64, Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.UnmanagedMemoryAccessor(System.Runtime.InteropServices.SafeBuffer, System.Int64, System.Int64)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 45
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Creates an instance over a slice of a SafeBuffer.
+  syntax:
+    content: public UnmanagedMemoryAccessor(SafeBuffer buffer, long offset, long capacity)
+    content.vb: Public Sub New(buffer As SafeBuffer, offset As Long, capacity As Long)
+    parameters:
+    - id: buffer
+      type: System.Runtime.InteropServices.SafeBuffer
+      description: Buffer containing raw bytes.
+    - id: offset
+      type: System.Int64
+      description: First byte belonging to the slice.
+    - id: capacity
+      type: System.Int64
+      description: Number of bytes in the slice.
+- uid: System.IO.UnmanagedMemoryAccessor.#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
+  id: '#ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)'
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: UnmanagedMemoryAccessor(SafeBuffer, Int64, Int64, FileAccess)
+  fullName: System.IO.UnmanagedMemoryAccessor.UnmanagedMemoryAccessor(System.Runtime.InteropServices.SafeBuffer, System.Int64, System.Int64, System.IO.FileAccess)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 58
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Creates an instance over a slice of a SafeBuffer.
+  syntax:
+    content: public UnmanagedMemoryAccessor(SafeBuffer buffer, long offset, long capacity, FileAccess access)
+    content.vb: Public Sub New(buffer As SafeBuffer, offset As Long, capacity As Long, access As FileAccess)
+    parameters:
+    - id: buffer
+      type: System.Runtime.InteropServices.SafeBuffer
+      description: Buffer containing raw bytes.
+    - id: offset
+      type: System.Int64
+      description: First byte belonging to the slice.
+    - id: capacity
+      type: System.Int64
+      description: Number of bytes in the slice.
+    - id: access
+      type: System.IO.FileAccess
+      description: Access permissions.
+- uid: System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
+  id: Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Initialize(SafeBuffer, Int64, Int64, FileAccess)
+  fullName: System.IO.UnmanagedMemoryAccessor.Initialize(System.Runtime.InteropServices.SafeBuffer, System.Int64, System.Int64, System.IO.FileAccess)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 64
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  syntax:
+    content: protected void Initialize(SafeBuffer buffer, long offset, long capacity, FileAccess access)
+    content.vb: Protected Sub Initialize(buffer As SafeBuffer, offset As Long, capacity As Long, access As FileAccess)
+    parameters:
+    - id: buffer
+      type: System.Runtime.InteropServices.SafeBuffer
+    - id: offset
+      type: System.Int64
+    - id: capacity
+      type: System.Int64
+    - id: access
+      type: System.IO.FileAccess
+- uid: System.IO.UnmanagedMemoryAccessor.Capacity
+  id: Capacity
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Capacity
+  fullName: System.IO.UnmanagedMemoryAccessor.Capacity
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 129
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Number of bytes in the accessor.
+  syntax:
+    content: public long Capacity { get; }
+    content.vb: Public ReadOnly Property Capacity As Long
+    parameters: []
+    return:
+      type: System.Int64
+- uid: System.IO.UnmanagedMemoryAccessor.CanRead
+  id: CanRead
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: CanRead
+  fullName: System.IO.UnmanagedMemoryAccessor.CanRead
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 140
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Returns true if the accessor can be read; otherwise returns false.
+  syntax:
+    content: public bool CanRead { get; }
+    content.vb: Public ReadOnly Property CanRead As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.IO.UnmanagedMemoryAccessor.CanWrite
+  id: CanWrite
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: CanWrite
+  fullName: System.IO.UnmanagedMemoryAccessor.CanWrite
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 151
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Returns true if the accessor can be written to; otherwise returns false.
+  syntax:
+    content: public bool CanWrite { get; }
+    content.vb: Public ReadOnly Property CanWrite As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Dispose(Boolean)
+  fullName: System.IO.UnmanagedMemoryAccessor.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 163
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Closes the accessor.
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.IO.UnmanagedMemoryAccessor.Dispose
+  id: Dispose
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Dispose()
+  fullName: System.IO.UnmanagedMemoryAccessor.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 171
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Closes the accessor.
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.IO.UnmanagedMemoryAccessor.IsOpen
+  id: IsOpen
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: IsOpen
+  fullName: System.IO.UnmanagedMemoryAccessor.IsOpen
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 180
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Returns true if the accessor is open.
+  syntax:
+    content: protected bool IsOpen { get; }
+    content.vb: Protected ReadOnly Property IsOpen As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
+  id: ReadBoolean(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadBoolean(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadBoolean(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 188
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads a Boolean value at given position
+  syntax:
+    content: public bool ReadBoolean(long position)
+    content.vb: Public Function ReadBoolean(position As Long) As Boolean
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Boolean
+- uid: System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
+  id: ReadByte(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadByte(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadByte(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 200
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads a Byte value at given position
+  syntax:
+    content: public byte ReadByte(long position)
+    content.vb: Public Function ReadByte(position As Long) As Byte
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Byte
+- uid: System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
+  id: ReadChar(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadChar(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadChar(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 211
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads a Char value at given position
+  syntax:
+    content: public char ReadChar(long position)
+    content.vb: Public Function ReadChar(position As Long) As Char
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Char
+- uid: System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
+  id: ReadInt16(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadInt16(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadInt16(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 253
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads an Int16 value at given position
+  syntax:
+    content: public short ReadInt16(long position)
+    content.vb: Public Function ReadInt16(position As Long) As Short
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Int16
+- uid: System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
+  id: ReadInt32(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadInt32(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadInt32(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 296
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads an Int32 value at given position
+  syntax:
+    content: public int ReadInt32(long position)
+    content.vb: Public Function ReadInt32(position As Long) As Integer
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Int32
+- uid: System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
+  id: ReadInt64(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadInt64(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadInt64(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 338
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads an Int64 value at given position
+  syntax:
+    content: public long ReadInt64(long position)
+    content.vb: Public Function ReadInt64(position As Long) As Long
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Int64
+- uid: System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
+  id: ReadDecimal(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadDecimal(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadDecimal(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 400
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Reads a Decimal value at the specified position.
+  syntax:
+    content: public decimal ReadDecimal(long position)
+    content.vb: Public Function ReadDecimal(position As Long) As Decimal
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte of the value.
+    return:
+      type: System.Decimal
+- uid: System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
+  id: ReadSingle(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadSingle(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadSingle(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 443
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads a Single value at given position
+  syntax:
+    content: public float ReadSingle(long position)
+    content.vb: Public Function ReadSingle(position As Long) As Single
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Single
+- uid: System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
+  id: ReadDouble(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadDouble(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadDouble(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 485
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads a Double value at given position
+  syntax:
+    content: public double ReadDouble(long position)
+    content.vb: Public Function ReadDouble(position As Long) As Double
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.Double
+- uid: System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
+  id: ReadSByte(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadSByte(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadSByte(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 531
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Reads an SByte value at the specified position.
+  syntax:
+    content: public sbyte ReadSByte(long position)
+    content.vb: Public Function ReadSByte(position As Long) As SByte
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte of the value.
+    return:
+      type: System.SByte
+- uid: System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
+  id: ReadUInt16(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadUInt16(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt16(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 564
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: reads a UInt16 value at given position
+  syntax:
+    content: public ushort ReadUInt16(long position)
+    content.vb: Public Function ReadUInt16(position As Long) As UShort
+    parameters:
+    - id: position
+      type: System.Int64
+    return:
+      type: System.UInt16
+- uid: System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
+  id: ReadUInt32(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadUInt32(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt32(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 608
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Reads a UInt32 value at the specified position.
+  syntax:
+    content: public uint ReadUInt32(long position)
+    content.vb: Public Function ReadUInt32(position As Long) As UInteger
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte of the value.
+    return:
+      type: System.UInt32
+- uid: System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
+  id: ReadUInt64(System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: ReadUInt64(Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.ReadUInt64(System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 652
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Reads a UInt64 value at the specified position.
+  syntax:
+    content: public ulong ReadUInt64(long position)
+    content.vb: Public Function ReadUInt64(position As Long) As ULong
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte of the value.
+    return:
+      type: System.UInt64
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Boolean)
+  id: Write(System.Int64,System.Boolean)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Boolean)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 705
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, bool value)
+    content.vb: Public Sub Write(position As Long, value As Boolean)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Boolean
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Byte)
+  id: Write(System.Int64,System.Byte)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Byte)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Byte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 719
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, byte value)
+    content.vb: Public Sub Write(position As Long, value As Byte)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Byte
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Char)
+  id: Write(System.Int64,System.Char)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Char)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 732
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, char value)
+    content.vb: Public Sub Write(position As Long, value As Char)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Char
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int16)
+  id: Write(System.Int64,System.Int16)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Int16)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Int16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 773
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, short value)
+    content.vb: Public Sub Write(position As Long, value As Short)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Int16
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int32)
+  id: Write(System.Int64,System.Int32)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Int32)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 814
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, int value)
+    content.vb: Public Sub Write(position As Long, value As Integer)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Int32
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Int64)
+  id: Write(System.Int64,System.Int64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Int64)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 857
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, long value)
+    content.vb: Public Sub Write(position As Long, value As Long)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Int64
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Decimal)
+  id: Write(System.Int64,System.Decimal)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Decimal)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Decimal)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 921
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, decimal value)
+    content.vb: Public Sub Write(position As Long, value As Decimal)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Decimal
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Single)
+  id: Write(System.Int64,System.Single)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Single)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 961
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, float value)
+    content.vb: Public Sub Write(position As Long, value As Single)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Single
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.Double)
+  id: Write(System.Int64,System.Double)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, Double)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 1005
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, double value)
+    content.vb: Public Sub Write(position As Long, value As Double)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.Double
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.SByte)
+  id: Write(System.Int64,System.SByte)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, SByte)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.SByte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 1053
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, sbyte value)
+    content.vb: Public Sub Write(position As Long, value As SByte)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.SByte
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt16)
+  id: Write(System.Int64,System.UInt16)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, UInt16)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.UInt16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 1085
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, ushort value)
+    content.vb: Public Sub Write(position As Long, value As UShort)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.UInt16
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt32)
+  id: Write(System.Int64,System.UInt32)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, UInt32)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.UInt32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 1127
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, uint value)
+    content.vb: Public Sub Write(position As Long, value As UInteger)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.UInt32
+      description: Value to be written to the memory
+- uid: System.IO.UnmanagedMemoryAccessor.Write(System.Int64,System.UInt64)
+  id: Write(System.Int64,System.UInt64)
+  parent: System.IO.UnmanagedMemoryAccessor
+  href: System.IO.UnmanagedMemoryAccessor.yml
+  name: Write(Int64, UInt64)
+  fullName: System.IO.UnmanagedMemoryAccessor.Write(System.Int64, System.UInt64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.IO.UnmanagedMemoryStream/src/System/IO/UnmanagedMemoryAccessor.cs
+    startLine: 1171
+  assemblies:
+  - System.IO.UnmanagedMemoryStream
+  namespace: System.IO
+  summary: Writes the value at the specified position.
+  syntax:
+    content: public void Write(long position, ulong value)
+    content.vb: Public Sub Write(position As Long, value As ULong)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: The position of the first byte.
+    - id: value
+      type: System.UInt64
+      description: Value to be written to the memory
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.InteropServices.SafeBuffer
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: SafeBuffer
+  fullName: System.Runtime.InteropServices.SafeBuffer
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  fullName: System.Int64
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+- uid: System.IO.FileAccess
+  parent: System.IO
+  isExternal: false
+  href: System.IO.FileAccess.yml
+  name: FileAccess
+  fullName: System.IO.FileAccess
+  type: Enum
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  fullName: System.Byte
+- uid: System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  fullName: System.Char
+- uid: System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  fullName: System.Int16
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  fullName: System.Decimal
+- uid: System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  fullName: System.Single
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  fullName: System.Double
+- uid: System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  fullName: System.SByte
+- uid: System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  fullName: System.UInt16
+- uid: System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  fullName: System.UInt32
+- uid: System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  fullName: System.UInt64

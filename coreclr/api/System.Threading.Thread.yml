@@ -1,0 +1,1930 @@
+items:
+- uid: System.Threading.Thread
+  id: Thread
+  parent: System.Threading
+  children:
+  - System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart)
+  - System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart,System.Int32)
+  - System.Threading.Thread.#ctor(System.Threading.ThreadStart)
+  - System.Threading.Thread.#ctor(System.Threading.ThreadStart,System.Int32)
+  - System.Threading.Thread.Abort
+  - System.Threading.Thread.AllocateDataSlot
+  - System.Threading.Thread.AllocateNamedDataSlot(System.String)
+  - System.Threading.Thread.ApartmentState
+  - System.Threading.Thread.CurrentCulture
+  - System.Threading.Thread.CurrentThread
+  - System.Threading.Thread.CurrentUICulture
+  - System.Threading.Thread.DisableComObjectEagerCleanup
+  - System.Threading.Thread.Finalize
+  - System.Threading.Thread.FreeNamedDataSlot(System.String)
+  - System.Threading.Thread.GetApartmentState
+  - System.Threading.Thread.GetData(System.LocalDataStoreSlot)
+  - System.Threading.Thread.GetDomain
+  - System.Threading.Thread.GetDomainID
+  - System.Threading.Thread.GetHashCode
+  - System.Threading.Thread.GetNamedDataSlot(System.String)
+  - System.Threading.Thread.IsAlive
+  - System.Threading.Thread.IsBackground
+  - System.Threading.Thread.IsThreadPoolThread
+  - System.Threading.Thread.Join
+  - System.Threading.Thread.Join(System.Int32)
+  - System.Threading.Thread.Join(System.TimeSpan)
+  - System.Threading.Thread.ManagedThreadId
+  - System.Threading.Thread.MemoryBarrier
+  - System.Threading.Thread.Name
+  - System.Threading.Thread.Priority
+  - System.Threading.Thread.SetApartmentState(System.Threading.ApartmentState)
+  - System.Threading.Thread.SetData(System.LocalDataStoreSlot,System.Object)
+  - System.Threading.Thread.Sleep(System.Int32)
+  - System.Threading.Thread.Sleep(System.TimeSpan)
+  - System.Threading.Thread.SpinWait(System.Int32)
+  - System.Threading.Thread.Start
+  - System.Threading.Thread.Start(System.Object)
+  - System.Threading.Thread.ThreadState
+  - System.Threading.Thread.TrySetApartmentState(System.Threading.ApartmentState)
+  - System.Threading.Thread.VolatileRead(System.Byte@)
+  - System.Threading.Thread.VolatileRead(System.Double@)
+  - System.Threading.Thread.VolatileRead(System.Int16@)
+  - System.Threading.Thread.VolatileRead(System.Int32@)
+  - System.Threading.Thread.VolatileRead(System.Int64@)
+  - System.Threading.Thread.VolatileRead(System.IntPtr@)
+  - System.Threading.Thread.VolatileRead(System.Object@)
+  - System.Threading.Thread.VolatileRead(System.SByte@)
+  - System.Threading.Thread.VolatileRead(System.Single@)
+  - System.Threading.Thread.VolatileRead(System.UInt16@)
+  - System.Threading.Thread.VolatileRead(System.UInt32@)
+  - System.Threading.Thread.VolatileRead(System.UInt64@)
+  - System.Threading.Thread.VolatileRead(System.UIntPtr@)
+  - System.Threading.Thread.VolatileWrite(System.Byte@,System.Byte)
+  - System.Threading.Thread.VolatileWrite(System.Double@,System.Double)
+  - System.Threading.Thread.VolatileWrite(System.Int16@,System.Int16)
+  - System.Threading.Thread.VolatileWrite(System.Int32@,System.Int32)
+  - System.Threading.Thread.VolatileWrite(System.Int64@,System.Int64)
+  - System.Threading.Thread.VolatileWrite(System.IntPtr@,System.IntPtr)
+  - System.Threading.Thread.VolatileWrite(System.Object@,System.Object)
+  - System.Threading.Thread.VolatileWrite(System.SByte@,System.SByte)
+  - System.Threading.Thread.VolatileWrite(System.Single@,System.Single)
+  - System.Threading.Thread.VolatileWrite(System.UInt16@,System.UInt16)
+  - System.Threading.Thread.VolatileWrite(System.UInt32@,System.UInt32)
+  - System.Threading.Thread.VolatileWrite(System.UInt64@,System.UInt64)
+  - System.Threading.Thread.VolatileWrite(System.UIntPtr@,System.UIntPtr)
+  - System.Threading.Thread.Yield
+  href: System.Threading.Thread.yml
+  name: Thread
+  fullName: System.Threading.Thread
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Threading/Thread.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 120
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: 'public sealed class Thread : CriticalFinalizerObject, _Thread'
+    content.vb: Public NotInheritable Class Thread Inherits CriticalFinalizerObject Implements _Thread
+  inheritance:
+  - System.Object
+  - System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  implements:
+  - System.Runtime.InteropServices._Thread
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Threading.Thread.#ctor(System.Threading.ThreadStart)
+  id: '#ctor(System.Threading.ThreadStart)'
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Thread(ThreadStart)
+  fullName: System.Threading.Thread.Thread(System.Threading.ThreadStart)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 224
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Thread(ThreadStart start)
+    content.vb: Public Sub New(start As ThreadStart)
+    parameters:
+    - id: start
+      type: System.Threading.ThreadStart
+- uid: System.Threading.Thread.#ctor(System.Threading.ThreadStart,System.Int32)
+  id: '#ctor(System.Threading.ThreadStart,System.Int32)'
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Thread(ThreadStart, Int32)
+  fullName: System.Threading.Thread.Thread(System.Threading.ThreadStart, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 233
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Thread(ThreadStart start, int maxStackSize)
+    content.vb: Public Sub New(start As ThreadStart, maxStackSize As Integer)
+    parameters:
+    - id: start
+      type: System.Threading.ThreadStart
+    - id: maxStackSize
+      type: System.Int32
+- uid: System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart)
+  id: '#ctor(System.Threading.ParameterizedThreadStart)'
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Thread(ParameterizedThreadStart)
+  fullName: System.Threading.Thread.Thread(System.Threading.ParameterizedThreadStart)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 243
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Thread(ParameterizedThreadStart start)
+    content.vb: Public Sub New(start As ParameterizedThreadStart)
+    parameters:
+    - id: start
+      type: System.Threading.ParameterizedThreadStart
+- uid: System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart,System.Int32)
+  id: '#ctor(System.Threading.ParameterizedThreadStart,System.Int32)'
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Thread(ParameterizedThreadStart, Int32)
+  fullName: System.Threading.Thread.Thread(System.Threading.ParameterizedThreadStart, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 252
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public Thread(ParameterizedThreadStart start, int maxStackSize)
+    content.vb: Public Sub New(start As ParameterizedThreadStart, maxStackSize As Integer)
+    parameters:
+    - id: start
+      type: System.Threading.ParameterizedThreadStart
+    - id: maxStackSize
+      type: System.Int32
+- uid: System.Threading.Thread.GetHashCode
+  id: GetHashCode
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: GetHashCode()
+  fullName: System.Threading.Thread.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 263
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+  overridden: System.Object.GetHashCode
+- uid: System.Threading.Thread.ManagedThreadId
+  id: ManagedThreadId
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: ManagedThreadId
+  fullName: System.Threading.Thread.ManagedThreadId
+  type: Property
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public int ManagedThreadId { get; }
+    content.vb: Public ReadOnly Property ManagedThreadId As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Threading.Thread.Start
+  id: Start
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Start()
+  fullName: System.Threading.Thread.Start()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 299
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+- uid: System.Threading.Thread.Start(System.Object)
+  id: Start(System.Object)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Start(Object)
+  fullName: System.Threading.Thread.Start(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 307
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public void Start(object parameter)
+    content.vb: Public Sub Start(parameter As Object)
+    parameters:
+    - id: parameter
+      type: System.Object
+- uid: System.Threading.Thread.Abort
+  id: Abort
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Abort()
+  fullName: System.Threading.Thread.Abort()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 509
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public void Abort()
+    content.vb: Public Sub Abort
+- uid: System.Threading.Thread.Priority
+  id: Priority
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Priority
+  fullName: System.Threading.Thread.Priority
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 620
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public ThreadPriority Priority { get; set; }
+    content.vb: Public Property Priority As ThreadPriority
+    parameters: []
+    return:
+      type: System.Threading.ThreadPriority
+- uid: System.Threading.Thread.IsAlive
+  id: IsAlive
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: IsAlive
+  fullName: System.Threading.Thread.IsAlive
+  type: Property
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public bool IsAlive { get; }
+    content.vb: Public ReadOnly Property IsAlive As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.IsThreadPoolThread
+  id: IsThreadPoolThread
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: IsThreadPoolThread
+  fullName: System.Threading.Thread.IsThreadPoolThread
+  type: Property
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public bool IsThreadPoolThread { get; }
+    content.vb: Public ReadOnly Property IsThreadPoolThread As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.Join
+  id: Join
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Join()
+  fullName: System.Threading.Thread.Join()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 665
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public void Join()
+    content.vb: Public Sub Join
+- uid: System.Threading.Thread.Join(System.Int32)
+  id: Join(System.Int32)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Join(Int32)
+  fullName: System.Threading.Thread.Join(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 672
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public bool Join(int millisecondsTimeout)
+    content.vb: Public Function Join(millisecondsTimeout As Integer) As Boolean
+    parameters:
+    - id: millisecondsTimeout
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.Join(System.TimeSpan)
+  id: Join(System.TimeSpan)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Join(TimeSpan)
+  fullName: System.Threading.Thread.Join(System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 679
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public bool Join(TimeSpan timeout)
+    content.vb: Public Function Join(timeout As TimeSpan) As Boolean
+    parameters:
+    - id: timeout
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.Sleep(System.Int32)
+  id: Sleep(System.Int32)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Sleep(Int32)
+  fullName: System.Threading.Thread.Sleep(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 701
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Sleep(int millisecondsTimeout)
+    content.vb: Public Shared Sub Sleep(millisecondsTimeout As Integer)
+    parameters:
+    - id: millisecondsTimeout
+      type: System.Int32
+- uid: System.Threading.Thread.Sleep(System.TimeSpan)
+  id: Sleep(System.TimeSpan)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Sleep(TimeSpan)
+  fullName: System.Threading.Thread.Sleep(System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 710
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Sleep(TimeSpan timeout)
+    content.vb: Public Shared Sub Sleep(timeout As TimeSpan)
+    parameters:
+    - id: timeout
+      type: System.TimeSpan
+- uid: System.Threading.Thread.SpinWait(System.Int32)
+  id: SpinWait(System.Int32)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: SpinWait(Int32)
+  fullName: System.Threading.Thread.SpinWait(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 729
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void SpinWait(int iterations)
+    content.vb: Public Shared Sub SpinWait(iterations As Integer)
+    parameters:
+    - id: iterations
+      type: System.Int32
+- uid: System.Threading.Thread.Yield
+  id: Yield
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Yield()
+  fullName: System.Threading.Thread.Yield()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 744
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool Yield()
+    content.vb: Public Shared Function Yield As Boolean
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.CurrentThread
+  id: CurrentThread
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: CurrentThread
+  fullName: System.Threading.Thread.CurrentThread
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 752
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static Thread CurrentThread { get; }
+    content.vb: Public Shared ReadOnly Property CurrentThread As Thread
+    parameters: []
+    return:
+      type: System.Threading.Thread
+- uid: System.Threading.Thread.Finalize
+  id: Finalize
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Finalize()
+  fullName: System.Threading.Thread.Finalize()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 814
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: protected void Finalize()
+    content.vb: Protected Sub Finalize
+- uid: System.Threading.Thread.DisableComObjectEagerCleanup
+  id: DisableComObjectEagerCleanup
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: DisableComObjectEagerCleanup()
+  fullName: System.Threading.Thread.DisableComObjectEagerCleanup()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public void DisableComObjectEagerCleanup()
+    content.vb: Public Sub DisableComObjectEagerCleanup
+- uid: System.Threading.Thread.IsBackground
+  id: IsBackground
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: IsBackground
+  fullName: System.Threading.Thread.IsBackground
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 840
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public bool IsBackground { get; set; }
+    content.vb: Public Property IsBackground As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.ThreadState
+  id: ThreadState
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: ThreadState
+  fullName: System.Threading.Thread.ThreadState
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 859
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public ThreadState ThreadState { get; }
+    content.vb: Public ReadOnly Property ThreadState As ThreadState
+    parameters: []
+    return:
+      type: System.Threading.ThreadState
+- uid: System.Threading.Thread.ApartmentState
+  id: ApartmentState
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: ApartmentState
+  fullName: System.Threading.Thread.ApartmentState
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 876
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public ApartmentState ApartmentState { get; set; }
+    content.vb: Public Property ApartmentState As ApartmentState
+    parameters: []
+    return:
+      type: System.Threading.ApartmentState
+- uid: System.Threading.Thread.GetApartmentState
+  id: GetApartmentState
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: GetApartmentState()
+  fullName: System.Threading.Thread.GetApartmentState()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 893
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public ApartmentState GetApartmentState()
+    content.vb: Public Function GetApartmentState As ApartmentState
+    return:
+      type: System.Threading.ApartmentState
+- uid: System.Threading.Thread.TrySetApartmentState(System.Threading.ApartmentState)
+  id: TrySetApartmentState(System.Threading.ApartmentState)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: TrySetApartmentState(ApartmentState)
+  fullName: System.Threading.Thread.TrySetApartmentState(System.Threading.ApartmentState)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 899
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public bool TrySetApartmentState(ApartmentState state)
+    content.vb: Public Function TrySetApartmentState(state As ApartmentState) As Boolean
+    parameters:
+    - id: state
+      type: System.Threading.ApartmentState
+    return:
+      type: System.Boolean
+- uid: System.Threading.Thread.SetApartmentState(System.Threading.ApartmentState)
+  id: SetApartmentState(System.Threading.ApartmentState)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: SetApartmentState(ApartmentState)
+  fullName: System.Threading.Thread.SetApartmentState(System.Threading.ApartmentState)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 906
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public void SetApartmentState(ApartmentState state)
+    content.vb: Public Sub SetApartmentState(state As ApartmentState)
+    parameters:
+    - id: state
+      type: System.Threading.ApartmentState
+- uid: System.Threading.Thread.AllocateDataSlot
+  id: AllocateDataSlot
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: AllocateDataSlot()
+  fullName: System.Threading.Thread.AllocateDataSlot()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 948
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static LocalDataStoreSlot AllocateDataSlot()
+    content.vb: Public Shared Function AllocateDataSlot As LocalDataStoreSlot
+    return:
+      type: System.LocalDataStoreSlot
+- uid: System.Threading.Thread.AllocateNamedDataSlot(System.String)
+  id: AllocateNamedDataSlot(System.String)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: AllocateNamedDataSlot(String)
+  fullName: System.Threading.Thread.AllocateNamedDataSlot(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 959
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static LocalDataStoreSlot AllocateNamedDataSlot(string name)
+    content.vb: Public Shared Function AllocateNamedDataSlot(name As String) As LocalDataStoreSlot
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.LocalDataStoreSlot
+- uid: System.Threading.Thread.GetNamedDataSlot(System.String)
+  id: GetNamedDataSlot(System.String)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: GetNamedDataSlot(String)
+  fullName: System.Threading.Thread.GetNamedDataSlot(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 970
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static LocalDataStoreSlot GetNamedDataSlot(string name)
+    content.vb: Public Shared Function GetNamedDataSlot(name As String) As LocalDataStoreSlot
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.LocalDataStoreSlot
+- uid: System.Threading.Thread.FreeNamedDataSlot(System.String)
+  id: FreeNamedDataSlot(System.String)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: FreeNamedDataSlot(String)
+  fullName: System.Threading.Thread.FreeNamedDataSlot(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 981
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void FreeNamedDataSlot(string name)
+    content.vb: Public Shared Sub FreeNamedDataSlot(name As String)
+    parameters:
+    - id: name
+      type: System.String
+- uid: System.Threading.Thread.GetData(System.LocalDataStoreSlot)
+  id: GetData(System.LocalDataStoreSlot)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: GetData(LocalDataStoreSlot)
+  fullName: System.Threading.Thread.GetData(System.LocalDataStoreSlot)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 990
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static object GetData(LocalDataStoreSlot slot)
+    content.vb: Public Shared Function GetData(slot As LocalDataStoreSlot) As Object
+    parameters:
+    - id: slot
+      type: System.LocalDataStoreSlot
+    return:
+      type: System.Object
+- uid: System.Threading.Thread.SetData(System.LocalDataStoreSlot,System.Object)
+  id: SetData(System.LocalDataStoreSlot,System.Object)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: SetData(LocalDataStoreSlot, Object)
+  fullName: System.Threading.Thread.SetData(System.LocalDataStoreSlot, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1007
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void SetData(LocalDataStoreSlot slot, object data)
+    content.vb: Public Shared Sub SetData(slot As LocalDataStoreSlot, data As Object)
+    parameters:
+    - id: slot
+      type: System.LocalDataStoreSlot
+    - id: data
+      type: System.Object
+- uid: System.Threading.Thread.CurrentUICulture
+  id: CurrentUICulture
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: CurrentUICulture
+  fullName: System.Threading.Thread.CurrentUICulture
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1065
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public CultureInfo CurrentUICulture { get; set; }
+    content.vb: Public Property CurrentUICulture As CultureInfo
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+- uid: System.Threading.Thread.CurrentCulture
+  id: CurrentCulture
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: CurrentCulture
+  fullName: System.Threading.Thread.CurrentCulture
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1181
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public CultureInfo CurrentCulture { get; set; }
+    content.vb: Public Property CurrentCulture As CultureInfo
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+- uid: System.Threading.Thread.GetDomain
+  id: GetDomain
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: GetDomain()
+  fullName: System.Threading.Thread.GetDomain()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1382
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static AppDomain GetDomain()
+    content.vb: Public Shared Function GetDomain As AppDomain
+    return:
+      type: System.AppDomain
+- uid: System.Threading.Thread.GetDomainID
+  id: GetDomainID
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: GetDomainID()
+  fullName: System.Threading.Thread.GetDomainID()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1403
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static int GetDomainID()
+    content.vb: Public Shared Function GetDomainID As Integer
+    return:
+      type: System.Int32
+- uid: System.Threading.Thread.Name
+  id: Name
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: Name
+  fullName: System.Threading.Thread.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1411
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public string Name { get; set; }
+    content.vb: Public Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Threading.Thread.VolatileRead(System.Byte@)
+  id: VolatileRead(System.Byte@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Byte)
+  name.vb: VolatileRead(ByRef Byte)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Byte)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Byte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1494
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static byte VolatileRead(ref byte address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Byte) As Byte
+    parameters:
+    - id: address
+      type: System.Byte
+    return:
+      type: System.Byte
+- uid: System.Threading.Thread.VolatileRead(System.Int16@)
+  id: VolatileRead(System.Int16@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Int16)
+  name.vb: VolatileRead(ByRef Int16)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Int16)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Int16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1502
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static short VolatileRead(ref short address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Short) As Short
+    parameters:
+    - id: address
+      type: System.Int16
+    return:
+      type: System.Int16
+- uid: System.Threading.Thread.VolatileRead(System.Int32@)
+  id: VolatileRead(System.Int32@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Int32)
+  name.vb: VolatileRead(ByRef Int32)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Int32)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1510
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static int VolatileRead(ref int address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Integer) As Integer
+    parameters:
+    - id: address
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Threading.Thread.VolatileRead(System.Int64@)
+  id: VolatileRead(System.Int64@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Int64)
+  name.vb: VolatileRead(ByRef Int64)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Int64)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1518
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static long VolatileRead(ref long address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Long) As Long
+    parameters:
+    - id: address
+      type: System.Int64
+    return:
+      type: System.Int64
+- uid: System.Threading.Thread.VolatileRead(System.SByte@)
+  id: VolatileRead(System.SByte@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref SByte)
+  name.vb: VolatileRead(ByRef SByte)
+  fullName: System.Threading.Thread.VolatileRead(ref System.SByte)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.SByte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1526
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static sbyte VolatileRead(ref sbyte address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As SByte) As SByte
+    parameters:
+    - id: address
+      type: System.SByte
+    return:
+      type: System.SByte
+- uid: System.Threading.Thread.VolatileRead(System.UInt16@)
+  id: VolatileRead(System.UInt16@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref UInt16)
+  name.vb: VolatileRead(ByRef UInt16)
+  fullName: System.Threading.Thread.VolatileRead(ref System.UInt16)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.UInt16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1535
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static ushort VolatileRead(ref ushort address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As UShort) As UShort
+    parameters:
+    - id: address
+      type: System.UInt16
+    return:
+      type: System.UInt16
+- uid: System.Threading.Thread.VolatileRead(System.UInt32@)
+  id: VolatileRead(System.UInt32@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref UInt32)
+  name.vb: VolatileRead(ByRef UInt32)
+  fullName: System.Threading.Thread.VolatileRead(ref System.UInt32)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.UInt32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1544
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static uint VolatileRead(ref uint address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As UInteger) As UInteger
+    parameters:
+    - id: address
+      type: System.UInt32
+    return:
+      type: System.UInt32
+- uid: System.Threading.Thread.VolatileRead(System.IntPtr@)
+  id: VolatileRead(System.IntPtr@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref IntPtr)
+  name.vb: VolatileRead(ByRef IntPtr)
+  fullName: System.Threading.Thread.VolatileRead(ref System.IntPtr)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1553
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static IntPtr VolatileRead(ref IntPtr address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As IntPtr) As IntPtr
+    parameters:
+    - id: address
+      type: System.IntPtr
+    return:
+      type: System.IntPtr
+- uid: System.Threading.Thread.VolatileRead(System.UIntPtr@)
+  id: VolatileRead(System.UIntPtr@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref UIntPtr)
+  name.vb: VolatileRead(ByRef UIntPtr)
+  fullName: System.Threading.Thread.VolatileRead(ref System.UIntPtr)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.UIntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1561
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static UIntPtr VolatileRead(ref UIntPtr address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As UIntPtr) As UIntPtr
+    parameters:
+    - id: address
+      type: System.UIntPtr
+    return:
+      type: System.UIntPtr
+- uid: System.Threading.Thread.VolatileRead(System.UInt64@)
+  id: VolatileRead(System.UInt64@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref UInt64)
+  name.vb: VolatileRead(ByRef UInt64)
+  fullName: System.Threading.Thread.VolatileRead(ref System.UInt64)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.UInt64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1570
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static ulong VolatileRead(ref ulong address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As ULong) As ULong
+    parameters:
+    - id: address
+      type: System.UInt64
+    return:
+      type: System.UInt64
+- uid: System.Threading.Thread.VolatileRead(System.Single@)
+  id: VolatileRead(System.Single@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Single)
+  name.vb: VolatileRead(ByRef Single)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Single)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1579
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static float VolatileRead(ref float address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Single) As Single
+    parameters:
+    - id: address
+      type: System.Single
+    return:
+      type: System.Single
+- uid: System.Threading.Thread.VolatileRead(System.Double@)
+  id: VolatileRead(System.Double@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Double)
+  name.vb: VolatileRead(ByRef Double)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Double)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1587
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static double VolatileRead(ref double address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Double) As Double
+    parameters:
+    - id: address
+      type: System.Double
+    return:
+      type: System.Double
+- uid: System.Threading.Thread.VolatileRead(System.Object@)
+  id: VolatileRead(System.Object@)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileRead(ref Object)
+  name.vb: VolatileRead(ByRef Object)
+  fullName: System.Threading.Thread.VolatileRead(ref System.Object)
+  fullName.vb: System.Threading.Thread.VolatileRead(ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1595
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static object VolatileRead(ref object address)
+    content.vb: Public Shared Function VolatileRead(ByRef address As Object) As Object
+    parameters:
+    - id: address
+      type: System.Object
+    return:
+      type: System.Object
+- uid: System.Threading.Thread.VolatileWrite(System.Byte@,System.Byte)
+  id: VolatileWrite(System.Byte@,System.Byte)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Byte, Byte)
+  name.vb: VolatileWrite(ByRef Byte, Byte)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Byte, System.Byte)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Byte, System.Byte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1603
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref byte address, byte value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Byte, value As Byte)
+    parameters:
+    - id: address
+      type: System.Byte
+    - id: value
+      type: System.Byte
+- uid: System.Threading.Thread.VolatileWrite(System.Int16@,System.Int16)
+  id: VolatileWrite(System.Int16@,System.Int16)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Int16, Int16)
+  name.vb: VolatileWrite(ByRef Int16, Int16)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Int16, System.Int16)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Int16, System.Int16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1610
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref short address, short value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Short, value As Short)
+    parameters:
+    - id: address
+      type: System.Int16
+    - id: value
+      type: System.Int16
+- uid: System.Threading.Thread.VolatileWrite(System.Int32@,System.Int32)
+  id: VolatileWrite(System.Int32@,System.Int32)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Int32, Int32)
+  name.vb: VolatileWrite(ByRef Int32, Int32)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Int32, System.Int32)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1617
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref int address, int value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Integer, value As Integer)
+    parameters:
+    - id: address
+      type: System.Int32
+    - id: value
+      type: System.Int32
+- uid: System.Threading.Thread.VolatileWrite(System.Int64@,System.Int64)
+  id: VolatileWrite(System.Int64@,System.Int64)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Int64, Int64)
+  name.vb: VolatileWrite(ByRef Int64, Int64)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Int64, System.Int64)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Int64, System.Int64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1624
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref long address, long value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Long, value As Long)
+    parameters:
+    - id: address
+      type: System.Int64
+    - id: value
+      type: System.Int64
+- uid: System.Threading.Thread.VolatileWrite(System.SByte@,System.SByte)
+  id: VolatileWrite(System.SByte@,System.SByte)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref SByte, SByte)
+  name.vb: VolatileWrite(ByRef SByte, SByte)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.SByte, System.SByte)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.SByte, System.SByte)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1631
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref sbyte address, sbyte value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As SByte, value As SByte)
+    parameters:
+    - id: address
+      type: System.SByte
+    - id: value
+      type: System.SByte
+- uid: System.Threading.Thread.VolatileWrite(System.UInt16@,System.UInt16)
+  id: VolatileWrite(System.UInt16@,System.UInt16)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref UInt16, UInt16)
+  name.vb: VolatileWrite(ByRef UInt16, UInt16)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.UInt16, System.UInt16)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.UInt16, System.UInt16)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1639
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref ushort address, ushort value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As UShort, value As UShort)
+    parameters:
+    - id: address
+      type: System.UInt16
+    - id: value
+      type: System.UInt16
+- uid: System.Threading.Thread.VolatileWrite(System.UInt32@,System.UInt32)
+  id: VolatileWrite(System.UInt32@,System.UInt32)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref UInt32, UInt32)
+  name.vb: VolatileWrite(ByRef UInt32, UInt32)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.UInt32, System.UInt32)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.UInt32, System.UInt32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1647
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref uint address, uint value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As UInteger, value As UInteger)
+    parameters:
+    - id: address
+      type: System.UInt32
+    - id: value
+      type: System.UInt32
+- uid: System.Threading.Thread.VolatileWrite(System.IntPtr@,System.IntPtr)
+  id: VolatileWrite(System.IntPtr@,System.IntPtr)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref IntPtr, IntPtr)
+  name.vb: VolatileWrite(ByRef IntPtr, IntPtr)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.IntPtr, System.IntPtr)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.IntPtr, System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1655
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref IntPtr address, IntPtr value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As IntPtr, value As IntPtr)
+    parameters:
+    - id: address
+      type: System.IntPtr
+    - id: value
+      type: System.IntPtr
+- uid: System.Threading.Thread.VolatileWrite(System.UIntPtr@,System.UIntPtr)
+  id: VolatileWrite(System.UIntPtr@,System.UIntPtr)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref UIntPtr, UIntPtr)
+  name.vb: VolatileWrite(ByRef UIntPtr, UIntPtr)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.UIntPtr, System.UIntPtr)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.UIntPtr, System.UIntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1662
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref UIntPtr address, UIntPtr value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As UIntPtr, value As UIntPtr)
+    parameters:
+    - id: address
+      type: System.UIntPtr
+    - id: value
+      type: System.UIntPtr
+- uid: System.Threading.Thread.VolatileWrite(System.UInt64@,System.UInt64)
+  id: VolatileWrite(System.UInt64@,System.UInt64)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref UInt64, UInt64)
+  name.vb: VolatileWrite(ByRef UInt64, UInt64)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.UInt64, System.UInt64)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.UInt64, System.UInt64)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1670
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref ulong address, ulong value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As ULong, value As ULong)
+    parameters:
+    - id: address
+      type: System.UInt64
+    - id: value
+      type: System.UInt64
+- uid: System.Threading.Thread.VolatileWrite(System.Single@,System.Single)
+  id: VolatileWrite(System.Single@,System.Single)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Single, Single)
+  name.vb: VolatileWrite(ByRef Single, Single)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Single, System.Single)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Single, System.Single)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1678
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref float address, float value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Single, value As Single)
+    parameters:
+    - id: address
+      type: System.Single
+    - id: value
+      type: System.Single
+- uid: System.Threading.Thread.VolatileWrite(System.Double@,System.Double)
+  id: VolatileWrite(System.Double@,System.Double)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Double, Double)
+  name.vb: VolatileWrite(ByRef Double, Double)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Double, System.Double)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Double, System.Double)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1685
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref double address, double value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Double, value As Double)
+    parameters:
+    - id: address
+      type: System.Double
+    - id: value
+      type: System.Double
+- uid: System.Threading.Thread.VolatileWrite(System.Object@,System.Object)
+  id: VolatileWrite(System.Object@,System.Object)
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: VolatileWrite(ref Object, Object)
+  name.vb: VolatileWrite(ByRef Object, Object)
+  fullName: System.Threading.Thread.VolatileWrite(ref System.Object, System.Object)
+  fullName.vb: System.Threading.Thread.VolatileWrite(ByRef System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Thread.cs
+    startLine: 1692
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void VolatileWrite(ref object address, object value)
+    content.vb: Public Shared Sub VolatileWrite(ByRef address As Object, value As Object)
+    parameters:
+    - id: address
+      type: System.Object
+    - id: value
+      type: System.Object
+- uid: System.Threading.Thread.MemoryBarrier
+  id: MemoryBarrier
+  parent: System.Threading.Thread
+  href: System.Threading.Thread.yml
+  name: MemoryBarrier()
+  fullName: System.Threading.Thread.MemoryBarrier()
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void MemoryBarrier()
+    content.vb: Public Shared Sub MemoryBarrier
+references:
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  parent: System.Runtime.ConstrainedExecution
+  isExternal: false
+  href: System.Runtime.ConstrainedExecution.CriticalFinalizerObject.yml
+  name: CriticalFinalizerObject
+  fullName: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.ConstrainedExecution
+  isExternal: false
+  name: System.Runtime.ConstrainedExecution
+  fullName: System.Runtime.ConstrainedExecution
+  type: Namespace
+- uid: System.Threading.ThreadStart
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.ThreadStart.yml
+  name: ThreadStart
+  fullName: System.Threading.ThreadStart
+  type: Delegate
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Threading.ParameterizedThreadStart
+  isExternal: false
+  href: System.Threading.ParameterizedThreadStart.yml
+  name: ParameterizedThreadStart
+  fullName: System.Threading.ParameterizedThreadStart
+  type: Delegate
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Threading.ThreadPriority
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.ThreadPriority.yml
+  name: ThreadPriority
+  fullName: System.Threading.ThreadPriority
+  type: Enum
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  href: System.TimeSpan.yml
+  name: TimeSpan
+  fullName: System.TimeSpan
+  type: Struct
+- uid: System.Threading.Thread
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.Thread.yml
+  name: Thread
+  fullName: System.Threading.Thread
+  type: Class
+- uid: System.Threading.ThreadState
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.ThreadState.yml
+  name: ThreadState
+  fullName: System.Threading.ThreadState
+  type: Enum
+- uid: System.Threading.ApartmentState
+  parent: System.Threading
+  isExternal: false
+  href: System.Threading.ApartmentState.yml
+  name: ApartmentState
+  fullName: System.Threading.ApartmentState
+  type: Enum
+- uid: System.LocalDataStoreSlot
+  isExternal: false
+  href: System.LocalDataStoreSlot.yml
+  name: LocalDataStoreSlot
+  fullName: System.LocalDataStoreSlot
+  type: Class
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CultureInfo.yml
+  name: CultureInfo
+  fullName: System.Globalization.CultureInfo
+  type: Class
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.AppDomain
+  parent: System
+  isExternal: false
+  href: System.AppDomain.yml
+  name: AppDomain
+  fullName: System.AppDomain
+  type: Class
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte
+  fullName: System.Byte
+  type: Struct
+- uid: System.Int16
+  parent: System
+  isExternal: false
+  href: System.Int16.yml
+  name: Int16
+  fullName: System.Int16
+  type: Struct
+- uid: System.Int64
+  parent: System
+  isExternal: false
+  href: System.Int64.yml
+  name: Int64
+  fullName: System.Int64
+  type: Struct
+- uid: System.SByte
+  parent: System
+  isExternal: false
+  href: System.SByte.yml
+  name: SByte
+  fullName: System.SByte
+  type: Struct
+- uid: System.UInt16
+  parent: System
+  isExternal: false
+  href: System.UInt16.yml
+  name: UInt16
+  fullName: System.UInt16
+  type: Struct
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  href: System.UInt32.yml
+  name: UInt32
+  fullName: System.UInt32
+  type: Struct
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System.UIntPtr
+  parent: System
+  isExternal: false
+  href: System.UIntPtr.yml
+  name: UIntPtr
+  fullName: System.UIntPtr
+  type: Struct
+- uid: System.UInt64
+  parent: System
+  isExternal: false
+  href: System.UInt64.yml
+  name: UInt64
+  fullName: System.UInt64
+  type: Struct
+- uid: System.Single
+  parent: System
+  isExternal: false
+  href: System.Single.yml
+  name: Single
+  fullName: System.Single
+  type: Struct
+- uid: System.Double
+  parent: System
+  isExternal: false
+  href: System.Double.yml
+  name: Double
+  fullName: System.Double
+  type: Struct

@@ -1,0 +1,362 @@
+items:
+- uid: System.Runtime.CompilerServices.ContractHelper
+  id: ContractHelper
+  parent: System.Runtime.CompilerServices
+  children:
+  - System.Runtime.CompilerServices.ContractHelper.RaiseContractFailedEvent(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception)
+  - System.Runtime.CompilerServices.ContractHelper.TriggerFailure(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception)
+  href: System.Runtime.CompilerServices.ContractHelper.yml
+  name: ContractHelper
+  fullName: System.Runtime.CompilerServices.ContractHelper
+  type: Class
+  source:
+    remote:
+      path: src/mscorlib/src/System/Diagnostics/Contracts/ContractsBCL.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/Contracts/ContractsBCL.cs
+    startLine: 269
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  syntax:
+    content: public class ContractHelper
+    content.vb: Public Class ContractHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Runtime.CompilerServices.ContractHelper.RaiseContractFailedEvent(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception)
+  id: RaiseContractFailedEvent(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception)
+  parent: System.Runtime.CompilerServices.ContractHelper
+  href: System.Runtime.CompilerServices.ContractHelper.yml
+  name: RaiseContractFailedEvent(ContractFailureKind, String, String, Exception)
+  fullName: System.Runtime.CompilerServices.ContractHelper.RaiseContractFailedEvent(System.Diagnostics.Contracts.ContractFailureKind, System.String, System.String, System.Exception)
+  type: Method
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/Contracts/Contracts.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/Contracts/Contracts.cs
+    startLine: 967
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  summary: >-
+    Rewriter will call this method on a contract failure to allow listeners to be notified.
+
+    The method should not perform any failure (assert/throw) itself.
+  syntax:
+    content: public static string RaiseContractFailedEvent(ContractFailureKind failureKind, string userMessage, string conditionText, Exception innerException)
+    content.vb: Public Shared Function RaiseContractFailedEvent(failureKind As ContractFailureKind, userMessage As String, conditionText As String, innerException As Exception) As String
+    parameters:
+    - id: failureKind
+      type: System.Diagnostics.Contracts.ContractFailureKind
+    - id: userMessage
+      type: System.String
+    - id: conditionText
+      type: System.String
+    - id: innerException
+      type: System.Exception
+    return:
+      type: System.String
+      description: >-
+        null if the event was handled and should not trigger a failure.
+
+        Otherwise, returns the localized failure message
+- uid: System.Runtime.CompilerServices.ContractHelper.TriggerFailure(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception)
+  id: TriggerFailure(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception)
+  parent: System.Runtime.CompilerServices.ContractHelper
+  href: System.Runtime.CompilerServices.ContractHelper.yml
+  name: TriggerFailure(ContractFailureKind, String, String, String, Exception)
+  fullName: System.Runtime.CompilerServices.ContractHelper.TriggerFailure(System.Diagnostics.Contracts.ContractFailureKind, System.String, System.String, System.String, System.Exception)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Contracts/Contracts.cs
+    startLine: 983
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  summary: Rewriter calls this method to get the default failure behavior.
+  syntax:
+    content: public static void TriggerFailure(ContractFailureKind kind, string displayMessage, string userMessage, string conditionText, Exception innerException)
+    content.vb: Public Shared Sub TriggerFailure(kind As ContractFailureKind, displayMessage As String, userMessage As String, conditionText As String, innerException As Exception)
+    parameters:
+    - id: kind
+      type: System.Diagnostics.Contracts.ContractFailureKind
+    - id: displayMessage
+      type: System.String
+    - id: userMessage
+      type: System.String
+    - id: conditionText
+      type: System.String
+    - id: innerException
+      type: System.Exception
+references:
+- uid: System.Runtime.CompilerServices
+  isExternal: false
+  name: System.Runtime.CompilerServices
+  fullName: System.Runtime.CompilerServices
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Diagnostics.Contracts.ContractFailureKind
+  parent: System.Diagnostics.Contracts
+  isExternal: false
+  href: System.Diagnostics.Contracts.ContractFailureKind.yml
+  name: ContractFailureKind
+  fullName: System.Diagnostics.Contracts.ContractFailureKind
+  type: Enum
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  href: System.Exception.yml
+  name: Exception
+  fullName: System.Exception
+  type: Class
+- uid: System.Diagnostics.Contracts
+  isExternal: false
+  name: System.Diagnostics.Contracts
+  fullName: System.Diagnostics.Contracts
+  type: Namespace

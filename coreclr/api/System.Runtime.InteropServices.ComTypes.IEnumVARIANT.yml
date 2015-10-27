@@ -1,0 +1,168 @@
+items:
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  id: IEnumVARIANT
+  parent: System.Runtime.InteropServices.ComTypes
+  children:
+  - System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone
+  - System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next(System.Int32,System.Object[],System.IntPtr)
+  - System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset
+  - System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip(System.Int32)
+  href: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  name: IEnumVARIANT
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/ComTypes/IEnumVARIANT.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/ComTypes/IEnumVARIANT.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: public interface IEnumVARIANT
+    content.vb: Public Interface IEnumVARIANT
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next(System.Int32,System.Object[],System.IntPtr)
+  id: Next(System.Int32,System.Object[],System.IntPtr)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  href: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  name: Next(Int32, Object[], IntPtr)
+  name.vb: Next(Int32, Object(), IntPtr)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next(System.Int32, System.Object[], System.IntPtr)
+  fullName.vb: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next(System.Int32, System.Object(), System.IntPtr)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ComTypes/IEnumVARIANT.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: int Next(int celt, object[] rgVar, IntPtr pceltFetched)
+    content.vb: Function Next(celt As Integer, rgVar As Object(), pceltFetched As IntPtr) As Integer
+    parameters:
+    - id: celt
+      type: System.Int32
+    - id: rgVar
+      type: System.Object[]
+    - id: pceltFetched
+      type: System.IntPtr
+    return:
+      type: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip(System.Int32)
+  id: Skip(System.Int32)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  href: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  name: Skip(Int32)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ComTypes/IEnumVARIANT.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: int Skip(int celt)
+    content.vb: Function Skip(celt As Integer) As Integer
+    parameters:
+    - id: celt
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset
+  id: Reset
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  href: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  name: Reset()
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ComTypes/IEnumVARIANT.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: int Reset()
+    content.vb: Function Reset As Integer
+    return:
+      type: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone
+  id: Clone
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  href: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  name: Clone()
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ComTypes/IEnumVARIANT.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  syntax:
+    content: IEnumVARIANT Clone()
+    content.vb: Function Clone As IEnumVARIANT
+    return:
+      type: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+references:
+- uid: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  name: System.Runtime.InteropServices.ComTypes
+  fullName: System.Runtime.InteropServices.ComTypes
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Object[]
+  isExternal: false
+  href: System.Object.yml
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ()
+    fullName: ()
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  href: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.yml
+  name: IEnumVARIANT
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  type: Interface

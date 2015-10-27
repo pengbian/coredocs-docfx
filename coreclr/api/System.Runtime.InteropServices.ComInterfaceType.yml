@@ -1,0 +1,97 @@
+items:
+- uid: System.Runtime.InteropServices.ComInterfaceType
+  id: ComInterfaceType
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual
+  - System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch
+  - System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIInspectable
+  - System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown
+  href: System.Runtime.InteropServices.ComInterfaceType.yml
+  name: ComInterfaceType
+  fullName: System.Runtime.InteropServices.ComInterfaceType
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum ComInterfaceType
+    content.vb: Public Enum ComInterfaceType
+- uid: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual
+  id: InterfaceIsDual
+  parent: System.Runtime.InteropServices.ComInterfaceType
+  href: System.Runtime.InteropServices.ComInterfaceType.yml
+  name: InterfaceIsDual
+  fullName: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 72
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: InterfaceIsDual = 0
+- uid: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown
+  id: InterfaceIsIUnknown
+  parent: System.Runtime.InteropServices.ComInterfaceType
+  href: System.Runtime.InteropServices.ComInterfaceType.yml
+  name: InterfaceIsIUnknown
+  fullName: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 73
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: InterfaceIsIUnknown = 1
+- uid: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch
+  id: InterfaceIsIDispatch
+  parent: System.Runtime.InteropServices.ComInterfaceType
+  href: System.Runtime.InteropServices.ComInterfaceType.yml
+  name: InterfaceIsIDispatch
+  fullName: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 74
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: InterfaceIsIDispatch = 2
+- uid: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIInspectable
+  id: InterfaceIsIInspectable
+  parent: System.Runtime.InteropServices.ComInterfaceType
+  href: System.Runtime.InteropServices.ComInterfaceType.yml
+  name: InterfaceIsIInspectable
+  fullName: System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIInspectable
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/Attributes.cs
+    startLine: 76
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: InterfaceIsIInspectable = 3
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

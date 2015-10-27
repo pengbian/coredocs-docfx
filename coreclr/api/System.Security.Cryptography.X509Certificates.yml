@@ -1,0 +1,48 @@
+items:
+- uid: System.Security.Cryptography.X509Certificates
+  id: System.Security.Cryptography.X509Certificates
+  children:
+  - System.Security.Cryptography.X509Certificates.X509Certificate
+  - System.Security.Cryptography.X509Certificates.X509ContentType
+  - System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
+  href: System.Security.Cryptography.X509Certificates.yml
+  name: System.Security.Cryptography.X509Certificates
+  fullName: System.Security.Cryptography.X509Certificates
+  type: Namespace
+  source:
+    remote:
+      path: src/mscorlib/src/System/Security/Cryptography/X509Certificates/X509Certificate.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Cryptography/X509Certificates/X509Certificate.cs
+    startLine: 3
+  assemblies:
+  - mscorlib
+references:
+- uid: System.Security.Cryptography.X509Certificates.X509ContentType
+  parent: System.Security.Cryptography.X509Certificates
+  isExternal: false
+  href: System.Security.Cryptography.X509Certificates.X509ContentType.yml
+  name: X509ContentType
+  fullName: System.Security.Cryptography.X509Certificates.X509ContentType
+  type: Enum
+- uid: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
+  parent: System.Security.Cryptography.X509Certificates
+  isExternal: false
+  href: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.yml
+  name: X509KeyStorageFlags
+  fullName: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
+  type: Enum
+- uid: System.Security.Cryptography.X509Certificates.X509Certificate
+  parent: System.Security.Cryptography.X509Certificates
+  isExternal: false
+  href: System.Security.Cryptography.X509Certificates.X509Certificate.yml
+  name: X509Certificate
+  fullName: System.Security.Cryptography.X509Certificates.X509Certificate
+  type: Class
+- uid: System.Security.Cryptography.X509Certificates
+  isExternal: false
+  name: System.Security.Cryptography.X509Certificates
+  fullName: System.Security.Cryptography.X509Certificates
+  type: Namespace

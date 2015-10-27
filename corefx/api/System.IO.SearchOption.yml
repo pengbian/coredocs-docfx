@@ -1,0 +1,63 @@
+items:
+- uid: System.IO.SearchOption
+  id: SearchOption
+  parent: System.IO
+  children:
+  - System.IO.SearchOption.AllDirectories
+  - System.IO.SearchOption.TopDirectoryOnly
+  href: System.IO.SearchOption.yml
+  name: SearchOption
+  fullName: System.IO.SearchOption
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.IO.FileSystem/src/System/IO/SearchOption.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.FileSystem/src/System/IO/SearchOption.cs
+    startLine: 12
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: public enum SearchOption
+    content.vb: Public Enum SearchOption
+- uid: System.IO.SearchOption.TopDirectoryOnly
+  id: TopDirectoryOnly
+  parent: System.IO.SearchOption
+  href: System.IO.SearchOption.yml
+  name: TopDirectoryOnly
+  fullName: System.IO.SearchOption.TopDirectoryOnly
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/SearchOption.cs
+    startLine: 17
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: TopDirectoryOnly = 0
+- uid: System.IO.SearchOption.AllDirectories
+  id: AllDirectories
+  parent: System.IO.SearchOption
+  href: System.IO.SearchOption.yml
+  name: AllDirectories
+  fullName: System.IO.SearchOption.AllDirectories
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.FileSystem/src/System/IO/SearchOption.cs
+    startLine: 26
+  assemblies:
+  - System.IO.FileSystem
+  namespace: System.IO
+  syntax:
+    content: AllDirectories = 1
+references:
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace

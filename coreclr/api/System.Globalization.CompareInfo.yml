@@ -1,0 +1,1533 @@
+items:
+- uid: System.Globalization.CompareInfo
+  id: CompareInfo
+  parent: System.Globalization
+  children:
+  - System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32)
+  - System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32)
+  - System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.Compare(System.String,System.String)
+  - System.Globalization.CompareInfo.Compare(System.String,System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.Equals(System.Object)
+  - System.Globalization.CompareInfo.GetCompareInfo(System.String)
+  - System.Globalization.CompareInfo.GetCompareInfo(System.String,System.Reflection.Assembly)
+  - System.Globalization.CompareInfo.GetHashCode
+  - System.Globalization.CompareInfo.GetHashCode(System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.GetSortKey(System.String)
+  - System.Globalization.CompareInfo.GetSortKey(System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.Char)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.String)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32)
+  - System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IsPrefix(System.String,System.String)
+  - System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.IsSortable(System.Char)
+  - System.Globalization.CompareInfo.IsSortable(System.String)
+  - System.Globalization.CompareInfo.IsSuffix(System.String,System.String)
+  - System.Globalization.CompareInfo.IsSuffix(System.String,System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Int32)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.String)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Int32)
+  - System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  - System.Globalization.CompareInfo.Name
+  - System.Globalization.CompareInfo.ToString
+  href: System.Globalization.CompareInfo.yml
+  name: CompareInfo
+  fullName: System.Globalization.CompareInfo
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 66
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public class CompareInfo
+    content.vb: Public Class CompareInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Globalization.CompareInfo.GetCompareInfo(System.String,System.Reflection.Assembly)
+  id: GetCompareInfo(System.String,System.Reflection.Assembly)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: GetCompareInfo(String, Assembly)
+  fullName: System.Globalization.CompareInfo.GetCompareInfo(System.String, System.Reflection.Assembly)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 165
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static CompareInfo GetCompareInfo(string name, Assembly assembly)
+    content.vb: Public Shared Function GetCompareInfo(name As String, assembly As Assembly) As CompareInfo
+    parameters:
+    - id: name
+      type: System.String
+    - id: assembly
+      type: System.Reflection.Assembly
+    return:
+      type: System.Globalization.CompareInfo
+- uid: System.Globalization.CompareInfo.GetCompareInfo(System.String)
+  id: GetCompareInfo(System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: GetCompareInfo(String)
+  fullName: System.Globalization.CompareInfo.GetCompareInfo(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 211
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static CompareInfo GetCompareInfo(string name)
+    content.vb: Public Shared Function GetCompareInfo(name As String) As CompareInfo
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Globalization.CompareInfo
+- uid: System.Globalization.CompareInfo.IsSortable(System.Char)
+  id: IsSortable(System.Char)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IsSortable(Char)
+  fullName: System.Globalization.CompareInfo.IsSortable(System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 222
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static bool IsSortable(char ch)
+    content.vb: Public Shared Function IsSortable(ch As Char) As Boolean
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Boolean
+- uid: System.Globalization.CompareInfo.IsSortable(System.String)
+  id: IsSortable(System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IsSortable(String)
+  fullName: System.Globalization.CompareInfo.IsSortable(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 227
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public static bool IsSortable(string text)
+    content.vb: Public Shared Function IsSortable(text As String) As Boolean
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+- uid: System.Globalization.CompareInfo.Name
+  id: Name
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Name
+  fullName: System.Globalization.CompareInfo.Name
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 319
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual string Name { get; }
+    content.vb: Public Overridable ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: System.Globalization.CompareInfo.Compare(System.String,System.String)
+  id: Compare(System.String,System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Compare(String, String)
+  fullName: System.Globalization.CompareInfo.Compare(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 396
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int Compare(string string1, string string2)
+    content.vb: Public Overridable Function Compare(string1 As String, string2 As String) As Integer
+    parameters:
+    - id: string1
+      type: System.String
+    - id: string2
+      type: System.String
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.Compare(System.String,System.String,System.Globalization.CompareOptions)
+  id: Compare(System.String,System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Compare(String, String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.Compare(System.String, System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 401
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int Compare(string string1, string string2, CompareOptions options)
+    content.vb: Public Overridable Function Compare(string1 As String, string2 As String, options As CompareOptions) As Integer
+    parameters:
+    - id: string1
+      type: System.String
+    - id: string2
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32)
+  id: Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Compare(String, Int32, Int32, String, Int32, Int32)
+  fullName: System.Globalization.CompareInfo.Compare(System.String, System.Int32, System.Int32, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 453
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int Compare(string string1, int offset1, int length1, string string2, int offset2, int length2)
+    content.vb: Public Overridable Function Compare(string1 As String, offset1 As Integer, length1 As Integer, string2 As String, offset2 As Integer, length2 As Integer) As Integer
+    parameters:
+    - id: string1
+      type: System.String
+    - id: offset1
+      type: System.Int32
+    - id: length1
+      type: System.Int32
+    - id: string2
+      type: System.String
+    - id: offset2
+      type: System.Int32
+    - id: length2
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions)
+  id: Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Compare(String, Int32, String, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.Compare(System.String, System.Int32, System.String, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 459
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int Compare(string string1, int offset1, string string2, int offset2, CompareOptions options)
+    content.vb: Public Overridable Function Compare(string1 As String, offset1 As Integer, string2 As String, offset2 As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: string1
+      type: System.String
+    - id: offset1
+      type: System.Int32
+    - id: string2
+      type: System.String
+    - id: offset2
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32)
+  id: Compare(System.String,System.Int32,System.String,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Compare(String, Int32, String, Int32)
+  fullName: System.Globalization.CompareInfo.Compare(System.String, System.Int32, System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 466
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int Compare(string string1, int offset1, string string2, int offset2)
+    content.vb: Public Overridable Function Compare(string1 As String, offset1 As Integer, string2 As String, offset2 As Integer) As Integer
+    parameters:
+    - id: string1
+      type: System.String
+    - id: offset1
+      type: System.Int32
+    - id: string2
+      type: System.String
+    - id: offset2
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  id: Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Compare(String, Int32, Int32, String, Int32, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.Compare(System.String, System.Int32, System.Int32, System.String, System.Int32, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 472
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int Compare(string string1, int offset1, int length1, string string2, int offset2, int length2, CompareOptions options)
+    content.vb: Public Overridable Function Compare(string1 As String, offset1 As Integer, length1 As Integer, string2 As String, offset2 As Integer, length2 As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: string1
+      type: System.String
+    - id: offset1
+      type: System.Int32
+    - id: length1
+      type: System.Int32
+    - id: string2
+      type: System.String
+    - id: offset2
+      type: System.Int32
+    - id: length2
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)
+  id: IsPrefix(System.String,System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IsPrefix(String, String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IsPrefix(System.String, System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 562
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsPrefix(string source, string prefix, CompareOptions options)
+    content.vb: Public Overridable Function IsPrefix(source As String, prefix As String, options As CompareOptions) As Boolean
+    parameters:
+    - id: source
+      type: System.String
+    - id: prefix
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Boolean
+- uid: System.Globalization.CompareInfo.IsPrefix(System.String,System.String)
+  id: IsPrefix(System.String,System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IsPrefix(String, String)
+  fullName: System.Globalization.CompareInfo.IsPrefix(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 601
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsPrefix(string source, string prefix)
+    content.vb: Public Overridable Function IsPrefix(source As String, prefix As String) As Boolean
+    parameters:
+    - id: source
+      type: System.String
+    - id: prefix
+      type: System.String
+    return:
+      type: System.Boolean
+- uid: System.Globalization.CompareInfo.IsSuffix(System.String,System.String,System.Globalization.CompareOptions)
+  id: IsSuffix(System.String,System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IsSuffix(String, String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IsSuffix(System.String, System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 617
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsSuffix(string source, string suffix, CompareOptions options)
+    content.vb: Public Overridable Function IsSuffix(source As String, suffix As String, options As CompareOptions) As Boolean
+    parameters:
+    - id: source
+      type: System.String
+    - id: suffix
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Boolean
+- uid: System.Globalization.CompareInfo.IsSuffix(System.String,System.String)
+  id: IsSuffix(System.String,System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IsSuffix(String, String)
+  fullName: System.Globalization.CompareInfo.IsSuffix(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 653
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual bool IsSuffix(string source, string suffix)
+    content.vb: Public Overridable Function IsSuffix(source As String, suffix As String) As Boolean
+    parameters:
+    - id: source
+      type: System.String
+    - id: suffix
+      type: System.String
+    return:
+      type: System.Boolean
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char)
+  id: IndexOf(System.String,System.Char)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, Char)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 672
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, char value)
+    content.vb: Public Overridable Function IndexOf(source As String, value As Char) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String)
+  id: IndexOf(System.String,System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, String)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 682
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, string value)
+    content.vb: Public Overridable Function IndexOf(source As String, value As String) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Globalization.CompareOptions)
+  id: IndexOf(System.String,System.Char,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, Char, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.Char, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 692
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, char value, CompareOptions options)
+    content.vb: Public Overridable Function IndexOf(source As String, value As Char, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Globalization.CompareOptions)
+  id: IndexOf(System.String,System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 702
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, string value, CompareOptions options)
+    content.vb: Public Overridable Function IndexOf(source As String, value As String, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32)
+  id: IndexOf(System.String,System.Char,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, Char, Int32)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.Char, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 712
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, char value, int startIndex)
+    content.vb: Public Overridable Function IndexOf(source As String, value As Char, startIndex As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32)
+  id: IndexOf(System.String,System.String,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, String, Int32)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 722
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, string value, int startIndex)
+    content.vb: Public Overridable Function IndexOf(source As String, value As String, startIndex As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
+  id: IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, Char, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.Char, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 732
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, char value, int startIndex, CompareOptions options)
+    content.vb: Public Overridable Function IndexOf(source As String, value As Char, startIndex As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
+  id: IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, String, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.String, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 742
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, string value, int startIndex, CompareOptions options)
+    content.vb: Public Overridable Function IndexOf(source As String, value As String, startIndex As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32)
+  id: IndexOf(System.String,System.Char,System.Int32,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, Char, Int32, Int32)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.Char, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 752
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, char value, int startIndex, int count)
+    content.vb: Public Overridable Function IndexOf(source As String, value As Char, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32)
+  id: IndexOf(System.String,System.String,System.Int32,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, String, Int32, Int32)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 758
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, string value, int startIndex, int count)
+    content.vb: Public Overridable Function IndexOf(source As String, value As String, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  id: IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, Char, Int32, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.Char, System.Int32, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 763
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, char value, int startIndex, int count, CompareOptions options)
+    content.vb: Public Overridable Function IndexOf(source As String, value As Char, startIndex As Integer, count As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  id: IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: IndexOf(String, String, Int32, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.IndexOf(System.String, System.String, System.Int32, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 796
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int IndexOf(string source, string value, int startIndex, int count, CompareOptions options)
+    content.vb: Public Overridable Function IndexOf(source As String, value As String, startIndex As Integer, count As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char)
+  id: LastIndexOf(System.String,System.Char)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, Char)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.Char)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 862
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, char value)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As Char) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String)
+  id: LastIndexOf(System.String,System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, String)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 874
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, string value)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As String) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions)
+  id: LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, Char, CompareOptions)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.Char, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 886
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, char value, CompareOptions options)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As Char, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Globalization.CompareOptions)
+  id: LastIndexOf(System.String,System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 897
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, string value, CompareOptions options)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As String, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32)
+  id: LastIndexOf(System.String,System.Char,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, Char, Int32)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.Char, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 909
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, char value, int startIndex)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As Char, startIndex As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32)
+  id: LastIndexOf(System.String,System.String,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, String, Int32)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 915
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, string value, int startIndex)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As String, startIndex As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
+  id: LastIndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, Char, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.Char, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 921
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, char value, int startIndex, CompareOptions options)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As Char, startIndex As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
+  id: LastIndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, String, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.String, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 927
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, string value, int startIndex, CompareOptions options)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As String, startIndex As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Int32)
+  id: LastIndexOf(System.String,System.Char,System.Int32,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, Char, Int32, Int32)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.Char, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 933
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, char value, int startIndex, int count)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As Char, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Int32)
+  id: LastIndexOf(System.String,System.String,System.Int32,System.Int32)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, String, Int32, Int32)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 939
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, string value, int startIndex, int count)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As String, startIndex As Integer, count As Integer) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  id: LastIndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, Char, Int32, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.Char, System.Int32, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 945
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, char value, int startIndex, int count, CompareOptions options)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As Char, startIndex As Integer, count As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.Char
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  id: LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: LastIndexOf(String, String, Int32, Int32, CompareOptions)
+  fullName: System.Globalization.CompareInfo.LastIndexOf(System.String, System.String, System.Int32, System.Int32, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 994
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int LastIndexOf(string source, string value, int startIndex, int count, CompareOptions options)
+    content.vb: Public Overridable Function LastIndexOf(source As String, value As String, startIndex As Integer, count As Integer, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: value
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.GetSortKey(System.String,System.Globalization.CompareOptions)
+  id: GetSortKey(System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: GetSortKey(String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.GetSortKey(System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 1056
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual SortKey GetSortKey(string source, CompareOptions options)
+    content.vb: Public Overridable Function GetSortKey(source As String, options As CompareOptions) As SortKey
+    parameters:
+    - id: source
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Globalization.SortKey
+- uid: System.Globalization.CompareInfo.GetSortKey(System.String)
+  id: GetSortKey(System.String)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: GetSortKey(String)
+  fullName: System.Globalization.CompareInfo.GetSortKey(System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 1062
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual SortKey GetSortKey(string source)
+    content.vb: Public Overridable Function GetSortKey(source As String) As SortKey
+    parameters:
+    - id: source
+      type: System.String
+    return:
+      type: System.Globalization.SortKey
+- uid: System.Globalization.CompareInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: Equals(Object)
+  fullName: System.Globalization.CompareInfo.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 1136
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public override bool Equals(object value)
+    content.vb: Public Overrides Function Equals(value As Object) As Boolean
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Globalization.CompareInfo.GetHashCode
+  id: GetHashCode
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: GetHashCode()
+  fullName: System.Globalization.CompareInfo.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 1160
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+  overridden: System.Object.GetHashCode
+- uid: System.Globalization.CompareInfo.GetHashCode(System.String,System.Globalization.CompareOptions)
+  id: GetHashCode(System.String,System.Globalization.CompareOptions)
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: GetHashCode(String, CompareOptions)
+  fullName: System.Globalization.CompareInfo.GetHashCode(System.String, System.Globalization.CompareOptions)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 1169
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public virtual int GetHashCode(string source, CompareOptions options)
+    content.vb: Public Overridable Function GetHashCode(source As String, options As CompareOptions) As Integer
+    parameters:
+    - id: source
+      type: System.String
+    - id: options
+      type: System.Globalization.CompareOptions
+    return:
+      type: System.Int32
+- uid: System.Globalization.CompareInfo.ToString
+  id: ToString
+  parent: System.Globalization.CompareInfo
+  href: System.Globalization.CompareInfo.yml
+  name: ToString()
+  fullName: System.Globalization.CompareInfo.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CompareInfo.cs
+    startLine: 1260
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+  overridden: System.Object.ToString
+references:
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Assembly.yml
+  name: Assembly
+  fullName: System.Reflection.Assembly
+  type: Class
+- uid: System.Globalization.CompareInfo
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CompareInfo.yml
+  name: CompareInfo
+  fullName: System.Globalization.CompareInfo
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Char
+  parent: System
+  isExternal: false
+  href: System.Char.yml
+  name: Char
+  fullName: System.Char
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Globalization.CompareOptions
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.CompareOptions.yml
+  name: CompareOptions
+  fullName: System.Globalization.CompareOptions
+  type: Enum
+- uid: System.Globalization.SortKey
+  parent: System.Globalization
+  isExternal: false
+  href: System.Globalization.SortKey.yml
+  name: SortKey
+  fullName: System.Globalization.SortKey
+  type: Class
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )

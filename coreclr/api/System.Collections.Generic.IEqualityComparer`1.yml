@@ -1,0 +1,106 @@
+items:
+- uid: System.Collections.Generic.IEqualityComparer`1
+  id: IEqualityComparer`1
+  parent: System.Collections.Generic
+  children:
+  - System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)
+  - System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)
+  href: System.Collections.Generic.IEqualityComparer`1.yml
+  name: IEqualityComparer<T>
+  name.vb: IEqualityComparer(Of T)
+  fullName: System.Collections.Generic.IEqualityComparer<T>
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T)
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/Generic/IEqualityComparer.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/Generic/IEqualityComparer.cs
+    startLine: 11
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.Generic
+  syntax:
+    content: public interface IEqualityComparer<in T>
+    content.vb: Public Interface IEqualityComparer(Of In T)
+    typeParameters:
+    - id: T
+- uid: System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)
+  id: Equals(`0,`0)
+  parent: System.Collections.Generic.IEqualityComparer`1
+  href: System.Collections.Generic.IEqualityComparer`1.yml
+  name: Equals(T, T)
+  fullName: System.Collections.Generic.IEqualityComparer<T>.Equals(T, T)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T).Equals(T, T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Generic/IEqualityComparer.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.Generic
+  syntax:
+    content: bool Equals(T x, T y)
+    content.vb: Function Equals(x As T, y As T) As Boolean
+    parameters:
+    - id: x
+      type: '{T}'
+    - id: y
+      type: '{T}'
+    return:
+      type: System.Boolean
+- uid: System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)
+  id: GetHashCode(`0)
+  parent: System.Collections.Generic.IEqualityComparer`1
+  href: System.Collections.Generic.IEqualityComparer`1.yml
+  name: GetHashCode(T)
+  fullName: System.Collections.Generic.IEqualityComparer<T>.GetHashCode(T)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T).GetHashCode(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/Generic/IEqualityComparer.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Collections.Generic
+  syntax:
+    content: int GetHashCode(T obj)
+    content.vb: Function GetHashCode(obj As T) As Integer
+    parameters:
+    - id: obj
+      type: '{T}'
+    return:
+      type: System.Int32
+references:
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct

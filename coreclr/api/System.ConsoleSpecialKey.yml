@@ -1,0 +1,63 @@
+items:
+- uid: System.ConsoleSpecialKey
+  id: ConsoleSpecialKey
+  parent: System
+  children:
+  - System.ConsoleSpecialKey.ControlBreak
+  - System.ConsoleSpecialKey.ControlC
+  href: System.ConsoleSpecialKey.yml
+  name: ConsoleSpecialKey
+  fullName: System.ConsoleSpecialKey
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/ConsoleSpecialKey.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/ConsoleSpecialKey.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public enum ConsoleSpecialKey
+    content.vb: Public Enum ConsoleSpecialKey
+- uid: System.ConsoleSpecialKey.ControlC
+  id: ControlC
+  parent: System.ConsoleSpecialKey
+  href: System.ConsoleSpecialKey.yml
+  name: ControlC
+  fullName: System.ConsoleSpecialKey.ControlC
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ConsoleSpecialKey.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: ControlC = 0
+- uid: System.ConsoleSpecialKey.ControlBreak
+  id: ControlBreak
+  parent: System.ConsoleSpecialKey
+  href: System.ConsoleSpecialKey.yml
+  name: ControlBreak
+  fullName: System.ConsoleSpecialKey.ControlBreak
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ConsoleSpecialKey.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: ControlBreak = 1
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

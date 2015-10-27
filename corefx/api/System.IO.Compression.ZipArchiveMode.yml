@@ -1,0 +1,106 @@
+items:
+- uid: System.IO.Compression.ZipArchiveMode
+  id: ZipArchiveMode
+  parent: System.IO.Compression
+  children:
+  - System.IO.Compression.ZipArchiveMode.Create
+  - System.IO.Compression.ZipArchiveMode.Read
+  - System.IO.Compression.ZipArchiveMode.Update
+  href: System.IO.Compression.ZipArchiveMode.yml
+  name: ZipArchiveMode
+  fullName: System.IO.Compression.ZipArchiveMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.IO.Compression/src/System/IO/Compression/ZipArchiveMode.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.IO.Compression/src/System/IO/Compression/ZipArchiveMode.cs
+    startLine: 5
+  assemblies:
+  - System.IO.Compression
+  namespace: System.IO.Compression
+  syntax:
+    content: public enum ZipArchiveMode
+    content.vb: Public Enum ZipArchiveMode
+- uid: System.IO.Compression.ZipArchiveMode.Read
+  id: Read
+  parent: System.IO.Compression.ZipArchiveMode
+  href: System.IO.Compression.ZipArchiveMode.yml
+  name: Read
+  fullName: System.IO.Compression.ZipArchiveMode.Read
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.Compression/src/System/IO/Compression/ZipArchiveMode.cs
+    startLine: 13
+  assemblies:
+  - System.IO.Compression
+  namespace: System.IO.Compression
+  summary: >-
+    Only reading entries from the archive is permitted.
+
+    If the underlying file or stream is seekable, then files will be read from the archive on-demand as they are requested.
+
+    If the underlying file or stream is not seekable, the entire archive will be held in memory.
+
+    Requires that the underlying file or stream is readable.
+  syntax:
+    content: Read = 0
+- uid: System.IO.Compression.ZipArchiveMode.Create
+  id: Create
+  parent: System.IO.Compression.ZipArchiveMode
+  href: System.IO.Compression.ZipArchiveMode.yml
+  name: Create
+  fullName: System.IO.Compression.ZipArchiveMode.Create
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.Compression/src/System/IO/Compression/ZipArchiveMode.cs
+    startLine: 21
+  assemblies:
+  - System.IO.Compression
+  namespace: System.IO.Compression
+  summary: >-
+    Only supports the creation of new archives.
+
+    Only writing to newly created entries in the archive is permitted.
+
+    Each entry in the archive can only be opened for writing once.
+
+    If only one entry is written to at a time, data will be written to the underlying stream or file as soon as it is available.
+
+    The underlying stream must be writeable, but need not be seekable.
+  syntax:
+    content: Create = 1
+- uid: System.IO.Compression.ZipArchiveMode.Update
+  id: Update
+  parent: System.IO.Compression.ZipArchiveMode
+  href: System.IO.Compression.ZipArchiveMode.yml
+  name: Update
+  fullName: System.IO.Compression.ZipArchiveMode.Update
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.IO.Compression/src/System/IO/Compression/ZipArchiveMode.cs
+    startLine: 28
+  assemblies:
+  - System.IO.Compression
+  namespace: System.IO.Compression
+  summary: >-
+    Reading and writing from entries in the archive is permitted.
+
+    Requires that the contents of the entire archive be held in memory.
+
+    The underlying file or stream must be readable, writeable and seekable.
+
+    No data will be written to the underlying file or stream until the archive is disposed.
+  syntax:
+    content: Update = 2
+references:
+- uid: System.IO.Compression
+  isExternal: false
+  name: System.IO.Compression
+  fullName: System.IO.Compression
+  type: Namespace

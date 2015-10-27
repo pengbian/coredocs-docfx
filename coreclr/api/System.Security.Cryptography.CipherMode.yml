@@ -1,0 +1,114 @@
+items:
+- uid: System.Security.Cryptography.CipherMode
+  id: CipherMode
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.CipherMode.CBC
+  - System.Security.Cryptography.CipherMode.CFB
+  - System.Security.Cryptography.CipherMode.CTS
+  - System.Security.Cryptography.CipherMode.ECB
+  - System.Security.Cryptography.CipherMode.OFB
+  href: System.Security.Cryptography.CipherMode.yml
+  name: CipherMode
+  fullName: System.Security.Cryptography.CipherMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 11
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public enum CipherMode
+    content.vb: Public Enum CipherMode
+- uid: System.Security.Cryptography.CipherMode.CBC
+  id: CBC
+  parent: System.Security.Cryptography.CipherMode
+  href: System.Security.Cryptography.CipherMode.yml
+  name: CBC
+  fullName: System.Security.Cryptography.CipherMode.CBC
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: CBC = 1
+- uid: System.Security.Cryptography.CipherMode.ECB
+  id: ECB
+  parent: System.Security.Cryptography.CipherMode
+  href: System.Security.Cryptography.CipherMode.yml
+  name: ECB
+  fullName: System.Security.Cryptography.CipherMode.ECB
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: ECB = 2
+- uid: System.Security.Cryptography.CipherMode.OFB
+  id: OFB
+  parent: System.Security.Cryptography.CipherMode
+  href: System.Security.Cryptography.CipherMode.yml
+  name: OFB
+  fullName: System.Security.Cryptography.CipherMode.OFB
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: OFB = 3
+- uid: System.Security.Cryptography.CipherMode.CFB
+  id: CFB
+  parent: System.Security.Cryptography.CipherMode
+  href: System.Security.Cryptography.CipherMode.yml
+  name: CFB
+  fullName: System.Security.Cryptography.CipherMode.CFB
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: CFB = 4
+- uid: System.Security.Cryptography.CipherMode.CTS
+  id: CTS
+  parent: System.Security.Cryptography.CipherMode
+  href: System.Security.Cryptography.CipherMode.yml
+  name: CTS
+  fullName: System.Security.Cryptography.CipherMode.CTS
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/Crypto.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: CTS = 5
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace

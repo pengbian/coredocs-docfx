@@ -1,0 +1,66 @@
+items:
+- uid: System.IServiceProvider
+  id: IServiceProvider
+  parent: System
+  children:
+  - System.IServiceProvider.GetService(System.Type)
+  href: System.IServiceProvider.yml
+  name: IServiceProvider
+  fullName: System.IServiceProvider
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/IServiceObjectProvider.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/IServiceObjectProvider.cs
+    startLine: 9
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public interface IServiceProvider
+    content.vb: Public Interface IServiceProvider
+- uid: System.IServiceProvider.GetService(System.Type)
+  id: GetService(System.Type)
+  parent: System.IServiceProvider
+  href: System.IServiceProvider.yml
+  name: GetService(Type)
+  fullName: System.IServiceProvider.GetService(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/IServiceObjectProvider.cs
+    startLine: 12
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: object GetService(Type serviceType)
+    content.vb: Function GetService(serviceType As Type) As Object
+    parameters:
+    - id: serviceType
+      type: System.Type
+    return:
+      type: System.Object
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class

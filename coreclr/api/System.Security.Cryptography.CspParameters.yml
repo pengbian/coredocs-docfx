@@ -1,0 +1,527 @@
+items:
+- uid: System.Security.Cryptography.CspParameters
+  id: CspParameters
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.CspParameters.#ctor
+  - System.Security.Cryptography.CspParameters.#ctor(System.Int32)
+  - System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String)
+  - System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String)
+  - System.Security.Cryptography.CspParameters.Flags
+  - System.Security.Cryptography.CspParameters.KeyContainerName
+  - System.Security.Cryptography.CspParameters.KeyNumber
+  - System.Security.Cryptography.CspParameters.KeyPassword
+  - System.Security.Cryptography.CspParameters.ParentWindowHandle
+  - System.Security.Cryptography.CspParameters.ProviderName
+  - System.Security.Cryptography.CspParameters.ProviderType
+  href: System.Security.Cryptography.CspParameters.yml
+  name: CspParameters
+  fullName: System.Security.Cryptography.CspParameters
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 283
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public sealed class CspParameters
+    content.vb: Public NotInheritable Class CspParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.Cryptography.CspParameters.ProviderType
+  id: ProviderType
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: ProviderType
+  fullName: System.Security.Cryptography.CspParameters.ProviderType
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 286
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public int ProviderType
+    content.vb: Public ProviderType As Integer
+- uid: System.Security.Cryptography.CspParameters.ProviderName
+  id: ProviderName
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: ProviderName
+  fullName: System.Security.Cryptography.CspParameters.ProviderName
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 287
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public string ProviderName
+    content.vb: Public ProviderName As String
+- uid: System.Security.Cryptography.CspParameters.KeyContainerName
+  id: KeyContainerName
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: KeyContainerName
+  fullName: System.Security.Cryptography.CspParameters.KeyContainerName
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 288
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public string KeyContainerName
+    content.vb: Public KeyContainerName As String
+- uid: System.Security.Cryptography.CspParameters.KeyNumber
+  id: KeyNumber
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: KeyNumber
+  fullName: System.Security.Cryptography.CspParameters.KeyNumber
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 289
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public int KeyNumber
+    content.vb: Public KeyNumber As Integer
+- uid: System.Security.Cryptography.CspParameters.Flags
+  id: Flags
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: Flags
+  fullName: System.Security.Cryptography.CspParameters.Flags
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 292
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CspProviderFlags Flags { get; set; }
+    content.vb: Public Property Flags As CspProviderFlags
+    parameters: []
+    return:
+      type: System.Security.Cryptography.CspProviderFlags
+- uid: System.Security.Cryptography.CspParameters.KeyPassword
+  id: KeyPassword
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: KeyPassword
+  fullName: System.Security.Cryptography.CspParameters.KeyPassword
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 326
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public SecureString KeyPassword { get; set; }
+    content.vb: Public Property KeyPassword As SecureString
+    parameters: []
+    return:
+      type: System.Security.SecureString
+- uid: System.Security.Cryptography.CspParameters.ParentWindowHandle
+  id: ParentWindowHandle
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: ParentWindowHandle
+  fullName: System.Security.Cryptography.CspParameters.ParentWindowHandle
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 338
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public IntPtr ParentWindowHandle { get; set; }
+    content.vb: Public Property ParentWindowHandle As IntPtr
+    parameters: []
+    return:
+      type: System.IntPtr
+- uid: System.Security.Cryptography.CspParameters.#ctor
+  id: '#ctor'
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: CspParameters()
+  fullName: System.Security.Cryptography.CspParameters.CspParameters()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 350
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CspParameters()
+    content.vb: Public Sub New
+- uid: System.Security.Cryptography.CspParameters.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: CspParameters(Int32)
+  fullName: System.Security.Cryptography.CspParameters.CspParameters(System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 352
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CspParameters(int dwTypeIn)
+    content.vb: Public Sub New(dwTypeIn As Integer)
+    parameters:
+    - id: dwTypeIn
+      type: System.Int32
+- uid: System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: CspParameters(Int32, String)
+  fullName: System.Security.Cryptography.CspParameters.CspParameters(System.Int32, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 354
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CspParameters(int dwTypeIn, string strProviderNameIn)
+    content.vb: Public Sub New(dwTypeIn As Integer, strProviderNameIn As String)
+    parameters:
+    - id: dwTypeIn
+      type: System.Int32
+    - id: strProviderNameIn
+      type: System.String
+- uid: System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: System.Security.Cryptography.CspParameters
+  href: System.Security.Cryptography.CspParameters.yml
+  name: CspParameters(Int32, String, String)
+  fullName: System.Security.Cryptography.CspParameters.CspParameters(System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Cryptography/cryptoapiTransform.cs
+    startLine: 356
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CspParameters(int dwTypeIn, string strProviderNameIn, string strContainerNameIn)
+    content.vb: Public Sub New(dwTypeIn As Integer, strProviderNameIn As String, strContainerNameIn As String)
+    parameters:
+    - id: dwTypeIn
+      type: System.Int32
+    - id: strProviderNameIn
+      type: System.String
+    - id: strContainerNameIn
+      type: System.String
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Security.Cryptography.CspProviderFlags
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.CspProviderFlags.yml
+  name: CspProviderFlags
+  fullName: System.Security.Cryptography.CspProviderFlags
+  type: Enum
+- uid: System.Security.SecureString
+  parent: System.Security
+  isExternal: false
+  href: System.Security.SecureString.yml
+  name: SecureString
+  fullName: System.Security.SecureString
+  type: Class
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class

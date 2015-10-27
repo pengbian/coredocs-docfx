@@ -1,0 +1,520 @@
+items:
+- uid: System.Security.Cryptography.HashAlgorithm
+  id: HashAlgorithm
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.HashAlgorithm.#ctor
+  - System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])
+  - System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)
+  - System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)
+  - System.Security.Cryptography.HashAlgorithm.Dispose
+  - System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)
+  - System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)
+  - System.Security.Cryptography.HashAlgorithm.HashFinal
+  - System.Security.Cryptography.HashAlgorithm.HashSize
+  - System.Security.Cryptography.HashAlgorithm.Initialize
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: HashAlgorithm
+  fullName: System.Security.Cryptography.HashAlgorithm
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 9
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: 'public abstract class HashAlgorithm : IDisposable'
+    content.vb: Public MustInherit Class HashAlgorithm Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.Cryptography.HashAlgorithm.#ctor
+  id: '#ctor'
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: HashAlgorithm()
+  fullName: System.Security.Cryptography.HashAlgorithm.HashAlgorithm()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 11
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected HashAlgorithm()
+    content.vb: Protected Sub New
+- uid: System.Security.Cryptography.HashAlgorithm.HashSize
+  id: HashSize
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: HashSize
+  fullName: System.Security.Cryptography.HashAlgorithm.HashSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 15
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual int HashSize { get; }
+    content.vb: Public Overridable ReadOnly Property HashSize As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])
+  id: ComputeHash(System.Byte[])
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: ComputeHash(Byte[])
+  name.vb: ComputeHash(Byte())
+  fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])
+  fullName.vb: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 23
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] ComputeHash(byte[] buffer)
+    content.vb: Public Function ComputeHash(buffer As Byte()) As Byte()
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)
+  id: ComputeHash(System.Byte[],System.Int32,System.Int32)
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: ComputeHash(Byte[], Int32, Int32)
+  name.vb: ComputeHash(Byte(), Int32, Int32)
+  fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 34
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] ComputeHash(byte[] buffer, int offset, int count)
+    content.vb: Public Function ComputeHash(buffer As Byte(), offset As Integer, count As Integer) As Byte()
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)
+  id: ComputeHash(System.IO.Stream)
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: ComputeHash(Stream)
+  fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 52
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] ComputeHash(Stream inputStream)
+    content.vb: Public Function ComputeHash(inputStream As Stream) As Byte()
+    parameters:
+    - id: inputStream
+      type: System.IO.Stream
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.HashAlgorithm.Dispose
+  id: Dispose
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: Dispose()
+  fullName: System.Security.Cryptography.HashAlgorithm.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 77
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: Dispose(Boolean)
+  fullName: System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 83
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)
+  id: HashCore(System.Byte[],System.Int32,System.Int32)
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: HashCore(Byte[], Int32, Int32)
+  name.vb: HashCore(Byte(), Int32, Int32)
+  fullName: System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte(), System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 95
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected abstract void HashCore(byte[] array, int ibStart, int cbSize)
+    content.vb: Protected MustOverride Sub HashCore(array As Byte(), ibStart As Integer, cbSize As Integer)
+    parameters:
+    - id: array
+      type: System.Byte[]
+    - id: ibStart
+      type: System.Int32
+    - id: cbSize
+      type: System.Int32
+- uid: System.Security.Cryptography.HashAlgorithm.HashFinal
+  id: HashFinal
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: HashFinal()
+  fullName: System.Security.Cryptography.HashAlgorithm.HashFinal()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 96
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected abstract byte[] HashFinal()
+    content.vb: Protected MustOverride Function HashFinal As Byte()
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.HashAlgorithm.Initialize
+  id: Initialize
+  parent: System.Security.Cryptography.HashAlgorithm
+  href: System.Security.Cryptography.HashAlgorithm.yml
+  name: Initialize()
+  fullName: System.Security.Cryptography.HashAlgorithm.Initialize()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Hashing/src/System/Security/Cryptography/HashAlgorithm.cs
+    startLine: 97
+  assemblies:
+  - System.Security.Cryptography.Hashing
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract void Initialize()
+    content.vb: Public MustOverride Sub Initialize
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  isExternal: false
+  name: System.IO
+  fullName: System.IO
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean

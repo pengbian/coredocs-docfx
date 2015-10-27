@@ -1,0 +1,132 @@
+items:
+- uid: System.Runtime.InteropServices.UCOMIEnumVARIANT
+  id: UCOMIEnumVARIANT
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.UCOMIEnumVARIANT.Clone(System.Int32)
+  - System.Runtime.InteropServices.UCOMIEnumVARIANT.Next(System.Int32,System.Int32,System.Int32)
+  - System.Runtime.InteropServices.UCOMIEnumVARIANT.Reset
+  - System.Runtime.InteropServices.UCOMIEnumVARIANT.Skip(System.Int32)
+  href: System.Runtime.InteropServices.UCOMIEnumVARIANT.yml
+  name: UCOMIEnumVARIANT
+  fullName: System.Runtime.InteropServices.UCOMIEnumVARIANT
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/UCOMIEnumVARIANT.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMIEnumVARIANT.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public interface UCOMIEnumVARIANT
+    content.vb: Public Interface UCOMIEnumVARIANT
+- uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Next(System.Int32,System.Int32,System.Int32)
+  id: Next(System.Int32,System.Int32,System.Int32)
+  parent: System.Runtime.InteropServices.UCOMIEnumVARIANT
+  href: System.Runtime.InteropServices.UCOMIEnumVARIANT.yml
+  name: Next(Int32, Int32, Int32)
+  fullName: System.Runtime.InteropServices.UCOMIEnumVARIANT.Next(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMIEnumVARIANT.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: int Next(int celt, int rgvar, int pceltFetched)
+    content.vb: Function Next(celt As Integer, rgvar As Integer, pceltFetched As Integer) As Integer
+    parameters:
+    - id: celt
+      type: System.Int32
+    - id: rgvar
+      type: System.Int32
+    - id: pceltFetched
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Skip(System.Int32)
+  id: Skip(System.Int32)
+  parent: System.Runtime.InteropServices.UCOMIEnumVARIANT
+  href: System.Runtime.InteropServices.UCOMIEnumVARIANT.yml
+  name: Skip(Int32)
+  fullName: System.Runtime.InteropServices.UCOMIEnumVARIANT.Skip(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMIEnumVARIANT.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: int Skip(int celt)
+    content.vb: Function Skip(celt As Integer) As Integer
+    parameters:
+    - id: celt
+      type: System.Int32
+    return:
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Reset
+  id: Reset
+  parent: System.Runtime.InteropServices.UCOMIEnumVARIANT
+  href: System.Runtime.InteropServices.UCOMIEnumVARIANT.yml
+  name: Reset()
+  fullName: System.Runtime.InteropServices.UCOMIEnumVARIANT.Reset()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMIEnumVARIANT.cs
+    startLine: 28
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: int Reset()
+    content.vb: Function Reset As Integer
+    return:
+      type: System.Int32
+- uid: System.Runtime.InteropServices.UCOMIEnumVARIANT.Clone(System.Int32)
+  id: Clone(System.Int32)
+  parent: System.Runtime.InteropServices.UCOMIEnumVARIANT
+  href: System.Runtime.InteropServices.UCOMIEnumVARIANT.yml
+  name: Clone(Int32)
+  fullName: System.Runtime.InteropServices.UCOMIEnumVARIANT.Clone(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/UCOMIEnumVARIANT.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: void Clone(int ppenum)
+    content.vb: Sub Clone(ppenum As Integer)
+    parameters:
+    - id: ppenum
+      type: System.Int32
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

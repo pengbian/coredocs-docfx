@@ -1,0 +1,199 @@
+items:
+- uid: System.Diagnostics.SymbolStore.SymAddressKind
+  id: SymAddressKind
+  parent: System.Diagnostics.SymbolStore
+  children:
+  - System.Diagnostics.SymbolStore.SymAddressKind.BitField
+  - System.Diagnostics.SymbolStore.SymAddressKind.ILOffset
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeOffset
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeRegister
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRegister
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRelative
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterStack
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeRVA
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeSectionOffset
+  - System.Diagnostics.SymbolStore.SymAddressKind.NativeStackRegister
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: SymAddressKind
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: public enum SymAddressKind
+    content.vb: Public Enum SymAddressKind
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.ILOffset
+  id: ILOffset
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: ILOffset
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.ILOffset
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: ILOffset = 1
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRVA
+  id: NativeRVA
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeRVA
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRVA
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeRVA = 2
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegister
+  id: NativeRegister
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeRegister
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegister
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeRegister = 3
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRelative
+  id: NativeRegisterRelative
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeRegisterRelative
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRelative
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 30
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeRegisterRelative = 4
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeOffset
+  id: NativeOffset
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeOffset
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeOffset
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeOffset = 5
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRegister
+  id: NativeRegisterRegister
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeRegisterRegister
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRegister
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 36
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeRegisterRegister = 6
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterStack
+  id: NativeRegisterStack
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeRegisterStack
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterStack
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeRegisterStack = 7
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeStackRegister
+  id: NativeStackRegister
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeStackRegister
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeStackRegister
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeStackRegister = 8
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.BitField
+  id: BitField
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: BitField
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.BitField
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 45
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: BitField = 9
+- uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeSectionOffset
+  id: NativeSectionOffset
+  parent: System.Diagnostics.SymbolStore.SymAddressKind
+  href: System.Diagnostics.SymbolStore.SymAddressKind.yml
+  name: NativeSectionOffset
+  fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeSectionOffset
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/SymAddressKind.cs
+    startLine: 48
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: NativeSectionOffset = 10
+references:
+- uid: System.Diagnostics.SymbolStore
+  isExternal: false
+  name: System.Diagnostics.SymbolStore
+  fullName: System.Diagnostics.SymbolStore
+  type: Namespace

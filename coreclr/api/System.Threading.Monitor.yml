@@ -1,0 +1,695 @@
+items:
+- uid: System.Threading.Monitor
+  id: Monitor
+  parent: System.Threading
+  children:
+  - System.Threading.Monitor.Enter(System.Object)
+  - System.Threading.Monitor.Enter(System.Object,System.Boolean@)
+  - System.Threading.Monitor.Exit(System.Object)
+  - System.Threading.Monitor.IsEntered(System.Object)
+  - System.Threading.Monitor.Pulse(System.Object)
+  - System.Threading.Monitor.PulseAll(System.Object)
+  - System.Threading.Monitor.TryEnter(System.Object)
+  - System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
+  - System.Threading.Monitor.TryEnter(System.Object,System.Int32)
+  - System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
+  - System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
+  - System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  - System.Threading.Monitor.Wait(System.Object)
+  - System.Threading.Monitor.Wait(System.Object,System.Int32)
+  - System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
+  - System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
+  - System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
+  href: System.Threading.Monitor.yml
+  name: Monitor
+  fullName: System.Threading.Monitor
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Threading/Monitor.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 27
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public class Monitor
+    content.vb: Public Class Monitor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Threading.Monitor.Enter(System.Object)
+  id: Enter(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Enter(Object)
+  fullName: System.Threading.Monitor.Enter(System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Enter(object obj)
+    content.vb: Public Shared Sub Enter(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+- uid: System.Threading.Monitor.Enter(System.Object,System.Boolean@)
+  id: Enter(System.Object,System.Boolean@)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Enter(Object, ref Boolean)
+  name.vb: Enter(Object, ByRef Boolean)
+  fullName: System.Threading.Monitor.Enter(System.Object, ref System.Boolean)
+  fullName.vb: System.Threading.Monitor.Enter(System.Object, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 49
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Enter(object obj, ref bool lockTaken)
+    content.vb: Public Shared Sub Enter(obj As Object, ByRef lockTaken As Boolean)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: lockTaken
+      type: System.Boolean
+- uid: System.Threading.Monitor.Exit(System.Object)
+  id: Exit(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Exit(Object)
+  fullName: System.Threading.Monitor.Exit(System.Object)
+  type: Method
+  source:
+    path: mscorlib
+    isExternal: true
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Exit(object obj)
+    content.vb: Public Shared Sub Exit(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+- uid: System.Threading.Monitor.TryEnter(System.Object)
+  id: TryEnter(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: TryEnter(Object)
+  fullName: System.Threading.Monitor.TryEnter(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 90
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool TryEnter(object obj)
+    content.vb: Public Shared Function TryEnter(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
+  id: TryEnter(System.Object,System.Boolean@)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: TryEnter(Object, ref Boolean)
+  name.vb: TryEnter(Object, ByRef Boolean)
+  fullName: System.Threading.Monitor.TryEnter(System.Object, ref System.Boolean)
+  fullName.vb: System.Threading.Monitor.TryEnter(System.Object, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 99
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void TryEnter(object obj, ref bool lockTaken)
+    content.vb: Public Shared Sub TryEnter(obj As Object, ByRef lockTaken As Boolean)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: lockTaken
+      type: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32)
+  id: TryEnter(System.Object,System.Int32)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: TryEnter(Object, Int32)
+  fullName: System.Threading.Monitor.TryEnter(System.Object, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 117
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool TryEnter(object obj, int millisecondsTimeout)
+    content.vb: Public Shared Function TryEnter(obj As Object, millisecondsTimeout As Integer) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: millisecondsTimeout
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
+  id: TryEnter(System.Object,System.TimeSpan)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: TryEnter(Object, TimeSpan)
+  fullName: System.Threading.Monitor.TryEnter(System.Object, System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 132
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool TryEnter(object obj, TimeSpan timeout)
+    content.vb: Public Shared Function TryEnter(obj As Object, timeout As TimeSpan) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: timeout
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
+  id: TryEnter(System.Object,System.Int32,System.Boolean@)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: TryEnter(Object, Int32, ref Boolean)
+  name.vb: TryEnter(Object, Int32, ByRef Boolean)
+  fullName: System.Threading.Monitor.TryEnter(System.Object, System.Int32, ref System.Boolean)
+  fullName.vb: System.Threading.Monitor.TryEnter(System.Object, System.Int32, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 139
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void TryEnter(object obj, int millisecondsTimeout, ref bool lockTaken)
+    content.vb: Public Shared Sub TryEnter(obj As Object, millisecondsTimeout As Integer, ByRef lockTaken As Boolean)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: millisecondsTimeout
+      type: System.Int32
+    - id: lockTaken
+      type: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  id: TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: TryEnter(Object, TimeSpan, ref Boolean)
+  name.vb: TryEnter(Object, TimeSpan, ByRef Boolean)
+  fullName: System.Threading.Monitor.TryEnter(System.Object, System.TimeSpan, ref System.Boolean)
+  fullName.vb: System.Threading.Monitor.TryEnter(System.Object, System.TimeSpan, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 147
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void TryEnter(object obj, TimeSpan timeout, ref bool lockTaken)
+    content.vb: Public Shared Sub TryEnter(obj As Object, timeout As TimeSpan, ByRef lockTaken As Boolean)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: timeout
+      type: System.TimeSpan
+    - id: lockTaken
+      type: System.Boolean
+- uid: System.Threading.Monitor.IsEntered(System.Object)
+  id: IsEntered(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: IsEntered(Object)
+  fullName: System.Threading.Monitor.IsEntered(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 159
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool IsEntered(object obj)
+    content.vb: Public Shared Function IsEntered(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
+  id: Wait(System.Object,System.Int32,System.Boolean)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Wait(Object, Int32, Boolean)
+  fullName: System.Threading.Monitor.Wait(System.Object, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 187
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool Wait(object obj, int millisecondsTimeout, bool exitContext)
+    content.vb: Public Shared Function Wait(obj As Object, millisecondsTimeout As Integer, exitContext As Boolean) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: millisecondsTimeout
+      type: System.Int32
+    - id: exitContext
+      type: System.Boolean
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
+  id: Wait(System.Object,System.TimeSpan,System.Boolean)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Wait(Object, TimeSpan, Boolean)
+  fullName: System.Threading.Monitor.Wait(System.Object, System.TimeSpan, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 195
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool Wait(object obj, TimeSpan timeout, bool exitContext)
+    content.vb: Public Shared Function Wait(obj As Object, timeout As TimeSpan, exitContext As Boolean) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: timeout
+      type: System.TimeSpan
+    - id: exitContext
+      type: System.Boolean
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object,System.Int32)
+  id: Wait(System.Object,System.Int32)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Wait(Object, Int32)
+  fullName: System.Threading.Monitor.Wait(System.Object, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 200
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool Wait(object obj, int millisecondsTimeout)
+    content.vb: Public Shared Function Wait(obj As Object, millisecondsTimeout As Integer) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: millisecondsTimeout
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
+  id: Wait(System.Object,System.TimeSpan)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Wait(Object, TimeSpan)
+  fullName: System.Threading.Monitor.Wait(System.Object, System.TimeSpan)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 205
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool Wait(object obj, TimeSpan timeout)
+    content.vb: Public Shared Function Wait(obj As Object, timeout As TimeSpan) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: timeout
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object)
+  id: Wait(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Wait(Object)
+  fullName: System.Threading.Monitor.Wait(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 210
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static bool Wait(object obj)
+    content.vb: Public Shared Function Wait(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Threading.Monitor.Pulse(System.Object)
+  id: Pulse(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: Pulse(Object)
+  fullName: System.Threading.Monitor.Pulse(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 224
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void Pulse(object obj)
+    content.vb: Public Shared Sub Pulse(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+- uid: System.Threading.Monitor.PulseAll(System.Object)
+  id: PulseAll(System.Object)
+  parent: System.Threading.Monitor
+  href: System.Threading.Monitor.yml
+  name: PulseAll(Object)
+  fullName: System.Threading.Monitor.PulseAll(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Monitor.cs
+    startLine: 242
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  syntax:
+    content: public static void PulseAll(object obj)
+    content.vb: Public Shared Sub PulseAll(obj As Object)
+    parameters:
+    - id: obj
+      type: System.Object
+references:
+- uid: System.Threading
+  isExternal: false
+  name: System.Threading
+  fullName: System.Threading
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  href: System.TimeSpan.yml
+  name: TimeSpan
+  fullName: System.TimeSpan
+  type: Struct

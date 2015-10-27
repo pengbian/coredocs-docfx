@@ -1,0 +1,165 @@
+items:
+- uid: Microsoft.Win32.RegistryValueKind
+  id: RegistryValueKind
+  parent: Microsoft.Win32
+  children:
+  - Microsoft.Win32.RegistryValueKind.Binary
+  - Microsoft.Win32.RegistryValueKind.DWord
+  - Microsoft.Win32.RegistryValueKind.ExpandString
+  - Microsoft.Win32.RegistryValueKind.MultiString
+  - Microsoft.Win32.RegistryValueKind.None
+  - Microsoft.Win32.RegistryValueKind.QWord
+  - Microsoft.Win32.RegistryValueKind.String
+  - Microsoft.Win32.RegistryValueKind.Unknown
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: RegistryValueKind
+  fullName: Microsoft.Win32.RegistryValueKind
+  type: Enum
+  source:
+    remote: &o0
+      path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 5
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: public enum RegistryValueKind
+    content.vb: Public Enum RegistryValueKind
+- uid: Microsoft.Win32.RegistryValueKind.String
+  id: String
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: String
+  fullName: Microsoft.Win32.RegistryValueKind.String
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 7
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: String = 1
+- uid: Microsoft.Win32.RegistryValueKind.ExpandString
+  id: ExpandString
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: ExpandString
+  fullName: Microsoft.Win32.RegistryValueKind.ExpandString
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 8
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: ExpandString = 2
+- uid: Microsoft.Win32.RegistryValueKind.Binary
+  id: Binary
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: Binary
+  fullName: Microsoft.Win32.RegistryValueKind.Binary
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: Binary = 3
+- uid: Microsoft.Win32.RegistryValueKind.DWord
+  id: DWord
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: DWord
+  fullName: Microsoft.Win32.RegistryValueKind.DWord
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: DWord = 4
+- uid: Microsoft.Win32.RegistryValueKind.MultiString
+  id: MultiString
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: MultiString
+  fullName: Microsoft.Win32.RegistryValueKind.MultiString
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: MultiString = 7
+- uid: Microsoft.Win32.RegistryValueKind.QWord
+  id: QWord
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: QWord
+  fullName: Microsoft.Win32.RegistryValueKind.QWord
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: QWord = 11
+- uid: Microsoft.Win32.RegistryValueKind.Unknown
+  id: Unknown
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: Unknown
+  fullName: Microsoft.Win32.RegistryValueKind.Unknown
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: Unknown = 0
+- uid: Microsoft.Win32.RegistryValueKind.None
+  id: None
+  parent: Microsoft.Win32.RegistryValueKind
+  href: Microsoft.Win32.RegistryValueKind.yml
+  name: None
+  fullName: Microsoft.Win32.RegistryValueKind.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/Microsoft.Win32.Registry/src/Microsoft/Win32/RegistryValueKind.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.Win32.Registry
+  namespace: Microsoft.Win32
+  syntax:
+    content: None = -1
+references:
+- uid: Microsoft.Win32
+  isExternal: false
+  name: Microsoft.Win32
+  fullName: Microsoft.Win32
+  type: Namespace

@@ -1,0 +1,80 @@
+items:
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceResult
+  id: CustomQueryInterfaceResult
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.CustomQueryInterfaceResult.Failed
+  - System.Runtime.InteropServices.CustomQueryInterfaceResult.Handled
+  - System.Runtime.InteropServices.CustomQueryInterfaceResult.NotHandled
+  href: System.Runtime.InteropServices.CustomQueryInterfaceResult.yml
+  name: CustomQueryInterfaceResult
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceResult
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/ICustomQueryInterface.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomQueryInterface.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public enum CustomQueryInterfaceResult
+    content.vb: Public Enum CustomQueryInterfaceResult
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceResult.Handled
+  id: Handled
+  parent: System.Runtime.InteropServices.CustomQueryInterfaceResult
+  href: System.Runtime.InteropServices.CustomQueryInterfaceResult.yml
+  name: Handled
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceResult.Handled
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomQueryInterface.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Handled = 0
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceResult.NotHandled
+  id: NotHandled
+  parent: System.Runtime.InteropServices.CustomQueryInterfaceResult
+  href: System.Runtime.InteropServices.CustomQueryInterfaceResult.yml
+  name: NotHandled
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceResult.NotHandled
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomQueryInterface.cs
+    startLine: 24
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: NotHandled = 1
+- uid: System.Runtime.InteropServices.CustomQueryInterfaceResult.Failed
+  id: Failed
+  parent: System.Runtime.InteropServices.CustomQueryInterfaceResult
+  href: System.Runtime.InteropServices.CustomQueryInterfaceResult.yml
+  name: Failed
+  fullName: System.Runtime.InteropServices.CustomQueryInterfaceResult.Failed
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomQueryInterface.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: Failed = 2
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace

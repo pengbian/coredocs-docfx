@@ -1,0 +1,63 @@
+items:
+- uid: System.Runtime.GCLargeObjectHeapCompactionMode
+  id: GCLargeObjectHeapCompactionMode
+  parent: System.Runtime
+  children:
+  - System.Runtime.GCLargeObjectHeapCompactionMode.CompactOnce
+  - System.Runtime.GCLargeObjectHeapCompactionMode.Default
+  href: System.Runtime.GCLargeObjectHeapCompactionMode.yml
+  name: GCLargeObjectHeapCompactionMode
+  fullName: System.Runtime.GCLargeObjectHeapCompactionMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/GcSettings.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 14
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: public enum GCLargeObjectHeapCompactionMode
+    content.vb: Public Enum GCLargeObjectHeapCompactionMode
+- uid: System.Runtime.GCLargeObjectHeapCompactionMode.Default
+  id: Default
+  parent: System.Runtime.GCLargeObjectHeapCompactionMode
+  href: System.Runtime.GCLargeObjectHeapCompactionMode.yml
+  name: Default
+  fullName: System.Runtime.GCLargeObjectHeapCompactionMode.Default
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: Default = 1
+- uid: System.Runtime.GCLargeObjectHeapCompactionMode.CompactOnce
+  id: CompactOnce
+  parent: System.Runtime.GCLargeObjectHeapCompactionMode
+  href: System.Runtime.GCLargeObjectHeapCompactionMode.yml
+  name: CompactOnce
+  fullName: System.Runtime.GCLargeObjectHeapCompactionMode.CompactOnce
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/GcSettings.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime
+  syntax:
+    content: CompactOnce = 2
+references:
+- uid: System.Runtime
+  isExternal: false
+  name: System.Runtime
+  fullName: System.Runtime
+  type: Namespace

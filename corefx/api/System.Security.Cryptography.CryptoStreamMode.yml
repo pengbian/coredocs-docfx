@@ -1,0 +1,63 @@
+items:
+- uid: System.Security.Cryptography.CryptoStreamMode
+  id: CryptoStreamMode
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.CryptoStreamMode.Read
+  - System.Security.Cryptography.CryptoStreamMode.Write
+  href: System.Security.Cryptography.CryptoStreamMode.yml
+  name: CryptoStreamMode
+  fullName: System.Security.Cryptography.CryptoStreamMode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStreamMode.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStreamMode.cs
+    startLine: 8
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public enum CryptoStreamMode
+    content.vb: Public Enum CryptoStreamMode
+- uid: System.Security.Cryptography.CryptoStreamMode.Read
+  id: Read
+  parent: System.Security.Cryptography.CryptoStreamMode
+  href: System.Security.Cryptography.CryptoStreamMode.yml
+  name: Read
+  fullName: System.Security.Cryptography.CryptoStreamMode.Read
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStreamMode.cs
+    startLine: 10
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: Read = 0
+- uid: System.Security.Cryptography.CryptoStreamMode.Write
+  id: Write
+  parent: System.Security.Cryptography.CryptoStreamMode
+  href: System.Security.Cryptography.CryptoStreamMode.yml
+  name: Write
+  fullName: System.Security.Cryptography.CryptoStreamMode.Write
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptoStreamMode.cs
+    startLine: 11
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: Write = 1
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace

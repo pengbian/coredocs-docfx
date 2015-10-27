@@ -1,0 +1,51 @@
+items:
+- uid: System.Diagnostics.Tracing.EventFieldTags
+  id: EventFieldTags
+  parent: System.Diagnostics.Tracing
+  children:
+  - System.Diagnostics.Tracing.EventFieldTags.None
+  href: System.Diagnostics.Tracing.EventFieldTags.yml
+  name: EventFieldTags
+  fullName: System.Diagnostics.Tracing.EventFieldTags
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/Eventing/TraceLogging/EventFieldAttribute.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/Eventing/TraceLogging/EventFieldAttribute.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: >-
+    Tags are flags that are not interpreted by EventSource but are passed along
+
+    to the EventListener. The EventListener determines the semantics of the flags.
+  syntax:
+    content: public enum EventFieldTags
+    content.vb: Public Enum EventFieldTags
+- uid: System.Diagnostics.Tracing.EventFieldTags.None
+  id: None
+  parent: System.Diagnostics.Tracing.EventFieldTags
+  href: System.Diagnostics.Tracing.EventFieldTags.yml
+  name: None
+  fullName: System.Diagnostics.Tracing.EventFieldTags.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/TraceLogging/EventFieldAttribute.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: No special traits are added to the field.
+  syntax:
+    content: None = 0
+references:
+- uid: System.Diagnostics.Tracing
+  isExternal: false
+  name: System.Diagnostics.Tracing
+  fullName: System.Diagnostics.Tracing
+  type: Namespace

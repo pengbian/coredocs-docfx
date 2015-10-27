@@ -1,0 +1,70 @@
+items:
+- uid: System.Runtime.InteropServices.ICustomFactory
+  id: ICustomFactory
+  parent: System.Runtime.InteropServices
+  children:
+  - System.Runtime.InteropServices.ICustomFactory.CreateInstance(System.Type)
+  href: System.Runtime.InteropServices.ICustomFactory.yml
+  name: ICustomFactory
+  fullName: System.Runtime.InteropServices.ICustomFactory
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Runtime/InteropServices/ICustomFactory.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomFactory.cs
+    startLine: 9
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: public interface ICustomFactory
+    content.vb: Public Interface ICustomFactory
+- uid: System.Runtime.InteropServices.ICustomFactory.CreateInstance(System.Type)
+  id: CreateInstance(System.Type)
+  parent: System.Runtime.InteropServices.ICustomFactory
+  href: System.Runtime.InteropServices.ICustomFactory.yml
+  name: CreateInstance(Type)
+  fullName: System.Runtime.InteropServices.ICustomFactory.CreateInstance(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Runtime/InteropServices/ICustomFactory.cs
+    startLine: 12
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  syntax:
+    content: MarshalByRefObject CreateInstance(Type serverType)
+    content.vb: Function CreateInstance(serverType As Type) As MarshalByRefObject
+    parameters:
+    - id: serverType
+      type: System.Type
+    return:
+      type: System.MarshalByRefObject
+references:
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.MarshalByRefObject
+  isExternal: false
+  href: System.MarshalByRefObject.yml
+  name: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

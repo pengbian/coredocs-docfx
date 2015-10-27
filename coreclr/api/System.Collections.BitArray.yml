@@ -1,0 +1,850 @@
+items:
+- uid: System.Collections.BitArray
+  id: BitArray
+  parent: System.Collections
+  children:
+  - System.Collections.BitArray.#ctor(System.Boolean[])
+  - System.Collections.BitArray.#ctor(System.Byte[])
+  - System.Collections.BitArray.#ctor(System.Collections.BitArray)
+  - System.Collections.BitArray.#ctor(System.Int32)
+  - System.Collections.BitArray.#ctor(System.Int32,System.Boolean)
+  - System.Collections.BitArray.#ctor(System.Int32[])
+  - System.Collections.BitArray.And(System.Collections.BitArray)
+  - System.Collections.BitArray.Clone
+  - System.Collections.BitArray.CopyTo(System.Array,System.Int32)
+  - System.Collections.BitArray.Count
+  - System.Collections.BitArray.Get(System.Int32)
+  - System.Collections.BitArray.GetEnumerator
+  - System.Collections.BitArray.IsReadOnly
+  - System.Collections.BitArray.IsSynchronized
+  - System.Collections.BitArray.Item(System.Int32)
+  - System.Collections.BitArray.Length
+  - System.Collections.BitArray.Not
+  - System.Collections.BitArray.Or(System.Collections.BitArray)
+  - System.Collections.BitArray.Set(System.Int32,System.Boolean)
+  - System.Collections.BitArray.SetAll(System.Boolean)
+  - System.Collections.BitArray.SyncRoot
+  - System.Collections.BitArray.Xor(System.Collections.BitArray)
+  href: System.Collections.BitArray.yml
+  name: BitArray
+  fullName: System.Collections.BitArray
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/BitArray.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: 'public sealed class BitArray : ICollection, IEnumerable, ICloneable'
+    content.vb: Public NotInheritable Class BitArray Implements ICollection, IEnumerable, ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Collections.BitArray.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: BitArray(Int32)
+  fullName: System.Collections.BitArray.BitArray(System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray(int length)
+    content.vb: Public Sub New(length As Integer)
+    parameters:
+    - id: length
+      type: System.Int32
+- uid: System.Collections.BitArray.#ctor(System.Int32,System.Boolean)
+  id: '#ctor(System.Int32,System.Boolean)'
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: BitArray(Int32, Boolean)
+  fullName: System.Collections.BitArray.BitArray(System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 41
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray(int length, bool defaultValue)
+    content.vb: Public Sub New(length As Integer, defaultValue As Boolean)
+    parameters:
+    - id: length
+      type: System.Int32
+    - id: defaultValue
+      type: System.Boolean
+- uid: System.Collections.BitArray.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: BitArray(Byte[])
+  name.vb: BitArray(Byte())
+  fullName: System.Collections.BitArray.BitArray(System.Byte[])
+  fullName.vb: System.Collections.BitArray.BitArray(System.Byte())
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 66
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray(byte[] bytes)
+    content.vb: Public Sub New(bytes As Byte())
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+- uid: System.Collections.BitArray.#ctor(System.Boolean[])
+  id: '#ctor(System.Boolean[])'
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: BitArray(Boolean[])
+  name.vb: BitArray(Boolean())
+  fullName: System.Collections.BitArray.BitArray(System.Boolean[])
+  fullName.vb: System.Collections.BitArray.BitArray(System.Boolean())
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 111
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray(bool[] values)
+    content.vb: Public Sub New(values As Boolean())
+    parameters:
+    - id: values
+      type: System.Boolean[]
+- uid: System.Collections.BitArray.#ctor(System.Int32[])
+  id: '#ctor(System.Int32[])'
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: BitArray(Int32[])
+  name.vb: BitArray(Int32())
+  fullName: System.Collections.BitArray.BitArray(System.Int32[])
+  fullName.vb: System.Collections.BitArray.BitArray(System.Int32())
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 137
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray(int[] values)
+    content.vb: Public Sub New(values As Integer())
+    parameters:
+    - id: values
+      type: System.Int32[]
+- uid: System.Collections.BitArray.#ctor(System.Collections.BitArray)
+  id: '#ctor(System.Collections.BitArray)'
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: BitArray(BitArray)
+  fullName: System.Collections.BitArray.BitArray(System.Collections.BitArray)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 160
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray(BitArray bits)
+    content.vb: Public Sub New(bits As BitArray)
+    parameters:
+    - id: bits
+      type: System.Collections.BitArray
+- uid: System.Collections.BitArray.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Item[Int32]
+  name.vb: Item(Int32)
+  fullName: System.Collections.BitArray.Item[System.Int32]
+  fullName.vb: System.Collections.BitArray.Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 175
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public bool this[int index] { get; set; }
+    content.vb: Public Property Item(index As Integer) As Boolean
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Collections.BitArray.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Get(Int32)
+  fullName: System.Collections.BitArray.Get(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 190
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public bool Get(int index)
+    content.vb: Public Function Get(index As Integer) As Boolean
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+- uid: System.Collections.BitArray.Set(System.Int32,System.Boolean)
+  id: Set(System.Int32,System.Boolean)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Set(Int32, Boolean)
+  fullName: System.Collections.BitArray.Set(System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 205
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public void Set(int index, bool value)
+    content.vb: Public Sub Set(index As Integer, value As Boolean)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: value
+      type: System.Boolean
+- uid: System.Collections.BitArray.SetAll(System.Boolean)
+  id: SetAll(System.Boolean)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: SetAll(Boolean)
+  fullName: System.Collections.BitArray.SetAll(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 223
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public void SetAll(bool value)
+    content.vb: Public Sub SetAll(value As Boolean)
+    parameters:
+    - id: value
+      type: System.Boolean
+- uid: System.Collections.BitArray.And(System.Collections.BitArray)
+  id: And(System.Collections.BitArray)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: And(BitArray)
+  fullName: System.Collections.BitArray.And(System.Collections.BitArray)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 239
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray And(BitArray value)
+    content.vb: Public Function And(value As BitArray) As BitArray
+    parameters:
+    - id: value
+      type: System.Collections.BitArray
+    return:
+      type: System.Collections.BitArray
+- uid: System.Collections.BitArray.Or(System.Collections.BitArray)
+  id: Or(System.Collections.BitArray)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Or(BitArray)
+  fullName: System.Collections.BitArray.Or(System.Collections.BitArray)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 261
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray Or(BitArray value)
+    content.vb: Public Function Or(value As BitArray) As BitArray
+    parameters:
+    - id: value
+      type: System.Collections.BitArray
+    return:
+      type: System.Collections.BitArray
+- uid: System.Collections.BitArray.Xor(System.Collections.BitArray)
+  id: Xor(System.Collections.BitArray)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Xor(BitArray)
+  fullName: System.Collections.BitArray.Xor(System.Collections.BitArray)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 283
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray Xor(BitArray value)
+    content.vb: Public Function Xor(value As BitArray) As BitArray
+    parameters:
+    - id: value
+      type: System.Collections.BitArray
+    return:
+      type: System.Collections.BitArray
+- uid: System.Collections.BitArray.Not
+  id: Not
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Not()
+  fullName: System.Collections.BitArray.Not()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 304
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public BitArray Not()
+    content.vb: Public Function Not As BitArray
+    return:
+      type: System.Collections.BitArray
+- uid: System.Collections.BitArray.Length
+  id: Length
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Length
+  fullName: System.Collections.BitArray.Length
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 314
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public int Length { get; set; }
+    content.vb: Public Property Length As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Collections.BitArray.CopyTo(System.Array,System.Int32)
+  id: CopyTo(System.Array,System.Int32)
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: CopyTo(Array, Int32)
+  fullName: System.Collections.BitArray.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 351
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public void CopyTo(Array array, int index)
+    content.vb: Public Sub CopyTo(array As Array, index As Integer)
+    parameters:
+    - id: array
+      type: System.Array
+    - id: index
+      type: System.Int32
+- uid: System.Collections.BitArray.Count
+  id: Count
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Count
+  fullName: System.Collections.BitArray.Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 391
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public int Count { get; }
+    content.vb: Public ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Collections.BitArray.Clone
+  id: Clone
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: Clone()
+  fullName: System.Collections.BitArray.Clone()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 401
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public object Clone()
+    content.vb: Public Function Clone As Object
+    return:
+      type: System.Object
+- uid: System.Collections.BitArray.SyncRoot
+  id: SyncRoot
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: SyncRoot
+  fullName: System.Collections.BitArray.SyncRoot
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 412
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public object SyncRoot { get; }
+    content.vb: Public ReadOnly Property SyncRoot As Object
+    parameters: []
+    return:
+      type: System.Object
+- uid: System.Collections.BitArray.IsReadOnly
+  id: IsReadOnly
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: IsReadOnly
+  fullName: System.Collections.BitArray.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 423
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public bool IsReadOnly { get; }
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.BitArray.IsSynchronized
+  id: IsSynchronized
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: IsSynchronized
+  fullName: System.Collections.BitArray.IsSynchronized
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 431
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public bool IsSynchronized { get; }
+    content.vb: Public ReadOnly Property IsSynchronized As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.BitArray.GetEnumerator
+  id: GetEnumerator
+  parent: System.Collections.BitArray
+  href: System.Collections.BitArray.yml
+  name: GetEnumerator()
+  fullName: System.Collections.BitArray.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/BitArray.cs
+    startLine: 439
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: public IEnumerator GetEnumerator()
+    content.vb: Public Function GetEnumerator As IEnumerator
+    return:
+      type: System.Collections.IEnumerator
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Boolean[]
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean[]
+  name.vb: Boolean()
+  fullName: System.Boolean[]
+  fullName.vb: System.Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    href: System.Boolean.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    href: System.Boolean.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int32[]
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32[]
+  name.vb: Int32()
+  fullName: System.Int32[]
+  fullName.vb: System.Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: ()
+    fullName: ()
+- uid: System.Collections.BitArray
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.BitArray.yml
+  name: BitArray
+  fullName: System.Collections.BitArray
+  type: Class
+- uid: System.Array
+  parent: System
+  isExternal: false
+  href: System.Array.yml
+  name: Array
+  fullName: System.Array
+  type: Class
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface

@@ -1,0 +1,80 @@
+items:
+- uid: System.Security.AccessControl.PropagationFlags
+  id: PropagationFlags
+  parent: System.Security.AccessControl
+  children:
+  - System.Security.AccessControl.PropagationFlags.InheritOnly
+  - System.Security.AccessControl.PropagationFlags.None
+  - System.Security.AccessControl.PropagationFlags.NoPropagateInherit
+  href: System.Security.AccessControl.PropagationFlags.yml
+  name: PropagationFlags
+  fullName: System.Security.AccessControl.PropagationFlags
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: public enum PropagationFlags
+    content.vb: Public Enum PropagationFlags
+- uid: System.Security.AccessControl.PropagationFlags.None
+  id: None
+  parent: System.Security.AccessControl.PropagationFlags
+  href: System.Security.AccessControl.PropagationFlags.yml
+  name: None
+  fullName: System.Security.AccessControl.PropagationFlags.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: None = 0
+- uid: System.Security.AccessControl.PropagationFlags.NoPropagateInherit
+  id: NoPropagateInherit
+  parent: System.Security.AccessControl.PropagationFlags
+  href: System.Security.AccessControl.PropagationFlags.yml
+  name: NoPropagateInherit
+  fullName: System.Security.AccessControl.PropagationFlags.NoPropagateInherit
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: NoPropagateInherit = 1
+- uid: System.Security.AccessControl.PropagationFlags.InheritOnly
+  id: InheritOnly
+  parent: System.Security.AccessControl.PropagationFlags
+  href: System.Security.AccessControl.PropagationFlags.yml
+  name: InheritOnly
+  fullName: System.Security.AccessControl.PropagationFlags.InheritOnly
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/AccessControl/Enums.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Security.AccessControl
+  syntax:
+    content: InheritOnly = 2
+references:
+- uid: System.Security.AccessControl
+  isExternal: false
+  name: System.Security.AccessControl
+  fullName: System.Security.AccessControl
+  type: Namespace

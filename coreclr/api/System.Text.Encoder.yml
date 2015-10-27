@@ -1,0 +1,653 @@
+items:
+- uid: System.Text.Encoder
+  id: Encoder
+  parent: System.Text
+  children:
+  - System.Text.Encoder.#ctor
+  - System.Text.Encoder.Convert(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  - System.Text.Encoder.Convert(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  - System.Text.Encoder.Fallback
+  - System.Text.Encoder.FallbackBuffer
+  - System.Text.Encoder.GetByteCount(System.Char*,System.Int32,System.Boolean)
+  - System.Text.Encoder.GetByteCount(System.Char[],System.Int32,System.Int32,System.Boolean)
+  - System.Text.Encoder.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean)
+  - System.Text.Encoder.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)
+  - System.Text.Encoder.Reset
+  href: System.Text.Encoder.yml
+  name: Encoder
+  fullName: System.Text.Encoder
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Text/Encoder.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 20
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract class Encoder
+    content.vb: Public MustInherit Class Encoder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Text.Encoder.#ctor
+  id: '#ctor'
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: Encoder()
+  fullName: System.Text.Encoder.Encoder()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 34
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: protected Encoder()
+    content.vb: Protected Sub New
+- uid: System.Text.Encoder.Fallback
+  id: Fallback
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: Fallback
+  fullName: System.Text.Encoder.Fallback
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 39
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public EncoderFallback Fallback { get; set; }
+    content.vb: Public Property Fallback As EncoderFallback
+    parameters: []
+    return:
+      type: System.Text.EncoderFallback
+- uid: System.Text.Encoder.FallbackBuffer
+  id: FallbackBuffer
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: FallbackBuffer
+  fullName: System.Text.Encoder.FallbackBuffer
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 65
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public EncoderFallbackBuffer FallbackBuffer { get; }
+    content.vb: Public ReadOnly Property FallbackBuffer As EncoderFallbackBuffer
+    parameters: []
+    return:
+      type: System.Text.EncoderFallbackBuffer
+- uid: System.Text.Encoder.Reset
+  id: Reset
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: Reset()
+  fullName: System.Text.Encoder.Reset()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 99
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual void Reset()
+    content.vb: Public Overridable Sub Reset
+- uid: System.Text.Encoder.GetByteCount(System.Char[],System.Int32,System.Int32,System.Boolean)
+  id: GetByteCount(System.Char[],System.Int32,System.Int32,System.Boolean)
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: GetByteCount(Char[], Int32, Int32, Boolean)
+  name.vb: GetByteCount(Char(), Int32, Int32, Boolean)
+  fullName: System.Text.Encoder.GetByteCount(System.Char[], System.Int32, System.Int32, System.Boolean)
+  fullName.vb: System.Text.Encoder.GetByteCount(System.Char(), System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 116
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract int GetByteCount(char[] chars, int index, int count, bool flush)
+    content.vb: Public MustOverride Function GetByteCount(chars As Char(), index As Integer, count As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Encoder.GetByteCount(System.Char*,System.Int32,System.Boolean)
+  id: GetByteCount(System.Char*,System.Int32,System.Boolean)
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: GetByteCount(Char*, Int32, Boolean)
+  fullName: System.Text.Encoder.GetByteCount(System.Char*, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 121
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual int GetByteCount(char *chars, int count, bool flush)
+    content.vb: Public Overridable Function GetByteCount(chars As Char *, count As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: chars
+      type: System.Char*
+    - id: count
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Encoder.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)
+  id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: GetBytes(Char[], Int32, Int32, Byte[], Int32, Boolean)
+  name.vb: GetBytes(Char(), Int32, Int32, Byte(), Int32, Boolean)
+  fullName: System.Text.Encoder.GetBytes(System.Char[], System.Int32, System.Int32, System.Byte[], System.Int32, System.Boolean)
+  fullName.vb: System.Text.Encoder.GetBytes(System.Char(), System.Int32, System.Int32, System.Byte(), System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 164
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public abstract int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush)
+    content.vb: Public MustOverride Function GetBytes(chars As Char(), charIndex As Integer, charCount As Integer, bytes As Byte(), byteIndex As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Encoder.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean)
+  id: GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean)
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: GetBytes(Char*, Int32, Byte*, Int32, Boolean)
+  fullName: System.Text.Encoder.GetBytes(System.Char*, System.Int32, System.Byte*, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 183
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual int GetBytes(char *chars, int charCount, byte *bytes, int byteCount, bool flush)
+    content.vb: Public Overridable Function GetBytes(chars As Char *, charCount As Integer, bytes As Byte *, byteCount As Integer, flush As Boolean) As Integer
+    parameters:
+    - id: chars
+      type: System.Char*
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte*
+    - id: byteCount
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    return:
+      type: System.Int32
+- uid: System.Text.Encoder.Convert(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  id: Convert(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: Convert(Char[], Int32, Int32, Byte[], Int32, Int32, Boolean, out Int32, out Int32, out Boolean)
+  name.vb: Convert(Char(), Int32, Int32, Byte(), Int32, Int32, Boolean, ByRef Int32, ByRef Int32, ByRef Boolean)
+  fullName: System.Text.Encoder.Convert(System.Char[], System.Int32, System.Int32, System.Byte[], System.Int32, System.Int32, System.Boolean, out System.Int32, out System.Int32, out System.Boolean)
+  fullName.vb: System.Text.Encoder.Convert(System.Char(), System.Int32, System.Int32, System.Byte(), System.Int32, System.Int32, System.Boolean, ByRef System.Int32, ByRef System.Int32, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 242
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed)
+    content.vb: Public Overridable Sub Convert(chars As Char(), charIndex As Integer, charCount As Integer, bytes As Byte(), byteIndex As Integer, byteCount As Integer, flush As Boolean, ByRef charsUsed As Integer, ByRef bytesUsed As Integer, ByRef completed As Boolean)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    - id: charsUsed
+      type: System.Int32
+    - id: bytesUsed
+      type: System.Int32
+    - id: completed
+      type: System.Boolean
+- uid: System.Text.Encoder.Convert(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  id: Convert(System.Char*,System.Int32,System.Byte*,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)
+  parent: System.Text.Encoder
+  href: System.Text.Encoder.yml
+  name: Convert(Char*, Int32, Byte*, Int32, Boolean, out Int32, out Int32, out Boolean)
+  name.vb: Convert(Char*, Int32, Byte*, Int32, Boolean, ByRef Int32, ByRef Int32, ByRef Boolean)
+  fullName: System.Text.Encoder.Convert(System.Char*, System.Int32, System.Byte*, System.Int32, System.Boolean, out System.Int32, out System.Int32, out System.Boolean)
+  fullName.vb: System.Text.Encoder.Convert(System.Char*, System.Int32, System.Byte*, System.Int32, System.Boolean, ByRef System.Int32, ByRef System.Int32, ByRef System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Text/Encoder.cs
+    startLine: 300
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  syntax:
+    content: public virtual void Convert(char *chars, int charCount, byte *bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed)
+    content.vb: Public Overridable Sub Convert(chars As Char *, charCount As Integer, bytes As Byte *, byteCount As Integer, flush As Boolean, ByRef charsUsed As Integer, ByRef bytesUsed As Integer, ByRef completed As Boolean)
+    parameters:
+    - id: chars
+      type: System.Char*
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte*
+    - id: byteCount
+      type: System.Int32
+    - id: flush
+      type: System.Boolean
+    - id: charsUsed
+      type: System.Int32
+    - id: bytesUsed
+      type: System.Int32
+    - id: completed
+      type: System.Boolean
+references:
+- uid: System.Text
+  isExternal: false
+  name: System.Text
+  fullName: System.Text
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Text.EncoderFallback
+  parent: System.Text
+  isExternal: false
+  href: System.Text.EncoderFallback.yml
+  name: EncoderFallback
+  fullName: System.Text.EncoderFallback
+  type: Class
+- uid: System.Text.EncoderFallbackBuffer
+  parent: System.Text
+  isExternal: false
+  href: System.Text.EncoderFallbackBuffer.yml
+  name: EncoderFallbackBuffer
+  fullName: System.Text.EncoderFallbackBuffer
+  type: Class
+- uid: System.Char[]
+  isExternal: false
+  href: System.Char.yml
+  name: Char[]
+  name.vb: Char()
+  fullName: System.Char[]
+  fullName.vb: System.Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: ()
+    fullName: ()
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Char*
+  isExternal: false
+  href: System.Char.yml
+  name: Char*
+  fullName: System.Char*
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    fullName: System.Char
+    href: System.Char.yml
+  - name: '*'
+    fullName: '*'
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Byte*
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte*
+  fullName: System.Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '*'
+    fullName: '*'

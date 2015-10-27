@@ -1,0 +1,505 @@
+items:
+- uid: System.Security.Cryptography.CryptographicException
+  id: CryptographicException
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.CryptographicException.#ctor
+  - System.Security.Cryptography.CryptographicException.#ctor(System.Int32)
+  - System.Security.Cryptography.CryptographicException.#ctor(System.String)
+  - System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)
+  - System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)
+  href: System.Security.Cryptography.CryptographicException.yml
+  name: CryptographicException
+  fullName: System.Security.Cryptography.CryptographicException
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+    startLine: 7
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: 'public class CryptographicException : Exception, ISerializable, _Exception'
+    content.vb: Public Class CryptographicException Inherits Exception Implements ISerializable, _Exception
+  inheritance:
+  - System.Object
+  - System.Exception
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  - System.Runtime.InteropServices._Exception
+  inheritedMembers:
+  - System.Exception.GetBaseException
+  - System.Exception.ToString
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.Message
+  - System.Exception.Data
+  - System.Exception.InnerException
+  - System.Exception.TargetSite
+  - System.Exception.StackTrace
+  - System.Exception.HelpLink
+  - System.Exception.Source
+  - System.Exception.HResult
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+- uid: System.Security.Cryptography.CryptographicException.#ctor
+  id: '#ctor'
+  parent: System.Security.Cryptography.CryptographicException
+  href: System.Security.Cryptography.CryptographicException.yml
+  name: CryptographicException()
+  fullName: System.Security.Cryptography.CryptographicException.CryptographicException()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+    startLine: 9
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CryptographicException()
+    content.vb: Public Sub New
+- uid: System.Security.Cryptography.CryptographicException.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Security.Cryptography.CryptographicException
+  href: System.Security.Cryptography.CryptographicException.yml
+  name: CryptographicException(Int32)
+  fullName: System.Security.Cryptography.CryptographicException.CryptographicException(System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+    startLine: 14
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CryptographicException(int hr)
+    content.vb: Public Sub New(hr As Integer)
+    parameters:
+    - id: hr
+      type: System.Int32
+- uid: System.Security.Cryptography.CryptographicException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Security.Cryptography.CryptographicException
+  href: System.Security.Cryptography.CryptographicException.yml
+  name: CryptographicException(String)
+  fullName: System.Security.Cryptography.CryptographicException.CryptographicException(System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+    startLine: 20
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CryptographicException(string message)
+    content.vb: Public Sub New(message As String)
+    parameters:
+    - id: message
+      type: System.String
+- uid: System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Security.Cryptography.CryptographicException
+  href: System.Security.Cryptography.CryptographicException.yml
+  name: CryptographicException(String, Exception)
+  fullName: System.Security.Cryptography.CryptographicException.CryptographicException(System.String, System.Exception)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+    startLine: 25
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CryptographicException(string message, Exception inner)
+    content.vb: Public Sub New(message As String, inner As Exception)
+    parameters:
+    - id: message
+      type: System.String
+    - id: inner
+      type: System.Exception
+- uid: System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: System.Security.Cryptography.CryptographicException
+  href: System.Security.Cryptography.CryptographicException.yml
+  name: CryptographicException(String, String)
+  fullName: System.Security.Cryptography.CryptographicException.CryptographicException(System.String, System.String)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/CryptographicException.cs
+    startLine: 30
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public CryptographicException(string format, string insert)
+    content.vb: Public Sub New(format As String, insert As String)
+    parameters:
+    - id: format
+      type: System.String
+    - id: insert
+      type: System.String
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  fullName: System.Exception
+- uid: System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  name: GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  name: ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Exception
+  isExternal: true
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    fullName: System.Exception.GetObjectData
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    fullName: System.Exception.GetObjectData
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  name: GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  name: Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  name: Data
+  fullName: System.Exception.Data
+- uid: System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  name: InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  name: TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  name: StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  name: HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  name: Source
+  fullName: System.Exception.Source
+- uid: System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  name: HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  name: SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String

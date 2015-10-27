@@ -1,0 +1,155 @@
+items:
+- uid: System.Security.IPermission
+  id: IPermission
+  parent: System.Security
+  children:
+  - System.Security.IPermission.Copy
+  - System.Security.IPermission.Demand
+  - System.Security.IPermission.Intersect(System.Security.IPermission)
+  - System.Security.IPermission.IsSubsetOf(System.Security.IPermission)
+  - System.Security.IPermission.Union(System.Security.IPermission)
+  href: System.Security.IPermission.yml
+  name: IPermission
+  fullName: System.Security.IPermission
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/IPermission.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/IPermission.cs
+    startLine: 11
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: 'public interface IPermission : ISecurityEncodable'
+    content.vb: Public Interface IPermission Inherits ISecurityEncodable
+- uid: System.Security.IPermission.Copy
+  id: Copy
+  parent: System.Security.IPermission
+  href: System.Security.IPermission.yml
+  name: Copy()
+  fullName: System.Security.IPermission.Copy()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IPermission.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: IPermission Copy()
+    content.vb: Function Copy As IPermission
+    return:
+      type: System.Security.IPermission
+- uid: System.Security.IPermission.Intersect(System.Security.IPermission)
+  id: Intersect(System.Security.IPermission)
+  parent: System.Security.IPermission
+  href: System.Security.IPermission.yml
+  name: Intersect(IPermission)
+  fullName: System.Security.IPermission.Intersect(System.Security.IPermission)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IPermission.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: IPermission Intersect(IPermission target)
+    content.vb: Function Intersect(target As IPermission) As IPermission
+    parameters:
+    - id: target
+      type: System.Security.IPermission
+    return:
+      type: System.Security.IPermission
+- uid: System.Security.IPermission.Union(System.Security.IPermission)
+  id: Union(System.Security.IPermission)
+  parent: System.Security.IPermission
+  href: System.Security.IPermission.yml
+  name: Union(IPermission)
+  fullName: System.Security.IPermission.Union(System.Security.IPermission)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IPermission.cs
+    startLine: 51
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: IPermission Union(IPermission target)
+    content.vb: Function Union(target As IPermission) As IPermission
+    parameters:
+    - id: target
+      type: System.Security.IPermission
+    return:
+      type: System.Security.IPermission
+- uid: System.Security.IPermission.IsSubsetOf(System.Security.IPermission)
+  id: IsSubsetOf(System.Security.IPermission)
+  parent: System.Security.IPermission
+  href: System.Security.IPermission.yml
+  name: IsSubsetOf(IPermission)
+  fullName: System.Security.IPermission.IsSubsetOf(System.Security.IPermission)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IPermission.cs
+    startLine: 67
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: bool IsSubsetOf(IPermission target)
+    content.vb: Function IsSubsetOf(target As IPermission) As Boolean
+    parameters:
+    - id: target
+      type: System.Security.IPermission
+    return:
+      type: System.Boolean
+- uid: System.Security.IPermission.Demand
+  id: Demand
+  parent: System.Security.IPermission
+  href: System.Security.IPermission.yml
+  name: Demand()
+  fullName: System.Security.IPermission.Demand()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/IPermission.cs
+    startLine: 78
+  assemblies:
+  - mscorlib
+  namespace: System.Security
+  syntax:
+    content: void Demand()
+    content.vb: Sub Demand
+references:
+- uid: System.Security
+  isExternal: false
+  name: System.Security
+  fullName: System.Security
+  type: Namespace
+- uid: System.Security.IPermission
+  parent: System.Security
+  isExternal: false
+  href: System.Security.IPermission.yml
+  name: IPermission
+  fullName: System.Security.IPermission
+  type: Interface
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace

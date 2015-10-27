@@ -1,0 +1,360 @@
+items:
+- uid: System.Threading.Tasks.TaskContinuationOptions
+  id: TaskContinuationOptions
+  parent: System.Threading.Tasks
+  children:
+  - System.Threading.Tasks.TaskContinuationOptions.AttachedToParent
+  - System.Threading.Tasks.TaskContinuationOptions.DenyChildAttach
+  - System.Threading.Tasks.TaskContinuationOptions.ExecuteSynchronously
+  - System.Threading.Tasks.TaskContinuationOptions.HideScheduler
+  - System.Threading.Tasks.TaskContinuationOptions.LazyCancellation
+  - System.Threading.Tasks.TaskContinuationOptions.LongRunning
+  - System.Threading.Tasks.TaskContinuationOptions.None
+  - System.Threading.Tasks.TaskContinuationOptions.NotOnCanceled
+  - System.Threading.Tasks.TaskContinuationOptions.NotOnFaulted
+  - System.Threading.Tasks.TaskContinuationOptions.NotOnRanToCompletion
+  - System.Threading.Tasks.TaskContinuationOptions.OnlyOnCanceled
+  - System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted
+  - System.Threading.Tasks.TaskContinuationOptions.OnlyOnRanToCompletion
+  - System.Threading.Tasks.TaskContinuationOptions.PreferFairness
+  - System.Threading.Tasks.TaskContinuationOptions.RunContinuationsAsynchronously
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: TaskContinuationOptions
+  fullName: System.Threading.Tasks.TaskContinuationOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6857
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies flags that control optional behavior for the creation and execution of continuation tasks.
+  syntax:
+    content: public enum TaskContinuationOptions
+    content.vb: Public Enum TaskContinuationOptions
+- uid: System.Threading.Tasks.TaskContinuationOptions.None
+  id: None
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: None
+  fullName: System.Threading.Tasks.TaskContinuationOptions.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6867
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Default = "Continue on any, no task options, run asynchronously"
+
+    Specifies that the default behavior should be used.  Continuations, by default, will
+
+    be scheduled when the antecedent task completes, regardless of the task's final [System.Threading.Tasks.TaskStatus](System.Threading.Tasks.TaskStatus.yml).
+  syntax:
+    content: None = 0
+- uid: System.Threading.Tasks.TaskContinuationOptions.PreferFairness
+  id: PreferFairness
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: PreferFairness
+  fullName: System.Threading.Tasks.TaskContinuationOptions.PreferFairness
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6876
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    A hint to a [System.Threading.Tasks.TaskScheduler](System.Threading.Tasks.TaskScheduler.yml) to schedule a
+
+    task in as fair a manner as possible, meaning that tasks scheduled sooner will be more likely to
+
+    be run sooner, and tasks scheduled later will be more likely to be run later.
+  syntax:
+    content: PreferFairness = 1
+- uid: System.Threading.Tasks.TaskContinuationOptions.LongRunning
+  id: LongRunning
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: LongRunning
+  fullName: System.Threading.Tasks.TaskContinuationOptions.LongRunning
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6883
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that a task will be a long-running, course-grained operation.  It provides
+
+    a hint to the [System.Threading.Tasks.TaskScheduler](System.Threading.Tasks.TaskScheduler.yml) that
+
+    oversubscription may be warranted.
+  syntax:
+    content: LongRunning = 2
+- uid: System.Threading.Tasks.TaskContinuationOptions.AttachedToParent
+  id: AttachedToParent
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: AttachedToParent
+  fullName: System.Threading.Tasks.TaskContinuationOptions.AttachedToParent
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6887
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies that a task is attached to a parent in the task hierarchy.
+  syntax:
+    content: AttachedToParent = 4
+- uid: System.Threading.Tasks.TaskContinuationOptions.DenyChildAttach
+  id: DenyChildAttach
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: DenyChildAttach
+  fullName: System.Threading.Tasks.TaskContinuationOptions.DenyChildAttach
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6892
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: Specifies that an InvalidOperationException will be thrown if an attempt is made to attach a child task to the created task.
+  syntax:
+    content: DenyChildAttach = 8
+- uid: System.Threading.Tasks.TaskContinuationOptions.HideScheduler
+  id: HideScheduler
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: HideScheduler
+  fullName: System.Threading.Tasks.TaskContinuationOptions.HideScheduler
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6897
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Prevents the ambient scheduler from being seen as the current scheduler in the created task.  This means that operations
+
+    like StartNew or ContinueWith that are performed in the created task will see TaskScheduler.Default as the current scheduler.
+  syntax:
+    content: HideScheduler = 16
+- uid: System.Threading.Tasks.TaskContinuationOptions.LazyCancellation
+  id: LazyCancellation
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: LazyCancellation
+  fullName: System.Threading.Tasks.TaskContinuationOptions.LazyCancellation
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6902
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: In the case of continuation cancellation, prevents completion of the continuation until the antecedent has completed.
+  syntax:
+    content: LazyCancellation = 32
+- uid: System.Threading.Tasks.TaskContinuationOptions.RunContinuationsAsynchronously
+  id: RunContinuationsAsynchronously
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: RunContinuationsAsynchronously
+  fullName: System.Threading.Tasks.TaskContinuationOptions.RunContinuationsAsynchronously
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6904
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  syntax:
+    content: RunContinuationsAsynchronously = 64
+- uid: System.Threading.Tasks.TaskContinuationOptions.NotOnRanToCompletion
+  id: NotOnRanToCompletion
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: NotOnRanToCompletion
+  fullName: System.Threading.Tasks.TaskContinuationOptions.NotOnRanToCompletion
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6912
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should not be scheduled if its antecedent ran to completion.
+
+    This option is not valid for multi-task continuations.
+  syntax:
+    content: NotOnRanToCompletion = 65536
+- uid: System.Threading.Tasks.TaskContinuationOptions.NotOnFaulted
+  id: NotOnFaulted
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: NotOnFaulted
+  fullName: System.Threading.Tasks.TaskContinuationOptions.NotOnFaulted
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6917
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should not be scheduled if its antecedent threw an unhandled
+
+    exception. This option is not valid for multi-task continuations.
+  syntax:
+    content: NotOnFaulted = 131072
+- uid: System.Threading.Tasks.TaskContinuationOptions.NotOnCanceled
+  id: NotOnCanceled
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: NotOnCanceled
+  fullName: System.Threading.Tasks.TaskContinuationOptions.NotOnCanceled
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6922
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should not be scheduled if its antecedent was canceled. This
+
+    option is not valid for multi-task continuations.
+  syntax:
+    content: NotOnCanceled = 262144
+- uid: System.Threading.Tasks.TaskContinuationOptions.OnlyOnRanToCompletion
+  id: OnlyOnRanToCompletion
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: OnlyOnRanToCompletion
+  fullName: System.Threading.Tasks.TaskContinuationOptions.OnlyOnRanToCompletion
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6927
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should be scheduled only if its antecedent ran to
+
+    completion. This option is not valid for multi-task continuations.
+  syntax:
+    content: OnlyOnRanToCompletion = 393216
+- uid: System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted
+  id: OnlyOnFaulted
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: OnlyOnFaulted
+  fullName: System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6932
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should be scheduled only if its antecedent threw an
+
+    unhandled exception. This option is not valid for multi-task continuations.
+  syntax:
+    content: OnlyOnFaulted = 327680
+- uid: System.Threading.Tasks.TaskContinuationOptions.OnlyOnCanceled
+  id: OnlyOnCanceled
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: OnlyOnCanceled
+  fullName: System.Threading.Tasks.TaskContinuationOptions.OnlyOnCanceled
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6937
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should be scheduled only if its antecedent was canceled.
+
+    This option is not valid for multi-task continuations.
+  syntax:
+    content: OnlyOnCanceled = 196608
+- uid: System.Threading.Tasks.TaskContinuationOptions.ExecuteSynchronously
+  id: ExecuteSynchronously
+  parent: System.Threading.Tasks.TaskContinuationOptions
+  href: System.Threading.Tasks.TaskContinuationOptions.yml
+  name: ExecuteSynchronously
+  fullName: System.Threading.Tasks.TaskContinuationOptions.ExecuteSynchronously
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Threading/Tasks/Task.cs
+    startLine: 6945
+  assemblies:
+  - mscorlib
+  namespace: System.Threading.Tasks
+  summary: >-
+    Specifies that the continuation task should be executed synchronously. With this option
+
+    specified, the continuation will be run on the same thread that causes the antecedent task to
+
+    transition into its final state. If the antecedent is already complete when the continuation is
+
+    created, the continuation will run on the thread creating the continuation.  Only very
+
+    short-running continuations should be executed synchronously.
+  syntax:
+    content: ExecuteSynchronously = 524288
+references:
+- uid: System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  type: Namespace
+- uid: System.Threading.Tasks.TaskStatus
+  parent: System.Threading.Tasks
+  isExternal: false
+  href: System.Threading.Tasks.TaskStatus.yml
+  name: TaskStatus
+  fullName: System.Threading.Tasks.TaskStatus
+  type: Enum
+  summary: Represents the current stage in the lifecycle of a @'System.Threading.Tasks.Task'.
+- uid: System.Threading.Tasks.TaskScheduler
+  parent: System.Threading.Tasks
+  isExternal: false
+  href: System.Threading.Tasks.TaskScheduler.yml
+  name: TaskScheduler
+  fullName: System.Threading.Tasks.TaskScheduler
+  type: Class
+  summary: Represents an abstract scheduler for tasks.

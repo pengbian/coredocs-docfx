@@ -1,0 +1,539 @@
+items:
+- uid: System.Net.HttpResponseHeader
+  id: HttpResponseHeader
+  parent: System.Net
+  children:
+  - System.Net.HttpResponseHeader.AcceptRanges
+  - System.Net.HttpResponseHeader.Age
+  - System.Net.HttpResponseHeader.Allow
+  - System.Net.HttpResponseHeader.CacheControl
+  - System.Net.HttpResponseHeader.Connection
+  - System.Net.HttpResponseHeader.ContentEncoding
+  - System.Net.HttpResponseHeader.ContentLanguage
+  - System.Net.HttpResponseHeader.ContentLength
+  - System.Net.HttpResponseHeader.ContentLocation
+  - System.Net.HttpResponseHeader.ContentMd5
+  - System.Net.HttpResponseHeader.ContentRange
+  - System.Net.HttpResponseHeader.ContentType
+  - System.Net.HttpResponseHeader.Date
+  - System.Net.HttpResponseHeader.ETag
+  - System.Net.HttpResponseHeader.Expires
+  - System.Net.HttpResponseHeader.KeepAlive
+  - System.Net.HttpResponseHeader.LastModified
+  - System.Net.HttpResponseHeader.Location
+  - System.Net.HttpResponseHeader.Pragma
+  - System.Net.HttpResponseHeader.ProxyAuthenticate
+  - System.Net.HttpResponseHeader.RetryAfter
+  - System.Net.HttpResponseHeader.Server
+  - System.Net.HttpResponseHeader.SetCookie
+  - System.Net.HttpResponseHeader.Trailer
+  - System.Net.HttpResponseHeader.TransferEncoding
+  - System.Net.HttpResponseHeader.Upgrade
+  - System.Net.HttpResponseHeader.Vary
+  - System.Net.HttpResponseHeader.Via
+  - System.Net.HttpResponseHeader.Warning
+  - System.Net.HttpResponseHeader.WwwAuthenticate
+  href: System.Net.HttpResponseHeader.yml
+  name: HttpResponseHeader
+  fullName: System.Net.HttpResponseHeader
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 5
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: public enum HttpResponseHeader
+    content.vb: Public Enum HttpResponseHeader
+- uid: System.Net.HttpResponseHeader.CacheControl
+  id: CacheControl
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: CacheControl
+  fullName: System.Net.HttpResponseHeader.CacheControl
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 7
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: CacheControl = 0
+- uid: System.Net.HttpResponseHeader.Connection
+  id: Connection
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Connection
+  fullName: System.Net.HttpResponseHeader.Connection
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 8
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Connection = 1
+- uid: System.Net.HttpResponseHeader.Date
+  id: Date
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Date
+  fullName: System.Net.HttpResponseHeader.Date
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 9
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Date = 2
+- uid: System.Net.HttpResponseHeader.KeepAlive
+  id: KeepAlive
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: KeepAlive
+  fullName: System.Net.HttpResponseHeader.KeepAlive
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 10
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: KeepAlive = 3
+- uid: System.Net.HttpResponseHeader.Pragma
+  id: Pragma
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Pragma
+  fullName: System.Net.HttpResponseHeader.Pragma
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 11
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Pragma = 4
+- uid: System.Net.HttpResponseHeader.Trailer
+  id: Trailer
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Trailer
+  fullName: System.Net.HttpResponseHeader.Trailer
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 12
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Trailer = 5
+- uid: System.Net.HttpResponseHeader.TransferEncoding
+  id: TransferEncoding
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: TransferEncoding
+  fullName: System.Net.HttpResponseHeader.TransferEncoding
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 13
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: TransferEncoding = 6
+- uid: System.Net.HttpResponseHeader.Upgrade
+  id: Upgrade
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Upgrade
+  fullName: System.Net.HttpResponseHeader.Upgrade
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 14
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Upgrade = 7
+- uid: System.Net.HttpResponseHeader.Via
+  id: Via
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Via
+  fullName: System.Net.HttpResponseHeader.Via
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 15
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Via = 8
+- uid: System.Net.HttpResponseHeader.Warning
+  id: Warning
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Warning
+  fullName: System.Net.HttpResponseHeader.Warning
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 16
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Warning = 9
+- uid: System.Net.HttpResponseHeader.Allow
+  id: Allow
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Allow
+  fullName: System.Net.HttpResponseHeader.Allow
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 17
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Allow = 10
+- uid: System.Net.HttpResponseHeader.ContentLength
+  id: ContentLength
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentLength
+  fullName: System.Net.HttpResponseHeader.ContentLength
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 18
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentLength = 11
+- uid: System.Net.HttpResponseHeader.ContentType
+  id: ContentType
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentType
+  fullName: System.Net.HttpResponseHeader.ContentType
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 19
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentType = 12
+- uid: System.Net.HttpResponseHeader.ContentEncoding
+  id: ContentEncoding
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentEncoding
+  fullName: System.Net.HttpResponseHeader.ContentEncoding
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 20
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentEncoding = 13
+- uid: System.Net.HttpResponseHeader.ContentLanguage
+  id: ContentLanguage
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentLanguage
+  fullName: System.Net.HttpResponseHeader.ContentLanguage
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 21
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentLanguage = 14
+- uid: System.Net.HttpResponseHeader.ContentLocation
+  id: ContentLocation
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentLocation
+  fullName: System.Net.HttpResponseHeader.ContentLocation
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 22
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentLocation = 15
+- uid: System.Net.HttpResponseHeader.ContentMd5
+  id: ContentMd5
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentMd5
+  fullName: System.Net.HttpResponseHeader.ContentMd5
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 23
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentMd5 = 16
+- uid: System.Net.HttpResponseHeader.ContentRange
+  id: ContentRange
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ContentRange
+  fullName: System.Net.HttpResponseHeader.ContentRange
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 24
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ContentRange = 17
+- uid: System.Net.HttpResponseHeader.Expires
+  id: Expires
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Expires
+  fullName: System.Net.HttpResponseHeader.Expires
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 25
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Expires = 18
+- uid: System.Net.HttpResponseHeader.LastModified
+  id: LastModified
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: LastModified
+  fullName: System.Net.HttpResponseHeader.LastModified
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 26
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: LastModified = 19
+- uid: System.Net.HttpResponseHeader.AcceptRanges
+  id: AcceptRanges
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: AcceptRanges
+  fullName: System.Net.HttpResponseHeader.AcceptRanges
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 28
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: AcceptRanges = 20
+- uid: System.Net.HttpResponseHeader.Age
+  id: Age
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Age
+  fullName: System.Net.HttpResponseHeader.Age
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 29
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Age = 21
+- uid: System.Net.HttpResponseHeader.ETag
+  id: ETag
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ETag
+  fullName: System.Net.HttpResponseHeader.ETag
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 30
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ETag = 22
+- uid: System.Net.HttpResponseHeader.Location
+  id: Location
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Location
+  fullName: System.Net.HttpResponseHeader.Location
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 31
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Location = 23
+- uid: System.Net.HttpResponseHeader.ProxyAuthenticate
+  id: ProxyAuthenticate
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: ProxyAuthenticate
+  fullName: System.Net.HttpResponseHeader.ProxyAuthenticate
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 32
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: ProxyAuthenticate = 24
+- uid: System.Net.HttpResponseHeader.RetryAfter
+  id: RetryAfter
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: RetryAfter
+  fullName: System.Net.HttpResponseHeader.RetryAfter
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 33
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: RetryAfter = 25
+- uid: System.Net.HttpResponseHeader.Server
+  id: Server
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Server
+  fullName: System.Net.HttpResponseHeader.Server
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 34
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Server = 26
+- uid: System.Net.HttpResponseHeader.SetCookie
+  id: SetCookie
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: SetCookie
+  fullName: System.Net.HttpResponseHeader.SetCookie
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 35
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: SetCookie = 27
+- uid: System.Net.HttpResponseHeader.Vary
+  id: Vary
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: Vary
+  fullName: System.Net.HttpResponseHeader.Vary
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 36
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: Vary = 28
+- uid: System.Net.HttpResponseHeader.WwwAuthenticate
+  id: WwwAuthenticate
+  parent: System.Net.HttpResponseHeader
+  href: System.Net.HttpResponseHeader.yml
+  name: WwwAuthenticate
+  fullName: System.Net.HttpResponseHeader.WwwAuthenticate
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Net.WebHeaderCollection/src/System/Net/HttpResponseHeader.cs
+    startLine: 37
+  assemblies:
+  - System.Net.WebHeaderCollection
+  namespace: System.Net
+  syntax:
+    content: WwwAuthenticate = 29
+references:
+- uid: System.Net
+  isExternal: false
+  name: System.Net
+  fullName: System.Net
+  type: Namespace

@@ -1,0 +1,343 @@
+items:
+- uid: System.Collections.IDictionary
+  id: IDictionary
+  parent: System.Collections
+  children:
+  - System.Collections.IDictionary.Add(System.Object,System.Object)
+  - System.Collections.IDictionary.Clear
+  - System.Collections.IDictionary.Contains(System.Object)
+  - System.Collections.IDictionary.GetEnumerator
+  - System.Collections.IDictionary.IsFixedSize
+  - System.Collections.IDictionary.IsReadOnly
+  - System.Collections.IDictionary.Item(System.Object)
+  - System.Collections.IDictionary.Keys
+  - System.Collections.IDictionary.Remove(System.Object)
+  - System.Collections.IDictionary.Values
+  href: System.Collections.IDictionary.yml
+  name: IDictionary
+  fullName: System.Collections.IDictionary
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Collections/IDictionary.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: 'public interface IDictionary : ICollection, IEnumerable'
+    content.vb: Public Interface IDictionary Inherits ICollection
+  inheritedMembers:
+  - System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  - System.Collections.ICollection.Count
+  - System.Collections.ICollection.SyncRoot
+  - System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.IDictionary.Item(System.Object)
+  id: Item(System.Object)
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Item[Object]
+  name.vb: Item(Object)
+  fullName: System.Collections.IDictionary.Item[System.Object]
+  fullName.vb: System.Collections.IDictionary.Item(System.Object)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 31
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: object this[object key] { get; set; }
+    content.vb: Property Item(key As Object) As Object
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Object
+- uid: System.Collections.IDictionary.Keys
+  id: Keys
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Keys
+  fullName: System.Collections.IDictionary.Keys
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 37
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: ICollection Keys { get; }
+    content.vb: ReadOnly Property Keys As ICollection
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+- uid: System.Collections.IDictionary.Values
+  id: Values
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Values
+  fullName: System.Collections.IDictionary.Values
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 42
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: ICollection Values { get; }
+    content.vb: ReadOnly Property Values As ICollection
+    parameters: []
+    return:
+      type: System.Collections.ICollection
+- uid: System.Collections.IDictionary.Contains(System.Object)
+  id: Contains(System.Object)
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Contains(Object)
+  fullName: System.Collections.IDictionary.Contains(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 48
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: bool Contains(object key)
+    content.vb: Function Contains(key As Object) As Boolean
+    parameters:
+    - id: key
+      type: System.Object
+    return:
+      type: System.Boolean
+- uid: System.Collections.IDictionary.Add(System.Object,System.Object)
+  id: Add(System.Object,System.Object)
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Add(Object, Object)
+  fullName: System.Collections.IDictionary.Add(System.Object, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 52
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: void Add(object key, object value)
+    content.vb: Sub Add(key As Object, value As Object)
+    parameters:
+    - id: key
+      type: System.Object
+    - id: value
+      type: System.Object
+- uid: System.Collections.IDictionary.Clear
+  id: Clear
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Clear()
+  fullName: System.Collections.IDictionary.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 55
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: void Clear()
+    content.vb: Sub Clear
+- uid: System.Collections.IDictionary.IsReadOnly
+  id: IsReadOnly
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: IsReadOnly
+  fullName: System.Collections.IDictionary.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 57
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: bool IsReadOnly { get; }
+    content.vb: ReadOnly Property IsReadOnly As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.IDictionary.IsFixedSize
+  id: IsFixedSize
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: IsFixedSize
+  fullName: System.Collections.IDictionary.IsFixedSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 60
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: bool IsFixedSize { get; }
+    content.vb: ReadOnly Property IsFixedSize As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.Collections.IDictionary.GetEnumerator
+  id: GetEnumerator
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: GetEnumerator()
+  fullName: System.Collections.IDictionary.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 64
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: IDictionaryEnumerator GetEnumerator()
+    content.vb: Function GetEnumerator As IDictionaryEnumerator
+    return:
+      type: System.Collections.IDictionaryEnumerator
+- uid: System.Collections.IDictionary.Remove(System.Object)
+  id: Remove(System.Object)
+  parent: System.Collections.IDictionary
+  href: System.Collections.IDictionary.yml
+  name: Remove(Object)
+  fullName: System.Collections.IDictionary.Remove(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Collections/IDictionary.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Collections
+  syntax:
+    content: void Remove(object key)
+    content.vb: Sub Remove(key As Object)
+    parameters:
+    - id: key
+      type: System.Object
+references:
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace
+- uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  parent: System.Collections.ICollection
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: CopyTo(Array, Int32)
+  fullName: System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    fullName: System.Collections.ICollection.CopyTo
+    href: System.Collections.ICollection.yml
+  - name: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    fullName: System.Array
+    href: System.Array.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    fullName: System.Collections.ICollection.CopyTo
+    href: System.Collections.ICollection.yml
+  - name: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    fullName: System.Array
+    href: System.Array.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    href: System.Int32.yml
+  - name: )
+    fullName: )
+- uid: System.Collections.ICollection.Count
+  parent: System.Collections.ICollection
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: Count
+  fullName: System.Collections.ICollection.Count
+- uid: System.Collections.ICollection.SyncRoot
+  parent: System.Collections.ICollection
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: SyncRoot
+  fullName: System.Collections.ICollection.SyncRoot
+- uid: System.Collections.ICollection.IsSynchronized
+  parent: System.Collections.ICollection
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: IsSynchronized
+  fullName: System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.ICollection
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.ICollection.yml
+  name: ICollection
+  fullName: System.Collections.ICollection
+  type: Interface
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Collections.IDictionaryEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IDictionaryEnumerator.yml
+  name: IDictionaryEnumerator
+  fullName: System.Collections.IDictionaryEnumerator
+  type: Interface

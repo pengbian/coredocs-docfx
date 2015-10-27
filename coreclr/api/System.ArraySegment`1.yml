@@ -1,0 +1,942 @@
+items:
+- uid: System.ArraySegment`1
+  id: ArraySegment`1
+  parent: System
+  children:
+  - System.ArraySegment`1.#ctor(`0[])
+  - System.ArraySegment`1.#ctor(`0[],System.Int32,System.Int32)
+  - System.ArraySegment`1.Array
+  - System.ArraySegment`1.Count
+  - System.ArraySegment`1.Equals(System.ArraySegment{`0})
+  - System.ArraySegment`1.Equals(System.Object)
+  - System.ArraySegment`1.GetHashCode
+  - System.ArraySegment`1.Offset
+  - System.ArraySegment`1.op_Equality(System.ArraySegment{`0},System.ArraySegment{`0})
+  - System.ArraySegment`1.op_Inequality(System.ArraySegment{`0},System.ArraySegment{`0})
+  - System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  - System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Clear
+  - System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Contains(`0)
+  - System.ArraySegment`1.System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)
+  - System.ArraySegment`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  - System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Remove(`0)
+  - System.ArraySegment`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  - System.ArraySegment`1.System#Collections#Generic#IList{T}#IndexOf(`0)
+  - System.ArraySegment`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  - System.ArraySegment`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  - System.ArraySegment`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  - System.ArraySegment`1.System#Collections#Generic#IReadOnlyList{T}#Item(System.Int32)
+  - System.ArraySegment`1.System#Collections#IEnumerable#GetEnumerator
+  href: System.ArraySegment`1.yml
+  name: ArraySegment<T>
+  name.vb: ArraySegment(Of T)
+  fullName: System.ArraySegment<T>
+  fullName.vb: System.ArraySegment(Of T)
+  type: Struct
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/ArraySegment.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: 'public struct ArraySegment<T> : IList<T>, ICollection<T>, IReadOnlyList<T>, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable'
+    content.vb: Public Structure ArraySegment(Of T) Implements IList(Of T), ICollection(Of T), IReadOnlyList(Of T), IReadOnlyCollection(Of T), IEnumerable(Of T), IEnumerable
+    typeParameters:
+    - id: T
+  implements:
+  - System.Collections.Generic.IList{{T}}
+  - System.Collections.Generic.ICollection{{T}}
+  - System.Collections.Generic.IReadOnlyList{{T}}
+  - System.Collections.Generic.IReadOnlyCollection{{T}}
+  - System.Collections.Generic.IEnumerable{{T}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: System.ArraySegment`1.#ctor(`0[])
+  id: '#ctor(`0[])'
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ArraySegment(T[])
+  name.vb: ArraySegment(T())
+  fullName: System.ArraySegment<T>.ArraySegment(T[])
+  fullName.vb: System.ArraySegment(Of T).ArraySegment(T())
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 33
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ArraySegment(T[] array)
+    content.vb: Public Sub New(array As T())
+    parameters:
+    - id: array
+      type: '{T}[]'
+- uid: System.ArraySegment`1.#ctor(`0[],System.Int32,System.Int32)
+  id: '#ctor(`0[],System.Int32,System.Int32)'
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ArraySegment(T[], Int32, Int32)
+  name.vb: ArraySegment(T(), Int32, Int32)
+  fullName: System.ArraySegment<T>.ArraySegment(T[], System.Int32, System.Int32)
+  fullName.vb: System.ArraySegment(Of T).ArraySegment(T(), System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 44
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public ArraySegment(T[] array, int offset, int count)
+    content.vb: Public Sub New(array As T(), offset As Integer, count As Integer)
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+- uid: System.ArraySegment`1.Array
+  id: Array
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Array
+  fullName: System.ArraySegment<T>.Array
+  fullName.vb: System.ArraySegment(Of T).Array
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 61
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public T[] Array { get; }
+    content.vb: Public ReadOnly Property Array As T()
+    parameters: []
+    return:
+      type: '{T}[]'
+- uid: System.ArraySegment`1.Offset
+  id: Offset
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Offset
+  fullName: System.ArraySegment<T>.Offset
+  fullName.vb: System.ArraySegment(Of T).Offset
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 73
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Offset { get; }
+    content.vb: Public ReadOnly Property Offset As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.ArraySegment`1.Count
+  id: Count
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Count
+  fullName: System.ArraySegment<T>.Count
+  fullName.vb: System.ArraySegment(Of T).Count
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 92
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public int Count { get; }
+    content.vb: Public ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.ArraySegment`1.GetHashCode
+  id: GetHashCode
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: GetHashCode()
+  fullName: System.ArraySegment<T>.GetHashCode()
+  fullName.vb: System.ArraySegment(Of T).GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 111
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+  overridden: System.ValueType.GetHashCode
+- uid: System.ArraySegment`1.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Equals(Object)
+  fullName: System.ArraySegment<T>.Equals(System.Object)
+  fullName.vb: System.ArraySegment(Of T).Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 118
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+  overridden: System.ValueType.Equals(System.Object)
+- uid: System.ArraySegment`1.Equals(System.ArraySegment{`0})
+  id: Equals(System.ArraySegment{`0})
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Equals(ArraySegment<T>)
+  name.vb: Equals(ArraySegment(Of T))
+  fullName: System.ArraySegment<T>.Equals(System.ArraySegment<T>)
+  fullName.vb: System.ArraySegment(Of T).Equals(System.ArraySegment(Of T))
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 126
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public bool Equals(ArraySegment<T> obj)
+    content.vb: Public Function Equals(obj As ArraySegment(Of T)) As Boolean
+    parameters:
+    - id: obj
+      type: System.ArraySegment`1
+    return:
+      type: System.Boolean
+- uid: System.ArraySegment`1.op_Equality(System.ArraySegment{`0},System.ArraySegment{`0})
+  id: op_Equality(System.ArraySegment{`0},System.ArraySegment{`0})
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Equality(ArraySegment<T>, ArraySegment<T>)
+  name.vb: Equality(ArraySegment(Of T), ArraySegment(Of T))
+  fullName: System.ArraySegment<T>.Equality(System.ArraySegment<T>, System.ArraySegment<T>)
+  fullName.vb: System.ArraySegment(Of T).Equality(System.ArraySegment(Of T), System.ArraySegment(Of T))
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 131
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator ==(ArraySegment<T> a, ArraySegment<T> b)
+    content.vb: Public Shared Operator =(a As ArraySegment(Of T), b As ArraySegment(Of T)) As Boolean
+    parameters:
+    - id: a
+      type: System.ArraySegment`1
+    - id: b
+      type: System.ArraySegment`1
+    return:
+      type: System.Boolean
+- uid: System.ArraySegment`1.op_Inequality(System.ArraySegment{`0},System.ArraySegment{`0})
+  id: op_Inequality(System.ArraySegment{`0},System.ArraySegment{`0})
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: Inequality(ArraySegment<T>, ArraySegment<T>)
+  name.vb: Inequality(ArraySegment(Of T), ArraySegment(Of T))
+  fullName: System.ArraySegment<T>.Inequality(System.ArraySegment<T>, System.ArraySegment<T>)
+  fullName.vb: System.ArraySegment(Of T).Inequality(System.ArraySegment(Of T), System.ArraySegment(Of T))
+  type: Operator
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 136
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: public static bool operator !=(ArraySegment<T> a, ArraySegment<T> b)
+    content.vb: Public Shared Operator <>(a As ArraySegment(Of T), b As ArraySegment(Of T)) As Boolean
+    parameters:
+    - id: a
+      type: System.ArraySegment`1
+    - id: b
+      type: System.ArraySegment`1
+    return:
+      type: System.Boolean
+- uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  id: System#Collections#Generic#IList{T}#Item(System.Int32)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IList<T>.Item[Int32]
+  name.vb: System.Collections.Generic.IList<T>.Item(Int32)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.IList<T>.Item[System.Int32]
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.IList<T>.Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 142
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: T IList<T>.this[int index] { get; set; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.Generic.IList<T>.Item(index As Integer) As T Implements IList(Of T).this
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{T}'
+- uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#IndexOf(`0)
+  id: System#Collections#Generic#IList{T}#IndexOf(`0)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IList<T>.IndexOf(T)
+  name.vb: System.Collections.Generic.IList<T>.IndexOf(T)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.IList<T>.IndexOf(T)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.IList<T>.IndexOf(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 167
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: int IList<T>.IndexOf(T item)
+    content.vb: Function System.Collections.Generic.IList<T>.IndexOf(item As T) As Integer Implements IList(Of T).IndexOf
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Int32
+- uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  id: System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IList<T>.Insert(Int32, T)
+  name.vb: System.Collections.Generic.IList<T>.Insert(Int32, T)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.IList<T>.Insert(System.Int32, T)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.IList<T>.Insert(System.Int32, T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 181
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void IList<T>.Insert(int index, T item)
+    content.vb: Sub System.Collections.Generic.IList<T>.Insert(index As Integer, item As T) Implements IList(Of T).Insert
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: item
+      type: '{T}'
+- uid: System.ArraySegment`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  id: System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IList<T>.RemoveAt(Int32)
+  name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 186
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void IList<T>.RemoveAt(int index)
+    content.vb: Sub System.Collections.Generic.IList<T>.RemoveAt(index As Integer) Implements IList(Of T).RemoveAt
+    parameters:
+    - id: index
+      type: System.Int32
+- uid: System.ArraySegment`1.System#Collections#Generic#IReadOnlyList{T}#Item(System.Int32)
+  id: System#Collections#Generic#IReadOnlyList{T}#Item(System.Int32)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IReadOnlyList<T>.Item[Int32]
+  name.vb: System.Collections.Generic.IReadOnlyList<T>.Item(Int32)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.IReadOnlyList<T>.Item[System.Int32]
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.IReadOnlyList<T>.Item(System.Int32)
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 193
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: T IReadOnlyList<T>.this[int index] { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.Generic.IReadOnlyList<T>.Item(index As Integer) As T Implements IReadOnlyList(Of T).this
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{T}'
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  id: System#Collections#Generic#ICollection{T}#IsReadOnly
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ICollection<T>.IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: System.ArraySegment<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  type: Property
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 209
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: bool ICollection<T>.IsReadOnly { get; }
+    content.vb: ReadOnly WriteOnly Property System.Collections.Generic.ICollection<T>.IsReadOnly As Boolean Implements ICollection(Of T).IsReadOnly
+    parameters: []
+    return:
+      type: System.Boolean
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  id: System#Collections#Generic#ICollection{T}#Add(`0)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ICollection<T>.Add(T)
+  name.vb: System.Collections.Generic.ICollection<T>.Add(T)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.ICollection<T>.Add(T)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 219
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void ICollection<T>.Add(T item)
+    content.vb: Sub System.Collections.Generic.ICollection<T>.Add(item As T) Implements ICollection(Of T).Add
+    parameters:
+    - id: item
+      type: '{T}'
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Clear
+  id: System#Collections#Generic#ICollection{T}#Clear
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ICollection<T>.Clear()
+  name.vb: System.Collections.Generic.ICollection<T>.Clear()
+  fullName: System.ArraySegment<T>.System.Collections.Generic.ICollection<T>.Clear()
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.ICollection<T>.Clear()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 224
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void ICollection<T>.Clear()
+    content.vb: Sub System.Collections.Generic.ICollection<T>.Clear Implements ICollection(Of T).Clear
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Contains(`0)
+  id: System#Collections#Generic#ICollection{T}#Contains(`0)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ICollection<T>.Contains(T)
+  name.vb: System.Collections.Generic.ICollection<T>.Contains(T)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.ICollection<T>.Contains(T)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.ICollection<T>.Contains(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 229
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: bool ICollection<T>.Contains(T item)
+    content.vb: Function System.Collections.Generic.ICollection<T>.Contains(item As T) As Boolean Implements ICollection(Of T).Contains
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Boolean
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)
+  id: System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ICollection<T>.CopyTo(T[], Int32)
+  name.vb: System.Collections.Generic.ICollection<T>.CopyTo(T(), Int32)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.ICollection<T>.CopyTo(T[], System.Int32)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.ICollection<T>.CopyTo(T(), System.Int32)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 243
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: void ICollection<T>.CopyTo(T[] array, int arrayIndex)
+    content.vb: Sub System.Collections.Generic.ICollection<T>.CopyTo(array As T(), arrayIndex As Integer) Implements ICollection(Of T).CopyTo
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: arrayIndex
+      type: System.Int32
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Remove(`0)
+  id: System#Collections#Generic#ICollection{T}#Remove(`0)
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: ICollection<T>.Remove(T)
+  name.vb: System.Collections.Generic.ICollection<T>.Remove(T)
+  fullName: System.ArraySegment<T>.System.Collections.Generic.ICollection<T>.Remove(T)
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.ICollection<T>.Remove(T)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 252
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: bool ICollection<T>.Remove(T item)
+    content.vb: Function System.Collections.Generic.ICollection<T>.Remove(item As T) As Boolean Implements ICollection(Of T).Remove
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Boolean
+- uid: System.ArraySegment`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  id: System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IEnumerable<T>.GetEnumerator()
+  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  fullName: System.ArraySegment<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  fullName.vb: System.ArraySegment(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 259
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: IEnumerator<T> IEnumerable<T>.GetEnumerator()
+    content.vb: Function System.Collections.Generic.IEnumerable<T>.GetEnumerator As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator
+    return:
+      type: System.Collections.Generic.IEnumerator{{T}}
+- uid: System.ArraySegment`1.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: System.ArraySegment`1
+  href: System.ArraySegment`1.yml
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: System.ArraySegment<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: System.ArraySegment(Of T).System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/ArraySegment.cs
+    startLine: 270
+  assemblies:
+  - mscorlib
+  namespace: System
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+references:
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType
+  parent: System
+  isExternal: false
+  href: System.ValueType.yml
+  name: ValueType
+  fullName: System.ValueType
+  type: Class
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: '{T}[]'
+  isExternal: false
+  name: T[]
+  name.vb: T()
+  fullName: T[]
+  fullName.vb: T()
+  spec.csharp:
+  - name: T
+    fullName: T
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    fullName: T
+  - name: ()
+    fullName: ()
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: false
+  href: System.ValueType.yml
+  name: Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    href: System.ValueType.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.ArraySegment`1
+  parent: System
+  isExternal: false
+  href: System.ArraySegment`1.yml
+  name: ArraySegment<T>
+  name.vb: ArraySegment(Of T)
+  fullName: System.ArraySegment<T>
+  fullName.vb: System.ArraySegment(Of T)
+  type: Struct
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    fullName: System.ArraySegment
+    href: System.ArraySegment`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    fullName: System.ArraySegment
+    href: System.ArraySegment`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: System.Collections.Generic.IEnumerator{{T}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: System.Collections.Generic.IEnumerator`1.yml
+  name: IEnumerator<T>
+  name.vb: IEnumerator(Of T)
+  fullName: System.Collections.Generic.IEnumerator<T>
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  parent: System.Collections.Generic
+  isExternal: false
+  href: System.Collections.Generic.IEnumerator`1.yml
+  name: IEnumerator<T>
+  name.vb: IEnumerator(Of T)
+  fullName: System.Collections.Generic.IEnumerator<T>
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  type: Interface
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    href: System.Collections.Generic.IEnumerator`1.yml
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+  type: Namespace
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: false
+  href: System.Collections.IEnumerator.yml
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator
+  type: Interface
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+  type: Namespace

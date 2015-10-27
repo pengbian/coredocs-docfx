@@ -1,0 +1,684 @@
+items:
+- uid: System.Security.Cryptography.SymmetricAlgorithm
+  id: SymmetricAlgorithm
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.SymmetricAlgorithm.#ctor
+  - System.Security.Cryptography.SymmetricAlgorithm.BlockSize
+  - System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor
+  - System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])
+  - System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor
+  - System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])
+  - System.Security.Cryptography.SymmetricAlgorithm.Dispose
+  - System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)
+  - System.Security.Cryptography.SymmetricAlgorithm.GenerateIV
+  - System.Security.Cryptography.SymmetricAlgorithm.GenerateKey
+  - System.Security.Cryptography.SymmetricAlgorithm.IV
+  - System.Security.Cryptography.SymmetricAlgorithm.Key
+  - System.Security.Cryptography.SymmetricAlgorithm.KeySize
+  - System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes
+  - System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes
+  - System.Security.Cryptography.SymmetricAlgorithm.Mode
+  - System.Security.Cryptography.SymmetricAlgorithm.Padding
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: SymmetricAlgorithm
+  fullName: System.Security.Cryptography.SymmetricAlgorithm
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 8
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: 'public abstract class SymmetricAlgorithm : IDisposable'
+    content.vb: Public MustInherit Class SymmetricAlgorithm Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Security.Cryptography.SymmetricAlgorithm.#ctor
+  id: '#ctor'
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: SymmetricAlgorithm()
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.SymmetricAlgorithm()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 10
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected SymmetricAlgorithm()
+    content.vb: Protected Sub New
+- uid: System.Security.Cryptography.SymmetricAlgorithm.BlockSize
+  id: BlockSize
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: BlockSize
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.BlockSize
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 16
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual int BlockSize { get; set; }
+    content.vb: Public Overridable Property BlockSize As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Security.Cryptography.SymmetricAlgorithm.IV
+  id: IV
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: IV
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.IV
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 38
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual byte[] IV { get; set; }
+    content.vb: Public Overridable Property IV As Byte()
+    parameters: []
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.SymmetricAlgorithm.Key
+  id: Key
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: Key
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.Key
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 58
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual byte[] Key { get; set; }
+    content.vb: Public Overridable Property Key As Byte()
+    parameters: []
+    return:
+      type: System.Byte[]
+- uid: System.Security.Cryptography.SymmetricAlgorithm.KeySize
+  id: KeySize
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: KeySize
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.KeySize
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 82
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual int KeySize { get; set; }
+    content.vb: Public Overridable Property KeySize As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes
+  id: LegalBlockSizes
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: LegalBlockSizes
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 99
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual KeySizes[] LegalBlockSizes { get; }
+    content.vb: Public Overridable ReadOnly Property LegalBlockSizes As KeySizes()
+    parameters: []
+    return:
+      type: System.Security.Cryptography.KeySizes[]
+- uid: System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes
+  id: LegalKeySizes
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: LegalKeySizes
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 109
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual KeySizes[] LegalKeySizes { get; }
+    content.vb: Public Overridable ReadOnly Property LegalKeySizes As KeySizes()
+    parameters: []
+    return:
+      type: System.Security.Cryptography.KeySizes[]
+- uid: System.Security.Cryptography.SymmetricAlgorithm.Mode
+  id: Mode
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: Mode
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.Mode
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 119
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual CipherMode Mode { get; set; }
+    content.vb: Public Overridable Property Mode As CipherMode
+    parameters: []
+    return:
+      type: System.Security.Cryptography.CipherMode
+- uid: System.Security.Cryptography.SymmetricAlgorithm.Padding
+  id: Padding
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: Padding
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.Padding
+  type: Property
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 135
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual PaddingMode Padding { get; set; }
+    content.vb: Public Overridable Property Padding As PaddingMode
+    parameters: []
+    return:
+      type: System.Security.Cryptography.PaddingMode
+- uid: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor
+  id: CreateDecryptor
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: CreateDecryptor()
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 150
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual ICryptoTransform CreateDecryptor()
+    content.vb: Public Overridable Function CreateDecryptor As ICryptoTransform
+    return:
+      type: System.Security.Cryptography.ICryptoTransform
+- uid: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])
+  id: CreateDecryptor(System.Byte[],System.Byte[])
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: CreateDecryptor(Byte[], Byte[])
+  name.vb: CreateDecryptor(Byte(), Byte())
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[], System.Byte[])
+  fullName.vb: System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte(), System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 155
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV)
+    content.vb: Public MustOverride Function CreateDecryptor(rgbKey As Byte(), rgbIV As Byte()) As ICryptoTransform
+    parameters:
+    - id: rgbKey
+      type: System.Byte[]
+    - id: rgbIV
+      type: System.Byte[]
+    return:
+      type: System.Security.Cryptography.ICryptoTransform
+- uid: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor
+  id: CreateEncryptor
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: CreateEncryptor()
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 157
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public virtual ICryptoTransform CreateEncryptor()
+    content.vb: Public Overridable Function CreateEncryptor As ICryptoTransform
+    return:
+      type: System.Security.Cryptography.ICryptoTransform
+- uid: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])
+  id: CreateEncryptor(System.Byte[],System.Byte[])
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: CreateEncryptor(Byte[], Byte[])
+  name.vb: CreateEncryptor(Byte(), Byte())
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[], System.Byte[])
+  fullName.vb: System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte(), System.Byte())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 162
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV)
+    content.vb: Public MustOverride Function CreateEncryptor(rgbKey As Byte(), rgbIV As Byte()) As ICryptoTransform
+    parameters:
+    - id: rgbKey
+      type: System.Byte[]
+    - id: rgbIV
+      type: System.Byte[]
+    return:
+      type: System.Security.Cryptography.ICryptoTransform
+- uid: System.Security.Cryptography.SymmetricAlgorithm.Dispose
+  id: Dispose
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: Dispose()
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.Dispose()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 164
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+- uid: System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: Dispose(Boolean)
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 170
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+- uid: System.Security.Cryptography.SymmetricAlgorithm.GenerateIV
+  id: GenerateIV
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: GenerateIV()
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.GenerateIV()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 187
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract void GenerateIV()
+    content.vb: Public MustOverride Sub GenerateIV
+- uid: System.Security.Cryptography.SymmetricAlgorithm.GenerateKey
+  id: GenerateKey
+  parent: System.Security.Cryptography.SymmetricAlgorithm
+  href: System.Security.Cryptography.SymmetricAlgorithm.yml
+  name: GenerateKey()
+  fullName: System.Security.Cryptography.SymmetricAlgorithm.GenerateKey()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.Encryption/src/System/Security/Cryptography/SymmetricAlgorithm.cs
+    startLine: 189
+  assemblies:
+  - System.Security.Cryptography.Encryption
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public abstract void GenerateKey()
+    content.vb: Public MustOverride Sub GenerateKey
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Security.Cryptography.KeySizes[]
+  isExternal: true
+  name: KeySizes[]
+  name.vb: KeySizes()
+  fullName: System.Security.Cryptography.KeySizes[]
+  fullName.vb: System.Security.Cryptography.KeySizes()
+  spec.csharp:
+  - uid: System.Security.Cryptography.KeySizes
+    name: KeySizes
+    fullName: System.Security.Cryptography.KeySizes
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Security.Cryptography.KeySizes
+    name: KeySizes
+    fullName: System.Security.Cryptography.KeySizes
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Security.Cryptography.CipherMode
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.CipherMode.yml
+  name: CipherMode
+  fullName: System.Security.Cryptography.CipherMode
+  type: Enum
+- uid: System.Security.Cryptography.PaddingMode
+  parent: System.Security.Cryptography
+  isExternal: false
+  href: System.Security.Cryptography.PaddingMode.yml
+  name: PaddingMode
+  fullName: System.Security.Cryptography.PaddingMode
+  type: Enum
+- uid: System.Security.Cryptography.ICryptoTransform
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: ICryptoTransform
+  fullName: System.Security.Cryptography.ICryptoTransform
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean

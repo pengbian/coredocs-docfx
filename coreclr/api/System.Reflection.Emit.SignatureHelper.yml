@@ -1,0 +1,903 @@
+items:
+- uid: System.Reflection.Emit.SignatureHelper
+  id: SignatureHelper
+  parent: System.Reflection.Emit
+  children:
+  - System.Reflection.Emit.SignatureHelper.AddArgument(System.Type)
+  - System.Reflection.Emit.SignatureHelper.AddArgument(System.Type,System.Boolean)
+  - System.Reflection.Emit.SignatureHelper.AddArgument(System.Type,System.Type[],System.Type[])
+  - System.Reflection.Emit.SignatureHelper.AddArguments(System.Type[],System.Type[][],System.Type[][])
+  - System.Reflection.Emit.SignatureHelper.AddSentinel
+  - System.Reflection.Emit.SignatureHelper.Equals(System.Object)
+  - System.Reflection.Emit.SignatureHelper.GetFieldSigHelper(System.Reflection.Module)
+  - System.Reflection.Emit.SignatureHelper.GetHashCode
+  - System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper
+  - System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper(System.Reflection.Module)
+  - System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.CallingConventions,System.Type)
+  - System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type)
+  - System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Runtime.InteropServices.CallingConvention,System.Type)
+  - System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Type,System.Type[])
+  - System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention,System.Type)
+  - System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+  - System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[])
+  - System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+  - System.Reflection.Emit.SignatureHelper.GetSignature
+  - System.Reflection.Emit.SignatureHelper.ToString
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: SignatureHelper
+  fullName: System.Reflection.Emit.SignatureHelper
+  type: Class
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: 'public sealed class SignatureHelper : _SignatureHelper'
+    content.vb: Public NotInheritable Class SignatureHelper Implements _SignatureHelper
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.InteropServices._SignatureHelper
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Type,System.Type[])
+  id: GetMethodSigHelper(System.Reflection.Module,System.Type,System.Type[])
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetMethodSigHelper(Module, Type, Type[])
+  name.vb: GetMethodSigHelper(Module, Type, Type())
+  fullName: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module, System.Type, System.Type[])
+  fullName.vb: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module, System.Type, System.Type())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 26
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetMethodSigHelper(Module mod, Type returnType, Type[] parameterTypes)
+    content.vb: Public Shared Function GetMethodSigHelper(mod As Module, returnType As Type, parameterTypes As Type()) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    - id: returnType
+      type: System.Type
+    - id: parameterTypes
+      type: System.Type[]
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type)
+  id: GetMethodSigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetMethodSigHelper(Module, CallingConventions, Type)
+  fullName: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module, System.Reflection.CallingConventions, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 38
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetMethodSigHelper(Module mod, CallingConventions callingConvention, Type returnType)
+    content.vb: Public Shared Function GetMethodSigHelper(mod As Module, callingConvention As CallingConventions, returnType As Type) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    - id: callingConvention
+      type: System.Reflection.CallingConventions
+    - id: returnType
+      type: System.Type
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module,System.Runtime.InteropServices.CallingConvention,System.Type)
+  id: GetMethodSigHelper(System.Reflection.Module,System.Runtime.InteropServices.CallingConvention,System.Type)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetMethodSigHelper(Module, CallingConvention, Type)
+  fullName: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.Module, System.Runtime.InteropServices.CallingConvention, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 97
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetMethodSigHelper(Module mod, CallingConvention unmanagedCallConv, Type returnType)
+    content.vb: Public Shared Function GetMethodSigHelper(mod As Module, unmanagedCallConv As CallingConvention, returnType As Type) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    - id: unmanagedCallConv
+      type: System.Runtime.InteropServices.CallingConvention
+    - id: returnType
+      type: System.Type
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper
+  id: GetLocalVarSigHelper
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetLocalVarSigHelper()
+  fullName: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 132
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetLocalVarSigHelper()
+    content.vb: Public Shared Function GetLocalVarSigHelper As SignatureHelper
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.CallingConventions,System.Type)
+  id: GetMethodSigHelper(System.Reflection.CallingConventions,System.Type)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetMethodSigHelper(CallingConventions, Type)
+  fullName: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Reflection.CallingConventions, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 137
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetMethodSigHelper(CallingConventions callingConvention, Type returnType)
+    content.vb: Public Shared Function GetMethodSigHelper(callingConvention As CallingConventions, returnType As Type) As SignatureHelper
+    parameters:
+    - id: callingConvention
+      type: System.Reflection.CallingConventions
+    - id: returnType
+      type: System.Type
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention,System.Type)
+  id: GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention,System.Type)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetMethodSigHelper(CallingConvention, Type)
+  fullName: System.Reflection.Emit.SignatureHelper.GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention, System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 142
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetMethodSigHelper(CallingConvention unmanagedCallingConvention, Type returnType)
+    content.vb: Public Shared Function GetMethodSigHelper(unmanagedCallingConvention As CallingConvention, returnType As Type) As SignatureHelper
+    parameters:
+    - id: unmanagedCallingConvention
+      type: System.Runtime.InteropServices.CallingConvention
+    - id: returnType
+      type: System.Type
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper(System.Reflection.Module)
+  id: GetLocalVarSigHelper(System.Reflection.Module)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetLocalVarSigHelper(Module)
+  fullName: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper(System.Reflection.Module)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 147
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetLocalVarSigHelper(Module mod)
+    content.vb: Public Shared Function GetLocalVarSigHelper(mod As Module) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetFieldSigHelper(System.Reflection.Module)
+  id: GetFieldSigHelper(System.Reflection.Module)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetFieldSigHelper(Module)
+  fullName: System.Reflection.Emit.SignatureHelper.GetFieldSigHelper(System.Reflection.Module)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 152
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetFieldSigHelper(Module mod)
+    content.vb: Public Shared Function GetFieldSigHelper(mod As Module) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[])
+  id: GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[])
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetPropertySigHelper(Module, Type, Type[])
+  name.vb: GetPropertySigHelper(Module, Type, Type())
+  fullName: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module, System.Type, System.Type[])
+  fullName.vb: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module, System.Type, System.Type())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 157
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetPropertySigHelper(Module mod, Type returnType, Type[] parameterTypes)
+    content.vb: Public Shared Function GetPropertySigHelper(mod As Module, returnType As Type, parameterTypes As Type()) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    - id: returnType
+      type: System.Type
+    - id: parameterTypes
+      type: System.Type[]
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+  id: GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetPropertySigHelper(Module, Type, Type[], Type[], Type[], Type[][], Type[][])
+  name.vb: GetPropertySigHelper(Module, Type, Type(), Type(), Type(), Type()(), Type()())
+  fullName: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module, System.Type, System.Type[], System.Type[], System.Type[], System.Type[][], System.Type[][])
+  fullName.vb: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module, System.Type, System.Type(), System.Type(), System.Type(), System.Type()(), System.Type()())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 162
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetPropertySigHelper(Module mod, Type returnType, Type[] requiredReturnTypeCustomModifiers, Type[] optionalReturnTypeCustomModifiers, Type[] parameterTypes, Type[][] requiredParameterTypeCustomModifiers, Type[][] optionalParameterTypeCustomModifiers)
+    content.vb: Public Shared Function GetPropertySigHelper(mod As Module, returnType As Type, requiredReturnTypeCustomModifiers As Type(), optionalReturnTypeCustomModifiers As Type(), parameterTypes As Type(), requiredParameterTypeCustomModifiers As Type()(), optionalParameterTypeCustomModifiers As Type()()) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    - id: returnType
+      type: System.Type
+    - id: requiredReturnTypeCustomModifiers
+      type: System.Type[]
+    - id: optionalReturnTypeCustomModifiers
+      type: System.Type[]
+    - id: parameterTypes
+      type: System.Type[]
+    - id: requiredParameterTypeCustomModifiers
+      type: System.Type[][]
+    - id: optionalParameterTypeCustomModifiers
+      type: System.Type[][]
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+  id: GetPropertySigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetPropertySigHelper(Module, CallingConventions, Type, Type[], Type[], Type[], Type[][], Type[][])
+  name.vb: GetPropertySigHelper(Module, CallingConventions, Type, Type(), Type(), Type(), Type()(), Type()())
+  fullName: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module, System.Reflection.CallingConventions, System.Type, System.Type[], System.Type[], System.Type[], System.Type[][], System.Type[][])
+  fullName.vb: System.Reflection.Emit.SignatureHelper.GetPropertySigHelper(System.Reflection.Module, System.Reflection.CallingConventions, System.Type, System.Type(), System.Type(), System.Type(), System.Type()(), System.Type()())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 169
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public static SignatureHelper GetPropertySigHelper(Module mod, CallingConventions callingConvention, Type returnType, Type[] requiredReturnTypeCustomModifiers, Type[] optionalReturnTypeCustomModifiers, Type[] parameterTypes, Type[][] requiredParameterTypeCustomModifiers, Type[][] optionalParameterTypeCustomModifiers)
+    content.vb: Public Shared Function GetPropertySigHelper(mod As Module, callingConvention As CallingConventions, returnType As Type, requiredReturnTypeCustomModifiers As Type(), optionalReturnTypeCustomModifiers As Type(), parameterTypes As Type(), requiredParameterTypeCustomModifiers As Type()(), optionalParameterTypeCustomModifiers As Type()()) As SignatureHelper
+    parameters:
+    - id: mod
+      type: System.Reflection.Module
+    - id: callingConvention
+      type: System.Reflection.CallingConventions
+    - id: returnType
+      type: System.Type
+    - id: requiredReturnTypeCustomModifiers
+      type: System.Type[]
+    - id: optionalReturnTypeCustomModifiers
+      type: System.Type[]
+    - id: parameterTypes
+      type: System.Type[]
+    - id: requiredParameterTypeCustomModifiers
+      type: System.Type[][]
+    - id: optionalParameterTypeCustomModifiers
+      type: System.Type[][]
+    return:
+      type: System.Reflection.Emit.SignatureHelper
+- uid: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type)
+  id: AddArgument(System.Type)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: AddArgument(Type)
+  fullName: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 818
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void AddArgument(Type clsArgument)
+    content.vb: Public Sub AddArgument(clsArgument As Type)
+    parameters:
+    - id: clsArgument
+      type: System.Type
+- uid: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type,System.Boolean)
+  id: AddArgument(System.Type,System.Boolean)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: AddArgument(Type, Boolean)
+  fullName: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 823
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void AddArgument(Type argument, bool pinned)
+    content.vb: Public Sub AddArgument(argument As Type, pinned As Boolean)
+    parameters:
+    - id: argument
+      type: System.Type
+    - id: pinned
+      type: System.Boolean
+- uid: System.Reflection.Emit.SignatureHelper.AddArguments(System.Type[],System.Type[][],System.Type[][])
+  id: AddArguments(System.Type[],System.Type[][],System.Type[][])
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: AddArguments(Type[], Type[][], Type[][])
+  name.vb: AddArguments(Type(), Type()(), Type()())
+  fullName: System.Reflection.Emit.SignatureHelper.AddArguments(System.Type[], System.Type[][], System.Type[][])
+  fullName.vb: System.Reflection.Emit.SignatureHelper.AddArguments(System.Type(), System.Type()(), System.Type()())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 833
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void AddArguments(Type[] arguments, Type[][] requiredCustomModifiers, Type[][] optionalCustomModifiers)
+    content.vb: Public Sub AddArguments(arguments As Type(), requiredCustomModifiers As Type()(), optionalCustomModifiers As Type()())
+    parameters:
+    - id: arguments
+      type: System.Type[]
+    - id: requiredCustomModifiers
+      type: System.Type[][]
+    - id: optionalCustomModifiers
+      type: System.Type[][]
+- uid: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type,System.Type[],System.Type[])
+  id: AddArgument(System.Type,System.Type[],System.Type[])
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: AddArgument(Type, Type[], Type[])
+  name.vb: AddArgument(Type, Type(), Type())
+  fullName: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type, System.Type[], System.Type[])
+  fullName.vb: System.Reflection.Emit.SignatureHelper.AddArgument(System.Type, System.Type(), System.Type())
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 852
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void AddArgument(Type argument, Type[] requiredCustomModifiers, Type[] optionalCustomModifiers)
+    content.vb: Public Sub AddArgument(argument As Type, requiredCustomModifiers As Type(), optionalCustomModifiers As Type())
+    parameters:
+    - id: argument
+      type: System.Type
+    - id: requiredCustomModifiers
+      type: System.Type[]
+    - id: optionalCustomModifiers
+      type: System.Type[]
+- uid: System.Reflection.Emit.SignatureHelper.AddSentinel
+  id: AddSentinel
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: AddSentinel()
+  fullName: System.Reflection.Emit.SignatureHelper.AddSentinel()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 870
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public void AddSentinel()
+    content.vb: Public Sub AddSentinel
+- uid: System.Reflection.Emit.SignatureHelper.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: Equals(Object)
+  fullName: System.Reflection.Emit.SignatureHelper.Equals(System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 875
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public override bool Equals(object obj)
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+  overridden: System.Object.Equals(System.Object)
+- uid: System.Reflection.Emit.SignatureHelper.GetHashCode
+  id: GetHashCode
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetHashCode()
+  fullName: System.Reflection.Emit.SignatureHelper.GetHashCode()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 897
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public override int GetHashCode()
+    content.vb: Public Overrides Function GetHashCode As Integer
+    return:
+      type: System.Int32
+  overridden: System.Object.GetHashCode
+- uid: System.Reflection.Emit.SignatureHelper.GetSignature
+  id: GetSignature
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: GetSignature()
+  fullName: System.Reflection.Emit.SignatureHelper.GetSignature()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 913
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public byte[] GetSignature()
+    content.vb: Public Function GetSignature As Byte()
+    return:
+      type: System.Byte[]
+- uid: System.Reflection.Emit.SignatureHelper.ToString
+  id: ToString
+  parent: System.Reflection.Emit.SignatureHelper
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: ToString()
+  fullName: System.Reflection.Emit.SignatureHelper.ToString()
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Reflection/Emit/SignatureHelper.cs
+    startLine: 943
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection.Emit
+  syntax:
+    content: public override string ToString()
+    content.vb: Public Overrides Function ToString As String
+    return:
+      type: System.String
+  overridden: System.Object.ToString
+references:
+- uid: System.Reflection.Emit
+  isExternal: false
+  name: System.Reflection.Emit
+  fullName: System.Reflection.Emit
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: false
+  href: System.Object.yml
+  name: Object
+  fullName: System.Object
+  type: Class
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Reflection.Module
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.Module.yml
+  name: Module
+  fullName: System.Reflection.Module
+  type: Class
+- uid: System.Type
+  parent: System
+  isExternal: false
+  href: System.Type.yml
+  name: Type
+  fullName: System.Type
+  type: Class
+- uid: System.Type[]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[]
+  name.vb: Type()
+  fullName: System.Type[]
+  fullName.vb: System.Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()
+- uid: System.Reflection.Emit.SignatureHelper
+  parent: System.Reflection.Emit
+  isExternal: false
+  href: System.Reflection.Emit.SignatureHelper.yml
+  name: SignatureHelper
+  fullName: System.Reflection.Emit.SignatureHelper
+  type: Class
+- uid: System.Reflection
+  isExternal: false
+  name: System.Reflection
+  fullName: System.Reflection
+  type: Namespace
+- uid: System.Reflection.CallingConventions
+  parent: System.Reflection
+  isExternal: false
+  href: System.Reflection.CallingConventions.yml
+  name: CallingConventions
+  fullName: System.Reflection.CallingConventions
+  type: Enum
+- uid: System.Runtime.InteropServices.CallingConvention
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  href: System.Runtime.InteropServices.CallingConvention.yml
+  name: CallingConvention
+  fullName: System.Runtime.InteropServices.CallingConvention
+  type: Enum
+- uid: System.Runtime.InteropServices
+  isExternal: false
+  name: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  type: Namespace
+- uid: System.Type[][]
+  isExternal: false
+  href: System.Type.yml
+  name: Type[][]
+  name.vb: Type()()
+  fullName: System.Type[][]
+  fullName.vb: System.Type()()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: '[]'
+    fullName: '[]'
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    href: System.Type.yml
+  - name: ()
+    fullName: ()
+  - name: ()
+    fullName: ()
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  href: System.Boolean.yml
+  name: Boolean
+  fullName: System.Boolean
+  type: Struct
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    href: System.Object.yml
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  href: System.Int32.yml
+  name: Int32
+  fullName: System.Int32
+  type: Struct
+- uid: System.Byte[]
+  isExternal: false
+  href: System.Byte.yml
+  name: Byte[]
+  name.vb: Byte()
+  fullName: System.Byte[]
+  fullName.vb: System.Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    fullName: System.Byte
+    href: System.Byte.yml
+  - name: ()
+    fullName: ()
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: false
+  href: System.Object.yml
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    href: System.Object.yml
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class

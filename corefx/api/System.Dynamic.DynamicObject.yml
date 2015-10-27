@@ -1,0 +1,985 @@
+items:
+- uid: System.Dynamic.DynamicObject
+  id: DynamicObject
+  parent: System.Dynamic
+  children:
+  - System.Dynamic.DynamicObject.#ctor
+  - System.Dynamic.DynamicObject.GetDynamicMemberNames
+  - System.Dynamic.DynamicObject.GetMetaObject(Expression)
+  - System.Dynamic.DynamicObject.TryBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Object,System.Object@)
+  - System.Dynamic.DynamicObject.TryConvert(System.Dynamic.ConvertBinder,System.Object@)
+  - System.Dynamic.DynamicObject.TryCreateInstance(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object@)
+  - System.Dynamic.DynamicObject.TryDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Object[])
+  - System.Dynamic.DynamicObject.TryDeleteMember(System.Dynamic.DeleteMemberBinder)
+  - System.Dynamic.DynamicObject.TryGetIndex(System.Dynamic.GetIndexBinder,System.Object[],System.Object@)
+  - System.Dynamic.DynamicObject.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
+  - System.Dynamic.DynamicObject.TryInvoke(System.Dynamic.InvokeBinder,System.Object[],System.Object@)
+  - System.Dynamic.DynamicObject.TryInvokeMember(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object@)
+  - System.Dynamic.DynamicObject.TrySetIndex(System.Dynamic.SetIndexBinder,System.Object[],System.Object)
+  - System.Dynamic.DynamicObject.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
+  - System.Dynamic.DynamicObject.TryUnaryOperation(System.Dynamic.UnaryOperationBinder,System.Object@)
+  href: System.Dynamic.DynamicObject.yml
+  name: DynamicObject
+  fullName: System.Dynamic.DynamicObject
+  type: Class
+  source:
+    remote: &o0
+      path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 20
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides a simple class that can be inherited from to create an object with dynamic behavior
+
+    at runtime.  Subclasses can override the various binder methods (GetMember, SetMember, Call, etc...)
+
+    to provide custom behavior that will be invoked at runtime.
+
+
+
+    If a method is not overridden then the DynamicObject does not directly support that behavior and
+
+    the call site will determine how the binding should be performed.
+  syntax:
+    content: 'public class DynamicObject : IDynamicMetaObjectProvider'
+    content.vb: Public Class DynamicObject Implements IDynamicMetaObjectProvider
+  inheritance:
+  - System.Object
+  implements:
+  - System.Dynamic.IDynamicMetaObjectProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: System.Dynamic.DynamicObject.#ctor
+  id: '#ctor'
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: DynamicObject()
+  fullName: System.Dynamic.DynamicObject.DynamicObject()
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 26
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Enables derived types to create a new instance of DynamicObject.  DynamicObject instances cannot be
+
+    directly instantiated because they have no implementation of dynamic behavior.
+  syntax:
+    content: protected DynamicObject()
+    content.vb: Protected Sub New
+- uid: System.Dynamic.DynamicObject.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
+  id: TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryGetMember(GetMemberBinder, out Object)
+  name.vb: TryGetMember(GetMemberBinder, ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryGetMember(System.Dynamic.GetMemberBinder, out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryGetMember(System.Dynamic.GetMemberBinder, ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 40
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of getting a member.  Derived classes can override
+
+    this method to customize behavior.  When not overridden the call site requesting the
+
+    binder determines the behavior.
+  syntax:
+    content: public virtual bool TryGetMember(GetMemberBinder binder, out object result)
+    content.vb: Public Overridable Function TryGetMember(binder As GetMemberBinder, ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.GetMemberBinder
+      description: The binder provided by the call site.
+    - id: result
+      type: System.Object
+      description: The result of the get operation.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
+  id: TrySetMember(System.Dynamic.SetMemberBinder,System.Object)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TrySetMember(SetMemberBinder, Object)
+  fullName: System.Dynamic.DynamicObject.TrySetMember(System.Dynamic.SetMemberBinder, System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 55
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of setting a member.  Derived classes can override
+
+    this method to customize behavior.  When not overridden the call site requesting the
+
+    binder determines the behavior.
+  syntax:
+    content: public virtual bool TrySetMember(SetMemberBinder binder, object value)
+    content.vb: Public Overridable Function TrySetMember(binder As SetMemberBinder, value As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.SetMemberBinder
+      description: The binder provided by the call site.
+    - id: value
+      type: System.Object
+      description: The value to set.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryDeleteMember(System.Dynamic.DeleteMemberBinder)
+  id: TryDeleteMember(System.Dynamic.DeleteMemberBinder)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryDeleteMember(DeleteMemberBinder)
+  fullName: System.Dynamic.DynamicObject.TryDeleteMember(System.Dynamic.DeleteMemberBinder)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 67
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of deleting a member.  Derived classes can override
+
+    this method to customize behavior.  When not overridden the call site requesting the
+
+    binder determines the behavior.
+  syntax:
+    content: public virtual bool TryDeleteMember(DeleteMemberBinder binder)
+    content.vb: Public Overridable Function TryDeleteMember(binder As DeleteMemberBinder) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.DeleteMemberBinder
+      description: The binder provided by the call site.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryInvokeMember(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object@)
+  id: TryInvokeMember(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryInvokeMember(InvokeMemberBinder, Object[], out Object)
+  name.vb: TryInvokeMember(InvokeMemberBinder, Object(), ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryInvokeMember(System.Dynamic.InvokeMemberBinder, System.Object[], out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryInvokeMember(System.Dynamic.InvokeMemberBinder, System.Object(), ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 81
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of calling a member.  Derived classes can override
+
+    this method to customize behavior.  When not overridden the call site requesting the
+
+    binder determines the behavior.
+  syntax:
+    content: public virtual bool TryInvokeMember(InvokeMemberBinder binder, object[] args, out object result)
+    content.vb: Public Overridable Function TryInvokeMember(binder As InvokeMemberBinder, args As Object(), ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.InvokeMemberBinder
+      description: The binder provided by the call site.
+    - id: args
+      type: System.Object[]
+      description: The arguments to be used for the invocation.
+    - id: result
+      type: System.Object
+      description: The result of the invocation.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryConvert(System.Dynamic.ConvertBinder,System.Object@)
+  id: TryConvert(System.Dynamic.ConvertBinder,System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryConvert(ConvertBinder, out Object)
+  name.vb: TryConvert(ConvertBinder, ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryConvert(System.Dynamic.ConvertBinder, out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryConvert(System.Dynamic.ConvertBinder, ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 96
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of converting the DynamicObject to another type.  Derived classes
+
+    can override this method to customize behavior.  When not overridden the call site
+
+    requesting the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryConvert(ConvertBinder binder, out object result)
+    content.vb: Public Overridable Function TryConvert(binder As ConvertBinder, ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.ConvertBinder
+      description: The binder provided by the call site.
+    - id: result
+      type: System.Object
+      description: The result of the conversion.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryCreateInstance(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object@)
+  id: TryCreateInstance(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryCreateInstance(CreateInstanceBinder, Object[], out Object)
+  name.vb: TryCreateInstance(CreateInstanceBinder, Object(), ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryCreateInstance(System.Dynamic.CreateInstanceBinder, System.Object[], out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryCreateInstance(System.Dynamic.CreateInstanceBinder, System.Object(), ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 112
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of creating an instance of the DynamicObject.  Derived classes
+
+    can override this method to customize behavior.  When not overridden the call site requesting
+
+    the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryCreateInstance(CreateInstanceBinder binder, object[] args, out object result)
+    content.vb: Public Overridable Function TryCreateInstance(binder As CreateInstanceBinder, args As Object(), ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.CreateInstanceBinder
+      description: The binder provided by the call site.
+    - id: args
+      type: System.Object[]
+      description: The arguments used for creation.
+    - id: result
+      type: System.Object
+      description: The created instance.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryInvoke(System.Dynamic.InvokeBinder,System.Object[],System.Object@)
+  id: TryInvoke(System.Dynamic.InvokeBinder,System.Object[],System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryInvoke(InvokeBinder, Object[], out Object)
+  name.vb: TryInvoke(InvokeBinder, Object(), ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryInvoke(System.Dynamic.InvokeBinder, System.Object[], out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryInvoke(System.Dynamic.InvokeBinder, System.Object(), ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 128
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of invoking the DynamicObject.  Derived classes can
+
+    override this method to customize behavior.  When not overridden the call site requesting
+
+    the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryInvoke(InvokeBinder binder, object[] args, out object result)
+    content.vb: Public Overridable Function TryInvoke(binder As InvokeBinder, args As Object(), ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.InvokeBinder
+      description: The binder provided by the call site.
+    - id: args
+      type: System.Object[]
+      description: The arguments to be used for the invocation.
+    - id: result
+      type: System.Object
+      description: The result of the invocation.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Object,System.Object@)
+  id: TryBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Object,System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryBinaryOperation(BinaryOperationBinder, Object, out Object)
+  name.vb: TryBinaryOperation(BinaryOperationBinder, Object, ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryBinaryOperation(System.Dynamic.BinaryOperationBinder, System.Object, out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryBinaryOperation(System.Dynamic.BinaryOperationBinder, System.Object, ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 144
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of performing a binary operation.  Derived classes can
+
+    override this method to customize behavior.  When not overridden the call site requesting
+
+    the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryBinaryOperation(BinaryOperationBinder binder, object arg, out object result)
+    content.vb: Public Overridable Function TryBinaryOperation(binder As BinaryOperationBinder, arg As Object, ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.BinaryOperationBinder
+      description: The binder provided by the call site.
+    - id: arg
+      type: System.Object
+      description: The right operand for the operation.
+    - id: result
+      type: System.Object
+      description: The result of the operation.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryUnaryOperation(System.Dynamic.UnaryOperationBinder,System.Object@)
+  id: TryUnaryOperation(System.Dynamic.UnaryOperationBinder,System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryUnaryOperation(UnaryOperationBinder, out Object)
+  name.vb: TryUnaryOperation(UnaryOperationBinder, ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryUnaryOperation(System.Dynamic.UnaryOperationBinder, out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryUnaryOperation(System.Dynamic.UnaryOperationBinder, ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 159
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of performing a unary operation.  Derived classes can
+
+    override this method to customize behavior.  When not overridden the call site requesting
+
+    the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryUnaryOperation(UnaryOperationBinder binder, out object result)
+    content.vb: Public Overridable Function TryUnaryOperation(binder As UnaryOperationBinder, ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.UnaryOperationBinder
+      description: The binder provided by the call site.
+    - id: result
+      type: System.Object
+      description: The result of the operation.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryGetIndex(System.Dynamic.GetIndexBinder,System.Object[],System.Object@)
+  id: TryGetIndex(System.Dynamic.GetIndexBinder,System.Object[],System.Object@)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryGetIndex(GetIndexBinder, Object[], out Object)
+  name.vb: TryGetIndex(GetIndexBinder, Object(), ByRef Object)
+  fullName: System.Dynamic.DynamicObject.TryGetIndex(System.Dynamic.GetIndexBinder, System.Object[], out System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TryGetIndex(System.Dynamic.GetIndexBinder, System.Object(), ByRef System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 175
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of performing a get index operation.  Derived classes can
+
+    override this method to customize behavior.  When not overridden the call site requesting
+
+    the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryGetIndex(GetIndexBinder binder, object[] indexes, out object result)
+    content.vb: Public Overridable Function TryGetIndex(binder As GetIndexBinder, indexes As Object(), ByRef result As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.GetIndexBinder
+      description: The binder provided by the call site.
+    - id: indexes
+      type: System.Object[]
+      description: The indexes to be used.
+    - id: result
+      type: System.Object
+      description: The result of the operation.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TrySetIndex(System.Dynamic.SetIndexBinder,System.Object[],System.Object)
+  id: TrySetIndex(System.Dynamic.SetIndexBinder,System.Object[],System.Object)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TrySetIndex(SetIndexBinder, Object[], Object)
+  name.vb: TrySetIndex(SetIndexBinder, Object(), Object)
+  fullName: System.Dynamic.DynamicObject.TrySetIndex(System.Dynamic.SetIndexBinder, System.Object[], System.Object)
+  fullName.vb: System.Dynamic.DynamicObject.TrySetIndex(System.Dynamic.SetIndexBinder, System.Object(), System.Object)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 191
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of performing a set index operation.  Derived classes can
+
+    override this method to custmize behavior.  When not overridden the call site requesting
+
+    the binder determines the behavior.
+  syntax:
+    content: public virtual bool TrySetIndex(SetIndexBinder binder, object[] indexes, object value)
+    content.vb: Public Overridable Function TrySetIndex(binder As SetIndexBinder, indexes As Object(), value As Object) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.SetIndexBinder
+      description: The binder provided by the call site.
+    - id: indexes
+      type: System.Object[]
+      description: The indexes to be used.
+    - id: value
+      type: System.Object
+      description: The value to set.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.TryDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Object[])
+  id: TryDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Object[])
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: TryDeleteIndex(DeleteIndexBinder, Object[])
+  name.vb: TryDeleteIndex(DeleteIndexBinder, Object())
+  fullName: System.Dynamic.DynamicObject.TryDeleteIndex(System.Dynamic.DeleteIndexBinder, System.Object[])
+  fullName.vb: System.Dynamic.DynamicObject.TryDeleteIndex(System.Dynamic.DeleteIndexBinder, System.Object())
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 205
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    Provides the implementation of performing a delete index operation.  Derived classes
+
+    can override this method to custmize behavior.  When not overridden the call site
+
+    requesting the binder determines the behavior.
+  syntax:
+    content: public virtual bool TryDeleteIndex(DeleteIndexBinder binder, object[] indexes)
+    content.vb: Public Overridable Function TryDeleteIndex(binder As DeleteIndexBinder, indexes As Object()) As Boolean
+    parameters:
+    - id: binder
+      type: System.Dynamic.DeleteIndexBinder
+      description: The binder provided by the call site.
+    - id: indexes
+      type: System.Object[]
+      description: The indexes to be deleted.
+    return:
+      type: System.Boolean
+      description: true if the operation is complete, false if the call site should determine behavior.
+- uid: System.Dynamic.DynamicObject.GetDynamicMemberNames
+  id: GetDynamicMemberNames
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: GetDynamicMemberNames()
+  fullName: System.Dynamic.DynamicObject.GetDynamicMemberNames()
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 214
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: Returns the enumeration of all dynamic member names.
+  syntax:
+    content: public virtual IEnumerable<string> GetDynamicMemberNames()
+    content.vb: Public Overridable Function GetDynamicMemberNames As IEnumerable(Of String)
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The list of dynamic member names.
+- uid: System.Dynamic.DynamicObject.GetMetaObject(Expression)
+  id: GetMetaObject(Expression)
+  parent: System.Dynamic.DynamicObject
+  href: System.Dynamic.DynamicObject.yml
+  name: GetMetaObject(Expression)
+  fullName: System.Dynamic.DynamicObject.GetMetaObject(Expression)
+  type: Method
+  source:
+    remote: *o0
+    path: src/System.Dynamic.Runtime/src/System/Dynamic/DynamicObject.cs
+    startLine: 843
+  assemblies:
+  - System.Dynamic.Runtime
+  namespace: System.Dynamic
+  summary: >-
+    The provided MetaObject will dispatch to the Dynamic virtual methods.
+
+    The object can be encapsulated inside of another MetaObject to
+
+    provide custom behavior for individual actions.
+  syntax:
+    content: public virtual DynamicMetaObject GetMetaObject(Expression parameter)
+    content.vb: Public Overridable Function GetMetaObject(parameter As Expression) As DynamicMetaObject
+    parameters:
+    - id: parameter
+      type: Expression
+    return:
+      type: System.Dynamic.DynamicMetaObject
+references:
+- uid: System.Dynamic
+  isExternal: false
+  name: System.Dynamic
+  fullName: System.Dynamic
+  type: Namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
+- uid: System.Dynamic.GetMemberBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.GetMemberBinder.yml
+  name: GetMemberBinder
+  fullName: System.Dynamic.GetMemberBinder
+  type: Class
+  summary: Represents the dynamic get member operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System.Dynamic.SetMemberBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.SetMemberBinder.yml
+  name: SetMemberBinder
+  fullName: System.Dynamic.SetMemberBinder
+  type: Class
+  summary: Represents the dynamic set member operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.DeleteMemberBinder
+  isExternal: false
+  href: System.Dynamic.DeleteMemberBinder.yml
+  name: DeleteMemberBinder
+  fullName: System.Dynamic.DeleteMemberBinder
+  type: Class
+  summary: Represents the dynamic delete member operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.InvokeMemberBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.InvokeMemberBinder.yml
+  name: InvokeMemberBinder
+  fullName: System.Dynamic.InvokeMemberBinder
+  type: Class
+  summary: >-
+    Represents the invoke member dynamic operation at the call site,
+
+    providing the binding semantic and the details about the operation.
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  name.vb: Object()
+  fullName: System.Object[]
+  fullName.vb: System.Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Dynamic.ConvertBinder
+  isExternal: false
+  href: System.Dynamic.ConvertBinder.yml
+  name: ConvertBinder
+  fullName: System.Dynamic.ConvertBinder
+  type: Class
+  summary: Represents the convert dynamic operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.CreateInstanceBinder
+  isExternal: false
+  href: System.Dynamic.CreateInstanceBinder.yml
+  name: CreateInstanceBinder
+  fullName: System.Dynamic.CreateInstanceBinder
+  type: Class
+  summary: Represents the create dynamic operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.InvokeBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.InvokeBinder.yml
+  name: InvokeBinder
+  fullName: System.Dynamic.InvokeBinder
+  type: Class
+  summary: Represents the invoke dynamic operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.BinaryOperationBinder
+  isExternal: false
+  href: System.Dynamic.BinaryOperationBinder.yml
+  name: BinaryOperationBinder
+  fullName: System.Dynamic.BinaryOperationBinder
+  type: Class
+  summary: Represents the binary dynamic operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.UnaryOperationBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.UnaryOperationBinder.yml
+  name: UnaryOperationBinder
+  fullName: System.Dynamic.UnaryOperationBinder
+  type: Class
+  summary: Represents the unary dynamic operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.GetIndexBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.GetIndexBinder.yml
+  name: GetIndexBinder
+  fullName: System.Dynamic.GetIndexBinder
+  type: Class
+  summary: Represents the dynamic get index operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.SetIndexBinder
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.SetIndexBinder.yml
+  name: SetIndexBinder
+  fullName: System.Dynamic.SetIndexBinder
+  type: Class
+  summary: Represents the dynamic set index operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Dynamic.DeleteIndexBinder
+  isExternal: false
+  href: System.Dynamic.DeleteIndexBinder.yml
+  name: DeleteIndexBinder
+  fullName: System.Dynamic.DeleteIndexBinder
+  type: Class
+  summary: Represents the dynamic delete index operation at the call site, providing the binding semantic and the details about the operation.
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  name.vb: IEnumerable(Of String)
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: true
+  name: IEnumerable<T>
+  name.vb: IEnumerable(Of T)
+  fullName: System.Collections.Generic.IEnumerable<T>
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Expression
+  isExternal: true
+  name: Expression
+  fullName: Expression
+- uid: System.Dynamic.DynamicMetaObject
+  parent: System.Dynamic
+  isExternal: false
+  href: System.Dynamic.DynamicMetaObject.yml
+  name: DynamicMetaObject
+  fullName: System.Dynamic.DynamicMetaObject
+  type: Class
+  summary: Represents the dynamic binding and a binding logic of an object participating in the dynamic binding.

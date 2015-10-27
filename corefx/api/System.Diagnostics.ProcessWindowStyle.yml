@@ -1,0 +1,97 @@
+items:
+- uid: System.Diagnostics.ProcessWindowStyle
+  id: ProcessWindowStyle
+  parent: System.Diagnostics
+  children:
+  - System.Diagnostics.ProcessWindowStyle.Hidden
+  - System.Diagnostics.ProcessWindowStyle.Maximized
+  - System.Diagnostics.ProcessWindowStyle.Minimized
+  - System.Diagnostics.ProcessWindowStyle.Normal
+  href: System.Diagnostics.ProcessWindowStyle.yml
+  name: ProcessWindowStyle
+  fullName: System.Diagnostics.ProcessWindowStyle
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessWindowStyle.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessWindowStyle.cs
+    startLine: 9
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: public enum ProcessWindowStyle
+    content.vb: Public Enum ProcessWindowStyle
+- uid: System.Diagnostics.ProcessWindowStyle.Normal
+  id: Normal
+  parent: System.Diagnostics.ProcessWindowStyle
+  href: System.Diagnostics.ProcessWindowStyle.yml
+  name: Normal
+  fullName: System.Diagnostics.ProcessWindowStyle.Normal
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessWindowStyle.cs
+    startLine: 14
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: Normal = 0
+- uid: System.Diagnostics.ProcessWindowStyle.Hidden
+  id: Hidden
+  parent: System.Diagnostics.ProcessWindowStyle
+  href: System.Diagnostics.ProcessWindowStyle.yml
+  name: Hidden
+  fullName: System.Diagnostics.ProcessWindowStyle.Hidden
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessWindowStyle.cs
+    startLine: 19
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: Hidden = 1
+- uid: System.Diagnostics.ProcessWindowStyle.Minimized
+  id: Minimized
+  parent: System.Diagnostics.ProcessWindowStyle
+  href: System.Diagnostics.ProcessWindowStyle.yml
+  name: Minimized
+  fullName: System.Diagnostics.ProcessWindowStyle.Minimized
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessWindowStyle.cs
+    startLine: 24
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: Minimized = 2
+- uid: System.Diagnostics.ProcessWindowStyle.Maximized
+  id: Maximized
+  parent: System.Diagnostics.ProcessWindowStyle
+  href: System.Diagnostics.ProcessWindowStyle.yml
+  name: Maximized
+  fullName: System.Diagnostics.ProcessWindowStyle.Maximized
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Diagnostics.Process/src/System/Diagnostics/ProcessWindowStyle.cs
+    startLine: 29
+  assemblies:
+  - System.Diagnostics.Process
+  namespace: System.Diagnostics
+  syntax:
+    content: Maximized = 3
+references:
+- uid: System.Diagnostics
+  isExternal: false
+  name: System.Diagnostics
+  fullName: System.Diagnostics
+  type: Namespace

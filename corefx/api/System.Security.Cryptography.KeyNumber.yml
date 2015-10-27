@@ -1,0 +1,63 @@
+items:
+- uid: System.Security.Cryptography.KeyNumber
+  id: KeyNumber
+  parent: System.Security.Cryptography
+  children:
+  - System.Security.Cryptography.KeyNumber.Exchange
+  - System.Security.Cryptography.KeyNumber.Signature
+  href: System.Security.Cryptography.KeyNumber.yml
+  name: KeyNumber
+  fullName: System.Security.Cryptography.KeyNumber
+  type: Enum
+  source:
+    remote: &o0
+      path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/KeyNumber.cs
+      branch: master
+      repo: https://github.com/chenkennt/corefx.git
+      key: 66d90a88
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/KeyNumber.cs
+    startLine: 9
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public enum KeyNumber
+    content.vb: Public Enum KeyNumber
+- uid: System.Security.Cryptography.KeyNumber.Exchange
+  id: Exchange
+  parent: System.Security.Cryptography.KeyNumber
+  href: System.Security.Cryptography.KeyNumber.yml
+  name: Exchange
+  fullName: System.Security.Cryptography.KeyNumber.Exchange
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/KeyNumber.cs
+    startLine: 12
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: Exchange = 1
+- uid: System.Security.Cryptography.KeyNumber.Signature
+  id: Signature
+  parent: System.Security.Cryptography.KeyNumber
+  href: System.Security.Cryptography.KeyNumber.yml
+  name: Signature
+  fullName: System.Security.Cryptography.KeyNumber.Signature
+  type: Field
+  source:
+    remote: *o0
+    path: src/System.Security.Cryptography.RSA/src/System/Security/Cryptography/KeyNumber.cs
+    startLine: 13
+  assemblies:
+  - System.Security.Cryptography.RSA
+  namespace: System.Security.Cryptography
+  syntax:
+    content: Signature = 2
+references:
+- uid: System.Security.Cryptography
+  isExternal: false
+  name: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  type: Namespace

@@ -1,0 +1,228 @@
+items:
+- uid: System.Diagnostics.Tracing.EventOpcode
+  id: EventOpcode
+  parent: System.Diagnostics.Tracing
+  children:
+  - System.Diagnostics.Tracing.EventOpcode.DataCollectionStart
+  - System.Diagnostics.Tracing.EventOpcode.DataCollectionStop
+  - System.Diagnostics.Tracing.EventOpcode.Extension
+  - System.Diagnostics.Tracing.EventOpcode.Info
+  - System.Diagnostics.Tracing.EventOpcode.Receive
+  - System.Diagnostics.Tracing.EventOpcode.Reply
+  - System.Diagnostics.Tracing.EventOpcode.Resume
+  - System.Diagnostics.Tracing.EventOpcode.Send
+  - System.Diagnostics.Tracing.EventOpcode.Start
+  - System.Diagnostics.Tracing.EventOpcode.Stop
+  - System.Diagnostics.Tracing.EventOpcode.Suspend
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: EventOpcode
+  fullName: System.Diagnostics.Tracing.EventOpcode
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 68
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: EventOpcode. Custom values must be in the range from 11 through 239
+  syntax:
+    content: public enum EventOpcode
+    content.vb: Public Enum EventOpcode
+- uid: System.Diagnostics.Tracing.EventOpcode.Info
+  id: Info
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Info
+  fullName: System.Diagnostics.Tracing.EventOpcode.Info
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 75
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An informational event
+  syntax:
+    content: Info = 0
+- uid: System.Diagnostics.Tracing.EventOpcode.Start
+  id: Start
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Start
+  fullName: System.Diagnostics.Tracing.EventOpcode.Start
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 79
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An activity start event
+  syntax:
+    content: Start = 1
+- uid: System.Diagnostics.Tracing.EventOpcode.Stop
+  id: Stop
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Stop
+  fullName: System.Diagnostics.Tracing.EventOpcode.Stop
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 83
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An activity end event
+  syntax:
+    content: Stop = 2
+- uid: System.Diagnostics.Tracing.EventOpcode.DataCollectionStart
+  id: DataCollectionStart
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: DataCollectionStart
+  fullName: System.Diagnostics.Tracing.EventOpcode.DataCollectionStart
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 87
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: A trace collection start event
+  syntax:
+    content: DataCollectionStart = 3
+- uid: System.Diagnostics.Tracing.EventOpcode.DataCollectionStop
+  id: DataCollectionStop
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: DataCollectionStop
+  fullName: System.Diagnostics.Tracing.EventOpcode.DataCollectionStop
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 91
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: A trace collection end event
+  syntax:
+    content: DataCollectionStop = 4
+- uid: System.Diagnostics.Tracing.EventOpcode.Extension
+  id: Extension
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Extension
+  fullName: System.Diagnostics.Tracing.EventOpcode.Extension
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 95
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An extensional event
+  syntax:
+    content: Extension = 5
+- uid: System.Diagnostics.Tracing.EventOpcode.Reply
+  id: Reply
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Reply
+  fullName: System.Diagnostics.Tracing.EventOpcode.Reply
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 99
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: A reply event
+  syntax:
+    content: Reply = 6
+- uid: System.Diagnostics.Tracing.EventOpcode.Resume
+  id: Resume
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Resume
+  fullName: System.Diagnostics.Tracing.EventOpcode.Resume
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 103
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An event representing the activity resuming from the suspension
+  syntax:
+    content: Resume = 7
+- uid: System.Diagnostics.Tracing.EventOpcode.Suspend
+  id: Suspend
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Suspend
+  fullName: System.Diagnostics.Tracing.EventOpcode.Suspend
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 107
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An event representing the activity is suspended, pending another activity's completion
+  syntax:
+    content: Suspend = 8
+- uid: System.Diagnostics.Tracing.EventOpcode.Send
+  id: Send
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Send
+  fullName: System.Diagnostics.Tracing.EventOpcode.Send
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 111
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An event representing the activity is transferred to another component, and can continue to work
+  syntax:
+    content: Send = 9
+- uid: System.Diagnostics.Tracing.EventOpcode.Receive
+  id: Receive
+  parent: System.Diagnostics.Tracing.EventOpcode
+  href: System.Diagnostics.Tracing.EventOpcode.yml
+  name: Receive
+  fullName: System.Diagnostics.Tracing.EventOpcode.Receive
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/Eventing/Winmeta.cs
+    startLine: 115
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Tracing
+  summary: An event representing receiving an activity transfer from another component
+  syntax:
+    content: Receive = 240
+references:
+- uid: System.Diagnostics.Tracing
+  isExternal: false
+  name: System.Diagnostics.Tracing
+  fullName: System.Diagnostics.Tracing
+  type: Namespace

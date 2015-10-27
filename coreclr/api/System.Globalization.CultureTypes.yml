@@ -1,0 +1,165 @@
+items:
+- uid: System.Globalization.CultureTypes
+  id: CultureTypes
+  parent: System.Globalization
+  children:
+  - System.Globalization.CultureTypes.AllCultures
+  - System.Globalization.CultureTypes.FrameworkCultures
+  - System.Globalization.CultureTypes.InstalledWin32Cultures
+  - System.Globalization.CultureTypes.NeutralCultures
+  - System.Globalization.CultureTypes.ReplacementCultures
+  - System.Globalization.CultureTypes.SpecificCultures
+  - System.Globalization.CultureTypes.UserCustomCulture
+  - System.Globalization.CultureTypes.WindowsOnlyCultures
+  href: System.Globalization.CultureTypes.yml
+  name: CultureTypes
+  fullName: System.Globalization.CultureTypes
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 10
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: public enum CultureTypes
+    content.vb: Public Enum CultureTypes
+- uid: System.Globalization.CultureTypes.NeutralCultures
+  id: NeutralCultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: NeutralCultures
+  fullName: System.Globalization.CultureTypes.NeutralCultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 15
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: NeutralCultures = 1
+- uid: System.Globalization.CultureTypes.SpecificCultures
+  id: SpecificCultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: SpecificCultures
+  fullName: System.Globalization.CultureTypes.SpecificCultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 16
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: SpecificCultures = 2
+- uid: System.Globalization.CultureTypes.InstalledWin32Cultures
+  id: InstalledWin32Cultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: InstalledWin32Cultures
+  fullName: System.Globalization.CultureTypes.InstalledWin32Cultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: InstalledWin32Cultures = 4
+- uid: System.Globalization.CultureTypes.AllCultures
+  id: AllCultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: AllCultures
+  fullName: System.Globalization.CultureTypes.AllCultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: AllCultures = 7
+- uid: System.Globalization.CultureTypes.UserCustomCulture
+  id: UserCustomCulture
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: UserCustomCulture
+  fullName: System.Globalization.CultureTypes.UserCustomCulture
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 21
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: UserCustomCulture = 8
+- uid: System.Globalization.CultureTypes.ReplacementCultures
+  id: ReplacementCultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: ReplacementCultures
+  fullName: System.Globalization.CultureTypes.ReplacementCultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 22
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: ReplacementCultures = 16
+- uid: System.Globalization.CultureTypes.WindowsOnlyCultures
+  id: WindowsOnlyCultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: WindowsOnlyCultures
+  fullName: System.Globalization.CultureTypes.WindowsOnlyCultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 23
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: WindowsOnlyCultures = 32
+- uid: System.Globalization.CultureTypes.FrameworkCultures
+  id: FrameworkCultures
+  parent: System.Globalization.CultureTypes
+  href: System.Globalization.CultureTypes.yml
+  name: FrameworkCultures
+  fullName: System.Globalization.CultureTypes.FrameworkCultures
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Globalization/CultureTypes.cs
+    startLine: 25
+  assemblies:
+  - mscorlib
+  namespace: System.Globalization
+  syntax:
+    content: FrameworkCultures = 64
+references:
+- uid: System.Globalization
+  isExternal: false
+  name: System.Globalization
+  fullName: System.Globalization
+  type: Namespace

@@ -1,0 +1,80 @@
+items:
+- uid: System.Security.Principal.PrincipalPolicy
+  id: PrincipalPolicy
+  parent: System.Security.Principal
+  children:
+  - System.Security.Principal.PrincipalPolicy.NoPrincipal
+  - System.Security.Principal.PrincipalPolicy.UnauthenticatedPrincipal
+  - System.Security.Principal.PrincipalPolicy.WindowsPrincipal
+  href: System.Security.Principal.PrincipalPolicy.yml
+  name: PrincipalPolicy
+  fullName: System.Security.Principal.PrincipalPolicy
+  type: Enum
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Security/Principal/PrincipalPolicy.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Security/Principal/PrincipalPolicy.cs
+    startLine: 13
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: public enum PrincipalPolicy
+    content.vb: Public Enum PrincipalPolicy
+- uid: System.Security.Principal.PrincipalPolicy.UnauthenticatedPrincipal
+  id: UnauthenticatedPrincipal
+  parent: System.Security.Principal.PrincipalPolicy
+  href: System.Security.Principal.PrincipalPolicy.yml
+  name: UnauthenticatedPrincipal
+  fullName: System.Security.Principal.PrincipalPolicy.UnauthenticatedPrincipal
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Principal/PrincipalPolicy.cs
+    startLine: 17
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: UnauthenticatedPrincipal = 0
+- uid: System.Security.Principal.PrincipalPolicy.NoPrincipal
+  id: NoPrincipal
+  parent: System.Security.Principal.PrincipalPolicy
+  href: System.Security.Principal.PrincipalPolicy.yml
+  name: NoPrincipal
+  fullName: System.Security.Principal.PrincipalPolicy.NoPrincipal
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Principal/PrincipalPolicy.cs
+    startLine: 18
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: NoPrincipal = 1
+- uid: System.Security.Principal.PrincipalPolicy.WindowsPrincipal
+  id: WindowsPrincipal
+  parent: System.Security.Principal.PrincipalPolicy
+  href: System.Security.Principal.PrincipalPolicy.yml
+  name: WindowsPrincipal
+  fullName: System.Security.Principal.PrincipalPolicy.WindowsPrincipal
+  type: Field
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Security/Principal/PrincipalPolicy.cs
+    startLine: 19
+  assemblies:
+  - mscorlib
+  namespace: System.Security.Principal
+  syntax:
+    content: WindowsPrincipal = 2
+references:
+- uid: System.Security.Principal
+  isExternal: false
+  name: System.Security.Principal
+  fullName: System.Security.Principal
+  type: Namespace

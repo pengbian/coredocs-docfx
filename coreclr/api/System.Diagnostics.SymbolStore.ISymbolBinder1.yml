@@ -1,0 +1,82 @@
+items:
+- uid: System.Diagnostics.SymbolStore.ISymbolBinder1
+  id: ISymbolBinder1
+  parent: System.Diagnostics.SymbolStore
+  children:
+  - System.Diagnostics.SymbolStore.ISymbolBinder1.GetReader(System.IntPtr,System.String,System.String)
+  href: System.Diagnostics.SymbolStore.ISymbolBinder1.yml
+  name: ISymbolBinder1
+  fullName: System.Diagnostics.SymbolStore.ISymbolBinder1
+  type: Interface
+  source:
+    remote: &o0
+      path: src/mscorlib/src/System/Diagnostics/SymbolStore/ISymBinder.cs
+      branch: master
+      repo: https://github.com/chenkennt/coreclr.git
+      key: 6c42ef8d
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/ISymBinder.cs
+    startLine: 32
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: public interface ISymbolBinder1
+    content.vb: Public Interface ISymbolBinder1
+- uid: System.Diagnostics.SymbolStore.ISymbolBinder1.GetReader(System.IntPtr,System.String,System.String)
+  id: GetReader(System.IntPtr,System.String,System.String)
+  parent: System.Diagnostics.SymbolStore.ISymbolBinder1
+  href: System.Diagnostics.SymbolStore.ISymbolBinder1.yml
+  name: GetReader(IntPtr, String, String)
+  fullName: System.Diagnostics.SymbolStore.ISymbolBinder1.GetReader(System.IntPtr, System.String, System.String)
+  type: Method
+  source:
+    remote: *o0
+    path: src/mscorlib/src/System/Diagnostics/SymbolStore/ISymBinder.cs
+    startLine: 36
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.SymbolStore
+  syntax:
+    content: ISymbolReader GetReader(IntPtr importer, string filename, string searchPath)
+    content.vb: Function GetReader(importer As IntPtr, filename As String, searchPath As String) As ISymbolReader
+    parameters:
+    - id: importer
+      type: System.IntPtr
+    - id: filename
+      type: System.String
+    - id: searchPath
+      type: System.String
+    return:
+      type: System.Diagnostics.SymbolStore.ISymbolReader
+references:
+- uid: System.Diagnostics.SymbolStore
+  isExternal: false
+  name: System.Diagnostics.SymbolStore
+  fullName: System.Diagnostics.SymbolStore
+  type: Namespace
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  href: System.IntPtr.yml
+  name: IntPtr
+  fullName: System.IntPtr
+  type: Struct
+- uid: System.String
+  parent: System
+  isExternal: false
+  href: System.String.yml
+  name: String
+  fullName: System.String
+  type: Class
+- uid: System.Diagnostics.SymbolStore.ISymbolReader
+  parent: System.Diagnostics.SymbolStore
+  isExternal: false
+  href: System.Diagnostics.SymbolStore.ISymbolReader.yml
+  name: ISymbolReader
+  fullName: System.Diagnostics.SymbolStore.ISymbolReader
+  type: Interface
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+  type: Namespace
